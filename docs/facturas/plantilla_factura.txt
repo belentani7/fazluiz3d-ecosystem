@@ -1,0 +1,36 @@
+PLANTILLA DE FACTURA — ÁUREA 3D
+(Formato válido para autónomo/socio cooperativa en España — ajusta el
+membrete a tu situación fiscal real antes de emitir)
+
+[RAZÓN SOCIAL: Cooperativa / Thiago Luiz Pereira]
+NIF/CIF: ____________
+Dirección fiscal: ____________, Málaga
+Email: facturacion@aurea3d.es
+IBAN: ES__ ____ ____ ____ ____ ____
+
+FACTURA Nº: AUREA-2025-001
+FECHA DE EMISIÓN: __/__/2025
+
+DATOS DEL CLIENTE
+Nombre/Empresa: ______________________
+NIF/CIF: ______________________
+Dirección: ______________________
+
+CONCEPTO                         UNID.  PRECIO   TOTAL
+
+[Descripción de la pieza]          1     ___€     ___€
+  Material: ___________
+  Acabado: ___________
+Envío ( ___ )                      1     ___€     ___€
+
+BASE IMPONIBLE                                  ___€
+IVA (21%)                                       ___€
+
+TOTAL A COBRAR:                                 ___€
+
+Forma de pago: Transferencia bancaria
+Concepto de la transferencia: Factura AUREA-2025-001
+Plazo de pago: 30 días desde la fecha de emisión (salvo anticipo acordado)
+
+Nota: factura electrónica sujeta a la Ley 18/2022 (Ley Crea y Crece) para
+operaciones B2B en España.

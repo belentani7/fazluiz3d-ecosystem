@@ -1,0 +1,56 @@
+GUÍA DE DESPLIEGUE — FAZLUIZ3D
+================================
+Paso a paso para que la web funcione con backend real.
+
+PASO 1: CREAR CUENTA SUPABASE (gratis)
+- Ve a https://supabase.com
+- Crea proyecto gratuito
+- Copia la URL y la Service Role Key
+
+PASO 2: EJECUTAR SQL
+- En Supabase > SQL Editor, pega el contenido de backend-src/schema.sql
+- Ejecuta. Crea las tablas: leads, orders, invoices, products, cart_items
+
+PASO 3: CREAR CUENTA STRIPE (para pagos)
+- Ve a https://stripe.com
+- Crea cuenta, copia las API keys
+- Configura webhook endpoint: https://tu-dominio.com/api/webhooks/stripe
+
+PASO 4: CREAR CUENTA RESEND (para emails)
+- Ve a https://resend.com
+- Crea cuenta gratis (100 emails/día)
+- Verifica tu dominio
+
+PASO 5: DESPLEGAR EN VERCEL
+- Ve a https://vercel.com
+- Conecta tu repositorio de GitHub
+- Configura variables de entorno:
+  NEXT_PUBLIC_SUPABASE_URL=tu-url-supabase
+  SUPABASE_SERVICE_ROLE_KEY=tu-key
+  STRIPE_SECRET_KEY=tu-stripe-key
+  RESEND_API_KEY=tu-resend-key
+- Deploy automático
+
+PASO 6: CONFIGURAR DOMINIO
+- Compra dominio (fazluiz3d.es o similar)
+- En Vercel > Settings > Domains, añade tu dominio
+- En tu registrador DNS, apunta a Vercel
+
+COSTES TOTALES:
+- Vercel Hobby: $0/mes
+- Supabase Free: $0/mes
+- Stripe: solo comisión por venta (1.4% + 0.25€)
+- Resend Free: $0/mes (100 emails)
+- Dominio: ~10€/año
+TOTAL: ~10€/año + comisiones Stripe
+
+FORMULARIO → EMAIL AUTOMÁTICO:
+Cuando alguien rellena el formulario de contacto:
+1. Se guarda en tabla 'leads' de Supabase
+2. Se envía email de confirmación al cliente
+3. Se envía notificación al admin (Thiago)
+4. En el dashboard de Supabase puedes ver todos los leads
+
+DASHBOARD ADMIN (opcional):
+- En Supabase > Table Editor puedes ver leads, pedidos, facturas
+- Para un dashboard personalizado, crear página /admin con autenticación

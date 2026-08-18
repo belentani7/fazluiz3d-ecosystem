@@ -1,0 +1,142 @@
+[
+  {
+    "source": "hero-part_.png",
+    "asset": "assets/img/optimized/hero-part.webp",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 58858
+  },
+  {
+    "source": "material-carbon_.png",
+    "asset": "assets/img/optimized/material-carbon.webp",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 94942
+  },
+  {
+    "source": "material-nylon_.png",
+    "asset": "assets/img/optimized/material-nylon.webp",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 61692
+  },
+  {
+    "source": "material-resin_.png",
+    "asset": "assets/img/optimized/material-resin.webp",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 59726
+  },
+  {
+    "source": "project-architecture_.png",
+    "asset": "assets/img/optimized/project-architecture.webp",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 75748
+  },
+  {
+    "source": "project-industrial_.png",
+    "asset": "assets/img/optimized/project-industrial.webp",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 89236
+  },
+  {
+    "source": "project-nautical_.png",
+    "asset": "assets/img/optimized/project-nautical.webp",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 85762
+  },
+  {
+    "source": "workshop_.png",
+    "asset": "assets/img/optimized/workshop.webp",
+    "width": 1024,
+    "height": 1024,
+    "bytes": 49512
+  },
+  {
+    "source": "NoteGPT_Image_20260705034735_.png",
+    "asset": "assets/img/optimized/thiago-vision-01.webp",
+    "width": 941,
+    "height": 1672,
+    "bytes": 174392
+  },
+  {
+    "source": "file_000000002acc71f48d1f17e1ccfbedbb (1)_.png",
+    "asset": "assets/img/optimized/thiago-vision-02.webp",
+    "width": 941,
+    "height": 1672,
+    "bytes": 277280
+  },
+  {
+    "source": "file_000000003ff871f4bd1350c8a21bf873_.png",
+    "asset": "assets/img/optimized/thiago-vision-03.webp",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 279644
+  },
+  {
+    "source": "file_00000000624c71f4931ece02dd81d1a5 (1)_.png",
+    "asset": "assets/img/optimized/thiago-vision-04.webp",
+    "width": 1086,
+    "height": 1448,
+    "bytes": 270772
+  },
+  {
+    "source": "file_000000006edc71f4beef9bc806713971 (2)_.png",
+    "asset": "assets/img/optimized/thiago-vision-05.webp",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 282200
+  },
+  {
+    "source": "file_0000000079dc71f48827a007970a9c68_.png",
+    "asset": "assets/img/optimized/thiago-portrait.webp",
+    "width": 1536,
+    "height": 1536,
+    "bytes": 166900
+  },
+  {
+    "source": "file_00000000879471f4aa9c23310c17e98e_.png",
+    "asset": "assets/img/optimized/thiago-vision-06.webp",
+    "width": 1024,
+    "height": 1535,
+    "bytes": 298056
+  },
+  {
+    "source": "file_00000000984c71f4af7371d70aab9094_.png",
+    "asset": "assets/img/optimized/thiago-vision-07.webp",
+    "width": 1536,
+    "height": 1024,
+    "bytes": 361700
+  },
+  {
+    "source": "file_00000000bda071f497ff112234f2bdc4 (1)_.png",
+    "asset": "assets/img/optimized/thiago-vision-08.webp",
+    "width": 1024,
+    "height": 1536,
+    "bytes": 227440
+  },
+  {
+    "source": "file_00000000bffc71f48862b03d235795e2.jpg",
+    "asset": "assets/img/optimized/thiago-workspace.webp",
+    "width": 1086,
+    "height": 1448,
+    "bytes": 136376
+  },
+  {
+    "source": "file_00000000d1e871f49b2bb7cf22f14e14_.png",
+    "asset": "assets/img/optimized/thiago-vision-09.webp",
+    "width": 1024,
+    "height": 1535,
+    "bytes": 257634
+  },
+  {
+    "source": "file_00000000d3cc71f49fff159802b39f10 (1)_.png",
+    "asset": "assets/img/optimized/thiago-vision-10.webp",
+    "width": 941,
+    "height": 1672,
+    "bytes": 312860
+  }
+]

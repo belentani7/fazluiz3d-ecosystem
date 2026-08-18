@@ -1,0 +1,28 @@
+{
+  "name": "aurea3d-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "@googlemaps/google-maps-services-js": "^3.4.0",
+    "openai": "^4.55.0",
+    "resend": "^3.5.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "@types/node": "^20.14.0",
+    "@types/react": "^18.3.0"
+  },
+  "author": "Belentani",
+  "license": "MIT",
+  "description": "Optional API adapter with local JSON persistence by default; cloud integrations are opt-in.",
+  "_meta": "local-first-belentani"
+}

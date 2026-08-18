@@ -1,0 +1,27 @@
+{
+  "root": "/home/ubuntu/FAZLUIZ3D_FINAL",
+  "html_files": [
+    {
+      "file": "admin/dashboard.html",
+      "images": 0,
+      "scripts": 2
+    },
+    {
+      "file": "herramientas/tiberion.html",
+      "images": 0,
+      "scripts": 4
+    },
+    {
+      "file": "index.html",
+      "images": 20,
+      "scripts": 8
+    },
+    {
+      "file": "templates/factura.html",
+      "images": 0,
+      "scripts": 0
+    }
+  ],
+  "optimized_assets": 20,
+  "errors": []
+}

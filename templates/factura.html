@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8"><title>Factura — FAZLUIZ3D</title>
+<style>
+body{font:14px/1.5 'Segoe UI',Arial,sans-serif;color:#111;max-width:800px;margin:40px auto;padding:0 24px}
+h1{font-size:22px;letter-spacing:.12em;margin:0}
+.top{display:flex;justify-content:space-between;align-items:flex-start;border-bottom:3px solid #D4AF37;padding-bottom:16px;margin-bottom:24px}
+.meta{text-align:right;font-size:13px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-bottom:24px}
+.box{border:1px solid #ddd;padding:14px;border-radius:4px}
+.box h3{margin:0 0 8px;font-size:11px;letter-spacing:.15em;text-transform:uppercase;color:#B8941F}
+table{width:100%;border-collapse:collapse;margin-bottom:24px}
+th{background:#111;color:#fff;text-align:left;padding:9px 12px;font-size:12px}
+td{padding:9px 12px;border-bottom:1px solid #eee}
+td:last-child,th:last-child{text-align:right}
+.tot{margin-left:auto;width:280px}
+.tot div{display:flex;justify-content:space-between;padding:5px 0}
+.tot .final{border-top:2px solid #111;font-weight:700;font-size:17px;margin-top:6px;padding-top:10px}
+.foot{margin-top:36px;font-size:11px;color:#666;border-top:1px solid #eee;padding-top:12px}
+[contenteditable]:hover{background:#FFF8E1}
+@media print{.noprint{display:none}body{margin:0}}
+</style></head><body>
+<p class="noprint" style="background:#FFF8E1;padding:10px 14px;border-radius:4px">✏️ Haz clic en cualquier texto para editarlo · <b>Ctrl+P → Guardar como PDF</b> para emitirla. Si facturas vía cooperativa, pon aquí los datos de la cooperativa como emisor y tu nombre como profesional.</p>
+<div class="top">
+  <div><h1>FAZLUIZ3D</h1><div style="color:#B8941F;font-size:12px;letter-spacing:.2em">MANUFACTURA ADITIVA</div></div>
+  <div class="meta">
+    <b>FACTURA</b> Nº <span contenteditable>2026-001</span><br>
+    Fecha: <span contenteditable>__/__/2026</span><br>
+    Vencimiento: <span contenteditable>30 días</span>
+  </div>
+</div>
+<div class="grid">
+  <div class="box"><h3>Emisor</h3>
+    <span contenteditable>[Cooperativa / Nombre y apellidos]<br>CIF/NIF: [___]<br>[Dirección]<br>[CP, Ciudad]<br>Profesional: Thiago Luiz</span></div>
+  <div class="box"><h3>Cliente</h3>
+    <span contenteditable>[Razón social del cliente]<br>CIF/NIF: [___]<br>[Dirección]<br>[CP, Ciudad]</span></div>
+</div>
+<table>
+  <tr><th>Concepto</th><th>Cant.</th><th>Precio ud.</th><th>Importe</th></tr>
+  <tr><td contenteditable>Pieza personalizada — [material, tolerancia]</td><td contenteditable>1</td><td contenteditable>0,00 €</td><td contenteditable>0,00 €</td></tr>
+  <tr><td contenteditable>Diseño CAD / ingeniería inversa (horas)</td><td contenteditable>0</td><td contenteditable>0,00 €</td><td contenteditable>0,00 €</td></tr>
+  <tr><td contenteditable>Envío</td><td contenteditable>1</td><td contenteditable>0,00 €</td><td contenteditable>0,00 €</td></tr>
+</table>
+<div class="tot">
+  <div><span>Base imponible</span><span contenteditable>0,00 €</span></div>
+  <div><span>IVA 21%</span><span contenteditable>0,00 €</span></div>
+  <div><span>Retención IRPF (si aplica)</span><span contenteditable>−0,00 €</span></div>
+  <div class="final"><span>TOTAL</span><span contenteditable>0,00 €</span></div>
+</div>
+<div class="foot">
+  Pago por transferencia a <span contenteditable>IBAN ES__ ____ ____ ____ ____</span> · Concepto: nº de factura.<br>
+  <span contenteditable>Inscrita/facturada a través de [Cooperativa], en régimen de socio trabajador.</span>
+</div>
+</body></html>

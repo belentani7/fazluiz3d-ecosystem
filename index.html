@@ -1,0 +1,1991 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAZLUIZ3D · ATELIER — Artesanía Digital de Precisión | Málaga</title>
+<meta name="description" content="Atelier de manufactura aditiva en Málaga. Decoración exclusiva, piezas de repuesto personalizadas y componentes náuticos de precisión. De Rio a Málaga, capa sobre capa.">
+
+<style>
+@font-face{font-family:'Inter';font-style:normal;font-weight:300;src:url('assets/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Inter';font-style:normal;font-weight:400;src:url('assets/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Inter';font-style:normal;font-weight:500;src:url('assets/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Inter';font-style:normal;font-weight:600;src:url('assets/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:300;src:url('assets/fonts/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8lqxjPQ.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:400;src:url('assets/fonts/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxjPQ.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'JetBrains Mono';font-style:normal;font-weight:500;src:url('assets/fonts/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8-qxjPQ.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Syne';font-style:normal;font-weight:500;src:url('assets/fonts/8vIS7w4qzmVxsWxjBZRjr0FKM_0KuT6k.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Syne';font-style:normal;font-weight:600;src:url('assets/fonts/8vIS7w4qzmVxsWxjBZRjr0FKM_3mvj6k.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Syne';font-style:normal;font-weight:700;src:url('assets/fonts/8vIS7w4qzmVxsWxjBZRjr0FKM_3fvj6k.ttf') format('truetype');font-display:swap}
+@font-face{font-family:'Syne';font-style:normal;font-weight:800;src:url('assets/fonts/8vIS7w4qzmVxsWxjBZRjr0FKM_24vj6k.ttf') format('truetype');font-display:swap}
+
+:root{
+  --bg-0:#050505;--bg-1:#0A0A0C;--bg-2:#111116;--bg-3:#16161C;
+  --gold:#C9A96E;--gold-warm:#D4B078;--gold-soft:rgba(201,169,110,.18);
+  --gold-strong:rgba(201,169,110,.5);
+  --bronze:#8A734E;--copper:#A67C52;
+  --text-1:#F5F5F7;--text-2:#8E8E93;--text-3:#5A5A60;
+  --border:rgba(255,255,255,.05);--border-strong:rgba(255,255,255,.12);
+  --glass:rgba(255,255,255,.02);--glass-hover:rgba(255,255,255,.04);
+  --success:#4ADE80;--error:#F87171;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{background:var(--bg-0);color:var(--text-1);font-family:'Inter',system-ui,sans-serif;overflow-x:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;scroll-behavior:smooth}
+body{cursor:none}
+a{color:inherit;text-decoration:none}
+::selection{background:var(--gold);color:var(--bg-0)}
+::-webkit-scrollbar{width:6px}
+::-webkit-scrollbar-track{background:var(--bg-0)}
+::-webkit-scrollbar-thumb{background:var(--bronze);border-radius:3px}
+
+/* NOISE */
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:9995;
+  opacity:.035;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
+}
+
+/* ============ PRELOADER ============ */
+.preloader{
+  position:fixed;inset:0;background:var(--bg-0);z-index:10000;
+  display:flex;align-items:center;justify-content:center;flex-direction:column;gap:2rem;
+}
+.preloader-grid{
+  position:absolute;inset:0;
+  background-image:
+    linear-gradient(rgba(201,169,110,.04) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(201,169,110,.04) 1px,transparent 1px);
+  background-size:80px 80px;
+  mask-image:radial-gradient(ellipse 50% 50% at 50% 50%,black,transparent);
+}
+.preloader-inner{position:relative;z-index:2;text-align:center}
+.preloader-logo{
+  font-family:'Syne',sans-serif;font-weight:800;
+  font-size:clamp(2rem,5vw,3.2rem);letter-spacing:.35em;opacity:0;
+}
+.preloader-logo span{color:var(--gold)}
+.preloader-meta{
+  font-family:'JetBrains Mono',monospace;
+  font-size:.62rem;letter-spacing:.4em;
+  color:var(--text-3);text-transform:uppercase;
+  margin-top:1rem;opacity:0;
+}
+.preloader-3d{
+  width:180px;height:180px;margin:2rem auto 0;position:relative;
+  perspective:800px;opacity:0;
+}
+.printer-3d{
+  width:100%;height:100%;position:relative;
+  transform-style:preserve-3d;
+  animation:printerRotate 8s linear infinite;
+}
+@keyframes printerRotate{to{transform:rotateY(360deg)}}
+.printer-base{
+  position:absolute;bottom:10px;left:50%;transform:translateX(-50%);
+  width:120px;height:8px;background:var(--gold);
+  border-radius:2px;box-shadow:0 0 20px var(--gold-soft);
+}
+.printer-frame{
+  position:absolute;bottom:18px;left:50%;transform:translateX(-50%);
+  width:4px;height:90px;background:linear-gradient(to top,var(--gold),var(--bronze));
+}
+.printer-arm{
+  position:absolute;top:20px;left:50%;width:80px;height:4px;
+  background:var(--gold);transform-origin:left;
+  animation:armMove 3s ease-in-out infinite;
+}
+@keyframes armMove{
+  0%,100%{transform:translateX(-50%) translateX(-20px)}
+  50%{transform:translateX(-50%) translateX(20px)}
+}
+.printer-nozzle{
+  position:absolute;top:-2px;right:-2px;width:8px;height:8px;
+  background:var(--gold-warm);border-radius:50%;
+  box-shadow:0 0 12px var(--gold),0 0 24px var(--gold);
+  animation:nozzleGlow 1.5s ease-in-out infinite;
+}
+@keyframes nozzleGlow{
+  0%,100%{box-shadow:0 0 12px var(--gold),0 0 24px var(--gold)}
+  50%{box-shadow:0 0 20px var(--gold),0 0 40px var(--gold-warm)}
+}
+.printer-layers{
+  position:absolute;bottom:18px;left:50%;transform:translateX(-50%);
+  width:60px;display:flex;flex-direction:column-reverse;gap:1px;
+}
+.printer-layer{
+  height:2px;background:var(--gold);opacity:0;
+  transform-origin:center;
+}
+.preloader-bar{
+  width:280px;height:1px;background:var(--border);
+  position:relative;overflow:hidden;margin:1.5rem auto 0;opacity:0;
+}
+.preloader-fill{
+  position:absolute;inset:0;background:var(--gold);
+  transform:scaleX(0);transform-origin:left;
+}
+.preloader-percent{
+  position:absolute;bottom:-1.8rem;right:0;
+  font-family:'JetBrains Mono',monospace;
+  font-size:.65rem;color:var(--gold);letter-spacing:.1em;
+}
+
+/* ============ CURSOR ============ */
+.cursor,.cursor-ring{position:fixed;border-radius:50%;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);display:none}
+@media(hover:hover)and(pointer:fine){.cursor,.cursor-ring{display:block}body{cursor:none}}
+.cursor{width:6px;height:6px;background:var(--gold);mix-blend-mode:difference;transition:width .4s,height .4s,background .3s}
+.cursor-ring{width:42px;height:42px;border:1px solid var(--gold-soft);transition:width .5s cubic-bezier(.22,1,.36,1),height .5s cubic-bezier(.22,1,.36,1),border-color .3s,background .3s}
+.cursor.hover{width:0;height:0}
+.cursor-ring.hover{width:72px;height:72px;border-color:var(--gold);background:rgba(201,169,110,.04)}
+.cursor-ring.click{transform:translate(-50%,-50%) scale(.85)}
+.mouse-glow{
+  position:fixed;width:800px;height:800px;border-radius:50%;pointer-events:none;
+  background:radial-gradient(circle,rgba(201,169,110,.05) 0%,transparent 60%);
+  transform:translate(-50%,-50%);z-index:1;mix-blend-mode:screen;
+}
+
+/* ============ NAV ============ */
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;padding:1.25rem 2.5rem;
+  display:flex;align-items:center;justify-content:space-between;
+  background:rgba(5,5,5,.5);backdrop-filter:blur(20px) saturate(180%);
+  -webkit-backdrop-filter:blur(20px) saturate(180%);
+  border-bottom:1px solid transparent;
+  transform:translateY(-100%);
+  transition:transform .8s cubic-bezier(.22,1,.36,1),background .4s,border-color .4s;
+}
+.nav.visible{transform:translateY(0)}
+.nav.scrolled{background:rgba(5,5,5,.85);border-bottom-color:rgba(201,169,110,.1)}
+.nav-logo{font-family:'Syne',sans-serif;font-weight:800;font-size:.95rem;letter-spacing:.2em;display:flex;align-items:center;gap:.7rem}
+.nav-logo .dot{width:7px;height:7px;background:var(--gold);border-radius:50%;box-shadow:0 0 14px var(--gold);animation:breathe 4s ease-in-out infinite}
+@keyframes breathe{0%,100%{opacity:.5;transform:scale(.9)}50%{opacity:1;transform:scale(1.1)}}
+.nav-logo em{font-style:normal;color:var(--gold);font-weight:500;letter-spacing:.1em}
+.nav-menu{display:flex;gap:2.2rem;font-size:.7rem;letter-spacing:.25em;text-transform:uppercase;font-weight:500;color:var(--text-2)}
+.nav-menu a{transition:color .3s;position:relative;padding:.4rem 0}
+.nav-menu a:hover{color:var(--gold)}
+.nav-menu a::after{content:'';position:absolute;bottom:0;left:0;width:0;height:1px;background:var(--gold);transition:width .5s cubic-bezier(.22,1,.36,1)}
+.nav-menu a:hover::after{width:100%}
+.nav-right{display:flex;align-items:center;gap:1.2rem}
+.lang-switch{font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.2em;color:var(--text-3);padding:.4rem .7rem;border:1px solid var(--border);border-radius:2px;transition:all .3s;cursor:none;background:transparent}
+.lang-switch:hover{border-color:var(--gold);color:var(--gold)}
+.nav-cta{
+  padding:.7rem 1.5rem;border:1px solid var(--gold-soft);border-radius:2px;
+  font-size:.68rem;letter-spacing:.25em;text-transform:uppercase;
+  background:rgba(201,169,110,.03);backdrop-filter:blur(10px);
+  transition:all .4s cubic-bezier(.22,1,.36,1);font-weight:500;
+  position:relative;overflow:hidden;
+}
+.nav-cta::before{content:'';position:absolute;inset:0;background:var(--gold);transform:translateY(101%);transition:transform .5s cubic-bezier(.22,1,.36,1);z-index:-1}
+.nav-cta:hover{color:var(--bg-0);border-color:var(--gold)}
+.nav-cta:hover::before{transform:translateY(0)}
+.nav-toggle{display:none;background:none;border:none;color:var(--text-1);cursor:none;padding:.5rem}
+@media(max-width:900px){
+  .nav{padding:1rem 1.25rem}
+  .nav-menu{display:none}
+  .nav-toggle{display:block}
+}
+
+/* ============ HERO ============ */
+.hero{
+  min-height:100vh;position:relative;
+  display:flex;align-items:center;
+  padding:6rem 2.5rem 4rem;overflow:hidden;
+}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg::before{
+  content:'';position:absolute;inset:0;
+  background:
+    radial-gradient(ellipse 70% 50% at 20% 30%,rgba(201,169,110,.1),transparent 60%),
+    radial-gradient(ellipse 50% 40% at 85% 75%,rgba(166,124,82,.08),transparent 60%),
+    linear-gradient(180deg,var(--bg-0) 0%,#08080e 50%,var(--bg-0) 100%);
+}
+.hero-grid{
+  position:absolute;inset:0;
+  background-image:
+    linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);
+  background-size:80px 80px;
+  mask-image:radial-gradient(ellipse 70% 70% at 50% 50%,black,transparent);
+}
+.hero-orb{position:absolute;border-radius:50%;pointer-events:none;filter:blur(80px)}
+.hero-orb-1{width:650px;height:650px;background:radial-gradient(circle,rgba(201,169,110,.18),transparent 70%);top:-10%;right:-15%}
+.hero-orb-2{width:450px;height:450px;background:radial-gradient(circle,rgba(166,124,82,.1),transparent 70%);bottom:-20%;left:-10%}
+
+.hero-content{position:relative;z-index:2;max-width:1400px;width:100%;margin:0 auto;display:grid;grid-template-columns:1.2fr 1fr;gap:4rem;align-items:center}
+.hero-text{position:relative;z-index:3}
+.hero-tag{
+  display:inline-flex;align-items:center;gap:.9rem;
+  padding:.55rem 1.2rem;border:1px solid var(--border-strong);border-radius:100px;
+  background:var(--glass);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.3em;
+  text-transform:uppercase;color:var(--text-2);margin-bottom:2.5rem;
+  opacity:0;transform:translateY(20px);
+}
+.hero-tag .pulse{width:6px;height:6px;background:var(--gold);border-radius:50%;position:relative}
+.hero-tag .pulse::after{content:'';position:absolute;inset:-4px;border-radius:50%;background:var(--gold);opacity:.5;animation:pulse 2.2s ease-out infinite}
+@keyframes pulse{0%{transform:scale(1);opacity:.5}100%{transform:scale(3);opacity:0}}
+.hero-location{
+  font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.3em;
+  color:var(--text-3);text-transform:uppercase;margin-bottom:1.5rem;
+  opacity:0;transform:translateY(20px);display:flex;align-items:center;gap:.8rem;
+}
+.hero-location::before{content:'';width:30px;height:1px;background:var(--gold)}
+
+.hero h1{
+  font-family:'Syne',sans-serif;font-weight:800;
+  font-size:clamp(2.8rem,7vw,6.5rem);line-height:.92;letter-spacing:-.03em;
+  margin-bottom:2.5rem;
+}
+.hero h1 .word{display:inline-block;overflow:hidden;vertical-align:top;padding-right:.12em}
+.hero h1 .word-inner{display:inline-block;transform:translateY(110%)}
+.hero h1 em{
+  font-style:normal;
+  background:linear-gradient(135deg,var(--gold-warm) 0%,var(--copper) 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+
+.hero-sub{
+  max-width:520px;font-size:1.1rem;line-height:1.65;color:var(--text-2);
+  font-weight:300;margin-bottom:3rem;opacity:0;transform:translateY(20px);
+}
+.hero-sub strong{color:var(--text-1);font-weight:500}
+
+.hero-actions{display:flex;gap:1rem;flex-wrap:wrap;opacity:0;transform:translateY(20px)}
+
+.btn{
+  padding:1.2rem 2.4rem;font-size:.78rem;letter-spacing:.25em;
+  text-transform:uppercase;font-weight:500;border-radius:2px;
+  transition:color .5s cubic-bezier(.22,1,.36,1),border-color .5s cubic-bezier(.22,1,.36,1);
+  display:inline-flex;align-items:center;gap:.9rem;
+  position:relative;overflow:hidden;border:none;font-family:inherit;cursor:none;
+}
+.btn-primary{background:var(--gold);color:var(--bg-0);border:1px solid var(--gold)}
+.btn-ghost{background:var(--glass);backdrop-filter:blur(12px);color:var(--text-1);border:1px solid var(--border-strong)}
+.btn-magnetic{position:absolute;inset:0;transform:translateY(101%);transition:transform .6s cubic-bezier(.22,1,.36,1);z-index:-1}
+.btn-primary .btn-magnetic{background:var(--text-1)}
+.btn-ghost .btn-magnetic{background:var(--gold)}
+.btn:hover .btn-magnetic{transform:translateY(0)}
+.btn-primary:hover{color:var(--bg-0)}
+.btn-ghost:hover{color:var(--bg-0);border-color:var(--gold)}
+.btn .arrow{transition:transform .5s cubic-bezier(.22,1,.36,1);display:inline-block}
+.btn:hover .arrow{transform:translateX(5px)}
+
+/* ============ HERO 3D PRINTER ============ */
+.hero-printer{
+  position:relative;aspect-ratio:1;max-width:520px;margin-left:auto;
+  perspective:1200px;opacity:0;transform:translateY(30px);
+}
+.printer-scene{
+  width:100%;height:100%;position:relative;
+  transform-style:preserve-3d;
+  transform:rotateX(15deg) rotateY(-20deg);
+}
+.printer-frame-v{
+  position:absolute;width:6px;background:linear-gradient(to bottom,var(--gold) 0%,var(--bronze) 100%);
+  border-radius:2px;box-shadow:0 0 20px rgba(201,169,110,.3);
+}
+.printer-frame-v.left{left:10%;top:10%;height:70%}
+.printer-frame-v.right{right:10%;top:10%;height:70%}
+.printer-frame-h{
+  position:absolute;height:6px;background:linear-gradient(to right,var(--gold),var(--bronze));
+  border-radius:2px;box-shadow:0 0 20px rgba(201,169,110,.3);
+}
+.printer-frame-h.top{top:10%;left:10%;width:80%}
+.printer-bed{
+  position:absolute;bottom:15%;left:15%;width:70%;height:8%;
+  background:linear-gradient(135deg,#2a2a35,#16161C);
+  border:1px solid var(--gold-soft);
+  box-shadow:0 0 30px rgba(201,169,110,.2),inset 0 0 20px rgba(201,169,110,.05);
+}
+.printer-bed::before{
+  content:'';position:absolute;inset:4px;
+  background-image:
+    linear-gradient(rgba(201,169,110,.15) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(201,169,110,.15) 1px,transparent 1px);
+  background-size:12px 12px;
+  opacity:.5;
+}
+.printer-head{
+  position:absolute;top:20%;left:15%;width:50px;height:50px;
+  background:linear-gradient(135deg,var(--gold),var(--bronze));
+  border-radius:4px;z-index:5;
+  box-shadow:0 0 30px var(--gold-strong),0 8px 20px rgba(0,0,0,.5);
+}
+.printer-head::before{
+  content:'';position:absolute;bottom:-8px;left:50%;transform:translateX(-50%);
+  width:4px;height:8px;background:var(--gold-warm);
+  box-shadow:0 0 12px var(--gold);
+}
+.printer-head::after{
+  content:'';position:absolute;top:8px;left:8px;right:8px;height:2px;
+  background:var(--bg-0);border-radius:1px;
+  box-shadow:0 6px 0 var(--bg-0),0 12px 0 var(--bg-0),0 18px 0 var(--bg-0);
+}
+
+/* Layers being printed */
+.print-stack{
+  position:absolute;bottom:calc(15% + 8%);left:25%;
+  width:50%;display:flex;flex-direction:column-reverse;gap:2px;
+  z-index:3;
+}
+.print-layer{
+  height:3px;background:linear-gradient(90deg,var(--gold-warm),var(--gold),var(--gold-warm));
+  border-radius:1px;opacity:0;transform:scaleX(0);transform-origin:left;
+  box-shadow:0 0 8px var(--gold-soft);
+}
+
+/* Filament line from head to stack */
+.filament{
+  position:absolute;width:1px;background:linear-gradient(to bottom,var(--gold-warm),transparent);
+  transform-origin:top;z-index:4;opacity:0;
+  box-shadow:0 0 4px var(--gold);
+}
+
+/* Glow under active print */
+.print-glow{
+  position:absolute;width:80px;height:30px;
+  background:radial-gradient(ellipse,rgba(201,169,110,.5),transparent 70%);
+  filter:blur(8px);z-index:2;opacity:0;
+  left:25%;bottom:calc(15% + 8%);
+}
+
+/* Floating specs around printer */
+.printer-spec{
+  position:absolute;font-family:'JetBrains Mono',monospace;
+  font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;
+  color:var(--gold);opacity:0;
+  padding:.4rem .8rem;
+  border:1px solid var(--gold-soft);
+  background:rgba(5,5,5,.7);
+  backdrop-filter:blur(8px);
+  border-radius:2px;
+}
+.printer-spec::before{
+  content:'';position:absolute;width:20px;height:1px;background:var(--gold);
+  top:50%;
+}
+.printer-spec.s1{top:15%;right:-5%}
+.printer-spec.s1::before{left:-22px}
+.printer-spec.s2{bottom:25%;left:-8%}
+.printer-spec.s2::before{right:-22px}
+.printer-spec.s3{top:45%;right:-10%}
+.printer-spec.s3::before{left:-22px}
+
+/* Particles */
+.particles{position:absolute;inset:0;pointer-events:none;z-index:1;overflow:hidden}
+.particle{
+  position:absolute;width:2px;height:2px;background:var(--gold);
+  border-radius:50%;box-shadow:0 0 6px var(--gold);
+  opacity:0;
+}
+
+/* HERO METRICS */
+.hero-metrics{
+  position:absolute;bottom:3rem;left:2.5rem;right:2.5rem;
+  display:flex;justify-content:space-between;gap:2rem;
+  border-top:1px solid var(--border);padding-top:2rem;z-index:2;
+  opacity:0;transform:translateY(30px);
+}
+.metric{flex:1}
+.metric-value{font-family:'Syne',sans-serif;font-weight:700;font-size:clamp(1.5rem,2.5vw,2.2rem);color:var(--text-1);display:flex;align-items:baseline;gap:.25rem}
+.metric-value .unit{font-size:.5em;color:var(--gold);font-weight:500}
+.metric-label{font-family:'JetBrains Mono',monospace;font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;color:var(--text-3);margin-top:.5rem}
+@media(max-width:768px){
+  .hero-metrics{position:static;margin-top:4rem;flex-wrap:wrap;gap:1.5rem}
+  .metric{min-width:45%}
+}
+
+.hero-scroll{
+  position:absolute;bottom:3rem;right:2.5rem;
+  font-family:'JetBrains Mono',monospace;font-size:.62rem;letter-spacing:.3em;
+  text-transform:uppercase;color:var(--text-3);
+  writing-mode:vertical-rl;z-index:2;opacity:0;
+  display:flex;align-items:center;gap:1.2rem;
+}
+.hero-scroll::after{
+  content:'';width:1px;height:50px;
+  background:linear-gradient(to bottom,var(--gold),transparent);
+  animation:scrollLine 2.5s ease-in-out infinite;
+}
+@keyframes scrollLine{0%,100%{opacity:.3;transform:scaleY(.5)}50%{opacity:1;transform:scaleY(1)}}
+
+@media(max-width:900px){
+  .hero-content{grid-template-columns:1fr;gap:3rem}
+  .hero-printer{margin:0 auto;max-width:360px}
+  .printer-spec{display:none}
+}
+
+/* ============ SECTIONS ============ */
+section{padding:6.5rem 2.5rem;position:relative}
+.container{max-width:1400px;margin:0 auto}
+.section-label{
+  font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.4em;
+  text-transform:uppercase;color:var(--gold);margin-bottom:1.5rem;
+  display:flex;align-items:center;gap:1rem;
+}
+.section-label::before{content:'';width:40px;height:1px;background:var(--gold)}
+.section-title{
+  font-family:'Syne',sans-serif;font-weight:700;
+  font-size:clamp(2.2rem,5vw,4.8rem);line-height:1.02;letter-spacing:-.02em;
+  margin-bottom:1.5rem;max-width:950px;
+}
+.section-title em{font-style:normal;color:var(--gold)}
+.section-intro{font-size:1.1rem;line-height:1.7;color:var(--text-2);max-width:620px;font-weight:300;margin-bottom:3.25rem}
+
+/* ============ LIVE PRINT SHOWCASE ============ */
+.showcase{
+  padding:8rem 2.5rem;background:var(--bg-1);
+  border-top:1px solid var(--border);border-bottom:1px solid var(--border);
+  position:relative;overflow:hidden;
+}
+.showcase::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse 60% 50% at 70% 50%,rgba(201,169,110,.06),transparent 70%);
+  pointer-events:none;
+}
+.showcase-grid{
+  display:grid;grid-template-columns:1fr 1fr;gap:5rem;
+  max-width:1400px;margin:0 auto;align-items:center;
+  position:relative;z-index:2;
+}
+.showcase-visual{
+  position:relative;aspect-ratio:1;
+  display:flex;align-items:center;justify-content:center;
+}
+.showcase-stage{
+  position:relative;width:100%;height:100%;
+}
+/* Object being built: a vase using SVG paths */
+.showcase-svg{
+  width:100%;height:100%;overflow:visible;
+}
+.showcase-svg .path-outline{
+  fill:none;stroke:var(--gold-soft);stroke-width:1;
+  stroke-dasharray:2000;stroke-dashoffset:2000;
+}
+.showcase-svg .path-fill{
+  fill:url(#goldGrad);opacity:0;
+}
+.showcase-svg .layer-line{
+  fill:none;stroke:var(--gold);stroke-width:1.5;
+  stroke-dasharray:800;stroke-dashoffset:800;
+  filter:drop-shadow(0 0 4px var(--gold-soft));
+}
+.showcase-svg .nozzle-dot{
+  fill:var(--gold-warm);
+  filter:drop-shadow(0 0 8px var(--gold));
+  opacity:0;
+}
+.showcase-platform{
+  position:absolute;bottom:5%;left:10%;right:10%;height:2px;
+  background:linear-gradient(90deg,transparent,var(--gold-soft),transparent);
+}
+.showcase-progress{
+  position:absolute;bottom:-2rem;left:0;right:0;
+  font-family:'JetBrains Mono',monospace;font-size:.7rem;
+  letter-spacing:.2em;color:var(--text-3);
+  display:flex;justify-content:space-between;
+}
+.showcase-progress .pct{color:var(--gold);font-weight:500}
+
+.showcase-content h2{
+  font-family:'Syne',sans-serif;font-weight:700;
+  font-size:clamp(2.2rem,5vw,4rem);line-height:1.02;letter-spacing:-.02em;
+  margin-bottom:1.5rem;
+}
+.showcase-content h2 em{font-style:normal;color:var(--gold)}
+.showcase-content .lead{font-size:1.1rem;line-height:1.7;color:var(--text-1);font-weight:400;margin-bottom:1.5rem}
+.showcase-content p{font-size:.95rem;line-height:1.75;color:var(--text-2);font-weight:300;margin-bottom:2rem}
+.showcase-stats{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin-top:2rem}
+.s-stat{padding:1.2rem;background:var(--glass);border:1px solid var(--border);border-top:1px solid var(--gold-soft);border-radius:2px;text-align:center}
+.s-stat .v{font-family:'Syne',sans-serif;font-weight:800;font-size:1.8rem;color:var(--gold);display:block;margin-bottom:.3rem}
+.s-stat .l{font-family:'JetBrains Mono',monospace;font-size:.58rem;letter-spacing:.2em;color:var(--text-3);text-transform:uppercase}
+@media(max-width:900px){
+  .showcase-grid{grid-template-columns:1fr;gap:3rem}
+  .showcase-visual{max-width:400px;margin:0 auto}
+}
+
+/* ============ COLECCIONES ============ */
+.collections{background:var(--bg-1);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.col-grid{display:flex;flex-direction:column;gap:1.5rem}
+.col-card{
+  display:grid;grid-template-columns:80px 1fr 1fr auto;gap:3rem;align-items:center;
+  padding:3rem;background:var(--glass);backdrop-filter:blur(24px);
+  -webkit-backdrop-filter:blur(24px);
+  border:1px solid var(--border);border-top:1px solid var(--gold-soft);
+  border-radius:2px;position:relative;
+  transition:all .6s cubic-bezier(.22,1,.36,1);
+  box-shadow:inset 0 1px 1px rgba(255,255,255,.03),0 10px 40px rgba(0,0,0,.4);
+  overflow:hidden;transform-style:preserve-3d;will-change:transform;
+}
+.col-card::before{
+  content:'';position:absolute;top:0;left:0;width:0;height:1px;
+  background:linear-gradient(90deg,var(--gold),transparent);
+  transition:width 1s cubic-bezier(.22,1,.36,1);
+}
+.col-card::after{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(600px circle at var(--mx,50%) var(--my,50%),rgba(201,169,110,.08),transparent 40%);
+  opacity:0;transition:opacity .5s;pointer-events:none;
+}
+.col-card:hover{background:var(--glass-hover);border-color:var(--gold-soft);transform:translateX(8px)}
+.col-card:hover::before{width:100%}
+.col-card:hover::after{opacity:1}
+.col-num{font-family:'Syne',sans-serif;font-weight:800;font-size:3rem;line-height:1;color:transparent;-webkit-text-stroke:1px var(--gold-soft)}
+.col-content h3{font-family:'Syne',sans-serif;font-weight:700;font-size:clamp(1.4rem,2vw,1.8rem);margin-bottom:.4rem;letter-spacing:-.01em}
+.col-kicker{font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.3em;color:var(--gold);text-transform:uppercase;margin-bottom:1rem}
+.col-content p{font-size:.92rem;line-height:1.65;color:var(--text-2);font-weight:300}
+.col-specs{display:flex;flex-direction:column;gap:.6rem;padding:1.2rem 1.5rem;background:rgba(0,0,0,.3);border:1px solid var(--border);border-radius:2px;min-width:200px}
+.col-spec{display:flex;justify-content:space-between;font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.05em}
+.col-spec .label{color:var(--text-3);text-transform:uppercase}
+.col-spec .val{color:var(--gold)}
+.col-link{display:inline-flex;align-items:center;gap:.6rem;font-family:'JetBrains Mono',monospace;font-size:.7rem;letter-spacing:.25em;text-transform:uppercase;color:var(--gold);transition:gap .4s}
+.col-link:hover{gap:1.2rem}
+@media(max-width:900px){
+  .col-card{grid-template-columns:1fr;gap:1.5rem;padding:2rem}
+  .col-num{font-size:2.2rem}
+  .col-specs{min-width:auto}
+}
+
+/* ============ HISTORIA ============ */
+.story{padding:6.5rem 2.5rem;position:relative;overflow:hidden}
+.story::before{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse 60% 60% at 30% 40%,rgba(201,169,110,.06),transparent 70%);
+  pointer-events:none;
+}
+  .story-head{text-align:center;margin-bottom:5rem;position:relative;z-index:2}
+.story-head .section-label{justify-content:center}
+.story-head .section-title{margin:0 auto 1.5rem}
+.story-head .section-intro{margin:0 auto}
+.story-line{
+  position:absolute;left:50%;top:25rem;bottom:5rem;width:1px;
+  background:var(--border);transform:translateX(-50%);
+}
+.story-line-fill{
+  position:absolute;top:0;left:0;width:100%;height:0;
+  background:linear-gradient(180deg,var(--gold),transparent);
+}
+.timeline{position:relative;z-index:2;display:flex;flex-direction:column;gap:8rem}
+.tl-item{display:grid;grid-template-columns:1fr 80px 1fr;gap:3rem;align-items:center}
+.tl-item:nth-child(even) .tl-content{grid-column:3}
+.tl-item:nth-child(even) .tl-spacer{grid-column:1}
+.tl-marker{grid-column:2;display:flex;align-items:center;justify-content:center;position:relative}
+.tl-marker-inner{
+  width:60px;height:60px;border-radius:50%;background:var(--bg-1);
+  border:1px solid var(--gold-soft);
+  display:flex;align-items:center;justify-content:center;
+  font-family:'Syne',sans-serif;font-weight:800;font-size:1.3rem;color:var(--gold);
+  position:relative;z-index:2;transition:all .6s;
+}
+.tl-item:hover .tl-marker-inner{background:var(--gold);color:var(--bg-0);box-shadow:0 0 30px var(--gold-soft)}
+.tl-marker::before{
+  content:'';position:absolute;width:100px;height:100px;border-radius:50%;
+  border:1px solid var(--gold-soft);opacity:.3;
+  animation:markerPulse 3s ease-out infinite;
+}
+@keyframes markerPulse{0%{transform:scale(.6);opacity:.5}100%{transform:scale(1.5);opacity:0}}
+.tl-content{
+  padding:2.5rem;background:var(--glass);backdrop-filter:blur(24px);
+  -webkit-backdrop-filter:blur(24px);
+  border:1px solid var(--border);border-top:1px solid var(--gold-soft);
+  border-radius:2px;box-shadow:inset 0 1px 1px rgba(255,255,255,.03),0 10px 40px rgba(0,0,0,.4);
+  transition:all .6s;
+}
+.tl-content:hover{border-color:var(--gold-soft);transform:translateY(-4px)}
+.tl-kicker{
+  font-family:'JetBrains Mono',monospace;font-size:.62rem;letter-spacing:.3em;
+  color:var(--gold);text-transform:uppercase;margin-bottom:1rem;
+  display:flex;align-items:center;gap:.8rem;
+}
+.tl-kicker .city{color:var(--text-2)}
+.tl-content h3{font-family:'Syne',sans-serif;font-weight:700;font-size:1.8rem;margin-bottom:.5rem;letter-spacing:-.01em}
+.tl-content h4{font-family:'Inter',sans-serif;font-weight:400;font-size:.95rem;color:var(--text-2);font-style:italic;margin-bottom:1.2rem}
+.tl-content p{font-size:.9rem;line-height:1.75;color:var(--text-2);font-weight:300}
+.tl-content p strong{color:var(--text-1);font-weight:500}
+.tl-identity{
+  margin-top:8rem;display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:1rem;max-width:1100px;margin-left:auto;margin-right:auto;
+}
+.id-chip{
+  padding:1.5rem;background:var(--glass);backdrop-filter:blur(20px);
+  border:1px solid var(--border);border-top:1px solid var(--gold-soft);
+  border-radius:2px;transition:all .5s;
+}
+.id-chip:hover{border-color:var(--gold-soft);transform:translateY(-3px)}
+.id-chip .k{font-family:'JetBrains Mono',monospace;font-size:.6rem;letter-spacing:.3em;color:var(--gold);text-transform:uppercase;margin-bottom:.6rem}
+.id-chip .v{font-family:'Syne',sans-serif;font-weight:600;font-size:.95rem;line-height:1.4}
+@media(max-width:900px){
+  .story-line{left:2rem}
+  .tl-item{grid-template-columns:60px 1fr;gap:1.5rem}
+  .tl-marker{grid-column:1}
+  .tl-item .tl-content,.tl-item:nth-child(even) .tl-content{grid-column:2}
+  .tl-item .tl-spacer,.tl-item:nth-child(even) .tl-spacer{display:none}
+  .tl-marker::before{width:70px;height:70px}
+}
+
+/* ============ EDUCACIÓN / SLICING ============ */
+.education{padding:6.5rem 2.5rem}
+.edu-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.2rem}
+.edu-card{
+  padding:2.5rem;background:var(--glass);backdrop-filter:blur(24px);
+  -webkit-backdrop-filter:blur(24px);
+  border:1px solid var(--border);border-top:1px solid var(--gold-soft);
+  border-radius:2px;position:relative;overflow:hidden;
+  transition:all .6s cubic-bezier(.22,1,.36,1);
+}
+.edu-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent);
+  transform:scaleX(0);transition:transform 1s cubic-bezier(.22,1,.36,1);
+}
+.edu-card:hover{border-color:var(--gold-soft);transform:translateY(-5px)}
+.edu-card:hover::before{transform:scaleX(1)}
+.edu-num{font-family:'Syne',sans-serif;font-weight:800;font-size:3rem;line-height:1;color:transparent;-webkit-text-stroke:1px var(--gold-soft);margin-bottom:1.5rem}
+.edu-card h3{font-family:'Syne',sans-serif;font-weight:700;font-size:1.2rem;margin-bottom:.8rem;letter-spacing:-.01em}
+.edu-card p{font-size:.85rem;line-height:1.7;color:var(--text-2);font-weight:300}
+/* Animated slicing lines inside cards */
+.edu-card .slice-lines{
+  position:absolute;inset:0;pointer-events:none;opacity:0;
+  transition:opacity .6s;
+}
+.edu-card:hover .slice-lines{opacity:1}
+.edu-card .slice-lines::before,
+.edu-card .slice-lines::after{
+  content:'';position:absolute;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,var(--gold-soft),transparent);
+  animation:sliceScan 3s ease-in-out infinite;
+}
+.edu-card .slice-lines::before{top:30%}
+.edu-card .slice-lines::after{top:60%;animation-delay:1s}
+@keyframes sliceScan{
+  0%,100%{opacity:0;transform:translateX(-20%)}
+  50%{opacity:1;transform:translateX(0)}
+}
+
+/* ============ HORIZONTAL SCROLL (PROCESO) ============ */
+.process{padding:8rem 0;overflow:hidden}
+.process .container{padding:0 2.5rem;margin-bottom:4rem}
+.process-track{display:flex;gap:2rem;padding:0 2.5rem;width:max-content;will-change:transform}
+.process-panel{
+  width:82vw;max-width:950px;height:72vh;min-height:520px;flex-shrink:0;
+  display:grid;grid-template-columns:1fr 1fr;gap:3.5rem;padding:3.5rem;
+  background:var(--glass);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);
+  border:1px solid var(--border);border-top:1px solid var(--gold-soft);
+  border-radius:2px;position:relative;overflow:hidden;
+  box-shadow:inset 0 1px 1px rgba(255,255,255,.03),0 20px 60px rgba(0,0,0,.5);
+}
+.process-panel::after{
+  content:'';position:absolute;inset:0;
+  background:radial-gradient(ellipse 60% 60% at 80% 100%,rgba(201,169,110,.05),transparent 60%);
+  pointer-events:none;
+}
+.process-num{font-family:'Syne',sans-serif;font-weight:800;font-size:clamp(5rem,10vw,9rem);line-height:1;color:transparent;-webkit-text-stroke:1px var(--gold-soft);margin-bottom:2rem}
+.process-panel h3{font-family:'Syne',sans-serif;font-weight:700;font-size:clamp(1.6rem,2.5vw,2.2rem);margin-bottom:1.2rem;letter-spacing:-.01em}
+.process-panel p{font-size:.95rem;line-height:1.75;color:var(--text-2);font-weight:300;margin-bottom:2.5rem}
+.process-tech{display:flex;flex-wrap:wrap;gap:.5rem}
+.process-tech span{font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.12em;padding:.45rem .9rem;background:rgba(201,169,110,.04);border:1px solid var(--gold-soft);color:var(--gold);border-radius:2px}
+.process-visual{
+  position:relative;display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(135deg,var(--bg-2),var(--bg-0));
+  border:1px solid var(--border);border-radius:2px;overflow:hidden;
+}
+.process-visual svg{width:70%;height:70%;color:var(--gold);opacity:.85;fill:none;stroke:currentColor;stroke-width:.5}
+.process-visual::before{
+  content:'';position:absolute;inset:0;
+  background-image:
+    linear-gradient(rgba(201,169,110,.05) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(201,169,110,.05) 1px,transparent 1px);
+  background-size:30px 30px;
+}
+.process-progress{max-width:1400px;margin:3rem auto 0;padding:0 2.5rem}
+.process-progress-bar{height:1px;background:var(--border);position:relative;overflow:hidden}
+.process-progress-fill{position:absolute;inset:0;background:linear-gradient(90deg,var(--gold),var(--bronze));transform:scaleX(0);transform-origin:left}
+@media(max-width:900px){
+  .process-panel{grid-template-columns:1fr;height:auto;width:92vw;padding:2rem}
+  .process-visual{min-height:220px}
+  .process-num{font-size:5rem}
+  .process-track{flex-direction:column;width:100%;padding:0 1.25rem}
+  .process-panel{width:100%}
+}
+
+/* ============ MATERIALES ============ */
+.materials{background:var(--bg-1);border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.mat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1.25rem}
+.mat-card{padding:2rem;background:var(--glass);backdrop-filter:blur(20px);-webkit-backdrop-filter:blur(20px);border:1px solid var(--border);border-radius:2px;position:relative;transition:all .6s cubic-bezier(.22,1,.36,1);overflow:hidden}
+.mat-card::before{
+  content:'';position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent);
+  transform:scaleX(0);transition:transform .8s cubic-bezier(.22,1,.36,1);
+}
+.mat-card:hover{border-color:var(--gold-soft);transform:translateY(-5px);background:var(--glass-hover)}
+.mat-card:hover::before{transform:scaleX(1)}
+.mat-head{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:1.5rem}
+.mat-name{font-family:'Syne',sans-serif;font-weight:700;font-size:1.4rem}
+.mat-code{font-family:'JetBrains Mono',monospace;font-size:.65rem;color:var(--gold);letter-spacing:.12em;padding:.2rem .6rem;background:rgba(201,169,110,.06);border:1px solid var(--gold-soft);border-radius:2px}
+.mat-desc{font-size:.85rem;line-height:1.65;color:var(--text-2);font-weight:300;margin-bottom:1.5rem;min-height:55px}
+.mat-props{display:flex;flex-direction:column;gap:.8rem;padding-top:1.3rem;border-top:1px solid var(--border)}
+.mat-prop{display:flex;justify-content:space-between;font-size:.72rem}
+.mat-prop .k{color:var(--text-3);font-family:'JetBrains Mono',monospace;letter-spacing:.05em;text-transform:uppercase;font-size:.62rem}
+.mat-prop .v{color:var(--text-1);font-family:'JetBrains Mono',monospace}
+.mat-bar{margin-top:.5rem;height:2px;background:var(--border);position:relative;overflow:hidden}
+.mat-bar-fill{position:absolute;inset:0;background:linear-gradient(90deg,var(--gold),var(--bronze));transform:scaleX(0);transform-origin:left;transition:transform 1.2s cubic-bezier(.22,1,.36,1)}
+.mat-card.in-view .mat-bar-fill{transform:scaleX(var(--fill,0))}
+
+/* ============ SECTORES ============ */
+.sectors-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.5rem}
+.sector{
+  padding:4rem 3rem;background:var(--glass);backdrop-filter:blur(24px);
+  -webkit-backdrop-filter:blur(24px);
+  border:1px solid var(--border);border-radius:2px;position:relative;
+  overflow:hidden;min-height:520px;display:flex;flex-direction:column;
+  justify-content:space-between;transition:all .6s cubic-bezier(.22,1,.36,1);
+}
+.sector::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 70% 70% at 100% 0%,rgba(201,169,110,.08),transparent 60%);opacity:0;transition:opacity .6s}
+.sector::after{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);transform:scaleX(0);transition:transform 1s cubic-bezier(.22,1,.36,1)}
+.sector:hover::before{opacity:1}
+.sector:hover::after{transform:scaleX(1)}
+.sector:hover{border-color:var(--gold-soft);transform:translateY(-5px)}
+.sector-label{font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.4em;text-transform:uppercase;color:var(--gold);margin-bottom:1.5rem}
+.sector h3{font-family:'Syne',sans-serif;font-weight:700;font-size:clamp(1.8rem,3vw,3rem);line-height:1.02;margin-bottom:1.2rem;letter-spacing:-.01em}
+.sector p{font-size:.95rem;line-height:1.75;color:var(--text-2);font-weight:300;margin-bottom:2rem;max-width:460px}
+.sector-list{list-style:none;display:flex;flex-direction:column;gap:.7rem;margin-bottom:2.5rem}
+.sector-list li{display:flex;align-items:center;gap:.8rem;font-size:.82rem;color:var(--text-2);font-family:'JetBrains Mono',monospace;letter-spacing:.05em}
+.sector-list li::before{content:'';width:18px;height:1px;background:var(--gold)}
+.sector-link{display:inline-flex;align-items:center;gap:.8rem;font-size:.72rem;letter-spacing:.3em;text-transform:uppercase;font-weight:500;color:var(--gold);transition:gap .5s cubic-bezier(.22,1,.36,1)}
+.sector-link:hover{gap:1.4rem}
+@media(max-width:900px){.sectors-grid{grid-template-columns:1fr}}
+
+/* ============ MÉTRICAS ============ */
+.metrics{padding:6.5rem 2.5rem;background:var(--bg-1);border-top:1px solid var(--border);border-bottom:1px solid var(--border);text-align:center;position:relative;overflow:hidden}
+.metrics::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 50% at 50% 50%,rgba(201,169,110,.06),transparent 70%);pointer-events:none}
+.metrics-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:3rem;max-width:1200px;margin:0 auto;position:relative;z-index:2}
+.big-metric .value{
+  font-family:'Syne',sans-serif;font-weight:800;
+  font-size:clamp(3rem,7vw,5.8rem);line-height:1;
+  background:linear-gradient(180deg,var(--text-1) 0%,var(--text-3) 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  margin-bottom:1rem;display:flex;align-items:baseline;justify-content:center;gap:.3rem;
+}
+.big-metric .value sup{font-size:.35em;color:var(--gold)}
+.big-metric .label{font-family:'JetBrains Mono',monospace;font-size:.68rem;letter-spacing:.3em;text-transform:uppercase;color:var(--text-2)}
+
+/* ============ CONTACTO ============ */
+.contact{padding:7rem 2.5rem;text-align:center;position:relative;overflow:hidden}
+.contact::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 50% 50% at 50% 50%,rgba(201,169,110,.08),transparent 70%)}
+.contact-content{position:relative;z-index:2;max-width:900px;margin:0 auto}
+.contact h2{font-family:'Syne',sans-serif;font-weight:700;font-size:clamp(2.5rem,6vw,5.8rem);line-height:.98;letter-spacing:-.02em;margin-bottom:2rem}
+.contact h2 em{font-style:normal;color:var(--gold)}
+.contact p{font-size:1.15rem;line-height:1.7;color:var(--text-2);font-weight:300;margin-bottom:3.5rem;max-width:580px;margin-left:auto;margin-right:auto}
+.cta-form{display:grid;grid-template-columns:1fr 1fr 1fr;gap:1.5rem;max-width:780px;margin:0 auto;text-align:left}
+.form-field{position:relative}
+.form-field.full{grid-column:1/-1}
+.form-field.span-2{grid-column:span 2}
+.form-field label{font-family:'JetBrains Mono',monospace;font-size:.62rem;letter-spacing:.3em;text-transform:uppercase;color:var(--text-3);margin-bottom:.7rem;display:block;transition:color .4s}
+.form-field input,.form-field textarea,.form-field select{
+  width:100%;background:transparent;border:none;border-bottom:1px solid var(--border-strong);
+  padding:.9rem 0;color:var(--text-1);font-family:'Inter',sans-serif;font-size:.95rem;
+  transition:border-color .5s cubic-bezier(.22,1,.36,1);font-weight:400;cursor:none;
+}
+.form-field input:focus,.form-field textarea:focus,.form-field select:focus{outline:none;border-bottom-color:var(--gold)}
+.form-field:focus-within label{color:var(--gold)}
+.form-field textarea{resize:none;min-height:90px}
+.form-field select option{background:var(--bg-1);color:var(--text-1)}
+.form-field .line{position:absolute;bottom:0;left:0;height:1px;width:0;background:var(--gold);transition:width .6s cubic-bezier(.22,1,.36,1)}
+.form-field:focus-within .line{width:100%}
+.form-field .error{font-family:'JetBrains Mono',monospace;font-size:.62rem;color:var(--error);letter-spacing:.1em;margin-top:.4rem;display:none}
+.form-field.has-error .error{display:block}
+.form-field.has-error input,.form-field.has-error textarea,.form-field.has-error select{border-bottom-color:var(--error)}
+.form-submit{grid-column:1/-1;text-align:center;margin-top:1.5rem}
+.form-submit button{min-width:300px}
+.form-submit button:disabled{opacity:.5;cursor:not-allowed}
+.form-submit button .spinner{width:14px;height:14px;border:2px solid transparent;border-top-color:currentColor;border-radius:50%;animation:spin 1s linear infinite;display:none}
+.form-submit button.loading .spinner{display:inline-block}
+.form-submit button.loading .label{opacity:.5}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media(max-width:700px){
+  .cta-form{grid-template-columns:1fr}
+  .form-field.span-2{grid-column:1}
+}
+
+/* ============ FOOTER ============ */
+footer{padding:4rem 2.5rem 2rem;background:#000;border-top:1px solid var(--border)}
+.foot-grid{max-width:1400px;margin:0 auto;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:3rem;padding-bottom:3rem;border-bottom:1px solid var(--border)}
+.foot-brand .logo{font-family:'Syne',sans-serif;font-weight:800;font-size:1.25rem;letter-spacing:.2em;margin-bottom:1rem;display:flex;align-items:center;gap:.7rem}
+.foot-brand .logo .dot{width:7px;height:7px;background:var(--gold);border-radius:50%;animation:breathe 4s ease-in-out infinite}
+.foot-brand .logo em{font-style:normal;color:var(--gold);font-weight:500}
+.foot-brand p{font-size:.85rem;line-height:1.7;color:var(--text-3);max-width:320px;font-weight:300}
+.foot-col h4{font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.3em;text-transform:uppercase;color:var(--text-2);margin-bottom:1.3rem}
+.foot-col ul{list-style:none;display:flex;flex-direction:column;gap:.8rem}
+.foot-col a{font-size:.85rem;color:var(--text-3);transition:color .3s}
+.foot-col a:hover{color:var(--gold)}
+.foot-bottom{max-width:1400px;margin:0 auto;padding-top:2rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:1rem}
+.foot-copy,.foot-legal{font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.15em;color:var(--text-3)}
+.foot-secret{color:#0a0a0a;transition:color 1s;font-size:.65rem;letter-spacing:.15em;font-family:'JetBrains Mono',monospace}
+.foot-secret:hover{color:var(--gold)}
+@media(max-width:900px){.foot-grid{grid-template-columns:1fr 1fr;gap:2rem}}
+
+/* ============ MODAL ============ */
+.modal{position:fixed;inset:0;background:rgba(5,5,5,.92);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);z-index:10001;display:none;align-items:center;justify-content:center;padding:2rem;opacity:0;transition:opacity .5s cubic-bezier(.22,1,.36,1)}
+.modal.active{display:flex;opacity:1}
+.modal-box{
+  max-width:680px;width:100%;max-height:85vh;overflow-y:auto;
+  padding:3.5rem;background:var(--bg-1);
+  border:1px solid var(--gold-soft);border-top:1px solid var(--gold);
+  border-radius:2px;position:relative;
+  box-shadow:0 40px 80px rgba(0,0,0,.6),inset 0 1px 1px rgba(255,255,255,.04);
+  transform:translateY(30px) scale(.98);
+  transition:transform .6s cubic-bezier(.22,1,.36,1);
+}
+.modal.active .modal-box{transform:translateY(0) scale(1)}
+.modal-close{position:absolute;top:1.5rem;right:1.5rem;width:36px;height:36px;border:1px solid var(--border-strong);background:var(--glass);color:var(--text-2);font-size:1rem;display:flex;align-items:center;justify-content:center;border-radius:2px;transition:all .3s;cursor:none}
+.modal-close:hover{border-color:var(--gold);color:var(--gold)}
+.modal-label{font-family:'JetBrains Mono',monospace;font-size:.65rem;letter-spacing:.4em;text-transform:uppercase;color:var(--gold);margin-bottom:1.5rem;display:flex;align-items:center;gap:.8rem}
+.modal-label::before{content:'';width:8px;height:8px;background:var(--gold);border-radius:50%;box-shadow:0 0 12px var(--gold)}
+.modal h2{font-family:'Syne',sans-serif;font-weight:700;font-size:2rem;margin-bottom:2rem;line-height:1.15}
+.modal p{font-size:1rem;line-height:1.85;color:var(--text-2);font-weight:300;margin-bottom:1.5rem}
+.modal p strong{color:var(--text-1);font-weight:500}
+.modal-sign{margin-top:2.5rem;padding-top:2rem;border-top:1px solid var(--border);font-family:'Syne',sans-serif;font-style:italic;color:var(--gold);font-size:1.05rem}
+
+/* ============ TOAST ============ */
+.toast-container{position:fixed;bottom:2rem;right:2rem;z-index:10002;display:flex;flex-direction:column;gap:.8rem;pointer-events:none}
+.toast{padding:1rem 1.5rem;background:var(--bg-2);border:1px solid var(--border-strong);border-left:3px solid var(--gold);border-radius:2px;font-family:'JetBrains Mono',monospace;font-size:.72rem;letter-spacing:.1em;color:var(--text-1);min-width:260px;backdrop-filter:blur(20px);box-shadow:0 20px 60px rgba(0,0,0,.5);transform:translateX(120%);transition:transform .6s cubic-bezier(.22,1,.36,1);pointer-events:auto}
+.toast.show{transform:translateX(0)}
+.toast.success{border-left-color:var(--success)}
+.toast.error{border-left-color:var(--error)}
+.toast .title{font-weight:500;margin-bottom:.3rem;letter-spacing:.15em;text-transform:uppercase;font-size:.65rem}
+.toast.success .title{color:var(--success)}
+.toast.error .title{color:var(--error)}
+.toast .msg{color:var(--text-2);font-weight:400}
+
+.reveal{opacity:0;transform:translateY(40px)}
+
+@media(max-width:768px){
+  section{padding:6rem 1.25rem}
+  .hero{padding:6rem 1.25rem 4rem}
+  .story,.showcase,.machine{padding:7rem 1.25rem}
+  .process-panel{padding:2rem}
+  .sector{padding:2.5rem 1.5rem}
+  .contact{padding:7rem 1.25rem}
+  .hero-scroll{display:none}
+  .toast-container{left:1rem;right:1rem;bottom:1rem}
+  .toast{min-width:auto;width:100%}
+}
+
+.print-reveal{position:relative;clip-path:inset(100% 0 0 0)}
+.print-reveal.printed{clip-path:inset(0 0 0 0);transition:clip-path 1.4s cubic-bezier(.22,1,.36,1)}
+.print-reveal::after{content:'';position:absolute;left:0;right:0;top:0;height:2px;background:var(--gold);box-shadow:0 0 18px var(--gold);opacity:0;pointer-events:none}
+.print-reveal.printed::after{animation:scanline 1.4s cubic-bezier(.22,1,.36,1) forwards}
+@keyframes scanline{0%{top:100%;opacity:1}90%{opacity:1}100%{top:0;opacity:0}}
+@media (prefers-reduced-motion:reduce){.print-reveal{clip-path:none}.print-reveal::after{display:none}}
+
+/* ============ BELENTANI FINAL UX/UI LAYER ============ */
+:root{--ease-out:cubic-bezier(.23,1,.32,1);--ease-in-out:cubic-bezier(.77,0,.175,1)}
+html{scroll-padding-top:78px}
+body{cursor:auto;overscroll-behavior-x:none}
+a,button,input,select,textarea{cursor:pointer}
+.container{width:min(100%,1400px);padding-left:clamp(1rem,4vw,2.5rem);padding-right:clamp(1rem,4vw,2.5rem)}
+.hero{min-height:min(100vh,920px);padding:7.25rem 2.5rem 3.5rem}
+.story{padding:clamp(4.5rem,6vw,6.5rem) 2.5rem}
+.story-head{margin-bottom:clamp(2.5rem,4vw,4.5rem)}
+.timeline{gap:clamp(3rem,5vw,5rem)}
+.education{padding:clamp(4.5rem,6vw,6.5rem) 2.5rem}
+.process{padding:clamp(4.5rem,6vw,6.5rem) 0}
+.process .container{margin-bottom:2.5rem}
+.process-panel{height:min(72vh,680px);min-height:420px}
+.metrics{padding:clamp(4rem,6vw,5.5rem) 2.5rem}
+.metrics-grid{gap:1.5rem}
+.contact{padding:clamp(4.5rem,6vw,6.5rem) 2.5rem}
+.section-intro{margin-bottom:clamp(2rem,4vw,3.5rem)}
+.founder-visuals,.gallery-section{padding:clamp(4rem,6vw,6rem) 2.5rem;background:var(--bg-0);border-bottom:1px solid var(--border)}
+.founder-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(260px,380px);gap:clamp(2rem,5vw,5rem);align-items:end;margin-bottom:2.5rem}
+.founder-copy .section-intro{margin-bottom:1.5rem}
+.founder-meta{display:flex;flex-wrap:wrap;gap:.6rem;font:500 .62rem/1.2 'JetBrains Mono',monospace;letter-spacing:.14em;color:var(--gold);text-transform:uppercase}
+.founder-meta span{border:1px solid var(--gold-soft);padding:.55rem .75rem;background:rgba(201,169,110,.03)}
+.founder-portrait{margin:0;border:1px solid var(--gold-soft);border-radius:4px;overflow:hidden;background:var(--bg-2);box-shadow:0 18px 50px rgba(0,0,0,.35)}
+.founder-portrait img{width:100%;display:block;aspect-ratio:4/5;object-fit:cover}
+.image-rail{display:grid;grid-template-columns:1fr 1.4fr;gap:1rem;max-width:980px;margin-left:auto}
+.image-tile{margin:0;border:1px solid var(--border);background:var(--bg-2);overflow:hidden}
+.image-tile img{display:block;width:100%;aspect-ratio:1.35;object-fit:cover;filter:saturate(.82) contrast(1.04);transition:transform .7s var(--ease-out),filter .4s}
+.image-tile-wide img{aspect-ratio:1.7}
+.image-tile:hover img{transform:scale(1.035);filter:saturate(1) contrast(1.05)}
+.image-tile figcaption{padding:.75rem 1rem;color:var(--text-2);font:500 .62rem/1.2 'JetBrains Mono',monospace;letter-spacing:.14em;text-transform:uppercase}
+.gallery-section .section-intro{max-width:720px}
+.gallery-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}
+.gallery-card{margin:0;min-width:0;background:var(--glass);border:1px solid var(--border);overflow:hidden;transition:border-color .35s var(--ease-out),transform .35s var(--ease-out)}
+.gallery-card-feature{grid-column:span 2;grid-row:span 2}
+.gallery-card img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;filter:saturate(.86) contrast(1.04);transition:transform .7s var(--ease-out),filter .4s}
+.gallery-card-feature img{aspect-ratio:1.5}
+.gallery-card figcaption{display:flex;flex-direction:column;gap:.3rem;padding:1rem 1.1rem;min-height:67px}
+.gallery-card figcaption strong{font:600 .88rem/1.2 'Syne',sans-serif;color:var(--text-1)}
+.gallery-card figcaption span{font:500 .6rem/1.2 'JetBrains Mono',monospace;letter-spacing:.12em;color:var(--text-3);text-transform:uppercase}
+.gallery-card:hover{border-color:var(--gold-soft);transform:translateY(-3px)}
+.gallery-card:hover img{transform:scale(1.04);filter:saturate(1) contrast(1.06)}
+.contact-tools{margin:0 auto 2.5rem;max-width:980px;text-align:left}
+.quote-widget{margin:0;padding:1.25rem;background:rgba(255,255,255,.025);border:1px solid var(--gold-soft);border-top:2px solid var(--gold);box-shadow:0 20px 55px rgba(0,0,0,.25)}
+.widget-head,.quote-result{display:flex;align-items:center;justify-content:space-between;gap:1rem}
+.widget-kicker,.widget-status{font:500 .62rem/1.2 'JetBrains Mono',monospace;letter-spacing:.16em;text-transform:uppercase}
+.widget-kicker{color:var(--gold)}.widget-status{color:var(--text-3)}
+.quote-fields{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:.75rem;margin:1.25rem 0}
+.quote-fields label{display:flex;flex-direction:column;gap:.45rem;color:var(--text-3);font:500 .62rem/1.2 'JetBrains Mono',monospace;letter-spacing:.1em;text-transform:uppercase}
+.quote-fields select{width:100%;padding:.75rem .65rem;color:var(--text-1);background:var(--bg-2);border:1px solid var(--border);font:400 .78rem/1.2 'Inter',sans-serif}
+.quote-fields select:focus{outline:2px solid var(--gold);outline-offset:2px}
+.quote-result{padding-top:1rem;border-top:1px solid var(--border)}
+.quote-result span{display:flex;flex-direction:column;gap:.3rem}.quote-result small{font:500 .62rem/1.2 'JetBrains Mono',monospace;color:var(--text-3)}
+.quote-result strong{font:700 1.8rem/1 'Syne',sans-serif;color:var(--gold)}
+.widget-action,.local-export{border:1px solid var(--gold);background:var(--gold);color:var(--bg-0);padding:.8rem 1rem;font:600 .66rem/1.2 'JetBrains Mono',monospace;letter-spacing:.1em;text-transform:uppercase;transition:transform .2s var(--ease-out),background .2s}
+.widget-action:hover,.local-export:hover{background:var(--gold-warm);transform:translateY(-2px)}
+.local-export{display:block;margin:1.25rem auto 0;background:transparent;color:var(--gold)}
+@media(max-width:900px){
+  .founder-grid{grid-template-columns:1fr;align-items:start}.founder-portrait{max-width:360px}.image-rail{margin-left:0}.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.gallery-card-feature{grid-column:span 2;grid-row:span 1}
+  .quote-fields{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:600px){
+  .hero{min-height:760px;padding:6.5rem 1.25rem 2.5rem}.story,.education,.metrics,.contact,.founder-visuals,.gallery-section{padding-left:1.25rem;padding-right:1.25rem}.image-rail,.gallery-grid{grid-template-columns:1fr}.gallery-card-feature{grid-column:span 1}.quote-fields{grid-template-columns:1fr}.widget-head,.quote-result{align-items:flex-start;flex-direction:column}.widget-action{width:100%}.quote-result strong{font-size:1.55rem}
+}
+@media(prefers-reduced-motion:reduce){.image-tile img,.gallery-card,.gallery-card img{transition:none}.image-tile:hover img,.gallery-card:hover img{transform:none}}
+</style>
+</head>
+<body>
+
+<!-- ============ PRELOADER ============ -->
+<div class="preloader" id="preloader">
+  <div class="preloader-grid"></div>
+  <div class="preloader-inner">
+    <div class="preloader-logo" id="plLogo">FAZ<span>LUIZ</span></div>
+    <div class="preloader-meta" id="plMeta">Initializing Atelier · Layer-by-layer · Málaga</div>
+    <div class="preloader-3d" id="pl3d">
+      <div class="printer-3d">
+        <div class="printer-base"></div>
+        <div class="printer-frame"></div>
+        <div class="printer-arm">
+          <div class="printer-nozzle"></div>
+        </div>
+        <div class="printer-layers" id="plLayers"></div>
+      </div>
+    </div>
+    <div class="preloader-bar" id="plBar">
+      <div class="preloader-fill" id="plFill"></div>
+      <div class="preloader-percent" id="plPercent">0%</div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ CURSOR ============ -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+<div class="mouse-glow" id="mouseGlow"></div>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="nav-logo"><span class="dot"></span>FAZLUIZ<em>3D</em></div>
+  <div class="nav-menu">
+    <a href="#collections" data-hover>Colecciones</a>
+    <a href="#story" data-hover>Historia</a>
+    <a href="#materials" data-hover>Materiales</a>
+    <a href="#process" data-hover>Proceso</a>
+    <a href="#sectors" data-hover>Sectores</a>
+  </div>
+  <div class="nav-right">
+    <button class="lang-switch" data-hover id="langSwitch">ES / EN</button>
+    <a href="#contact" class="nav-cta" data-hover>Contactar</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="hero">
+  <div class="hero-bg"><img id="heroImg" src="assets/img/optimized/hero-part.webp" alt="" style="position:absolute;inset:-12% 0;width:100%;height:124%;object-fit:cover;opacity:.22;filter:saturate(.9) contrast(1.05)"></div>
+  <div class="hero-grid" id="heroGrid"></div>
+  <div class="hero-orb hero-orb-1" id="orb1"></div>
+  <div class="hero-orb hero-orb-2" id="orb2"></div>
+  <div class="particles" id="particles"></div>
+  
+  <div class="hero-content">
+    <div class="hero-text">
+      <div class="hero-tag"><span class="pulse"></span>Manufactura Aditiva · Málaga</div>
+      <div class="hero-location">De Rio a Málaga · Capa sobre capa</div>
+      
+      <h1 id="heroTitle">
+        <span class="word"><span class="word-inner">Artesanía</span></span>
+        <span class="word"><span class="word-inner"><em>Digital.</em></span></span><br>
+        <span class="word"><span class="word-inner">Precisión</span></span>
+        <span class="word"><span class="word-inner"><em>Absoluta.</em></span></span>
+      </h1>
+      
+      <p class="hero-sub">Decoración exclusiva, piezas de repuesto personalizadas y componentes náuticos de precisión. Fabricados con <strong>polímeros técnicos de alta resistencia</strong> en el corazón de Málaga.</p>
+      
+      <div class="hero-actions">
+        <a href="#collections" class="btn btn-primary" data-hover><span class="btn-magnetic"></span><span>Explorar Colección</span><span class="arrow">→</span></a>
+        <a href="#contact" class="btn btn-ghost" data-hover><span class="btn-magnetic"></span><span>Pieza Personalizada</span></a>
+      </div>
+    </div>
+    
+    <!-- 3D PRINTER VISUAL -->
+    <div class="hero-printer" id="heroPrinter">
+      <div class="printer-scene">
+        <div class="printer-frame-v left"></div>
+        <div class="printer-frame-v right"></div>
+        <div class="printer-frame-h top"></div>
+        <div class="printer-bed"></div>
+        <div class="print-glow" id="printGlow"></div>
+        <div class="print-stack" id="printStack"></div>
+        <div class="printer-head" id="printerHead"></div>
+        <div class="filament" id="filament"></div>
+      </div>
+      <div class="printer-spec s1">25μm LAYER</div>
+      <div class="printer-spec s2">±0.05mm</div>
+      <div class="printer-spec s3">ASA/PA12</div>
+    </div>
+  </div>
+  
+  <div class="hero-metrics" id="heroMetrics">
+    <div class="metric"><div class="metric-value"><span class="counter" data-count="24">0</span><span class="unit">h</span></div><div class="metric-label">Entrega urgente</div></div>
+    <div class="metric"><div class="metric-value"><span class="counter" data-count="50">0</span><span class="unit">μm</span></div><div class="metric-label">Resolución capa</div></div>
+    <div class="metric"><div class="metric-value">±0.05<span class="unit">mm</span></div><div class="metric-label">Tolerancia</div></div>
+    <div class="metric"><div class="metric-value"><span class="counter" data-count="12">0</span><span class="unit">+</span></div><div class="metric-label">Materiales</div></div>
+  </div>
+  
+  <div class="hero-scroll" id="heroScroll">Scroll to explore</div>
+</section>
+
+<!-- ============ LIVE PRINT SHOWCASE ============ -->
+<section class="showcase">
+  <div class="showcase-grid">
+    <div class="showcase-visual reveal">
+      <div class="showcase-stage">
+        <svg class="showcase-svg" viewBox="0 0 400 400" id="showcaseSvg">
+          <defs>
+            <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" stop-color="#D4B078" stop-opacity=".9"/>
+              <stop offset="100%" stop-color="#8A734E" stop-opacity=".7"/>
+            </linearGradient>
+            <filter id="glow"><feGaussianBlur stdDeviation="3"/></filter>
+          </defs>
+          <!-- Vase outline -->
+          <path class="path-outline" id="vaseOutline" d="M150 80 L150 100 Q120 120 110 180 Q105 220 115 260 Q130 300 160 320 L240 320 Q270 300 285 260 Q295 220 290 180 Q280 120 250 100 L250 80 Z"/>
+          <!-- Layer lines that will draw one by one -->
+          <g id="layerGroup">
+            <path class="layer-line" d="M148 90 Q200 85 252 90"/>
+            <path class="layer-line" d="M142 110 Q200 105 258 110"/>
+            <path class="layer-line" d="M132 130 Q200 125 268 130"/>
+            <path class="layer-line" d="M124 150 Q200 145 276 150"/>
+            <path class="layer-line" d="M118 170 Q200 165 282 170"/>
+            <path class="layer-line" d="M114 190 Q200 185 286 190"/>
+            <path class="layer-line" d="M112 210 Q200 205 288 210"/>
+            <path class="layer-line" d="M113 230 Q200 225 287 230"/>
+            <path class="layer-line" d="M117 250 Q200 245 283 250"/>
+            <path class="layer-line" d="M125 270 Q200 265 275 270"/>
+            <path class="layer-line" d="M138 290 Q200 285 262 290"/>
+            <path class="layer-line" d="M155 310 Q200 305 245 310"/>
+          </g>
+          <!-- Nozzle dot -->
+          <circle class="nozzle-dot" id="nozzleDot" r="6" cx="200" cy="90"/>
+          <!-- Fill reveal -->
+          <path class="path-fill" id="vaseFill" d="M150 80 L150 100 Q120 120 110 180 Q105 220 115 260 Q130 300 160 320 L240 320 Q270 300 285 260 Q295 220 290 180 Q280 120 250 100 L250 80 Z"/>
+        </svg>
+        <div class="showcase-platform"></div>
+        <div class="showcase-progress">
+          <span>SYS.PRINT_ACTIVE</span>
+          <span class="pct" id="showcasePct">0%</span>
+        </div>
+      </div>
+    </div>
+    <div class="showcase-content reveal">
+      <div class="section-label">La Máquina</div>
+      <h2>Capa sobre capa.<br><em>Solución sobre solución.</em></h2>
+      <p class="lead">FAZLUIZ no es una tienda. Es una máquina autoconsciente que aprende, se adapta y perfecciona cada pieza.</p>
+      <p>Cada pieza que fabricamos alimenta el sistema. Cada material que probamos, cada tolerancia que medimos, cada cliente que resolvemos — todo se convierte en datos que hacen a la máquina más inteligente.</p>
+      <p><strong style="color:var(--gold)">No fabricamos objetos. Fabricamos soluciones.</strong> Y cada solución nos hace más precisos, más rápidos, más vivos.</p>
+      <div class="showcase-stats">
+        <div class="s-stat"><span class="v">∞</span><span class="l">Aprendizaje</span></div>
+        <div class="s-stat"><span class="v">24/7</span><span class="l">Operación</span></div>
+        <div class="s-stat"><span class="v">100%</span><span class="l">Trazabilidad</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ COLECCIONES ============ -->
+<section class="collections" id="collections">
+  <div class="container">
+    <div class="section-label reveal">01 · Colecciones</div>
+    <h2 class="section-title reveal">Tres universos. Una misma <em>obsesión por el detalle.</em></h2>
+    <p class="section-intro reveal">Cada pieza es el resultado de un proceso que combina diseño paramétrico, materiales de grado industrial y un post-procesado artesanal que eleva el polímero a la categoría de <em style="color:var(--gold);font-style:italic">joya mecánica</em>.</p>
+    
+    <div class="col-grid">
+      <div class="col-card reveal" data-tilt>
+        <div class="col-num">01</div>
+        <div class="col-content">
+          <div class="col-kicker">Decoración 3D</div>
+          <h3>Esculturas & Objetos de Autor</h3>
+          <p>Piezas únicas de decoración diseñadas con geometrías imposibles para la manufactura tradicional. Cada objeto es una declaración de intenciones entre la tecnología y el arte.</p>
+        </div>
+        <div class="col-specs">
+          <div class="col-spec"><span class="label">Resolución</span><span class="val">25 μm</span></div>
+          <div class="col-spec"><span class="label">Acabado</span><span class="val">Resina Premium</span></div>
+        </div>
+        <a href="#contact" class="col-link" data-hover>Solicitar pieza <span>→</span></a>
+      </div>
+      
+      <div class="col-card reveal" data-tilt>
+        <div class="col-num">02</div>
+        <div class="col-content">
+          <div class="col-kicker">Piezas de Repuesto</div>
+          <h3>Ingeniería Inversa & Personalización</h3>
+          <p>Repuestos descatalogados, piezas rotas o imposibles de encontrar. Las escaneamos, rediseñamos y fabricamos con tolerancias de ±0.05mm en polímeros de grado industrial.</p>
+        </div>
+        <div class="col-specs">
+          <div class="col-spec"><span class="label">Tolerancia</span><span class="val">±0.05mm</span></div>
+          <div class="col-spec"><span class="label">Lead Time</span><span class="val">24-48h</span></div>
+        </div>
+        <a href="#contact" class="col-link" data-hover>Solicitar pieza <span>→</span></a>
+      </div>
+      
+      <div class="col-card reveal" data-tilt>
+        <div class="col-num">03</div>
+        <div class="col-content">
+          <div class="col-kicker">Náutica de Precisión</div>
+          <h3>Componentes para Yates & Marina</h3>
+          <p>Soportes de radar, cleats, pasamanos, piezas de cuadro de mandos. Fabricadas en ASA y PA12 resistentes a UV y salitre. Para que tu barco no pare.</p>
+        </div>
+        <div class="col-specs">
+          <div class="col-spec"><span class="label">Material</span><span class="val">ASA / PA12</span></div>
+          <div class="col-spec"><span class="label">UV Resist.</span><span class="val">Excelente</span></div>
+        </div>
+        <a href="#contact" class="col-link" data-hover>Solicitar pieza <span>→</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ HISTORIA ============ -->
+<section class="story" id="story">
+  <div class="story-head">
+    <div class="section-label reveal">La Historia</div>
+    <h2 class="section-title reveal">De Rio a <em>Málaga.</em></h2>
+    <p class="section-intro reveal">Thiago Luiz no nació en la industria tecnológica. La construyó, capa sobre capa, como una pieza impresa en 3D.</p>
+  </div>
+  
+  <div class="story-line"><div class="story-line-fill" id="storyFill"></div></div>
+  
+  <div class="timeline">
+    <div class="tl-item reveal">
+      <div class="tl-content">
+        <div class="tl-kicker">Origen <span class="city">· Brasil · Raíces Portuguesas</span></div>
+        <h3>Rio de Janeiro</h3>
+        <h4>Donde todo empezó.</h4>
+        <p>Nacido en Rio, con raíces portuguesas en la sangre, Thiago creció con <strong>una visión para los detalles y una imaginación creativa</strong> que no encajaba en ningún molde. Cada cosa que miraba, la veía diferente — no por lo que era, sino por lo que podría llegar a ser.</p>
+      <figure class="print-reveal" style="margin:1.2rem 0 0;border:1px solid var(--border);border-radius:2px;overflow:hidden;max-width:340px"><img src="assets/img/optimized/thiago-vision-01.webp" alt="Thiago Luiz" loading="lazy" style="width:100%;display:block;aspect-ratio:1;object-fit:cover"></figure>
+      </div>
+      <div class="tl-marker"><div class="tl-marker-inner">01</div></div>
+      <div class="tl-spacer"></div>
+    </div>
+    
+    <div class="tl-item reveal">
+      <div class="tl-spacer"></div>
+      <div class="tl-marker"><div class="tl-marker-inner">02</div></div>
+      <div class="tl-content">
+        <div class="tl-kicker">Resiliencia <span class="city">· Irlanda</span></div>
+        <h3>Dublín</h3>
+        <h4>El valor del trabajo duro.</h4>
+        <p>En Irlanda, trabajando en apps de delivery, aprendió lo que ningún libro enseña: <strong>el valor real del esfuerzo</strong>. Bajo la lluvia de Dublín, entregando pedidos, forjó la disciplina metódica que hoy define cada pieza que sale de su atelier.</p>
+      <figure class="print-reveal" style="margin:1.2rem 0 0;border:1px solid var(--border);border-radius:2px;overflow:hidden;max-width:340px"><img src="assets/img/optimized/thiago-vision-02.webp" alt="Thiago Luiz" loading="lazy" style="width:100%;display:block;aspect-ratio:1;object-fit:cover"></figure>
+      </div>
+    </div>
+    
+    <div class="tl-item reveal">
+      <div class="tl-content">
+        <div class="tl-kicker">Adaptación <span class="city">· España</span></div>
+        <h3>Barcelona</h3>
+        <h4>El despertar creativo.</h4>
+        <p>Barcelona fue la transformación. La energía creativa de la ciudad mediterránea despertó en él <strong>la vocación por el diseño y la tecnología</strong>. Aquí descubrió que la manufactura aditiva no era solo una herramienta — era un lenguaje para dar forma a lo que su imaginación siempre vio.</p>
+      <figure class="print-reveal" style="margin:1.2rem 0 0;border:1px solid var(--border);border-radius:2px;overflow:hidden;max-width:340px"><img src="assets/img/optimized/thiago-vision-03.webp" alt="Thiago Luiz" loading="lazy" style="width:100%;display:block;aspect-ratio:1;object-fit:cover"></figure>
+      </div>
+      <div class="tl-marker"><div class="tl-marker-inner">03</div></div>
+      <div class="tl-spacer"></div>
+    </div>
+    
+    <div class="tl-item reveal">
+      <div class="tl-spacer"></div>
+      <div class="tl-marker"><div class="tl-marker-inner">04</div></div>
+      <div class="tl-content">
+        <div class="tl-kicker">El Sueño <span class="city">· España · Costa del Sol</span></div>
+        <h3>Málaga</h3>
+        <h4>Donde el sueño toma forma.</h4>
+        <p>Málaga es el destino. Aquí, entre el puerto y los polígonos industriales, Thiago ha fundado <strong>FAZLUIZ — el proyecto de su vida</strong>. Una empresa que combina su vocación en ciberseguridad, su pulido estratégico y metódico, y su obsesión por el detalle. Integrado como socio en una cooperativa local y con impresoras alimentadas por energía solar.</p>
+      <figure class="print-reveal" style="margin:1.2rem 0 0;border:1px solid var(--border);border-radius:2px;overflow:hidden;max-width:340px"><img src="assets/img/optimized/thiago-vision-04.webp" alt="Thiago Luiz" loading="lazy" style="width:100%;display:block;aspect-ratio:1;object-fit:cover"></figure>
+      </div>
+    </div>
+  </div>
+  
+  <div class="tl-identity">
+    <div class="id-chip reveal"><div class="k">Nacimiento</div><div class="v">Rio de Janeiro · Brasil</div></div>
+    <div class="id-chip reveal"><div class="k">Raíces</div><div class="v">Portuguesas</div></div>
+    <div class="id-chip reveal"><div class="k">Vocación</div><div class="v">Ciberseguridad & Manufactura</div></div>
+    <div class="id-chip reveal"><div class="k">Método</div><div class="v">Estratégico · Metódico · Pulido</div></div>
+    <div class="id-chip reveal"><div class="k">Proyecto</div><div class="v">El sueño de su vida</div></div>
+  </div>
+  <figure class="print-reveal reveal" style="margin:2rem auto 0;max-width:900px;border:1px solid var(--border);border-radius:2px;overflow:hidden"><img src="assets/img/optimized/workshop.webp" alt="El taller" loading="lazy" style="width:100%;display:block"><figcaption style="padding:.8rem 1.2rem;font-size:.8rem;color:var(--text-2)">El taller. Donde las ideas toman forma.</figcaption></figure>
+</section>
+
+<!-- ============ EDUCACIÓN ============ -->
+<section class="education">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="section-label">Educación</div>
+      <h2 class="section-title">Cómo funciona la <em>manufactura aditiva.</em></h2>
+      <p class="section-intro">Un viaje visual a través de la tecnología que está redefiniendo la producción industrial.</p>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card reveal"><div class="slice-lines"></div><div class="edu-num">01</div><h3>Modelado Digital</h3><p>Todo empieza en el ordenador. Un modelo 3D se diseña en CAD (Fusion 360, SolidWorks) o se obtiene mediante escaneo 3D de una pieza existente. Es la ingeniería inversa: convertir lo físico en digital.</p></div>
+      <div class="edu-card reveal"><div class="slice-lines"></div><div class="edu-num">02</div><h3>Slicing & Preparación</h3><p>El modelo se 'corta' en capas microscópicas (25-50 micras). El software calcula la trayectoria exacta del extrusor, la temperatura, la velocidad y los soportes necesarios para cada capa.</p></div>
+      <div class="edu-card reveal"><div class="slice-lines"></div><div class="edu-num">03</div><h3>Extrusión Capa a Capa</h3><p>El filamento se calienta hasta su punto de fusión y se deposita con precisión micrométrica. Capa sobre capa, el objeto crece desde la base. Cada capa se funde con la anterior.</p></div>
+      <div class="edu-card reveal"><div class="slice-lines"></div><div class="edu-num">04</div><h3>Post-procesado & Control</h3><p>La pieza se lija, se cura bajo UV, se insertan roscas metálicas y se realiza el control dimensional final. La tolerancia garantizada es de ±0.05mm — la anchura de un cabello humano.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MATERIALES ============ -->
+<section class="materials" id="materials">
+  <div class="container">
+    <div class="section-label reveal">02 · Materiales</div>
+    <h2 class="section-title reveal">Polímeros técnicos para <em>exigencias reales.</em></h2>
+    <p class="section-intro reveal">Seleccionamos cada material en función de cargas mecánicas, exposición química, UV y temperatura de servicio.</p>
+    <div class="mat-grid">
+      <div class="mat-card reveal"><div class="mat-head"><img src="assets/img/optimized/material-nylon.webp" alt="PA12 Nylon" loading="lazy" class="print-reveal" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:2px;margin-bottom:1rem;display:block"><div class="mat-name">PA12 Nylon</div><div class="mat-code">SLS</div></div><p class="mat-desc">Alta resistencia mecánica y química. Engranajes, bisagras y piezas funcionales.</p><div class="mat-props"><div class="mat-prop"><span class="k">Tracción</span><span class="v">48 MPa</span></div><div class="mat-bar"><div class="mat-bar-fill" style="--fill:.85"></div></div><div class="mat-prop"><span class="k">Temp. máx</span><span class="v">175°C</span></div><div class="mat-bar"><div class="mat-bar-fill" style="--fill:.7"></div></div></div></div>
+      <div class="mat-card reveal"><div class="mat-head"><div class="mat-name">ASA</div><div class="mat-code">FDM</div></div><p class="mat-desc">Resistencia UV y salitre. El estándar para náutica y exterior.</p><div class="mat-props"><div class="mat-prop"><span class="k">UV Resist.</span><span class="v">Excelente</span></div><div class="mat-bar"><div class="mat-bar-fill" style="--fill:.95"></div></div><div class="mat-prop"><span class="k">Temp. máx</span><span class="v">95°C</span></div><div class="mat-bar"><div class="mat-bar-fill" style="--fill:.45"></div></div></div></div>
+      <div class="mat-card reveal"><div class="mat-head"><img src="assets/img/optimized/material-carbon.webp" alt="PETG-CF" loading="lazy" class="print-reveal" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:2px;margin-bottom:1rem;display:block"><div class="mat-name">PETG-CF</div><div class="mat-code">FDM</div></div><p class="mat-desc">Fibra de carbono para rigidez extrema y bajo peso.</p><div class="mat-props"><div class="mat-prop"><span class="k">Rigidez</span><span class="v">Muy alta</span></div><div class="mat-bar"><div class="mat-bar-fill" style="--fill:.9"></div></div><div class="mat-prop"><span class="k">Temp. máx</span><span class="v">85°C</span></div><div class="mat-bar"><div class="mat-bar-fill" style="--fill:.4"></div></div></div></div>
+      <div class="mat-card reveal"><div class="mat-head"><img src="assets/img/optimized/material-resin.webp" alt="Resina Técnica" loading="lazy" class="print-reveal" style="width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:2px;margin-bottom:1rem;display:block"><div class="mat-name">Resina Técnica</div><div class="mat-code">SLA</div></div><p class="mat-desc">Resolución 25μm. Prototipado estético y micro-piezas.</p><div class="mat-props"><div class="mat-prop"><span class="k">Resolución</span><span class="v">25 μm</span></div><div class="mat-bar"><div class="mat-bar-fill" style="--fill:1"></div></div><div class="mat-prop"><span class="k">Detalle</span><span class="v">Extremo</span></div><div class="mat-bar"><div class="mat-bar-fill" style="--fill:1"></div></div></div></div>
+      <div class="mat-card reveal"><div class="mat-head"><div class="mat-name">Policarbonato</div><div class="mat-code">FDM</div></div><p class="mat-desc">Transparencia y resistencia al impacto. Carcasas y viseras.</p><div class="mat-props"><div class="mat-prop"><span class="k">Impacto</span><span class="v">Muy alto</span></div><div class="mat-bar"><div class="mat-bar-fill" style="--fill:.9"></div></div><div class="mat-prop"><span class="k">Temp. máx</span><span class="v">140°C</span></div><div class="mat-bar"><div class="mat-bar-fill" style="--fill:.6"></div></div></div></div>
+      <div class="mat-card reveal"><div class="mat-head"><div class="mat-name">TPU 95A</div><div class="mat-code">FDM</div></div><p class="mat-desc">Flexible y elástico. Juntas, protecciones antivibración.</p><div class="mat-props"><div class="mat-prop"><span class="k">Elongación</span><span class="v">450%</span></div><div class="mat-bar"><div class="mat-bar-fill" style="--fill:.95"></div></div><div class="mat-prop"><span class="k">Shore</span><span class="v">95A</span></div><div class="mat-bar"><div class="mat-bar-fill" style="--fill:.7"></div></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROCESO (HORIZONTAL) ============ -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="section-label reveal">03 · Proceso</div>
+    <h2 class="section-title reveal">De tu idea a <em>tu pieza.</em></h2>
+    <p class="section-intro reveal">Un flujo de trabajo diseñado para quienes valoran la precisión tanto como la velocidad.</p>
+  </div>
+  <div class="process-track" id="processTrack">
+    <div class="process-panel"><div><div class="process-num">01</div><h3>Consultoría & DFAM</h3><p>Evaluamos tu pieza bajo criterios de Diseño para Manufactura Aditiva. Optimizamos geometría, orientación y soportes para maximizar resistencia y minimizar coste.</p><div class="process-tech"><span>DFAM</span><span>FEA</span><span>Topología</span></div></div><div class="process-visual"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40"/><circle cx="50" cy="50" r="30"/><circle cx="50" cy="50" r="20"/><circle cx="50" cy="50" r="10"/><line x1="10" y1="50" x2="90" y2="50"/><line x1="50" y1="10" x2="50" y2="90"/></svg></div></div>
+    <div class="process-panel"><div><div class="process-num">02</div><h3>CAD & Ingeniería</h3><p>Modelado paramétrico o ingeniería inversa mediante escaneado 3D. Archivos STEP listos para fabricación con tolerancias verificadas.</p><div class="process-tech"><span>Fusion 360</span><span>SolidWorks</span><span>Scan 3D</span></div></div><div class="process-visual"><svg viewBox="0 0 100 100"><polygon points="50,10 90,90 10,90"/><polygon points="50,30 75,80 25,80"/><polygon points="50,45 65,72 35,72"/></svg></div></div>
+    <div class="process-panel"><div><div class="process-num">03</div><h3>Manufactura Aditiva</h3><p>Fabricación en FDM, SLA o SLS según exigencia técnica. Control estricto de temperatura, humedad y parámetros de slicer para cada polímero.</p><div class="process-tech"><span>FDM</span><span>SLA</span><span>SLS</span><span>PA12</span><span>ASA</span></div></div><div class="process-visual"><svg viewBox="0 0 100 100"><rect x="20" y="20" width="60" height="60"/><rect x="30" y="30" width="40" height="40"/><rect x="40" y="40" width="20" height="20"/></svg></div></div>
+    <div class="process-panel"><div><div class="process-num">04</div><h3>Post-procesado & QC</h3><p>Lijado, curado UV, inserción de roscas metálicas, pintura técnica y control dimensional final. Cada pieza se entrega con reporte de calidad.</p><div class="process-tech"><span>QC</span><span>CMM</span><span>Inserts</span><span>Coating</span></div></div><div class="process-visual"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="35"/><circle cx="50" cy="50" r="25"/><path d="M30 50 L45 65 L75 35"/></svg></div></div>
+  </div>
+  <div class="process-progress"><div class="process-progress-bar"><div class="process-progress-fill" id="processFill"></div></div></div>
+</section>
+
+<!-- ============ SECTORES ============ -->
+<section id="sectors">
+  <div class="container">
+    <div class="section-label reveal">04 · Sectores</div>
+    <h2 class="section-title reveal">Dos mundos. Una misma <em>precisión.</em></h2>
+    <p class="section-intro reveal">Especializados en los sectores donde el tiempo de entrega se mide en euros por hora.</p>
+    <div class="sectors-grid">
+      <div class="sector reveal"><div><div class="sector-label">Sector · Decoración & Industrial</div><h3>Hogar, Comercio & Polígonos</h3><p>Desde piezas decorativas exclusivas para el hogar hasta repuestos industriales urgentes. Tu línea de producción no puede esperar 3 semanas.</p><ul class="sector-list"><li>Esculturas, jarrones, lámparas personalizadas</li><li>Engranajes, piñones, bujes, carcasas</li><li>Utillajes y garras de sujeción</li><li>Repuestos descatalogados</li></ul></div><a href="#contact" class="sector-link" data-hover>Solicitar visita técnica <span>→</span></a></div>
+      <div class="sector reveal"><div><div class="sector-label">Sector · Náutica de Lujo</div><h3>Yates & Marina</h3><p>Un yate varado en Puerto Banús cuesta miles por día. Rediseñamos e imprimimos piezas en ASA resistente a UV y salitre mientras el barco sigue en el agua.</p><ul class="sector-list"><li>Marbella · Estepona · Sotogrande</li><li>Soportes de radar, cuadros, pasamanos</li><li>Piezas en ASA, PA12 y Nylon-CF</li><li>Servicio bilingüe ES / EN</li></ul></div><a href="#contact" class="sector-link" data-hover>Request marine support <span>→</span></a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MÉTRICAS ============ -->
+<section class="metrics">
+  <div class="section-label reveal" style="justify-content:center">05 · Impacto</div>
+  <h2 class="section-title reveal" style="margin:0 auto 2.75rem;text-align:center">Resultados que se <em>miden.</em></h2>
+  <div class="metrics-grid">
+    <div class="big-metric reveal"><div class="value"><span class="counter" data-count="92">0</span><sup>%</sup></div><div class="label">Reducción lead time</div></div>
+    <div class="big-metric reveal"><div class="value"><span class="counter" data-count="24">0</span><sup>h</sup></div><div class="label">Entrega urgente</div></div>
+    <div class="big-metric reveal"><div class="value">±0.05<sup>mm</sup></div><div class="label">Tolerancia garantizada</div></div>
+    <div class="big-metric reveal"><div class="value"><span class="counter" data-count="100">0</span><sup>%</sup></div><div class="label">Ingeniería local</div></div>
+  </div>
+</section>
+
+<!-- ============ VISIÓN DE THIAGO ============ -->
+<section class="founder-visuals" id="founder-visuals">
+  <div class="container">
+    <div class="section-label reveal">06 · Visión</div>
+    <div class="founder-grid">
+      <div class="founder-copy reveal">
+        <h2 class="section-title">El criterio detrás de cada <em>capa.</em></h2>
+        <p class="section-intro">Una selección visual del enfoque de Thiago: ingeniería, precisión y una lectura contemporánea de la manufactura aditiva.</p>
+        <div class="founder-meta"><span id="localDbStatus">DB LOCAL · PREPARANDO</span><span>CÓDIGO · BELENTANI</span></div>
+      </div>
+      <figure class="founder-portrait reveal"><img src="assets/img/optimized/thiago-portrait.webp" alt="Retrato de Thiago Luiz" loading="lazy"></figure>
+    </div>
+    <div class="image-rail" aria-label="Visión de trabajo de Thiago">
+      <figure class="image-tile reveal"><img src="assets/img/optimized/thiago-vision-09.webp" alt="Thiago trabajando con geometrías digitales" loading="lazy"><figcaption>Geometría · método</figcaption></figure>
+      <figure class="image-tile image-tile-wide reveal"><img src="assets/img/optimized/thiago-vision-10.webp" alt="Thiago explorando una solución técnica" loading="lazy"><figcaption>Exploración · precisión</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERÍA ============ -->
+<section class="gallery-section" id="galeria">
+  <div class="container">
+    <div class="section-label reveal">07 · Galería</div>
+    <h2 class="section-title reveal">Piezas reales. <em>Precisión visible.</em></h2>
+    <p class="section-intro reveal">Una biblioteca visual compacta: cada imagen ocupa su lugar y carga una versión optimizada para web.</p>
+    <div class="gallery-grid">
+      <figure class="gallery-card gallery-card-feature reveal"><img src="assets/img/optimized/project-architecture.webp" alt="Maqueta arquitectónica paramétrica" loading="lazy"><figcaption><strong>Arquitectura paramétrica</strong><span>Forma · escala · detalle</span></figcaption></figure>
+      <figure class="gallery-card reveal"><img src="assets/img/optimized/project-industrial.webp" alt="Utillaje industrial en producción" loading="lazy"><figcaption><strong>Utillaje industrial</strong><span>Repetibilidad · control</span></figcaption></figure>
+      <figure class="gallery-card reveal"><img src="assets/img/optimized/project-nautical.webp" alt="Componente náutico en ambiente marino" loading="lazy"><figcaption><strong>Náutica de precisión</strong><span>UV · salitre · resistencia</span></figcaption></figure>
+      <figure class="gallery-card reveal"><img src="assets/img/optimized/workshop.webp" alt="Taller de manufactura aditiva" loading="lazy"><figcaption><strong>El taller</strong><span>Proceso · oficio · control</span></figcaption></figure>
+      <figure class="gallery-card reveal"><img src="assets/img/optimized/thiago-vision-05.webp" alt="Visualización técnica de una pieza" loading="lazy"><figcaption><strong>Visualización técnica</strong><span>Datos · forma</span></figcaption></figure>
+      <figure class="gallery-card reveal"><img src="assets/img/optimized/thiago-vision-06.webp" alt="Retrato técnico de Thiago" loading="lazy"><figcaption><strong>Dirección de proyecto</strong><span>Visión · precisión</span></figcaption></figure>
+      <figure class="gallery-card reveal"><img src="assets/img/optimized/thiago-vision-07.webp" alt="Entorno digital de manufactura" loading="lazy"><figcaption><strong>Entorno digital</strong><span>UX · datos · producción</span></figcaption></figure>
+      <figure class="gallery-card reveal"><img src="assets/img/optimized/thiago-vision-08.webp" alt="Diseño de una solución industrial" loading="lazy"><figcaption><strong>Diseño aplicado</strong><span>Iteración · solución</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PRESUPUESTO Y CONTACTO ============ -->
+<section class="contact" id="contact">
+  <div class="contact-content">
+    <div class="section-label reveal" style="justify-content:center">08 · Contacto</div>
+    <h2 class="reveal">Tu pieza perfecta<br><em>empieza aquí.</em></h2>
+    <p class="reveal">Cuéntanos qué necesitas. Respondemos en menos de 2 horas con una propuesta técnica real.</p>
+    <div class="contact-tools reveal">
+      <form class="quote-widget" id="quoteCalculator" aria-label="Calculadora orientativa de presupuesto">
+        <div class="widget-head"><span class="widget-kicker">WIDGET · ESTIMACIÓN LOCAL</span><span class="widget-status">SIN SERVIDOR</span></div>
+        <div class="quote-fields">
+          <label>Material<select name="material"><option value="asa">ASA · náutica/exterior</option><option value="pa12">PA12 · funcional</option><option value="petgcf">PETG-CF · rigidez</option><option value="resin">Resina · detalle</option></select></label>
+          <label>Volumen<select name="size"><option value="1">Hasta 100 cm³</option><option value="2">100–300 cm³</option><option value="4">300–700 cm³</option><option value="7">Más de 700 cm³</option></select></label>
+          <label>Entrega<select name="urgency"><option value="standard">Estándar · 5–7 días</option><option value="rush">Rápida · 48–72 h</option><option value="express">Express · 24 h</option></select></label>
+          <label>Acabado<select name="finish"><option value="raw">Salida de máquina</option><option value="qc">QC + inserts</option><option value="premium">Premium + acabado</option></select></label>
+        </div>
+        <div class="quote-result"><span><small id="quoteSummary">Estimación orientativa</small><strong id="quoteAmount">0 €</strong></span><button type="submit" class="widget-action">Guardar presupuesto local <span>→</span></button></div>
+      </form>
+    </div>
+    <form class="cta-form reveal" id="leadForm" novalidate>
+      <div class="form-field"><label for="f_name">Nombre</label><input type="text" id="f_name" name="name" required data-hover><span class="line"></span><span class="error">Nombre requerido</span></div>
+      <div class="form-field"><label for="f_email">Email</label><input type="email" id="f_email" name="email" required data-hover><span class="line"></span><span class="error">Email inválido</span></div>
+      <div class="form-field"><label for="f_phone">Teléfono</label><input type="tel" id="f_phone" name="phone" data-hover><span class="line"></span></div>
+      <div class="form-field full"><label for="f_category">Categoría</label><select id="f_category" name="category" required data-hover><option value="">Seleccionar...</option><option value="decoracion">Decoración 3D</option><option value="repuesto">Pieza de Repuesto</option><option value="nautica">Náutica</option><option value="personalizado">Personalizado</option><option value="otro">Otro</option></select><span class="line"></span><span class="error">Seleccione una categoría</span></div>
+      <div class="form-field full"><label for="f_message">Describe tu pieza o proyecto</label><textarea id="f_message" name="message" required minlength="10" data-hover></textarea><span class="line"></span><span class="error">Describa el proyecto (mín. 10 caracteres)</span></div>
+      <div class="form-submit"><button type="submit" class="btn btn-primary" data-hover id="submitBtn"><span class="btn-magnetic"></span><span class="spinner"></span><span class="label">Enviar Consulta</span><span class="arrow">→</span></button></div>
+    </form>
+    <button type="button" class="local-export" id="exportLocalData">Exportar registro local JSON</button>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="foot-grid">
+    <div class="foot-brand"><div class="logo"><span class="dot"></span>FAZLUIZ<em>3D</em> · ATELIER</div><p>Atelier de manufactura aditiva. Decoración, repuestos y náutica de precisión en Málaga. De Rio a Málaga, capa sobre capa.</p></div>
+    <div class="foot-col"><h4>Colecciones</h4><ul><li><a href="#collections" data-hover>Decoración 3D</a></li><li><a href="#collections" data-hover>Piezas de Repuesto</a></li><li><a href="#collections" data-hover>Náutica</a></li><li><a href="#collections" data-hover>Personalizado</a></li></ul></div>
+    <div class="foot-col"><h4>Contacto</h4><ul><li><a href="mailto:atelier@fazluiz.es" data-hover>atelier@fazluiz.es</a></li><li><a href="#" data-hover>Málaga · Barcelona · España</a></li></ul></div>
+    <div class="foot-col"><h4>Legal</h4><ul><li><a href="#" data-hover>Aviso Legal</a></li><li><a href="#" data-hover>Privacidad</a></li><li><a href="#" data-hover>Cookies</a></li></ul></div>
+  </div>
+  <div class="foot-bottom">
+    <div class="foot-copy">© 2026 FAZLUIZ · ATELIER</div>
+    <div class="foot-legal">Diseñado con precisión. Construido con propósito.</div>
+  </div>
+</footer>
+
+<div class="toast-container" id="toastContainer"></div>
+
+<script src="assets/vendor/gsap/gsap.min.js"></script>
+<script src="assets/vendor/gsap/ScrollTrigger.min.js"></script>
+<script src="assets/vendor/gsap/ScrollToPlugin.min.js"></script>
+<script src="assets/js/local-db.js"></script>
+
+<script>
+(function(){
+  'use strict';
+  
+  var preloaderTimeout = setTimeout(function(){hidePreloader();showAllElements()},8000);
+  
+  function showAllElements(){
+    document.querySelectorAll('.reveal,.col-card,.mat-card,.sector,.big-metric,.edu-card,.tl-item,.id-chip,.hero-tag,.hero-sub,.hero-actions,.hero-metrics,.hero-scroll,.nav,.word-inner,.hero-location,.showcase-content,.showcase-visual,.hero-printer,.printer-spec').forEach(function(el){
+      el.style.opacity='1';el.style.transform='none';
+    });
+  }
+  
+  function hidePreloader(){
+    clearTimeout(preloaderTimeout);
+    var p=document.getElementById('preloader');
+    if(p&&window.gsap){gsap.to(p,{yPercent:-100,duration:1.2,ease:'power4.inOut',onComplete:function(){p.style.display='none'}})}
+    else if(p){p.style.display='none'}
+  }
+  
+  if(typeof gsap==='undefined'||typeof ScrollTrigger==='undefined'){showAllElements();hidePreloader();return}
+  
+  gsap.registerPlugin(ScrollTrigger,ScrollToPlugin);
+  gsap.ticker.lagSmoothing(0);
+  
+  /* ============ CURSOR ============ */
+  var cursor=document.getElementById('cursor');
+  var ring=document.getElementById('cursorRing');
+  var glow=document.getElementById('mouseGlow');
+  var mx=0,my=0,cx=0,cy=0,rx=0,ry=0,gx=0,gy=0;
+  
+  window.addEventListener('mousemove',function(e){mx=e.clientX;my=e.clientY});
+  
+  function cursorLoop(){
+    cx+=(mx-cx)*0.4;cy+=(my-cy)*0.4;
+    cursor.style.left=cx+'px';cursor.style.top=cy+'px';
+    rx+=(mx-rx)*0.12;ry+=(my-ry)*0.12;
+    ring.style.left=rx+'px';ring.style.top=ry+'px';
+    gx+=(mx-gx)*0.06;gy+=(my-gy)*0.06;
+    glow.style.left=gx+'px';glow.style.top=gy+'px';
+    requestAnimationFrame(cursorLoop);
+  }
+  cursorLoop();
+  
+  document.querySelectorAll('[data-hover],a,button,input,textarea,select').forEach(function(el){
+    el.addEventListener('mouseenter',function(){cursor.classList.add('hover');ring.classList.add('hover')});
+    el.addEventListener('mouseleave',function(){cursor.classList.remove('hover');ring.classList.remove('hover')});
+  });
+  window.addEventListener('mousedown',function(){ring.classList.add('click')});
+  window.addEventListener('mouseup',function(){ring.classList.remove('click')});
+  
+  /* ============ MAGNETIC ============ */
+  document.querySelectorAll('[data-magnetic]').forEach(function(el){
+    el.addEventListener('mousemove',function(e){
+      var r=el.getBoundingClientRect();
+      var x=e.clientX-r.left-r.width/2;
+      var y=e.clientY-r.top-r.height/2;
+      gsap.to(el,{x:x*0.25,y:y*0.35,duration:0.5,ease:'power3.out'});
+    });
+    el.addEventListener('mouseleave',function(){
+      gsap.to(el,{x:0,y:0,duration:0.7,ease:'elastic.out(1,0.4)'});
+    });
+  });
+  
+  /* ============ TILT 3D ============ */
+  document.querySelectorAll('[data-tilt]').forEach(function(card){
+    card.addEventListener('mousemove',function(e){
+      var r=card.getBoundingClientRect();
+      var x=(e.clientX-r.left)/r.width;
+      var y=(e.clientY-r.top)/r.height;
+      card.style.setProperty('--mx',(x*100)+'%');
+      card.style.setProperty('--my',(y*100)+'%');
+      gsap.to(card,{rotationX:(y-0.5)*-6,rotationY:(x-0.5)*6,duration:0.6,ease:'power3.out',transformPerspective:1000});
+    });
+    card.addEventListener('mouseleave',function(){
+      gsap.to(card,{rotationX:0,rotationY:0,duration:0.9,ease:'elastic.out(1,0.5)'});
+    });
+  });
+  
+  /* ============ PARTICLES ============ */
+  var particlesContainer=document.getElementById('particles');
+  if(particlesContainer){
+    for(var p=0;p<30;p++){
+      var part=document.createElement('div');
+      part.className='particle';
+      part.style.left=Math.random()*100+'%';
+      part.style.top=Math.random()*100+'%';
+      particlesContainer.appendChild(part);
+      gsap.to(part,{
+        y:'random(-100,-300)',x:'random(-50,50)',opacity:0.6,
+        duration:'random(4,8)',repeat:-1,yoyo:true,ease:'sine.inOut',
+        delay:Math.random()*3
+      });
+    }
+  }
+  
+  /* ============ PRELOADER ============ */
+  // Preloader layers animation
+  var plLayers=document.getElementById('plLayers');
+  for(var l=0;l<8;l++){
+    var lay=document.createElement('div');
+    lay.className='printer-layer';
+    plLayers.appendChild(lay);
+  }
+  
+  var plTl=gsap.timeline();
+  var plObj={v:0};
+  
+  plTl
+    .to('#plLogo',{opacity:1,duration:0.6,ease:'power2.out'})
+    .to('#plMeta',{opacity:1,duration:0.4},'-=0.3')
+    .to('#pl3d',{opacity:1,duration:0.6},'-=0.2')
+    .to('#plBar',{opacity:1,duration:0.4},'-=0.2')
+    .to('.printer-layer',{opacity:1,scaleX:1,duration:0.3,stagger:0.15,ease:'power2.out'},'-=0.3')
+    .to(plObj,{
+      v:100,duration:2.2,ease:'power3.inOut',
+      onUpdate:function(){
+        var val=Math.round(plObj.v);
+        document.getElementById('plFill').style.transform='scaleX('+(val/100)+')';
+        document.getElementById('plPercent').textContent=val+'%';
+      }
+    },'-=1')
+    .to('#plLogo',{y:-20,opacity:0,duration:0.5},'+=0.2')
+    .to('#plMeta',{y:-10,opacity:0,duration:0.4},'-=0.4')
+    .to('#pl3d',{y:-10,opacity:0,duration:0.4,scale:0.8},'-=0.3')
+    .to('#plBar',{y:-10,opacity:0,duration:0.4},'-=0.3')
+    .call(hidePreloader)
+    .call(startHeroAnimation);
+  
+  /* ============ HERO PRINT ANIMATION (3D PRINTER) ============ */
+  function startHeroAnimation(){
+    // Create print layers
+    var stack=document.getElementById('printStack');
+    for(var i=0;i<20;i++){
+      var layer=document.createElement('div');
+      layer.className='print-layer';
+      stack.appendChild(layer);
+    }
+    
+    var heroTl=gsap.timeline();
+    
+    heroTl
+      .to('.hero-tag',{opacity:1,y:0,duration:0.9,ease:'power3.out'})
+      .to('.hero-location',{opacity:1,y:0,duration:0.8,ease:'power3.out'},'-=0.5')
+      .to('.hero h1 .word-inner',{y:0,duration:1.2,stagger:0.07,ease:'power4.out'},'-=0.5')
+      .to('.hero-sub',{opacity:1,y:0,duration:0.9,ease:'power3.out'},'-=0.6')
+      .to('.hero-actions',{opacity:1,y:0,duration:0.9,ease:'power3.out'},'-=0.7')
+      .to('#heroPrinter',{opacity:1,y:0,duration:1.2,ease:'power3.out'},'-=1')
+      .to('#heroMetrics',{opacity:1,y:0,duration:1,ease:'power3.out',onComplete:runHeroCounters},'-=0.6')
+      .to('#heroScroll',{opacity:1,duration:0.8},'-=0.4')
+      .add(function(){document.getElementById('nav').classList.add('visible')},'-=1')
+      .call(startPrinterAnimation);
+  }
+  
+  /* ============ CONTINUOUS PRINTER ANIMATION ============ */
+  function startPrinterAnimation(){
+    var head=document.getElementById('printerHead');
+    var filament=document.getElementById('filament');
+    var printGlow=document.getElementById('printGlow');
+    var layers=document.querySelectorAll('.print-layer');
+    var specs=document.querySelectorAll('.printer-spec');
+    
+    // Show specs
+    gsap.to(specs,{opacity:1,duration:0.8,stagger:0.2,ease:'power2.out'});
+    
+    // Head moves left-right continuously
+    gsap.to(head,{
+      x:'+=140',duration:2,ease:'power1.inOut',yoyo:true,repeat:-1
+    });
+    
+    // Show glow
+    gsap.to(printGlow,{opacity:0.7,duration:1});
+    gsap.to(printGlow,{
+      x:'+=140',duration:2,ease:'power1.inOut',yoyo:true,repeat:-1
+    });
+    
+    // Filament line follows head
+    gsap.to(filament,{opacity:0.8,duration:0.5});
+    
+    // Animate filament position with head
+    function updateFilament(){
+      var headRect=head.getBoundingClientRect();
+      var sceneRect=head.parentElement.getBoundingClientRect();
+      var stackEl=document.getElementById('printStack');
+      var stackRect=stackEl.getBoundingClientRect();
+      
+      var x=headRect.left-sceneRect.left+headRect.width/2;
+      var yTop=headRect.top-sceneRect.top+headRect.height;
+      var yBottom=stackRect.top-sceneRect.top;
+      
+      filament.style.left=x+'px';
+      filament.style.top=yTop+'px';
+      filament.style.height=Math.max(0,(yBottom-yTop))+'px';
+      
+      requestAnimationFrame(updateFilament);
+    }
+    updateFilament();
+    
+    // Print layers one by one, then reset
+    function printCycle(){
+      var tl=gsap.timeline({onComplete:function(){
+        // Reset layers and repeat
+        gsap.set(layers,{opacity:0,scaleX:0});
+        setTimeout(printCycle,2000);
+      }});
+      
+      layers.forEach(function(layer,i){
+        tl.to(layer,{
+          opacity:1,scaleX:1,duration:0.25,ease:'power2.out'
+        },i*0.3);
+      });
+    }
+    printCycle();
+  }
+  
+  /* ============ SHOWCASE VASE PRINT ANIMATION ============ */
+  ScrollTrigger.create({
+    trigger:'.showcase',
+    start:'top 70%',
+    onEnter:function(){
+      var outline=document.getElementById('vaseOutline');
+      var layers=document.querySelectorAll('#layerGroup .layer-line');
+      var nozzle=document.getElementById('nozzleDot');
+      var fill=document.getElementById('vaseFill');
+      var pct=document.getElementById('showcasePct');
+      
+      // Draw outline
+      gsap.to(outline,{strokeDashoffset:0,duration:2,ease:'power2.inOut'});
+      
+      // Show nozzle
+      gsap.to(nozzle,{opacity:1,duration:0.5,delay:1});
+      
+      // Draw layers one by one with nozzle following
+      var layerTl=gsap.timeline({delay:1.5});
+      layers.forEach(function(layer,i){
+        var pathLen=layer.getTotalLength();
+        layer.style.strokeDasharray=pathLen;
+        layer.style.strokeDashoffset=pathLen;
+        
+        layerTl.to(layer,{strokeDashoffset:0,duration:0.4,ease:'power1.inOut'},i*0.25);
+        layerTl.to(pct,{
+          innerText:Math.round(((i+1)/layers.length)*100)+'%',
+          duration:0.25,snap:{innerText:1}
+        },i*0.25);
+      });
+      
+      // Fade in fill at end
+      layerTl.to(fill,{opacity:0.4,duration:1},'-=0.5');
+      layerTl.to(nozzle,{opacity:0,duration:0.5});
+    },
+    once:true
+  });
+  
+  /* ============ PARALLAX ============ */
+  gsap.to('#orb1',{scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1},y:300,scale:1.3,ease:'none'});
+  gsap.to('#orb2',{scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1.5},y:-200,scale:1.15,ease:'none'});
+  gsap.to('#heroGrid',{scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:0.5},y:100,ease:'none'});
+  gsap.to('.hero-text',{scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1},y:150,opacity:0.3,ease:'none'});
+  gsap.to('#heroPrinter',{scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:0.8},y:80,rotateY:15,ease:'none'});
+  
+  /* ============ NAV ============ */
+  var lastScroll=0;
+  var nav=document.getElementById('nav');
+  ScrollTrigger.create({
+    start:100,
+    onUpdate:function(){
+      var s=window.scrollY;
+      if(s>100) nav.classList.add('scrolled');
+      else nav.classList.remove('scrolled');
+      if(s>lastScroll&&s>300) nav.classList.remove('visible');
+      else nav.classList.add('visible');
+      lastScroll=s;
+    }
+  });
+  
+  /* ============ REVEAL ============ */
+  gsap.utils.toArray('.reveal').forEach(function(el){
+    gsap.to(el,{scrollTrigger:{trigger:el,start:'top 88%'},opacity:1,y:0,duration:1.1,ease:'power3.out'});
+  });
+  
+  /* ============ COLLECTIONS ============ */
+  gsap.utils.toArray('.col-card').forEach(function(card,i){
+    gsap.from(card,{scrollTrigger:{trigger:card,start:'top 88%'},x:-40,opacity:0,duration:1.1,delay:i*0.12,ease:'power3.out'});
+  });
+  
+  /* ============ TIMELINE ============ */
+  ScrollTrigger.create({
+    trigger:'.timeline',start:'top 70%',end:'bottom 70%',scrub:1,
+    onUpdate:function(self){
+      var f=document.getElementById('storyFill');
+      if(f) f.style.height=(self.progress*100)+'%';
+    }
+  });
+  gsap.utils.toArray('.tl-item').forEach(function(item,i){
+    gsap.from(item,{scrollTrigger:{trigger:item,start:'top 85%'},y:50,opacity:0,duration:1.2,delay:i*0.05,ease:'power3.out'});
+  });
+  gsap.utils.toArray('.id-chip').forEach(function(chip,i){
+    gsap.from(chip,{scrollTrigger:{trigger:chip,start:'top 90%'},y:20,opacity:0,duration:0.8,delay:i*0.06,ease:'power3.out'});
+  });
+  
+  /* ============ EDUCATION ============ */
+  gsap.utils.toArray('.edu-card').forEach(function(card,i){
+    gsap.from(card,{scrollTrigger:{trigger:card,start:'top 88%'},y:40,opacity:0,duration:1,delay:i*0.08,ease:'power3.out'});
+  });
+  
+  /* ============ HORIZONTAL ============ */
+  if(window.innerWidth>900){
+    var track=document.getElementById('processTrack');
+    if(track){
+      var getDist=function(){return track.scrollWidth-window.innerWidth};
+      gsap.to(track,{x:function(){return -getDist()},ease:'none',scrollTrigger:{trigger:'.process',pin:true,scrub:1.2,end:function(){return '+='+getDist()},invalidateOnRefresh:true}});
+      gsap.to('#processFill',{scaleX:1,ease:'none',scrollTrigger:{trigger:'.process',start:'top top',end:function(){return '+='+getDist()},scrub:1}});
+    }
+  }
+  
+  /* ============ MATERIALS ============ */
+  gsap.utils.toArray('.mat-card').forEach(function(card,i){
+    gsap.from(card,{scrollTrigger:{trigger:card,start:'top 88%'},y:50,opacity:0,duration:1,delay:(i%3)*0.08,ease:'power3.out',onStart:function(){setTimeout(function(){card.classList.add('in-view')},200)}});
+  });
+  
+  /* ============ SECTORES ============ */
+  gsap.utils.toArray('.sector').forEach(function(s,i){
+    gsap.from(s,{scrollTrigger:{trigger:s,start:'top 85%'},y:60,opacity:0,duration:1.2,delay:i*0.15,ease:'power3.out'});
+  });
+  
+  /* ============ MÉTRICAS ============ */
+  gsap.utils.toArray('.big-metric').forEach(function(m,i){
+    gsap.from(m,{scrollTrigger:{trigger:m,start:'top 88%'},y:40,opacity:0,duration:1.1,delay:i*0.1,ease:'power3.out',onComplete:function(){var c=m.querySelector('.counter');if(c)animateCounter(c)}});
+  });
+  
+  /* ============ COUNTERS ============ */
+  var heroCountersRan=false;
+  function runHeroCounters(){
+    if(heroCountersRan)return;
+    heroCountersRan=true;
+    document.querySelectorAll('.hero-metrics .counter').forEach(animateCounter);
+  }
+  function animateCounter(el){
+    if(el.dataset.animated)return;
+    el.dataset.animated='1';
+    var target=parseFloat(el.getAttribute('data-count'));
+    if(!target)return;
+    var obj={v:0};
+    gsap.to(obj,{v:target,duration:2.2,ease:'power3.out',onUpdate:function(){el.textContent=Math.round(obj.v)}});
+  }
+  
+  /* ============ SMOOTH SCROLL ============ */
+  document.querySelectorAll('a[href^="#"]').forEach(function(link){
+    link.addEventListener('click',function(e){
+      var href=link.getAttribute('href');
+      if(href.length>1){
+        var target=document.querySelector(href);
+        if(target){
+          e.preventDefault();
+          gsap.to(window,{duration:1.4,scrollTo:{y:target,offsetY:80},ease:'power3.inOut'});
+        }
+      }
+    });
+  });
+  
+  
+  /* ============ LANG ============ */
+  var langBtn=document.getElementById('langSwitch');
+  if(langBtn){
+    langBtn.addEventListener('click',function(){
+      langBtn.textContent=langBtn.textContent.trim()==='ES / EN'?'EN / ES':'ES / EN';
+      toast('info','Idioma','Bilingüe activo');
+    });
+  }
+  
+  /* ============ TOAST ============ */
+  function toast(type,title,msg){
+    var container=document.getElementById('toastContainer');
+    var el=document.createElement('div');
+    el.className='toast '+type;
+    el.innerHTML='<div class="title">'+title+'</div><div class="msg">'+msg+'</div>';
+    container.appendChild(el);
+    setTimeout(function(){el.classList.add('show')},10);
+    setTimeout(function(){el.classList.remove('show');setTimeout(function(){el.remove()},600)},3500);
+  }
+  window.toast=toast;
+  
+  /* ============ FORM ============ */
+  var form=document.getElementById('leadForm');
+  var submitBtn=document.getElementById('submitBtn');
+  var validators={
+    name:function(v){return v&&v.trim().length>=2},
+    email:function(v){return v&&/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v)},
+    category:function(v){return v&&v.trim().length>0},
+    message:function(v){return v&&v.trim().length>=10}
+  };
+  ['f_name','f_email','f_category','f_message'].forEach(function(id){
+    var el=document.getElementById(id);
+    var name=id.replace('f_','');
+    el.addEventListener('blur',function(){validateField(el,name)});
+    el.addEventListener('input',function(){if(el.parentElement.classList.contains('has-error'))validateField(el,name)});
+  });
+  function validateField(el,name){
+    var field=el.parentElement;
+    if(validators[name](el.value))field.classList.remove('has-error');
+    else field.classList.add('has-error');
+  }
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var allValid=true;
+    ['name','email','category','message'].forEach(function(name){
+      var el=document.getElementById('f_'+name);
+      if(!validateField(el,name))allValid=false;
+    });
+    if(!allValid){toast('error','Error','Complete todos los campos');return}
+    submitBtn.classList.add('loading');submitBtn.disabled=true;
+    var payload={
+      name:document.getElementById('f_name').value.trim(),
+      email:document.getElementById('f_email').value.trim(),
+      phone:document.getElementById('f_phone').value.trim(),
+      category:document.getElementById('f_category').value,
+      message:document.getElementById('f_message').value.trim(),
+      source:'fazluiz_web',timestamp:new Date().toISOString()
+    };
+    var leads=JSON.parse(localStorage.getItem('fazluiz_leads')||'[]');
+    payload.id='fl_'+Date.now();
+    leads.push(payload);
+    localStorage.setItem('fazluiz_leads',JSON.stringify(leads));
+    if(window.FazluizDB){window.FazluizDB.addLead(payload)}
+    var mail='mailto:atelier@fazluiz.es?subject='+encodeURIComponent('[FAZLUIZ3D] '+payload.category+' — '+payload.name)+'&body='+encodeURIComponent('Nombre: '+payload.name+'\nEmail: '+payload.email+'\nTel: '+payload.phone+'\nCategoria: '+payload.category+'\n\n'+payload.message);
+    setTimeout(function(){
+      toast('success','Consulta recibida','Abriendo tu email para enviar…');
+      window.location.href=mail;
+      form.reset();submitBtn.classList.remove('loading');submitBtn.disabled=false;
+    },800);
+  });
+  
+  window.addEventListener('load',function(){setTimeout(function(){ScrollTrigger.refresh()},500)});
+  window.addEventListener('resize',function(){ScrollTrigger.refresh()});
+})();
+</script>
+
+
+<script>
+(function(){
+var D={
+"Colecciones":"Collections","Historia":"Story","Materiales":"Materials","Proceso":"Process","Sectores":"Sectors","Contactar":"Contact",
+"Manufactura Aditiva · Málaga":"Additive Manufacturing · Málaga","De Rio a Málaga · Capa sobre capa":"From Rio to Málaga · Layer by layer",
+"Artesanía":"Digital","Digital.":"Craft.","Precisión":"Absolute","Absoluta.":"Precision.",
+"Decoración exclusiva, piezas de repuesto personalizadas y componentes náuticos de precisión. Fabricados con":"Exclusive décor, custom spare parts and precision marine components. Manufactured with",
+"polímeros técnicos de alta resistencia":"high-strength technical polymers","en el corazón de Málaga.":"in the heart of Málaga.",
+"Explorar Colección":"Explore Collection","Pieza Personalizada":"Custom Part",
+"Entrega urgente":"Rush delivery","Resolución capa":"Layer resolution","Tolerancia":"Tolerance","Scroll to explore":"Scroll to explore",
+"La Máquina":"The Machine","Capa sobre capa.":"Layer by layer.","Solución sobre solución.":"Solution by solution.",
+"FAZLUIZ no es una tienda. Es una máquina autoconsciente que aprende, se adapta y perfecciona cada pieza.":"FAZLUIZ is not a shop. It is a self-aware machine that learns, adapts and perfects every part.",
+"Cada pieza que fabricamos alimenta el sistema. Cada material que probamos, cada tolerancia que medimos, cada cliente que resolvemos — todo se convierte en datos que hacen a la máquina más inteligente.":"Every part we make feeds the system. Every material we test, every tolerance we measure, every client we solve — it all becomes data that makes the machine smarter.",
+"No fabricamos objetos. Fabricamos soluciones.":"We don't make objects. We make solutions.",
+"Y cada solución nos hace más precisos, más rápidos, más vivos.":"And every solution makes us more precise, faster, more alive.",
+"Aprendizaje":"Learning","Operación":"Operation","Trazabilidad":"Traceability",
+"01 · Colecciones":"01 · Collections","Tres universos. Una misma":"Three universes. One shared",
+"obsesión por el detalle.":"obsession with detail.",
+"Cada pieza es el resultado de un proceso que combina diseño paramétrico, materiales de grado industrial y un post-procesado artesanal que eleva el polímero a la categoría de":"Every part is the result of a process combining parametric design, industrial-grade materials and artisanal post-processing that elevates polymer to the category of",
+"joya mecánica":"mechanical jewellery",
+"Decoración 3D":"3D Décor","Esculturas & Objetos de Autor":"Sculptures & Signature Objects",
+"Piezas únicas de decoración diseñadas con geometrías imposibles para la manufactura tradicional. Cada objeto es una declaración de intenciones entre la tecnología y el arte.":"One-of-a-kind décor pieces designed with geometries impossible for traditional manufacturing. Each object is a statement between technology and art.",
+"Resolución":"Resolution","Acabado":"Finish","Resina Premium":"Premium Resin","Solicitar pieza":"Request a part",
+"Piezas de Repuesto":"Spare Parts","Ingeniería Inversa & Personalización":"Reverse Engineering & Customization",
+"Repuestos descatalogados, piezas rotas o imposibles de encontrar. Las escaneamos, rediseñamos y fabricamos con tolerancias de ±0.05mm en polímeros de grado industrial.":"Discontinued spares, broken or impossible-to-find parts. We scan, redesign and manufacture them to ±0.05mm tolerances in industrial-grade polymers.",
+"Náutica de Precisión":"Precision Marine","Componentes para Yates & Marina":"Components for Yachts & Marinas",
+"Soportes de radar, cleats, pasamanos, piezas de cuadro de mandos. Fabricadas en ASA y PA12 resistentes a UV y salitre. Para que tu barco no pare.":"Radar mounts, cleats, handrails, dashboard parts. Made in UV- and salt-resistant ASA and PA12. So your boat never stops.",
+"Material":"Material","UV Resist.":"UV Resist.","Excelente":"Excellent",
+"La Historia":"The Story","De Rio a":"From Rio to","Málaga.":"Málaga.",
+"Thiago Luiz no nació en la industria tecnológica. La construyó, capa sobre capa, como una pieza impresa en 3D.":"Thiago Luiz wasn't born into the tech industry. He built it, layer by layer, like a 3D-printed part.",
+"Origen":"Origin","· Brasil · Raíces Portuguesas":"· Brazil · Portuguese Roots","Donde todo empezó.":"Where it all began.",
+"Nacido en Rio, con raíces portuguesas en la sangre, Thiago creció con":"Born in Rio, with Portuguese roots in his blood, Thiago grew up with",
+"una visión para los detalles y una imaginación creativa":"an eye for detail and a creative imagination",
+"que no encajaba en ningún molde. Cada cosa que miraba, la veía diferente — no por lo que era, sino por lo que podría llegar a ser.":"that fit no mould. Everything he looked at, he saw differently — not for what it was, but for what it could become.",
+"Resiliencia":"Resilience","· Irlanda":"· Ireland","El valor del trabajo duro.":"The value of hard work.",
+"En Irlanda, trabajando en apps de delivery, aprendió lo que ningún libro enseña:":"In Ireland, working delivery apps, he learned what no book teaches:",
+"el valor real del esfuerzo":"the true value of effort",
+". Bajo la lluvia de Dublín, entregando pedidos, forjó la disciplina metódica que hoy define cada pieza que sale de su atelier.":". Under Dublin's rain, delivering orders, he forged the methodical discipline that today defines every part leaving his atelier.",
+"Adaptación":"Adaptation","· España":"· Spain","El despertar creativo.":"The creative awakening.",
+"Barcelona fue la transformación. La energía creativa de la ciudad mediterránea despertó en él":"Barcelona was the transformation. The Mediterranean city's creative energy awakened in him",
+"la vocación por el diseño y la tecnología":"a calling for design and technology",
+". Aquí descubrió que la manufactura aditiva no era solo una herramienta — era un lenguaje para dar forma a lo que su imaginación siempre vio.":". Here he discovered that additive manufacturing wasn't just a tool — it was a language to shape what his imagination had always seen.",
+"El Sueño":"The Dream","· España · Costa del Sol":"· Spain · Costa del Sol","Donde el sueño toma forma.":"Where the dream takes shape.",
+"Málaga es el destino. Aquí, entre el puerto y los polígonos industriales, Thiago ha fundado":"Málaga is the destination. Here, between the port and the industrial estates, Thiago has founded",
+"FAZLUIZ — el proyecto de su vida":"FAZLUIZ — the project of his life",
+". Una empresa que combina su vocación en ciberseguridad, su pulido estratégico y metódico, y su obsesión por el detalle. Integrado como socio en una cooperativa local y con impresoras alimentadas por energía solar.":". A company combining his cybersecurity calling, his strategic and methodical polish, and his obsession with detail.",
+"Nacimiento":"Born","Raíces":"Roots","Portuguesas":"Portuguese","Vocación":"Calling","Ciberseguridad & Manufactura":"Cybersecurity & Manufacturing",
+"Método":"Method","Estratégico · Metódico · Pulido":"Strategic · Methodical · Polished","Proyecto":"Project","El sueño de su vida":"The dream of his life",
+"Educación":"Education","Cómo funciona la":"How additive","manufactura aditiva.":"manufacturing works.",
+"Un viaje visual a través de la tecnología que está redefiniendo la producción industrial.":"A visual journey through the technology redefining industrial production.",
+"Modelado Digital":"Digital Modelling",
+"Todo empieza en el ordenador. Un modelo 3D se diseña en CAD (Fusion 360, SolidWorks) o se obtiene mediante escaneo 3D de una pieza existente. Es la ingeniería inversa: convertir lo físico en digital.":"It all starts on the computer. A 3D model is designed in CAD (Fusion 360, SolidWorks) or captured by 3D-scanning an existing part. That's reverse engineering: turning the physical into digital.",
+"Slicing & Preparación":"Slicing & Prep",
+"El modelo se 'corta' en capas microscópicas (25-50 micras). El software calcula la trayectoria exacta del extrusor, la temperatura, la velocidad y los soportes necesarios para cada capa.":"The model is 'sliced' into microscopic layers (25–50 microns). Software computes the exact extruder path, temperature, speed and supports needed for each layer.",
+"Extrusión Capa a Capa":"Layer-by-Layer Extrusion",
+"El filamento se calienta hasta su punto de fusión y se deposita con precisión micrométrica. Capa sobre capa, el objeto crece desde la base. Cada capa se funde con la anterior.":"Filament is heated to melting point and deposited with micrometric precision. Layer upon layer, the object grows from the base. Each layer fuses with the previous one.",
+"Post-procesado & Control":"Post-processing & QC",
+"La pieza se lija, se cura bajo UV, se insertan roscas metálicas y se realiza el control dimensional final. La tolerancia garantizada es de ±0.05mm — la anchura de un cabello humano.":"The part is sanded, UV-cured, fitted with metal threaded inserts, and given final dimensional inspection. Guaranteed tolerance is ±0.05mm — the width of a human hair.",
+"02 · Materiales":"02 · Materials","Polímeros técnicos para":"Technical polymers for","exigencias reales.":"real-world demands.",
+"Seleccionamos cada material en función de cargas mecánicas, exposición química, UV y temperatura de servicio.":"We select each material based on mechanical loads, chemical exposure, UV and service temperature.",
+"Alta resistencia mecánica y química. Engranajes, bisagras y piezas funcionales.":"High mechanical and chemical resistance. Gears, hinges and functional parts.",
+"Tracción":"Tensile","Temp. máx":"Max temp",
+"Resistencia UV y salitre. El estándar para náutica y exterior.":"UV and salt resistance. The standard for marine and outdoor use.",
+"Fibra de carbono para rigidez extrema y bajo peso.":"Carbon fibre for extreme stiffness and low weight.","Rigidez":"Stiffness","Muy alta":"Very high",
+"Resina Técnica":"Technical Resin","Resolución 25μm. Prototipado estético y micro-piezas.":"25μm resolution. Aesthetic prototyping and micro-parts.","Detalle":"Detail","Extremo":"Extreme",
+"Policarbonato":"Polycarbonate","Transparencia y resistencia al impacto. Carcasas y viseras.":"Transparency and impact resistance. Housings and visors.","Impacto":"Impact","Muy alto":"Very high",
+"Flexible y elástico. Juntas, protecciones antivibración.":"Flexible and elastic. Gaskets, anti-vibration protection.","Elongación":"Elongation",
+"03 · Proceso":"03 · Process","De tu idea a":"From your idea to","tu pieza.":"your part.",
+"Un flujo de trabajo diseñado para quienes valoran la precisión tanto como la velocidad.":"A workflow designed for those who value precision as much as speed.",
+"Consultoría & DFAM":"Consulting & DFAM",
+"Evaluamos tu pieza bajo criterios de Diseño para Manufactura Aditiva. Optimizamos geometría, orientación y soportes para maximizar resistencia y minimizar coste.":"We assess your part against Design for Additive Manufacturing criteria. We optimize geometry, orientation and supports to maximize strength and minimize cost.",
+"CAD & Ingeniería":"CAD & Engineering",
+"Modelado paramétrico o ingeniería inversa mediante escaneado 3D. Archivos STEP listos para fabricación con tolerancias verificadas.":"Parametric modelling or reverse engineering via 3D scanning. STEP files ready for manufacturing with verified tolerances.",
+"Manufactura Aditiva":"Additive Manufacturing",
+"Fabricación en FDM, SLA o SLS según exigencia técnica. Control estricto de temperatura, humedad y parámetros de slicer para cada polímero.":"Manufacturing in FDM, SLA or SLS depending on technical demands. Strict control of temperature, humidity and slicer parameters for each polymer.",
+"Post-procesado & QC":"Post-processing & QC",
+"Lijado, curado UV, inserción de roscas metálicas, pintura técnica y control dimensional final. Cada pieza se entrega con reporte de calidad.":"Sanding, UV curing, metal threaded inserts, technical painting and final dimensional inspection. Every part ships with a quality report.",
+"04 · Sectores":"04 · Sectors","Dos mundos. Una misma":"Two worlds. One shared","precisión.":"precision.",
+"Especializados en los sectores donde el tiempo de entrega se mide en euros por hora.":"Specialized in sectors where lead time is measured in euros per hour.",
+"Sector · Decoración & Industrial":"Sector · Décor & Industrial","Hogar, Comercio & Polígonos":"Home, Retail & Industrial Estates",
+"Desde piezas decorativas exclusivas para el hogar hasta repuestos industriales urgentes. Tu línea de producción no puede esperar 3 semanas.":"From exclusive home décor pieces to urgent industrial spares. Your production line can't wait 3 weeks.",
+"Esculturas, jarrones, lámparas personalizadas":"Sculptures, vases, custom lamps",
+"Engranajes, piñones, bujes, carcasas":"Gears, pinions, bushings, housings",
+"Utillajes y garras de sujeción":"Jigs, fixtures and clamping grippers",
+"Repuestos descatalogados":"Discontinued spare parts","Solicitar visita técnica":"Request a technical visit",
+"Sector · Náutica de Lujo":"Sector · Luxury Marine","Yates & Marina":"Yachts & Marinas",
+"Un yate varado en Puerto Banús cuesta miles por día. Rediseñamos e imprimimos piezas en ASA resistente a UV y salitre mientras el barco sigue en el agua.":"A yacht stranded in Puerto Banús costs thousands per day. We redesign and print parts in UV- and salt-resistant ASA while the boat stays in the water.",
+"Soportes de radar, cuadros, pasamanos":"Radar mounts, dashboards, handrails",
+"Piezas en ASA, PA12 y Nylon-CF":"Parts in ASA, PA12 and Nylon-CF",
+"Servicio bilingüe ES / EN":"Bilingual service ES / EN",
+"05 · Impacto":"05 · Impact","Resultados que se":"Results you can","miden.":"measure.",
+"Reducción lead time":"Lead time reduction","Tolerancia garantizada":"Guaranteed tolerance","Ingeniería local":"Local engineering",
+"06 · Contacto":"06 · Contact","Tu pieza perfecta":"Your perfect part","empieza aquí.":"starts here.",
+"Cuéntanos qué necesitas. Respondemos en menos de 2 horas con una propuesta técnica real.":"Tell us what you need. We reply in under 2 hours with a real technical proposal.",
+"Nombre":"Name","Nombre requerido":"Name required","Email inválido":"Invalid email","Teléfono":"Phone",
+"Categoría":"Category","Seleccionar...":"Select...","Pieza de Repuesto":"Spare Part","Náutica":"Marine","Personalizado":"Custom","Otro":"Other",
+"Seleccione una categoría":"Please select a category","Describe tu pieza o proyecto":"Describe your part or project",
+"Describa el proyecto (mín. 10 caracteres)":"Describe the project (min. 10 characters)","Enviar Consulta":"Send Inquiry",
+"Atelier de manufactura aditiva. Decoración, repuestos y náutica de precisión en Málaga. De Rio a Málaga, capa sobre capa.":"Additive manufacturing atelier. Décor, spares and precision marine in Málaga. From Rio to Málaga, layer by layer.",
+"Contacto":"Contact","Málaga · Barcelona · España":"Málaga · Barcelona · Spain","Aviso Legal":"Legal Notice","Privacidad":"Privacy",
+"Diseñado con precisión. Construido con propósito.":"Designed with precision. Built with purpose.",
+
+"—":"—",
+"05b · Galería":"05b · Gallery","Piezas reales.":"Real parts.","Precisión visible.":"Visible precision.","Pieza técnica de precisión":"Precision technical part","Cleat náutico personalizado":"Custom marine cleat","Soporte en fibra de carbono":"Carbon-fibre bracket","Prototipo mecánico en resina SLA":"SLA resin mechanical prototype","Estructura giroide en PA12 SLS":"PA12 SLS gyroid structure","Maqueta arquitectónica paramétrica":"Parametric architecture model","Utillaje industrial en producción":"Industrial tooling in production","El taller":"The workshop"
+};
+var R={}; for(var k in D){R[D[k]]=k;}
+var nodes=[];
+function collect(){
+  nodes=[];
+  var w=document.createTreeWalker(document.body,NodeFilter.SHOW_TEXT,null,false),n;
+  while(n=w.nextNode()){var t=n.nodeValue.trim(); if(t&&(D[t]||R[t]))nodes.push(n);}
+}
+function apply(map){
+  collect();
+  nodes.forEach(function(n){var t=n.nodeValue.trim(); if(map[t]) n.nodeValue=n.nodeValue.replace(t,map[t]);});
+  document.querySelectorAll('option,[placeholder]').forEach(function(el){
+    if(el.placeholder&&map[el.placeholder])el.placeholder=map[el.placeholder];
+    if(el.tagName==='OPTION'&&map[el.textContent.trim()])el.textContent=map[el.textContent.trim()];
+  });
+  document.documentElement.lang = (map===D)?'en':'es';
+}
+var btn=document.getElementById('langSwitch');
+if(btn){
+  var b2=btn.cloneNode(true); btn.parentNode.replaceChild(b2,btn);
+  var en=false;
+  b2.addEventListener('click',function(){
+    en=!en; apply(en?D:R);
+    b2.textContent=en?'EN / ES':'ES / EN';
+  });
+}
+})();
+</script>
+
+
+<script>
+(function(){
+  function showAll(){document.querySelectorAll('.print-reveal').forEach(function(e){e.style.clipPath='none'});}
+  if(!(window.gsap&&window.ScrollTrigger)){showAll();return;}
+  gsap.registerPlugin(ScrollTrigger);
+  ScrollTrigger.normalizeScroll(true);
+  var hi=document.getElementById('heroImg');
+  if(hi){gsap.to(hi,{yPercent:14,ease:'none',scrollTrigger:{trigger:'.hero',start:'top top',end:'bottom top',scrub:1}});}
+  gsap.utils.toArray('.print-reveal').forEach(function(el){
+    ScrollTrigger.create({trigger:el,start:'top 85%',once:true,onEnter:function(){el.classList.add('printed');}});
+  });
+  gsap.utils.toArray('#galeria figure, .tl-item figure').forEach(function(el){
+    gsap.from(el,{scrollTrigger:{trigger:el,start:'top 80%',end:'bottom 20%',toggleActions:'play none none reverse'},y:60,opacity:0,duration:1,ease:'power3.out'});
+  });
+  ScrollTrigger.getAll().forEach(function(st){if(st.pin)st.vars.anticipatePin=1;});
+  ScrollTrigger.refresh();
+  setTimeout(function(){document.querySelectorAll('.print-reveal:not(.printed)').forEach(function(e){
+    if(e.getBoundingClientRect().top<innerHeight)e.classList.add('printed');});},3000);
+})();
+</script>
+<script src="assets/js/widgets.js"></script>
+</body>
+<!-- 0x504D5342 · engineered & assigned in full to T.L.F. · 2026 -->
+</html>
+
