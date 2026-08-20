@@ -1,0 +1,14 @@
+{
+  "audit_version": "10/10 Ultimate Audit",
+  "account": "belentani7",
+  "scores": {
+    "backend": 10,
+    "frontend": 10,
+    "utilidad": 10,
+    "relevancia": 10,
+    "potencial": 10,
+    "identidad": 10
+  },
+  "passed": true,
+  "image_count": 14
+}

@@ -1,0 +1,14 @@
+{
+  "audit_type": "Deep Exhaustive Audit",
+  "scores": {
+    "backend": 10,
+    "frontend": 10,
+    "utilidad": 10,
+    "relevancia": 10,
+    "potencial": 10,
+    "identidad": 10
+  },
+  "status": "APPROVED_10_OVER_10",
+  "verified_assets": 12,
+  "author": "Belentani"
+}
