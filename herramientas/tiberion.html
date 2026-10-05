@@ -539,7 +539,7 @@ select {
                     <div class="text-[10px] text-gray-500">100 búsquedas/mes gratis</div>
                   </div>
                 </div>
-                <a href="https://serpapi.com" target="_blank" class="text-[10px] text-accent hover:underline">Registro →</a>
+                <a href="https://serpapi.com" target="_blank" rel="noopener noreferrer" class="text-[10px] text-accent hover:underline">Registro →</a>
               </div>
               <input id="api-serpapi" type="password" placeholder="API Key SerpAPI" class="w-full h-9 px-3 rounded-lg bg-white/5 border border-white/8 text-xs text-white">
               
@@ -551,7 +551,7 @@ select {
                     <div class="text-[10px] text-gray-500">$1 crédito inicial</div>
                   </div>
                 </div>
-                <a href="https://outscraper.com" target="_blank" class="text-[10px] text-accent hover:underline">Registro →</a>
+                <a href="https://outscraper.com" target="_blank" rel="noopener noreferrer" class="text-[10px] text-accent hover:underline">Registro →</a>
               </div>
               <input id="api-outscraper" type="password" placeholder="API Key Outscraper" class="w-full h-9 px-3 rounded-lg bg-white/5 border border-white/8 text-xs text-white">
               
@@ -563,7 +563,7 @@ select {
                     <div class="text-[10px] text-gray-500">Google Maps Scraper</div>
                   </div>
                 </div>
-                <a href="https://rapidapi.com" target="_blank" class="text-[10px] text-accent hover:underline">Registro →</a>
+                <a href="https://rapidapi.com" target="_blank" rel="noopener noreferrer" class="text-[10px] text-accent hover:underline">Registro →</a>
               </div>
               <input id="api-rapidapi" type="password" placeholder="API Key RapidAPI" class="w-full h-9 px-3 rounded-lg bg-white/5 border border-white/8 text-xs text-white">
             </div>
@@ -595,7 +595,7 @@ select {
                     <div class="text-[10px] text-gray-500">Detección de tecnologías</div>
                   </div>
                 </div>
-                <a href="https://urlscan.io" target="_blank" class="text-[10px] text-accent hover:underline">Registro →</a>
+                <a href="https://urlscan.io" target="_blank" rel="noopener noreferrer" class="text-[10px] text-accent hover:underline">Registro →</a>
               </div>
               <input id="api-urlscan" type="password" placeholder="API Key URLScan" class="w-full h-9 px-3 rounded-lg bg-white/5 border border-white/8 text-xs text-white">
               
@@ -607,7 +607,7 @@ select {
                     <div class="text-[10px] text-gray-500">IA multimodelo (emails, Doctor Fix)</div>
                   </div>
                 </div>
-                <a href="https://openrouter.ai" target="_blank" class="text-[10px] text-accent hover:underline">Registro →</a>
+                <a href="https://openrouter.ai" target="_blank" rel="noopener noreferrer" class="text-[10px] text-accent hover:underline">Registro →</a>
               </div>
               <input id="api-openrouter" type="password" placeholder="API Key OpenRouter" class="w-full h-9 px-3 rounded-lg bg-white/5 border border-white/8 text-xs text-white">
             </div>
@@ -1479,7 +1479,7 @@ function renderResults() {
           <tr class="border-b border-white/3 hover:bg-white/2 transition-colors">
             <td class="px-4 py-2.5"><div class="text-xs font-medium">${escapeHtml(r.name)}</div><div class="text-[10px] text-gray-500">${escapeHtml(r.address?.slice(0,50))}</div></td>
             <td class="px-4 py-2.5"><span class="badge ${scoreCls}">${r.score || 0}</span></td>
-            <td class="px-4 py-2.5 text-xs text-gray-300 max-w-xs truncate">${r.website ? `<a href="${r.website}" target="_blank" class="text-accent hover:underline">${escapeHtml(r.website.slice(0,30))}</a>` : '<span class="text-red-400">Sin web</span>'}</td>
+            <td class="px-4 py-2.5 text-xs text-gray-300 max-w-xs truncate">${r.website ? `<a href="${r.website}" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">${escapeHtml(r.website.slice(0,30))}</a>` : '<span class="text-red-400">Sin web</span>'}</td>
             <td class="px-4 py-2.5 text-xs text-gray-300">${escapeHtml(r.phone || '—')}</td>
             <td class="px-4 py-2.5 text-xs text-gray-300">⭐ ${r.rating || 0} (${r.reviews || 0})</td>
           </tr>
@@ -1544,7 +1544,7 @@ function leadCard(l) {
       <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 text-xs mb-3">
         <div class="text-gray-400">📍 <span class="text-gray-300">${escapeHtml(l.address || 'N/A')}</span></div>
         <div class="text-gray-400">📞 <span class="text-gray-300">${l.phone ? `<a href="tel:${l.phone}" class="text-accent hover:underline">${escapeHtml(l.phone)}</a>` : 'N/A'}</span></div>
-        <div class="text-gray-400">🌐 <span class="text-gray-300">${l.website ? `<a href="${l.website}" target="_blank" class="text-accent hover:underline">${escapeHtml(l.website.slice(0,30))}</a>` : '<span class="text-red-400">NO TIENE</span>'}</span></div>
+        <div class="text-gray-400">🌐 <span class="text-gray-300">${l.website ? `<a href="${l.website}" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">${escapeHtml(l.website.slice(0,30))}</a>` : '<span class="text-red-400">NO TIENE</span>'}</span></div>
       </div>
       <div class="flex flex-wrap gap-1.5 mb-3">${badges.join('')}</div>
       ${wa.issues && wa.issues.length ? `<div class="text-[11px] text-red-400 mb-2">⚠️ ${wa.issues.join(' · ')}</div>` : ''}
