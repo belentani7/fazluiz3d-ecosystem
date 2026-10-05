@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "Si usas este proyecto, cítalo así."
+title: "fazluiz3d-ecosystem"
+authors:
+  - family-names: "Belentani"
+    given-names: "Pedro"
+repository-code: "https://github.com/belentani7/fazluiz3d-ecosystem"
+license: MIT
