@@ -1,11 +1,34 @@
-# Cómo contribuir
+# Contributing to Belentani Project
 
-¡Gracias por tu interés!
+## Getting Started
 
-1. Abre un issue describiendo el bug o la mejora antes de trabajar en algo grande.
-2. Haz un fork y crea una rama: `git checkout -b feat/mi-cambio`.
-3. Usa mensajes de commit claros (estilo [Conventional Commits](https://www.conventionalcommits.org/es/v1.0.0/)).
-4. Comprueba que el proyecto compila y que los tests pasan.
-5. Abre un pull request explicando qué cambia y por qué.
+1. Fork the repository and clone it locally
+2. Install dependencies: `npm install` or `pip install -r requirements.txt`
+3. Create a branch: `git checkout -b feat/feature-name`
 
-Al participar aceptas el [código de conducta](CODE_OF_CONDUCT.md).
+## Development Workflow
+
+- Run linting: `npm run lint` or `python -m ruff lint`
+- Run tests: `npm test` or `python -m pytest`
+- Build the project: `npm run build` or `pip install -e .`
+
+## Pull Request Process
+
+1. Commit your changes using conventional commits: `git commit -m "feat: add new feature"`
+2. Push to your fork: `git push origin feat/feature-name`
+3. Submit a Pull Request with a clear description
+4. Link any related issues: `Fixes #123`
+
+## Code Standards
+
+- Follow the project's code style (ESLint/Prettier for JS, ruff/black for Python)
+- Write tests for new functionality
+- Update documentation as needed
+- Ensure all CI checks pass before merging
+
+## Reporting Issues
+
+- Use the issue templates: `.github/ISSUE_TEMPLATE/bug_report.yml`
+- Check for existing issues first
+- Provide clear reproduction steps
+- Include environment details (OS, version, etc.)

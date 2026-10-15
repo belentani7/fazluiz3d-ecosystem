@@ -1,10 +1,22 @@
 # Changelog
 
-Todos los cambios relevantes de este proyecto se documentan aquí.
+All notable changes to this project will be documented in this file.
 
-El formato sigue [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y el proyecto usa [Versionado Semántico](https://semver.org/lang/es/).
-
-## [Unreleased]
+## [v1.0.0] - 2026-10-15
 
 ### Added
-- Archivos de comunidad: código de conducta, cita, plantillas de issues y PR, Dependabot.
+- Initial release with core functionality
+- CI/CD pipeline with linting, testing, and security scanning
+- Code of Conduct and contributing guidelines
+- Issue and pull request templates
+- Security policy documentation
+- Dependency management with Dependabot
+
+### Changed
+- Updated documentation
+- Improved code structure
+
+### Fixed
+- Initial bug fixes
+
+[Keep a changelog]: https://keepachangelog.com/en/1.0.0/

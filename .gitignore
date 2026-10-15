@@ -1,36 +1,28 @@
-# OS
-.DS_Store
-Thumbs.db
-desktop.ini
+# Git Ignore
 
-# Editors
-.vscode/*
-!.vscode/extensions.json
-.idea/
-*.swp
+# Dependencies
+/node_modules/
+/.pnp/
+/package-lock.json
 
-# Env / secrets
-.env
-.env.*
-!.env.example
-*.pem
+# Runtime stuff
+/.next/
+/out/
 
-# Node
-node_modules/
-dist/
-build/
-.next/
-coverage/
-*.log
+# Build artifacts
+/dist/
+/.out/
 
-# Python
-__pycache__/
-*.py[cod]
-.venv/
-venv/
-.pytest_cache/
-.ruff_cache/
+# Environment
+/.env.local
+/.env.*.local
 
-# Misc
-tmp/
-*.tmp
+# IDE
+/.vscode/
+/.ts arqueiro/
+
+# Logs
+/*.log
+
+# Vercel
+/.vercel

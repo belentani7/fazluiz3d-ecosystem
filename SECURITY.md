@@ -1,11 +1,17 @@
-# Política de seguridad
+# Security Policy
 
-## Reportar una vulnerabilidad
+## Reporting a Vulnerability
 
-No abras un issue público. Usa **Security → Report a vulnerability** (aviso privado de GitHub).
+If you discover a security vulnerability, please do not create a public issue. Instead, email the maintainers at **belentani7pedro@gmail.com**.
 
-Intentaré responder en un plazo de 7 días y publicar la corrección lo antes posible, con crédito a quien reporte si lo desea.
+## Supported Versions
 
-## Versiones soportadas
+Only the latest released version of this project is actively supported.
 
-Solo la rama principal recibe correcciones de seguridad.
+## Scope
+
+Vulnerabilities affecting the codebase or its dependencies are in scope. Issues related to third-party services are the responsibility of their respective maintainers.
+
+## Disclosure Policy
+
+We ask that you report vulnerabilities privately and allow us reasonable time to address them before making any public disclosure.
