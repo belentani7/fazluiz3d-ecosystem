@@ -38,3 +38,7 @@ El paquete principal puede publicarse directamente en cualquier hosting estátic
 Revisión humana obligatoria antes de enviar comunicaciones. Toda comunicación comercial debe identificar al remitente e incluir una opción clara de baja. No se incluyen scraping automático ni bases de datos de contactos por defecto.
 
 **Código propio:** Belentani · 2026.
+
+## Integridad del fichero local
+
+Las escrituras usan fichero temporal y sustitución atómica, y las operaciones de mutación quedan serializadas dentro de un proceso Node. JSON corrupto o estructuras incompletas provocan error en lugar de reiniciar silenciosamente el CRM. **No** existe seguridad transaccional entre varias instancias ni respaldo automatizado. Mantén `backend/data/` privado (ignorado por Git) y ejecuta `npm test` antes de publicar el adaptador.
