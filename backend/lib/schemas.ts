@@ -1,3 +1,4 @@
+import { isStoredLeadId } from './lead-id.mjs';
 import * as z from 'zod';
 
 export const ScrapeSchema = z.object({
@@ -6,14 +7,14 @@ export const ScrapeSchema = z.object({
 });
 
 export const AnalyzeSchema = z.object({
-  leadId: z.string().uuid(),
+  leadId: z.string().refine(isStoredLeadId, 'Identificador de lead inválido'),
   name: z.string(),
   types: z.array(z.string()),
   photoUrl: z.string().url(),
 });
 
 export const SendEmailSchema = z.object({
-  leadId: z.string().uuid(),
+  leadId: z.string().refine(isStoredLeadId, 'Identificador de lead inválido'),
   to: z.string().email("Email inválido"),
   subject: z.string().min(5),
   body: z.string().min(20),
