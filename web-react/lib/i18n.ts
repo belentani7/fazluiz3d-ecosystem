@@ -120,8 +120,10 @@ export const content = {
       submit: 'Enviar solicitud',
       sending: 'Enviando...',
       sectors: { industrial: 'Industrial', nautica: 'Náutica', arquitectura: 'Arquitectura', otro: 'Otro' },
-      ok: 'Solicitud enviada. Recibirás respuesta técnica en 24h.',
+      ok: 'Solicitud enviada correctamente. Nuestro equipo podrá responder mediante el email facilitado.',
       err: 'Completa los campos obligatorios.',
+      deliveryErr: 'No se ha enviado la solicitud. Comprueba la conexión o utiliza un canal de contacto oficial.',
+      privacy: 'Al enviarlo, los datos del formulario se entregan por correo a nuestro equipo; no se guardan en este navegador ni en una base de datos.',
     },
     footer: {
       tagline: 'Manufactura aditiva de precisión.',
@@ -255,8 +257,10 @@ export const content = {
       submit: 'Submit request',
       sending: 'Sending...',
       sectors: { industrial: 'Industrial', nautica: 'Nautical', arquitectura: 'Architecture', otro: 'Other' },
-      ok: 'Request sent. You will receive a technical response within 24h.',
+      ok: 'Request delivered. Our team can reply to the email address supplied.',
       err: 'Please fill in the required fields.',
+      deliveryErr: 'Your request was not sent. Check the connection or use a verified official contact channel.',
+      privacy: 'By submitting, your form details are emailed to our team; they are not saved in this browser or a database.',
     },
     footer: {
       tagline: 'Precision additive manufacturing.',

@@ -9,6 +9,16 @@ permissions:
   contents: read
 
 jobs:
+  contact-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Verify authenticated contact delivery and admin mail
+        run: node --test tests/contact-contract.test.mjs
   static-site:
     runs-on: ubuntu-latest
     timeout-minutes: 10

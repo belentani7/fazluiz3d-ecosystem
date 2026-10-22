@@ -15,9 +15,9 @@ export const AnalyzeSchema = z.object({
 
 export const SendEmailSchema = z.object({
   leadId: z.string().refine(isStoredLeadId, 'Identificador de lead inválido'),
-  to: z.string().email("Email inválido"),
-  subject: z.string().min(5),
-  body: z.string().min(20),
+  to: z.string().email("Email inválido").max(254),
+  subject: z.string().min(5).max(160),
+  body: z.string().min(20).max(5000),
 });
 
 export const OrderSchema = z.object({
