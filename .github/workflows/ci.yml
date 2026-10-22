@@ -51,5 +51,7 @@ jobs:
           node-version: 20
       - name: Install backend dependencies
         run: npm install --no-package-lock --no-audit --no-fund
+      - name: Test local CRM persistence
+        run: npm test
       - name: Build backend adapter
         run: npm run build
