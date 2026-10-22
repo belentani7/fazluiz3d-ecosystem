@@ -42,7 +42,7 @@ export async function POST(req: Request) {
   const sector = field(data.sector, 40)
   const notes = field(data.notes ?? '', 2000)
   if (!company || !contact || !email || !sector || phone === null || notes === null ||
-      !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || !['industrial','architecture','nautical','art','other'].includes(sector)) {
+      !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || !['industrial','nautica','arquitectura','otro'].includes(sector)) {
     return json('Revisa los datos obligatorios del formulario.', 400)
   }
 
