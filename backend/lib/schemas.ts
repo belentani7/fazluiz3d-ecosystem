@@ -13,10 +13,14 @@ export const AnalyzeSchema = z.object({
 });
 
 export const SendEmailSchema = z.object({
-  leadId: z.string().uuid(),
-  to: z.string().email("Email inválido"),
-  subject: z.string().min(5),
-  body: z.string().min(20),
+  // The local store uses lead_<timestamp>_<random> IDs, not UUIDs.
+  leadId: z.union([
+    z.string().uuid(),
+    z.string().regex(/^lead_[a-zA-Z0-9_]{8,80}$/),
+  ]),
+  to: z.string().email("Email inválido").max(254),
+  subject: z.string().min(5).max(160),
+  body: z.string().min(20).max(5000),
 });
 
 export const OrderSchema = z.object({
