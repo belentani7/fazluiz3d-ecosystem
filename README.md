@@ -1,7 +1,7 @@
 # FAZLUIZ3D / ÁUREA 3D
 
-> Ecosistema autónomo 10/10 — diseño paramétrico, arquitectura bioclimática con IA y
-> música generativa en un solo repositorio.
+> Atelier de **artesanía digital de precisión** (Málaga): web local-first bilingüe
+> ES/EN con backend opcional, todo en un solo repositorio.
 
 [![CI](https://github.com/belentani7/fazluiz3d-ecosystem/actions/workflows/ci.yml/badge.svg)](https://github.com/belentani7/fazluiz3d-ecosystem/actions/workflows/ci.yml)
 [![Licencia: MIT](https://img.shields.io/badge/License-MIT-00E676.svg)](./LICENSE)
@@ -10,37 +10,52 @@
 
 ## Qué es
 
-Un ecosistema standalone que une tres disciplinas:
+El corazón del repositorio es la web principal `index.html`: una página estática
+(HTML/CSS/JS puro) para el atelier FAZLUIZ3D · ATELIER, con catálogo de piezas
+(esculturas, lámparas), flujo de presupuesto y almacenamiento local de leads.
 
-- **Arquitectura paramétrica** — diseño bioclimático assistido por IA
-- **Optimización energética** — cálculo y recomendación sobre la geometría generada
-- **Música generativa** — composición procedural integrada
+- **Web principal (`index.html`)** — estática y portable; guarda leads y
+  presupuestos en IndexedDB y permite exportarlos a JSON. No depende de ningún
+  servicio externo para funcionar.
+- **Backend opcional (`backend/`)** — app Next.js (`aurea3d-backend`) con rutas
+  de API (`analyze`, `orders`, `scrape`, `send`) y esquema SQL en `sql/`. La web
+  principal funciona sin él; `OPENAI_API_KEY` y `GOOGLE_MAPS_API_KEY` son
+  opcionales (ver `backend/README.md`).
+- **Herramientas auxiliares** — TIBERION (`herramientas/tiberion.html`) y
+  calculadora de impuestos (`herramientas/calc_impuestos.py`).
 
 | Ruta | Contenido |
 |---|---|
-| `web-react/` | Frontend React/Next (la interfaz principal) |
-| `backend/` | Servicios y API |
-| `admin/` | Panel de administración |
-| `herramientas/` | CLI y utilidades de generación |
+| `index.html` | Web principal del atelier (estática, ES/EN) |
+| `web-react/` | Versión alternativa Next.js/React (v0, para desarrolladores); la web principal sigue siendo `index.html` |
+| `backend/` | API opcional Next.js (`aurea3d-backend`) |
+| `admin/` | Panel de administración (`dashboard.html`) |
+| `herramientas/` | TIBERION y calculadora de impuestos |
+| `extras/` | Guía de despliegue, generador de PDF y material varios |
 | `assets/` | Recursos visuales y 3D |
 | `audit/` | Auditoría de calidad y seguridad |
-| `templates/` | Plantillas reutilizables |
+| `templates/` | Plantillas reutilizables (contrato, emails, factura) |
 | `docs/` | Documentación |
 | `scripts/` | Automatización |
 
 ## Por qué existe
 
-El diseño paramétrico y la arquitectura bioclimática solían quedar en herramientas
-closed-source, caras y con curva de aprendizaje alta. Aquí el pipeline completo —
-generar, medir, optimizar, publicar— es abierto y auditable.
+La web es **local-first y portable**: no depende de OAuth, Supabase, Vercel,
+Netlify ni servidores para funcionar (ver
+[`LEEME-DESPLIEGUE.md`](./LEEME-DESPLIEGUE.md)). El backend es un extra para
+quien quiera centralizar leads y presupuestos en un servidor propio.
 
 ## Puesta en marcha
 
 ```bash
-# El repositorio es standalone: basta con servirlo
-python -m http.server 8000     # frontend estático
-# o
+# Web principal: basta con servir el repositorio
+python -m http.server 8000     # abrir http://localhost:8000
+
+# Variante React (opcional)
 cd web-react && npm install && npm run dev
+
+# Backend (opcional)
+cd backend && npm install && npm run dev
 ```
 
 ## Documentación
@@ -48,12 +63,12 @@ cd web-react && npm install && npm run dev
 - [`LEEME-DESPLIEGUE.md`](./LEEME-DESPLIEGUE.md) — guía de despliegue
 - [`CHANGELOG.md`](./CHANGELOG.md) — historial de cambios
 - [`CITATION.cff`](./CITATION.cff) — citación académica
+- [`backend/README.md`](./backend/README.md) — API opcional
 - `docs/` — documentación técnica
 
 ## Licencia
 
-[MIT](./LICENSE) — ver el fichero completo. Este README antes decía
-"License: not specified": era incorrecto.
+[MIT](./LICENSE) — ver el fichero completo.
 
 ## Contribuir
 
