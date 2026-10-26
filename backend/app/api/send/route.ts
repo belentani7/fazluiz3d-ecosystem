@@ -3,6 +3,7 @@ import { NextResponse } from 'next/server';
 import { Resend } from 'resend';
 import { list, update } from '@/lib/local-store';
 import { SendEmailSchema } from '@/lib/schemas';
+import { readBoundedJson } from '@/lib/admin-request.mjs';
 
 function authorized(request: Request, secret: string): boolean {
   const expected = Buffer.from('Bearer ' + secret, 'utf8');
@@ -24,19 +25,12 @@ export async function POST(req: Request) {
   if (!apiKey || !from) {
     return NextResponse.json({ error: 'Email delivery is not configured' }, { status: 503 });
   }
-  if (!req.headers.get('content-type')?.startsWith('application/json') ||
-      Number(req.headers.get('content-length') || 0) > 8192) {
-    return NextResponse.json({ error: 'Unsupported request' }, { status: 400 });
-  }
-
-  let raw = '';
-  try { raw = await req.text(); } catch { return NextResponse.json({ error: 'Invalid request' }, { status: 400 }); }
-  if (new TextEncoder().encode(raw).length > 8192) {
-    return NextResponse.json({ error: 'Request too large' }, { status: 413 });
-  }
+  // Reject oversized or malformed bodies while streaming, before allocating the full request.
+  const body = await readBoundedJson(req);
+  if (!body.ok) return NextResponse.json({ error: body.error }, { status: body.status });
 
   try {
-    const parsed = SendEmailSchema.safeParse(JSON.parse(raw) as unknown);
+    const parsed = SendEmailSchema.safeParse(body.value);
     if (!parsed.success) {
       return NextResponse.json({ error: 'Invalid email request' }, { status: 400 });
     }
