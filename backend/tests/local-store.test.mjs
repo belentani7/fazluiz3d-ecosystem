@@ -62,3 +62,28 @@ test("upsert and update work as native local CRM features", async () => {
   assert.equal(updated.status, "reviewed");
   assert.equal((await store.list("leads"))[0].status, "reviewed");
 });
+
+test("upsert keeps unrelated leads without Google place IDs separate", async () => {
+  const saved = await store.upsertLeads([{ name: "Lead A" }, { name: "Lead B" }]);
+  assert.equal(saved.length, 2);
+  assert.notEqual(saved[0].id, saved[1].id);
+  assert.deepEqual((await store.list("leads")).map(item => item.name), ["Lead A", "Lead B"]);
+  await store.upsertLeads([{ google_place_id: "", name: "Lead C" }]);
+  assert.equal((await store.list("leads")).length, 3);
+});
+
+test("updates cannot rewrite immutable CRM record identities", async () => {
+  const original = await store.insert("orders", { subject: "Original" });
+  const before = readFileSync(dataFile, "utf8");
+  await assert.rejects(store.update("orders", original.id, { id: "changed-id" }), /immutable|identity|id/i);
+  assert.equal(readFileSync(dataFile, "utf8"), before);
+  assert.equal((await store.list("orders"))[0].id, original.id);
+});
+
+test("malformed records fail closed without rewriting existing CRM bytes", async () => {
+  mkdirSync(dataDir, { recursive: true });
+  const broken = JSON.stringify({ leads: [null], orders: [], events: [] });
+  writeFileSync(dataFile, broken);
+  await assert.rejects(store.insert("orders", { subject: "should fail" }), /Invalid|malformed|record/i);
+  assert.equal(readFileSync(dataFile, "utf8"), broken);
+});

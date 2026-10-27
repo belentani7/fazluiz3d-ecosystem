@@ -30,6 +30,14 @@ async function readDatabase(): Promise<LocalDatabase> {
       !Array.isArray(parsed.events)) {
     throw new Error('Incomplete local CRM database: refusing to erase records');
   }
+  for (const collection of [parsed.leads, parsed.orders, parsed.events]) {
+    for (const record of collection) {
+      if (!record || typeof record !== 'object' || Array.isArray(record) ||
+          ('id' in record && (typeof record.id !== 'string' || !record.id.trim()))) {
+        throw new Error('Invalid local CRM record: refusing to rewrite stored data');
+      }
+    }
+  }
   return { leads: parsed.leads, orders: parsed.orders, events: parsed.events };
 }
 
@@ -83,6 +91,10 @@ export async function list(collection: keyof LocalDatabase): Promise<LocalRecord
 }
 
 export async function update(collection: keyof LocalDatabase, recordId: string, patch: LocalRecord): Promise<LocalRecord | null> {
+  // Record identity is referenced by orders, analysis and delivery workflows.
+  if (Object.prototype.hasOwnProperty.call(patch, 'id')) {
+    throw new Error('Cannot change immutable CRM record id');
+  }
   return mutate(database => {
     const index = database[collection].findIndex((record) => record.id === recordId || record.google_place_id === recordId);
     if (index < 0) return null;
@@ -96,7 +108,12 @@ export async function upsertLeads(records: LocalRecord[]): Promise<LocalRecord[]
   return mutate(database => {
     const saved: LocalRecord[] = [];
     for (const record of records) {
-      const index = database.leads.findIndex(item => item.google_place_id === record.google_place_id);
+      // Missing/blank place IDs are not deduplication keys: otherwise unrelated
+      // manually entered leads silently collapse into the first such record.
+      const placeId = typeof record.google_place_id === 'string' ? record.google_place_id.trim() : '';
+      const index = placeId
+        ? database.leads.findIndex(item => item.google_place_id === placeId)
+        : -1;
       if (index >= 0) saved.push(database.leads[index]);
       else {
         const next = { ...record, id: id('lead'), created_at: new Date().toISOString() };
