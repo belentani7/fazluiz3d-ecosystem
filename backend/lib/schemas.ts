@@ -21,12 +21,13 @@ export const SendEmailSchema = z.object({
   body: z.string().min(20).max(5000),
 });
 
+// Public intake must not accept unbounded personal data or arbitrary payloads.
 export const OrderSchema = z.object({
-  company_name: z.string().min(2, 'Nombre requerido'),
-  contact_name: z.string().optional(),
-  email: z.string().email('Email inválido'),
+  company_name: z.string().trim().min(2, 'Nombre requerido').max(120),
+  contact_name: z.string().trim().max(120).optional(),
+  email: z.string().trim().email('Email inválido').max(254),
   project_type: z.enum(['Decoracion', 'Branding', 'Nautica', 'Custom']),
-  material: z.string().optional(),
-  message: z.string().min(15, 'Cuéntanos un poco más del proyecto'),
-  budget: z.number().optional(),
+  material: z.string().trim().max(120).optional(),
+  message: z.string().trim().min(15, 'Cuéntanos un poco más del proyecto').max(2000),
+  budget: z.number().finite().nonnegative().max(1000000000).optional(),
 });
