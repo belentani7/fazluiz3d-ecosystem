@@ -9,7 +9,18 @@ const DATA_DIR = path.join(process.cwd(), 'data');
 const DATA_FILE = path.join(DATA_DIR, 'database.json');
 const emptyDatabase: LocalDatabase = { leads: [], orders: [], events: [] };
 
+/** Vercel Functions do not provide a durable shared filesystem for CRM records.
+ * Never acknowledge storage of personal data in an ephemeral function instance.
+ * Use a transactional shared store before deploying this optional API there.
+ */
+function assertDurableLocalRuntime(): void {
+  if (process.env.VERCEL === '1') {
+    throw new Error('Durable CRM storage is required on Vercel Functions');
+  }
+}
+
 async function readDatabase(): Promise<LocalDatabase> {
+  assertDurableLocalRuntime();
   let raw: string;
   try {
     raw = await readFile(DATA_FILE, 'utf8');
@@ -42,6 +53,7 @@ async function readDatabase(): Promise<LocalDatabase> {
 }
 
 async function writeDatabase(database: LocalDatabase): Promise<void> {
+  assertDurableLocalRuntime();
   await mkdir(DATA_DIR, { recursive: true });
   const temp = path.join(DATA_DIR, '.database-' + randomUUID() + '.tmp');
   try {

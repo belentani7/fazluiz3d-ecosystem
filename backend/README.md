@@ -47,6 +47,10 @@ Revisión humana obligatoria antes de enviar comunicaciones. Toda comunicación 
 
 **Código propio:** Belentani · 2026.
 
+## Protección frente a almacenamiento efímero
+
+Las funciones de Vercel no ofrecen un fichero CRM compartido y persistente. Cuando `VERCEL=1`, este adaptador rechaza operaciones de lectura y escritura locales en vez de aceptar datos personales que podrían perderse tras una nueva instancia o despliegue. `/api/orders` devuelve 503 al no poder persistir; no se debe presentar como una confirmación. Para producción en Vercel, sustituye el almacén JSON por una base de datos transaccional con controles de acceso, retención y respaldo verificados. El modo local/self-hosted con disco persistente sigue disponible.
+
 ## Integridad del fichero local
 
 Las escrituras usan fichero temporal y sustitución atómica, y las operaciones de mutación quedan serializadas dentro de un proceso Node. JSON corrupto o estructuras incompletas provocan error en lugar de reiniciar silenciosamente el CRM. **No** existe seguridad transaccional entre varias instancias ni respaldo automatizado. Mantén `backend/data/` privado (ignorado por Git) y ejecuta `npm test` antes de publicar el adaptador.

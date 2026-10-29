@@ -80,6 +80,23 @@ test("updates cannot rewrite immutable CRM record identities", async () => {
   assert.equal((await store.list("orders"))[0].id, original.id);
 });
 
+test("Vercel Functions reject local CRM reads and writes without losing or exposing customer data", async () => {
+  const originalVercel = process.env.VERCEL;
+  const customer = { email: "private-customer@example.com" };
+  await store.insert("orders", customer);
+  const originalBytes = readFileSync(dataFile, "utf8");
+  process.env.VERCEL = "1";
+  try {
+    await assert.rejects(store.list("orders"), /Durable CRM storage/);
+    await assert.rejects(store.exportDatabase(), /Durable CRM storage/);
+    await assert.rejects(store.insert("orders", { email: "new-private@example.com" }), /Durable CRM storage/);
+    assert.equal(readFileSync(dataFile, "utf8"), originalBytes);
+  } finally {
+    if (originalVercel === undefined) delete process.env.VERCEL;
+    else process.env.VERCEL = originalVercel;
+  }
+});
+
 test("malformed records fail closed without rewriting existing CRM bytes", async () => {
   mkdirSync(dataDir, { recursive: true });
   const broken = JSON.stringify({ leads: [null], orders: [], events: [] });
