@@ -7,7 +7,7 @@ type Ctx = {
   lang: Lang
   setLang: (l: Lang) => void
   toggle: () => void
-  t: (typeof content)['es']
+  t: (typeof content)[Lang]
 }
 
 const LangContext = createContext<Ctx | null>(null)
