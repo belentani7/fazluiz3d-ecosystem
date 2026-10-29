@@ -15,22 +15,21 @@ export function Process() {
     const el = root.current
     const ln = line.current
     if (!el || !ln) return
-    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+    // Reduced-motion users get the fully visible, static timeline without scroll-triggered animation.
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return
 
     const ctx = gsap.context(() => {
       const steps = gsap.utils.toArray<HTMLElement>('[data-step]', el)
-      if (!prefersReduced) {
-        gsap.fromTo(
-          ln,
-          { scaleY: 0 },
-          {
-            scaleY: 1,
-            ease: 'none',
-            scrollTrigger: { trigger: el, start: 'top 60%', end: 'bottom 70%', scrub: true },
-          },
-        )
-      }
-      steps.forEach((s, i) => {
+      gsap.fromTo(
+        ln,
+        { scaleY: 0 },
+        {
+          scaleY: 1,
+          ease: 'none',
+          scrollTrigger: { trigger: el, start: 'top 60%', end: 'bottom 70%', scrub: true },
+        },
+      )
+      steps.forEach((s) => {
         const dot = s.querySelector('[data-dot]')
         gsap.fromTo(
           s,

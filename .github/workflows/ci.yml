@@ -45,6 +45,8 @@ jobs:
         run: npm install --no-package-lock --no-audit --no-fund
       - name: Lint frontend
         run: npm run lint
+      - name: Typecheck frontend
+        run: npm run typecheck
       - name: Build frontend
         run: npm run build
 
