@@ -1,4 +1,5 @@
 import { NextResponse } from 'next/server'
+import { readBoundedJson } from '@/lib/read-bounded-json.mjs'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -17,21 +18,12 @@ export async function POST(req: Request) {
   const from = process.env.CONTACT_FROM_EMAIL
   const to = process.env.CONTACT_TO_EMAIL
   if (!apiKey || !from || !to) return json('El formulario no está configurado. No se enviaron datos.', 503)
-  if (!req.headers.get('content-type')?.toLowerCase().startsWith('application/json')) {
-    return json('Formato de solicitud no admitido.', 415)
+  const bounded = await readBoundedJson(req)
+  if (!bounded.ok) return json(bounded.error, bounded.status)
+  if (!bounded.value || typeof bounded.value !== 'object' || Array.isArray(bounded.value)) {
+    return json('Datos JSON incorrectos.', 400)
   }
-  if (Number(req.headers.get('content-length') || 0) > 8192) return json('Solicitud demasiado grande.', 413)
-
-  let raw = ''
-  try { raw = await req.text() } catch { return json('No se pudo leer la solicitud.', 400) }
-  if (new TextEncoder().encode(raw).length > 8192) return json('Solicitud demasiado grande.', 413)
-
-  let data: Record<string, unknown>
-  try {
-    const parsed: unknown = JSON.parse(raw)
-    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) throw new Error('bad payload')
-    data = parsed as Record<string, unknown>
-  } catch { return json('Datos JSON incorrectos.', 400) }
+  const data = bounded.value as Record<string, unknown>
 
   // Unused trap field; never deliver automated submissions that fill it.
   if (data.website) return json('Solicitud no admitida.', 400)
