@@ -34,3 +34,6 @@ venv/
 # Misc
 tmp/
 *.tmp
+
+# Local customer CRM records (never commit PII)
+/backend/data/

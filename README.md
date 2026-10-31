@@ -45,6 +45,30 @@ Netlify ni servidores para funcionar (ver
 [`LEEME-DESPLIEGUE.md`](./LEEME-DESPLIEGUE.md)). El backend es un extra para
 quien quiera centralizar leads y presupuestos en un servidor propio.
 
+## Entrega de contacto y protección del correo — 22/10/2026
+
+La versión **React/Next** de `web-react/` dispone ahora de `/api/contact` con
+entrega **real por Resend**. No hace falsa confirmación: sin
+`RESEND_API_KEY`, `CONTACT_FROM_EMAIL` y `CONTACT_TO_EMAIL` devuelve
+503 y el formulario comunica que no se envió. Solo se utiliza el buzón de
+destino configurado; el mensaje se envía como texto plano y no se guarda en
+JSON/localStorage. Configura estas tres variables como secretos del servidor,
+siguiendo `web-react/.env.example`. El remitente requiere dominio verificado.
+
+El endpoint administrativo `backend/app/api/send` ya no es un relay público:
+exige `AUREA_ADMIN_TOKEN` (mínimo 32 caracteres aleatorios), envíos habilitados,
+y que el destinatario coincida con un contacto registrado. La clave nunca se
+expone a aplicaciones cliente. Su configuración se explica en
+`backend/.env.example`.
+
+**Distinción importante:** la web raíz `index.html` sigue siendo un sitio
+estático con captación local en el dispositivo. No está conectada de forma
+automática con el backend Next. El servicio en vivo debe publicar explícitamente
+la versión elegida, configurar correo autenticado, protección contra spam y
+políticas de privacidad/retención antes de captar datos reales. La suite
+`node --test tests/contact-contract.test.mjs` verifica condiciones de entrega y
+seguridad; no sustituye una prueba de envío con credenciales ni un despliegue.
+
 ## Puesta en marcha
 
 ```bash
@@ -77,3 +101,7 @@ Lee [`CONTRIBUTING.md`](./CONTRIBUTING.md) y el
 verde.
 
 <sub>ÁUREA 3D · by <a href="https://github.com/belentani7">@belentani7</a></sub>
+
+## Protección antiautomatización del contacto React
+
+El formulario de `web-react/` solo entrega correos cuando la verificación Turnstile se valida en el servidor, con acción `contact` y hostname exacto. Configura `NEXT_PUBLIC_TURNSTILE_SITE_KEY` (pública), `TURNSTILE_SECRET_KEY` (secreta) y `TURNSTILE_HOSTNAME` (dominio de producción) en el entorno correspondiente; consulta `web-react/.env.example`. Sin esa configuración, el formulario se muestra deshabilitado y el servidor rechaza el envío. La clave secreta nunca debe estar en `NEXT_PUBLIC_*`. La validación no reemplaza pruebas de entrega real, rate limiting perimetral ni la revisión de privacidad y retención. Documentación del proveedor: https://developers.cloudflare.com/turnstile/get-started/server-side-validation/.

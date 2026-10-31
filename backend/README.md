@@ -33,8 +33,24 @@ Sin estas variables, los endpoints de pedidos, análisis y envío funcionan en m
 
 El paquete principal puede publicarse directamente en cualquier hosting estático: Netlify, GitHub Pages, Cloudflare Pages, Vercel static, un servidor Apache/Nginx o una carpeta local. El adaptador backend es opcional y necesita un runtime Node si se desea activar.
 
+## Acceso administrativo y fotografías
+
+`POST /api/scrape` y `POST /api/analyze` requieren `Authorization: Bearer <AUREA_ADMIN_TOKEN>` con un secreto aleatorio de al menos 32 caracteres configurado **solo en el servidor**. Sin secreto devuelven 503; sin autorización válida, 401. Ambos limitan el cuerpo JSON a 8192 bytes antes de llamar a proveedores de pago. Nunca incluyas el token en JavaScript público ni en `NEXT_PUBLIC_*`.
+
+El escaneo guarda `photo_reference` de Google Maps en lugar de construir URL con la clave API. No se ofrece un enlace directo a esa fotografía; el análisis admite una `photoUrl` HTTPS proporcionada explícitamente por el operador, o genera texto sin foto y sin inventar detalles visuales. Las bases de datos antiguas podrían conservar `photo_url` con una clave incrustada: mantén sus respaldos privados y rota cualquier clave que se haya expuesto.
+
+**Gate pendiente:** `/api/orders` sigue siendo una entrada pública y el envío opcional de confirmaciones requiere límites antiabuso y validación de remitente antes de publicar este backend. No activar proveedores de pago ni desplegar el adaptador sin completar esos controles.
+
 ## Seguridad y legalidad
 
 Revisión humana obligatoria antes de enviar comunicaciones. Toda comunicación comercial debe identificar al remitente e incluir una opción clara de baja. No se incluyen scraping automático ni bases de datos de contactos por defecto.
 
 **Código propio:** Belentani · 2026.
+
+## Protección frente a almacenamiento efímero
+
+Las funciones de Vercel no ofrecen un fichero CRM compartido y persistente. Cuando `VERCEL=1`, este adaptador rechaza operaciones de lectura y escritura locales en vez de aceptar datos personales que podrían perderse tras una nueva instancia o despliegue. `/api/orders` devuelve 503 al no poder persistir; no se debe presentar como una confirmación. Para producción en Vercel, sustituye el almacén JSON por una base de datos transaccional con controles de acceso, retención y respaldo verificados. El modo local/self-hosted con disco persistente sigue disponible.
+
+## Integridad del fichero local
+
+Las escrituras usan fichero temporal y sustitución atómica, y las operaciones de mutación quedan serializadas dentro de un proceso Node. JSON corrupto o estructuras incompletas provocan error en lugar de reiniciar silenciosamente el CRM. **No** existe seguridad transaccional entre varias instancias ni respaldo automatizado. Mantén `backend/data/` privado (ignorado por Git) y ejecuta `npm test` antes de publicar el adaptador.

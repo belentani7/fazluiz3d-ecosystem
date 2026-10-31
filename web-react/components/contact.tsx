@@ -4,7 +4,8 @@ import { useState, type FormEvent } from 'react'
 import { useLang } from './lang-provider'
 import { useReveal } from '@/lib/use-gsap'
 import { SectionHeading } from './section-heading'
-import { CheckCircle2, Mail, MapPin, Phone } from 'lucide-react'
+import { TurnstileChallenge } from './turnstile-challenge'
+import { CheckCircle2, MapPin } from 'lucide-react'
 
 export function Contact() {
   const { t } = useLang()
@@ -12,6 +13,8 @@ export function Contact() {
   const [sending, setSending] = useState(false)
   const [done, setDone] = useState(false)
   const [error, setError] = useState('')
+  const [turnstileToken, setTurnstileToken] = useState('')
+  const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY
   const [fd, setFd] = useState({
     company: '',
     contact: '',
@@ -28,12 +31,30 @@ export function Contact() {
       setError(t.contact.err)
       return
     }
+    if (!siteKey || !turnstileToken) {
+      setError(t.contact.verificationErr)
+      return
+    }
     setSending(true)
-    // Simulated submission — connect to your CRM / API route here.
-    await new Promise((r) => setTimeout(r, 900))
-    setSending(false)
-    setDone(true)
-    setFd({ company: '', contact: '', email: '', phone: '', sector: 'industrial', notes: '' })
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...fd, website: '', turnstileToken }),
+      })
+      if (!response.ok) {
+        setError(t.contact.deliveryErr)
+        return
+      }
+      setDone(true)
+      setFd({ company: '', contact: '', email: '', phone: '', sector: 'industrial', notes: '' })
+    } catch {
+      setError(t.contact.deliveryErr)
+    } finally {
+      setTurnstileToken('')
+      window.turnstile?.reset()
+      setSending(false)
+    }
   }
 
   const inputCls =
@@ -44,23 +65,11 @@ export function Contact() {
       <div className="mx-auto grid max-w-7xl gap-14 px-6 lg:grid-cols-[0.9fr_1.1fr]">
         <div>
           <SectionHeading tag={t.contact.tag} title={t.contact.title} sub={t.contact.sub} />
-          <div data-reveal className="mt-10 flex flex-col gap-5">
-            {[
-              { icon: Mail, label: 'info@aurea3d.com', href: 'mailto:info@aurea3d.com' },
-              { icon: Phone, label: '+34 900 000 000', href: 'tel:+34900000000' },
-              { icon: MapPin, label: t.footer.loc, href: '#' },
-            ].map((c) => (
-              <a
-                key={c.label}
-                href={c.href}
-                className="group flex items-center gap-4 text-[color:var(--color-muted)] transition-colors hover:text-foreground"
-              >
-                <span className="flex h-11 w-11 items-center justify-center rounded-xl border border-[color:var(--color-border)] text-[color:var(--color-gold)] transition-colors group-hover:border-[color:var(--color-border-hover)]">
-                  <c.icon className="h-4 w-4" />
-                </span>
-                {c.label}
-              </a>
-            ))}
+          <div data-reveal className="mt-10 flex items-center gap-4 text-[color:var(--color-muted)]">
+            <span className="flex h-11 w-11 items-center justify-center rounded-xl border border-[color:var(--color-border)] text-[color:var(--color-gold)]">
+              <MapPin className="h-4 w-4" />
+            </span>
+            <span>{t.footer.loc}</span>
           </div>
         </div>
 
@@ -84,12 +93,16 @@ export function Contact() {
                 <input
                   className={inputCls}
                   placeholder={t.contact.company}
+                  aria-label={t.contact.company}
+                  required maxLength={120}
                   value={fd.company}
                   onChange={(e) => setFd({ ...fd, company: e.target.value })}
                 />
                 <input
                   className={inputCls}
                   placeholder={t.contact.contact}
+                  aria-label={t.contact.contact}
+                  required maxLength={120}
                   value={fd.contact}
                   onChange={(e) => setFd({ ...fd, contact: e.target.value })}
                 />
@@ -99,12 +112,16 @@ export function Contact() {
                   className={inputCls}
                   type="email"
                   placeholder={t.contact.email}
+                  aria-label={t.contact.email}
+                  required maxLength={254}
                   value={fd.email}
                   onChange={(e) => setFd({ ...fd, email: e.target.value })}
                 />
                 <input
                   className={inputCls}
                   placeholder={t.contact.phone}
+                  aria-label={t.contact.phone}
+                  maxLength={40}
                   value={fd.phone}
                   onChange={(e) => setFd({ ...fd, phone: e.target.value })}
                 />
@@ -112,6 +129,7 @@ export function Contact() {
               <select
                 className={inputCls}
                 value={fd.sector}
+                aria-label={t.contact.sector}
                 onChange={(e) => setFd({ ...fd, sector: e.target.value })}
               >
                 {Object.entries(t.contact.sectors).map(([k, v]) => (
@@ -123,13 +141,21 @@ export function Contact() {
               <textarea
                 className={`${inputCls} min-h-28 resize-y`}
                 placeholder={t.contact.desc}
+                aria-label={t.contact.desc}
+                maxLength={2000}
                 value={fd.notes}
                 onChange={(e) => setFd({ ...fd, notes: e.target.value })}
               />
-              {error && <p className="text-sm text-[color:var(--color-gold)]">{error}</p>}
+              <p className="text-xs text-[color:var(--color-muted)]">{t.contact.privacy}</p>
+              {siteKey ? (
+                <TurnstileChallenge siteKey={siteKey} onToken={setTurnstileToken} />
+              ) : (
+                <p role="status" className="text-sm text-[color:var(--color-muted)]">{t.contact.formUnavailable}</p>
+              )}
+              {error && <p role="alert" className="text-sm text-[color:var(--color-gold)]">{error}</p>}
               <button
                 type="submit"
-                disabled={sending}
+                disabled={sending || !siteKey || !turnstileToken}
                 className="mt-2 rounded-full bg-[color:var(--color-gold)] px-7 py-3.5 text-sm font-medium uppercase tracking-wider text-background transition-transform hover:scale-[1.02] active:scale-95 disabled:opacity-50"
               >
                 {sending ? t.contact.sending : t.contact.submit}
