@@ -4,6 +4,7 @@ import { useState, type FormEvent } from 'react'
 import { useLang } from './lang-provider'
 import { useReveal } from '@/lib/use-gsap'
 import { SectionHeading } from './section-heading'
+import { TurnstileChallenge } from './turnstile-challenge'
 import { CheckCircle2, MapPin } from 'lucide-react'
 
 export function Contact() {
@@ -12,6 +13,8 @@ export function Contact() {
   const [sending, setSending] = useState(false)
   const [done, setDone] = useState(false)
   const [error, setError] = useState('')
+  const [turnstileToken, setTurnstileToken] = useState('')
+  const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY
   const [fd, setFd] = useState({
     company: '',
     contact: '',
@@ -28,12 +31,16 @@ export function Contact() {
       setError(t.contact.err)
       return
     }
+    if (!siteKey || !turnstileToken) {
+      setError(t.contact.verificationErr)
+      return
+    }
     setSending(true)
     try {
       const response = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ ...fd, website: '' }),
+        body: JSON.stringify({ ...fd, website: '', turnstileToken }),
       })
       if (!response.ok) {
         setError(t.contact.deliveryErr)
@@ -44,6 +51,8 @@ export function Contact() {
     } catch {
       setError(t.contact.deliveryErr)
     } finally {
+      setTurnstileToken('')
+      window.turnstile?.reset()
       setSending(false)
     }
   }
@@ -138,10 +147,15 @@ export function Contact() {
                 onChange={(e) => setFd({ ...fd, notes: e.target.value })}
               />
               <p className="text-xs text-[color:var(--color-muted)]">{t.contact.privacy}</p>
+              {siteKey ? (
+                <TurnstileChallenge siteKey={siteKey} onToken={setTurnstileToken} />
+              ) : (
+                <p role="status" className="text-sm text-[color:var(--color-muted)]">{t.contact.formUnavailable}</p>
+              )}
               {error && <p role="alert" className="text-sm text-[color:var(--color-gold)]">{error}</p>}
               <button
                 type="submit"
-                disabled={sending}
+                disabled={sending || !siteKey || !turnstileToken}
                 className="mt-2 rounded-full bg-[color:var(--color-gold)] px-7 py-3.5 text-sm font-medium uppercase tracking-wider text-background transition-transform hover:scale-[1.02] active:scale-95 disabled:opacity-50"
               >
                 {sending ? t.contact.sending : t.contact.submit}

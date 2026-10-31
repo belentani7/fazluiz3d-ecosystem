@@ -1,5 +1,6 @@
 import { NextResponse } from 'next/server'
 import { readBoundedJson } from '@/lib/read-bounded-json.mjs'
+import { verifyTurnstile } from '@/lib/verify-turnstile.mjs'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -36,6 +37,16 @@ export async function POST(req: Request) {
   if (!company || !contact || !email || !sector || phone === null || notes === null ||
       !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email) || !['industrial','nautica','arquitectura','otro'].includes(sector)) {
     return json('Revisa los datos obligatorios del formulario.', 400)
+  }
+
+  const verification = await verifyTurnstile(data.turnstileToken, {
+    secret: process.env.TURNSTILE_SECRET_KEY,
+    hostname: process.env.TURNSTILE_HOSTNAME,
+  })
+  if (!verification.ok) {
+    return json(verification.status === 503
+      ? 'Verificación antispam no disponible. Inténtalo más tarde.'
+      : 'Verificación antispam fallida. Vuelve a intentarlo.', verification.status)
   }
 
   const replyTo = email.replace(/[\r\n]/g, '')

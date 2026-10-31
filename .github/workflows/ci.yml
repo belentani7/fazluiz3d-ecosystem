@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: 22
       - name: Verify authenticated contact delivery and admin mail
-        run: node --test tests/contact-contract.test.mjs web-react/tests/read-bounded-json.test.mjs
+        run: node --test tests/contact-contract.test.mjs web-react/tests/read-bounded-json.test.mjs web-react/tests/verify-turnstile.test.mjs
   static-site:
     runs-on: ubuntu-latest
     timeout-minutes: 10

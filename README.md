@@ -86,3 +86,7 @@ Lee [`CONTRIBUTING.md`](./CONTRIBUTING.md) y el
 verde.
 
 <sub>ÁUREA 3D · by <a href="https://github.com/belentani7">@belentani7</a></sub>
+
+## Protección antiautomatización del contacto React
+
+El formulario de `web-react/` solo entrega correos cuando la verificación Turnstile se valida en el servidor, con acción `contact` y hostname exacto. Configura `NEXT_PUBLIC_TURNSTILE_SITE_KEY` (pública), `TURNSTILE_SECRET_KEY` (secreta) y `TURNSTILE_HOSTNAME` (dominio de producción) en el entorno correspondiente; consulta `web-react/.env.example`. Sin esa configuración, el formulario se muestra deshabilitado y el servidor rechaza el envío. La clave secreta nunca debe estar en `NEXT_PUBLIC_*`. La validación no reemplaza pruebas de entrega real, rate limiting perimetral ni la revisión de privacidad y retención. Documentación del proveedor: https://developers.cloudflare.com/turnstile/get-started/server-side-validation/.

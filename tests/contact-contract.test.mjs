@@ -51,3 +51,16 @@ test('languages and form options agree with server side allowed sectors', () => 
     assert.equal(i18n.split(key).length - 1, 2)
   }
 })
+
+test('public email requires a validated single-use Turnstile token before Resend', () => {
+  const route = get('web-react/app/api/contact/route.ts')
+  const form = get('web-react/components/contact.tsx')
+  const widget = get('web-react/components/turnstile-challenge.tsx')
+  assert.match(route, /verifyTurnstile\(data\.turnstileToken/)
+  assert.ok(route.indexOf('verifyTurnstile(data.turnstileToken') < route.indexOf("fetch('https://api.resend.com/emails'"))
+  assert.match(form, /turnstileToken/)
+  assert.match(form, /TurnstileChallenge/)
+  assert.match(widget, /'contact'/)
+  assert.match(widget, /expired-callback/)
+  assert.match(widget, /turnstile\.render/)
+})
