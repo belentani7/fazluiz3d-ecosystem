@@ -1,0 +1,688 @@
+{
+ "id": "48096c1f-b784-4927-a063-e87a1d0d259f",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Ciberpunk Bunny Cinematic Intro",
+ "chat": {
+  "history": {
+   "messages": {
+    "3f95ea16-d373-480b-ac08-e07cd2a4cc46": {
+     "id": "3f95ea16-d373-480b-ac08-e07cd2a4cc46",
+     "role": "user",
+     "content": "(((Cinematic video intro, sensual and mysterious atmosphere, neon cyberpunk bunny, glowing eyes with a seductive gaze, slow motion, soft pink and purple lighting, smoke and haze effect, slow camera pan, intimate vibe, high detail, 4k.\"\nEspañol: \"Intro de video cinematográfica, atmósfera sensual y misteriosa, conejo de neón cyberpunk, ojos brillantes con mirada seductora, cámara lenta, iluminación suave rosa y púrpura, efecto de humo y neblina, paneo lento de cámara, vibra íntima, alto detalle, 4k.\")))",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "i2v",
+       "size": "9:16"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "468daa29-9cec-4eb4-9550-4d9fa1357b7c"
+     ],
+     "files": [
+      {
+       "id": "f9e8fe3b-2ed5-4dfb-92bc-c1b7f8a36696",
+       "name": "image_1788286002771~3.jpeg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 221973,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/f9e8fe3b-2ed5-4dfb-92bc-c1b7f8a36696_image_1788286002771~3.jpeg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJmOWU4ZmUzYi0yZWQ1LTRkZmItOTJiYy1jMWI3ZjhhMzY2OTYiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.IFoOLDzk7CGImCV1W5z5dAOl1wYRAhM83vH6uTkv7rw",
+       "file": {
+        "created_at": 1789621831117,
+        "data": {},
+        "filename": "image_1788286002771~3.jpeg",
+        "hash": null,
+        "id": "f9e8fe3b-2ed5-4dfb-92bc-c1b7f8a36696",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "image_1788286002771~3.jpeg",
+         "size": 221973,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1789621831117,
+        "lastModified": 1788286332780,
+        "name": "image_1788286002771~3.jpeg",
+        "webkitRelativePath": "",
+        "size": 221973,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "201c88c3-93ed-49ef-b3ed-58625f56ce22",
+       "showType": "image",
+       "uploadTaskId": "d99221ce-3307-4270-916b-01b147676e87"
+      }
+     ],
+     "timestamp": 1789621847
+    },
+    "468daa29-9cec-4eb4-9550-4d9fa1357b7c": {
+     "role": "assistant",
+     "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/468daa29-9cec-4eb4-9550-4d9fa1357b7c/cf2b0398-a485-4404-b39a-f72875962688.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJjZjJiMDM5OC1hNDg1LTQ0MDQtYjM5YS1mNzI4NzU5NjI2ODgiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.z6rdfuXwoBKphOGc1CSxGZ7Ta6qeIDDJtU4dS2OwqsM",
+     "reasoning_content": null,
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "468daa29-9cec-4eb4-9550-4d9fa1357b7c",
+     "parentId": "3f95ea16-d373-480b-ac08-e07cd2a4cc46",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/468daa29-9cec-4eb4-9550-4d9fa1357b7c/cf2b0398-a485-4404-b39a-f72875962688.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJjZjJiMDM5OC1hNDg1LTQ0MDQtYjM5YS1mNzI4NzU5NjI2ODgiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.z6rdfuXwoBKphOGc1CSxGZ7Ta6qeIDDJtU4dS2OwqsM",
+       "phase": "video_gen",
+       "status": "finished",
+       "extra": null,
+       "role": "function"
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "wanx": {
+       "task_id": "cf2b0398-a485-4404-b39a-f72875962688"
+      },
+      "endTime": 1789621848.2055004
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": {
+      "size": "9:16"
+     },
+     "timestamp": 1789621847
+    },
+    "e6dafd84-d280-4e92-807a-0b3a12d3bc74": {
+     "id": "e6dafd84-d280-4e92-807a-0b3a12d3bc74",
+     "role": "user",
+     "content": "(((Cinematic video intro, sensual and mysterious atmosphere, neon cyberpunk bunny, glowing eyes with a seductive gaze, slow motion, soft pink and purple lighting, smoke and haze effect, slow camera pan, intimate vibe, high detail, 4k.\"\nEspañol: \"Intro de video cinematográfica, lengua, lick, drop, boy atmósfera sensual y misteriosa, conejo de neón cyberpunk, ojos brillantes con mirada seductora, cámara lenta, iluminación suave rosa y púrpura, efecto de humo y neblina, paneo lento de cámara, vibra íntima, alto detalle, 4k.\")))",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "i2v",
+       "size": "16:9"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "bed274ae-73f4-41ff-82b1-de4221c7a3e6",
+      "7f0fb6a1-57a1-4bd7-a909-fd86be9da550"
+     ],
+     "files": [
+      {
+       "id": "f9e8fe3b-2ed5-4dfb-92bc-c1b7f8a36696",
+       "name": "image_1788286002771~3.jpeg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 221973,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/f9e8fe3b-2ed5-4dfb-92bc-c1b7f8a36696_image_1788286002771~3.jpeg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJmOWU4ZmUzYi0yZWQ1LTRkZmItOTJiYy1jMWI3ZjhhMzY2OTYiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.IFoOLDzk7CGImCV1W5z5dAOl1wYRAhM83vH6uTkv7rw",
+       "file": {
+        "created_at": 1789621831117,
+        "data": {},
+        "filename": "image_1788286002771~3.jpeg",
+        "hash": null,
+        "id": "f9e8fe3b-2ed5-4dfb-92bc-c1b7f8a36696",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "image_1788286002771~3.jpeg",
+         "size": 221973,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1789621831117,
+        "lastModified": 1788286332780,
+        "name": "image_1788286002771~3.jpeg",
+        "webkitRelativePath": "",
+        "size": 221973,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "201c88c3-93ed-49ef-b3ed-58625f56ce22",
+       "showType": "image",
+       "uploadTaskId": "d99221ce-3307-4270-916b-01b147676e87"
+      }
+     ],
+     "timestamp": 1789625672
+    },
+    "bed274ae-73f4-41ff-82b1-de4221c7a3e6": {
+     "role": "assistant",
+     "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/bed274ae-73f4-41ff-82b1-de4221c7a3e6/231d3949-ad21-4871-bc17-89b83af413f7.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIyMzFkMzk0OS1hZDIxLTQ4NzEtYmMxNy04OWI4M2FmNDEzZjciLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.0QvTtkSBHnR3CBdna7blEs00SZ0_k0MPOn2xsXWLWlo",
+     "reasoning_content": null,
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "bed274ae-73f4-41ff-82b1-de4221c7a3e6",
+     "parentId": "e6dafd84-d280-4e92-807a-0b3a12d3bc74",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/bed274ae-73f4-41ff-82b1-de4221c7a3e6/231d3949-ad21-4871-bc17-89b83af413f7.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIyMzFkMzk0OS1hZDIxLTQ4NzEtYmMxNy04OWI4M2FmNDEzZjciLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.0QvTtkSBHnR3CBdna7blEs00SZ0_k0MPOn2xsXWLWlo",
+       "phase": "video_gen",
+       "status": "finished",
+       "extra": null,
+       "role": "function"
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "wanx": {
+       "task_id": "231d3949-ad21-4871-bc17-89b83af413f7"
+      },
+      "endTime": 1789625673.6317093
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": {
+      "size": "16:9"
+     },
+     "timestamp": 1789625672
+    },
+    "7f0fb6a1-57a1-4bd7-a909-fd86be9da550": {
+     "role": "assistant",
+     "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/7f0fb6a1-57a1-4bd7-a909-fd86be9da550/991cc4d7-f4d2-46e1-8a22-1883c34e2654.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI5OTFjYzRkNy1mNGQyLTQ2ZTEtOGEyMi0xODgzYzM0ZTI2NTQiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.pVG7OwWHGgg3qGBq1O8H6JgXsYEkfOZnVdPOZ3CqsBM",
+     "reasoning_content": null,
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "7f0fb6a1-57a1-4bd7-a909-fd86be9da550",
+     "parentId": "e6dafd84-d280-4e92-807a-0b3a12d3bc74",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/7f0fb6a1-57a1-4bd7-a909-fd86be9da550/991cc4d7-f4d2-46e1-8a22-1883c34e2654.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI5OTFjYzRkNy1mNGQyLTQ2ZTEtOGEyMi0xODgzYzM0ZTI2NTQiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.pVG7OwWHGgg3qGBq1O8H6JgXsYEkfOZnVdPOZ3CqsBM",
+       "phase": "video_gen",
+       "status": "finished",
+       "extra": null,
+       "role": "function"
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "wanx": {
+       "task_id": "991cc4d7-f4d2-46e1-8a22-1883c34e2654"
+      },
+      "endTime": 1789625939.132123
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": {
+      "size": "16:9"
+     },
+     "timestamp": 1789625938
+    },
+    "1316f918-a010-4e3e-8600-13d82dda432b": {
+     "id": "1316f918-a010-4e3e-8600-13d82dda432b",
+     "role": "user",
+     "content": "(((Cinematic video intro, bunny boysensual and mysterious atmosphere, neon cyberpunk bunny, glowing eyes with a seductive gaze, slow motion, soft pink and purple lighting, smoke and haze effect, slow camera pan, intimate vibe, high detail, 4k.\"\nEspañol: tongue\"Intro de video cinematográfica, lengua, lick, drop, boy atmósfera sensual y misteriosa, conejo , lick de neón cyberpunk, ojos brillantes con mirada seductora, cámara lenta, drop  white .iluminación suave rosa y púrpura, efecto de humo y neblina, paneo lento de cámara, vibra íntima, alto detalle, 4k.\")))",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "i2v",
+       "size": "16:9"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "0bcd6427-f3f3-4a7e-9027-4e0e3a23c4c7"
+     ],
+     "files": [
+      {
+       "id": "f9e8fe3b-2ed5-4dfb-92bc-c1b7f8a36696",
+       "name": "image_1788286002771~3.jpeg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 221973,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/f9e8fe3b-2ed5-4dfb-92bc-c1b7f8a36696_image_1788286002771~3.jpeg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJmOWU4ZmUzYi0yZWQ1LTRkZmItOTJiYy1jMWI3ZjhhMzY2OTYiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.IFoOLDzk7CGImCV1W5z5dAOl1wYRAhM83vH6uTkv7rw",
+       "file": {
+        "created_at": 1789621831117,
+        "data": {},
+        "filename": "image_1788286002771~3.jpeg",
+        "hash": null,
+        "id": "f9e8fe3b-2ed5-4dfb-92bc-c1b7f8a36696",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "image_1788286002771~3.jpeg",
+         "size": 221973,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1789621831117,
+        "lastModified": 1788286332780,
+        "name": "image_1788286002771~3.jpeg",
+        "webkitRelativePath": "",
+        "size": 221973,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "201c88c3-93ed-49ef-b3ed-58625f56ce22",
+       "showType": "image",
+       "uploadTaskId": "d99221ce-3307-4270-916b-01b147676e87"
+      }
+     ],
+     "timestamp": 1789628805
+    },
+    "0bcd6427-f3f3-4a7e-9027-4e0e3a23c4c7": {
+     "role": "assistant",
+     "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/0bcd6427-f3f3-4a7e-9027-4e0e3a23c4c7/e0a81d9d-8182-402a-b3a5-7df6da3b8634.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJlMGE4MWQ5ZC04MTgyLTQwMmEtYjNhNS03ZGY2ZGEzYjg2MzQiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.1-2RYbnH9qZ5HW0bVFDVpGnDD9Pwt_FJYZJRrt_Lm6A",
+     "reasoning_content": null,
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "0bcd6427-f3f3-4a7e-9027-4e0e3a23c4c7",
+     "parentId": "1316f918-a010-4e3e-8600-13d82dda432b",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/0bcd6427-f3f3-4a7e-9027-4e0e3a23c4c7/e0a81d9d-8182-402a-b3a5-7df6da3b8634.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJlMGE4MWQ5ZC04MTgyLTQwMmEtYjNhNS03ZGY2ZGEzYjg2MzQiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.1-2RYbnH9qZ5HW0bVFDVpGnDD9Pwt_FJYZJRrt_Lm6A",
+       "phase": "video_gen",
+       "status": "finished",
+       "extra": null,
+       "role": "function"
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "wanx": {
+       "task_id": "e0a81d9d-8182-402a-b3a5-7df6da3b8634"
+      },
+      "endTime": 1789628806.0811362
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": {
+      "size": "16:9"
+     },
+     "timestamp": 1789628805
+    },
+    "e8b6a77f-062d-4d62-9df7-1fd18428d617": {
+     "id": "e8b6a77f-062d-4d62-9df7-1fd18428d617",
+     "role": "user",
+     "content": "liquid drop - mouth(((Cinematic video intro, bunny boysensual and mysterious atmosphere, neon cyberpunk bunny, glowing eyes with a seductive gaze, slow motion, soft pink and purple lighting, smoke and haze effect, slow camera pan, intimate vibe, high detail, 4k.\"\nEspañol: tongue\"Intro de video cinematográfica, lengua, lick, drop, boy atmósfera sensual y misteriosa, conejo , lick de neón cyberpunk, ojos brillantes con mirada seductora, cámara lenta, drop  white .iluminación suave rosa y púrpura, efecto de humo y neblina, paneo lento de cámara, vibra íntima, alto detalle, 4k.\"))) no lashes its a boy ",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "i2v",
+       "size": "16:9"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "fb643f80-9b34-490c-afc0-6a27f07f8faa"
+     ],
+     "files": [
+      {
+       "id": "f9e8fe3b-2ed5-4dfb-92bc-c1b7f8a36696",
+       "name": "image_1788286002771~3.jpeg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 221973,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/f9e8fe3b-2ed5-4dfb-92bc-c1b7f8a36696_image_1788286002771~3.jpeg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJmOWU4ZmUzYi0yZWQ1LTRkZmItOTJiYy1jMWI3ZjhhMzY2OTYiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.IFoOLDzk7CGImCV1W5z5dAOl1wYRAhM83vH6uTkv7rw",
+       "file": {
+        "created_at": 1789621831117,
+        "data": {},
+        "filename": "image_1788286002771~3.jpeg",
+        "hash": null,
+        "id": "f9e8fe3b-2ed5-4dfb-92bc-c1b7f8a36696",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "image_1788286002771~3.jpeg",
+         "size": 221973,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1789621831117,
+        "lastModified": 1788286332780,
+        "name": "image_1788286002771~3.jpeg",
+        "webkitRelativePath": "",
+        "size": 221973,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "201c88c3-93ed-49ef-b3ed-58625f56ce22",
+       "showType": "image",
+       "uploadTaskId": "d99221ce-3307-4270-916b-01b147676e87"
+      }
+     ],
+     "timestamp": 1789629886
+    },
+    "fb643f80-9b34-490c-afc0-6a27f07f8faa": {
+     "role": "assistant",
+     "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/fb643f80-9b34-490c-afc0-6a27f07f8faa/1203b14d-38d9-44af-b42c-a8c7e3b8a9ab.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxMjAzYjE0ZC0zOGQ5LTQ0YWYtYjQyYy1hOGM3ZTNiOGE5YWIiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.NFEbuS4BEVy6l1DznD-Qpo6nrR3xlVzRS-DH6DsjFcM",
+     "reasoning_content": null,
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "fb643f80-9b34-490c-afc0-6a27f07f8faa",
+     "parentId": "e8b6a77f-062d-4d62-9df7-1fd18428d617",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/fb643f80-9b34-490c-afc0-6a27f07f8faa/1203b14d-38d9-44af-b42c-a8c7e3b8a9ab.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxMjAzYjE0ZC0zOGQ5LTQ0YWYtYjQyYy1hOGM3ZTNiOGE5YWIiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.NFEbuS4BEVy6l1DznD-Qpo6nrR3xlVzRS-DH6DsjFcM",
+       "phase": "video_gen",
+       "status": "finished",
+       "extra": null,
+       "role": "function"
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "wanx": {
+       "task_id": "1203b14d-38d9-44af-b42c-a8c7e3b8a9ab"
+      },
+      "endTime": 1789629887.446797
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": {
+      "size": "16:9"
+     },
+     "timestamp": 1789629886
+    }
+   },
+   "currentId": "fb643f80-9b34-490c-afc0-6a27f07f8faa",
+   "currentResponseIds": [
+    "fb643f80-9b34-490c-afc0-6a27f07f8faa"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "e8b6a77f-062d-4d62-9df7-1fd18428d617",
+    "role": "user",
+    "content": "liquid drop - mouth(((Cinematic video intro, bunny boysensual and mysterious atmosphere, neon cyberpunk bunny, glowing eyes with a seductive gaze, slow motion, soft pink and purple lighting, smoke and haze effect, slow camera pan, intimate vibe, high detail, 4k.\"\nEspañol: tongue\"Intro de video cinematográfica, lengua, lick, drop, boy atmósfera sensual y misteriosa, conejo , lick de neón cyberpunk, ojos brillantes con mirada seductora, cámara lenta, drop  white .iluminación suave rosa y púrpura, efecto de humo y neblina, paneo lento de cámara, vibra íntima, alto detalle, 4k.\"))) no lashes its a boy ",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "i2v",
+      "size": "16:9"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "fb643f80-9b34-490c-afc0-6a27f07f8faa"
+    ],
+    "files": [
+     {
+      "id": "f9e8fe3b-2ed5-4dfb-92bc-c1b7f8a36696",
+      "name": "image_1788286002771~3.jpeg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 221973,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/f9e8fe3b-2ed5-4dfb-92bc-c1b7f8a36696_image_1788286002771~3.jpeg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJmOWU4ZmUzYi0yZWQ1LTRkZmItOTJiYy1jMWI3ZjhhMzY2OTYiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.IFoOLDzk7CGImCV1W5z5dAOl1wYRAhM83vH6uTkv7rw",
+      "file": {
+       "created_at": 1789621831117,
+       "data": {},
+       "filename": "image_1788286002771~3.jpeg",
+       "hash": null,
+       "id": "f9e8fe3b-2ed5-4dfb-92bc-c1b7f8a36696",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "image_1788286002771~3.jpeg",
+        "size": 221973,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1789621831117,
+       "lastModified": 1788286332780,
+       "name": "image_1788286002771~3.jpeg",
+       "webkitRelativePath": "",
+       "size": 221973,
+       "type": "image/jpeg"
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "201c88c3-93ed-49ef-b3ed-58625f56ce22",
+      "showType": "image",
+      "uploadTaskId": "d99221ce-3307-4270-916b-01b147676e87"
+     }
+    ],
+    "timestamp": 1789629886
+   },
+   {
+    "role": "assistant",
+    "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/fb643f80-9b34-490c-afc0-6a27f07f8faa/1203b14d-38d9-44af-b42c-a8c7e3b8a9ab.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxMjAzYjE0ZC0zOGQ5LTQ0YWYtYjQyYy1hOGM3ZTNiOGE5YWIiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.NFEbuS4BEVy6l1DznD-Qpo6nrR3xlVzRS-DH6DsjFcM",
+    "reasoning_content": null,
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "fb643f80-9b34-490c-afc0-6a27f07f8faa",
+    "parentId": "e8b6a77f-062d-4d62-9df7-1fd18428d617",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/fb643f80-9b34-490c-afc0-6a27f07f8faa/1203b14d-38d9-44af-b42c-a8c7e3b8a9ab.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxMjAzYjE0ZC0zOGQ5LTQ0YWYtYjQyYy1hOGM3ZTNiOGE5YWIiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.NFEbuS4BEVy6l1DznD-Qpo6nrR3xlVzRS-DH6DsjFcM",
+      "phase": "video_gen",
+      "status": "finished",
+      "extra": null,
+      "role": "function"
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "wanx": {
+      "task_id": "1203b14d-38d9-44af-b42c-a8c7e3b8a9ab"
+     },
+     "endTime": 1789629887.446797
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": {
+     "size": "16:9"
+    },
+    "timestamp": 1789629886
+   }
+  ]
+ },
+ "updated_at": 1789629886,
+ "created_at": 1789621847,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1789621845895
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "fb643f80-9b34-490c-afc0-6a27f07f8faa"
+ ],
+ "currentId": "fb643f80-9b34-490c-afc0-6a27f07f8faa",
+ "chat_type": "i2v",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

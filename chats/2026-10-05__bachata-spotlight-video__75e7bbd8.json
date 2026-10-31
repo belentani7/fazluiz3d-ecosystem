@@ -1,0 +1,276 @@
+{
+ "id": "75e7bbd8-3f59-4222-9e1f-ebc2bd7abfaa",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Bachata Spotlight Video",
+ "chat": {
+  "history": {
+   "messages": {
+    "202498e6-794e-4aaf-a186-bf2d96ef75cc": {
+     "id": "202498e6-794e-4aaf-a186-bf2d96ef75cc",
+     "role": "user",
+     "content": "Bachata , spotlight,no face only torno man and mand, slow long movement, elegant live live show movie. Dreamy 9:16 imax",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "i2v",
+       "size": "16:9"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "8ad9c35b-1a7f-4be8-99ce-fa07aa88f1bc"
+     ],
+     "files": [
+      {
+       "id": "4ab0611b-d5ca-4d50-919a-08ef633a8d96",
+       "name": "aifaceswap-7c35f44f9b4c9bc5b8b697feedaf8b55-01.jpeg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 554810,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/4ab0611b-d5ca-4d50-919a-08ef633a8d96_aifaceswap-7c35f44f9b4c9bc5b8b697feedaf8b55-01.jpeg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI0YWIwNjExYi1kNWNhLTRkNTAtOTE5YS0wOGVmNjMzYThkOTYiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.PD9yPnbnZq3mpT7MgwLeU0ItNlOClB90_XW9E3nQ_Yg",
+       "file": {
+        "created_at": 1791221522010,
+        "data": {},
+        "filename": "aifaceswap-7c35f44f9b4c9bc5b8b697feedaf8b55-01.jpeg",
+        "hash": null,
+        "id": "4ab0611b-d5ca-4d50-919a-08ef633a8d96",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "aifaceswap-7c35f44f9b4c9bc5b8b697feedaf8b55-01.jpeg",
+         "size": 554810,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1791221522010,
+        "lastModified": 1791221478000,
+        "name": "aifaceswap-7c35f44f9b4c9bc5b8b697feedaf8b55-01.jpeg",
+        "webkitRelativePath": "",
+        "size": 554810,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "0eb65123-1cdb-45e9-a6fe-0b2a970a2ecb",
+       "showType": "image",
+       "uploadTaskId": "26217a9f-3126-4d71-abb0-12ddc96f9338"
+      }
+     ],
+     "timestamp": 1791221538
+    },
+    "8ad9c35b-1a7f-4be8-99ce-fa07aa88f1bc": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "8ad9c35b-1a7f-4be8-99ce-fa07aa88f1bc",
+     "parentId": "202498e6-794e-4aaf-a186-bf2d96ef75cc",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": [],
+     "is_stop": false,
+     "edited": false,
+     "error": {
+      "modality": [
+       "text"
+      ],
+      "code": "data_inspection_failed",
+      "stage": "input",
+      "details": "Content security warning: input data may contain inappropriate content!"
+     },
+     "meta": {},
+     "extra": {
+      "wanx": {
+       "task_id": "90c008d7-c83c-48b8-8a7e-3490c5733104"
+      },
+      "endTime": 1791221540.5106606
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": {
+      "size": "16:9"
+     },
+     "timestamp": 1791221538
+    }
+   },
+   "currentId": "8ad9c35b-1a7f-4be8-99ce-fa07aa88f1bc",
+   "currentResponseIds": [
+    "8ad9c35b-1a7f-4be8-99ce-fa07aa88f1bc"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "202498e6-794e-4aaf-a186-bf2d96ef75cc",
+    "role": "user",
+    "content": "Bachata , spotlight,no face only torno man and mand, slow long movement, elegant live live show movie. Dreamy 9:16 imax",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "i2v",
+      "size": "16:9"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "8ad9c35b-1a7f-4be8-99ce-fa07aa88f1bc"
+    ],
+    "files": [
+     {
+      "id": "4ab0611b-d5ca-4d50-919a-08ef633a8d96",
+      "name": "aifaceswap-7c35f44f9b4c9bc5b8b697feedaf8b55-01.jpeg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 554810,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/4ab0611b-d5ca-4d50-919a-08ef633a8d96_aifaceswap-7c35f44f9b4c9bc5b8b697feedaf8b55-01.jpeg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI0YWIwNjExYi1kNWNhLTRkNTAtOTE5YS0wOGVmNjMzYThkOTYiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.PD9yPnbnZq3mpT7MgwLeU0ItNlOClB90_XW9E3nQ_Yg",
+      "file": {
+       "created_at": 1791221522010,
+       "data": {},
+       "filename": "aifaceswap-7c35f44f9b4c9bc5b8b697feedaf8b55-01.jpeg",
+       "hash": null,
+       "id": "4ab0611b-d5ca-4d50-919a-08ef633a8d96",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "aifaceswap-7c35f44f9b4c9bc5b8b697feedaf8b55-01.jpeg",
+        "size": 554810,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1791221522010,
+       "lastModified": 1791221478000,
+       "name": "aifaceswap-7c35f44f9b4c9bc5b8b697feedaf8b55-01.jpeg",
+       "webkitRelativePath": "",
+       "size": 554810,
+       "type": "image/jpeg"
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "0eb65123-1cdb-45e9-a6fe-0b2a970a2ecb",
+      "showType": "image",
+      "uploadTaskId": "26217a9f-3126-4d71-abb0-12ddc96f9338"
+     }
+    ],
+    "timestamp": 1791221538
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "8ad9c35b-1a7f-4be8-99ce-fa07aa88f1bc",
+    "parentId": "202498e6-794e-4aaf-a186-bf2d96ef75cc",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "content_list": [],
+    "is_stop": false,
+    "edited": false,
+    "error": {
+     "modality": [
+      "text"
+     ],
+     "code": "data_inspection_failed",
+     "stage": "input",
+     "details": "Content security warning: input data may contain inappropriate content!"
+    },
+    "meta": {},
+    "extra": {
+     "wanx": {
+      "task_id": "90c008d7-c83c-48b8-8a7e-3490c5733104"
+     },
+     "endTime": 1791221540.5106606
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": {
+     "size": "16:9"
+    },
+    "timestamp": 1791221538
+   }
+  ]
+ },
+ "updated_at": 1791221542,
+ "created_at": 1791221539,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1791221537292
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "8ad9c35b-1a7f-4be8-99ce-fa07aa88f1bc"
+ ],
+ "currentId": "8ad9c35b-1a7f-4be8-99ce-fa07aa88f1bc",
+ "chat_type": "i2v",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

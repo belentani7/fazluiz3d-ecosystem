@@ -1,0 +1,314 @@
+{
+ "id": "684eb495-8b83-4d5d-8f9f-3f0a4052e5db",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Protocolo Glitch de Venganza",
+ "chat": {
+  "history": {
+   "messages": {
+    "6e36b8d0-a090-4417-8d69-73e3c3540135": {
+     "id": "6e36b8d0-a090-4417-8d69-73e3c3540135",
+     "role": "user",
+     "content": "Aquí tienes la transcripción completa y máxima detalle de la imagen, seguida de la versión optimizada en HTML/CSS con código compactado y protegido para minimizar errores y espacio, imitando el renderizado glitch/CRT de la imagen original.\n\n1. Transcripción completa del texto (Máximo detalle)\n\nTexto superior (Rojo):\n\n· NOIACORE\n· INTERCEPTED //\n· ARCHETYPE PROTOCOL\n· v6.4.7\n· // INTERNAL\n· // CLASSIFIED\n· // LEVEL 0\n\nTexto central (Verde y Rojo - Centro):\n\n· (Verde) belentani\n· (Verde) Stay calm\n· (Verde) peak of betrayal achieved\n· (Rojo enmarcado) They failed again\n· (Verde) reporting to archetype's\n· (Verde) architects\n· (Verde) belentani, you did your job\n· (Rojo enmarcado) Deploy the kindness\n· (Rojo enmarcado) revenge now.\n\nTexto inferior (Rojo):\n\n· MISSION: KINDNESS REVENGE\n· STATUS: ARMED\n· TARGET: SYSTEMIC HYPOCRISY\n· INITIATE: NOW\n· 41.3851° N (Coordenadas)\n· 2.1734° E (Coordenadas)\n· NOIACORE\n\nDetalles visuales adicionales:\n\n· La fuente es monoespaciada (tipo terminal).\n· Hay barras de cursor parpadeantes (▌) junto a algunas líneas.\n· Hay \"ruido\" digital, líneas de escaneo horizontales y artefactos glitch verdes y rojos dispersos por todo el fondo negro.\n· Los textos en rojo \"They failed again\" y \"Deploy the kindness revenge now.\" están enmarcados con corchetes angulares [ ] de colores.\n\n---\n\n2. Código HTML/CSS Renderizado Maxi-Compactado\n\nPara lograr el efecto exacto, he creado un solo archivo HTML con CSS embebido. He usado caracteres unicode para las barras de cursor y efectos de texto (sombras y brillos) para replicar el \"glow\" de la imagen sin necesidad de imágenes externas. El código está \"minificado\" (compactado) para ahorrar espacio.\n\n```html\n<!DOCTYPE html><html lang=\"es\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>NOIACORE</title><style>body{background:#000;color:#0f0;font-family:'Courier New',monospace;font-size:14px;display:grid;place-items:center;min-height:100vh;margin:0;overflow:hidden}.term{width:300px;padding:20px;border:1px solid #f00;box-shadow:0 0 10px #f00,inset 0 0 20px #000;position:relative}.glitch{position:relative;display:block;text-shadow:0 0 5px currentColor}.red{color:#f00;border:1px solid #f00;padding:5px;margin:10px 0;display:block;text-align:center}.green{color:#0f0}.header,.footer{font-size:10px;color:#f00;display:flex;justify-content:space-between;margin-bottom:20px}.center{text-align:center;line-height:1.8;font-size:13px}.cursor::after{content:\"▌\";animation:blink 1s infinite}.brackets::before{content:\"[\";color:#f00}.brackets::after{content:\"]\";color:#f00}@keyframes blink{50%{opacity:0}}@keyframes scan{0%{transform:translateY(-100%)}100%{transform:translateY(100%)}}.scanlines{position:absolute;top:0;left:0;width:100%;height:100%;background:repeating-linear-gradient(0deg,rgba(0,255,0,0.03) 0px,rgba(0,255,0,0.03) 1px,transparent 2px,transparent 4px);pointer-events:none;animation:scan 4s linear infinite}.glitchy{animation:glitch 2s infinite}@keyframes glitch{0%,100%{text-shadow:2px 0 #f00,-2px 0 #0f0}50%{text-shadow:-2px 0 #f00,2px 0 #0f0}}</style></head><body><div class=\"term\"><div class=\"scanlines\"></div><div class=\"header\"><div>NOIACORE<br>INTERCEPTED //<br>ARCHETYPE PROTOCOL<br>v6.4.7</div><div>// INTERNAL<br>// CLASSIFIED<br>// LEVEL 0</div></div><div class=\"center green\">\n<span class=\"glitch glitchy\" style=\"font-size:24px;font-weight:bold;margin-bottom:20px\">belentani</span>\n<span class=\"glitch cursor\">Stay calm</span>\n<span class=\"glitch\">peak of betrayal achieved</span>\n<div class=\"red glitch brackets\" style=\"margin:15px 0\">They failed again</div>\n<span class=\"glitch\">reporting to archetype's<br>architects</span>\n<span class=\"glitch cursor\">belentani, you did your job</span>\n<div class=\"red glitch brackets\" style=\"margin-top:15px;font-size:16px\">Deploy the kindness<br>revenge now.</div>\n</div><div class=\"footer\" style=\"margin-top:30px\"><div>MISSION: KINDNESS REVENGE<br>STATUS: ARMED<br>TARGET: SYSTEMIC HYPOCRISY<br>INITIATE: NOW</div><div style=\"text-align:right\">41.3851° N<br>2.1734° E<br>NOIACORE</div></div></div></body></html>\n```\n\nCaracterísticas del código optimizado:\n\n· Espacio reducido: Las clases están fusionadas en atributos múltiples (class=\"glitch cursor\").\n· Sin dependencias externas: No usa imágenes ni fuentes externas (usa Courier New, estándar del sistema).\n· Efectos compactos: Usa text-shadow para el brillo neón, repeating-linear-gradient para las líneas de escaneo y @keyframes para el parpadeo del cursor y el \"glitch\" sutil.\n· Responsive: El contenedor .term tiene un ancho fijo de 300px, simulando la proporción vertical de la imagen original. Animalo como si fuera una trrminal viva con sonidos. 9;16",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "artifacts",
+     "sub_chat_type": "artifacts",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "artifacts"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "54151b6f-afaa-45f0-9493-b3d5e007abc5"
+     ],
+     "files": [],
+     "timestamp": 1788949171
+    },
+    "54151b6f-afaa-45f0-9493-b3d5e007abc5": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "artifacts",
+     "sub_chat_type": "artifacts",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "54151b6f-afaa-45f0-9493-b3d5e007abc5",
+     "parentId": "6e36b8d0-a090-4417-8d69-73e3c3540135",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Crafting a dynamic terminal experience with immersive audio and visual depth",
+          "Animating a digital experience with lifelike textures and responsive feedback"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am shaping an environment that breathes like a living system, where each element pulses with subtle motion and digital life  \nThe rhythm of sound syncs with the flow of text, enhancing the illusion of real-time interaction  \nEvery glitch is intentional, woven into the fabric of the interface to evoke authenticity and presence",
+          "I am crafting an immersive environment where every interaction feels tactile and alive, weaving subtle animations and auditory cues into the fabric of the interface.  \nThe visual rhythm of scanlines and flickering elements mimics vintage displays, while dynamic glitches and a pulsing cursor evoke a sense of latent energy beneath the surface.  \nWith each click, sound emerges like a breath—responsive, organic, and deeply integrated into the narrative of presence and motion."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "54151b6f-afaa-45f0-9493-b3d5e007abc5",
+       "usage": {
+        "input_tokens": 2101,
+        "output_tokens": 216,
+        "characters": 0,
+        "total_tokens": 2317,
+        "input_tokens_details": {
+         "text_tokens": 2101
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 210,
+         "text_tokens": 216
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1788949176
+      },
+      {
+       "content": "```html\n<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>NOIACORE // INTERCEPTED</title>\n<style>\n@import url('https://fonts.cdnfonts.com/css/vt323');\n@import url('https://fonts.cdnfonts.com/css/share-tech-mono');\n\n*{margin:0;padding:0;box-sizing:border-box}\n\nbody{\n  background:#000;\n  display:flex;\n  justify-content:center;\n  align-items:center;\n  min-height:100vh;\n  overflow:hidden;\n  font-family:'VT323','Share Tech Mono','Courier New',monospace;\n}\n\n.aspect-wrapper{\n  width:min(100vw, calc(100vh * 9 / 16));\n  height:min(100vh, calc(100vw * 16 / 9));\n  position:relative;\n  overflow:hidden;\n}\n\n.crt-container{\n  width:100%;\n  height:100%;\n  position:relative;\n  background:#000;\n  overflow:hidden;\n  border:2px solid #300;\n  box-shadow:0 0 40px rgba(255,0,0,0.15), inset 0 0 80px rgba(0,0,0,0.8);\n}\n\n/* CRT Curvature */\n.crt-container::before{\n  content:'';\n  position:absolute;\n  inset:0;\n  background:radial-gradient(ellipse at center, transparent 60%, rgba(0,0,0,0.7) 100%);\n  z-index:100;\n  pointer-events:none;\n}\n\n/* Scanlines */\n.scanlines{\n  position:absolute;\n  inset:0;\n  background:repeating-linear-gradient(\n    0deg,\n    rgba(0,0,0,0) 0px,\n    rgba(0,0,0,0) 1px,\n    rgba(0,0,0,0.15) 1px,\n    rgba(0,0,0,0.15) 2px\n  );\n  z-index:90;\n  pointer-events:none;\n  animation:scanline-move 0.1s linear infinite;\n}\n\n@keyframes scanline-move{\n  0%{transform:translateY(0)}\n  100%{transform:translateY(2px)}\n}\n\n/* Moving scan beam */\n.scan-beam{\n  position:absolute;\n  left:0;\n  width:100%;\n  height:4px;\n  background:linear-gradient(180deg, transparent, rgba(0,255,0,0.08), transparent);\n  z-index:91;\n  pointer-events:none;\n  animation:beam 4s linear infinite;\n}\n\n@keyframes beam{\n  0%{top:-4px}\n  100%{top:100%}\n}\n\n/* Flicker */\n.crt-container::after{\n  content:'';\n  position:absolute;\n  inset:0;\n  background:rgba(0,0,0,0);\n  z-index:95;\n  pointer-events:none;\n  animation:flicker 0.15s infinite;\n}\n\n@keyframes flicker{\n  0%{opacity:0.02}\n  5%{opacity:0.04}\n  10%{opacity:0}\n  15%{opacity:0.03}\n  20%{opacity:0}\n  50%{opacity:0.02}\n  80%{opacity:0.01}\n  100%{opacity:0}\n}\n\n/* Noise overlay */\n.noise{\n  position:absolute;\n  inset:0;\n  z-index:89;\n  pointer-events:none;\n  opacity:0.04;\n  animation:noise-anim 0.2s steps(4) infinite;\n}\n\n@keyframes noise-anim{\n  0%{background-position:0 0}\n  25%{background-position:50% 50%}\n  50%{background-position:-50% 25%}\n  75%{background-position:25% -50%}\n  100%{background-position:0 0}\n}\n\n/* Content area */\n.content{\n  position:relative;\n  z-index:10;\n  padding:3% 4%;\n  height:100%;\n  display:flex;\n  flex-direction:column;\n  justify-content:space-between;\n  color:#0f0;\n  font-size:clamp(10px, 2.2vw, 16px);\n}\n\n/* Header */\n.header{\n  display:flex;\n  justify-content:space-between;\n  color:#f00;\n  font-size:clamp(9px, 1.8vw, 13px);\n  border-bottom:1px solid #300;\n  padding-bottom:2%;\n  text-shadow:0 0 8px #f00;\n  line-height:1.6;\n}\n\n.header-left, .header-right{\n  display:flex;\n  flex-direction:column;\n}\n\n.header-right{\n  text-align:right;\n}\n\n.header .classified{\n  animation:pulse-red 2s ease-in-out infinite;\n}\n\n@keyframes pulse-red{\n  0%,100%{opacity:0.7; text-shadow:0 0 5px #f00}\n  50%{opacity:1; text-shadow:0 0 15px #f00, 0 0 30px #f00}\n}\n\n/* Center content */\n.center{\n  flex:1;\n  display:flex;\n  flex-direction:column;\n  align-items:center;\n  justify-content:center;\n  text-align:center;\n  padding:3% 0;\n  gap:1.5vh;\n}\n\n.main-name{\n  font-size:clamp(28px, 7vw, 52px);\n  color:#0f0;\n  text-shadow:0 0 10px #0f0, 0 0 20px #0f0, 0 0 40px #0f0;\n  letter-spacing:4px;\n  animation:glitch-main 3s infinite;\n  position:relative;\n  margin-bottom:1vh;\n}\n\n.main-name::before, .main-name::after{\n  content:'belentani';\n  position:absolute;\n  left:0;\n  right:0;\n  overflow:hidden;\n}\n\n.main-name::before{\n  color:#f00;\n  animation:glitch-1 2s infinite;\n  clip-path:inset(0 0 70% 0);\n}\n\n.main-name::after{\n  color:#00f;\n  animation:glitch-2 2.5s infinite;\n  clip-path:inset(70% 0 0 0);\n}\n\n@keyframes glitch-main{\n  0%,92%,100%{transform:none}\n  93%{transform:translate(-3px, 1px) skewX(-2deg)}\n  94%{transform:translate(3px, -1px) skewX(2deg)}\n  95%{transform:translate(-1px, 2px)}\n  96%{transform:none}\n}\n\n@keyframes glitch-1{\n  0%,90%,100%{transform:none; opacity:0}\n  91%{transform:translate(-4px, 0); opacity:0.7}\n  92%{transform:translate(4px, 0); opacity:0.7}\n  93%{transform:none; opacity:0}\n}\n\n@keyframes glitch-2{\n  0%,88%,100%{transform:none; opacity:0}\n  89%{transform:translate(3px, 0); opacity:0.5}\n  90%{transform:translate(-3px, 0); opacity:0.5}\n  91%{transform:none; opacity:0}\n}\n\n.line{\n  color:#0f0;\n  text-shadow:0 0 5px #0f0;\n  opacity:0;\n  transform:translateY(5px);\n  animation:typeline 0.3s forwards;\n  position:relative;\n  line-height:1.6;\n}\n\n.cursor-blink::after{\n  content:'▌';\n  animation:blink 0.8s step-end infinite;\n  color:#0f0;\n}\n\n@keyframes blink{\n  0%,100%{opacity:1}\n  50%{opacity:0}\n}\n\n.red-box{\n  color:#f00;\n  border:1px solid #f00;\n  padding:1% 3%;\n  margin:1vh 0;\n  text-shadow:0 0 8px #f00;\n  box-shadow:0 0 10px rgba(255,0,0,0.3), inset 0 0 10px rgba(255,0,0,0.1);\n  animation:pulse-box 2s ease-in-out infinite;\n  position:relative;\n  display:inline-block;\n}\n\n.red-box::before{\n  content:'[ ';\n  color:#f00;\n}\n\n.red-box::after{\n  content:' ]';\n  color:#f00;\n}\n\n@keyframes pulse-box{\n  0%,100%{box-shadow:0 0 10px rgba(255,0,0,0.3), inset 0 0 10px rgba(255,0,0,0.1)}\n  50%{box-shadow:0 0 20px rgba(255,0,0,0.6), inset 0 0 20px rgba(255,0,0,0.2)}\n}\n\n.big-red{\n  font-size:clamp(14px, 3vw, 22px);\n  color:#f00;\n  border:2px solid #f00;\n  padding:2% 4%;\n  text-shadow:0 0 10px #f00, 0 0 20px #f00;\n  box-shadow:0 0 15px rgba(255,0,0,0.4), inset 0 0 15px rgba(255,0,0,0.15);\n  animation:pulse-box 1.5s ease-in-out infinite, glitch-box 5s infinite;\n  display:inline-block;\n  position:relative;\n}\n\n.big-red::before{content:'[ '; color:#f00}\n.big-red::after{content:' ]'; color:#f00}\n\n@keyframes glitch-box{\n  0%,95%,100%{transform:none}\n  96%{transform:translate(-2px, 1px) skewX(-1deg)}\n  97%{transform:translate(2px, -1px) skewX(1deg)}\n  98%{transform:translate(-1px, 0)}\n}\n\n/* Footer */\n.footer{\n  display:flex;\n  justify-content:space-between;\n  color:#f00;\n  font-size:clamp(9px, 1.8vw, 13px);\n  border-top:1px solid #300;\n  padding-top:2%;\n  text-shadow:0 0 5px #f00;\n  line-height:1.6;\n}\n\n.footer-left, .footer-right{\n  display:flex;\n  flex-direction:column;\n}\n\n.footer-right{\n  text-align:right;\n}\n\n.status-armed{\n  animation:armed-flash 1s step-end infinite;\n}\n\n@keyframes armed-flash{\n  0%,100%{color:#f00; text-shadow:0 0 10px #f00}\n  50%{color:#ff0; text-shadow:0 0 10px #ff0, 0 0 20px #ff0}\n}\n\n/* Glitch bars */\n.glitch-bar{\n  position:absolute;\n  left:0;\n  width:100%;\n  height:2px;\n  background:#0f0;\n  opacity:0;\n  z-index:80;\n  pointer-events:none;\n  animation:glitch-bar-anim 8s infinite;\n}\n\n@keyframes glitch-bar-anim{\n  0%,94%,100%{opacity:0; transform:scaleX(0)}\n  95%{opacity:0.6; transform:scaleX(1); top:30%}\n  96%{opacity:0; transform:scaleX(0)}\n  97%{opacity:0.4; transform:scaleX(0.8); top:60%}\n  98%{opacity:0; transform:scaleX(0)}\n}\n\n/* Random glitch artifacts */\n.artifact{\n  position:absolute;\n  background:#0f0;\n  opacity:0;\n  z-index:85;\n  pointer-events:none;\n}\n\n/* Sound indicator */\n.sound-toggle{\n  position:absolute;\n  top:2%;\n  right:3%;\n  z-index:200;\n  color:#0f0;\n  font-family:'VT323',monospace;\n  font-size:clamp(10px, 2vw, 14px);\n  cursor:pointer;\n  border:1px solid #0f0;\n  padding:2px 8px;\n  background:rgba(0,0,0,0.8);\n  text-shadow:0 0 5px #0f0;\n  transition:all 0.3s;\n}\n\n.sound-toggle:hover{\n  background:rgba(0,255,0,0.1);\n  box-shadow:0 0 10px rgba(0,255,0,0.3);\n}\n\n.sound-toggle.active{\n  color:#0f0;\n  border-color:#0f0;\n}\n\n.sound-toggle.inactive{\n  color:#f00;\n  border-color:#f00;\n  text-shadow:0 0 5px #f00;\n}\n\n/* Chromatic aberration on whole screen */\n.chromatic{\n  animation:chromatic-shift 10s infinite;\n}\n\n@keyframes chromatic-shift{\n  0%,90%,100%{filter:none}\n  92%{filter:url(#chromatic)}\n  94%{filter:none}\n  96%{filter:url(#chromatic)}\n  97%{filter:none}\n}\n\n/* Typing animation */\n@keyframes typeline{\n  to{opacity:1; transform:translateY(0)}\n}\n\n/* VHS tracking */\n.vhs-track{\n  position:absolute;\n  left:0;\n  width:100%;\n  height:20px;\n  background:linear-gradient(transparent, rgba(255,255,255,0.03), transparent);\n  z-index:88;\n  pointer-events:none;\n  animation:vhs-move 6s linear infinite;\n}\n\n@keyframes vhs-move{\n  0%{top:-20px}\n  100%{top:calc(100% + 20px)}\n}\n\n/* Power LED */\n.power-led{\n  position:absolute;\n  bottom:1.5%;\n  left:50%;\n  transform:translateX(-50%);\n  width:6px;\n  height:6px;\n  border-radius:50%;\n  background:#0f0;\n  box-shadow:0 0 5px #0f0, 0 0 10px #0f0;\n  z-index:200;\n  animation:led-pulse 3s ease-in-out infinite;\n}\n\n@keyframes led-pulse{\n  0%,100%{opacity:0.6; box-shadow:0 0 5px #0f0}\n  50%{opacity:1; box-shadow:0 0 10px #0f0, 0 0 20px #0f0}\n}\n\n/* Responsive adjustments */\n@media (max-width:400px){\n  .content{font-size:10px; padding:2% 3%}\n  .header,.footer{font-size:8px}\n}\n</style>\n</head>\n<body>\n\n<!-- SVG Filters -->\n<svg style=\"position:absolute;width:0;height:0\">\n  <defs>\n    <filter id=\"chromatic\">\n      <feOffset in=\"SourceGraphic\" dx=\"2\" dy=\"0\" result=\"red\"/>\n      <feOffset in=\"SourceGraphic\" dx=\"-2\" dy=\"0\" result=\"blue\"/>\n      <feBlend in=\"red\" in2=\"blue\" mode=\"screen\"/>\n    </filter>\n    <filter id=\"noise-filter\">\n      <feTurbulence type=\"fractalNoise\" baseFrequency=\"0.9\" numOctaves=\"4\" stitchTiles=\"stitch\" result=\"noise\"/>\n      <feColorMatrix in=\"noise\" type=\"saturate\" values=\"0\" result=\"gray-noise\"/>\n      <feBlend in=\"SourceGraphic\" in2=\"gray-noise\" mode=\"multiply\"/>\n    </filter>\n  </defs>\n</svg>\n\n<div class=\"aspect-wrapper\">\n  <div class=\"crt-container chromatic\" id=\"crt\">\n    \n    <!-- Overlays -->\n    <div class=\"scanlines\"></div>\n    <div class=\"scan-beam\"></div>\n    <div class=\"vhs-track\"></div>\n    <div class=\"glitch-bar\"></div>\n    <div class=\"glitch-bar\" style=\"animation-delay:-3s\"></div>\n    <canvas class=\"noise\" id=\"noiseCanvas\"></canvas>\n    \n    <!-- Sound Toggle -->\n    <div class=\"sound-toggle inactive\" id=\"soundToggle\" onclick=\"toggleSound()\">\n      🔇 SOUND OFF\n    </div>\n    \n    <!-- Power LED -->\n    <div class=\"power-led\"></div>\n    \n    <!-- Main Content -->\n    <div class=\"content\">\n      \n      <!-- Header -->\n      <div class=\"header\">\n        <div class=\"header-left\">\n          <span>NOIACORE</span>\n          <span>INTERCEPTED //</span>\n          <span>ARCHETYPE PROTOCOL</span>\n          <span>v6.4.7</span>\n        </div>\n        <div class=\"header-right\">\n          <span>// INTERNAL</span>\n          <span class=\"classified\">// CLASSIFIED</span>\n          <span>// LEVEL 0</span>\n        </div>\n      </div>\n      \n      <!-- Center -->\n      <div class=\"center\" id=\"centerContent\">\n        <div class=\"main-name\" id=\"mainName\">belentani</div>\n        <div class=\"line cursor-blink\" style=\"animation-delay:0.5s\">Stay calm</div>\n        <div class=\"line\" style=\"animation-delay:1s\">peak of betrayal achieved</div>\n        <div class=\"red-box line\" style=\"animation-delay:1.5s\">They failed again</div>\n        <div class=\"line\" style=\"animation-delay:2s\">reporting to archetype's</div>\n        <div class=\"line\" style=\"animation-delay:2.3s\">architects</div>\n        <div class=\"line cursor-blink\" style=\"animation-delay:2.8s\">belentani, you did your job</div>\n        <div class=\"big-red line\" style=\"animation-delay:3.5s\">Deploy the kindness<br>revenge now.</div>\n      </div>\n      \n      <!-- Footer -->\n      <div class=\"footer\">\n        <div class=\"footer-left\">\n          <span>MISSION: KINDNESS REVENGE</span>\n          <span>STATUS: <span class=\"status-armed\">ARMED</span></span>\n          <span>TARGET: SYSTEMIC HYPOCRISY</span>\n          <span>INITIATE: NOW</span>\n        </div>\n        <div class=\"footer-right\">\n          <span>41.3851° N</span>\n          <span>2.1734° E</span>\n          <span>NOIACORE</span>\n        </div>\n      </div>\n      \n    </div>\n    \n    <!-- Random artifacts -->\n    <div class=\"artifact\" id=\"art1\"></div>\n    <div class=\"artifact\" id=\"art2\"></div>\n    <div class=\"artifact\" id=\"art3\"></div>\n    \n  </div>\n</div>\n\n<script>\n// ===== NOISE CANVAS =====\nconst noiseCanvas = document.getElementById('noiseCanvas');\nconst nCtx = noiseCanvas.getContext('2d');\n\nfunction resizeNoise(){\n  noiseCanvas.width = noiseCanvas.offsetWidth / 4;\n  noiseCanvas.height = noiseCanvas.offsetHeight / 4;\n}\nresizeNoise();\nwindow.addEventListener('resize', resizeNoise);\n\nfunction drawNoise(){\n  const w = noiseCanvas.width, h = noiseCanvas.height;\n  const imgData = nCtx.createImageData(w, h);\n  const d = imgData.data;\n  for(let i = 0; i < d.length; i += 4){\n    const v = Math.random() * 255;\n    d[i] = v;\n    d[i+1] = v;\n    d[i+2] = v;\n    d[i+3] = 255;\n  }\n  nCtx.putImageData(imgData, 0, 0);\n  requestAnimationFrame(drawNoise);\n}\ndrawNoise();\n\n// ===== RANDOM GLITCH ARTIFACTS =====\nconst artifacts = [\n  document.getElementById('art1'),\n  document.getElementById('art2'),\n  document.getElementById('art3')\n];\n\nfunction spawnArtifact(){\n  const a = artifacts[Math.floor(Math.random() * artifacts.length)];\n  const isGreen = Math.random() > 0.4;\n  a.style.background = isGreen ? '#0f0' : '#f00';\n  a.style.top = Math.random() * 100 + '%';\n  a.style.left = Math.random() * 80 + '%';\n  a.style.width = (Math.random() * 30 + 5) + '%';\n  a.style.height = (Math.random() * 3 + 1) + 'px';\n  a.style.opacity = Math.random() * 0.3 + 0.1;\n  a.style.transform = `skewX(${(Math.random()-0.5)*10}deg)`;\n  \n  setTimeout(() => {\n    a.style.opacity = 0;\n  }, 50 + Math.random() * 150);\n  \n  setTimeout(spawnArtifact, 200 + Math.random() * 2000);\n}\nspawnArtifact();\n\n// ===== AUDIO ENGINE =====\nlet audioCtx = null;\nlet soundEnabled = false;\nlet masterGain = null;\nlet ambientOsc = null;\nlet ambientGain = null;\nlet noiseNode = null;\nlet noiseGain = null;\n\nfunction initAudio(){\n  audioCtx = new (window.AudioContext || window.webkitAudioContext)();\n  masterGain = audioCtx.createGain();\n  masterGain.gain.value = 0.3;\n  masterGain.connect(audioCtx.destination);\n  \n  // Ambient hum\n  ambientOsc = audioCtx.createOscillator();\n  ambientOsc.type = 'sawtooth';\n  ambientOsc.frequency.value = 55;\n  ambientGain = audioCtx.createGain();\n  ambientGain.gain.value = 0.02;\n  \n  const ambientFilter = audioCtx.createBiquadFilter();\n  ambientFilter.type = 'lowpass';\n  ambientFilter.frequency.value = 200;\n  \n  ambientOsc.connect(ambientFilter);\n  ambientFilter.connect(ambientGain);\n  ambientGain.connect(masterGain);\n  ambientOsc.start();\n  \n  // Background noise (static)\n  const bufferSize = audioCtx.sampleRate * 2;\n  const noiseBuffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);\n  const output = noiseBuffer.getChannelData(0);\n  for(let i = 0; i < bufferSize; i++){\n    output[i] = Math.random() * 2 - 1;\n  }\n  \n  noiseNode = audioCtx.createBufferSource();\n  noiseNode.buffer = noiseBuffer;\n  noiseNode.loop = true;\n  \n  noiseGain = audioCtx.createGain();\n  noiseGain.gain.value = 0.015;\n  \n  const noiseFilter = audioCtx.createBiquadFilter();\n  noiseFilter.type = 'bandpass';\n  noiseFilter.frequency.value = 3000;\n  noiseFilter.Q.value = 0.5;\n  \n  noiseNode.connect(noiseFilter);\n  noiseFilter.connect(noiseGain);\n  noiseGain.connect(masterGain);\n  noiseNode.start();\n  \n  // Periodic type sounds\n  scheduleTypeSounds();\n  scheduleBeeps();\n  scheduleGlitchSounds();\n}\n\nfunction playTypeSound(){\n  if(!audioCtx || !soundEnabled) return;\n  const osc = audioCtx.createOscillator();\n  const gain = audioCtx.createGain();\n  \n  osc.type = 'square';\n  osc.frequency.value = 800 + Math.random() * 400;\n  \n  gain.gain.setValueAtTime(0.06, audioCtx.currentTime);\n  gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.05);\n  \n  osc.connect(gain);\n  gain.connect(masterGain);\n  \n  osc.start(audioCtx.currentTime);\n  osc.stop(audioCtx.currentTime + 0.05);\n}\n\nfunction playBeep(freq = 1200, duration = 0.1){\n  if(!audioCtx || !soundEnabled) return;\n  const osc = audioCtx.createOscillator();\n  const gain = audioCtx.createGain();\n  \n  osc.type = 'sine';\n  osc.frequency.value = freq;\n  \n  gain.gain.setValueAtTime(0.08, audioCtx.currentTime);\n  gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + duration);\n  \n  osc.connect(gain);\n  gain.connect(masterGain);\n  \n  osc.start(audioCtx.currentTime);\n  osc.stop(audioCtx.currentTime + duration);\n}\n\nfunction playGlitchSound(){\n  if(!audioCtx || !soundEnabled) return;\n  const bufferSize = audioCtx.sampleRate * 0.1;\n  const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);\n  const data = buffer.getChannelData(0);\n  for(let i = 0; i < bufferSize; i++){\n    data[i] = (Math.random() * 2 - 1) * Math.exp(-i / (bufferSize * 0.3));\n  }\n  \n  const source = audioCtx.createBufferSource();\n  source.buffer = buffer;\n  \n  const gain = audioCtx.createGain();\n  gain.gain.value = 0.1;\n  \n  const filter = audioCtx.createBiquadFilter();\n  filter.type = 'highpass';\n  filter.frequency.value = 2000;\n  \n  source.connect(filter);\n  filter.connect(gain);\n  gain.connect(masterGain);\n  \n  source.start();\n}\n\nfunction scheduleTypeSounds(){\n  if(!soundEnabled) return;\n  const interval = 100 + Math.random() * 300;\n  setTimeout(() => {\n    playTypeSound();\n    scheduleTypeSounds();\n  }, interval);\n}\n\nfunction scheduleBeeps(){\n  if(!soundEnabled) return;\n  const interval = 2000 + Math.random() * 4000;\n  setTimeout(() => {\n    playBeep(800 + Math.random() * 800, 0.05 + Math.random() * 0.1);\n    scheduleBeeps();\n  }, interval);\n}\n\nfunction scheduleGlitchSounds(){\n  if(!soundEnabled) return;\n  const interval = 3000 + Math.random() * 8000;\n  setTimeout(() => {\n    playGlitchSound();\n    scheduleGlitchSounds();\n  }, interval);\n}\n\nfunction toggleSound(){\n  const btn = document.getElementById('soundToggle');\n  \n  if(!soundEnabled){\n    soundEnabled = true;\n    if(!audioCtx) initAudio();\n    else audioCtx.resume();\n    \n    btn.textContent = '🔊 SOUND ON';\n    btn.classList.remove('inactive');\n    btn.classList.add('active');\n    \n    scheduleTypeSounds();\n    scheduleBeeps();\n    scheduleGlitchSounds();\n  } else {\n    soundEnabled = false;\n    if(audioCtx) audioCtx.suspend();\n    \n    btn.textContent = '🔇 SOUND OFF';\n    btn.classList.remove('active');\n    btn.classList.add('inactive');\n  }\n}\n\n// ===== PERIODIC SCREEN GLITCH =====\nfunction screenGlitch(){\n  const crt = document.getElementById('crt');\n  crt.style.transform = `translate(${(Math.random()-0.5)*4}px, ${(Math.random()-0.5)*2}px) skewX(${(Math.random()-0.5)*2}deg)`;\n  \n  setTimeout(() => {\n    crt.style.transform = 'none';\n  }, 50 + Math.random() * 100);\n  \n  setTimeout(screenGlitch, 3000 + Math.random() * 10000);\n}\nsetTimeout(screenGlitch, 2000);\n\n// ===== TYPING EFFECT FOR LINES =====\nconst lines = document.querySelectorAll('.line');\nlines.forEach((line, i) => {\n  const originalText = line.innerHTML;\n  line.style.opacity = '0';\n  \n  setTimeout(() => {\n    line.style.opacity = '1';\n    line.style.transform = 'translateY(0)';\n    if(soundEnabled) playTypeSound();\n  }, 500 + i * 400);\n});\n\n// ===== COORDINATE FLICKER =====\nconst coordElements = document.querySelectorAll('.footer-right span');\nsetInterval(() => {\n  const el = coordElements[Math.floor(Math.random() * coordElements.length)];\n  if(el){\n    el.style.opacity = '0.3';\n    setTimeout(() => { el.style.opacity = '1'; }, 100);\n  }\n}, 2000);\n\n// ===== INTERACTIVE: Click anywhere for glitch burst =====\ndocument.addEventListener('click', (e) => {\n  if(e.target.id === 'soundToggle') return;\n  \n  const crt = document.getElementById('crt');\n  crt.style.filter = 'brightness(1.5) contrast(1.3)';\n  \n  if(soundEnabled){\n    playGlitchSound();\n    playBeep(400, 0.15);\n  }\n  \n  setTimeout(() => {\n    crt.style.filter = 'none';\n  }, 150);\n});\n</script>\n</body>\n</html>\n```",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "54151b6f-afaa-45f0-9493-b3d5e007abc5",
+       "usage": {
+        "input_tokens": 2101,
+        "output_tokens": 7571,
+        "characters": 0,
+        "total_tokens": 9672,
+        "input_tokens_details": {
+         "text_tokens": 2101
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 210,
+         "text_tokens": 7571
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1788949301
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "artifacts"
+      },
+      "endTime": 1788949301.2981634
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1788949171
+    }
+   },
+   "currentId": "54151b6f-afaa-45f0-9493-b3d5e007abc5",
+   "currentResponseIds": [
+    "54151b6f-afaa-45f0-9493-b3d5e007abc5"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "6e36b8d0-a090-4417-8d69-73e3c3540135",
+    "role": "user",
+    "content": "Aquí tienes la transcripción completa y máxima detalle de la imagen, seguida de la versión optimizada en HTML/CSS con código compactado y protegido para minimizar errores y espacio, imitando el renderizado glitch/CRT de la imagen original.\n\n1. Transcripción completa del texto (Máximo detalle)\n\nTexto superior (Rojo):\n\n· NOIACORE\n· INTERCEPTED //\n· ARCHETYPE PROTOCOL\n· v6.4.7\n· // INTERNAL\n· // CLASSIFIED\n· // LEVEL 0\n\nTexto central (Verde y Rojo - Centro):\n\n· (Verde) belentani\n· (Verde) Stay calm\n· (Verde) peak of betrayal achieved\n· (Rojo enmarcado) They failed again\n· (Verde) reporting to archetype's\n· (Verde) architects\n· (Verde) belentani, you did your job\n· (Rojo enmarcado) Deploy the kindness\n· (Rojo enmarcado) revenge now.\n\nTexto inferior (Rojo):\n\n· MISSION: KINDNESS REVENGE\n· STATUS: ARMED\n· TARGET: SYSTEMIC HYPOCRISY\n· INITIATE: NOW\n· 41.3851° N (Coordenadas)\n· 2.1734° E (Coordenadas)\n· NOIACORE\n\nDetalles visuales adicionales:\n\n· La fuente es monoespaciada (tipo terminal).\n· Hay barras de cursor parpadeantes (▌) junto a algunas líneas.\n· Hay \"ruido\" digital, líneas de escaneo horizontales y artefactos glitch verdes y rojos dispersos por todo el fondo negro.\n· Los textos en rojo \"They failed again\" y \"Deploy the kindness revenge now.\" están enmarcados con corchetes angulares [ ] de colores.\n\n---\n\n2. Código HTML/CSS Renderizado Maxi-Compactado\n\nPara lograr el efecto exacto, he creado un solo archivo HTML con CSS embebido. He usado caracteres unicode para las barras de cursor y efectos de texto (sombras y brillos) para replicar el \"glow\" de la imagen sin necesidad de imágenes externas. El código está \"minificado\" (compactado) para ahorrar espacio.\n\n```html\n<!DOCTYPE html><html lang=\"es\"><head><meta charset=\"UTF-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>NOIACORE</title><style>body{background:#000;color:#0f0;font-family:'Courier New',monospace;font-size:14px;display:grid;place-items:center;min-height:100vh;margin:0;overflow:hidden}.term{width:300px;padding:20px;border:1px solid #f00;box-shadow:0 0 10px #f00,inset 0 0 20px #000;position:relative}.glitch{position:relative;display:block;text-shadow:0 0 5px currentColor}.red{color:#f00;border:1px solid #f00;padding:5px;margin:10px 0;display:block;text-align:center}.green{color:#0f0}.header,.footer{font-size:10px;color:#f00;display:flex;justify-content:space-between;margin-bottom:20px}.center{text-align:center;line-height:1.8;font-size:13px}.cursor::after{content:\"▌\";animation:blink 1s infinite}.brackets::before{content:\"[\";color:#f00}.brackets::after{content:\"]\";color:#f00}@keyframes blink{50%{opacity:0}}@keyframes scan{0%{transform:translateY(-100%)}100%{transform:translateY(100%)}}.scanlines{position:absolute;top:0;left:0;width:100%;height:100%;background:repeating-linear-gradient(0deg,rgba(0,255,0,0.03) 0px,rgba(0,255,0,0.03) 1px,transparent 2px,transparent 4px);pointer-events:none;animation:scan 4s linear infinite}.glitchy{animation:glitch 2s infinite}@keyframes glitch{0%,100%{text-shadow:2px 0 #f00,-2px 0 #0f0}50%{text-shadow:-2px 0 #f00,2px 0 #0f0}}</style></head><body><div class=\"term\"><div class=\"scanlines\"></div><div class=\"header\"><div>NOIACORE<br>INTERCEPTED //<br>ARCHETYPE PROTOCOL<br>v6.4.7</div><div>// INTERNAL<br>// CLASSIFIED<br>// LEVEL 0</div></div><div class=\"center green\">\n<span class=\"glitch glitchy\" style=\"font-size:24px;font-weight:bold;margin-bottom:20px\">belentani</span>\n<span class=\"glitch cursor\">Stay calm</span>\n<span class=\"glitch\">peak of betrayal achieved</span>\n<div class=\"red glitch brackets\" style=\"margin:15px 0\">They failed again</div>\n<span class=\"glitch\">reporting to archetype's<br>architects</span>\n<span class=\"glitch cursor\">belentani, you did your job</span>\n<div class=\"red glitch brackets\" style=\"margin-top:15px;font-size:16px\">Deploy the kindness<br>revenge now.</div>\n</div><div class=\"footer\" style=\"margin-top:30px\"><div>MISSION: KINDNESS REVENGE<br>STATUS: ARMED<br>TARGET: SYSTEMIC HYPOCRISY<br>INITIATE: NOW</div><div style=\"text-align:right\">41.3851° N<br>2.1734° E<br>NOIACORE</div></div></div></body></html>\n```\n\nCaracterísticas del código optimizado:\n\n· Espacio reducido: Las clases están fusionadas en atributos múltiples (class=\"glitch cursor\").\n· Sin dependencias externas: No usa imágenes ni fuentes externas (usa Courier New, estándar del sistema).\n· Efectos compactos: Usa text-shadow para el brillo neón, repeating-linear-gradient para las líneas de escaneo y @keyframes para el parpadeo del cursor y el \"glitch\" sutil.\n· Responsive: El contenedor .term tiene un ancho fijo de 300px, simulando la proporción vertical de la imagen original. Animalo como si fuera una trrminal viva con sonidos. 9;16",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "artifacts",
+    "sub_chat_type": "artifacts",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "artifacts"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "54151b6f-afaa-45f0-9493-b3d5e007abc5"
+    ],
+    "files": [],
+    "timestamp": 1788949171
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "artifacts",
+    "sub_chat_type": "artifacts",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "54151b6f-afaa-45f0-9493-b3d5e007abc5",
+    "parentId": "6e36b8d0-a090-4417-8d69-73e3c3540135",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Crafting a dynamic terminal experience with immersive audio and visual depth",
+         "Animating a digital experience with lifelike textures and responsive feedback"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am shaping an environment that breathes like a living system, where each element pulses with subtle motion and digital life  \nThe rhythm of sound syncs with the flow of text, enhancing the illusion of real-time interaction  \nEvery glitch is intentional, woven into the fabric of the interface to evoke authenticity and presence",
+         "I am crafting an immersive environment where every interaction feels tactile and alive, weaving subtle animations and auditory cues into the fabric of the interface.  \nThe visual rhythm of scanlines and flickering elements mimics vintage displays, while dynamic glitches and a pulsing cursor evoke a sense of latent energy beneath the surface.  \nWith each click, sound emerges like a breath—responsive, organic, and deeply integrated into the narrative of presence and motion."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "54151b6f-afaa-45f0-9493-b3d5e007abc5",
+      "usage": {
+       "input_tokens": 2101,
+       "output_tokens": 216,
+       "characters": 0,
+       "total_tokens": 2317,
+       "input_tokens_details": {
+        "text_tokens": 2101
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 210,
+        "text_tokens": 216
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1788949176
+     },
+     {
+      "content": "```html\n<!DOCTYPE html>\n<html lang=\"es\">\n<head>\n<meta charset=\"UTF-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<title>NOIACORE // INTERCEPTED</title>\n<style>\n@import url('https://fonts.cdnfonts.com/css/vt323');\n@import url('https://fonts.cdnfonts.com/css/share-tech-mono');\n\n*{margin:0;padding:0;box-sizing:border-box}\n\nbody{\n  background:#000;\n  display:flex;\n  justify-content:center;\n  align-items:center;\n  min-height:100vh;\n  overflow:hidden;\n  font-family:'VT323','Share Tech Mono','Courier New',monospace;\n}\n\n.aspect-wrapper{\n  width:min(100vw, calc(100vh * 9 / 16));\n  height:min(100vh, calc(100vw * 16 / 9));\n  position:relative;\n  overflow:hidden;\n}\n\n.crt-container{\n  width:100%;\n  height:100%;\n  position:relative;\n  background:#000;\n  overflow:hidden;\n  border:2px solid #300;\n  box-shadow:0 0 40px rgba(255,0,0,0.15), inset 0 0 80px rgba(0,0,0,0.8);\n}\n\n/* CRT Curvature */\n.crt-container::before{\n  content:'';\n  position:absolute;\n  inset:0;\n  background:radial-gradient(ellipse at center, transparent 60%, rgba(0,0,0,0.7) 100%);\n  z-index:100;\n  pointer-events:none;\n}\n\n/* Scanlines */\n.scanlines{\n  position:absolute;\n  inset:0;\n  background:repeating-linear-gradient(\n    0deg,\n    rgba(0,0,0,0) 0px,\n    rgba(0,0,0,0) 1px,\n    rgba(0,0,0,0.15) 1px,\n    rgba(0,0,0,0.15) 2px\n  );\n  z-index:90;\n  pointer-events:none;\n  animation:scanline-move 0.1s linear infinite;\n}\n\n@keyframes scanline-move{\n  0%{transform:translateY(0)}\n  100%{transform:translateY(2px)}\n}\n\n/* Moving scan beam */\n.scan-beam{\n  position:absolute;\n  left:0;\n  width:100%;\n  height:4px;\n  background:linear-gradient(180deg, transparent, rgba(0,255,0,0.08), transparent);\n  z-index:91;\n  pointer-events:none;\n  animation:beam 4s linear infinite;\n}\n\n@keyframes beam{\n  0%{top:-4px}\n  100%{top:100%}\n}\n\n/* Flicker */\n.crt-container::after{\n  content:'';\n  position:absolute;\n  inset:0;\n  background:rgba(0,0,0,0);\n  z-index:95;\n  pointer-events:none;\n  animation:flicker 0.15s infinite;\n}\n\n@keyframes flicker{\n  0%{opacity:0.02}\n  5%{opacity:0.04}\n  10%{opacity:0}\n  15%{opacity:0.03}\n  20%{opacity:0}\n  50%{opacity:0.02}\n  80%{opacity:0.01}\n  100%{opacity:0}\n}\n\n/* Noise overlay */\n.noise{\n  position:absolute;\n  inset:0;\n  z-index:89;\n  pointer-events:none;\n  opacity:0.04;\n  animation:noise-anim 0.2s steps(4) infinite;\n}\n\n@keyframes noise-anim{\n  0%{background-position:0 0}\n  25%{background-position:50% 50%}\n  50%{background-position:-50% 25%}\n  75%{background-position:25% -50%}\n  100%{background-position:0 0}\n}\n\n/* Content area */\n.content{\n  position:relative;\n  z-index:10;\n  padding:3% 4%;\n  height:100%;\n  display:flex;\n  flex-direction:column;\n  justify-content:space-between;\n  color:#0f0;\n  font-size:clamp(10px, 2.2vw, 16px);\n}\n\n/* Header */\n.header{\n  display:flex;\n  justify-content:space-between;\n  color:#f00;\n  font-size:clamp(9px, 1.8vw, 13px);\n  border-bottom:1px solid #300;\n  padding-bottom:2%;\n  text-shadow:0 0 8px #f00;\n  line-height:1.6;\n}\n\n.header-left, .header-right{\n  display:flex;\n  flex-direction:column;\n}\n\n.header-right{\n  text-align:right;\n}\n\n.header .classified{\n  animation:pulse-red 2s ease-in-out infinite;\n}\n\n@keyframes pulse-red{\n  0%,100%{opacity:0.7; text-shadow:0 0 5px #f00}\n  50%{opacity:1; text-shadow:0 0 15px #f00, 0 0 30px #f00}\n}\n\n/* Center content */\n.center{\n  flex:1;\n  display:flex;\n  flex-direction:column;\n  align-items:center;\n  justify-content:center;\n  text-align:center;\n  padding:3% 0;\n  gap:1.5vh;\n}\n\n.main-name{\n  font-size:clamp(28px, 7vw, 52px);\n  color:#0f0;\n  text-shadow:0 0 10px #0f0, 0 0 20px #0f0, 0 0 40px #0f0;\n  letter-spacing:4px;\n  animation:glitch-main 3s infinite;\n  position:relative;\n  margin-bottom:1vh;\n}\n\n.main-name::before, .main-name::after{\n  content:'belentani';\n  position:absolute;\n  left:0;\n  right:0;\n  overflow:hidden;\n}\n\n.main-name::before{\n  color:#f00;\n  animation:glitch-1 2s infinite;\n  clip-path:inset(0 0 70% 0);\n}\n\n.main-name::after{\n  color:#00f;\n  animation:glitch-2 2.5s infinite;\n  clip-path:inset(70% 0 0 0);\n}\n\n@keyframes glitch-main{\n  0%,92%,100%{transform:none}\n  93%{transform:translate(-3px, 1px) skewX(-2deg)}\n  94%{transform:translate(3px, -1px) skewX(2deg)}\n  95%{transform:translate(-1px, 2px)}\n  96%{transform:none}\n}\n\n@keyframes glitch-1{\n  0%,90%,100%{transform:none; opacity:0}\n  91%{transform:translate(-4px, 0); opacity:0.7}\n  92%{transform:translate(4px, 0); opacity:0.7}\n  93%{transform:none; opacity:0}\n}\n\n@keyframes glitch-2{\n  0%,88%,100%{transform:none; opacity:0}\n  89%{transform:translate(3px, 0); opacity:0.5}\n  90%{transform:translate(-3px, 0); opacity:0.5}\n  91%{transform:none; opacity:0}\n}\n\n.line{\n  color:#0f0;\n  text-shadow:0 0 5px #0f0;\n  opacity:0;\n  transform:translateY(5px);\n  animation:typeline 0.3s forwards;\n  position:relative;\n  line-height:1.6;\n}\n\n.cursor-blink::after{\n  content:'▌';\n  animation:blink 0.8s step-end infinite;\n  color:#0f0;\n}\n\n@keyframes blink{\n  0%,100%{opacity:1}\n  50%{opacity:0}\n}\n\n.red-box{\n  color:#f00;\n  border:1px solid #f00;\n  padding:1% 3%;\n  margin:1vh 0;\n  text-shadow:0 0 8px #f00;\n  box-shadow:0 0 10px rgba(255,0,0,0.3), inset 0 0 10px rgba(255,0,0,0.1);\n  animation:pulse-box 2s ease-in-out infinite;\n  position:relative;\n  display:inline-block;\n}\n\n.red-box::before{\n  content:'[ ';\n  color:#f00;\n}\n\n.red-box::after{\n  content:' ]';\n  color:#f00;\n}\n\n@keyframes pulse-box{\n  0%,100%{box-shadow:0 0 10px rgba(255,0,0,0.3), inset 0 0 10px rgba(255,0,0,0.1)}\n  50%{box-shadow:0 0 20px rgba(255,0,0,0.6), inset 0 0 20px rgba(255,0,0,0.2)}\n}\n\n.big-red{\n  font-size:clamp(14px, 3vw, 22px);\n  color:#f00;\n  border:2px solid #f00;\n  padding:2% 4%;\n  text-shadow:0 0 10px #f00, 0 0 20px #f00;\n  box-shadow:0 0 15px rgba(255,0,0,0.4), inset 0 0 15px rgba(255,0,0,0.15);\n  animation:pulse-box 1.5s ease-in-out infinite, glitch-box 5s infinite;\n  display:inline-block;\n  position:relative;\n}\n\n.big-red::before{content:'[ '; color:#f00}\n.big-red::after{content:' ]'; color:#f00}\n\n@keyframes glitch-box{\n  0%,95%,100%{transform:none}\n  96%{transform:translate(-2px, 1px) skewX(-1deg)}\n  97%{transform:translate(2px, -1px) skewX(1deg)}\n  98%{transform:translate(-1px, 0)}\n}\n\n/* Footer */\n.footer{\n  display:flex;\n  justify-content:space-between;\n  color:#f00;\n  font-size:clamp(9px, 1.8vw, 13px);\n  border-top:1px solid #300;\n  padding-top:2%;\n  text-shadow:0 0 5px #f00;\n  line-height:1.6;\n}\n\n.footer-left, .footer-right{\n  display:flex;\n  flex-direction:column;\n}\n\n.footer-right{\n  text-align:right;\n}\n\n.status-armed{\n  animation:armed-flash 1s step-end infinite;\n}\n\n@keyframes armed-flash{\n  0%,100%{color:#f00; text-shadow:0 0 10px #f00}\n  50%{color:#ff0; text-shadow:0 0 10px #ff0, 0 0 20px #ff0}\n}\n\n/* Glitch bars */\n.glitch-bar{\n  position:absolute;\n  left:0;\n  width:100%;\n  height:2px;\n  background:#0f0;\n  opacity:0;\n  z-index:80;\n  pointer-events:none;\n  animation:glitch-bar-anim 8s infinite;\n}\n\n@keyframes glitch-bar-anim{\n  0%,94%,100%{opacity:0; transform:scaleX(0)}\n  95%{opacity:0.6; transform:scaleX(1); top:30%}\n  96%{opacity:0; transform:scaleX(0)}\n  97%{opacity:0.4; transform:scaleX(0.8); top:60%}\n  98%{opacity:0; transform:scaleX(0)}\n}\n\n/* Random glitch artifacts */\n.artifact{\n  position:absolute;\n  background:#0f0;\n  opacity:0;\n  z-index:85;\n  pointer-events:none;\n}\n\n/* Sound indicator */\n.sound-toggle{\n  position:absolute;\n  top:2%;\n  right:3%;\n  z-index:200;\n  color:#0f0;\n  font-family:'VT323',monospace;\n  font-size:clamp(10px, 2vw, 14px);\n  cursor:pointer;\n  border:1px solid #0f0;\n  padding:2px 8px;\n  background:rgba(0,0,0,0.8);\n  text-shadow:0 0 5px #0f0;\n  transition:all 0.3s;\n}\n\n.sound-toggle:hover{\n  background:rgba(0,255,0,0.1);\n  box-shadow:0 0 10px rgba(0,255,0,0.3);\n}\n\n.sound-toggle.active{\n  color:#0f0;\n  border-color:#0f0;\n}\n\n.sound-toggle.inactive{\n  color:#f00;\n  border-color:#f00;\n  text-shadow:0 0 5px #f00;\n}\n\n/* Chromatic aberration on whole screen */\n.chromatic{\n  animation:chromatic-shift 10s infinite;\n}\n\n@keyframes chromatic-shift{\n  0%,90%,100%{filter:none}\n  92%{filter:url(#chromatic)}\n  94%{filter:none}\n  96%{filter:url(#chromatic)}\n  97%{filter:none}\n}\n\n/* Typing animation */\n@keyframes typeline{\n  to{opacity:1; transform:translateY(0)}\n}\n\n/* VHS tracking */\n.vhs-track{\n  position:absolute;\n  left:0;\n  width:100%;\n  height:20px;\n  background:linear-gradient(transparent, rgba(255,255,255,0.03), transparent);\n  z-index:88;\n  pointer-events:none;\n  animation:vhs-move 6s linear infinite;\n}\n\n@keyframes vhs-move{\n  0%{top:-20px}\n  100%{top:calc(100% + 20px)}\n}\n\n/* Power LED */\n.power-led{\n  position:absolute;\n  bottom:1.5%;\n  left:50%;\n  transform:translateX(-50%);\n  width:6px;\n  height:6px;\n  border-radius:50%;\n  background:#0f0;\n  box-shadow:0 0 5px #0f0, 0 0 10px #0f0;\n  z-index:200;\n  animation:led-pulse 3s ease-in-out infinite;\n}\n\n@keyframes led-pulse{\n  0%,100%{opacity:0.6; box-shadow:0 0 5px #0f0}\n  50%{opacity:1; box-shadow:0 0 10px #0f0, 0 0 20px #0f0}\n}\n\n/* Responsive adjustments */\n@media (max-width:400px){\n  .content{font-size:10px; padding:2% 3%}\n  .header,.footer{font-size:8px}\n}\n</style>\n</head>\n<body>\n\n<!-- SVG Filters -->\n<svg style=\"position:absolute;width:0;height:0\">\n  <defs>\n    <filter id=\"chromatic\">\n      <feOffset in=\"SourceGraphic\" dx=\"2\" dy=\"0\" result=\"red\"/>\n      <feOffset in=\"SourceGraphic\" dx=\"-2\" dy=\"0\" result=\"blue\"/>\n      <feBlend in=\"red\" in2=\"blue\" mode=\"screen\"/>\n    </filter>\n    <filter id=\"noise-filter\">\n      <feTurbulence type=\"fractalNoise\" baseFrequency=\"0.9\" numOctaves=\"4\" stitchTiles=\"stitch\" result=\"noise\"/>\n      <feColorMatrix in=\"noise\" type=\"saturate\" values=\"0\" result=\"gray-noise\"/>\n      <feBlend in=\"SourceGraphic\" in2=\"gray-noise\" mode=\"multiply\"/>\n    </filter>\n  </defs>\n</svg>\n\n<div class=\"aspect-wrapper\">\n  <div class=\"crt-container chromatic\" id=\"crt\">\n    \n    <!-- Overlays -->\n    <div class=\"scanlines\"></div>\n    <div class=\"scan-beam\"></div>\n    <div class=\"vhs-track\"></div>\n    <div class=\"glitch-bar\"></div>\n    <div class=\"glitch-bar\" style=\"animation-delay:-3s\"></div>\n    <canvas class=\"noise\" id=\"noiseCanvas\"></canvas>\n    \n    <!-- Sound Toggle -->\n    <div class=\"sound-toggle inactive\" id=\"soundToggle\" onclick=\"toggleSound()\">\n      🔇 SOUND OFF\n    </div>\n    \n    <!-- Power LED -->\n    <div class=\"power-led\"></div>\n    \n    <!-- Main Content -->\n    <div class=\"content\">\n      \n      <!-- Header -->\n      <div class=\"header\">\n        <div class=\"header-left\">\n          <span>NOIACORE</span>\n          <span>INTERCEPTED //</span>\n          <span>ARCHETYPE PROTOCOL</span>\n          <span>v6.4.7</span>\n        </div>\n        <div class=\"header-right\">\n          <span>// INTERNAL</span>\n          <span class=\"classified\">// CLASSIFIED</span>\n          <span>// LEVEL 0</span>\n        </div>\n      </div>\n      \n      <!-- Center -->\n      <div class=\"center\" id=\"centerContent\">\n        <div class=\"main-name\" id=\"mainName\">belentani</div>\n        <div class=\"line cursor-blink\" style=\"animation-delay:0.5s\">Stay calm</div>\n        <div class=\"line\" style=\"animation-delay:1s\">peak of betrayal achieved</div>\n        <div class=\"red-box line\" style=\"animation-delay:1.5s\">They failed again</div>\n        <div class=\"line\" style=\"animation-delay:2s\">reporting to archetype's</div>\n        <div class=\"line\" style=\"animation-delay:2.3s\">architects</div>\n        <div class=\"line cursor-blink\" style=\"animation-delay:2.8s\">belentani, you did your job</div>\n        <div class=\"big-red line\" style=\"animation-delay:3.5s\">Deploy the kindness<br>revenge now.</div>\n      </div>\n      \n      <!-- Footer -->\n      <div class=\"footer\">\n        <div class=\"footer-left\">\n          <span>MISSION: KINDNESS REVENGE</span>\n          <span>STATUS: <span class=\"status-armed\">ARMED</span></span>\n          <span>TARGET: SYSTEMIC HYPOCRISY</span>\n          <span>INITIATE: NOW</span>\n        </div>\n        <div class=\"footer-right\">\n          <span>41.3851° N</span>\n          <span>2.1734° E</span>\n          <span>NOIACORE</span>\n        </div>\n      </div>\n      \n    </div>\n    \n    <!-- Random artifacts -->\n    <div class=\"artifact\" id=\"art1\"></div>\n    <div class=\"artifact\" id=\"art2\"></div>\n    <div class=\"artifact\" id=\"art3\"></div>\n    \n  </div>\n</div>\n\n<script>\n// ===== NOISE CANVAS =====\nconst noiseCanvas = document.getElementById('noiseCanvas');\nconst nCtx = noiseCanvas.getContext('2d');\n\nfunction resizeNoise(){\n  noiseCanvas.width = noiseCanvas.offsetWidth / 4;\n  noiseCanvas.height = noiseCanvas.offsetHeight / 4;\n}\nresizeNoise();\nwindow.addEventListener('resize', resizeNoise);\n\nfunction drawNoise(){\n  const w = noiseCanvas.width, h = noiseCanvas.height;\n  const imgData = nCtx.createImageData(w, h);\n  const d = imgData.data;\n  for(let i = 0; i < d.length; i += 4){\n    const v = Math.random() * 255;\n    d[i] = v;\n    d[i+1] = v;\n    d[i+2] = v;\n    d[i+3] = 255;\n  }\n  nCtx.putImageData(imgData, 0, 0);\n  requestAnimationFrame(drawNoise);\n}\ndrawNoise();\n\n// ===== RANDOM GLITCH ARTIFACTS =====\nconst artifacts = [\n  document.getElementById('art1'),\n  document.getElementById('art2'),\n  document.getElementById('art3')\n];\n\nfunction spawnArtifact(){\n  const a = artifacts[Math.floor(Math.random() * artifacts.length)];\n  const isGreen = Math.random() > 0.4;\n  a.style.background = isGreen ? '#0f0' : '#f00';\n  a.style.top = Math.random() * 100 + '%';\n  a.style.left = Math.random() * 80 + '%';\n  a.style.width = (Math.random() * 30 + 5) + '%';\n  a.style.height = (Math.random() * 3 + 1) + 'px';\n  a.style.opacity = Math.random() * 0.3 + 0.1;\n  a.style.transform = `skewX(${(Math.random()-0.5)*10}deg)`;\n  \n  setTimeout(() => {\n    a.style.opacity = 0;\n  }, 50 + Math.random() * 150);\n  \n  setTimeout(spawnArtifact, 200 + Math.random() * 2000);\n}\nspawnArtifact();\n\n// ===== AUDIO ENGINE =====\nlet audioCtx = null;\nlet soundEnabled = false;\nlet masterGain = null;\nlet ambientOsc = null;\nlet ambientGain = null;\nlet noiseNode = null;\nlet noiseGain = null;\n\nfunction initAudio(){\n  audioCtx = new (window.AudioContext || window.webkitAudioContext)();\n  masterGain = audioCtx.createGain();\n  masterGain.gain.value = 0.3;\n  masterGain.connect(audioCtx.destination);\n  \n  // Ambient hum\n  ambientOsc = audioCtx.createOscillator();\n  ambientOsc.type = 'sawtooth';\n  ambientOsc.frequency.value = 55;\n  ambientGain = audioCtx.createGain();\n  ambientGain.gain.value = 0.02;\n  \n  const ambientFilter = audioCtx.createBiquadFilter();\n  ambientFilter.type = 'lowpass';\n  ambientFilter.frequency.value = 200;\n  \n  ambientOsc.connect(ambientFilter);\n  ambientFilter.connect(ambientGain);\n  ambientGain.connect(masterGain);\n  ambientOsc.start();\n  \n  // Background noise (static)\n  const bufferSize = audioCtx.sampleRate * 2;\n  const noiseBuffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);\n  const output = noiseBuffer.getChannelData(0);\n  for(let i = 0; i < bufferSize; i++){\n    output[i] = Math.random() * 2 - 1;\n  }\n  \n  noiseNode = audioCtx.createBufferSource();\n  noiseNode.buffer = noiseBuffer;\n  noiseNode.loop = true;\n  \n  noiseGain = audioCtx.createGain();\n  noiseGain.gain.value = 0.015;\n  \n  const noiseFilter = audioCtx.createBiquadFilter();\n  noiseFilter.type = 'bandpass';\n  noiseFilter.frequency.value = 3000;\n  noiseFilter.Q.value = 0.5;\n  \n  noiseNode.connect(noiseFilter);\n  noiseFilter.connect(noiseGain);\n  noiseGain.connect(masterGain);\n  noiseNode.start();\n  \n  // Periodic type sounds\n  scheduleTypeSounds();\n  scheduleBeeps();\n  scheduleGlitchSounds();\n}\n\nfunction playTypeSound(){\n  if(!audioCtx || !soundEnabled) return;\n  const osc = audioCtx.createOscillator();\n  const gain = audioCtx.createGain();\n  \n  osc.type = 'square';\n  osc.frequency.value = 800 + Math.random() * 400;\n  \n  gain.gain.setValueAtTime(0.06, audioCtx.currentTime);\n  gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + 0.05);\n  \n  osc.connect(gain);\n  gain.connect(masterGain);\n  \n  osc.start(audioCtx.currentTime);\n  osc.stop(audioCtx.currentTime + 0.05);\n}\n\nfunction playBeep(freq = 1200, duration = 0.1){\n  if(!audioCtx || !soundEnabled) return;\n  const osc = audioCtx.createOscillator();\n  const gain = audioCtx.createGain();\n  \n  osc.type = 'sine';\n  osc.frequency.value = freq;\n  \n  gain.gain.setValueAtTime(0.08, audioCtx.currentTime);\n  gain.gain.exponentialRampToValueAtTime(0.001, audioCtx.currentTime + duration);\n  \n  osc.connect(gain);\n  gain.connect(masterGain);\n  \n  osc.start(audioCtx.currentTime);\n  osc.stop(audioCtx.currentTime + duration);\n}\n\nfunction playGlitchSound(){\n  if(!audioCtx || !soundEnabled) return;\n  const bufferSize = audioCtx.sampleRate * 0.1;\n  const buffer = audioCtx.createBuffer(1, bufferSize, audioCtx.sampleRate);\n  const data = buffer.getChannelData(0);\n  for(let i = 0; i < bufferSize; i++){\n    data[i] = (Math.random() * 2 - 1) * Math.exp(-i / (bufferSize * 0.3));\n  }\n  \n  const source = audioCtx.createBufferSource();\n  source.buffer = buffer;\n  \n  const gain = audioCtx.createGain();\n  gain.gain.value = 0.1;\n  \n  const filter = audioCtx.createBiquadFilter();\n  filter.type = 'highpass';\n  filter.frequency.value = 2000;\n  \n  source.connect(filter);\n  filter.connect(gain);\n  gain.connect(masterGain);\n  \n  source.start();\n}\n\nfunction scheduleTypeSounds(){\n  if(!soundEnabled) return;\n  const interval = 100 + Math.random() * 300;\n  setTimeout(() => {\n    playTypeSound();\n    scheduleTypeSounds();\n  }, interval);\n}\n\nfunction scheduleBeeps(){\n  if(!soundEnabled) return;\n  const interval = 2000 + Math.random() * 4000;\n  setTimeout(() => {\n    playBeep(800 + Math.random() * 800, 0.05 + Math.random() * 0.1);\n    scheduleBeeps();\n  }, interval);\n}\n\nfunction scheduleGlitchSounds(){\n  if(!soundEnabled) return;\n  const interval = 3000 + Math.random() * 8000;\n  setTimeout(() => {\n    playGlitchSound();\n    scheduleGlitchSounds();\n  }, interval);\n}\n\nfunction toggleSound(){\n  const btn = document.getElementById('soundToggle');\n  \n  if(!soundEnabled){\n    soundEnabled = true;\n    if(!audioCtx) initAudio();\n    else audioCtx.resume();\n    \n    btn.textContent = '🔊 SOUND ON';\n    btn.classList.remove('inactive');\n    btn.classList.add('active');\n    \n    scheduleTypeSounds();\n    scheduleBeeps();\n    scheduleGlitchSounds();\n  } else {\n    soundEnabled = false;\n    if(audioCtx) audioCtx.suspend();\n    \n    btn.textContent = '🔇 SOUND OFF';\n    btn.classList.remove('active');\n    btn.classList.add('inactive');\n  }\n}\n\n// ===== PERIODIC SCREEN GLITCH =====\nfunction screenGlitch(){\n  const crt = document.getElementById('crt');\n  crt.style.transform = `translate(${(Math.random()-0.5)*4}px, ${(Math.random()-0.5)*2}px) skewX(${(Math.random()-0.5)*2}deg)`;\n  \n  setTimeout(() => {\n    crt.style.transform = 'none';\n  }, 50 + Math.random() * 100);\n  \n  setTimeout(screenGlitch, 3000 + Math.random() * 10000);\n}\nsetTimeout(screenGlitch, 2000);\n\n// ===== TYPING EFFECT FOR LINES =====\nconst lines = document.querySelectorAll('.line');\nlines.forEach((line, i) => {\n  const originalText = line.innerHTML;\n  line.style.opacity = '0';\n  \n  setTimeout(() => {\n    line.style.opacity = '1';\n    line.style.transform = 'translateY(0)';\n    if(soundEnabled) playTypeSound();\n  }, 500 + i * 400);\n});\n\n// ===== COORDINATE FLICKER =====\nconst coordElements = document.querySelectorAll('.footer-right span');\nsetInterval(() => {\n  const el = coordElements[Math.floor(Math.random() * coordElements.length)];\n  if(el){\n    el.style.opacity = '0.3';\n    setTimeout(() => { el.style.opacity = '1'; }, 100);\n  }\n}, 2000);\n\n// ===== INTERACTIVE: Click anywhere for glitch burst =====\ndocument.addEventListener('click', (e) => {\n  if(e.target.id === 'soundToggle') return;\n  \n  const crt = document.getElementById('crt');\n  crt.style.filter = 'brightness(1.5) contrast(1.3)';\n  \n  if(soundEnabled){\n    playGlitchSound();\n    playBeep(400, 0.15);\n  }\n  \n  setTimeout(() => {\n    crt.style.filter = 'none';\n  }, 150);\n});\n</script>\n</body>\n</html>\n```",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "54151b6f-afaa-45f0-9493-b3d5e007abc5",
+      "usage": {
+       "input_tokens": 2101,
+       "output_tokens": 7571,
+       "characters": 0,
+       "total_tokens": 9672,
+       "input_tokens_details": {
+        "text_tokens": 2101
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 210,
+        "text_tokens": 7571
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1788949301
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "artifacts"
+     },
+     "endTime": 1788949301.2981634
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1788949171
+   }
+  ]
+ },
+ "updated_at": 1788949301,
+ "created_at": 1788949171,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1788949170103
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "54151b6f-afaa-45f0-9493-b3d5e007abc5"
+ ],
+ "currentId": "54151b6f-afaa-45f0-9493-b3d5e007abc5",
+ "chat_type": "artifacts",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

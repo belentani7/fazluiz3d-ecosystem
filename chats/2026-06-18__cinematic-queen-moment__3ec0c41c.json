@@ -1,0 +1,522 @@
+{
+ "id": "3ec0c41c-0d6f-4c8f-b5a2-2fbba7e3d37f",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Cinematic Queen Moment",
+ "chat": {
+  "history": {
+   "messages": {
+    "801363c6-5ac5-479e-9e38-6797057058fa": {
+     "id": "801363c6-5ac5-479e-9e38-6797057058fa",
+     "role": "user",
+     "content": "pronto en inglés de escena de una fotografía de una reina de concurso en el escenario así como con un vestido lujoso por más que nada es la expresión y la fotografía en sí que es como muy impactante de lujo de cinematográfica de movimiento así como no sé intenta crear algo universal y largo",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "3877ec82-3473-4623-a84b-f5e91a16559d"
+     ],
+     "files": [],
+     "timestamp": 1781787514
+    },
+    "3877ec82-3473-4623-a84b-f5e91a16559d": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "3877ec82-3473-4623-a84b-f5e91a16559d",
+     "parentId": "801363c6-5ac5-479e-9e38-6797057058fa",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Generating an image from the provided description",
+          "Crafting a vivid cinematic portrait of a beauty pageant queen in motion",
+          "Conceive a vision of timeless elegance and grandeur",
+          "Capturing the essence of a moment suspended in time",
+          "Crafting a visual narrative of transcendent elegance and emotional depth",
+          "Creating a visual masterpiece that captures the essence of elegance and grandeur"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am interpreting the user's request to create a visual representation based on their input.  \nI focus on translating the essence of the scene into a vivid, detailed English prompt suitable for image generation.  \nMy aim is to capture the core elements with clarity and artistic precision.",
+          "I envision her standing center stage, her luxurious gown shimmering with every subtle shift, capturing both the weight of the moment and the fluidity of grace.  \nHer expression—confident, radiant, deeply expressive—draws the viewer into an intimate yet grand narrative.  \nThe image unfolds like a timeless film still, rich in detail, elegance, and emotional depth.",
+          "I envision a figure of radiant poise, standing at the zenith of a vast stage bathed in luminous light, her presence commanding awe.  \nHer gown, a masterpiece of craftsmanship, shimmers with delicate beadwork and sequins that dance like stars, its flowing train cascading behind her like a river of moonlight.  \nEvery detail—her poised stance, the subtle curve of her smile, the intensity of her gaze—speaks of grace, power, and an almost mythic beauty.",
+          "I envision a figure radiant with intensity and elegance, her presence commanding the frame through a gaze that pierces the soul  \nThe scene unfolds in rich layers—light carving shadows like poetry, fabric dancing in motion yet frozen in grace, every texture whispering stories beneath a sky of golden haze and deep blue reverie  \nI render this vision not as mere image, but as an emotion made visible, etched in luminous detail and breathless stillness",
+          "I envision a moment suspended in time, where every element converges into a symphony of light, motion, and expression.  \nThe queen stands at the apex of grace and power, her presence radiating both celestial serenity and unyielding resolve.  \nThrough meticulous attention to texture, shadow, and atmosphere, I render a scene that feels not merely seen, but profoundly felt—a testament to beauty’s enduring spirit.",
+          "I envision a radiant beauty pageant queen standing at the pinnacle of her moment, bathed in ethereal stage lighting that enhances every contour of her poised expression.  \nHer gown, a symphony of opulence woven with intricate details and shimmering textures, flows like liquid silk, amplifying the cinematic intensity of the scene.  \nThrough meticulous attention to motion, emotion, and visual storytelling, I craft an image that transcends time and speaks universally to grace and power."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "3877ec82-3473-4623-a84b-f5e91a16559d",
+       "usage": {
+        "input_tokens": 629,
+        "output_tokens": 1089,
+        "characters": 0,
+        "total_tokens": 1718,
+        "input_tokens_details": {
+         "text_tokens": 629
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 1081,
+         "text_tokens": 1089
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1781787537
+      },
+      {
+       "content": "Aquí tienes el prompt detallado en inglés, diseñado para capturar esa esencia cinematográfica, lujosa y con movimiento, enfocándose en la expresión impactante y universal que buscas:\n\n**Prompt:**\n*A breathtaking, cinematic photograph of a beauty pageant queen on a grand, illuminated stage, wearing an exquisitely luxurious, flowing evening gown made of shimmering silk and intricate crystal beadwork with a dramatic, sweeping train. The absolute focal point is her striking, unforgettable facial expression—a captivating blend of fierce confidence, ethereal grace, and raw emotion, gazing directly into the lens with a powerful, magnetic intensity. The image conveys a profound sense of dynamic motion, with her hair and the edges of her luxurious dress caught in a beautiful, purposeful swirl, frozen in a split second of absolute perfection. Dramatic chiaroscuro lighting, volumetric stage spotlights cutting through a subtle, magical haze, casting golden and deep sapphire highlights. Shot on a medium format camera, 85mm lens, shallow depth of field, ultra-detailed, 8k resolution, photorealistic, masterpiece, evoking a universal feeling of triumph, elegance, and breathtaking beauty.*\n\nProcedo a generar la imagen para ti:\n\n",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "3877ec82-3473-4623-a84b-f5e91a16559d",
+       "usage": {
+        "input_tokens": 3529,
+        "output_tokens": 137,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 1510,
+         "text_tokens": 2019
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 3666,
+        "output_tokens_details": {
+         "reasoning_tokens": 136,
+         "text_tokens": 1
+        },
+        "image_tokens": 1510
+       },
+       "timestamp": 1781787541
+      },
+      {
+       "content": "",
+       "phase": "image_gen_tool",
+       "status": "finished",
+       "extra": {
+        "display_position": "answer",
+        "image_list": [
+         {
+          "image": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/image_gen/3877ec82-3473-4623-a84b-f5e91a16559d/1781787551.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxNzgxNzg3NTUxIiwicmVzb3VyY2VfY2hhdF9pZCI6IjNlYzBjNDFjLTBkNmYtNGM4Zi1iNWEyLTJmYmJhN2UzZDM3ZiJ9.65kSZb1HDGkJpcRsYxjB8MGlSKx1LvtmqHCZCfum89g"
+         }
+        ],
+        "tool_result": [
+         {
+          "image": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/3ec0c41c-0d6f-4c8f-b5a2-2fbba7e3d37f/1d391ad95-d251-44d6-a256-3fb0c7968ee4.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxZDM5MWFkOTUtZDI1MS00NGQ2LWEyNTYtM2ZiMGM3OTY4ZWU0IiwicmVzb3VyY2VfdHlwZSI6ImltYWdlX3Rvb2wifQ.TAbRu9kCeElXI5iJ2mjaUmieheSFNIrMSuTDlWim__o"
+         }
+        ]
+       },
+       "role": "function",
+       "name": "image_gen",
+       "function_id": "round_0_call_f26ebe61064648a499e58fda",
+       "function_call": {
+        "name": "image_gen",
+        "arguments": "{\"prompt\": \"A breathtaking, cinematic photograph of a beauty pageant queen on a grand, illuminated stage, wearing an exquisitely luxurious, flowing evening gown made of shimmering silk and intricate crystal beadwork with a dramatic, sweeping train. The absolute focal point is her striking, unforgettable facial expression—a captivating blend of fierce confidence, ethereal grace, and raw emotion, gazing directly into the lens with a powerful, magnetic intensity. The image conveys a profound sense of dynamic motion, with her hair and the edges of her luxurious dress caught in a beautiful, purposeful swirl, frozen in a split second of absolute perfection. Dramatic chiaroscuro lighting, volumetric stage spotlights cutting through a subtle, magical haze, casting golden and deep sapphire highlights. Shot on a medium format camera, 85mm lens, shallow depth of field, ultra-detailed, 8k resolution, photorealistic, masterpiece, evoking a universal feeling of triumph, elegance, and breathtaking beauty.\"}"
+       },
+       "response_id": "3877ec82-3473-4623-a84b-f5e91a16559d",
+       "usage": {}
+      },
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Presentando el resultado de la creación visual",
+          "Capturando la esencia de un momento cinematográfico y lujoso"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "He logrado plasmar con precisión la visión solicitada, capturando una reina de belleza en escena con un vestido de lujo que deslumbra. Su expresión es intensa y magnética, transmitiendo poder y elegancia, mientras el entorno cinematográfico vibra con movimiento y profundidad universal. La descripción detallada en inglés permitió una interpretación rica y coherente, resaltando la atmósfera inmersiva y el impacto artístico deseado.",
+          "Estoy recreando una escena visual intensa, donde cada detalle del vestido, la luz y la expresión facial converge para transmitir poder, elegancia y emoción.  \nMi enfoque está en transmitir una sensación de movimiento sutil pero impactante, como si el instante hubiera sido capturado en pleno suspenso dramático.  \nLa imagen se construye con intención artística, buscando evocar admiración y fascinación desde el primer vistazo."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "3877ec82-3473-4623-a84b-f5e91a16559d",
+       "usage": {
+        "input_tokens": 3529,
+        "output_tokens": 494,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 1510,
+         "text_tokens": 2019
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 4023,
+        "output_tokens_details": {
+         "reasoning_tokens": 482,
+         "text_tokens": 12
+        },
+        "image_tokens": 1510
+       },
+       "timestamp": 1781787564
+      },
+      {
+       "content": "Aquí tienes el prompt detallado en inglés que utilicé para crear la imagen, siguiendo todas tus indicaciones para lograr ese impacto cinematográfico, lujo y sensación de movimiento:\n\n\"A breathtaking, cinematic photograph of a beauty pageant queen on a grand, illuminated stage, wearing an exquisitely luxurious, flowing evening gown made of shimmering silk and intricate crystal beadwork with a dramatic, sweeping train. The absolute focal point is her striking, unforgettable facial expression—a captivating blend of fierce confidence, ethereal grace, and raw emotion, gazing directly into the lens with a powerful, magnetic intensity. The image conveys a profound sense of dynamic motion, with her hair and the edges of her luxurious dress caught in a beautiful, purposeful swirl, frozen in a split second of absolute perfection. Dramatic chiaroscuro lighting, volumetric stage spotlights cutting through a subtle, magical haze, casting golden and deep sapphire highlights. Shot on a medium format camera, 85mm lens, shallow depth of field, ultra-detailed, 8k resolution, photorealistic, masterpiece, evoking a universal feeling of triumph, elegance, and breathtaking beauty.\"\n\nLa imagen resultante captura perfectamente la esencia que buscabas: la expresión es magnética y llena de confianza, el vestido tiene un lujo y un movimiento dinámico espectacular, y la iluminación teatral le da ese toque cinematográfico y universal. ¡Espero que sea exactamente lo que tenías en mente!",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "3877ec82-3473-4623-a84b-f5e91a16559d",
+       "usage": {
+        "input_tokens": 3529,
+        "output_tokens": 784,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 1510,
+         "text_tokens": 2019
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 4313,
+        "output_tokens_details": {
+         "reasoning_tokens": 482,
+         "text_tokens": 302
+        },
+        "image_tokens": 1510
+       },
+       "timestamp": 1781787568
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1781787569.4080658
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1781787514
+    }
+   },
+   "currentId": "3877ec82-3473-4623-a84b-f5e91a16559d",
+   "currentResponseIds": [
+    "3877ec82-3473-4623-a84b-f5e91a16559d"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "801363c6-5ac5-479e-9e38-6797057058fa",
+    "role": "user",
+    "content": "pronto en inglés de escena de una fotografía de una reina de concurso en el escenario así como con un vestido lujoso por más que nada es la expresión y la fotografía en sí que es como muy impactante de lujo de cinematográfica de movimiento así como no sé intenta crear algo universal y largo",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "3877ec82-3473-4623-a84b-f5e91a16559d"
+    ],
+    "files": [],
+    "timestamp": 1781787514
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "3877ec82-3473-4623-a84b-f5e91a16559d",
+    "parentId": "801363c6-5ac5-479e-9e38-6797057058fa",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Generating an image from the provided description",
+         "Crafting a vivid cinematic portrait of a beauty pageant queen in motion",
+         "Conceive a vision of timeless elegance and grandeur",
+         "Capturing the essence of a moment suspended in time",
+         "Crafting a visual narrative of transcendent elegance and emotional depth",
+         "Creating a visual masterpiece that captures the essence of elegance and grandeur"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am interpreting the user's request to create a visual representation based on their input.  \nI focus on translating the essence of the scene into a vivid, detailed English prompt suitable for image generation.  \nMy aim is to capture the core elements with clarity and artistic precision.",
+         "I envision her standing center stage, her luxurious gown shimmering with every subtle shift, capturing both the weight of the moment and the fluidity of grace.  \nHer expression—confident, radiant, deeply expressive—draws the viewer into an intimate yet grand narrative.  \nThe image unfolds like a timeless film still, rich in detail, elegance, and emotional depth.",
+         "I envision a figure of radiant poise, standing at the zenith of a vast stage bathed in luminous light, her presence commanding awe.  \nHer gown, a masterpiece of craftsmanship, shimmers with delicate beadwork and sequins that dance like stars, its flowing train cascading behind her like a river of moonlight.  \nEvery detail—her poised stance, the subtle curve of her smile, the intensity of her gaze—speaks of grace, power, and an almost mythic beauty.",
+         "I envision a figure radiant with intensity and elegance, her presence commanding the frame through a gaze that pierces the soul  \nThe scene unfolds in rich layers—light carving shadows like poetry, fabric dancing in motion yet frozen in grace, every texture whispering stories beneath a sky of golden haze and deep blue reverie  \nI render this vision not as mere image, but as an emotion made visible, etched in luminous detail and breathless stillness",
+         "I envision a moment suspended in time, where every element converges into a symphony of light, motion, and expression.  \nThe queen stands at the apex of grace and power, her presence radiating both celestial serenity and unyielding resolve.  \nThrough meticulous attention to texture, shadow, and atmosphere, I render a scene that feels not merely seen, but profoundly felt—a testament to beauty’s enduring spirit.",
+         "I envision a radiant beauty pageant queen standing at the pinnacle of her moment, bathed in ethereal stage lighting that enhances every contour of her poised expression.  \nHer gown, a symphony of opulence woven with intricate details and shimmering textures, flows like liquid silk, amplifying the cinematic intensity of the scene.  \nThrough meticulous attention to motion, emotion, and visual storytelling, I craft an image that transcends time and speaks universally to grace and power."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "3877ec82-3473-4623-a84b-f5e91a16559d",
+      "usage": {
+       "input_tokens": 629,
+       "output_tokens": 1089,
+       "characters": 0,
+       "total_tokens": 1718,
+       "input_tokens_details": {
+        "text_tokens": 629
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 1081,
+        "text_tokens": 1089
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1781787537
+     },
+     {
+      "content": "Aquí tienes el prompt detallado en inglés, diseñado para capturar esa esencia cinematográfica, lujosa y con movimiento, enfocándose en la expresión impactante y universal que buscas:\n\n**Prompt:**\n*A breathtaking, cinematic photograph of a beauty pageant queen on a grand, illuminated stage, wearing an exquisitely luxurious, flowing evening gown made of shimmering silk and intricate crystal beadwork with a dramatic, sweeping train. The absolute focal point is her striking, unforgettable facial expression—a captivating blend of fierce confidence, ethereal grace, and raw emotion, gazing directly into the lens with a powerful, magnetic intensity. The image conveys a profound sense of dynamic motion, with her hair and the edges of her luxurious dress caught in a beautiful, purposeful swirl, frozen in a split second of absolute perfection. Dramatic chiaroscuro lighting, volumetric stage spotlights cutting through a subtle, magical haze, casting golden and deep sapphire highlights. Shot on a medium format camera, 85mm lens, shallow depth of field, ultra-detailed, 8k resolution, photorealistic, masterpiece, evoking a universal feeling of triumph, elegance, and breathtaking beauty.*\n\nProcedo a generar la imagen para ti:\n\n",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "3877ec82-3473-4623-a84b-f5e91a16559d",
+      "usage": {
+       "input_tokens": 3529,
+       "output_tokens": 137,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 1510,
+        "text_tokens": 2019
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 3666,
+       "output_tokens_details": {
+        "reasoning_tokens": 136,
+        "text_tokens": 1
+       },
+       "image_tokens": 1510
+      },
+      "timestamp": 1781787541
+     },
+     {
+      "content": "",
+      "phase": "image_gen_tool",
+      "status": "finished",
+      "extra": {
+       "display_position": "answer",
+       "image_list": [
+        {
+         "image": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/image_gen/3877ec82-3473-4623-a84b-f5e91a16559d/1781787551.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxNzgxNzg3NTUxIiwicmVzb3VyY2VfY2hhdF9pZCI6IjNlYzBjNDFjLTBkNmYtNGM4Zi1iNWEyLTJmYmJhN2UzZDM3ZiJ9.65kSZb1HDGkJpcRsYxjB8MGlSKx1LvtmqHCZCfum89g"
+        }
+       ],
+       "tool_result": [
+        {
+         "image": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/3ec0c41c-0d6f-4c8f-b5a2-2fbba7e3d37f/1d391ad95-d251-44d6-a256-3fb0c7968ee4.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxZDM5MWFkOTUtZDI1MS00NGQ2LWEyNTYtM2ZiMGM3OTY4ZWU0IiwicmVzb3VyY2VfdHlwZSI6ImltYWdlX3Rvb2wifQ.TAbRu9kCeElXI5iJ2mjaUmieheSFNIrMSuTDlWim__o"
+        }
+       ]
+      },
+      "role": "function",
+      "name": "image_gen",
+      "function_id": "round_0_call_f26ebe61064648a499e58fda",
+      "function_call": {
+       "name": "image_gen",
+       "arguments": "{\"prompt\": \"A breathtaking, cinematic photograph of a beauty pageant queen on a grand, illuminated stage, wearing an exquisitely luxurious, flowing evening gown made of shimmering silk and intricate crystal beadwork with a dramatic, sweeping train. The absolute focal point is her striking, unforgettable facial expression—a captivating blend of fierce confidence, ethereal grace, and raw emotion, gazing directly into the lens with a powerful, magnetic intensity. The image conveys a profound sense of dynamic motion, with her hair and the edges of her luxurious dress caught in a beautiful, purposeful swirl, frozen in a split second of absolute perfection. Dramatic chiaroscuro lighting, volumetric stage spotlights cutting through a subtle, magical haze, casting golden and deep sapphire highlights. Shot on a medium format camera, 85mm lens, shallow depth of field, ultra-detailed, 8k resolution, photorealistic, masterpiece, evoking a universal feeling of triumph, elegance, and breathtaking beauty.\"}"
+      },
+      "response_id": "3877ec82-3473-4623-a84b-f5e91a16559d",
+      "usage": {}
+     },
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Presentando el resultado de la creación visual",
+         "Capturando la esencia de un momento cinematográfico y lujoso"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "He logrado plasmar con precisión la visión solicitada, capturando una reina de belleza en escena con un vestido de lujo que deslumbra. Su expresión es intensa y magnética, transmitiendo poder y elegancia, mientras el entorno cinematográfico vibra con movimiento y profundidad universal. La descripción detallada en inglés permitió una interpretación rica y coherente, resaltando la atmósfera inmersiva y el impacto artístico deseado.",
+         "Estoy recreando una escena visual intensa, donde cada detalle del vestido, la luz y la expresión facial converge para transmitir poder, elegancia y emoción.  \nMi enfoque está en transmitir una sensación de movimiento sutil pero impactante, como si el instante hubiera sido capturado en pleno suspenso dramático.  \nLa imagen se construye con intención artística, buscando evocar admiración y fascinación desde el primer vistazo."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "3877ec82-3473-4623-a84b-f5e91a16559d",
+      "usage": {
+       "input_tokens": 3529,
+       "output_tokens": 494,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 1510,
+        "text_tokens": 2019
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 4023,
+       "output_tokens_details": {
+        "reasoning_tokens": 482,
+        "text_tokens": 12
+       },
+       "image_tokens": 1510
+      },
+      "timestamp": 1781787564
+     },
+     {
+      "content": "Aquí tienes el prompt detallado en inglés que utilicé para crear la imagen, siguiendo todas tus indicaciones para lograr ese impacto cinematográfico, lujo y sensación de movimiento:\n\n\"A breathtaking, cinematic photograph of a beauty pageant queen on a grand, illuminated stage, wearing an exquisitely luxurious, flowing evening gown made of shimmering silk and intricate crystal beadwork with a dramatic, sweeping train. The absolute focal point is her striking, unforgettable facial expression—a captivating blend of fierce confidence, ethereal grace, and raw emotion, gazing directly into the lens with a powerful, magnetic intensity. The image conveys a profound sense of dynamic motion, with her hair and the edges of her luxurious dress caught in a beautiful, purposeful swirl, frozen in a split second of absolute perfection. Dramatic chiaroscuro lighting, volumetric stage spotlights cutting through a subtle, magical haze, casting golden and deep sapphire highlights. Shot on a medium format camera, 85mm lens, shallow depth of field, ultra-detailed, 8k resolution, photorealistic, masterpiece, evoking a universal feeling of triumph, elegance, and breathtaking beauty.\"\n\nLa imagen resultante captura perfectamente la esencia que buscabas: la expresión es magnética y llena de confianza, el vestido tiene un lujo y un movimiento dinámico espectacular, y la iluminación teatral le da ese toque cinematográfico y universal. ¡Espero que sea exactamente lo que tenías en mente!",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "3877ec82-3473-4623-a84b-f5e91a16559d",
+      "usage": {
+       "input_tokens": 3529,
+       "output_tokens": 784,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 1510,
+        "text_tokens": 2019
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 4313,
+       "output_tokens_details": {
+        "reasoning_tokens": 482,
+        "text_tokens": 302
+       },
+       "image_tokens": 1510
+      },
+      "timestamp": 1781787568
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1781787569.4080658
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1781787514
+   }
+  ]
+ },
+ "updated_at": 1781787569,
+ "created_at": 1781787515,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1781787513643
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "3877ec82-3473-4623-a84b-f5e91a16559d"
+ ],
+ "currentId": "3877ec82-3473-4623-a84b-f5e91a16559d",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

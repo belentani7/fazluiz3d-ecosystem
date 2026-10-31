@@ -1,0 +1,639 @@
+{
+ "id": "265be88b-8628-4872-a111-c4861877da2c",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Superhéroe Estilo Anime",
+ "chat": {
+  "history": {
+   "messages": {
+    "54263846-51b1-4efe-a1d8-8b72c52eea3c": {
+     "id": "54263846-51b1-4efe-a1d8-8b72c52eea3c",
+     "role": "user",
+     "content": "Manten la cara de mi amigo y haz una foto estilo super hereo siguiendo estilo de la ultima foto. Que se vea su cara",
+     "models": [
+      "qwen3-235b-a22b"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "3478d408-f686-4a5f-979a-6c9d53d355b1"
+     ],
+     "files": [
+      {
+       "id": "6f3fe34f-3b8f-4794-bd3c-1d84bf9e4a6e",
+       "name": "Screenshot_20250830_015855_com.android.chrome.jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 340896,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/6f3fe34f-3b8f-4794-bd3c-1d84bf9e4a6e_Screenshot_20250830_015855_com.android.chrome.jpg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI2ZjNmZTM0Zi0zYjhmLTQ3OTQtYmQzYy0xZDg0YmY5ZTRhNmUiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.Ie8VT15b0sJ5mhYmNwcXKdyZcqYUpWUjQRQsBJoITyE",
+       "file": {
+        "created_at": 1756512545907,
+        "data": {},
+        "filename": "Screenshot_20250830_015855_com.android.chrome.jpg",
+        "hash": null,
+        "id": "6f3fe34f-3b8f-4794-bd3c-1d84bf9e4a6e",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "Screenshot_20250830_015855_com.android.chrome.jpg",
+         "size": 340896,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1756512545907
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "e090aec2-9176-422c-9d12-f93a2c5e53d5",
+       "showType": "image",
+       "uploadTaskId": "0414da16-c438-44e2-94a7-354a368612c5"
+      },
+      {
+       "id": "2f53a21c-d44f-4a1c-8d7f-2c694ba636b2",
+       "name": "Screenshot_20250830_015843_com.android.chrome.jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 320431,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/2f53a21c-d44f-4a1c-8d7f-2c694ba636b2_Screenshot_20250830_015843_com.android.chrome.jpg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIyZjUzYTIxYy1kNDRmLTRhMWMtOGQ3Zi0yYzY5NGJhNjM2YjIiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.Vc0nSnG7tWTR4y7VC-nj3NYobcA34vGW7XMP28NS8nw",
+       "file": {
+        "created_at": 1756512552653,
+        "data": {},
+        "filename": "Screenshot_20250830_015843_com.android.chrome.jpg",
+        "hash": null,
+        "id": "2f53a21c-d44f-4a1c-8d7f-2c694ba636b2",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "Screenshot_20250830_015843_com.android.chrome.jpg",
+         "size": 320431,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1756512552653
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "4ac20f42-a934-4f47-b45b-7e221b8ac2de",
+       "showType": "image",
+       "uploadTaskId": "61747d91-5f5f-4c9b-9525-5a50cca1ac5d"
+      },
+      {
+       "id": "5101de6f-a378-4e9f-a704-081cd24e86cb",
+       "name": "Screenshot_20250815_222255_com.grindrapp.android.jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 522432,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/5101de6f-a378-4e9f-a704-081cd24e86cb_Screenshot_20250815_222255_com.grindrapp.android.jpg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI1MTAxZGU2Zi1hMzc4LTRlOWYtYTcwNC0wODFjZDI0ZTg2Y2IiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.t7eEFfuMrcHnPJfBIn5Dg7dXTREJWGEw3-icV6LxclM",
+       "file": {
+        "created_at": 1756512570758,
+        "data": {},
+        "filename": "Screenshot_20250815_222255_com.grindrapp.android.jpg",
+        "hash": null,
+        "id": "5101de6f-a378-4e9f-a704-081cd24e86cb",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "Screenshot_20250815_222255_com.grindrapp.android.jpg",
+         "size": 522432,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1756512570758
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "9bef6127-a3bb-46c0-89e1-0d0a05e09944",
+       "showType": "image",
+       "uploadTaskId": "c76e1369-035b-4e72-883e-aaf8809502dd"
+      },
+      {
+       "id": "e95f5f49-d32b-4353-9d57-03bc6bccaec1",
+       "name": "Screenshot_20250829_180013_com.instagram.android.jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 474062,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/e95f5f49-d32b-4353-9d57-03bc6bccaec1_Screenshot_20250829_180013_com.instagram.android.jpg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJlOTVmNWY0OS1kMzJiLTQzNTMtOWQ1Ny0wM2JjNmJjY2FlYzEiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.8HcmeCTY_EV2FnDMJLtJUHy4a4MiSDWAO1UfPpRzbxo",
+       "file": {
+        "created_at": 1756512583593,
+        "data": {},
+        "filename": "Screenshot_20250829_180013_com.instagram.android.jpg",
+        "hash": null,
+        "id": "e95f5f49-d32b-4353-9d57-03bc6bccaec1",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "Screenshot_20250829_180013_com.instagram.android.jpg",
+         "size": 474062,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1756512583593
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "f6f48338-28a5-4444-8b3e-ea8dbd4001d7",
+       "showType": "image",
+       "uploadTaskId": "379c325d-fdcb-4b6d-9ea0-c46366402772"
+      }
+     ],
+     "timestamp": 1756512606
+    },
+    "3478d408-f686-4a5f-979a-6c9d53d355b1": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3-235b-a22b",
+     "modelName": "Qwen3-235B-A22B-2507",
+     "modelIdx": 0,
+     "id": "3478d408-f686-4a5f-979a-6c9d53d355b1",
+     "parentId": "54263846-51b1-4efe-a1d8-8b72c52eea3c",
+     "childrenIds": [
+      "6f9f481d-5b8e-4d7f-949f-d41969f0acf3"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [
+      {
+       "content": "¡Claro! Aunque no puedo generar imágenes directamente, puedo ayudarte a **crear una descripción detallada** para que uses en una herramienta de edición de fotos o IA (como DALL·E, MidJourney, o Photoshop) para transformar la cara de tu amigo en un **superhéroe estilo anime**, siguiendo el estilo de la última imagen que mostraste (la del Power Ranger rosa con armadura brillante y espada luminosa).\n\n---\n\n### 🎯 **Objetivo:**  \nCrear una foto de tu amigo como un **superhéroe futurista / anime**, con:\n- Su **cara real** mantenida.\n- Estilo visual inspirado en el **Power Ranger rosa** (armadura metálica, colores vibrantes, espada energética, fondo estelar).\n- Toque de **anime/ciencia ficción** con luces, efectos dinámicos.\n\n---\n\n### ✅ **Instrucciones para generar la imagen (para usar en IA):**\n\n> Usa esta descripción en herramientas como **DALL·E 3 (ChatGPT), MidJourney, Leonardo AI, o Stable Diffusion**:\n\n```\nA heroic male superhero in an anime style, wearing a shiny pink and gold armored suit with a futuristic helmet that has a clear visor revealing the face of a real man (the face should be clearly visible and realistic). He is holding a glowing pink energy sword, standing in a dynamic pose against a cosmic background with stars and neon pink Japanese text. The armor has metallic reflections and intricate details. Style: cyberpunk anime, vibrant colors, high contrast, cinematic lighting, inspired by Power Rangers and Evangelion. The character's face is photorealistic and matches the user's provided photo.\n```\n\n---\n\n### 🔧 **Pasos para hacerlo tú mismo:**\n\n1. **Usa una app de edición facial (como FaceApp, Adobe Express, o PicsArt)** para tomar una foto de tu amigo con buena iluminación.\n2. **Pega su rostro** sobre una imagen de un superhéroe de anime (como el Power Ranger rosa).\n3. **Ajusta el tamaño y la posición** para que quede natural.\n4. **Añade efectos**: brillos, sombras, luz de energía, partículas (usando apps como After Effects o Canva).\n5. **Fondo estelar + texto en japonés** (opcional, para darle estilo \"manga\").\n\n---\n\n### 💡 Consejo:\nSi quieres algo más personalizado, puedes:\n- Subir la foto de tu amigo a una herramienta como **DeepFaceLab** o **Runway ML** para reemplazar la cara en una escena de anime.\n- O bien, usar **Photoshop** con máscaras y capas para combinar su rostro con una ilustración de superhéroe.\n\n---\n\n¿Quieres que te dé una versión en español para copiar y pegar en una IA? O si tienes acceso a alguna herramienta específica, puedo darte instrucciones paso a paso.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "usage": {
+        "input_tokens": 4359,
+        "output_tokens": 653,
+        "total_tokens": 5012,
+        "input_tokens_details": {
+         "image_tokens": 4320,
+         "text_tokens": 39
+        },
+        "output_tokens_details": {
+         "text_tokens": 653
+        },
+        "image_tokens": 4320
+       }
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1756512630.79224
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1756512606
+    },
+    "6f9f481d-5b8e-4d7f-949f-d41969f0acf3": {
+     "id": "6f9f481d-5b8e-4d7f-949f-d41969f0acf3",
+     "role": "user",
+     "content": "¡Claro! Aunque no puedo generar imágenes directamente, puedo ayudarte a **crear una descripción detallada** para que uses en una herramienta de edición de fotos o IA (como DALL·E, MidJourney, o Photoshop) para transformar la cara de tu amigo en un **superhéroe estilo anime**, siguiendo el estilo de la última imagen que mostraste (la del Power Ranger rosa con armadura brillante y espada luminosa).\n\n---\n\n### 🎯 **Objetivo:**  \nCrear una foto de tu amigo como un **superhéroe futurista / anime**, con:\n- Su **cara real** mantenida.\n- Estilo visual inspirado en el **Power Ranger rosa** (armadura metálica, colores vibrantes, espada energética, fondo estelar).\n- Toque de **anime/ciencia ficción** con luces, efectos dinámicos.\n\n---\n\n### ✅ **Instrucciones para generar la imagen (para usar en IA):**\n\n> Usa esta descripción en herramientas como **DALL·E 3 (ChatGPT), MidJourney, Leonardo AI, o Stable Diffusion**:\n\n```\nA heroic male superhero in an anime style, wearing a shiny pink and gold armored suit with a futuristic helmet that has a clear visor revealing the face of a real man (the face should be clearly visible and realistic). He is holding a glowing pink energy sword, standing in a dynamic pose against a cosmic background with stars and neon pink Japanese text. The armor has metallic reflections and intricate details. Style: cyberpunk anime, vibrant colors, high contrast, cinematic lighting, inspired by Power Rangers and Evangelion. The character's face is photorealistic and matches the user's provided photo.\n```\n\n---\n\n### 🔧 **Pasos para hacerlo tú mismo:**\n\n1. **Usa una app de edición facial (como FaceApp, Adobe Express, o PicsArt)** para tomar una foto de tu amigo con buena iluminación.\n2. **Pega su rostro** sobre una imagen de un superhéroe de anime (como el Power Ranger rosa).\n3. **Ajusta el tamaño y la posición** para que quede natural.\n4. **Añade efectos**: brillos, sombras, luz de energía, partículas (usando apps como After Effects o Canva).\n5. **Fondo estelar + texto en japonés** (opcional, para darle estilo \"manga\").\n\n---\n\n### 💡 Consejo:\nSi quieres algo más personalizado, puedes:\n- Subir la foto de tu amigo a una herramienta como **DeepFaceLab** o **Runway ML** para reemplazar la cara en una escena de anime.\n- O bien, usar **Photoshop** con máscaras y capas para combinar su rostro con una ilustración de superhéroe.\n\n---\n\n¿Quieres que te dé una versión en español para copiar y pegar en una IA? O si tienes acceso a alguna herramienta específica, puedo darte instrucciones paso a paso.",
+     "models": [
+      "qwen3-235b-a22b"
+     ],
+     "chat_type": "t2i",
+     "sub_chat_type": "t2i",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2i"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": "3478d408-f686-4a5f-979a-6c9d53d355b1",
+     "turn_id": null,
+     "childrenIds": [
+      "62037ae4-5f40-44b3-a1cc-a674470c8973"
+     ],
+     "files": [],
+     "timestamp": 1756512635
+    },
+    "62037ae4-5f40-44b3-a1cc-a674470c8973": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2i",
+     "sub_chat_type": "t2i",
+     "model": "qwen3-235b-a22b",
+     "modelName": "Qwen3-235B-A22B-2507",
+     "modelIdx": 0,
+     "id": "62037ae4-5f40-44b3-a1cc-a674470c8973",
+     "parentId": "6f9f481d-5b8e-4d7f-949f-d41969f0acf3",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [
+      {
+       "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/62037ae4-5f40-44b3-a1cc-a674470c8973/1756512660.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxNzU2NTEyNjYwIiwicmVzb3VyY2VfY2hhdF9pZCI6IjI2NWJlODhiLTg2MjgtNDg3Mi1hMTExLWM0ODYxODc3ZGEyYyJ9.4NTvkh19IHUIbrc_QyJDzwkUEtfy7rD1jRe6pKOkC0g",
+       "phase": "image_gen",
+       "status": "finished",
+       "extra": {
+        "output_image_hw": [
+         [
+          1504,
+          704
+         ]
+        ]
+       },
+       "role": "assistant",
+       "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "width": 704,
+        "image_count": 1,
+        "height": 1504
+       }
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2i"
+      },
+      "endTime": 1756512661.6336312
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1756512635
+    }
+   },
+   "currentId": "62037ae4-5f40-44b3-a1cc-a674470c8973",
+   "currentResponseIds": [
+    "62037ae4-5f40-44b3-a1cc-a674470c8973"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3-235b-a22b"
+  ],
+  "messages": [
+   {
+    "id": "54263846-51b1-4efe-a1d8-8b72c52eea3c",
+    "role": "user",
+    "content": "Manten la cara de mi amigo y haz una foto estilo super hereo siguiendo estilo de la ultima foto. Que se vea su cara",
+    "models": [
+     "qwen3-235b-a22b"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "3478d408-f686-4a5f-979a-6c9d53d355b1"
+    ],
+    "files": [
+     {
+      "id": "6f3fe34f-3b8f-4794-bd3c-1d84bf9e4a6e",
+      "name": "Screenshot_20250830_015855_com.android.chrome.jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 340896,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/6f3fe34f-3b8f-4794-bd3c-1d84bf9e4a6e_Screenshot_20250830_015855_com.android.chrome.jpg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI2ZjNmZTM0Zi0zYjhmLTQ3OTQtYmQzYy0xZDg0YmY5ZTRhNmUiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.Ie8VT15b0sJ5mhYmNwcXKdyZcqYUpWUjQRQsBJoITyE",
+      "file": {
+       "created_at": 1756512545907,
+       "data": {},
+       "filename": "Screenshot_20250830_015855_com.android.chrome.jpg",
+       "hash": null,
+       "id": "6f3fe34f-3b8f-4794-bd3c-1d84bf9e4a6e",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "Screenshot_20250830_015855_com.android.chrome.jpg",
+        "size": 340896,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1756512545907
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "e090aec2-9176-422c-9d12-f93a2c5e53d5",
+      "showType": "image",
+      "uploadTaskId": "0414da16-c438-44e2-94a7-354a368612c5"
+     },
+     {
+      "id": "2f53a21c-d44f-4a1c-8d7f-2c694ba636b2",
+      "name": "Screenshot_20250830_015843_com.android.chrome.jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 320431,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/2f53a21c-d44f-4a1c-8d7f-2c694ba636b2_Screenshot_20250830_015843_com.android.chrome.jpg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIyZjUzYTIxYy1kNDRmLTRhMWMtOGQ3Zi0yYzY5NGJhNjM2YjIiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.Vc0nSnG7tWTR4y7VC-nj3NYobcA34vGW7XMP28NS8nw",
+      "file": {
+       "created_at": 1756512552653,
+       "data": {},
+       "filename": "Screenshot_20250830_015843_com.android.chrome.jpg",
+       "hash": null,
+       "id": "2f53a21c-d44f-4a1c-8d7f-2c694ba636b2",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "Screenshot_20250830_015843_com.android.chrome.jpg",
+        "size": 320431,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1756512552653
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "4ac20f42-a934-4f47-b45b-7e221b8ac2de",
+      "showType": "image",
+      "uploadTaskId": "61747d91-5f5f-4c9b-9525-5a50cca1ac5d"
+     },
+     {
+      "id": "5101de6f-a378-4e9f-a704-081cd24e86cb",
+      "name": "Screenshot_20250815_222255_com.grindrapp.android.jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 522432,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/5101de6f-a378-4e9f-a704-081cd24e86cb_Screenshot_20250815_222255_com.grindrapp.android.jpg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI1MTAxZGU2Zi1hMzc4LTRlOWYtYTcwNC0wODFjZDI0ZTg2Y2IiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.t7eEFfuMrcHnPJfBIn5Dg7dXTREJWGEw3-icV6LxclM",
+      "file": {
+       "created_at": 1756512570758,
+       "data": {},
+       "filename": "Screenshot_20250815_222255_com.grindrapp.android.jpg",
+       "hash": null,
+       "id": "5101de6f-a378-4e9f-a704-081cd24e86cb",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "Screenshot_20250815_222255_com.grindrapp.android.jpg",
+        "size": 522432,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1756512570758
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "9bef6127-a3bb-46c0-89e1-0d0a05e09944",
+      "showType": "image",
+      "uploadTaskId": "c76e1369-035b-4e72-883e-aaf8809502dd"
+     },
+     {
+      "id": "e95f5f49-d32b-4353-9d57-03bc6bccaec1",
+      "name": "Screenshot_20250829_180013_com.instagram.android.jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 474062,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/e95f5f49-d32b-4353-9d57-03bc6bccaec1_Screenshot_20250829_180013_com.instagram.android.jpg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJlOTVmNWY0OS1kMzJiLTQzNTMtOWQ1Ny0wM2JjNmJjY2FlYzEiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.8HcmeCTY_EV2FnDMJLtJUHy4a4MiSDWAO1UfPpRzbxo",
+      "file": {
+       "created_at": 1756512583593,
+       "data": {},
+       "filename": "Screenshot_20250829_180013_com.instagram.android.jpg",
+       "hash": null,
+       "id": "e95f5f49-d32b-4353-9d57-03bc6bccaec1",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "Screenshot_20250829_180013_com.instagram.android.jpg",
+        "size": 474062,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1756512583593
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "f6f48338-28a5-4444-8b3e-ea8dbd4001d7",
+      "showType": "image",
+      "uploadTaskId": "379c325d-fdcb-4b6d-9ea0-c46366402772"
+     }
+    ],
+    "timestamp": 1756512606
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3-235b-a22b",
+    "modelName": "Qwen3-235B-A22B-2507",
+    "modelIdx": 0,
+    "id": "3478d408-f686-4a5f-979a-6c9d53d355b1",
+    "parentId": "54263846-51b1-4efe-a1d8-8b72c52eea3c",
+    "childrenIds": [
+     "6f9f481d-5b8e-4d7f-949f-d41969f0acf3"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [
+     {
+      "content": "¡Claro! Aunque no puedo generar imágenes directamente, puedo ayudarte a **crear una descripción detallada** para que uses en una herramienta de edición de fotos o IA (como DALL·E, MidJourney, o Photoshop) para transformar la cara de tu amigo en un **superhéroe estilo anime**, siguiendo el estilo de la última imagen que mostraste (la del Power Ranger rosa con armadura brillante y espada luminosa).\n\n---\n\n### 🎯 **Objetivo:**  \nCrear una foto de tu amigo como un **superhéroe futurista / anime**, con:\n- Su **cara real** mantenida.\n- Estilo visual inspirado en el **Power Ranger rosa** (armadura metálica, colores vibrantes, espada energética, fondo estelar).\n- Toque de **anime/ciencia ficción** con luces, efectos dinámicos.\n\n---\n\n### ✅ **Instrucciones para generar la imagen (para usar en IA):**\n\n> Usa esta descripción en herramientas como **DALL·E 3 (ChatGPT), MidJourney, Leonardo AI, o Stable Diffusion**:\n\n```\nA heroic male superhero in an anime style, wearing a shiny pink and gold armored suit with a futuristic helmet that has a clear visor revealing the face of a real man (the face should be clearly visible and realistic). He is holding a glowing pink energy sword, standing in a dynamic pose against a cosmic background with stars and neon pink Japanese text. The armor has metallic reflections and intricate details. Style: cyberpunk anime, vibrant colors, high contrast, cinematic lighting, inspired by Power Rangers and Evangelion. The character's face is photorealistic and matches the user's provided photo.\n```\n\n---\n\n### 🔧 **Pasos para hacerlo tú mismo:**\n\n1. **Usa una app de edición facial (como FaceApp, Adobe Express, o PicsArt)** para tomar una foto de tu amigo con buena iluminación.\n2. **Pega su rostro** sobre una imagen de un superhéroe de anime (como el Power Ranger rosa).\n3. **Ajusta el tamaño y la posición** para que quede natural.\n4. **Añade efectos**: brillos, sombras, luz de energía, partículas (usando apps como After Effects o Canva).\n5. **Fondo estelar + texto en japonés** (opcional, para darle estilo \"manga\").\n\n---\n\n### 💡 Consejo:\nSi quieres algo más personalizado, puedes:\n- Subir la foto de tu amigo a una herramienta como **DeepFaceLab** o **Runway ML** para reemplazar la cara en una escena de anime.\n- O bien, usar **Photoshop** con máscaras y capas para combinar su rostro con una ilustración de superhéroe.\n\n---\n\n¿Quieres que te dé una versión en español para copiar y pegar en una IA? O si tienes acceso a alguna herramienta específica, puedo darte instrucciones paso a paso.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "usage": {
+       "input_tokens": 4359,
+       "output_tokens": 653,
+       "total_tokens": 5012,
+       "input_tokens_details": {
+        "image_tokens": 4320,
+        "text_tokens": 39
+       },
+       "output_tokens_details": {
+        "text_tokens": 653
+       },
+       "image_tokens": 4320
+      }
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1756512630.79224
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1756512606
+   },
+   {
+    "id": "6f9f481d-5b8e-4d7f-949f-d41969f0acf3",
+    "role": "user",
+    "content": "¡Claro! Aunque no puedo generar imágenes directamente, puedo ayudarte a **crear una descripción detallada** para que uses en una herramienta de edición de fotos o IA (como DALL·E, MidJourney, o Photoshop) para transformar la cara de tu amigo en un **superhéroe estilo anime**, siguiendo el estilo de la última imagen que mostraste (la del Power Ranger rosa con armadura brillante y espada luminosa).\n\n---\n\n### 🎯 **Objetivo:**  \nCrear una foto de tu amigo como un **superhéroe futurista / anime**, con:\n- Su **cara real** mantenida.\n- Estilo visual inspirado en el **Power Ranger rosa** (armadura metálica, colores vibrantes, espada energética, fondo estelar).\n- Toque de **anime/ciencia ficción** con luces, efectos dinámicos.\n\n---\n\n### ✅ **Instrucciones para generar la imagen (para usar en IA):**\n\n> Usa esta descripción en herramientas como **DALL·E 3 (ChatGPT), MidJourney, Leonardo AI, o Stable Diffusion**:\n\n```\nA heroic male superhero in an anime style, wearing a shiny pink and gold armored suit with a futuristic helmet that has a clear visor revealing the face of a real man (the face should be clearly visible and realistic). He is holding a glowing pink energy sword, standing in a dynamic pose against a cosmic background with stars and neon pink Japanese text. The armor has metallic reflections and intricate details. Style: cyberpunk anime, vibrant colors, high contrast, cinematic lighting, inspired by Power Rangers and Evangelion. The character's face is photorealistic and matches the user's provided photo.\n```\n\n---\n\n### 🔧 **Pasos para hacerlo tú mismo:**\n\n1. **Usa una app de edición facial (como FaceApp, Adobe Express, o PicsArt)** para tomar una foto de tu amigo con buena iluminación.\n2. **Pega su rostro** sobre una imagen de un superhéroe de anime (como el Power Ranger rosa).\n3. **Ajusta el tamaño y la posición** para que quede natural.\n4. **Añade efectos**: brillos, sombras, luz de energía, partículas (usando apps como After Effects o Canva).\n5. **Fondo estelar + texto en japonés** (opcional, para darle estilo \"manga\").\n\n---\n\n### 💡 Consejo:\nSi quieres algo más personalizado, puedes:\n- Subir la foto de tu amigo a una herramienta como **DeepFaceLab** o **Runway ML** para reemplazar la cara en una escena de anime.\n- O bien, usar **Photoshop** con máscaras y capas para combinar su rostro con una ilustración de superhéroe.\n\n---\n\n¿Quieres que te dé una versión en español para copiar y pegar en una IA? O si tienes acceso a alguna herramienta específica, puedo darte instrucciones paso a paso.",
+    "models": [
+     "qwen3-235b-a22b"
+    ],
+    "chat_type": "t2i",
+    "sub_chat_type": "t2i",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2i"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": "3478d408-f686-4a5f-979a-6c9d53d355b1",
+    "turn_id": null,
+    "childrenIds": [
+     "62037ae4-5f40-44b3-a1cc-a674470c8973"
+    ],
+    "files": [],
+    "timestamp": 1756512635
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2i",
+    "sub_chat_type": "t2i",
+    "model": "qwen3-235b-a22b",
+    "modelName": "Qwen3-235B-A22B-2507",
+    "modelIdx": 0,
+    "id": "62037ae4-5f40-44b3-a1cc-a674470c8973",
+    "parentId": "6f9f481d-5b8e-4d7f-949f-d41969f0acf3",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [
+     {
+      "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/62037ae4-5f40-44b3-a1cc-a674470c8973/1756512660.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxNzU2NTEyNjYwIiwicmVzb3VyY2VfY2hhdF9pZCI6IjI2NWJlODhiLTg2MjgtNDg3Mi1hMTExLWM0ODYxODc3ZGEyYyJ9.4NTvkh19IHUIbrc_QyJDzwkUEtfy7rD1jRe6pKOkC0g",
+      "phase": "image_gen",
+      "status": "finished",
+      "extra": {
+       "output_image_hw": [
+        [
+         1504,
+         704
+        ]
+       ]
+      },
+      "role": "assistant",
+      "usage": {
+       "input_tokens": 0,
+       "output_tokens": 0,
+       "width": 704,
+       "image_count": 1,
+       "height": 1504
+      }
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2i"
+     },
+     "endTime": 1756512661.6336312
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1756512635
+   }
+  ]
+ },
+ "updated_at": 1756512635,
+ "created_at": 1756512606,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1756512605622,
+  "tags": [
+   "technology",
+   "arts",
+   "education"
+  ]
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "62037ae4-5f40-44b3-a1cc-a674470c8973"
+ ],
+ "currentId": "62037ae4-5f40-44b3-a1cc-a674470c8973",
+ "chat_type": "t2i",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

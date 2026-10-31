@@ -1,0 +1,253 @@
+{
+ "id": "147a2882-0c3d-4fea-8572-db8ef24f5f5f",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Cinematic Mirror Transition Evolution",
+ "chat": {
+  "history": {
+   "messages": {
+    "f34d1b2a-b605-4e46-a176-db83d4dc7a37": {
+     "id": "f34d1b2a-b605-4e46-a176-db83d4dc7a37",
+     "role": "user",
+     "content": "9:16 Rainbow luxury sparks , 180degrees camera roll from face , rooftop,to back.The video begins in a completely normal realistic environment: a dark backstage corridor or nightclub bathroom with subtle neon ambience, grounded and believable, almost documentary-like at first. A tall young man with long dark curly hair stands in front of a mirror taking a selfie with his phone. He wears a fitted black tank top with thin straps. The framing feels natural and intimate, like a candid late-night mirror selfie. Slight handheld camera shake, realistic phone-camera perspective, subtle autofocus breathing, authentic reflections, natural skin texture, soft low-key lighting with magenta and blue neon accents reflecting gently on the mirror and walls. The atmosphere is cinematic but still realistic and restrained in the beginning.\n\nAs the scene progresses, the visual style slowly evolves into a much more cinematic and cosmic aesthetic without changing the environment abruptly at first. The neon reflections become richer and more atmospheric, shadows deepen, glossy highlights appear on skin and hair, haze subtly catches the colored lights, and the scene gains a dreamy luxury-editorial mood. Tiny floating dust particles and soft bloom around highlights begin appearing naturally in the atmosphere.\n\nIMPORTANT TRANSITION DETAIL — THE CAMERA MOVES THROUGH THE MIRROR:\n\nThe camera starts a slow push-in toward the mirror while the character slightly lowers the phone. The reflection stays perfectly aligned. At first the mirror behaves normally, but as the lens gets closer, the reflection subtly begins feeling dimensional instead of flat.\n\nAt the exact peak moment, the camera violently accelerates forward into the mirror with a fast cinematic speed ramp. A seamless whip-pan combined with heavy motion blur hides the cut. The mirror frame disappears during the movement. Neon lights stretch into long streaks of magenta, blue, violet, and silver across the frame. Add subtle chromatic aberration, rolling shutter distortion, anamorphic lens flares, cinematic lens breathing, realistic motion blur, and tiny frame shake to make the movement feel physically continuous and immersive.\n\nDuring the transition, the visual style explodes into full ultra cinematic cosmic editorial aesthetics: deep blacks, glowing nebula-like haze, holographic reflections, prism light streaks, floating particles, glossy cinematic highlights, volumetric smoke, galaxy-like color diffusion, surreal premium VFX integrated into realistic cinematography.\n\nAs the whip movement finishes, the environment transforms completely into a gigantic concert stage. The camera is now behind the same man — his face no longer visible, only his silhouette from the back. He stands center stage facing a massive crowd under gigantic white spotlights mixed with deep purple and electric blue beams. His long curly hair moves slightly from stage wind and smoke machines. Huge LED screens, haze, lasers, cinematic atmosphere, emotional stadium energy.\n\nThe overall visual style now fully embraces futuristic luxury music-video aesthetics mixed with cosmic sci-fi realism: low-key cinematic lighting, luminous rim lights sculpting the silhouette, reflective glossy textures, rich contrast, dreamy depth of field, immersive camera choreography, premium fashion-editorial mood, celestial neon atmosphere, unreal-engine-quality realism blended with real photography, emotional and triumphant cinematic finale, 4K masterpiece quality.",
+     "models": [
+      "qwen3.6-plus"
+     ],
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "i2v",
+       "size": "9:16"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "670619c2-3ce8-4518-abff-fab919c1cd37"
+     ],
+     "files": [
+      {
+       "id": "13499160-5f9b-403b-8498-3dff6e485221",
+       "name": "file_000000001e3c71f4b3f12c587f37c21e.png",
+       "file_type": "image/png",
+       "type": "image",
+       "file_class": "vision",
+       "size": 196798,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/13499160-5f9b-403b-8498-3dff6e485221_file_000000001e3c71f4b3f12c587f37c21e.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxMzQ5OTE2MC01ZjliLTQwM2ItODQ5OC0zZGZmNmU0ODUyMjEiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.gjIpFAnW9HiBzUai8xsTjWYe02ykIegcvdhSQs5hLFE",
+       "file": {
+        "created_at": 1779819097662,
+        "data": {},
+        "filename": "file_000000001e3c71f4b3f12c587f37c21e.png",
+        "hash": null,
+        "id": "13499160-5f9b-403b-8498-3dff6e485221",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "file_000000001e3c71f4b3f12c587f37c21e.png",
+         "size": 196798,
+         "content_type": "image/png"
+        },
+        "update_at": 1779819097662
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "e7549725-8b7d-4f1c-8862-bfd7d82acc1f",
+       "showType": "image",
+       "uploadTaskId": "276208ec-e5e3-4501-bbff-69ed74571266"
+      }
+     ],
+     "timestamp": 1779819170
+    },
+    "670619c2-3ce8-4518-abff-fab919c1cd37": {
+     "role": "assistant",
+     "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/670619c2-3ce8-4518-abff-fab919c1cd37/85709673-5d46-44fc-9130-e6458495f436.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI4NTcwOTY3My01ZDQ2LTQ0ZmMtOTEzMC1lNjQ1ODQ5NWY0MzYiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.WgLqFmWHLEstuTqPK2PATNJXH6sBlFEGCG5f2AZpZxk",
+     "reasoning_content": null,
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "model": "qwen3.6-plus",
+     "modelName": "Qwen3.6-Plus",
+     "modelIdx": 0,
+     "id": "670619c2-3ce8-4518-abff-fab919c1cd37",
+     "parentId": "f34d1b2a-b605-4e46-a176-db83d4dc7a37",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": null,
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "wanx": {
+       "task_id": "85709673-5d46-44fc-9130-e6458495f436"
+      },
+      "endTime": 1779819172.6574237
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": {
+      "size": "9:16"
+     },
+     "timestamp": 1779819170
+    }
+   },
+   "currentId": "670619c2-3ce8-4518-abff-fab919c1cd37",
+   "currentResponseIds": [
+    "670619c2-3ce8-4518-abff-fab919c1cd37"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.6-plus"
+  ],
+  "messages": [
+   {
+    "id": "f34d1b2a-b605-4e46-a176-db83d4dc7a37",
+    "role": "user",
+    "content": "9:16 Rainbow luxury sparks , 180degrees camera roll from face , rooftop,to back.The video begins in a completely normal realistic environment: a dark backstage corridor or nightclub bathroom with subtle neon ambience, grounded and believable, almost documentary-like at first. A tall young man with long dark curly hair stands in front of a mirror taking a selfie with his phone. He wears a fitted black tank top with thin straps. The framing feels natural and intimate, like a candid late-night mirror selfie. Slight handheld camera shake, realistic phone-camera perspective, subtle autofocus breathing, authentic reflections, natural skin texture, soft low-key lighting with magenta and blue neon accents reflecting gently on the mirror and walls. The atmosphere is cinematic but still realistic and restrained in the beginning.\n\nAs the scene progresses, the visual style slowly evolves into a much more cinematic and cosmic aesthetic without changing the environment abruptly at first. The neon reflections become richer and more atmospheric, shadows deepen, glossy highlights appear on skin and hair, haze subtly catches the colored lights, and the scene gains a dreamy luxury-editorial mood. Tiny floating dust particles and soft bloom around highlights begin appearing naturally in the atmosphere.\n\nIMPORTANT TRANSITION DETAIL — THE CAMERA MOVES THROUGH THE MIRROR:\n\nThe camera starts a slow push-in toward the mirror while the character slightly lowers the phone. The reflection stays perfectly aligned. At first the mirror behaves normally, but as the lens gets closer, the reflection subtly begins feeling dimensional instead of flat.\n\nAt the exact peak moment, the camera violently accelerates forward into the mirror with a fast cinematic speed ramp. A seamless whip-pan combined with heavy motion blur hides the cut. The mirror frame disappears during the movement. Neon lights stretch into long streaks of magenta, blue, violet, and silver across the frame. Add subtle chromatic aberration, rolling shutter distortion, anamorphic lens flares, cinematic lens breathing, realistic motion blur, and tiny frame shake to make the movement feel physically continuous and immersive.\n\nDuring the transition, the visual style explodes into full ultra cinematic cosmic editorial aesthetics: deep blacks, glowing nebula-like haze, holographic reflections, prism light streaks, floating particles, glossy cinematic highlights, volumetric smoke, galaxy-like color diffusion, surreal premium VFX integrated into realistic cinematography.\n\nAs the whip movement finishes, the environment transforms completely into a gigantic concert stage. The camera is now behind the same man — his face no longer visible, only his silhouette from the back. He stands center stage facing a massive crowd under gigantic white spotlights mixed with deep purple and electric blue beams. His long curly hair moves slightly from stage wind and smoke machines. Huge LED screens, haze, lasers, cinematic atmosphere, emotional stadium energy.\n\nThe overall visual style now fully embraces futuristic luxury music-video aesthetics mixed with cosmic sci-fi realism: low-key cinematic lighting, luminous rim lights sculpting the silhouette, reflective glossy textures, rich contrast, dreamy depth of field, immersive camera choreography, premium fashion-editorial mood, celestial neon atmosphere, unreal-engine-quality realism blended with real photography, emotional and triumphant cinematic finale, 4K masterpiece quality.",
+    "models": [
+     "qwen3.6-plus"
+    ],
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "i2v",
+      "size": "9:16"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "670619c2-3ce8-4518-abff-fab919c1cd37"
+    ],
+    "files": [
+     {
+      "id": "13499160-5f9b-403b-8498-3dff6e485221",
+      "name": "file_000000001e3c71f4b3f12c587f37c21e.png",
+      "file_type": "image/png",
+      "type": "image",
+      "file_class": "vision",
+      "size": 196798,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/13499160-5f9b-403b-8498-3dff6e485221_file_000000001e3c71f4b3f12c587f37c21e.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxMzQ5OTE2MC01ZjliLTQwM2ItODQ5OC0zZGZmNmU0ODUyMjEiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.gjIpFAnW9HiBzUai8xsTjWYe02ykIegcvdhSQs5hLFE",
+      "file": {
+       "created_at": 1779819097662,
+       "data": {},
+       "filename": "file_000000001e3c71f4b3f12c587f37c21e.png",
+       "hash": null,
+       "id": "13499160-5f9b-403b-8498-3dff6e485221",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "file_000000001e3c71f4b3f12c587f37c21e.png",
+        "size": 196798,
+        "content_type": "image/png"
+       },
+       "update_at": 1779819097662
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "e7549725-8b7d-4f1c-8862-bfd7d82acc1f",
+      "showType": "image",
+      "uploadTaskId": "276208ec-e5e3-4501-bbff-69ed74571266"
+     }
+    ],
+    "timestamp": 1779819170
+   },
+   {
+    "role": "assistant",
+    "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/670619c2-3ce8-4518-abff-fab919c1cd37/85709673-5d46-44fc-9130-e6458495f436.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI4NTcwOTY3My01ZDQ2LTQ0ZmMtOTEzMC1lNjQ1ODQ5NWY0MzYiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.WgLqFmWHLEstuTqPK2PATNJXH6sBlFEGCG5f2AZpZxk",
+    "reasoning_content": null,
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "model": "qwen3.6-plus",
+    "modelName": "Qwen3.6-Plus",
+    "modelIdx": 0,
+    "id": "670619c2-3ce8-4518-abff-fab919c1cd37",
+    "parentId": "f34d1b2a-b605-4e46-a176-db83d4dc7a37",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "content_list": null,
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "wanx": {
+      "task_id": "85709673-5d46-44fc-9130-e6458495f436"
+     },
+     "endTime": 1779819172.6574237
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": {
+     "size": "9:16"
+    },
+    "timestamp": 1779819170
+   }
+  ]
+ },
+ "updated_at": 1779819172,
+ "created_at": 1779819170,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1779819169496,
+  "tags": []
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "670619c2-3ce8-4518-abff-fab919c1cd37"
+ ],
+ "currentId": "670619c2-3ce8-4518-abff-fab919c1cd37",
+ "chat_type": "i2v",
+ "models": null,
+ "project_id": "",
+ "data_source": null
+}

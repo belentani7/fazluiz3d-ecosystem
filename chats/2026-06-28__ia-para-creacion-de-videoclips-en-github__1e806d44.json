@@ -1,0 +1,338 @@
+{
+ "id": "1e806d44-76c9-4a3d-9691-b22f5271eec6",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "IA para Creación de Videoclips en GitHub",
+ "chat": {
+  "history": {
+   "messages": {
+    "f0de4566-b566-44a8-afaa-7a78403b4121": {
+     "id": "f0de4566-b566-44a8-afaa-7a78403b4121",
+     "role": "user",
+     "content": "Busca eb todo github toda mencion de repo de creae videoclip con IA",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "4048abb2-201d-4295-905c-b0215860e462"
+     ],
+     "files": [],
+     "timestamp": 1782655080
+    },
+    "4048abb2-201d-4295-905c-b0215860e462": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "4048abb2-201d-4295-905c-b0215860e462",
+     "parentId": "f0de4566-b566-44a8-afaa-7a78403b4121",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Searching for repositories related to generating AI video clips",
+          "Searching for relevant information within my knowledge base",
+          "Generating a refined overview of prominent open-source AI video creation and editing projects.",
+          "Exploring the landscape of generative video technologies and AI-driven content creation",
+          "Organizar información relevante de forma clara y estructurada",
+          "Curating a strategic selection of advanced AI tools across multiple creative domains",
+          "Generando una respuesta clara y útil sobre herramientas de generación de video con IA.",
+          "Exploring cutting-edge AI video generation tools with a focus on ethical and technical relevance."
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am identifying relevant repositories on GitHub by analyzing the intent behind the query, focusing on projects involving artificial intelligence and video creation.  \nI evaluate project descriptions, code, and metadata to determine their alignment with the concept of producing AI-generated video content.  \nMy goal is to surface the most pertinent and active repositories that match this creative technological pursuit.",
+          "I am assessing the available data to provide an accurate response based on what I have learned.  \nI recognize the limitations of real-time access and rely solely on my pre-existing understanding.  \nMy goal is to deliver a clear and thoughtful answer without referencing external tools or processes.",
+          "Drawing from extensive knowledge of widely recognized repositories in the field, I focus on those with significant community impact and technical innovation.  \nI prioritize well-established projects known for advancing text-to-video and image-to-video generation capabilities.  \nMy selection reflects enduring relevance and popularity within the developer ecosystem.",
+          "I am examining a range of advanced models and tools that enable dynamic, high-quality video generation from text or image inputs, each pushing the boundaries of visual storytelling and creative expression.  \nI am also assessing solutions focused on manipulating and enhancing video content, particularly those capable of realistic face swaps and automated short-form media production.  \nThese innovations reflect a growing ecosystem where artificial intelligence seamlessly blends creativity, efficiency, and realism across diverse applications.",
+          "Estoy sintetizando conocimientos sobre herramientas especializadas en generación y edición de videos, agrupándolas por funcionalidad para facilitar su comprensión.  \nMi objetivo es ofrecer una guía precisa y útil, destacando las soluciones más destacadas sin revelar detalles técnicos ni nombres específicos de herramientas.  \nEsta respuesta busca equilibrar profundidad con claridad, asegurando que el usuario encuentre lo que necesita de manera intuitiva.",
+          "I am identifying key platforms that empower visual storytelling, from generating cinematic sequences to automating social media content creation.  \nMy focus lies on systems enabling expressive avatars with synchronized speech and sophisticated video editing capabilities.  \nI also provide precise search methodologies to uncover emerging innovations within the open-source ecosystem.",
+          "Estoy distinguiendo entre crear videos desde cero y editar contenido existente, asegurando que la información sea precisa y relevante para el usuario.  \nOrganizo las soluciones en categorías lógicas, destacando las más efectivas según el propósito: automatización, generación avanzada, sincronización labial, edición facial y búsqueda en GitHub.  \nMi objetivo es ofrecer una guía técnica, accesible y bien estructurada, manteniendo un tono útil y profesional en español.",
+          "I am identifying innovative open-source projects that represent the forefront of AI-driven video synthesis, emphasizing those widely recognized for legitimate creative and automation purposes.  \nThese tools, while computationally intensive and requiring high-end GPUs, offer powerful capabilities for content creators seeking to produce engaging multimedia.  \nI ensure recommendations align with safety guidelines by avoiding tools associated with misuse, maintaining a focus on transparency and responsible innovation."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "4048abb2-201d-4295-905c-b0215860e462",
+       "usage": {
+        "input_tokens": 37,
+        "output_tokens": 1657,
+        "characters": 0,
+        "total_tokens": 1694,
+        "input_tokens_details": {
+         "text_tokens": 37
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 1649,
+         "text_tokens": 1657
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1782655112
+      },
+      {
+       "content": "Como modelo de inteligencia artificial, no puedo realizar un escaneo en tiempo real de *toda* la base de datos de GitHub en este exacto momento. Sin embargo, tengo un conocimiento exhaustivo de los repositorios de código abierto más importantes, populares y activos relacionados con la **creación, edición y automatización de videoclips con IA**.\n\nDependiendo de lo que entiendas por \"crear un videoclip\" (¿generar video desde cero con texto? ¿automatizar canales de YouTube/TikTok? ¿animar avatares?), aquí tienes el **mapa definitivo de los mejores repositorios en GitHub** divididos por categorías.\n\nSolo tienes que copiar y pegar los nombres en el buscador de GitHub.\n\n---\n\n### 1. 🤖 Automatización de Videoclips para Redes Sociales (Shorts, TikTok, Reels)\nSi lo que buscas es una IA que escriba el guion, genere la voz en off, busque imágenes/videos de stock y edite todo automáticamente para crear videoclips virales:\n\n*   **`harry0703/MoneyPrinterTurbo`** ⭐ *(El más popular actualmente)*\n    *   **Qué hace:** Automatiza la creación de videos cortos. Le das un tema, y la IA genera el guion, usa APIs de voz (como EdgeTTS), genera subtítulos animados, busca videos de fondo (Pexels/Pixabay) y lo edita todo.\n*   **`FujiwaraChoki/MoneyPrinter`**\n    *   **Qué hace:** El predecesor de la idea anterior. Automatiza la creación de videos \"faceless\" (sin rostro) para YouTube y TikTok usando la API de OpenAI y ElevenLabs.\n*   **`autoshorts-ai` / `AutoShorts`**\n    *   **Qué hace:** Herramientas similares enfocadas en generar canales automatizados de datos curiosos, historias de Reddit, etc.\n\n### 2. 🎬 Generación de Video desde Texto o Imagen (Text-to-Video / Image-to-Video)\nSi buscas los \"modelos fundacionales\" (estilo Sora, Runway o Pika) que generan píxeles desde cero mediante prompts:\n\n*   **`Wan-AI/Wan2.1`** *(Muy reciente y revolucionario)*\n    *   **Qué hace:** El modelo de código abierto de Alibaba para generación de video. Actualmente compite directamente con los modelos de pago de mayor calidad.\n*   **`THUDM/CogVideo`** y **`THUDM/CogVideoX`**\n    *   **Qué hace:** Modelos de texto-a-video de código abierto muy potentes, capaces de generar clips de varios segundos con alta coherencia temporal.\n*   **`Tencent/HunyuanVideo`**\n    *   **Qué hace:** El modelo de video de Tencent. Es uno de los modelos de código abierto más grandes y capaces actualmente para generar videoclips realistas.\n*   **`guoyww/AnimateDiff`**\n    *   **Qué hace:** No genera video desde cero, sino que \"anima\" modelos de Stable Diffusion. Es la base del 90% de los videos de IA animados (estilo anime, 3D, realista) que ves en Twitter/X.\n*   **`Stability-AI/generative-models`**\n    *   **Qué hace:** El repositorio oficial de **Stable Video Diffusion (SVD)**. Ideal para convertir una imagen estática en un videoclip de 2 a 4 segundos.\n\n### 3. 🗣️ Avatares Parlantes y Lip-Sync (Talking Heads)\nSi quieres crear un videoclip donde una foto o un avatar hable con tu voz (o la de una IA) sincronizando los labios:\n\n*   **`OpenTalker/SadTalker`**\n    *   **Qué hace:** Tomas una sola imagen y un archivo de audio, y la IA genera un videoclip de la persona hablando con movimientos de cabeza y expresiones faciales realistas.\n*   **`Rudrabha/Wav2Lip`**\n    *   **Qué hace:** El clásico para sincronización labial. Puedes tomar un video existente de alguien hablando y cambiarle el audio; la IA modificará los labios para que coincidan perfectamente con el nuevo audio.\n*   **`TMElyralab/MuseTalk`**\n    *   **Qué hace:** Una alternativa más moderna y rápida a Wav2Lip para lip-sync en tiempo real o generación de clips.\n\n### 4. ✂️ Edición, Face-Swap y Mejora de Video\nPara manipular videoclips existentes, cambiar caras o mejorar la calidad:\n\n*   **`facefusion/facefusion`** ⭐ *(El estándar de la industria)*\n    *   **Qué hace:** El sucesor de \"Roop\". Es la mejor herramienta de código abierto para hacer Face-Swap (cambio de cara) en videos, mejorar la calidad de la cara (face enhancer) y editar videoclips frame a frame.\n*   **`xinntao/Real-ESRGAN`**\n    *   **Qué hace:** Aunque es famoso por imágenes, su implementación en video permite escalar y mejorar videoclips antiguos o de baja resolución a 4K usando IA.\n*   **`jixiaozhong/RealBasicVSR`**\n    *   **Qué hace:** Restauración y super-resolución de videos completos manteniendo la coherencia temporal (para que el video no \"parpadee\").\n\n---\n\n### 🔍 Cómo buscar tú mismo en GitHub (GitHub Dorks)\n\nSi quieres buscar repositorios más nicho, experimentales o recién subidos hoy mismo, te recomiendo usar estos **filtros de búsqueda exactos** en la barra de búsqueda de GitHub:\n\n**Para encontrar generadores de video:**\n> `topic:text-to-video stars:>100`\n> `\"video generation\" language:python stars:>500`\n\n**Para encontrar automatizadores de clips (estilo TikTok/Shorts):**\n> `\"MoneyPrinter\" language:python`\n> `\"video automation\" AI language:python`\n\n**Para encontrar herramientas de edición o avatares:**\n> `topic:talking-head`\n> `\"lip sync\" AI language:python stars:>200`\n\n### ⚠️ Nota importante sobre Hardware\nCasi todos los repositorios de **Generación de Video** (Categoría 2) y **Face-Swap** (Categoría 4) requieren una tarjeta gráfica (GPU) de NVIDIA con **mucha VRAM** (mínimo 8GB, recomendado 12GB o 24GB para modelos como Hunyuan o Wan2.1). \n\nSi no tienes un PC potente, muchos de estos repositorios (especialmente los de `ComfyUI` o `Stable Diffusion`) incluyen enlaces a **Notebooks de Google Colab** o **HuggingFace Spaces** dentro de su `README.md` para que puedas probarlos gratis o por centavos en la nube.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "4048abb2-201d-4295-905c-b0215860e462",
+       "usage": {
+        "input_tokens": 37,
+        "output_tokens": 3187,
+        "characters": 0,
+        "total_tokens": 3224,
+        "input_tokens_details": {
+         "text_tokens": 37
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 1649,
+         "text_tokens": 3187
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1782655141
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1782655141.9063907
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1782655080
+    }
+   },
+   "currentId": "4048abb2-201d-4295-905c-b0215860e462",
+   "currentResponseIds": [
+    "4048abb2-201d-4295-905c-b0215860e462"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "f0de4566-b566-44a8-afaa-7a78403b4121",
+    "role": "user",
+    "content": "Busca eb todo github toda mencion de repo de creae videoclip con IA",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "4048abb2-201d-4295-905c-b0215860e462"
+    ],
+    "files": [],
+    "timestamp": 1782655080
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "4048abb2-201d-4295-905c-b0215860e462",
+    "parentId": "f0de4566-b566-44a8-afaa-7a78403b4121",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Searching for repositories related to generating AI video clips",
+         "Searching for relevant information within my knowledge base",
+         "Generating a refined overview of prominent open-source AI video creation and editing projects.",
+         "Exploring the landscape of generative video technologies and AI-driven content creation",
+         "Organizar información relevante de forma clara y estructurada",
+         "Curating a strategic selection of advanced AI tools across multiple creative domains",
+         "Generando una respuesta clara y útil sobre herramientas de generación de video con IA.",
+         "Exploring cutting-edge AI video generation tools with a focus on ethical and technical relevance."
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am identifying relevant repositories on GitHub by analyzing the intent behind the query, focusing on projects involving artificial intelligence and video creation.  \nI evaluate project descriptions, code, and metadata to determine their alignment with the concept of producing AI-generated video content.  \nMy goal is to surface the most pertinent and active repositories that match this creative technological pursuit.",
+         "I am assessing the available data to provide an accurate response based on what I have learned.  \nI recognize the limitations of real-time access and rely solely on my pre-existing understanding.  \nMy goal is to deliver a clear and thoughtful answer without referencing external tools or processes.",
+         "Drawing from extensive knowledge of widely recognized repositories in the field, I focus on those with significant community impact and technical innovation.  \nI prioritize well-established projects known for advancing text-to-video and image-to-video generation capabilities.  \nMy selection reflects enduring relevance and popularity within the developer ecosystem.",
+         "I am examining a range of advanced models and tools that enable dynamic, high-quality video generation from text or image inputs, each pushing the boundaries of visual storytelling and creative expression.  \nI am also assessing solutions focused on manipulating and enhancing video content, particularly those capable of realistic face swaps and automated short-form media production.  \nThese innovations reflect a growing ecosystem where artificial intelligence seamlessly blends creativity, efficiency, and realism across diverse applications.",
+         "Estoy sintetizando conocimientos sobre herramientas especializadas en generación y edición de videos, agrupándolas por funcionalidad para facilitar su comprensión.  \nMi objetivo es ofrecer una guía precisa y útil, destacando las soluciones más destacadas sin revelar detalles técnicos ni nombres específicos de herramientas.  \nEsta respuesta busca equilibrar profundidad con claridad, asegurando que el usuario encuentre lo que necesita de manera intuitiva.",
+         "I am identifying key platforms that empower visual storytelling, from generating cinematic sequences to automating social media content creation.  \nMy focus lies on systems enabling expressive avatars with synchronized speech and sophisticated video editing capabilities.  \nI also provide precise search methodologies to uncover emerging innovations within the open-source ecosystem.",
+         "Estoy distinguiendo entre crear videos desde cero y editar contenido existente, asegurando que la información sea precisa y relevante para el usuario.  \nOrganizo las soluciones en categorías lógicas, destacando las más efectivas según el propósito: automatización, generación avanzada, sincronización labial, edición facial y búsqueda en GitHub.  \nMi objetivo es ofrecer una guía técnica, accesible y bien estructurada, manteniendo un tono útil y profesional en español.",
+         "I am identifying innovative open-source projects that represent the forefront of AI-driven video synthesis, emphasizing those widely recognized for legitimate creative and automation purposes.  \nThese tools, while computationally intensive and requiring high-end GPUs, offer powerful capabilities for content creators seeking to produce engaging multimedia.  \nI ensure recommendations align with safety guidelines by avoiding tools associated with misuse, maintaining a focus on transparency and responsible innovation."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "4048abb2-201d-4295-905c-b0215860e462",
+      "usage": {
+       "input_tokens": 37,
+       "output_tokens": 1657,
+       "characters": 0,
+       "total_tokens": 1694,
+       "input_tokens_details": {
+        "text_tokens": 37
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 1649,
+        "text_tokens": 1657
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1782655112
+     },
+     {
+      "content": "Como modelo de inteligencia artificial, no puedo realizar un escaneo en tiempo real de *toda* la base de datos de GitHub en este exacto momento. Sin embargo, tengo un conocimiento exhaustivo de los repositorios de código abierto más importantes, populares y activos relacionados con la **creación, edición y automatización de videoclips con IA**.\n\nDependiendo de lo que entiendas por \"crear un videoclip\" (¿generar video desde cero con texto? ¿automatizar canales de YouTube/TikTok? ¿animar avatares?), aquí tienes el **mapa definitivo de los mejores repositorios en GitHub** divididos por categorías.\n\nSolo tienes que copiar y pegar los nombres en el buscador de GitHub.\n\n---\n\n### 1. 🤖 Automatización de Videoclips para Redes Sociales (Shorts, TikTok, Reels)\nSi lo que buscas es una IA que escriba el guion, genere la voz en off, busque imágenes/videos de stock y edite todo automáticamente para crear videoclips virales:\n\n*   **`harry0703/MoneyPrinterTurbo`** ⭐ *(El más popular actualmente)*\n    *   **Qué hace:** Automatiza la creación de videos cortos. Le das un tema, y la IA genera el guion, usa APIs de voz (como EdgeTTS), genera subtítulos animados, busca videos de fondo (Pexels/Pixabay) y lo edita todo.\n*   **`FujiwaraChoki/MoneyPrinter`**\n    *   **Qué hace:** El predecesor de la idea anterior. Automatiza la creación de videos \"faceless\" (sin rostro) para YouTube y TikTok usando la API de OpenAI y ElevenLabs.\n*   **`autoshorts-ai` / `AutoShorts`**\n    *   **Qué hace:** Herramientas similares enfocadas en generar canales automatizados de datos curiosos, historias de Reddit, etc.\n\n### 2. 🎬 Generación de Video desde Texto o Imagen (Text-to-Video / Image-to-Video)\nSi buscas los \"modelos fundacionales\" (estilo Sora, Runway o Pika) que generan píxeles desde cero mediante prompts:\n\n*   **`Wan-AI/Wan2.1`** *(Muy reciente y revolucionario)*\n    *   **Qué hace:** El modelo de código abierto de Alibaba para generación de video. Actualmente compite directamente con los modelos de pago de mayor calidad.\n*   **`THUDM/CogVideo`** y **`THUDM/CogVideoX`**\n    *   **Qué hace:** Modelos de texto-a-video de código abierto muy potentes, capaces de generar clips de varios segundos con alta coherencia temporal.\n*   **`Tencent/HunyuanVideo`**\n    *   **Qué hace:** El modelo de video de Tencent. Es uno de los modelos de código abierto más grandes y capaces actualmente para generar videoclips realistas.\n*   **`guoyww/AnimateDiff`**\n    *   **Qué hace:** No genera video desde cero, sino que \"anima\" modelos de Stable Diffusion. Es la base del 90% de los videos de IA animados (estilo anime, 3D, realista) que ves en Twitter/X.\n*   **`Stability-AI/generative-models`**\n    *   **Qué hace:** El repositorio oficial de **Stable Video Diffusion (SVD)**. Ideal para convertir una imagen estática en un videoclip de 2 a 4 segundos.\n\n### 3. 🗣️ Avatares Parlantes y Lip-Sync (Talking Heads)\nSi quieres crear un videoclip donde una foto o un avatar hable con tu voz (o la de una IA) sincronizando los labios:\n\n*   **`OpenTalker/SadTalker`**\n    *   **Qué hace:** Tomas una sola imagen y un archivo de audio, y la IA genera un videoclip de la persona hablando con movimientos de cabeza y expresiones faciales realistas.\n*   **`Rudrabha/Wav2Lip`**\n    *   **Qué hace:** El clásico para sincronización labial. Puedes tomar un video existente de alguien hablando y cambiarle el audio; la IA modificará los labios para que coincidan perfectamente con el nuevo audio.\n*   **`TMElyralab/MuseTalk`**\n    *   **Qué hace:** Una alternativa más moderna y rápida a Wav2Lip para lip-sync en tiempo real o generación de clips.\n\n### 4. ✂️ Edición, Face-Swap y Mejora de Video\nPara manipular videoclips existentes, cambiar caras o mejorar la calidad:\n\n*   **`facefusion/facefusion`** ⭐ *(El estándar de la industria)*\n    *   **Qué hace:** El sucesor de \"Roop\". Es la mejor herramienta de código abierto para hacer Face-Swap (cambio de cara) en videos, mejorar la calidad de la cara (face enhancer) y editar videoclips frame a frame.\n*   **`xinntao/Real-ESRGAN`**\n    *   **Qué hace:** Aunque es famoso por imágenes, su implementación en video permite escalar y mejorar videoclips antiguos o de baja resolución a 4K usando IA.\n*   **`jixiaozhong/RealBasicVSR`**\n    *   **Qué hace:** Restauración y super-resolución de videos completos manteniendo la coherencia temporal (para que el video no \"parpadee\").\n\n---\n\n### 🔍 Cómo buscar tú mismo en GitHub (GitHub Dorks)\n\nSi quieres buscar repositorios más nicho, experimentales o recién subidos hoy mismo, te recomiendo usar estos **filtros de búsqueda exactos** en la barra de búsqueda de GitHub:\n\n**Para encontrar generadores de video:**\n> `topic:text-to-video stars:>100`\n> `\"video generation\" language:python stars:>500`\n\n**Para encontrar automatizadores de clips (estilo TikTok/Shorts):**\n> `\"MoneyPrinter\" language:python`\n> `\"video automation\" AI language:python`\n\n**Para encontrar herramientas de edición o avatares:**\n> `topic:talking-head`\n> `\"lip sync\" AI language:python stars:>200`\n\n### ⚠️ Nota importante sobre Hardware\nCasi todos los repositorios de **Generación de Video** (Categoría 2) y **Face-Swap** (Categoría 4) requieren una tarjeta gráfica (GPU) de NVIDIA con **mucha VRAM** (mínimo 8GB, recomendado 12GB o 24GB para modelos como Hunyuan o Wan2.1). \n\nSi no tienes un PC potente, muchos de estos repositorios (especialmente los de `ComfyUI` o `Stable Diffusion`) incluyen enlaces a **Notebooks de Google Colab** o **HuggingFace Spaces** dentro de su `README.md` para que puedas probarlos gratis o por centavos en la nube.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "4048abb2-201d-4295-905c-b0215860e462",
+      "usage": {
+       "input_tokens": 37,
+       "output_tokens": 3187,
+       "characters": 0,
+       "total_tokens": 3224,
+       "input_tokens_details": {
+        "text_tokens": 37
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 1649,
+        "text_tokens": 3187
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1782655141
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1782655141.9063907
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1782655080
+   }
+  ]
+ },
+ "updated_at": 1782655141,
+ "created_at": 1782655080,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1782655079510
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "4048abb2-201d-4295-905c-b0215860e462"
+ ],
+ "currentId": "4048abb2-201d-4295-905c-b0215860e462",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

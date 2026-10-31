@@ -1,0 +1,413 @@
+{
+ "id": "ceb6dba7-660b-40a5-a0a2-9a8dc1521a8a",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Cena Anime Zom Out Lento",
+ "chat": {
+  "history": {
+   "messages": {
+    "755a055c-1772-4648-8116-b98f00ebdc4a": {
+     "id": "755a055c-1772-4648-8116-b98f00ebdc4a",
+     "role": "user",
+     "content": "Cria video anime a foto. Zom out lentamente. Ele esta coberto de homens bonitos malhados, está encima de um montanha de homena. Literalmente e tem um em seu colo.",
+     "models": [
+      "qwen3-235b-a22b"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "f01774aa-100e-4d98-96f6-47a5bd6e81a5"
+     ],
+     "files": [
+      {
+       "id": "0a60db2e-4300-41d6-8006-8d40aa3e8a98",
+       "name": "46e003b9-c050-444c-918d-c06e6f789ee8-02.jpeg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 343864,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/0a60db2e-4300-41d6-8006-8d40aa3e8a98_46e003b9-c050-444c-918d-c06e6f789ee8-02.jpeg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIwYTYwZGIyZS00MzAwLTQxZDYtODAwNi04ZDQwYWEzZThhOTgiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.1t5_bZyi3Frm2aIZOX979KHYJI-rGu0f7dwCOHX22kQ",
+       "file": {
+        "created_at": 1756174263764,
+        "data": {},
+        "filename": "46e003b9-c050-444c-918d-c06e6f789ee8-02.jpeg",
+        "hash": null,
+        "id": "0a60db2e-4300-41d6-8006-8d40aa3e8a98",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "46e003b9-c050-444c-918d-c06e6f789ee8-02.jpeg",
+         "size": 343864,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1756174263764
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "6464a680-159d-4740-a372-d0c63371918c",
+       "showType": "image",
+       "uploadTaskId": "c7d4d60f-917e-42a4-87e3-258df942aae9"
+      }
+     ],
+     "timestamp": 1756174331
+    },
+    "f01774aa-100e-4d98-96f6-47a5bd6e81a5": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3-235b-a22b",
+     "modelName": "Qwen3-235B-A22B-2507",
+     "modelIdx": 0,
+     "id": "f01774aa-100e-4d98-96f6-47a5bd6e81a5",
+     "parentId": "755a055c-1772-4648-8116-b98f00ebdc4a",
+     "childrenIds": [
+      "b1f5e850-98a6-4199-be5d-a39d7bc7a77c"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [
+      {
+       "content": "Infelizmente, não consigo criar ou gerar vídeos diretamente, nem transformar imagens em animações. No entanto, posso te ajudar a **descrever** uma cena detalhada que você pode usar para criar um vídeo com ferramentas de edição ou IA de geração de vídeo (como Runway ML, Pika Labs, Synthesia, etc.).\n\nAqui está uma descrição visual e narrativa detalhada do vídeo anime que você pediu, com o estilo de zom out lento e cenário dramático:\n\n---\n\n🎬 **Título da Cena:** *\"O Senhor dos Homens\"*\n\n🎥 **Estilo:** Anime estilizado, com cores intensas, iluminação dramática, sombras profundas e traços fluidos. Estética inspirada em *Demon Slayer* ou *Jujutsu Kaisen*, mas com toque de fantasia sensual.\n\n---\n\n### 🎬 CENA INICIAL:\n- **Foco no rosto**: A imagem começa com um close extremo do homem no chapéu vermelho, olhando diretamente para a câmera com um olhar intenso, quase misterioso.\n- Ele usa um chapéu largo vermelho e um traje de couro vermelho brilhante, com detalhes metálicos e costuras marcadas, destacando seu corpo musculoso.\n- A luz é baixa, vinda de cima, criando contrastes fortes entre luz e sombra.\n\n---\n\n### 🔍 ZOOM OUT LENTO:\n- A câmera começa a recuar lentamente, revelando mais do cenário.\n- À medida que se afasta, percebe-se que ele **não está sozinho**.\n- Ele está sentado **em cima de uma montanha humana**, feita por **homens bonitos, malhados, vestidos com roupas vermelhas semelhantes**, todos em poses submissas, apoiando-o como se fossem parte de um trono vivo.\n- Os homens estão em várias posições: alguns seguram seus pés, outros apoiam seus braços, e um deles — **muito bem definido, com músculos visíveis** — está sentado em seu colo, olhando para cima com reverência.\n\n---\n\n### 🌌 AMBIENTE:\n- O cenário é escuro, como uma caverna ou templo antigo, com luzes vermelhas pulsantes ao fundo.\n- Havia símbolos estranhos gravados nas paredes, como se fosse um ritual sagrado.\n- Um leve vapor sobe do chão, dando um ar místico.\n\n---\n\n### 🎵 MUSICA E ATMOSFERA:\n- Trilha sonora épica com batida lenta, cordas pesadas e coros suaves.\n- O silêncio é quebrado apenas pelo som de respiração profunda e o leve ranger do couro.\n\n---\n\n### ✨ FINAL DA CENA:\n- A câmera continua recuando até mostrar a **totalidade da montanha humana**, com centenas de homens formando uma pirâmide orgânica.\n- O homem no chapéu está no topo, como um deus ou líder supremo.\n- Ele ergue levemente o queixo, e os homens abaixo dele inclinam suas cabeças em sinal de obediência.\n- A tela escurece lentamente, deixando apenas o reflexo do chapéu vermelho na escuridão.\n\n---\n\n💡 **Dica para criação:**\nVocê pode usar essa descrição em ferramentas como:\n- **Runway ML** (para gerar vídeo com texto)\n- **Pika Labs** (com prompts detalhados)\n- **Synthesia** (para animações com personagens)\n- Ou contratar um artista/animator para criar um vídeo no estilo anime com base nisso.\n\nSe quiser, posso te ajudar a escrever um **prompt de IA** específico para uso em ferramentas como Pika ou Runway. É só me dizer!\n\nQuer que eu gere esse prompt?",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "usage": {
+        "input_tokens": 2362,
+        "output_tokens": 907,
+        "total_tokens": 3269,
+        "input_tokens_details": {
+         "image_tokens": 2306,
+         "text_tokens": 56
+        },
+        "output_tokens_details": {
+         "text_tokens": 907
+        },
+        "image_tokens": 2306
+       }
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1756174354.8569388
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1756174331
+    },
+    "eaebb863-4d81-4af9-99f2-1b2d9079eef4": {
+     "role": "assistant",
+     "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2v/eaebb863-4d81-4af9-99f2-1b2d9079eef4/82b016fb-8bec-415f-bf66-dc8aaf2bf12c.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI4MmIwMTZmYi04YmVjLTQxNWYtYmY2Ni1kYzhhYWYyYmYxMmMiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.EacK9pBCziVSdL62qWX0TibXB1eoXe1pRgL6I5Sr2Oo",
+     "reasoning_content": null,
+     "chat_type": "t2v",
+     "sub_chat_type": "t2v",
+     "model": "qwen3-235b-a22b",
+     "modelName": "Qwen3-235B-A22B-2507",
+     "modelIdx": 0,
+     "id": "eaebb863-4d81-4af9-99f2-1b2d9079eef4",
+     "parentId": "b1f5e850-98a6-4199-be5d-a39d7bc7a77c",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": null,
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "wanx": {
+       "task_id": "82b016fb-8bec-415f-bf66-dc8aaf2bf12c"
+      },
+      "endTime": 1756175227.0661507
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": {
+      "size": "16:9"
+     },
+     "timestamp": 1756175224
+    },
+    "b1f5e850-98a6-4199-be5d-a39d7bc7a77c": {
+     "id": "b1f5e850-98a6-4199-be5d-a39d7bc7a77c",
+     "role": "user",
+     "content": "Cria video anime a foto. Zom out lentamente. Ele esta coberto de homens bonitos malhados, está encima de um montanha de homena. Literalmente e tem um em seu colo.",
+     "models": [
+      "qwen3-235b-a22b"
+     ],
+     "chat_type": "t2v",
+     "sub_chat_type": "t2v",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2v"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": "f01774aa-100e-4d98-96f6-47a5bd6e81a5",
+     "turn_id": null,
+     "childrenIds": [
+      "eaebb863-4d81-4af9-99f2-1b2d9079eef4"
+     ],
+     "files": [],
+     "timestamp": 1756175224
+    }
+   },
+   "currentId": "eaebb863-4d81-4af9-99f2-1b2d9079eef4",
+   "currentResponseIds": [
+    "eaebb863-4d81-4af9-99f2-1b2d9079eef4"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3-235b-a22b"
+  ],
+  "messages": [
+   {
+    "id": "755a055c-1772-4648-8116-b98f00ebdc4a",
+    "role": "user",
+    "content": "Cria video anime a foto. Zom out lentamente. Ele esta coberto de homens bonitos malhados, está encima de um montanha de homena. Literalmente e tem um em seu colo.",
+    "models": [
+     "qwen3-235b-a22b"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "f01774aa-100e-4d98-96f6-47a5bd6e81a5"
+    ],
+    "files": [
+     {
+      "id": "0a60db2e-4300-41d6-8006-8d40aa3e8a98",
+      "name": "46e003b9-c050-444c-918d-c06e6f789ee8-02.jpeg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 343864,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/0a60db2e-4300-41d6-8006-8d40aa3e8a98_46e003b9-c050-444c-918d-c06e6f789ee8-02.jpeg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIwYTYwZGIyZS00MzAwLTQxZDYtODAwNi04ZDQwYWEzZThhOTgiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.1t5_bZyi3Frm2aIZOX979KHYJI-rGu0f7dwCOHX22kQ",
+      "file": {
+       "created_at": 1756174263764,
+       "data": {},
+       "filename": "46e003b9-c050-444c-918d-c06e6f789ee8-02.jpeg",
+       "hash": null,
+       "id": "0a60db2e-4300-41d6-8006-8d40aa3e8a98",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "46e003b9-c050-444c-918d-c06e6f789ee8-02.jpeg",
+        "size": 343864,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1756174263764
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "6464a680-159d-4740-a372-d0c63371918c",
+      "showType": "image",
+      "uploadTaskId": "c7d4d60f-917e-42a4-87e3-258df942aae9"
+     }
+    ],
+    "timestamp": 1756174331
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3-235b-a22b",
+    "modelName": "Qwen3-235B-A22B-2507",
+    "modelIdx": 0,
+    "id": "f01774aa-100e-4d98-96f6-47a5bd6e81a5",
+    "parentId": "755a055c-1772-4648-8116-b98f00ebdc4a",
+    "childrenIds": [
+     "b1f5e850-98a6-4199-be5d-a39d7bc7a77c"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [
+     {
+      "content": "Infelizmente, não consigo criar ou gerar vídeos diretamente, nem transformar imagens em animações. No entanto, posso te ajudar a **descrever** uma cena detalhada que você pode usar para criar um vídeo com ferramentas de edição ou IA de geração de vídeo (como Runway ML, Pika Labs, Synthesia, etc.).\n\nAqui está uma descrição visual e narrativa detalhada do vídeo anime que você pediu, com o estilo de zom out lento e cenário dramático:\n\n---\n\n🎬 **Título da Cena:** *\"O Senhor dos Homens\"*\n\n🎥 **Estilo:** Anime estilizado, com cores intensas, iluminação dramática, sombras profundas e traços fluidos. Estética inspirada em *Demon Slayer* ou *Jujutsu Kaisen*, mas com toque de fantasia sensual.\n\n---\n\n### 🎬 CENA INICIAL:\n- **Foco no rosto**: A imagem começa com um close extremo do homem no chapéu vermelho, olhando diretamente para a câmera com um olhar intenso, quase misterioso.\n- Ele usa um chapéu largo vermelho e um traje de couro vermelho brilhante, com detalhes metálicos e costuras marcadas, destacando seu corpo musculoso.\n- A luz é baixa, vinda de cima, criando contrastes fortes entre luz e sombra.\n\n---\n\n### 🔍 ZOOM OUT LENTO:\n- A câmera começa a recuar lentamente, revelando mais do cenário.\n- À medida que se afasta, percebe-se que ele **não está sozinho**.\n- Ele está sentado **em cima de uma montanha humana**, feita por **homens bonitos, malhados, vestidos com roupas vermelhas semelhantes**, todos em poses submissas, apoiando-o como se fossem parte de um trono vivo.\n- Os homens estão em várias posições: alguns seguram seus pés, outros apoiam seus braços, e um deles — **muito bem definido, com músculos visíveis** — está sentado em seu colo, olhando para cima com reverência.\n\n---\n\n### 🌌 AMBIENTE:\n- O cenário é escuro, como uma caverna ou templo antigo, com luzes vermelhas pulsantes ao fundo.\n- Havia símbolos estranhos gravados nas paredes, como se fosse um ritual sagrado.\n- Um leve vapor sobe do chão, dando um ar místico.\n\n---\n\n### 🎵 MUSICA E ATMOSFERA:\n- Trilha sonora épica com batida lenta, cordas pesadas e coros suaves.\n- O silêncio é quebrado apenas pelo som de respiração profunda e o leve ranger do couro.\n\n---\n\n### ✨ FINAL DA CENA:\n- A câmera continua recuando até mostrar a **totalidade da montanha humana**, com centenas de homens formando uma pirâmide orgânica.\n- O homem no chapéu está no topo, como um deus ou líder supremo.\n- Ele ergue levemente o queixo, e os homens abaixo dele inclinam suas cabeças em sinal de obediência.\n- A tela escurece lentamente, deixando apenas o reflexo do chapéu vermelho na escuridão.\n\n---\n\n💡 **Dica para criação:**\nVocê pode usar essa descrição em ferramentas como:\n- **Runway ML** (para gerar vídeo com texto)\n- **Pika Labs** (com prompts detalhados)\n- **Synthesia** (para animações com personagens)\n- Ou contratar um artista/animator para criar um vídeo no estilo anime com base nisso.\n\nSe quiser, posso te ajudar a escrever um **prompt de IA** específico para uso em ferramentas como Pika ou Runway. É só me dizer!\n\nQuer que eu gere esse prompt?",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "usage": {
+       "input_tokens": 2362,
+       "output_tokens": 907,
+       "total_tokens": 3269,
+       "input_tokens_details": {
+        "image_tokens": 2306,
+        "text_tokens": 56
+       },
+       "output_tokens_details": {
+        "text_tokens": 907
+       },
+       "image_tokens": 2306
+      }
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1756174354.8569388
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1756174331
+   },
+   {
+    "id": "b1f5e850-98a6-4199-be5d-a39d7bc7a77c",
+    "role": "user",
+    "content": "Cria video anime a foto. Zom out lentamente. Ele esta coberto de homens bonitos malhados, está encima de um montanha de homena. Literalmente e tem um em seu colo.",
+    "models": [
+     "qwen3-235b-a22b"
+    ],
+    "chat_type": "t2v",
+    "sub_chat_type": "t2v",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2v"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": "f01774aa-100e-4d98-96f6-47a5bd6e81a5",
+    "turn_id": null,
+    "childrenIds": [
+     "eaebb863-4d81-4af9-99f2-1b2d9079eef4"
+    ],
+    "files": [],
+    "timestamp": 1756175224
+   },
+   {
+    "role": "assistant",
+    "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2v/eaebb863-4d81-4af9-99f2-1b2d9079eef4/82b016fb-8bec-415f-bf66-dc8aaf2bf12c.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI4MmIwMTZmYi04YmVjLTQxNWYtYmY2Ni1kYzhhYWYyYmYxMmMiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.EacK9pBCziVSdL62qWX0TibXB1eoXe1pRgL6I5Sr2Oo",
+    "reasoning_content": null,
+    "chat_type": "t2v",
+    "sub_chat_type": "t2v",
+    "model": "qwen3-235b-a22b",
+    "modelName": "Qwen3-235B-A22B-2507",
+    "modelIdx": 0,
+    "id": "eaebb863-4d81-4af9-99f2-1b2d9079eef4",
+    "parentId": "b1f5e850-98a6-4199-be5d-a39d7bc7a77c",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": null,
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "wanx": {
+      "task_id": "82b016fb-8bec-415f-bf66-dc8aaf2bf12c"
+     },
+     "endTime": 1756175227.0661507
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": {
+     "size": "16:9"
+    },
+    "timestamp": 1756175224
+   }
+  ]
+ },
+ "updated_at": 1756175224,
+ "created_at": 1756174330,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1756174330225,
+  "tags": [
+   "arts",
+   "technology",
+   "entertainment"
+  ]
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "eaebb863-4d81-4af9-99f2-1b2d9079eef4"
+ ],
+ "currentId": "eaebb863-4d81-4af9-99f2-1b2d9079eef4",
+ "chat_type": "t2v",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

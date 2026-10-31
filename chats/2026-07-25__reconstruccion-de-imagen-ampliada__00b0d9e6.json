@@ -1,0 +1,520 @@
+{
+ "id": "00b0d9e6-aee3-465c-871d-94cf9cc13fd9",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Reconstrucción de imagen ampliada",
+ "chat": {
+  "history": {
+   "messages": {
+    "f2a37afa-f01b-410c-9b96-b927b2921710": {
+     "id": "f2a37afa-f01b-410c-9b96-b927b2921710",
+     "role": "user",
+     "content": "Reconstruye las boras..amplia ligeramente la foto\n.exatamente la misma foto",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2i",
+     "sub_chat_type": "t2i",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2i",
+       "size": "16:9",
+       "model": "qwen-image-2.0-pro"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "175e9701-ec1b-48f5-9a0d-8617bf6568d3"
+     ],
+     "files": [
+      {
+       "id": "73a95b40-7700-4e66-b126-df79d02a5db3",
+       "name": "Firefly (9).jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 3075103,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/73a95b40-7700-4e66-b126-df79d02a5db3_Firefly (9).jpg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI3M2E5NWI0MC03NzAwLTRlNjYtYjEyNi1kZjc5ZDAyYTVkYjMiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.NdqRfEfQ2E4ZUwAfe8QcIxZyj-kS2EiUKzYAQ426i00",
+       "file": {
+        "created_at": 1784978347433,
+        "data": {},
+        "filename": "Firefly (9).jpg",
+        "hash": null,
+        "id": "73a95b40-7700-4e66-b126-df79d02a5db3",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "Firefly (9).jpg",
+         "size": 3075103,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1784978347433,
+        "lastModified": 1784977979700,
+        "name": "Firefly (9).jpg",
+        "webkitRelativePath": "",
+        "size": 3075103,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 100,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "9ce4c6e5-fcc6-47b3-bfb4-4271c854318c",
+       "showType": "image",
+       "uploadTaskId": "6ba03898-9e13-4dfa-903b-a65a74f15af6"
+      }
+     ],
+     "timestamp": 1784978363
+    },
+    "175e9701-ec1b-48f5-9a0d-8617bf6568d3": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2i",
+     "sub_chat_type": "t2i",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "175e9701-ec1b-48f5-9a0d-8617bf6568d3",
+     "parentId": "f2a37afa-f01b-410c-9b96-b927b2921710",
+     "childrenIds": [
+      "43214d3c-c928-4834-be19-516f77c6f38e"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/175e9701-ec1b-48f5-9a0d-8617bf6568d3/17849783875d3f.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxNzg0OTc4Mzg3NWQzZiIsInJlc291cmNlX2NoYXRfaWQiOiIwMGIwZDllNi1hZWUzLTQ2NWMtODcxZC05NGNmOWNjMTNmZDkifQ.-akVtJbINSooxLhimslo-5v8xBpYlx3KZP6SmR4Qkdo",
+       "phase": "image_gen",
+       "status": "finished",
+       "extra": {
+        "output_image_hw": [
+         [
+          1504,
+          704
+         ]
+        ]
+       },
+       "role": "assistant",
+       "response_id": "175e9701-ec1b-48f5-9a0d-8617bf6568d3",
+       "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "characters": 0,
+        "width": 704,
+        "image_count": 1,
+        "height": 1504
+       },
+       "timestamp": 1784978388
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2i",
+       "size": "16:9",
+       "model": "qwen-image-2.0-pro"
+      },
+      "endTime": 1784978388.5480542
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1784978363
+    },
+    "43214d3c-c928-4834-be19-516f77c6f38e": {
+     "id": "43214d3c-c928-4834-be19-516f77c6f38e",
+     "role": "user",
+     "content": "Dont move head. Slow movements",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2i",
+     "sub_chat_type": "t2i",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2i",
+       "size": "auto",
+       "model": "qwen-image-3.0-pro"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": "175e9701-ec1b-48f5-9a0d-8617bf6568d3",
+     "turn_id": null,
+     "childrenIds": [
+      "0324e52c-ab0a-4b37-be0c-e74366d914c0"
+     ],
+     "files": [],
+     "timestamp": 1784986307
+    },
+    "0324e52c-ab0a-4b37-be0c-e74366d914c0": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2i",
+     "sub_chat_type": "t2i",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "0324e52c-ab0a-4b37-be0c-e74366d914c0",
+     "parentId": "43214d3c-c928-4834-be19-516f77c6f38e",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/0324e52c-ab0a-4b37-be0c-e74366d914c0/17849863872558.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxNzg0OTg2Mzg3MjU1OCIsInJlc291cmNlX2NoYXRfaWQiOiIwMGIwZDllNi1hZWUzLTQ2NWMtODcxZC05NGNmOWNjMTNmZDkifQ.lrnwv1yhaOWU_n7r65AHYHc8pfwl43lXA9jRiNKVKDY",
+       "phase": "image_gen",
+       "status": "finished",
+       "extra": {
+        "output_image_hw": [
+         [
+          1696,
+          2528
+         ]
+        ]
+       },
+       "role": "assistant",
+       "response_id": "0324e52c-ab0a-4b37-be0c-e74366d914c0",
+       "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "characters": 0,
+        "width": 2528,
+        "image_count": 1,
+        "height": 1696
+       },
+       "timestamp": 1784986387
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2i",
+       "size": "auto",
+       "model": "qwen-image-3.0-pro"
+      },
+      "endTime": 1784986387.5640388
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1784986307
+    }
+   },
+   "currentId": "0324e52c-ab0a-4b37-be0c-e74366d914c0",
+   "currentResponseIds": [
+    "0324e52c-ab0a-4b37-be0c-e74366d914c0"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "f2a37afa-f01b-410c-9b96-b927b2921710",
+    "role": "user",
+    "content": "Reconstruye las boras..amplia ligeramente la foto\n.exatamente la misma foto",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2i",
+    "sub_chat_type": "t2i",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2i",
+      "size": "16:9",
+      "model": "qwen-image-2.0-pro"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "175e9701-ec1b-48f5-9a0d-8617bf6568d3"
+    ],
+    "files": [
+     {
+      "id": "73a95b40-7700-4e66-b126-df79d02a5db3",
+      "name": "Firefly (9).jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 3075103,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/73a95b40-7700-4e66-b126-df79d02a5db3_Firefly (9).jpg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI3M2E5NWI0MC03NzAwLTRlNjYtYjEyNi1kZjc5ZDAyYTVkYjMiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.NdqRfEfQ2E4ZUwAfe8QcIxZyj-kS2EiUKzYAQ426i00",
+      "file": {
+       "created_at": 1784978347433,
+       "data": {},
+       "filename": "Firefly (9).jpg",
+       "hash": null,
+       "id": "73a95b40-7700-4e66-b126-df79d02a5db3",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "Firefly (9).jpg",
+        "size": 3075103,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1784978347433,
+       "lastModified": 1784977979700,
+       "name": "Firefly (9).jpg",
+       "webkitRelativePath": "",
+       "size": 3075103,
+       "type": "image/jpeg"
+      },
+      "collection_name": "",
+      "progress": 100,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "9ce4c6e5-fcc6-47b3-bfb4-4271c854318c",
+      "showType": "image",
+      "uploadTaskId": "6ba03898-9e13-4dfa-903b-a65a74f15af6"
+     }
+    ],
+    "timestamp": 1784978363
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2i",
+    "sub_chat_type": "t2i",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "175e9701-ec1b-48f5-9a0d-8617bf6568d3",
+    "parentId": "f2a37afa-f01b-410c-9b96-b927b2921710",
+    "childrenIds": [
+     "43214d3c-c928-4834-be19-516f77c6f38e"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/175e9701-ec1b-48f5-9a0d-8617bf6568d3/17849783875d3f.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxNzg0OTc4Mzg3NWQzZiIsInJlc291cmNlX2NoYXRfaWQiOiIwMGIwZDllNi1hZWUzLTQ2NWMtODcxZC05NGNmOWNjMTNmZDkifQ.-akVtJbINSooxLhimslo-5v8xBpYlx3KZP6SmR4Qkdo",
+      "phase": "image_gen",
+      "status": "finished",
+      "extra": {
+       "output_image_hw": [
+        [
+         1504,
+         704
+        ]
+       ]
+      },
+      "role": "assistant",
+      "response_id": "175e9701-ec1b-48f5-9a0d-8617bf6568d3",
+      "usage": {
+       "input_tokens": 0,
+       "output_tokens": 0,
+       "characters": 0,
+       "width": 704,
+       "image_count": 1,
+       "height": 1504
+      },
+      "timestamp": 1784978388
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2i",
+      "size": "16:9",
+      "model": "qwen-image-2.0-pro"
+     },
+     "endTime": 1784978388.5480542
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1784978363
+   },
+   {
+    "id": "43214d3c-c928-4834-be19-516f77c6f38e",
+    "role": "user",
+    "content": "Dont move head. Slow movements",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2i",
+    "sub_chat_type": "t2i",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2i",
+      "size": "auto",
+      "model": "qwen-image-3.0-pro"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "parentId": "175e9701-ec1b-48f5-9a0d-8617bf6568d3",
+    "turn_id": null,
+    "childrenIds": [
+     "0324e52c-ab0a-4b37-be0c-e74366d914c0"
+    ],
+    "files": [],
+    "timestamp": 1784986307
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2i",
+    "sub_chat_type": "t2i",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "0324e52c-ab0a-4b37-be0c-e74366d914c0",
+    "parentId": "43214d3c-c928-4834-be19-516f77c6f38e",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/0324e52c-ab0a-4b37-be0c-e74366d914c0/17849863872558.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxNzg0OTg2Mzg3MjU1OCIsInJlc291cmNlX2NoYXRfaWQiOiIwMGIwZDllNi1hZWUzLTQ2NWMtODcxZC05NGNmOWNjMTNmZDkifQ.lrnwv1yhaOWU_n7r65AHYHc8pfwl43lXA9jRiNKVKDY",
+      "phase": "image_gen",
+      "status": "finished",
+      "extra": {
+       "output_image_hw": [
+        [
+         1696,
+         2528
+        ]
+       ]
+      },
+      "role": "assistant",
+      "response_id": "0324e52c-ab0a-4b37-be0c-e74366d914c0",
+      "usage": {
+       "input_tokens": 0,
+       "output_tokens": 0,
+       "characters": 0,
+       "width": 2528,
+       "image_count": 1,
+       "height": 1696
+      },
+      "timestamp": 1784986387
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2i",
+      "size": "auto",
+      "model": "qwen-image-3.0-pro"
+     },
+     "endTime": 1784986387.5640388
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1784986307
+   }
+  ]
+ },
+ "updated_at": 1784986308,
+ "created_at": 1784978363,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1784978362194
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "0324e52c-ab0a-4b37-be0c-e74366d914c0"
+ ],
+ "currentId": "0324e52c-ab0a-4b37-be0c-e74366d914c0",
+ "chat_type": "t2i",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

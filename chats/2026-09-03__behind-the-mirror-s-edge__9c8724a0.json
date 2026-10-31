@@ -1,0 +1,262 @@
+{
+ "id": "9c8724a0-1dc1-482f-b153-c268f9efe5de",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Behind the Mirror's Edge",
+ "chat": {
+  "history": {
+   "messages": {
+    "643e8a6a-1b31-44a4-a2f3-1d31d7017aed": {
+     "id": "643e8a6a-1b31-44a4-a2f3-1d31d7017aed",
+     "role": "user",
+     "content": "Zoom in mirror stars zooming out🎬 PROMPT VIDEO — 5 SEGUNDOS | BACKSTAGE / THE SHOW MUST GO ON\n\n5-second cinematic AI video, single continuous shot, using the reference image as the exact character and wardrobe reference. Preserve Belentani’s face, age, long dark curly hair, beard, proportions and deep glossy red leather outfit. Do not age him.\n\n0–1s: Start with an intimate over-the-shoulder shot from behind Belentani, seated in front of the illuminated dressing-room mirror. The camera is slightly low and close, seeing his reflection ahead. Warm vanity bulbs glow softly through the dim room. He remains still for a brief emotional beat, breathing naturally.\n\n1–3s: The camera performs a slow cinematic lateral orbit, moving from behind his right shoulder toward a three-quarter frontal angle. The movement feels like a real cinema camera on a small dolly/arm, with subtle natural inertia and parallax. His reflection shifts realistically in the mirror as the camera changes position. Belentani slowly raises his eyes toward the mirror, expression soft, melancholic and quietly amazed, as if realizing the magnitude of the moment: this is really happening.\n\n3–5s: The camera completes the move into a medium close-up, slightly below eye level. Belentani looks at himself in the mirror, then gives an almost imperceptible breath and tiny change in expression—melancholy transforming into determination. He gently touches or adjusts the headset microphone. The vanity lights flare subtly across the lens. Background remains dark and atmospheric.\n\nCAMERA PARAMETERS: cinematic dolly orbit, approximately 120° lateral camera movement, 35mm anamorphic lens, shallow depth of field, realistic parallax, subtle handheld inertia, natural motion blur, smooth acceleration and deceleration, no artificial camera teleportation, no cuts, no sudden zoom, no camera shake.\n\nCHARACTER PARAMETERS: young adult Belentani, consistent facial identity throughout the entire shot, long dark curly hair, full beard, warm realistic skin texture, glossy deep-red leather costume with clean straight seams and layered shoulder pads, headset microphone, natural anatomy, emotionally restrained performance. He must remain youthful and handsome; no aging, no wrinkles added, no facial transformation.\n\nLIGHTING: dim backstage dressing room, warm tungsten vanity bulbs, deep shadows, soft reflected light from the mirror, subtle red reflections from the costume, gentle atmospheric haze, cinematic highlight roll-off.\n\nMOOD: the five seconds before going on stage. Sweet, vulnerable, melancholic, amazed, then quietly resolute. The feeling is: “OMG… the show must go on.”\n\nREALISM: photorealistic live-action cinema, IMAX-quality image, physical camera behavior, realistic skin, realistic hair movement, real leather reflections, physically accurate mirror reflection, cinematic depth, subtle film grain, premium high-budget music-film aesthetic.\n\nNEGATIVE: no character morphing, no face change, no age change, no extra fingers, no duplicated reflection, no distorted mirror, no costume redesign, no exaggerated acting, no plastic skin, no CGI appearance, no random camera movement, no cuts.",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "i2v",
+       "size": "16:9"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "699fa217-53e1-4c12-8c3a-51c66559044c"
+     ],
+     "files": [
+      {
+       "id": "8ddc1918-f9db-4b2f-9f19-3e7155c8d49b",
+       "name": "file_000000002ff081f4a72a9c6556c43bad.png",
+       "file_type": "image/png",
+       "type": "image",
+       "file_class": "vision",
+       "size": 1988547,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/8ddc1918-f9db-4b2f-9f19-3e7155c8d49b_file_000000002ff081f4a72a9c6556c43bad.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI4ZGRjMTkxOC1mOWRiLTRiMmYtOWYxOS0zZTcxNTVjOGQ0OWIiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.lAHJ7fqtgWLle_zddAFnFtITw_gqVlQKjtz4PrwX-ZU",
+       "file": {
+        "created_at": 1788457036123,
+        "data": {},
+        "filename": "file_000000002ff081f4a72a9c6556c43bad.png",
+        "hash": null,
+        "id": "8ddc1918-f9db-4b2f-9f19-3e7155c8d49b",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "file_000000002ff081f4a72a9c6556c43bad.png",
+         "size": 1988547,
+         "content_type": "image/png"
+        },
+        "update_at": 1788457036123,
+        "lastModified": 1788457020000,
+        "name": "file_000000002ff081f4a72a9c6556c43bad.png",
+        "webkitRelativePath": "",
+        "size": 1988547,
+        "type": "image/png"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "c58efc4d-a0a8-449c-b683-50cdd057bde1",
+       "showType": "image",
+       "uploadTaskId": "7aaebdd4-e21d-466d-a55f-2b13b85d8489"
+      }
+     ],
+     "timestamp": 1788457167
+    },
+    "699fa217-53e1-4c12-8c3a-51c66559044c": {
+     "role": "assistant",
+     "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/699fa217-53e1-4c12-8c3a-51c66559044c/1cb87a98-bc59-4ba3-9d56-de40853e8a39.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxY2I4N2E5OC1iYzU5LTRiYTMtOWQ1Ni1kZTQwODUzZThhMzkiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.bR91Y5ML3icdsfBP-eC8AIhbQWL5mF8uX-nVGjeqbfU",
+     "reasoning_content": null,
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "699fa217-53e1-4c12-8c3a-51c66559044c",
+     "parentId": "643e8a6a-1b31-44a4-a2f3-1d31d7017aed",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": null,
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "wanx": {
+       "task_id": "1cb87a98-bc59-4ba3-9d56-de40853e8a39"
+      },
+      "endTime": 1788457168.8367782
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": {
+      "size": "16:9"
+     },
+     "timestamp": 1788457167
+    }
+   },
+   "currentId": "699fa217-53e1-4c12-8c3a-51c66559044c",
+   "currentResponseIds": [
+    "699fa217-53e1-4c12-8c3a-51c66559044c"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "643e8a6a-1b31-44a4-a2f3-1d31d7017aed",
+    "role": "user",
+    "content": "Zoom in mirror stars zooming out🎬 PROMPT VIDEO — 5 SEGUNDOS | BACKSTAGE / THE SHOW MUST GO ON\n\n5-second cinematic AI video, single continuous shot, using the reference image as the exact character and wardrobe reference. Preserve Belentani’s face, age, long dark curly hair, beard, proportions and deep glossy red leather outfit. Do not age him.\n\n0–1s: Start with an intimate over-the-shoulder shot from behind Belentani, seated in front of the illuminated dressing-room mirror. The camera is slightly low and close, seeing his reflection ahead. Warm vanity bulbs glow softly through the dim room. He remains still for a brief emotional beat, breathing naturally.\n\n1–3s: The camera performs a slow cinematic lateral orbit, moving from behind his right shoulder toward a three-quarter frontal angle. The movement feels like a real cinema camera on a small dolly/arm, with subtle natural inertia and parallax. His reflection shifts realistically in the mirror as the camera changes position. Belentani slowly raises his eyes toward the mirror, expression soft, melancholic and quietly amazed, as if realizing the magnitude of the moment: this is really happening.\n\n3–5s: The camera completes the move into a medium close-up, slightly below eye level. Belentani looks at himself in the mirror, then gives an almost imperceptible breath and tiny change in expression—melancholy transforming into determination. He gently touches or adjusts the headset microphone. The vanity lights flare subtly across the lens. Background remains dark and atmospheric.\n\nCAMERA PARAMETERS: cinematic dolly orbit, approximately 120° lateral camera movement, 35mm anamorphic lens, shallow depth of field, realistic parallax, subtle handheld inertia, natural motion blur, smooth acceleration and deceleration, no artificial camera teleportation, no cuts, no sudden zoom, no camera shake.\n\nCHARACTER PARAMETERS: young adult Belentani, consistent facial identity throughout the entire shot, long dark curly hair, full beard, warm realistic skin texture, glossy deep-red leather costume with clean straight seams and layered shoulder pads, headset microphone, natural anatomy, emotionally restrained performance. He must remain youthful and handsome; no aging, no wrinkles added, no facial transformation.\n\nLIGHTING: dim backstage dressing room, warm tungsten vanity bulbs, deep shadows, soft reflected light from the mirror, subtle red reflections from the costume, gentle atmospheric haze, cinematic highlight roll-off.\n\nMOOD: the five seconds before going on stage. Sweet, vulnerable, melancholic, amazed, then quietly resolute. The feeling is: “OMG… the show must go on.”\n\nREALISM: photorealistic live-action cinema, IMAX-quality image, physical camera behavior, realistic skin, realistic hair movement, real leather reflections, physically accurate mirror reflection, cinematic depth, subtle film grain, premium high-budget music-film aesthetic.\n\nNEGATIVE: no character morphing, no face change, no age change, no extra fingers, no duplicated reflection, no distorted mirror, no costume redesign, no exaggerated acting, no plastic skin, no CGI appearance, no random camera movement, no cuts.",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "i2v",
+      "size": "16:9"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "699fa217-53e1-4c12-8c3a-51c66559044c"
+    ],
+    "files": [
+     {
+      "id": "8ddc1918-f9db-4b2f-9f19-3e7155c8d49b",
+      "name": "file_000000002ff081f4a72a9c6556c43bad.png",
+      "file_type": "image/png",
+      "type": "image",
+      "file_class": "vision",
+      "size": 1988547,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/8ddc1918-f9db-4b2f-9f19-3e7155c8d49b_file_000000002ff081f4a72a9c6556c43bad.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI4ZGRjMTkxOC1mOWRiLTRiMmYtOWYxOS0zZTcxNTVjOGQ0OWIiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.lAHJ7fqtgWLle_zddAFnFtITw_gqVlQKjtz4PrwX-ZU",
+      "file": {
+       "created_at": 1788457036123,
+       "data": {},
+       "filename": "file_000000002ff081f4a72a9c6556c43bad.png",
+       "hash": null,
+       "id": "8ddc1918-f9db-4b2f-9f19-3e7155c8d49b",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "file_000000002ff081f4a72a9c6556c43bad.png",
+        "size": 1988547,
+        "content_type": "image/png"
+       },
+       "update_at": 1788457036123,
+       "lastModified": 1788457020000,
+       "name": "file_000000002ff081f4a72a9c6556c43bad.png",
+       "webkitRelativePath": "",
+       "size": 1988547,
+       "type": "image/png"
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "c58efc4d-a0a8-449c-b683-50cdd057bde1",
+      "showType": "image",
+      "uploadTaskId": "7aaebdd4-e21d-466d-a55f-2b13b85d8489"
+     }
+    ],
+    "timestamp": 1788457167
+   },
+   {
+    "role": "assistant",
+    "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/699fa217-53e1-4c12-8c3a-51c66559044c/1cb87a98-bc59-4ba3-9d56-de40853e8a39.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxY2I4N2E5OC1iYzU5LTRiYTMtOWQ1Ni1kZTQwODUzZThhMzkiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.bR91Y5ML3icdsfBP-eC8AIhbQWL5mF8uX-nVGjeqbfU",
+    "reasoning_content": null,
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "699fa217-53e1-4c12-8c3a-51c66559044c",
+    "parentId": "643e8a6a-1b31-44a4-a2f3-1d31d7017aed",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "content_list": null,
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "wanx": {
+      "task_id": "1cb87a98-bc59-4ba3-9d56-de40853e8a39"
+     },
+     "endTime": 1788457168.8367782
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": {
+     "size": "16:9"
+    },
+    "timestamp": 1788457167
+   }
+  ]
+ },
+ "updated_at": 1788457169,
+ "created_at": 1788457168,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1788457165187
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "699fa217-53e1-4c12-8c3a-51c66559044c"
+ ],
+ "currentId": "699fa217-53e1-4c12-8c3a-51c66559044c",
+ "chat_type": "i2v",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

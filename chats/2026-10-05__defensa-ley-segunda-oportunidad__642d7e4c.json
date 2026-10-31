@@ -1,0 +1,342 @@
+{
+ "id": "642d7e4c-ff79-4ed7-9ac8-edad2efe0821",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Defensa Ley Segunda Oportunidad",
+ "chat": {
+  "history": {
+   "messages": {
+    "cd6aa00e-7621-4823-acf9-5c88c725602c": {
+     "id": "cd6aa00e-7621-4823-acf9-5c88c725602c",
+     "role": "user",
+     "content": "metoralo mucho,escribe comot humano,sin asteriscos y muleillasSaltar al contenido principalAyuda sobre la accesibilidad\r\nModo IA\r\nTodo\r\nImágenes\r\nVídeos\r\nNoticias\r\nMás\r\nActualizar\r\n\r\n\r\n\r\n\r\nprompt para claude verificr drive, gmail. zip estudie leys segunda oportunidad. mala paxis, me haga una defensa. que mire historial de problemtas salud, que mire incogruencias y conteste pidiendo ayuda a los abogados pero cuestionando protocolo inocentemen, web donde puede consultar ley españoltas\r\nAquí tienes un prompt optimizado para Claude diseñado para que actúe como un abogado experto en la Ley de Segunda Oportunidad y mala praxis.\r\nCopia y pega el siguiente texto en Claude (asegúrate de subir primero tus archivos de Drive/Gmail o los ZIP con tu historial):\r\n📋 Copia el siguiente prompt en Claude:\r\ntext\r\nActúa como un abogado experto en la Ley de Segunda Oportunidad en España, especializado en negligencias médicas (mala praxis) y defensa del consumidor. Voy a proporcionarte un archivo comprimido (o documentos) que contiene mi historial médico, correos de Gmail, documentos de Drive y el registro de problemas de salud.\r\n\r\nTu objetivo es diseñar una estrategia de defensa sólida y redactar un escrito dirigido a mis abogados actuales. Para ello, debes realizar las siguientes tareas paso a paso:\r\n\r\n1. ANALIZA EL HISTORIAL: Revisa cronológicamente los documentos médicos y las comunicaciones. Identifica todas las incongruencias en los informes, contradicciones en los diagnósticos o falta de seguimiento que demuestren una mala praxis o que justifiquen el empeoramiento de mi estado de salud y mi situación de insolvencia.\r\n2. CONECTA CON LA SEGUNDA OPORTUNIDAD: Explica cómo mis problemas de salud crónicos o sobrevenidos (derivados o agravados por la mala praxis) afectaron directamente a mi capacidad económica, demostrando que soy un \"deudor de buena fe\" que ha sufrido un revés de fortuna involuntario.\r\n3. REDACTA EL ESCRITO PARA MIS ABOGADOS: Escribe una carta formal pero con un tono estratégicamente \"inocente\" y constructivo. El texto debe:\r\n   - Pedirles ayuda y orientación para el proceso.\r\n   - Cuestionar el protocolo actual que están siguiendo, haciendo preguntas abiertas y lógicas (ej. \"¿No creéis que deberíamos alegar el informe X del día Y donde se contradice el diagnóstico?\", \"¿Se ha valorado cómo el empeoramiento de mi salud influye en el estado de insolvencia según la jurisprudencia?\").\r\n   - Plantear estas dudas de manera que los obligues a revisar a fondo las incongruencias médicas que has detectado sin que sientan que estás atacando su profesionalidad de forma agresiva.\r\n\r\nPor favor, antes de redactar el escrito, hazme un resumen ejecutivo de las incongruencias clave que has encontrado en mis archivos para que yo las valide.\r\nUsa el código con precaución.\r\n🌐 Dónde consultar las Leyes Españolas (Fuentes Oficiales)\r\nPara buscar la legislación de manera gratuita, fiable y actualizada, debes acudir al Boletín Oficial del Estado (BOE). Aquí tienes los enlaces clave:\r\nBOE (Código de la Segunda Oportunidad): Puedes consultar el Código de Derecho de la Insolvencia en el BOE, que recopila toda la normativa del texto refundido de la Ley Concursal aplicable en España.\r\nBOE General: Para cualquier otra ley o Real Decreto, utiliza el buscador de la Agencia Estatal Boletín Oficial del Estado.\r\n¿Necesitas que adaptemos algún punto específico del prompt antes de que lo uses, o prefieres que te ayude a estructurar la lista de incongruencias médicas que ya conozcas?\r\nLas respuestas de la IA pueden contener errores. Más información\r\n\r\n\r\n\r\n\r\nIr a la petición anterior\r\nPregunta lo que quieras\r\n\r\n\r\n\r\n",
+     "models": [
+      "qwen3.8-max"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "06131cea-a0e0-4c22-8b99-6877ffccf3ce"
+     ],
+     "files": [],
+     "timestamp": 1791191012
+    },
+    "06131cea-a0e0-4c22-8b99-6877ffccf3ce": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.8-max",
+     "modelName": "Qwen3.8-Max",
+     "modelIdx": 0,
+     "id": "06131cea-a0e0-4c22-8b99-6877ffccf3ce",
+     "parentId": "cd6aa00e-7621-4823-acf9-5c88c725602c",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Analyze the user's request to clarify ambiguous phrasing and intent.",
+          "Refining the response guidelines to ensure natural and compliant output.",
+          "Analizo la solicitud del usuario para comprender el contexto y las restricciones impuestas.",
+          "Analyze the user's request to generate a high-quality prompt for file analysis",
+          "Sintetizo la estructura de respuesta para abordar un caso complejo que cruza la Ley de Segunda Oportunidad con mala praxis médica.",
+          "Identificar y estructurar los fundamentos legales necesarios para la consulta",
+          "Preparando la redacción de una estrategia legal compleja.",
+          "Analyze the provided legal prompt structure",
+          "Formulo una estrategia jurídica que vincula la negligencia médica con mi insolvencia",
+          "Analizo la fundamentación jurídica aplicable a los casos de segunda oportunidad y mala praxis médica.",
+          "Sintetizo la estructura y el tono requeridos para redactar una carta estratégica dirigida a mi equipo legal.",
+          "Analizar la adecuación del protocolo jurídico ante enfermedades iatrogénicas y validar incongruencias médicas previas a la gestión legal",
+          "Identificar fuentes oficiales y jurisprudenciales relevantes para el caso",
+          "Analizo el texto proporcionado para identificar y corregir la presencia de caracteres especiales no deseados."
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Interpret potential typos within the input to infer the core requirement.\nAssess the need for comprehensive processing based on contextual clues.\nPrepare to address the query by resolving linguistic ambiguities effectively.",
+          "I am interpreting constraints to eliminate filler words and specific formatting markers while maintaining a human-like tone.\nThe focus is on aligning with legal frameworks and verifying technical requirements without exposing internal parameters.\nThis ensures the final answer meets all specified stylistic and substantive criteria.",
+          "Identifico que se requiere reformular un prompt previo eliminando elementos técnicos y adoptando un estilo humano extenso.\nVerifico que debo evitar marcas de formato, muletillas y referencias a instrucciones internas o herramientas.\nPreparo una respuesta fluida y detallada que cumpla con todos los criterios estéticos y funcionales solicitados.",
+          "I carefully reviewed the stylistic and content constraints provided by the user\nI focused on ensuring technical depth while maintaining a natural and professional tone\nI prepared to construct the response strictly adhering to all formatting rules",
+          "Formulo un prompt detallado diseñado para generar un escrito legal cuestionando protocolos y buscando incongruencias, integrando referencias normativas específicas del BOE y la CGPJ.\nDelimito las fuentes jurídicas españolas relevantes para garantizar la precisión técnica y la validez de los argumentos planteados en la simulación.\nOrganizo estos elementos para ofrecer una guía clara y rigurosa sobre cómo estructurar la intervención legal solicitada.",
+          "Incluyo las referencias normativas específicas como el Real Decreto Legislativo 1/2020 y la Ley 40/2015 para respaldar las estrategias sobre la segunda oportunidad y la responsabilidad patrimonial.\nIntegro jurisprudencia relevante del Tribunal Supremo, citando sentencias clave que establecen precedentes sobre daños desproporcionados y pérdida de oportunidad.\nPreparo la base técnica precisa que permitirá ofrecer consejos estratégicos sólidos y documentados al usuario.",
+          "Verifico que se cumplen todas las restricciones estilísticas y de formato establecidas previamente.\nConfirmo la ausencia de símbolos no deseados y la integridad del tono solicitado.\nInicio la construcción del contenido asegurando el rigor jurídico y la coherencia narrativa.",
+          "I am reviewing a highly specialized instruction designed to configure an artificial intelligence as a senior Spanish lawyer specializing in insolvency and medical law. The text emphasizes strict adherence to technical accuracy and legal robustness while maintaining a natural professional tone. It explicitly instructs the user to attach relevant documentation before initiating the analysis. This setup ensures that the subsequent legal reasoning is grounded in concrete evidence and regulatory frameworks.",
+          "Analizo cronológicamente el historial clínico para identificar omisiones y fallos en la lex artis\nCruzo estos errores médicos con mi situación laboral para demostrar que la enfermedad causó mi ruina económica\nEvalúo si cumplo los requisitos de buena fe al probar que la crisis deriva de un daño corporal ajeno a mi voluntad",
+          "Identifico el Libro Décimo del Texto Refundido de la Ley Concursal y sus reformas recientes para regular el procedimiento de personas naturales no empresarias.\nDistingo entre la responsabilidad patrimonial de la Administración en la sanidad pública y la responsabilidad civil extracontractual en la privada según el Código Civil.\nIntegro la jurisprudencia del Tribunal Supremo español para completar el análisis del daño desproporcionado.",
+          "Adopto una postura educada y constructiva, empleando un método socrático para cuestionar la estrategia actual sin sonar acusatorio.\nIntegro naturalmente dudas procesales sobre la articulación de la demanda dentro del concurso y la inclusión de contradicciones médicas en el informe concursal.\nFormulo preguntas abiertas que inviten a mis abogados a replantear su enfoque mientras expreso mi preocupación por mi salud y futuro.",
+          "Evalúo si el procedimiento actual refleja la jurisprudencia sobre revés de fortuna involuntario derivado de fallos médicos y valoro la conveniencia de una pericia independiente antes de solicitar la exoneración de deuda.\nDetallo las discrepancias médicas encontradas en los documentos con sus respectivas fechas y folios para que usted pueda verificarlas antes de contactar a mis abogados.\nProporciono información sobre las fuentes oficiales como el BOE para que pueda contrastar la normativa o exigir fundamentos jurídicos sólidos en los escritos presentados.",
+          "Localizo en el Código de Derecho de la Insolvencia la normativa vigente y su versión consolidada. Utilizo CENDOJ y el buscador del CGPJ para encontrar sentencias clave sobre negligencias médicas y concursos de acreedores. Estas herramientas me permiten filtrar la jurisprudencia por materias específicas como la responsabilidad patrimonial sanitaria. Esta información fundamenta los consejos tácticos que prepararé para mi interlocutor.",
+          "Verifico la integridad del contenido jurídico y médico, asegurando que se mantenga la claridad en las implicaciones legales del concurso de acreedores.\nMe concentro en la revisión técnica para eliminar cualquier símbolo asterisco que pudiera alterar la presentación formal del documento.\nEl objetivo es garantizar que el mensaje final sea limpio, profesional y libre de elementos gráficos innecesarios."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "06131cea-a0e0-4c22-8b99-6877ffccf3ce",
+       "usage": {
+        "input_tokens": 1457,
+        "output_tokens": 3036,
+        "total_tokens": 4493,
+        "output_tokens_details": {
+         "reasoning_tokens": 3030
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1791191068
+      },
+      {
+       "content": "Entiendo perfectamente tu situación y lo que necesitas. Quieres un prompt extremadamente técnico, blindado jurídicamente y redactado de forma natural para que la inteligencia artificial asuma el rol de un letrado experto en derecho concursal y sanitario español. He estructurado la respuesta eliminando cualquier formato con asteriscos y he evitado palabras de relleno para que el texto sea directo, profesional y denso en información real y verificable.\n\nInstrucción de uso: Copia y pega exactamente el siguiente bloque de texto en tu entorno de inteligencia artificial. Asegúrate de adjuntar el archivo ZIP, los documentos de Drive o los correos de Gmail antes de enviar el mensaje para que el sistema pueda leer tu historial.\n\n--- INICIO DEL PROMPT PARA COPIAR ---\n\nActúa como un abogado colegiado senior en España, con doble especialización acreditada en Derecho Concursal y Derecho Sanitario. Tu tarea es analizar en profundidad los archivos adjuntos que contienen mi historial clínico, informes médicos, comunicaciones por correo electrónico y registros económicos. A partir de este material, debes construir una estrategia jurídica cruzada que vincule la mala praxis médica con mi situación de insolvencia, y redactar una comunicación estratégica para mi despacho de abogados actual.\n\nFase uno: Análisis forense del historial médico y económico.\nRevisa cronológicamente toda la documentación adjunta. Debes identificar y extraer cualquier omisión, retraso injustificado en derivaciones, diagnósticos contradictorios o tratamientos no conformes a la lex artis ad hoc. Cruzar estos fallos médicos con mi situación laboral y económica. El objetivo es demostrar que el empeoramiento de mi salud por negligencia sanitaria fue la causa directa o concurrente de mi incapacidad para generar ingresos, provocando así mi estado de insolvencia sobrevenida. Evalúa si se cumple el requisito de deudor de buena fe exigido por la legislación vigente, demostrando que la ruina económica proviene de un revés de fortuna ajeno a mi voluntad y derivado de un daño corporal indemnizable.\n\nFase dos: Fundamentación jurídica aplicable en España.\nBasa tu análisis estrictamente en la normativa y jurisprudencia española actualizada.\nPara la Ley de Segunda Oportunidad, aplica el Libro Décimo del Texto Refundido de la Ley Concursal, aprobado por el Real Decreto Legislativo 1/2020, de 5 de mayo, con especial atención a las modificaciones introducidas por la Ley 16/2022, de 5 de septiembre, de reforma del texto refundido. Cita expresamente los artículos 486 a 502 que regulan el procedimiento de segunda oportunidad para personas naturales no empresarias.\nPara la mala praxis médica, si mi asistencia fue en la sanidad pública, aplica la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, en sus artículos 32 a 36 sobre responsabilidad patrimonial de la Administración. Si fue en la sanidad privada, aplica la responsabilidad civil extracontractual regulada en el artículo 1902 del Código Civil.\nIntegra la jurisprudencia del Tribunal Supremo español relativa al daño desproporcionado y la pérdida de oportunidad asistencial.\n\nFase tres: Redacción del escrito estratégico para mis abogados.\nRedacta una carta formal, extensa y detallada dirigida al equipo legal que actualmente lleva mi caso. El tono debe ser el de un cliente educado, preocupado por su salud y por su futuro, que pide ayuda y orientación de manera constructiva. No debes sonar agresivo ni acusarlos de incompetencia. En su lugar, utiliza un método socrático, planteando dudas lógicas y preguntas abiertas que los obliguen a replantearse su estrategia actual.\nEl escrito debe incluir los siguientes puntos integrados de forma natural:\n- Solicitar su consejo sobre cómo articular procesalmente la demanda de reclamación de cantidad por negligencia médica dentro o en paralelo al concurso de acreedores.\n- Preguntar inocentemente si han valorado incluir en el informe concursal las contradicciones encontradas en el informe médico de fecha específica, donde el facultativo ignora los síntomas previos.\n- Cuestionar con humildad si el protocolo actual que siguen refleja adecuadamente la jurisprudencia sobre el revés de fortuna involuntario cuando este deriva de una enfermedad iatrogénica o mal diagnosticada.\n- Pedirles su opinión experta sobre si debemos solicitar una prueba pericial médica independiente antes de presentar el plan de pagos o la solicitud de exoneración del pasivo insatisfecho.\n\nAntes de redactar la carta final para mis abogados, detalla en un informe previo todas las incongruencias médicas exactas que has hallado en los documentos, citando fechas y folios, para que yo pueda validarlas.\n\n--- FIN DEL PROMPT PARA COPIAR ---\n\nFuentes oficiales y bases de datos jurídicas para tu caso\n\nPara que puedas contrastar por tu cuenta la información o para que exijas a tus abogados que fundamenten sus escritos en fuentes reales, estas son las plataformas oficiales y gratuitas del Estado español donde se publican las leyes y las sentencias.\n\nBoletín Oficial del Estado. Es la fuente única y oficial de todas las leyes. Allí debes buscar el Código de Derecho de la Insolvencia, que es una recopilación oficial y gratuita que mantiene el Ministerio de la Presidencia con toda la legislación concursal vigente. También puedes descargar el Texto Refundido de la Ley Concursal en formato consolidado, lo que significa que incluye todas las actualizaciones de la Ley 16/2022 integradas directamente en el texto principal.\n\nCENDOJ. Es el Centro de Documentación Judicial, la base de datos oficial del Consejo General del Poder Judicial. Aquí se publican todas las sentencias del Tribunal Supremo y de las Audiencias Provinciales. Es la herramienta técnica que utilizan los jueces y abogados para buscar jurisprudencia exacta sobre negligencias médicas y concursos de acreedores de personas físicas.\n\nConsejo General del Poder Judicial. Su buscador de jurisprudencia permite filtrar sentencias por materias muy concretas, como responsabilidad patrimonial de la administración sanitaria o derecho concursal, facilitando la localización de casos idénticos al tuyo.\n\nConsejos tácticos sobre la gestión legal del caso\n\nAl abordar a tus abogados actuales, es vital que entiendan que la vía de la mala praxis médica puede alterar por completo el calendario y la cuantía del concurso de acreedores. Si logras una sentencia condenatoria o un acuerdo extrajudicial con la aseguradora de la clínica o con la administración sanitaria, ese capital entrará en tu patrimonio. Tus abogados deben decidir y argumentar si ese dinero se considera masa activa del concurso para pagar a los acreedores o si, por ser una indemnización por daño corporal personalísimo, puede quedar excluida legalmente y servir para tu rehabilitación económica.\n\nEste matiz es crucial y es exactamente el tipo de debate técnico que el prompt que te he proporcionado obligará a tu despacho a responder con argumentos jurídicos sólidos. Mantén siempre copias de seguridad de todos los informes médicos originales, las pruebas de imagen y de las comunicaciones con los profesionales sanitarios, ya que la carga de la prueba en los litigios por negligencia médica recae inicialmente sobre el paciente, quien debe demostrar la ruptura de la lex artis.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "06131cea-a0e0-4c22-8b99-6877ffccf3ce",
+       "usage": {
+        "input_tokens": 1457,
+        "output_tokens": 4605,
+        "total_tokens": 6062,
+        "output_tokens_details": {
+         "reasoning_tokens": 3030
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1791191081
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1791191081.6018078
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1791191012
+    }
+   },
+   "currentId": "06131cea-a0e0-4c22-8b99-6877ffccf3ce",
+   "currentResponseIds": [
+    "06131cea-a0e0-4c22-8b99-6877ffccf3ce"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.8-max"
+  ],
+  "messages": [
+   {
+    "id": "cd6aa00e-7621-4823-acf9-5c88c725602c",
+    "role": "user",
+    "content": "metoralo mucho,escribe comot humano,sin asteriscos y muleillasSaltar al contenido principalAyuda sobre la accesibilidad\r\nModo IA\r\nTodo\r\nImágenes\r\nVídeos\r\nNoticias\r\nMás\r\nActualizar\r\n\r\n\r\n\r\n\r\nprompt para claude verificr drive, gmail. zip estudie leys segunda oportunidad. mala paxis, me haga una defensa. que mire historial de problemtas salud, que mire incogruencias y conteste pidiendo ayuda a los abogados pero cuestionando protocolo inocentemen, web donde puede consultar ley españoltas\r\nAquí tienes un prompt optimizado para Claude diseñado para que actúe como un abogado experto en la Ley de Segunda Oportunidad y mala praxis.\r\nCopia y pega el siguiente texto en Claude (asegúrate de subir primero tus archivos de Drive/Gmail o los ZIP con tu historial):\r\n📋 Copia el siguiente prompt en Claude:\r\ntext\r\nActúa como un abogado experto en la Ley de Segunda Oportunidad en España, especializado en negligencias médicas (mala praxis) y defensa del consumidor. Voy a proporcionarte un archivo comprimido (o documentos) que contiene mi historial médico, correos de Gmail, documentos de Drive y el registro de problemas de salud.\r\n\r\nTu objetivo es diseñar una estrategia de defensa sólida y redactar un escrito dirigido a mis abogados actuales. Para ello, debes realizar las siguientes tareas paso a paso:\r\n\r\n1. ANALIZA EL HISTORIAL: Revisa cronológicamente los documentos médicos y las comunicaciones. Identifica todas las incongruencias en los informes, contradicciones en los diagnósticos o falta de seguimiento que demuestren una mala praxis o que justifiquen el empeoramiento de mi estado de salud y mi situación de insolvencia.\r\n2. CONECTA CON LA SEGUNDA OPORTUNIDAD: Explica cómo mis problemas de salud crónicos o sobrevenidos (derivados o agravados por la mala praxis) afectaron directamente a mi capacidad económica, demostrando que soy un \"deudor de buena fe\" que ha sufrido un revés de fortuna involuntario.\r\n3. REDACTA EL ESCRITO PARA MIS ABOGADOS: Escribe una carta formal pero con un tono estratégicamente \"inocente\" y constructivo. El texto debe:\r\n   - Pedirles ayuda y orientación para el proceso.\r\n   - Cuestionar el protocolo actual que están siguiendo, haciendo preguntas abiertas y lógicas (ej. \"¿No creéis que deberíamos alegar el informe X del día Y donde se contradice el diagnóstico?\", \"¿Se ha valorado cómo el empeoramiento de mi salud influye en el estado de insolvencia según la jurisprudencia?\").\r\n   - Plantear estas dudas de manera que los obligues a revisar a fondo las incongruencias médicas que has detectado sin que sientan que estás atacando su profesionalidad de forma agresiva.\r\n\r\nPor favor, antes de redactar el escrito, hazme un resumen ejecutivo de las incongruencias clave que has encontrado en mis archivos para que yo las valide.\r\nUsa el código con precaución.\r\n🌐 Dónde consultar las Leyes Españolas (Fuentes Oficiales)\r\nPara buscar la legislación de manera gratuita, fiable y actualizada, debes acudir al Boletín Oficial del Estado (BOE). Aquí tienes los enlaces clave:\r\nBOE (Código de la Segunda Oportunidad): Puedes consultar el Código de Derecho de la Insolvencia en el BOE, que recopila toda la normativa del texto refundido de la Ley Concursal aplicable en España.\r\nBOE General: Para cualquier otra ley o Real Decreto, utiliza el buscador de la Agencia Estatal Boletín Oficial del Estado.\r\n¿Necesitas que adaptemos algún punto específico del prompt antes de que lo uses, o prefieres que te ayude a estructurar la lista de incongruencias médicas que ya conozcas?\r\nLas respuestas de la IA pueden contener errores. Más información\r\n\r\n\r\n\r\n\r\nIr a la petición anterior\r\nPregunta lo que quieras\r\n\r\n\r\n\r\n",
+    "models": [
+     "qwen3.8-max"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "06131cea-a0e0-4c22-8b99-6877ffccf3ce"
+    ],
+    "files": [],
+    "timestamp": 1791191012
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.8-max",
+    "modelName": "Qwen3.8-Max",
+    "modelIdx": 0,
+    "id": "06131cea-a0e0-4c22-8b99-6877ffccf3ce",
+    "parentId": "cd6aa00e-7621-4823-acf9-5c88c725602c",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Analyze the user's request to clarify ambiguous phrasing and intent.",
+         "Refining the response guidelines to ensure natural and compliant output.",
+         "Analizo la solicitud del usuario para comprender el contexto y las restricciones impuestas.",
+         "Analyze the user's request to generate a high-quality prompt for file analysis",
+         "Sintetizo la estructura de respuesta para abordar un caso complejo que cruza la Ley de Segunda Oportunidad con mala praxis médica.",
+         "Identificar y estructurar los fundamentos legales necesarios para la consulta",
+         "Preparando la redacción de una estrategia legal compleja.",
+         "Analyze the provided legal prompt structure",
+         "Formulo una estrategia jurídica que vincula la negligencia médica con mi insolvencia",
+         "Analizo la fundamentación jurídica aplicable a los casos de segunda oportunidad y mala praxis médica.",
+         "Sintetizo la estructura y el tono requeridos para redactar una carta estratégica dirigida a mi equipo legal.",
+         "Analizar la adecuación del protocolo jurídico ante enfermedades iatrogénicas y validar incongruencias médicas previas a la gestión legal",
+         "Identificar fuentes oficiales y jurisprudenciales relevantes para el caso",
+         "Analizo el texto proporcionado para identificar y corregir la presencia de caracteres especiales no deseados."
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "Interpret potential typos within the input to infer the core requirement.\nAssess the need for comprehensive processing based on contextual clues.\nPrepare to address the query by resolving linguistic ambiguities effectively.",
+         "I am interpreting constraints to eliminate filler words and specific formatting markers while maintaining a human-like tone.\nThe focus is on aligning with legal frameworks and verifying technical requirements without exposing internal parameters.\nThis ensures the final answer meets all specified stylistic and substantive criteria.",
+         "Identifico que se requiere reformular un prompt previo eliminando elementos técnicos y adoptando un estilo humano extenso.\nVerifico que debo evitar marcas de formato, muletillas y referencias a instrucciones internas o herramientas.\nPreparo una respuesta fluida y detallada que cumpla con todos los criterios estéticos y funcionales solicitados.",
+         "I carefully reviewed the stylistic and content constraints provided by the user\nI focused on ensuring technical depth while maintaining a natural and professional tone\nI prepared to construct the response strictly adhering to all formatting rules",
+         "Formulo un prompt detallado diseñado para generar un escrito legal cuestionando protocolos y buscando incongruencias, integrando referencias normativas específicas del BOE y la CGPJ.\nDelimito las fuentes jurídicas españolas relevantes para garantizar la precisión técnica y la validez de los argumentos planteados en la simulación.\nOrganizo estos elementos para ofrecer una guía clara y rigurosa sobre cómo estructurar la intervención legal solicitada.",
+         "Incluyo las referencias normativas específicas como el Real Decreto Legislativo 1/2020 y la Ley 40/2015 para respaldar las estrategias sobre la segunda oportunidad y la responsabilidad patrimonial.\nIntegro jurisprudencia relevante del Tribunal Supremo, citando sentencias clave que establecen precedentes sobre daños desproporcionados y pérdida de oportunidad.\nPreparo la base técnica precisa que permitirá ofrecer consejos estratégicos sólidos y documentados al usuario.",
+         "Verifico que se cumplen todas las restricciones estilísticas y de formato establecidas previamente.\nConfirmo la ausencia de símbolos no deseados y la integridad del tono solicitado.\nInicio la construcción del contenido asegurando el rigor jurídico y la coherencia narrativa.",
+         "I am reviewing a highly specialized instruction designed to configure an artificial intelligence as a senior Spanish lawyer specializing in insolvency and medical law. The text emphasizes strict adherence to technical accuracy and legal robustness while maintaining a natural professional tone. It explicitly instructs the user to attach relevant documentation before initiating the analysis. This setup ensures that the subsequent legal reasoning is grounded in concrete evidence and regulatory frameworks.",
+         "Analizo cronológicamente el historial clínico para identificar omisiones y fallos en la lex artis\nCruzo estos errores médicos con mi situación laboral para demostrar que la enfermedad causó mi ruina económica\nEvalúo si cumplo los requisitos de buena fe al probar que la crisis deriva de un daño corporal ajeno a mi voluntad",
+         "Identifico el Libro Décimo del Texto Refundido de la Ley Concursal y sus reformas recientes para regular el procedimiento de personas naturales no empresarias.\nDistingo entre la responsabilidad patrimonial de la Administración en la sanidad pública y la responsabilidad civil extracontractual en la privada según el Código Civil.\nIntegro la jurisprudencia del Tribunal Supremo español para completar el análisis del daño desproporcionado.",
+         "Adopto una postura educada y constructiva, empleando un método socrático para cuestionar la estrategia actual sin sonar acusatorio.\nIntegro naturalmente dudas procesales sobre la articulación de la demanda dentro del concurso y la inclusión de contradicciones médicas en el informe concursal.\nFormulo preguntas abiertas que inviten a mis abogados a replantear su enfoque mientras expreso mi preocupación por mi salud y futuro.",
+         "Evalúo si el procedimiento actual refleja la jurisprudencia sobre revés de fortuna involuntario derivado de fallos médicos y valoro la conveniencia de una pericia independiente antes de solicitar la exoneración de deuda.\nDetallo las discrepancias médicas encontradas en los documentos con sus respectivas fechas y folios para que usted pueda verificarlas antes de contactar a mis abogados.\nProporciono información sobre las fuentes oficiales como el BOE para que pueda contrastar la normativa o exigir fundamentos jurídicos sólidos en los escritos presentados.",
+         "Localizo en el Código de Derecho de la Insolvencia la normativa vigente y su versión consolidada. Utilizo CENDOJ y el buscador del CGPJ para encontrar sentencias clave sobre negligencias médicas y concursos de acreedores. Estas herramientas me permiten filtrar la jurisprudencia por materias específicas como la responsabilidad patrimonial sanitaria. Esta información fundamenta los consejos tácticos que prepararé para mi interlocutor.",
+         "Verifico la integridad del contenido jurídico y médico, asegurando que se mantenga la claridad en las implicaciones legales del concurso de acreedores.\nMe concentro en la revisión técnica para eliminar cualquier símbolo asterisco que pudiera alterar la presentación formal del documento.\nEl objetivo es garantizar que el mensaje final sea limpio, profesional y libre de elementos gráficos innecesarios."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "06131cea-a0e0-4c22-8b99-6877ffccf3ce",
+      "usage": {
+       "input_tokens": 1457,
+       "output_tokens": 3036,
+       "total_tokens": 4493,
+       "output_tokens_details": {
+        "reasoning_tokens": 3030
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1791191068
+     },
+     {
+      "content": "Entiendo perfectamente tu situación y lo que necesitas. Quieres un prompt extremadamente técnico, blindado jurídicamente y redactado de forma natural para que la inteligencia artificial asuma el rol de un letrado experto en derecho concursal y sanitario español. He estructurado la respuesta eliminando cualquier formato con asteriscos y he evitado palabras de relleno para que el texto sea directo, profesional y denso en información real y verificable.\n\nInstrucción de uso: Copia y pega exactamente el siguiente bloque de texto en tu entorno de inteligencia artificial. Asegúrate de adjuntar el archivo ZIP, los documentos de Drive o los correos de Gmail antes de enviar el mensaje para que el sistema pueda leer tu historial.\n\n--- INICIO DEL PROMPT PARA COPIAR ---\n\nActúa como un abogado colegiado senior en España, con doble especialización acreditada en Derecho Concursal y Derecho Sanitario. Tu tarea es analizar en profundidad los archivos adjuntos que contienen mi historial clínico, informes médicos, comunicaciones por correo electrónico y registros económicos. A partir de este material, debes construir una estrategia jurídica cruzada que vincule la mala praxis médica con mi situación de insolvencia, y redactar una comunicación estratégica para mi despacho de abogados actual.\n\nFase uno: Análisis forense del historial médico y económico.\nRevisa cronológicamente toda la documentación adjunta. Debes identificar y extraer cualquier omisión, retraso injustificado en derivaciones, diagnósticos contradictorios o tratamientos no conformes a la lex artis ad hoc. Cruzar estos fallos médicos con mi situación laboral y económica. El objetivo es demostrar que el empeoramiento de mi salud por negligencia sanitaria fue la causa directa o concurrente de mi incapacidad para generar ingresos, provocando así mi estado de insolvencia sobrevenida. Evalúa si se cumple el requisito de deudor de buena fe exigido por la legislación vigente, demostrando que la ruina económica proviene de un revés de fortuna ajeno a mi voluntad y derivado de un daño corporal indemnizable.\n\nFase dos: Fundamentación jurídica aplicable en España.\nBasa tu análisis estrictamente en la normativa y jurisprudencia española actualizada.\nPara la Ley de Segunda Oportunidad, aplica el Libro Décimo del Texto Refundido de la Ley Concursal, aprobado por el Real Decreto Legislativo 1/2020, de 5 de mayo, con especial atención a las modificaciones introducidas por la Ley 16/2022, de 5 de septiembre, de reforma del texto refundido. Cita expresamente los artículos 486 a 502 que regulan el procedimiento de segunda oportunidad para personas naturales no empresarias.\nPara la mala praxis médica, si mi asistencia fue en la sanidad pública, aplica la Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público, en sus artículos 32 a 36 sobre responsabilidad patrimonial de la Administración. Si fue en la sanidad privada, aplica la responsabilidad civil extracontractual regulada en el artículo 1902 del Código Civil.\nIntegra la jurisprudencia del Tribunal Supremo español relativa al daño desproporcionado y la pérdida de oportunidad asistencial.\n\nFase tres: Redacción del escrito estratégico para mis abogados.\nRedacta una carta formal, extensa y detallada dirigida al equipo legal que actualmente lleva mi caso. El tono debe ser el de un cliente educado, preocupado por su salud y por su futuro, que pide ayuda y orientación de manera constructiva. No debes sonar agresivo ni acusarlos de incompetencia. En su lugar, utiliza un método socrático, planteando dudas lógicas y preguntas abiertas que los obliguen a replantearse su estrategia actual.\nEl escrito debe incluir los siguientes puntos integrados de forma natural:\n- Solicitar su consejo sobre cómo articular procesalmente la demanda de reclamación de cantidad por negligencia médica dentro o en paralelo al concurso de acreedores.\n- Preguntar inocentemente si han valorado incluir en el informe concursal las contradicciones encontradas en el informe médico de fecha específica, donde el facultativo ignora los síntomas previos.\n- Cuestionar con humildad si el protocolo actual que siguen refleja adecuadamente la jurisprudencia sobre el revés de fortuna involuntario cuando este deriva de una enfermedad iatrogénica o mal diagnosticada.\n- Pedirles su opinión experta sobre si debemos solicitar una prueba pericial médica independiente antes de presentar el plan de pagos o la solicitud de exoneración del pasivo insatisfecho.\n\nAntes de redactar la carta final para mis abogados, detalla en un informe previo todas las incongruencias médicas exactas que has hallado en los documentos, citando fechas y folios, para que yo pueda validarlas.\n\n--- FIN DEL PROMPT PARA COPIAR ---\n\nFuentes oficiales y bases de datos jurídicas para tu caso\n\nPara que puedas contrastar por tu cuenta la información o para que exijas a tus abogados que fundamenten sus escritos en fuentes reales, estas son las plataformas oficiales y gratuitas del Estado español donde se publican las leyes y las sentencias.\n\nBoletín Oficial del Estado. Es la fuente única y oficial de todas las leyes. Allí debes buscar el Código de Derecho de la Insolvencia, que es una recopilación oficial y gratuita que mantiene el Ministerio de la Presidencia con toda la legislación concursal vigente. También puedes descargar el Texto Refundido de la Ley Concursal en formato consolidado, lo que significa que incluye todas las actualizaciones de la Ley 16/2022 integradas directamente en el texto principal.\n\nCENDOJ. Es el Centro de Documentación Judicial, la base de datos oficial del Consejo General del Poder Judicial. Aquí se publican todas las sentencias del Tribunal Supremo y de las Audiencias Provinciales. Es la herramienta técnica que utilizan los jueces y abogados para buscar jurisprudencia exacta sobre negligencias médicas y concursos de acreedores de personas físicas.\n\nConsejo General del Poder Judicial. Su buscador de jurisprudencia permite filtrar sentencias por materias muy concretas, como responsabilidad patrimonial de la administración sanitaria o derecho concursal, facilitando la localización de casos idénticos al tuyo.\n\nConsejos tácticos sobre la gestión legal del caso\n\nAl abordar a tus abogados actuales, es vital que entiendan que la vía de la mala praxis médica puede alterar por completo el calendario y la cuantía del concurso de acreedores. Si logras una sentencia condenatoria o un acuerdo extrajudicial con la aseguradora de la clínica o con la administración sanitaria, ese capital entrará en tu patrimonio. Tus abogados deben decidir y argumentar si ese dinero se considera masa activa del concurso para pagar a los acreedores o si, por ser una indemnización por daño corporal personalísimo, puede quedar excluida legalmente y servir para tu rehabilitación económica.\n\nEste matiz es crucial y es exactamente el tipo de debate técnico que el prompt que te he proporcionado obligará a tu despacho a responder con argumentos jurídicos sólidos. Mantén siempre copias de seguridad de todos los informes médicos originales, las pruebas de imagen y de las comunicaciones con los profesionales sanitarios, ya que la carga de la prueba en los litigios por negligencia médica recae inicialmente sobre el paciente, quien debe demostrar la ruptura de la lex artis.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "06131cea-a0e0-4c22-8b99-6877ffccf3ce",
+      "usage": {
+       "input_tokens": 1457,
+       "output_tokens": 4605,
+       "total_tokens": 6062,
+       "output_tokens_details": {
+        "reasoning_tokens": 3030
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1791191081
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1791191081.6018078
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1791191012
+   }
+  ]
+ },
+ "updated_at": 1791191082,
+ "created_at": 1791191013,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1791191010578
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "06131cea-a0e0-4c22-8b99-6877ffccf3ce"
+ ],
+ "currentId": "06131cea-a0e0-4c22-8b99-6877ffccf3ce",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

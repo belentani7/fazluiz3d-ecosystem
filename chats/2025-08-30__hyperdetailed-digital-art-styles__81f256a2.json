@@ -1,0 +1,279 @@
+{
+ "id": "81f256a2-4f70-40a4-8a94-12f0fb94ee69",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "HyperDetailed Digital Art Styles",
+ "chat": {
+  "history": {
+   "messages": {
+    "ad4fae5e-7511-4495-8d1e-362f89c806f3": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "image_edit",
+     "sub_chat_type": "image_edit",
+     "model": "qwen3-235b-a22b",
+     "modelName": "Qwen3-235B-A22B-2507",
+     "modelIdx": 0,
+     "id": "ad4fae5e-7511-4495-8d1e-362f89c806f3",
+     "parentId": "a02685c0-e295-4826-8001-cab7f3191ba5",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [
+      {
+       "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/ad4fae5e-7511-4495-8d1e-362f89c806f3/1756514845.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxNzU2NTE0ODQ1IiwicmVzb3VyY2VfY2hhdF9pZCI6IjgxZjI1NmEyLTRmNzAtNDBhNC04YTk0LTEyZjBmYjk0ZWU2OSJ9.e0st-FOLwbTkriqacwQ4GAzo-wHaS0AhaSY1_9DPsuk",
+       "phase": "image_gen",
+       "status": "finished",
+       "extra": {
+        "output_image_hw": [
+         [
+          1504,
+          704
+         ]
+        ]
+       },
+       "role": "assistant",
+       "usage": {
+        "input_tokens": 0,
+        "output_tokens": 0,
+        "width": 704,
+        "image_count": 1,
+        "height": 1504
+       }
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "image_edit"
+      },
+      "endTime": 1756514847.2685885
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1756514819
+    },
+    "a02685c0-e295-4826-8001-cab7f3191ba5": {
+     "id": "a02685c0-e295-4826-8001-cab7f3191ba5",
+     "role": "user",
+     "content": "These images showcase a vibrant, high-contrast, and somewhat hyper-realistic digital art style, blending elements of science fiction, fantasy, and pop culture.\n​Image 1 & 2 (Power Ranger inspired):\nThe style here is characterized by:\n​Sci-fi/Fantasy Armor: Highly detailed metallic armor with reflective surfaces, suggesting a blend of futuristic and medieval aesthetics (like Saint Seiya or Knights of the Zodiac). The metallic sheen is very prominent, creating strong highlights and shadows.\n​Dynamic Lighting: Intense, glowing pink light emanating from the sword, casting dramatic light and shadow on the character and armor. The background features a starry, cosmic void with stylized, bright pink \"explosions\" or energy bursts, adding to the heroic and action-oriented feel.\n​Pop Culture Homage: Clearly inspired by Power Rangers or Super Sentai, but with a more mature, detailed, and stylized approach, moving beyond the traditional TV show aesthetic.\n​Exaggerated Features (Subtle): While not overtly cartoony, there's a slight exaggeration in the musculature and the sleekness of the design, contributing to a powerful, heroic silhouette.\n​Strong Color Palette: Dominance of pink, black, and metallic silver/gold, creating a striking and recognizable visual.\n​Image 3 (Grillz/Dental Art):\nThis image shares some stylistic elements with the first two but diverges significantly in subject matter:\n​Hyper-realistic Textures: Extremely detailed rendering of skin (lips, gums), teeth, and the intricate details of the grillz and braces. You can see the texture of the skin, the reflections on the teeth, and the sparkle of the gems.\n​Jewelry/Gemstone Focus: A strong emphasis on reflective and refractive materials – gold, silver, diamonds, and other precious stones. Each gem has multiple facets and highlights, giving them a realistic sparkle.\n​Close-up Perspective: An extreme close-up, allowing for the meticulous detail of the dental work and surrounding mouth area to be the sole focus.\n​Vibrant and Playful: Despite the hyper-realism, the use of colorful gems and heart-shaped elements gives it a playful, almost whimsical, yet luxurious feel.\n​Glossy Finish: Lips and gums have a very glossy, almost wet appearance, enhancing the sense of realism and opulence.\n​Digital Art: Clearly a digital creation, showcasing the artist's ability to render complex textures and lighting digitally.\n​Overall Style Description:\nThe overarching style can be described as \"Hyper-detailed Digital Neo-Pop\" or \"Glitzy Sci-Fi Realism.\" It combines the sharp, clean lines and dynamic energy often found in anime and superhero comics with a highly rendered, almost photographic level of detail for textures and materials. There's a clear fondness for reflective surfaces, vibrant, often glowing, color palettes, and a sense of \"cool\" or \"heroic\" grandeur, even in the more unexpected subject matter like dental jewelry. The background often uses cosmic or abstract elements to enhance the main subject.\n​Here's a prompt version for a masculine superhero:\n​\"Vibrant, hyper-detailed digital art of a masculine superhero, muscular build, in a futuristic, sleek, metallic suit of armor (pink and silver/gold preferred, or a new bold color combination like electric blue and chrome). Dynamic pose with a glowing energy sword, intense, dramatic lighting with strong highlights and shadows. Background features a cosmic, starry void with stylized energy bursts. Sci-fi aesthetic with pop culture influence, high contrast, reflective surfaces. Full body shot.\"",
+     "models": [
+      "qwen3-235b-a22b"
+     ],
+     "chat_type": "image_edit",
+     "sub_chat_type": "image_edit",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "image_edit"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "ad4fae5e-7511-4495-8d1e-362f89c806f3"
+     ],
+     "files": [
+      {
+       "id": "6cc1815f-222f-4a15-998b-c1ac6badaa18",
+       "name": "Screenshot_20250829_180013_com.instagram.android.jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 474062,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/6cc1815f-222f-4a15-998b-c1ac6badaa18_Screenshot_20250829_180013_com.instagram.android.jpg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI2Y2MxODE1Zi0yMjJmLTRhMTUtOTk4Yi1jMWFjNmJhZGFhMTgiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.eiDx-jsFoHfrXtNtCfBQWHrfyl3a9RxxMjkuzjZaSgI",
+       "file": {
+        "created_at": 1756514799712,
+        "data": {},
+        "filename": "Screenshot_20250829_180013_com.instagram.android.jpg",
+        "hash": null,
+        "id": "6cc1815f-222f-4a15-998b-c1ac6badaa18",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "Screenshot_20250829_180013_com.instagram.android.jpg",
+         "size": 474062,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1756514799712
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "06e74e87-0c8c-4191-98c4-c62af6bbb7f7",
+       "showType": "image",
+       "uploadTaskId": "2fce9b13-a4f1-4c10-917d-ad67a969876a"
+      }
+     ],
+     "timestamp": 1756514819
+    }
+   },
+   "currentId": "ad4fae5e-7511-4495-8d1e-362f89c806f3",
+   "currentResponseIds": [
+    "ad4fae5e-7511-4495-8d1e-362f89c806f3"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3-235b-a22b"
+  ],
+  "messages": [
+   {
+    "id": "a02685c0-e295-4826-8001-cab7f3191ba5",
+    "role": "user",
+    "content": "These images showcase a vibrant, high-contrast, and somewhat hyper-realistic digital art style, blending elements of science fiction, fantasy, and pop culture.\n​Image 1 & 2 (Power Ranger inspired):\nThe style here is characterized by:\n​Sci-fi/Fantasy Armor: Highly detailed metallic armor with reflective surfaces, suggesting a blend of futuristic and medieval aesthetics (like Saint Seiya or Knights of the Zodiac). The metallic sheen is very prominent, creating strong highlights and shadows.\n​Dynamic Lighting: Intense, glowing pink light emanating from the sword, casting dramatic light and shadow on the character and armor. The background features a starry, cosmic void with stylized, bright pink \"explosions\" or energy bursts, adding to the heroic and action-oriented feel.\n​Pop Culture Homage: Clearly inspired by Power Rangers or Super Sentai, but with a more mature, detailed, and stylized approach, moving beyond the traditional TV show aesthetic.\n​Exaggerated Features (Subtle): While not overtly cartoony, there's a slight exaggeration in the musculature and the sleekness of the design, contributing to a powerful, heroic silhouette.\n​Strong Color Palette: Dominance of pink, black, and metallic silver/gold, creating a striking and recognizable visual.\n​Image 3 (Grillz/Dental Art):\nThis image shares some stylistic elements with the first two but diverges significantly in subject matter:\n​Hyper-realistic Textures: Extremely detailed rendering of skin (lips, gums), teeth, and the intricate details of the grillz and braces. You can see the texture of the skin, the reflections on the teeth, and the sparkle of the gems.\n​Jewelry/Gemstone Focus: A strong emphasis on reflective and refractive materials – gold, silver, diamonds, and other precious stones. Each gem has multiple facets and highlights, giving them a realistic sparkle.\n​Close-up Perspective: An extreme close-up, allowing for the meticulous detail of the dental work and surrounding mouth area to be the sole focus.\n​Vibrant and Playful: Despite the hyper-realism, the use of colorful gems and heart-shaped elements gives it a playful, almost whimsical, yet luxurious feel.\n​Glossy Finish: Lips and gums have a very glossy, almost wet appearance, enhancing the sense of realism and opulence.\n​Digital Art: Clearly a digital creation, showcasing the artist's ability to render complex textures and lighting digitally.\n​Overall Style Description:\nThe overarching style can be described as \"Hyper-detailed Digital Neo-Pop\" or \"Glitzy Sci-Fi Realism.\" It combines the sharp, clean lines and dynamic energy often found in anime and superhero comics with a highly rendered, almost photographic level of detail for textures and materials. There's a clear fondness for reflective surfaces, vibrant, often glowing, color palettes, and a sense of \"cool\" or \"heroic\" grandeur, even in the more unexpected subject matter like dental jewelry. The background often uses cosmic or abstract elements to enhance the main subject.\n​Here's a prompt version for a masculine superhero:\n​\"Vibrant, hyper-detailed digital art of a masculine superhero, muscular build, in a futuristic, sleek, metallic suit of armor (pink and silver/gold preferred, or a new bold color combination like electric blue and chrome). Dynamic pose with a glowing energy sword, intense, dramatic lighting with strong highlights and shadows. Background features a cosmic, starry void with stylized energy bursts. Sci-fi aesthetic with pop culture influence, high contrast, reflective surfaces. Full body shot.\"",
+    "models": [
+     "qwen3-235b-a22b"
+    ],
+    "chat_type": "image_edit",
+    "sub_chat_type": "image_edit",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "image_edit"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "ad4fae5e-7511-4495-8d1e-362f89c806f3"
+    ],
+    "files": [
+     {
+      "id": "6cc1815f-222f-4a15-998b-c1ac6badaa18",
+      "name": "Screenshot_20250829_180013_com.instagram.android.jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 474062,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/6cc1815f-222f-4a15-998b-c1ac6badaa18_Screenshot_20250829_180013_com.instagram.android.jpg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiI2Y2MxODE1Zi0yMjJmLTRhMTUtOTk4Yi1jMWFjNmJhZGFhMTgiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.eiDx-jsFoHfrXtNtCfBQWHrfyl3a9RxxMjkuzjZaSgI",
+      "file": {
+       "created_at": 1756514799712,
+       "data": {},
+       "filename": "Screenshot_20250829_180013_com.instagram.android.jpg",
+       "hash": null,
+       "id": "6cc1815f-222f-4a15-998b-c1ac6badaa18",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "Screenshot_20250829_180013_com.instagram.android.jpg",
+        "size": 474062,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1756514799712
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "06e74e87-0c8c-4191-98c4-c62af6bbb7f7",
+      "showType": "image",
+      "uploadTaskId": "2fce9b13-a4f1-4c10-917d-ad67a969876a"
+     }
+    ],
+    "timestamp": 1756514819
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "image_edit",
+    "sub_chat_type": "image_edit",
+    "model": "qwen3-235b-a22b",
+    "modelName": "Qwen3-235B-A22B-2507",
+    "modelIdx": 0,
+    "id": "ad4fae5e-7511-4495-8d1e-362f89c806f3",
+    "parentId": "a02685c0-e295-4826-8001-cab7f3191ba5",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [
+     {
+      "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/ad4fae5e-7511-4495-8d1e-362f89c806f3/1756514845.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxNzU2NTE0ODQ1IiwicmVzb3VyY2VfY2hhdF9pZCI6IjgxZjI1NmEyLTRmNzAtNDBhNC04YTk0LTEyZjBmYjk0ZWU2OSJ9.e0st-FOLwbTkriqacwQ4GAzo-wHaS0AhaSY1_9DPsuk",
+      "phase": "image_gen",
+      "status": "finished",
+      "extra": {
+       "output_image_hw": [
+        [
+         1504,
+         704
+        ]
+       ]
+      },
+      "role": "assistant",
+      "usage": {
+       "input_tokens": 0,
+       "output_tokens": 0,
+       "width": 704,
+       "image_count": 1,
+       "height": 1504
+      }
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "image_edit"
+     },
+     "endTime": 1756514847.2685885
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1756514819
+   }
+  ]
+ },
+ "updated_at": 1756514847,
+ "created_at": 1756514819,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1756514818556,
+  "tags": [
+   "arts",
+   "digital_art",
+   "hyper-realism"
+  ]
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "ad4fae5e-7511-4495-8d1e-362f89c806f3"
+ ],
+ "currentId": "ad4fae5e-7511-4495-8d1e-362f89c806f3",
+ "chat_type": "image_edit",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

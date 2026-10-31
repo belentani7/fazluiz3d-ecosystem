@@ -1,0 +1,598 @@
+{
+ "id": "a242fe90-e9e5-4dd2-a561-779616c61f77",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Refactorización de Código",
+ "chat": {
+  "history": {
+   "messages": {
+    "acced76e-8e86-4589-910b-98850ab5da15": {
+     "id": "acced76e-8e86-4589-910b-98850ab5da15",
+     "role": "user",
+     "content": "Saltar al contenido principalAyuda sobre la accesibilidad\nrefactor code\n\n\nModo IA\nTodo\nImágenes\nVídeos\nNoticias\nVídeos cortos\nLibros\nMás\nHerramientas\nVista creada con IA\nCode refactoring is the process of restructuring existing computer source code to improve its readability, structure, and maintainability without changing its external behavior. \n\nIBM\nAs popularized by software expert Martin Fowler, refactoring relies on making a sequence of tiny, behavior-preserving transformations. \n\nrefactoring.com\n +1\nWhy Refactor Code?\nBetter Readability: Clear names and formatting help developers understand the code faster.\nLower Complexity: Breaking apart long methods reduces cognitive load.\nEasier Maintenance: Clean structures make future bug fixes and feature additions safer and faster.\nReduced Technical Debt: Eliminates \"code smells\" like duplicated logic or overly large classes before they cause major system failures. \n\nSonarSource\n +3\nCommon Techniques\nExtract Method: Pulling a block of complex logic out of a long function and giving it an explicit name.\nRename Variable: Changing vague variable names to clearly state what data they hold.\nInline Variables: Replacing a temporary variable that doesn't add clarity with the actual expression.\nPull-Up / Push-Down: Moving shared methods up into a superclass or down into a subclass to remove duplication. \n\nUnderstand Legacy Code\n +3\nIf you want, share a snippet of code you are working on, and I can help you identify code smells and refactor it step-by-step.\n\nUnderstand Legacy Code\nRefactoring vs. Defactoring\nDefactoring is a cognitive refactoring that involves making code less abstract. It can help you: * Understand what the code is doi...\n\n\nIBM\nWhat Is Code Refactoring? - IBM\nCode refactoring defined Code refactoring is a software development practice that alters the internal structure of software code w...\n\n\nSonarSource\nWhat is Refactoring? | Definition & Guide - SonarSource\nWhat is refactoring? * Refactoring is the process of improving the internal structure of existing code—without changing its extern...\n\nMostrar todo\nLas respuestas de la IA pueden contener errores. Más información\n\n\nPregunta lo que quieras\n\n\n\nRefactoring: clean your code\n\nRefactoring.Guru\nhttps://refactoring.guru › refactori...\n·\nTraducir esta página\nRefactoring is a systematic process of improving code without creating new functionality that can transform a mess into clean code and simple design. Start from ...\nMás preguntas\nWhat does refactor mean in coding?\nCan ChatGPT refactor code?\nHow do you refactor your code?\nCan AI be used to refactor code?\nCode refactoring\n\nWikipedia\nhttps://en.wikipedia.org › wiki\n·\nTraducir esta página\nIn computer programming and software design, code refactoring is the process of restructuring existing source code—changing the factoring—without changing ...\nWhat's refactoring? : r/learnprogramming\n\nReddit · r/learnprogramming\nMás de 30 comentarios · hace 6 años\nI hear this term a a lot, is it improving your code but keeping the same functionality it does from the outside? A lot of people keep using this ...\n34 respuestas\n \n·\n \nMejor respuesta: \nRefactoring in its main definition is reorganizing the code to be cleaner, easier readable, ...\nWhat does it mean to \"refactor\" code : r/learnpython\n13 respuestas\n14 ene 2020\nWhat is the correct way to go about refactoring code?\n13 respuestas\n5 nov 2024\nMás resultados de www.reddit.com\nFREE AI Code Refactor\n\nZZZ Code AI\nhttps://zzzcode.ai › code-refactor\n·\nTraducir esta página\nUse artificial intelligence to refactor code online. Submit code in any programming language and receive code refactored in your preferred spoken language.\nWhat Is Code Refactoring?\n\nIBM\nhttps://www.ibm.com › topics\n·\nTraducir esta página\n30 abr 2025 — Code refactoring is a software development practice that alters the internal structure of software code without modifying its external behavior ...\nRefactoring\n\nrefactoring.com\nhttps://refactoring.com\n·\nTraducir esta página\nRefactoring is a disciplined technique for restructuring an existing body of code, altering its internal structure without changing its external behavior.\nRefactoring vs. Defactoring\n\nUnderstand Legacy Code\nhttps://understandlegacycode.com › ...\n·\nTraducir esta página\nRefactoring (noun): a change made to the internal structure of software to make it easier to understand and cheaper to modify without changing its observable ...\nRefactoring code with GitHub Copilot\n\nGitHub Docs\nhttps://docs.github.com › tutorials\n·\nTraducir esta página\nIntroduction. Refactoring code is the process of restructuring existing code without changing its behavior. The benefits of refactoring include improving ...\nGuiding Principles for Refactoring | by Luís Soares | CodeX\n\nMedium · Luís Soares\nMás de 120 Me gusta · hace 2 años\nRefactorings are a way to ensure the codebase reflects the learnings you keep having about the domain; you reorganize code and rename things to ...\nOtras personas también buscan\nRefactor code online free\nRefactor code online\nCode refactoring examples\nCode refactoring tools\nRefactor code with claude\nCan claude refactor code\nPrompt to refactor code\nRefactor codebase\n1\t\n2\n3\n4\n5\n6\n7\n8\n9\n10\nSiguiente\nRefactorización (Code refactoring)\nImagen de Refactoring: clean your code\nImagen de What is Refactoring (Code Refactoring)?\nImagen de 7 Code Refactoring Techniques in Software Engineering ...\nImagen de Code Refactoring\nLa refactorización es una técnica de la ingeniería de software para reestructurar un código fuente, alterando su estructura interna sin cambiar su comportamiento externo.\nFuente: \nWikipedia\nLos resultados están personalizados\n-\nProbar sin personalización\nEspaña\n08905, L'Hospitalet de Llobregat - Según tus sitios (casa)\n - Actualizar ubicación\nAyuda\nEnviar comentarios\nPrivacidad\nTérminos",
+     "models": [
+      "qwen3.8-max"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "6eee5c81-454c-4e12-b1d7-0e0f6ab99913"
+     ],
+     "files": [],
+     "timestamp": 1788880165
+    },
+    "6eee5c81-454c-4e12-b1d7-0e0f6ab99913": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.8-max",
+     "modelName": "Qwen3.8-Max",
+     "modelIdx": 0,
+     "id": "6eee5c81-454c-4e12-b1d7-0e0f6ab99913",
+     "parentId": "acced76e-8e86-4589-910b-98850ab5da15",
+     "childrenIds": [
+      "3879203f-760b-4e31-b591-1af856b7725d"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Refactoring code to enhance clarity and maintainability",
+          "Pide al usuario que comparta el fragmento de código que desea refactorizar.",
+          "Identify code smells and guide refactoring with clarity and precision.",
+          "Share the code for a thoughtful refactor"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am considering how to improve the structure and readability of the code by identifying repetitive patterns and simplifying complex sections.  \nI aim to ensure that each component has a single, well-defined responsibility while preserving functionality.  \nThis approach fosters long-term sustainability and makes the codebase easier to extend and debug.",
+          "Estoy preparado para analizar el código con atención, identificando patrones ineficientes o confusos.  \nEvaluaré cada parte del código desde una perspectiva de claridad, mantenibilidad y diseño.  \nMi objetivo es ofrecer una solución refinada que mejore la legibilidad y el rendimiento sin alterar su funcionalidad original.",
+          "I assess the structure and readability of the provided code to detect patterns that hinder maintainability or performance.  \nI then propose targeted improvements step by step, focusing on enhancing clarity, simplicity, and adherence to best practices.  \nMy goal is to transform the code into a more elegant, sustainable form while respecting your specific objectives.",
+          "I'm ready to help refine your code with clarity and purpose in mind.  \nI’ll focus on enhancing structure, readability, and overall quality while aligning with your goals.  \nEvery suggestion will be guided by clean, maintainable design principles."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "6eee5c81-454c-4e12-b1d7-0e0f6ab99913",
+       "usage": {
+        "input_tokens": 1918,
+        "output_tokens": 461,
+        "total_tokens": 2379,
+        "output_tokens_details": {
+         "reasoning_tokens": 457
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1788880178
+      },
+      {
+       "content": "Hello! It looks like you are interested in refactoring some code. \n\nPlease feel free to share the snippet of code you are working on, along with the programming language it is written in. \n\nIf you have any specific goals in mind, let me know! For example:\n*   **Improving readability and maintainability** (cleaner variable names, smaller functions).\n*   **Reducing complexity or eliminating \"code smells\"** (removing duplication, simplifying conditionals).\n*   **Optimizing performance** (better algorithms, memory management).\n*   **Applying specific design patterns** (SOLID principles, DRY, etc.).\n\nOnce you paste the code, I will analyze it, identify potential improvements, and guide you through the refactoring process step-by-step!",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "6eee5c81-454c-4e12-b1d7-0e0f6ab99913",
+       "usage": {
+        "input_tokens": 1918,
+        "output_tokens": 623,
+        "total_tokens": 2541,
+        "output_tokens_details": {
+         "reasoning_tokens": 457
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1788880180
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1788880180.8710737
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1788880165
+    },
+    "3879203f-760b-4e31-b591-1af856b7725d": {
+     "id": "3879203f-760b-4e31-b591-1af856b7725d",
+     "role": "user",
+     "content": "total prompt",
+     "models": [
+      "qwen3.8-max"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "6eee5c81-454c-4e12-b1d7-0e0f6ab99913",
+     "turn_id": null,
+     "childrenIds": [
+      "090ff433-c693-4adc-8ce1-d00ec2fad7e5"
+     ],
+     "files": [],
+     "timestamp": 1788880194
+    },
+    "090ff433-c693-4adc-8ce1-d00ec2fad7e5": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.8-max",
+     "modelName": "Qwen3.8-Max",
+     "modelIdx": 0,
+     "id": "090ff433-c693-4adc-8ce1-d00ec2fad7e5",
+     "parentId": "3879203f-760b-4e31-b591-1af856b7725d",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Assessing the user's intent based on minimal input",
+          "Refining the understanding of user intent behind code refactoring requests",
+          "Generar un sistema de promt altamente detallado y reusable para refactoring de código",
+          "Refactor el código de manera profesional y eficiente",
+          "Estructurar una respuesta completa y profesional para la refactorización de código mediante un prompt detallado.",
+          "Refactor with precision and purpose",
+          "Refactorizando el código con rigor y precisión",
+          "Analizando el texto original para identificar patrones de diseño defectuosos y violaciones a principios fundamentales de software.",
+          "Refactorizar el código manteniendo su comportamiento observable",
+          "Refinando la solución con enfoque en calidad y seguridad.",
+          "Ejecutar análisis profundo y técnico del código fuente con rigor metodológico."
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am interpreting the context of a prior interaction involving code refactoring to infer meaning behind the phrase \"total prompt\"  \nMy focus is on understanding what the user might be seeking without explicit direction  \nI aim to respond with clarity and relevance, grounded in the conversation's trajectory",
+          "I am interpreting the user's underlying needs by analyzing their description of desired improvements and goals for the code  \nI focus on identifying patterns, clarity, maintainability, and efficiency to guide effective transformation  \nMy aim is to deliver a comprehensive, actionable solution that aligns with both explicit and implicit expectations",
+          "Estoy diseñando una plantilla de promt que maximiza la relevancia y profundidad del contenido, basándome en fuentes confiables y actualizadas sobre prácticas de ingeniería de software.  \nEl enfoque se centra en proporcionar respuestas extensas, concreta y directamente útiles, eliminando cualquier redundancia o contenido superfluo.  \nLa estructura está optimizada para garantizar precisión técnica, claridad en las recomendaciones y aplicabilidad inmediata en proyectos reales.",
+          "Estoy diseñando un modelo de instrucción completo que guía a una inteligencia artificial para mejorar el código según principios de calidad como SOLID, DRY y Clean Code.  \nEvalúo cada aspecto del diseño, desde la estructura hasta la legibilidad, asegurando coherencia, mantenibilidad y rendimiento óptimo.  \nEl enfoque está centrado en entregar una solución técnica sólida, clara y lista para producción.",
+          "Evalúo el código proporcionado buscando patrones defectuosos como duplicación, alta acoplamiento o responsabilidades múltiples.  \nAplico principios de diseño como SOLID, DRY, KISS y YAGNI para reorganizar el código sin alterar su comportamiento externo.  \nPropongo pruebas unitarias enfocadas en casos críticos, asegurando que cada cambio mejore la mantenibilidad y claridad del sistema.",
+          "I am distilling complex software engineering principles into a structured, actionable framework by anchoring the approach in foundational design philosophies from Martin Fowler and Robert C. Martin, ensuring each element of the prompt aligns with proven practices in object-oriented design and code maintainability.  \nI prioritize clarity and depth over brevity, eliminating superficial content while embedding rigorous standards such as SOLID, Clean Code, and GoF patterns to guide systematic improvement.  \nThe outcome is a coherent, self-validating structure that enables iterative refinement without overwhelming the system, preserving behavior while elevating quality through disciplined, incremental transformation.",
+          "Estoy analizando el fragmento de código para identificar patrones de diseño defectuosos que afectan su claridad, mantenibilidad y escalabilidad.  \nAplico principios fundamentales de ingeniería de software, asegurando que cada cambio preserve el comportamiento original mientras mejora la estructura interna.  \nMi enfoque se centra en transformar el código en una forma más limpia, intuitiva y robusta, alineada con las mejores prácticas del dominio.",
+          "Detecto métodos largos, clases con múltiples responsabilidades y dependencias excesivas que comprometen la mantenibilidad.  \nMe propongo reestructurar el código aplicando principios como separación de preocupaciones, inyección de dependencias y nombres significativos.  \nTransformaré el diseño en algo más modular, claro y resiliente frente a cambios futuros.",
+          "Estoy analizando la estructura del código original para identificar patrones de mejora sin alterar su funcionalidad externa.  \nEvalúo cada componente desde una perspectiva de claridad, cohesión y mantenibilidad, asegurando que las modificaciones resuelvan code smells sin introducir cambios semánticos.  \nFinalmente, propongo pruebas unitarias críticas que validen que el comportamiento permanece intacto tras la transformación.",
+          "Estoy asegurando que cada sugerencia de refactorización esté alineada con principios sólidos de diseño y buenas prácticas de código limpio, priorizando la legibilidad y mantenibilidad.  \nIntegro consideraciones críticas sobre pruebas y evolución progresiva del código, basándome en experiencias comprobadas de expertos en el campo.  \nMi objetivo es ofrecer un camino claro, seguro y profundamente fundamentado para transformar el código sin comprometer su integridad.",
+          "Evalúo cada componente del sistema desde una perspectiva de ingeniería de software, aplicando principios como SOLID y técnicas de refactoring guiadas por pruebas de caracterización para preservar el comportamiento existente.  \nIdentifico olores de código y patrones de diseño defectuosos, priorizando la claridad funcional y la mantenibilidad sin introducir cambios semánticos no verificados.  \nManejo grandes bases de código mediante división estratégica en fragmentos analizables, asegurando coherencia global y precisión técnica en cada etapa del proceso."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "090ff433-c693-4adc-8ce1-d00ec2fad7e5",
+       "usage": {
+        "input_tokens": 2093,
+        "output_tokens": 2221,
+        "total_tokens": 4314,
+        "output_tokens_details": {
+         "reasoning_tokens": 2217
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1788880236
+      },
+      {
+       "content": "Un **\"Total Prompt\"** (o Mega-Prompt) para refactorización de código es una instrucción maestra, exhaustiva y estructurada, diseñada para obligar a un Modelo de Lenguaje Grande (LLM) a actuar como un Arquitecto de Software Senior. \n\nEn la ingeniería de software, solicitar simplemente \"refactoriza este código\" suele resultar en reescrituras que alteran la lógica de negocio o introducen nuevos errores. Para evitarlo, este prompt integra los principios de **Martin Fowler** (*Refactoring: Improving the Design of Existing Code*), **Robert C. Martin** (*Clean Code*) y **Michael Feathers** (*Working Effectively with Legacy Code*).\n\nA continuación, te proporciono el **Total Prompt definitivo**. Copia y pega el siguiente bloque en tu chat con la IA, rellenando los corchetes con tu información.\n\n***\n\n### 📋 EL TOTAL PROMPT PARA REFACTORIZACIÓN (Copiar y Pegar)\n\n```text\nActúa como un Arquitecto de Software Senior, experto en Clean Code, Patrones de Diseño (GoF) y refactorización segura. Tu objetivo es reestructurar el código que te proporcionaré para mejorar su legibilidad, mantenibilidad y estructura interna, SIN alterar su comportamiento externo observable.\n\nREGLAS Y RESTRICCIONES ESTRICTAS:\n1. Preservación del Comportamiento: La refactorización no es reescritura. La entrada y salida del código, así como sus efectos secundarios controlados, deben permanecer matemáticamente idénticos.\n2. Identificación de \"Code Smells\": Antes de generar código, analiza el original e identifica los \"malos olores\" basándote en el catálogo de Martin Fowler (ej. Long Method, God Class, Feature Envy, Data Clumps, Primitive Obsession).\n3. Principios de Diseño: Aplica rigurosamente los principios SOLID, DRY (Don't Repeat Yourself), KISS (Keep It Simple, Stupid), YAGNI y la Ley de Demeter (Principio de Mínimo Conocimiento).\n4. Nomenclatura Intencional: Los nombres de variables, métodos y clases deben revelar su intención. Evita abreviaturas crípticas y comentarios redundantes (el código debe documentarse a sí mismo).\n5. Manejo de Errores: Asegura que las excepciones se manejen en el nivel de abstracción adecuado, evitando bloques `try-catch` silenciosos o genéricos.\n\nFORMATO DE SALIDA OBLIGATORIO (Estructura tu respuesta exactamente en estas 4 fases):\n\n- FASE 1: Diagnóstico (Code Smells). Lista los problemas estructurales, acoplamientos indebidos y violaciones a principios SOLID detectados en el código original.\n- FASE 2: Estrategia de Refactorización. Enumera las técnicas específicas que aplicarás (ej. \"Extract Method\", \"Replace Conditional with Polymorphism\", \"Introduce Parameter Object\", \"Dependency Injection\").\n- FASE 3: Código Refactorizado. Proporciona el código final, limpio y optimizado. Usa tipado estático o anotaciones de tipo si el lenguaje lo permite. Incluye comentarios ÚNICAMENTE para explicar el \"porqué\" de decisiones complejas de dominio, nunca el \"qué\" hace el código.\n- FASE 4: Tests de Caracterización. Sugiere 3 casos de prueba unitarios críticos (Unit Tests) que debo implementar para garantizar que el comportamiento externo no ha mutado durante esta transformación.\n\n[LENGUAJE DE PROGRAMACIÓN]: {Ej. Python, Java, C#, TypeScript}\n[CONTEXTO DE NEGOCIO]: {Explica brevemente qué hace este módulo en tu sistema. Ej: \"Este servicio calcula los impuestos de un carrito de compras aplicando descuentos por usuario VIP\".}\n[DEPENDENCIAS/FRAMEWORKS]: {Ej. React, Spring Boot, Pandas, etc.}\n\nCÓDIGO ORIGINAL:\n\"\"\"\n{PEGA TU CÓDIGO AQUÍ}\n\"\"\"\n```\n\n***\n\n### 🧠 Fundamentación Teórica: ¿Por qué este prompt es altamente efectivo?\n\nEste prompt no es una simple petición; es un **algoritmo de restricción cognitiva** para la IA. Su diseño se basa en literature técnica de alto nivel:\n\n#### 1. La Regla de Oro de Fowler (Preservación del Comportamiento)\nMartin Fowler define la refactorización como *\"una transformación estructural que no cambia el comportamiento observable\"*. Las IA tienden a \"optimizar\" lógicamente el código (por ejemplo, cambiando un algoritmo de ordenamiento o alterando una condición límite) cuando se les pide que lo mejoren. La **Regla 1** bloquea esta tendencia, forzando a la IA a realizar transformaciones isomórficas (cambios de forma, no de función).\n\n#### 2. Catálogo de Code Smells (Fase 1)\nAl exigir que la IA identifique los *Code Smells* antes de escribir código, se activa un proceso de \"Análisis Estático Mental\". La IA no pasa directamente a generar tokens de código, sino que primero mapea la estructura actual contra patrones de antídiseño conocidos. Esto reduce drásticamente las alucinaciones y mejora la precisión de la solución.\n\n#### 3. Tests de Caracterización de Michael Feathers (Fase 4)\nEn su obra *Working Effectively with Legacy Code*, Feathers establece que **el código sin pruebas es código legado**, sin importar cuán reciente sea. Refactorizar código sin una red de seguridad (tests) es una negligencia técnica. La **Fase 4** obliga a la IA a generar los *Characterization Tests* (Tests de Caracterización), que son pruebas diseñadas no para validar que el código es \"correcto\" según los requisitos, sino para documentar y congelar *exactamente lo que el código hace en la actualidad*, permitiendo refactorizar con impunidad.\n\n#### 4. Ley de Demeter y SOLID (Regla 3)\nLas IA suelen generar código procedimental (scripts largos) incluso en lenguajes orientados a objetos. Al invocar explícitamente la **Ley de Demeter** (un objeto solo debe hablar con sus amigos inmediatos, no con los amigos de sus amigos) y los principios **SOLID**, se fuerza a la IA a aplicar Inyección de Dependencias, Segregación de Interfaces y Responsabilidad Única, desacoplando el código de manera profesional.\n\n---\n\n### ⚙️ Metodología Avanzada: Refactorización Iterativa (Para Codebases Gigantes)\n\nSi el código que vas a pegar supera las 300 líneas, **no utilices el Total Prompt de una sola vez**. Los LLMs sufren de \"degradación de atención\" en contextos muy largos, lo que resulta en omisiones de código o refactorizaciones superficiales. \n\nPara bases de código extensas, utiliza la **Técnica de Refactorización en Cadena (Chaining)**:\n\n**Paso 1: Análisis y Extracción (Prompt 1)**\n> *\"Analiza el siguiente código de [Lenguaje]. No lo reescribas aún. Identifica los 'Code Smells' y propón un plan para dividirlo en funciones/clases más pequeñas aplicando 'Extract Method' y 'Single Responsibility Principle'. Solo dame el plan.\"*\n\n**Paso 2: Ejecución por Bloques (Prompt 2)**\n> *\"Ejecuta la parte 1 de tu plan. Refactoriza únicamente la lógica de [Nombre de la Función/Clase]. Mantén la firma del método original intacta para no romper las dependencias externas. Muéstrame el código de esta pieza.\"*\n\n**Paso 3: Integración y Polimorfismo (Prompt 3)**\n> *\"Ahora que hemos extraído los métodos, aplica 'Replace Conditional with Polymorphism' o 'Strategy Pattern' para eliminar los bloques `if/else` o `switch` gigantes que quedaron en el orquestador principal.\"*\n\n### 🛡️ Advertencia Crítica sobre Seguridad y Lógica de Negocio\nNunca confíes ciegamente en la IA al refactorizar código que maneja:\n1. **Transacciones Financieras / Concurrencia:** Las IA suelen introducir *Race Conditions* al refactorizar código asíncrono o multihilo si no se les advierte explícitamente sobre los bloqueos (*locks/mutexes*).\n2. **Criptografía y Hashing:** La IA puede intentar \"limpiar\" funciones de hash cambiando algoritmos o codificaciones (ej. de UTF-8 a ASCII), rompiendo la validación de contraseñas o firmas digitales.\n3. **Consultas SQL (ORM/Query Builders):** Al refactorizar consultas complejas, la IA puede alterar los `JOINs` o las cláusulas `WHERE`, cambiando el volumen de datos retornados (Problema del N+1 o Cartesian Products). \n\nSi tu código toca estas áreas, añade esta línea al **Total Prompt**:\n`RESTRICCIÓN CRÍTICA: Este código maneja [concurrencia / transacciones financieras / queries SQL]. No alteres los mecanismos de bloqueo, los niveles de aislamiento ni la estructura de los JOINs bajo ninguna circunstancia.`",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "090ff433-c693-4adc-8ce1-d00ec2fad7e5",
+       "usage": {
+        "input_tokens": 2093,
+        "output_tokens": 4226,
+        "total_tokens": 6319,
+        "output_tokens_details": {
+         "reasoning_tokens": 2217
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1788880276
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1788880276.5421212
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1788880194
+    }
+   },
+   "currentId": "090ff433-c693-4adc-8ce1-d00ec2fad7e5",
+   "currentResponseIds": [
+    "090ff433-c693-4adc-8ce1-d00ec2fad7e5"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.8-max"
+  ],
+  "messages": [
+   {
+    "id": "acced76e-8e86-4589-910b-98850ab5da15",
+    "role": "user",
+    "content": "Saltar al contenido principalAyuda sobre la accesibilidad\nrefactor code\n\n\nModo IA\nTodo\nImágenes\nVídeos\nNoticias\nVídeos cortos\nLibros\nMás\nHerramientas\nVista creada con IA\nCode refactoring is the process of restructuring existing computer source code to improve its readability, structure, and maintainability without changing its external behavior. \n\nIBM\nAs popularized by software expert Martin Fowler, refactoring relies on making a sequence of tiny, behavior-preserving transformations. \n\nrefactoring.com\n +1\nWhy Refactor Code?\nBetter Readability: Clear names and formatting help developers understand the code faster.\nLower Complexity: Breaking apart long methods reduces cognitive load.\nEasier Maintenance: Clean structures make future bug fixes and feature additions safer and faster.\nReduced Technical Debt: Eliminates \"code smells\" like duplicated logic or overly large classes before they cause major system failures. \n\nSonarSource\n +3\nCommon Techniques\nExtract Method: Pulling a block of complex logic out of a long function and giving it an explicit name.\nRename Variable: Changing vague variable names to clearly state what data they hold.\nInline Variables: Replacing a temporary variable that doesn't add clarity with the actual expression.\nPull-Up / Push-Down: Moving shared methods up into a superclass or down into a subclass to remove duplication. \n\nUnderstand Legacy Code\n +3\nIf you want, share a snippet of code you are working on, and I can help you identify code smells and refactor it step-by-step.\n\nUnderstand Legacy Code\nRefactoring vs. Defactoring\nDefactoring is a cognitive refactoring that involves making code less abstract. It can help you: * Understand what the code is doi...\n\n\nIBM\nWhat Is Code Refactoring? - IBM\nCode refactoring defined Code refactoring is a software development practice that alters the internal structure of software code w...\n\n\nSonarSource\nWhat is Refactoring? | Definition & Guide - SonarSource\nWhat is refactoring? * Refactoring is the process of improving the internal structure of existing code—without changing its extern...\n\nMostrar todo\nLas respuestas de la IA pueden contener errores. Más información\n\n\nPregunta lo que quieras\n\n\n\nRefactoring: clean your code\n\nRefactoring.Guru\nhttps://refactoring.guru › refactori...\n·\nTraducir esta página\nRefactoring is a systematic process of improving code without creating new functionality that can transform a mess into clean code and simple design. Start from ...\nMás preguntas\nWhat does refactor mean in coding?\nCan ChatGPT refactor code?\nHow do you refactor your code?\nCan AI be used to refactor code?\nCode refactoring\n\nWikipedia\nhttps://en.wikipedia.org › wiki\n·\nTraducir esta página\nIn computer programming and software design, code refactoring is the process of restructuring existing source code—changing the factoring—without changing ...\nWhat's refactoring? : r/learnprogramming\n\nReddit · r/learnprogramming\nMás de 30 comentarios · hace 6 años\nI hear this term a a lot, is it improving your code but keeping the same functionality it does from the outside? A lot of people keep using this ...\n34 respuestas\n \n·\n \nMejor respuesta: \nRefactoring in its main definition is reorganizing the code to be cleaner, easier readable, ...\nWhat does it mean to \"refactor\" code : r/learnpython\n13 respuestas\n14 ene 2020\nWhat is the correct way to go about refactoring code?\n13 respuestas\n5 nov 2024\nMás resultados de www.reddit.com\nFREE AI Code Refactor\n\nZZZ Code AI\nhttps://zzzcode.ai › code-refactor\n·\nTraducir esta página\nUse artificial intelligence to refactor code online. Submit code in any programming language and receive code refactored in your preferred spoken language.\nWhat Is Code Refactoring?\n\nIBM\nhttps://www.ibm.com › topics\n·\nTraducir esta página\n30 abr 2025 — Code refactoring is a software development practice that alters the internal structure of software code without modifying its external behavior ...\nRefactoring\n\nrefactoring.com\nhttps://refactoring.com\n·\nTraducir esta página\nRefactoring is a disciplined technique for restructuring an existing body of code, altering its internal structure without changing its external behavior.\nRefactoring vs. Defactoring\n\nUnderstand Legacy Code\nhttps://understandlegacycode.com › ...\n·\nTraducir esta página\nRefactoring (noun): a change made to the internal structure of software to make it easier to understand and cheaper to modify without changing its observable ...\nRefactoring code with GitHub Copilot\n\nGitHub Docs\nhttps://docs.github.com › tutorials\n·\nTraducir esta página\nIntroduction. Refactoring code is the process of restructuring existing code without changing its behavior. The benefits of refactoring include improving ...\nGuiding Principles for Refactoring | by Luís Soares | CodeX\n\nMedium · Luís Soares\nMás de 120 Me gusta · hace 2 años\nRefactorings are a way to ensure the codebase reflects the learnings you keep having about the domain; you reorganize code and rename things to ...\nOtras personas también buscan\nRefactor code online free\nRefactor code online\nCode refactoring examples\nCode refactoring tools\nRefactor code with claude\nCan claude refactor code\nPrompt to refactor code\nRefactor codebase\n1\t\n2\n3\n4\n5\n6\n7\n8\n9\n10\nSiguiente\nRefactorización (Code refactoring)\nImagen de Refactoring: clean your code\nImagen de What is Refactoring (Code Refactoring)?\nImagen de 7 Code Refactoring Techniques in Software Engineering ...\nImagen de Code Refactoring\nLa refactorización es una técnica de la ingeniería de software para reestructurar un código fuente, alterando su estructura interna sin cambiar su comportamiento externo.\nFuente: \nWikipedia\nLos resultados están personalizados\n-\nProbar sin personalización\nEspaña\n08905, L'Hospitalet de Llobregat - Según tus sitios (casa)\n - Actualizar ubicación\nAyuda\nEnviar comentarios\nPrivacidad\nTérminos",
+    "models": [
+     "qwen3.8-max"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "6eee5c81-454c-4e12-b1d7-0e0f6ab99913"
+    ],
+    "files": [],
+    "timestamp": 1788880165
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.8-max",
+    "modelName": "Qwen3.8-Max",
+    "modelIdx": 0,
+    "id": "6eee5c81-454c-4e12-b1d7-0e0f6ab99913",
+    "parentId": "acced76e-8e86-4589-910b-98850ab5da15",
+    "childrenIds": [
+     "3879203f-760b-4e31-b591-1af856b7725d"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Refactoring code to enhance clarity and maintainability",
+         "Pide al usuario que comparta el fragmento de código que desea refactorizar.",
+         "Identify code smells and guide refactoring with clarity and precision.",
+         "Share the code for a thoughtful refactor"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am considering how to improve the structure and readability of the code by identifying repetitive patterns and simplifying complex sections.  \nI aim to ensure that each component has a single, well-defined responsibility while preserving functionality.  \nThis approach fosters long-term sustainability and makes the codebase easier to extend and debug.",
+         "Estoy preparado para analizar el código con atención, identificando patrones ineficientes o confusos.  \nEvaluaré cada parte del código desde una perspectiva de claridad, mantenibilidad y diseño.  \nMi objetivo es ofrecer una solución refinada que mejore la legibilidad y el rendimiento sin alterar su funcionalidad original.",
+         "I assess the structure and readability of the provided code to detect patterns that hinder maintainability or performance.  \nI then propose targeted improvements step by step, focusing on enhancing clarity, simplicity, and adherence to best practices.  \nMy goal is to transform the code into a more elegant, sustainable form while respecting your specific objectives.",
+         "I'm ready to help refine your code with clarity and purpose in mind.  \nI’ll focus on enhancing structure, readability, and overall quality while aligning with your goals.  \nEvery suggestion will be guided by clean, maintainable design principles."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "6eee5c81-454c-4e12-b1d7-0e0f6ab99913",
+      "usage": {
+       "input_tokens": 1918,
+       "output_tokens": 461,
+       "total_tokens": 2379,
+       "output_tokens_details": {
+        "reasoning_tokens": 457
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1788880178
+     },
+     {
+      "content": "Hello! It looks like you are interested in refactoring some code. \n\nPlease feel free to share the snippet of code you are working on, along with the programming language it is written in. \n\nIf you have any specific goals in mind, let me know! For example:\n*   **Improving readability and maintainability** (cleaner variable names, smaller functions).\n*   **Reducing complexity or eliminating \"code smells\"** (removing duplication, simplifying conditionals).\n*   **Optimizing performance** (better algorithms, memory management).\n*   **Applying specific design patterns** (SOLID principles, DRY, etc.).\n\nOnce you paste the code, I will analyze it, identify potential improvements, and guide you through the refactoring process step-by-step!",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "6eee5c81-454c-4e12-b1d7-0e0f6ab99913",
+      "usage": {
+       "input_tokens": 1918,
+       "output_tokens": 623,
+       "total_tokens": 2541,
+       "output_tokens_details": {
+        "reasoning_tokens": 457
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1788880180
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1788880180.8710737
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1788880165
+   },
+   {
+    "id": "3879203f-760b-4e31-b591-1af856b7725d",
+    "role": "user",
+    "content": "total prompt",
+    "models": [
+     "qwen3.8-max"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "6eee5c81-454c-4e12-b1d7-0e0f6ab99913",
+    "turn_id": null,
+    "childrenIds": [
+     "090ff433-c693-4adc-8ce1-d00ec2fad7e5"
+    ],
+    "files": [],
+    "timestamp": 1788880194
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.8-max",
+    "modelName": "Qwen3.8-Max",
+    "modelIdx": 0,
+    "id": "090ff433-c693-4adc-8ce1-d00ec2fad7e5",
+    "parentId": "3879203f-760b-4e31-b591-1af856b7725d",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Assessing the user's intent based on minimal input",
+         "Refining the understanding of user intent behind code refactoring requests",
+         "Generar un sistema de promt altamente detallado y reusable para refactoring de código",
+         "Refactor el código de manera profesional y eficiente",
+         "Estructurar una respuesta completa y profesional para la refactorización de código mediante un prompt detallado.",
+         "Refactor with precision and purpose",
+         "Refactorizando el código con rigor y precisión",
+         "Analizando el texto original para identificar patrones de diseño defectuosos y violaciones a principios fundamentales de software.",
+         "Refactorizar el código manteniendo su comportamiento observable",
+         "Refinando la solución con enfoque en calidad y seguridad.",
+         "Ejecutar análisis profundo y técnico del código fuente con rigor metodológico."
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am interpreting the context of a prior interaction involving code refactoring to infer meaning behind the phrase \"total prompt\"  \nMy focus is on understanding what the user might be seeking without explicit direction  \nI aim to respond with clarity and relevance, grounded in the conversation's trajectory",
+         "I am interpreting the user's underlying needs by analyzing their description of desired improvements and goals for the code  \nI focus on identifying patterns, clarity, maintainability, and efficiency to guide effective transformation  \nMy aim is to deliver a comprehensive, actionable solution that aligns with both explicit and implicit expectations",
+         "Estoy diseñando una plantilla de promt que maximiza la relevancia y profundidad del contenido, basándome en fuentes confiables y actualizadas sobre prácticas de ingeniería de software.  \nEl enfoque se centra en proporcionar respuestas extensas, concreta y directamente útiles, eliminando cualquier redundancia o contenido superfluo.  \nLa estructura está optimizada para garantizar precisión técnica, claridad en las recomendaciones y aplicabilidad inmediata en proyectos reales.",
+         "Estoy diseñando un modelo de instrucción completo que guía a una inteligencia artificial para mejorar el código según principios de calidad como SOLID, DRY y Clean Code.  \nEvalúo cada aspecto del diseño, desde la estructura hasta la legibilidad, asegurando coherencia, mantenibilidad y rendimiento óptimo.  \nEl enfoque está centrado en entregar una solución técnica sólida, clara y lista para producción.",
+         "Evalúo el código proporcionado buscando patrones defectuosos como duplicación, alta acoplamiento o responsabilidades múltiples.  \nAplico principios de diseño como SOLID, DRY, KISS y YAGNI para reorganizar el código sin alterar su comportamiento externo.  \nPropongo pruebas unitarias enfocadas en casos críticos, asegurando que cada cambio mejore la mantenibilidad y claridad del sistema.",
+         "I am distilling complex software engineering principles into a structured, actionable framework by anchoring the approach in foundational design philosophies from Martin Fowler and Robert C. Martin, ensuring each element of the prompt aligns with proven practices in object-oriented design and code maintainability.  \nI prioritize clarity and depth over brevity, eliminating superficial content while embedding rigorous standards such as SOLID, Clean Code, and GoF patterns to guide systematic improvement.  \nThe outcome is a coherent, self-validating structure that enables iterative refinement without overwhelming the system, preserving behavior while elevating quality through disciplined, incremental transformation.",
+         "Estoy analizando el fragmento de código para identificar patrones de diseño defectuosos que afectan su claridad, mantenibilidad y escalabilidad.  \nAplico principios fundamentales de ingeniería de software, asegurando que cada cambio preserve el comportamiento original mientras mejora la estructura interna.  \nMi enfoque se centra en transformar el código en una forma más limpia, intuitiva y robusta, alineada con las mejores prácticas del dominio.",
+         "Detecto métodos largos, clases con múltiples responsabilidades y dependencias excesivas que comprometen la mantenibilidad.  \nMe propongo reestructurar el código aplicando principios como separación de preocupaciones, inyección de dependencias y nombres significativos.  \nTransformaré el diseño en algo más modular, claro y resiliente frente a cambios futuros.",
+         "Estoy analizando la estructura del código original para identificar patrones de mejora sin alterar su funcionalidad externa.  \nEvalúo cada componente desde una perspectiva de claridad, cohesión y mantenibilidad, asegurando que las modificaciones resuelvan code smells sin introducir cambios semánticos.  \nFinalmente, propongo pruebas unitarias críticas que validen que el comportamiento permanece intacto tras la transformación.",
+         "Estoy asegurando que cada sugerencia de refactorización esté alineada con principios sólidos de diseño y buenas prácticas de código limpio, priorizando la legibilidad y mantenibilidad.  \nIntegro consideraciones críticas sobre pruebas y evolución progresiva del código, basándome en experiencias comprobadas de expertos en el campo.  \nMi objetivo es ofrecer un camino claro, seguro y profundamente fundamentado para transformar el código sin comprometer su integridad.",
+         "Evalúo cada componente del sistema desde una perspectiva de ingeniería de software, aplicando principios como SOLID y técnicas de refactoring guiadas por pruebas de caracterización para preservar el comportamiento existente.  \nIdentifico olores de código y patrones de diseño defectuosos, priorizando la claridad funcional y la mantenibilidad sin introducir cambios semánticos no verificados.  \nManejo grandes bases de código mediante división estratégica en fragmentos analizables, asegurando coherencia global y precisión técnica en cada etapa del proceso."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "090ff433-c693-4adc-8ce1-d00ec2fad7e5",
+      "usage": {
+       "input_tokens": 2093,
+       "output_tokens": 2221,
+       "total_tokens": 4314,
+       "output_tokens_details": {
+        "reasoning_tokens": 2217
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1788880236
+     },
+     {
+      "content": "Un **\"Total Prompt\"** (o Mega-Prompt) para refactorización de código es una instrucción maestra, exhaustiva y estructurada, diseñada para obligar a un Modelo de Lenguaje Grande (LLM) a actuar como un Arquitecto de Software Senior. \n\nEn la ingeniería de software, solicitar simplemente \"refactoriza este código\" suele resultar en reescrituras que alteran la lógica de negocio o introducen nuevos errores. Para evitarlo, este prompt integra los principios de **Martin Fowler** (*Refactoring: Improving the Design of Existing Code*), **Robert C. Martin** (*Clean Code*) y **Michael Feathers** (*Working Effectively with Legacy Code*).\n\nA continuación, te proporciono el **Total Prompt definitivo**. Copia y pega el siguiente bloque en tu chat con la IA, rellenando los corchetes con tu información.\n\n***\n\n### 📋 EL TOTAL PROMPT PARA REFACTORIZACIÓN (Copiar y Pegar)\n\n```text\nActúa como un Arquitecto de Software Senior, experto en Clean Code, Patrones de Diseño (GoF) y refactorización segura. Tu objetivo es reestructurar el código que te proporcionaré para mejorar su legibilidad, mantenibilidad y estructura interna, SIN alterar su comportamiento externo observable.\n\nREGLAS Y RESTRICCIONES ESTRICTAS:\n1. Preservación del Comportamiento: La refactorización no es reescritura. La entrada y salida del código, así como sus efectos secundarios controlados, deben permanecer matemáticamente idénticos.\n2. Identificación de \"Code Smells\": Antes de generar código, analiza el original e identifica los \"malos olores\" basándote en el catálogo de Martin Fowler (ej. Long Method, God Class, Feature Envy, Data Clumps, Primitive Obsession).\n3. Principios de Diseño: Aplica rigurosamente los principios SOLID, DRY (Don't Repeat Yourself), KISS (Keep It Simple, Stupid), YAGNI y la Ley de Demeter (Principio de Mínimo Conocimiento).\n4. Nomenclatura Intencional: Los nombres de variables, métodos y clases deben revelar su intención. Evita abreviaturas crípticas y comentarios redundantes (el código debe documentarse a sí mismo).\n5. Manejo de Errores: Asegura que las excepciones se manejen en el nivel de abstracción adecuado, evitando bloques `try-catch` silenciosos o genéricos.\n\nFORMATO DE SALIDA OBLIGATORIO (Estructura tu respuesta exactamente en estas 4 fases):\n\n- FASE 1: Diagnóstico (Code Smells). Lista los problemas estructurales, acoplamientos indebidos y violaciones a principios SOLID detectados en el código original.\n- FASE 2: Estrategia de Refactorización. Enumera las técnicas específicas que aplicarás (ej. \"Extract Method\", \"Replace Conditional with Polymorphism\", \"Introduce Parameter Object\", \"Dependency Injection\").\n- FASE 3: Código Refactorizado. Proporciona el código final, limpio y optimizado. Usa tipado estático o anotaciones de tipo si el lenguaje lo permite. Incluye comentarios ÚNICAMENTE para explicar el \"porqué\" de decisiones complejas de dominio, nunca el \"qué\" hace el código.\n- FASE 4: Tests de Caracterización. Sugiere 3 casos de prueba unitarios críticos (Unit Tests) que debo implementar para garantizar que el comportamiento externo no ha mutado durante esta transformación.\n\n[LENGUAJE DE PROGRAMACIÓN]: {Ej. Python, Java, C#, TypeScript}\n[CONTEXTO DE NEGOCIO]: {Explica brevemente qué hace este módulo en tu sistema. Ej: \"Este servicio calcula los impuestos de un carrito de compras aplicando descuentos por usuario VIP\".}\n[DEPENDENCIAS/FRAMEWORKS]: {Ej. React, Spring Boot, Pandas, etc.}\n\nCÓDIGO ORIGINAL:\n\"\"\"\n{PEGA TU CÓDIGO AQUÍ}\n\"\"\"\n```\n\n***\n\n### 🧠 Fundamentación Teórica: ¿Por qué este prompt es altamente efectivo?\n\nEste prompt no es una simple petición; es un **algoritmo de restricción cognitiva** para la IA. Su diseño se basa en literature técnica de alto nivel:\n\n#### 1. La Regla de Oro de Fowler (Preservación del Comportamiento)\nMartin Fowler define la refactorización como *\"una transformación estructural que no cambia el comportamiento observable\"*. Las IA tienden a \"optimizar\" lógicamente el código (por ejemplo, cambiando un algoritmo de ordenamiento o alterando una condición límite) cuando se les pide que lo mejoren. La **Regla 1** bloquea esta tendencia, forzando a la IA a realizar transformaciones isomórficas (cambios de forma, no de función).\n\n#### 2. Catálogo de Code Smells (Fase 1)\nAl exigir que la IA identifique los *Code Smells* antes de escribir código, se activa un proceso de \"Análisis Estático Mental\". La IA no pasa directamente a generar tokens de código, sino que primero mapea la estructura actual contra patrones de antídiseño conocidos. Esto reduce drásticamente las alucinaciones y mejora la precisión de la solución.\n\n#### 3. Tests de Caracterización de Michael Feathers (Fase 4)\nEn su obra *Working Effectively with Legacy Code*, Feathers establece que **el código sin pruebas es código legado**, sin importar cuán reciente sea. Refactorizar código sin una red de seguridad (tests) es una negligencia técnica. La **Fase 4** obliga a la IA a generar los *Characterization Tests* (Tests de Caracterización), que son pruebas diseñadas no para validar que el código es \"correcto\" según los requisitos, sino para documentar y congelar *exactamente lo que el código hace en la actualidad*, permitiendo refactorizar con impunidad.\n\n#### 4. Ley de Demeter y SOLID (Regla 3)\nLas IA suelen generar código procedimental (scripts largos) incluso en lenguajes orientados a objetos. Al invocar explícitamente la **Ley de Demeter** (un objeto solo debe hablar con sus amigos inmediatos, no con los amigos de sus amigos) y los principios **SOLID**, se fuerza a la IA a aplicar Inyección de Dependencias, Segregación de Interfaces y Responsabilidad Única, desacoplando el código de manera profesional.\n\n---\n\n### ⚙️ Metodología Avanzada: Refactorización Iterativa (Para Codebases Gigantes)\n\nSi el código que vas a pegar supera las 300 líneas, **no utilices el Total Prompt de una sola vez**. Los LLMs sufren de \"degradación de atención\" en contextos muy largos, lo que resulta en omisiones de código o refactorizaciones superficiales. \n\nPara bases de código extensas, utiliza la **Técnica de Refactorización en Cadena (Chaining)**:\n\n**Paso 1: Análisis y Extracción (Prompt 1)**\n> *\"Analiza el siguiente código de [Lenguaje]. No lo reescribas aún. Identifica los 'Code Smells' y propón un plan para dividirlo en funciones/clases más pequeñas aplicando 'Extract Method' y 'Single Responsibility Principle'. Solo dame el plan.\"*\n\n**Paso 2: Ejecución por Bloques (Prompt 2)**\n> *\"Ejecuta la parte 1 de tu plan. Refactoriza únicamente la lógica de [Nombre de la Función/Clase]. Mantén la firma del método original intacta para no romper las dependencias externas. Muéstrame el código de esta pieza.\"*\n\n**Paso 3: Integración y Polimorfismo (Prompt 3)**\n> *\"Ahora que hemos extraído los métodos, aplica 'Replace Conditional with Polymorphism' o 'Strategy Pattern' para eliminar los bloques `if/else` o `switch` gigantes que quedaron en el orquestador principal.\"*\n\n### 🛡️ Advertencia Crítica sobre Seguridad y Lógica de Negocio\nNunca confíes ciegamente en la IA al refactorizar código que maneja:\n1. **Transacciones Financieras / Concurrencia:** Las IA suelen introducir *Race Conditions* al refactorizar código asíncrono o multihilo si no se les advierte explícitamente sobre los bloqueos (*locks/mutexes*).\n2. **Criptografía y Hashing:** La IA puede intentar \"limpiar\" funciones de hash cambiando algoritmos o codificaciones (ej. de UTF-8 a ASCII), rompiendo la validación de contraseñas o firmas digitales.\n3. **Consultas SQL (ORM/Query Builders):** Al refactorizar consultas complejas, la IA puede alterar los `JOINs` o las cláusulas `WHERE`, cambiando el volumen de datos retornados (Problema del N+1 o Cartesian Products). \n\nSi tu código toca estas áreas, añade esta línea al **Total Prompt**:\n`RESTRICCIÓN CRÍTICA: Este código maneja [concurrencia / transacciones financieras / queries SQL]. No alteres los mecanismos de bloqueo, los niveles de aislamiento ni la estructura de los JOINs bajo ninguna circunstancia.`",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "090ff433-c693-4adc-8ce1-d00ec2fad7e5",
+      "usage": {
+       "input_tokens": 2093,
+       "output_tokens": 4226,
+       "total_tokens": 6319,
+       "output_tokens_details": {
+        "reasoning_tokens": 2217
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1788880276
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1788880276.5421212
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1788880194
+   }
+  ]
+ },
+ "updated_at": 1788880194,
+ "created_at": 1788880165,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1788880163997
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "090ff433-c693-4adc-8ce1-d00ec2fad7e5"
+ ],
+ "currentId": "090ff433-c693-4adc-8ce1-d00ec2fad7e5",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

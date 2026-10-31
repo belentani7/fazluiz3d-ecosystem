@@ -1,0 +1,319 @@
+{
+ "id": "fe431283-f32a-4882-a130-4b78720824ae",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Certificación UX Research NN/g",
+ "chat": {
+  "history": {
+   "messages": {
+    "da13647f-1ac1-4eef-accb-db6b7d6c5acf": {
+     "id": "da13647f-1ac1-4eef-accb-db6b7d6c5acf",
+     "role": "user",
+     "content": "Saltar al contenido principalAyuda sobre la accesibilidad\r\nModo IA\r\nTodo\r\nVídeos cortos\r\nImágenes\r\nVídeos\r\nMás\r\n\r\n\r\n\r\nUX Research cualitativo — entrevistas, análisis de comportamiento de usuario, identificación de patrones no declarados. Tu capacidad de leer lo que la gente dice vs. lo que hace es directamente aplicable. Certificación de Nielsen Norman Group es reconocida y alcanzable.\r\nLa investigación cualitativa de experiencia de usuario (UX Research) es uno de los campos con mayor demanda para perfiles con alta capacidad analítica y empatía. La certificación de Nielsen Norman Group (NN/g) es el estándar de oro global en la industria y validará de forma inmediata tus habilidades.\r\n📋 Mapeo de habilidades clave\r\nEntrevistas avanzadas: Diseñar preguntas abiertas para evitar sesgos de deseabilidad social.\r\nAnálisis del comportamiento: Observar interacciones reales mediante pruebas de usabilidad estructuradas.\r\nPatrones no declarados: Detectar fricciones analizando el lenguaje corporal, vacilaciones y microexpresiones. \r\n🚀 Ruta para la certificación UX Master de NN/g\r\nPara obtener el estatus de UX Master Certified, debes cumplir los siguientes requisitos:\r\nAprobar 15 exámenes: Cada examen está ligado a un curso independiente de un día de duración.\r\nEspecialización obligatoria: Debes acumular al menos 5 cursos dentro de la categoría específica de UX Research.\r\nFlexibilidad: Los cursos se pueden tomar de forma remota (Virtual UX Conference) y los exámenes se realizan en línea.\r\n🧠 Cursos recomendados de NN/g para tu perfil\r\nUser Research Methods: Fundamentos metodológicos cuantitativos y cualitativos.\r\nQualitative Research Methods: Profundización en entrevistas y grupos de enfoque.\r\nUsability Testing: Metodología para observar lo que los usuarios hacen, no lo que dicen.\r\nAnalyzing Qualitative Data: Técnicas de codificación para descubrir patrones ocultos. \r\nPara ayudarte a trazar un plan de carrera eficiente, cuéntame:\r\n¿Dispones de presupuesto corporativo o será una inversión personal?\r\n¿Cuál es tu nivel actual de experiencia práctica en proyectos digitales?\r\n¿Prefieres enfocar el aprendizaje hacia productos B2B (corporativos) o B2C (consumidor final)?\r\nCon estos datos puedo optimizar tu selección de cursos.\r\nLas respuestas de la IA pueden contener errores. Más información\r\n\r\n\r\n\r\n\r\n\r\n\r\n6 sitios\r\n▷ Qué es UX Research y qué técnicas se emplean\r\n9 ago 2024 — Realizar pruebas de usabilidad nos permite observar cómo los usuarios reales interactúan con un producto en un entorno controlado.\r\n\r\n\r\nwww.idento.es\r\nUX research. Mejora la experiencia del usuario - We are Testers\r\n9 ago 2025 — Se dividen generalmente en métodos cualitativos y cuantitativos. UX research cualitativa (por qué y cómo) Los métodos de UX ( expe...\r\n\r\n\r\nWe are testers\r\nWhen To Use Qualitative Research\r\nConocimiento experto de métodos de investigación cualitativa: SIS Tiene amplia experiencia en la realización de investigaciones cu...\r\n\r\n\r\nSIS International Research\r\nMostrar todo\r\nHaz una pregunta\r\n\r\n\r\nLa respuesta de Modo IA está lista",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "792162d0-7d99-4eaa-b4fa-bab8d01ae349"
+     ],
+     "files": [],
+     "timestamp": 1780444428
+    },
+    "792162d0-7d99-4eaa-b4fa-bab8d01ae349": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "792162d0-7d99-4eaa-b4fa-bab8d01ae349",
+     "parentId": "da13647f-1ac1-4eef-accb-db6b7d6c5acf",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Analyzing the context and intent behind the user's query",
+          "Analizando la solicitud y el contexto proporcionado",
+          "Reconociendo el contenido compartido y su perfil profesional en transición"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am assessing the relevance of the provided text to identify key themes in UX research and certification.  \nI recognize the need to distill complex information into a coherent, concise overview that captures both foundational concepts and practical implications.  \nI focus on presenting insights with clarity and elegance, ensuring the response aligns with the user’s underlying interest in professional development and expertise validation.",
+          "Estoy interpretando el contenido entregado como una invitación para profundizar en el desarrollo profesional de experiencia de usuario, centrándome en la certificación UX Master.  \nEvalúo cada componente —mapeo de habilidades, ruta de certificación, cursos recomendados— con el fin de ofrecer un plan personalizado y coherente.  \nFinalmente, preparo respuestas reflexivas a las tres preguntas que la IA planteó al usuario, asegurando que el enfoque sea estratégico y adaptado a sus metas.",
+          "Estoy evaluando cómo el enfoque de investigación en experiencia de usuario puede potenciar su evolución hacia el ámbito de la inteligencia artificial, especialmente considerando su sólida trayectoria como community manager en Telus.  \nMi análisis se centra en alinear la certificación de NN/g con sus habilidades clave: comunicación, empatía y gestión de comunidades, destacando cómo estas competencias son fundamentales para una investigación de usuario efectiva.  \nOfrezco una perspectiva práctica que conecta su experiencia previa con nuevas oportunidades profesionales, ayudándole a posicionarse estratégicamente en el campo emergente de la IA aplicada al diseño de experiencias."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "792162d0-7d99-4eaa-b4fa-bab8d01ae349",
+       "usage": {
+        "input_tokens": 2460,
+        "output_tokens": 441,
+        "characters": 0,
+        "total_tokens": 2901,
+        "input_tokens_details": {
+         "text_tokens": 2460
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 434,
+         "text_tokens": 441
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1780444438
+      },
+      {
+       "content": "He visto que has compartido una respuesta del Modo IA sobre **UX Research** y la certificación de **Nielsen Norman Group (NN/g)**. Es un tema muy interesante y, dado tu perfil, tiene mucho sentido explorarlo. Te dejo mi análisis y algunas consideraciones prácticas:\n\n## 🎯 Por qué UX Research encaja con tu perfil\n\nTu experiencia de **7 años como Community Manager en Telus** te da una base sólida que quizás no estás valorando lo suficiente:\n\n- **Escucha activa del usuario**: Como CM, has estado años analizando qué dicen los usuarios, sus quejas, sus deseos… eso es investigación cualitativa pura.\n- **Detección de patrones**: Identificar tendencias en comentarios, sentimientos y comportamientos en redes es directamente transferible al análisis de datos cualitativos de UX.\n- **Empatía y comunicación**: La capacidad de entender al usuario y traducir sus necesidades a acciones concretas es el núcleo del UX Research.\n\n## 💰 Consideraciones prácticas sobre NN/g\n\nAntes de comprometerte, ten en cuenta esto:\n\n| Aspecto | Detalle |\n|---------|---------|\n| **Coste** | Cada curso de NN/g cuesta entre **$900 - $1.300 USD**. Los 15 cursos para UX Master suponen una inversión de **$13.500 - $19.500 USD**. |\n| **Tiempo** | Cada curso es de 1 día (6-8 horas), pero necesitas dedicar tiempo de estudio y práctica. |\n| **Idioma** | Todo el contenido y los exámenes están en **inglés**. |\n| **Alternativas más asequibles** | Existen certificaciones como **Google UX Design Certificate** (Coursera, ~$49/mes), **Nielsen Norman tiene cursos gratuitos introductorios**, o plataformas como **Interaction Design Foundation (IxDF)** con membresías anuales de ~$200-300. |\n\n## 🤔 Sobre las 3 preguntas que te hizo la IA\n\nTe ayudo a pensar las respuestas basándome en lo que sé de ti:\n\n**1. ¿Presupuesto corporativo o inversión personal?**\nDado que estás en transición profesional y priorizas la coste-efectividad, lo más realista es que sea **inversión personal**. En ese caso, te recomendaría empezar con opciones más asequibles antes de ir a por NN/g.\n\n**2. ¿Nivel actual de experiencia práctica en proyectos digitales?**\nAunque no has trabajado formalmente como UX Researcher, tu experiencia en Telus gestionando comunidades digitales te da **nivel intermedio en comprensión del usuario**. Podrías posicionarte como alguien con experiencia práctica en escucha del usuario, aunque necesites formalizar la metodología.\n\n**3. ¿B2B o B2C?**\nTu experiencia como Community Manager es predominantemente **B2C** (consumidor final), lo cual te da ventaja para empezar por ahí. Además, hay más oferta laboral en B2C.\n\n## 💡 Mi recomendación de ruta eficiente\n\n1. **Valida el interés**: Haz primero los cursos gratuitos de NN/g (tienen webinars y artículos excelentes) para confirmar que el campo te apasiona.\n2. **Certificación accesible**: Empieza con el **Google UX Design Certificate** o la membresía de **IxDF** para obtener una certificación reconocida sin arruinarte.\n3. **Construye portfolio**: Documenta 2-3 proyectos donde apliques técnicas de UX Research (puedes hacer rediseños de apps que ya usas, o analizar la experiencia de usuario de plataformas que conoces).\n4. **NN/g como meta a largo plazo**: Si ves que te dedicas a esto profesionalmente y tu empleador puede pagarlo, ve a por la UX Master.\n\n¿Quieres que profundicemos en alguna de estas opciones, o prefieres que te ayude a mapear específicamente cómo trasladar tus tareas actuales de Community Manager a un portfolio de UX Research?",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "792162d0-7d99-4eaa-b4fa-bab8d01ae349",
+       "usage": {
+        "input_tokens": 2460,
+        "output_tokens": 1298,
+        "characters": 0,
+        "total_tokens": 3758,
+        "input_tokens_details": {
+         "text_tokens": 2460
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 434,
+         "text_tokens": 1298
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1780444453
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1780444454.433179
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1780444428
+    }
+   },
+   "currentId": "792162d0-7d99-4eaa-b4fa-bab8d01ae349",
+   "currentResponseIds": [
+    "792162d0-7d99-4eaa-b4fa-bab8d01ae349"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "da13647f-1ac1-4eef-accb-db6b7d6c5acf",
+    "role": "user",
+    "content": "Saltar al contenido principalAyuda sobre la accesibilidad\r\nModo IA\r\nTodo\r\nVídeos cortos\r\nImágenes\r\nVídeos\r\nMás\r\n\r\n\r\n\r\nUX Research cualitativo — entrevistas, análisis de comportamiento de usuario, identificación de patrones no declarados. Tu capacidad de leer lo que la gente dice vs. lo que hace es directamente aplicable. Certificación de Nielsen Norman Group es reconocida y alcanzable.\r\nLa investigación cualitativa de experiencia de usuario (UX Research) es uno de los campos con mayor demanda para perfiles con alta capacidad analítica y empatía. La certificación de Nielsen Norman Group (NN/g) es el estándar de oro global en la industria y validará de forma inmediata tus habilidades.\r\n📋 Mapeo de habilidades clave\r\nEntrevistas avanzadas: Diseñar preguntas abiertas para evitar sesgos de deseabilidad social.\r\nAnálisis del comportamiento: Observar interacciones reales mediante pruebas de usabilidad estructuradas.\r\nPatrones no declarados: Detectar fricciones analizando el lenguaje corporal, vacilaciones y microexpresiones. \r\n🚀 Ruta para la certificación UX Master de NN/g\r\nPara obtener el estatus de UX Master Certified, debes cumplir los siguientes requisitos:\r\nAprobar 15 exámenes: Cada examen está ligado a un curso independiente de un día de duración.\r\nEspecialización obligatoria: Debes acumular al menos 5 cursos dentro de la categoría específica de UX Research.\r\nFlexibilidad: Los cursos se pueden tomar de forma remota (Virtual UX Conference) y los exámenes se realizan en línea.\r\n🧠 Cursos recomendados de NN/g para tu perfil\r\nUser Research Methods: Fundamentos metodológicos cuantitativos y cualitativos.\r\nQualitative Research Methods: Profundización en entrevistas y grupos de enfoque.\r\nUsability Testing: Metodología para observar lo que los usuarios hacen, no lo que dicen.\r\nAnalyzing Qualitative Data: Técnicas de codificación para descubrir patrones ocultos. \r\nPara ayudarte a trazar un plan de carrera eficiente, cuéntame:\r\n¿Dispones de presupuesto corporativo o será una inversión personal?\r\n¿Cuál es tu nivel actual de experiencia práctica en proyectos digitales?\r\n¿Prefieres enfocar el aprendizaje hacia productos B2B (corporativos) o B2C (consumidor final)?\r\nCon estos datos puedo optimizar tu selección de cursos.\r\nLas respuestas de la IA pueden contener errores. Más información\r\n\r\n\r\n\r\n\r\n\r\n\r\n6 sitios\r\n▷ Qué es UX Research y qué técnicas se emplean\r\n9 ago 2024 — Realizar pruebas de usabilidad nos permite observar cómo los usuarios reales interactúan con un producto en un entorno controlado.\r\n\r\n\r\nwww.idento.es\r\nUX research. Mejora la experiencia del usuario - We are Testers\r\n9 ago 2025 — Se dividen generalmente en métodos cualitativos y cuantitativos. UX research cualitativa (por qué y cómo) Los métodos de UX ( expe...\r\n\r\n\r\nWe are testers\r\nWhen To Use Qualitative Research\r\nConocimiento experto de métodos de investigación cualitativa: SIS Tiene amplia experiencia en la realización de investigaciones cu...\r\n\r\n\r\nSIS International Research\r\nMostrar todo\r\nHaz una pregunta\r\n\r\n\r\nLa respuesta de Modo IA está lista",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "792162d0-7d99-4eaa-b4fa-bab8d01ae349"
+    ],
+    "files": [],
+    "timestamp": 1780444428
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "792162d0-7d99-4eaa-b4fa-bab8d01ae349",
+    "parentId": "da13647f-1ac1-4eef-accb-db6b7d6c5acf",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Analyzing the context and intent behind the user's query",
+         "Analizando la solicitud y el contexto proporcionado",
+         "Reconociendo el contenido compartido y su perfil profesional en transición"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am assessing the relevance of the provided text to identify key themes in UX research and certification.  \nI recognize the need to distill complex information into a coherent, concise overview that captures both foundational concepts and practical implications.  \nI focus on presenting insights with clarity and elegance, ensuring the response aligns with the user’s underlying interest in professional development and expertise validation.",
+         "Estoy interpretando el contenido entregado como una invitación para profundizar en el desarrollo profesional de experiencia de usuario, centrándome en la certificación UX Master.  \nEvalúo cada componente —mapeo de habilidades, ruta de certificación, cursos recomendados— con el fin de ofrecer un plan personalizado y coherente.  \nFinalmente, preparo respuestas reflexivas a las tres preguntas que la IA planteó al usuario, asegurando que el enfoque sea estratégico y adaptado a sus metas.",
+         "Estoy evaluando cómo el enfoque de investigación en experiencia de usuario puede potenciar su evolución hacia el ámbito de la inteligencia artificial, especialmente considerando su sólida trayectoria como community manager en Telus.  \nMi análisis se centra en alinear la certificación de NN/g con sus habilidades clave: comunicación, empatía y gestión de comunidades, destacando cómo estas competencias son fundamentales para una investigación de usuario efectiva.  \nOfrezco una perspectiva práctica que conecta su experiencia previa con nuevas oportunidades profesionales, ayudándole a posicionarse estratégicamente en el campo emergente de la IA aplicada al diseño de experiencias."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "792162d0-7d99-4eaa-b4fa-bab8d01ae349",
+      "usage": {
+       "input_tokens": 2460,
+       "output_tokens": 441,
+       "characters": 0,
+       "total_tokens": 2901,
+       "input_tokens_details": {
+        "text_tokens": 2460
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 434,
+        "text_tokens": 441
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1780444438
+     },
+     {
+      "content": "He visto que has compartido una respuesta del Modo IA sobre **UX Research** y la certificación de **Nielsen Norman Group (NN/g)**. Es un tema muy interesante y, dado tu perfil, tiene mucho sentido explorarlo. Te dejo mi análisis y algunas consideraciones prácticas:\n\n## 🎯 Por qué UX Research encaja con tu perfil\n\nTu experiencia de **7 años como Community Manager en Telus** te da una base sólida que quizás no estás valorando lo suficiente:\n\n- **Escucha activa del usuario**: Como CM, has estado años analizando qué dicen los usuarios, sus quejas, sus deseos… eso es investigación cualitativa pura.\n- **Detección de patrones**: Identificar tendencias en comentarios, sentimientos y comportamientos en redes es directamente transferible al análisis de datos cualitativos de UX.\n- **Empatía y comunicación**: La capacidad de entender al usuario y traducir sus necesidades a acciones concretas es el núcleo del UX Research.\n\n## 💰 Consideraciones prácticas sobre NN/g\n\nAntes de comprometerte, ten en cuenta esto:\n\n| Aspecto | Detalle |\n|---------|---------|\n| **Coste** | Cada curso de NN/g cuesta entre **$900 - $1.300 USD**. Los 15 cursos para UX Master suponen una inversión de **$13.500 - $19.500 USD**. |\n| **Tiempo** | Cada curso es de 1 día (6-8 horas), pero necesitas dedicar tiempo de estudio y práctica. |\n| **Idioma** | Todo el contenido y los exámenes están en **inglés**. |\n| **Alternativas más asequibles** | Existen certificaciones como **Google UX Design Certificate** (Coursera, ~$49/mes), **Nielsen Norman tiene cursos gratuitos introductorios**, o plataformas como **Interaction Design Foundation (IxDF)** con membresías anuales de ~$200-300. |\n\n## 🤔 Sobre las 3 preguntas que te hizo la IA\n\nTe ayudo a pensar las respuestas basándome en lo que sé de ti:\n\n**1. ¿Presupuesto corporativo o inversión personal?**\nDado que estás en transición profesional y priorizas la coste-efectividad, lo más realista es que sea **inversión personal**. En ese caso, te recomendaría empezar con opciones más asequibles antes de ir a por NN/g.\n\n**2. ¿Nivel actual de experiencia práctica en proyectos digitales?**\nAunque no has trabajado formalmente como UX Researcher, tu experiencia en Telus gestionando comunidades digitales te da **nivel intermedio en comprensión del usuario**. Podrías posicionarte como alguien con experiencia práctica en escucha del usuario, aunque necesites formalizar la metodología.\n\n**3. ¿B2B o B2C?**\nTu experiencia como Community Manager es predominantemente **B2C** (consumidor final), lo cual te da ventaja para empezar por ahí. Además, hay más oferta laboral en B2C.\n\n## 💡 Mi recomendación de ruta eficiente\n\n1. **Valida el interés**: Haz primero los cursos gratuitos de NN/g (tienen webinars y artículos excelentes) para confirmar que el campo te apasiona.\n2. **Certificación accesible**: Empieza con el **Google UX Design Certificate** o la membresía de **IxDF** para obtener una certificación reconocida sin arruinarte.\n3. **Construye portfolio**: Documenta 2-3 proyectos donde apliques técnicas de UX Research (puedes hacer rediseños de apps que ya usas, o analizar la experiencia de usuario de plataformas que conoces).\n4. **NN/g como meta a largo plazo**: Si ves que te dedicas a esto profesionalmente y tu empleador puede pagarlo, ve a por la UX Master.\n\n¿Quieres que profundicemos en alguna de estas opciones, o prefieres que te ayude a mapear específicamente cómo trasladar tus tareas actuales de Community Manager a un portfolio de UX Research?",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "792162d0-7d99-4eaa-b4fa-bab8d01ae349",
+      "usage": {
+       "input_tokens": 2460,
+       "output_tokens": 1298,
+       "characters": 0,
+       "total_tokens": 3758,
+       "input_tokens_details": {
+        "text_tokens": 2460
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 434,
+        "text_tokens": 1298
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1780444453
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1780444454.433179
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1780444428
+   }
+  ]
+ },
+ "updated_at": 1780444454,
+ "created_at": 1780444428,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1780444427175,
+  "tags": []
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "792162d0-7d99-4eaa-b4fa-bab8d01ae349"
+ ],
+ "currentId": "792162d0-7d99-4eaa-b4fa-bab8d01ae349",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": "",
+ "data_source": null
+}

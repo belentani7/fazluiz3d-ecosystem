@@ -1,0 +1,1380 @@
+{
+ "id": "c1062184-5997-4c50-8b76-747faf1c4606",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Rechazo al Capable por Envidia",
+ "chat": {
+  "history": {
+   "messages": {
+    "1fbfd892-1d24-4b64-88c3-416009429e05": {
+     "id": "1fbfd892-1d24-4b64-88c3-416009429e05",
+     "role": "user",
+     "content": "Saltar al contenido principalAyuda sobre la accesibilidad\nModo IA\nTodo\nImágenes\nVídeos\nVídeos cortos\nMás\nActualizar\n\n\n\n\nfenomeno psicologico el capaz el que consigue con trampa el veneficiado\nEl fenómeno psicológico al que te refieres se conoce como \"cleptonesia\" o, de forma más común en la psicología cognitiva y social, está muy relacionado con el efecto de racionalización de la trampa, el sesgo de autojustificación y la disonancia cognitiva.\nCuando una persona consigue un logro mediante trampas pero se beneficia de él y llega a creer genuinamente que lo logró por su propio mérito, se activan varios mecanismos psicológicos descritos por la ciencia:\n1. Olvido ético (Unethical Amnesia)\nLos psicólogos e investigadores del comportamiento humano han descubierto que las personas tienden a olvidar los detalles de sus propios actos deshonestos. Este fenómeno ocurre porque recordar que hicimos trampa daña nuestra autoimagen. Para protegernos, nuestra memoria \"borra\" o difumina la trampa, permitiéndonos disfrutar del beneficio sin la culpa.\n2. Amnesia de la fuente (Cleptonesia)\nEn un nivel más cognitivo, la cleptonesia ocurre cuando una persona se apropia de una idea, un mérito o un logro ajeno (o copiado) y, con el tiempo, olvida que el origen fue una copia. El cerebro archiva la información pero borra la etiqueta de \"esto lo robé\", por lo que el tramposo cree de verdad que la idea fue suya.\n3. Reducción de la Disonancia Cognitiva\nA nadie le gusta verse a sí mismo como un \"tramposo\" o un \"mentiroso\". Cuando alguien hace trampa y obtiene un beneficio, se produce un choque mental (disonancia). Para resolverlo, el cerebro cambia la narrativa:\n\"La prueba era injusta, así que solo equilibré la balanza\".\n\"De todos modos yo ya me sabía la respuesta\".\n\"Todos lo hacen, el mérito sigue siendo mío por saber cómo ganar\".\n4. Sesgo de Autosuficiencia (Self-Serving Bias)\nEs la tendencia humana a atribuir los éxitos a nuestras propias habilidades y los fracasos a factores externos. Incluso si el éxito se debió a una trampa, el cerebro del beneficiado se convencerá rápidamente de que el resultado final se debió a su astucia, inteligencia o capacidad.\nSi te interesa profundizar en cómo el cerebro justifica estas acciones, puedo explicarte experimentos científicos sobre la honestidad o darte ejemplos de cómo se manifiesta esto en el ámbito laboral y académico. ¿Te gustaría saber más sobre alguna de estas opciones?\nLas respuestas de la IA pueden contener errores. Más información\n\n\n\n\npero que la gente no acepta que el capaz consiga\nEl fenómeno por el cual la gente rechaza, minimiza o no acepta el éxito de una persona capaz se explica a través de la \"mentalidad de cangrejo\" y el \"síndrome de la amapola alta\", impulsados por la envidia y el sesgo de incredulidad.\nCuando la sociedad o un grupo se niega a reconocer el mérito de alguien que realmente es competente y logra sus metas de forma honesta, actúan los siguientes mecanismos psicosociales:\nMentalidad de Cangrejo (Crab Mentality)\nDefinición: Es la conducta que imita a los cangrejos en un balde; cuando uno intenta salir, los demás lo jalan hacia el fondo.\nEfecto: La gente ataca o desmerece al que triunfa porque su éxito expone los miedos y la falta de acción de quienes se quedan atrás.\nSíndrome de la Amapola Alta (Tall Poppy Syndrome)\nDefinición: La reacción social de cortar o criticar a la planta que crece más alta que el resto del campo.\nEfecto: Se castiga el talento o el brillo individual. La colectividad prefiere la mediocridad compartida antes que ver a alguien destacar por mérito propio.\nSesgo de Incredulidad y Autoprotección\nSospecha injustificada: Para no lidiar con la frustración, las personas prefieren inventar que el capaz hizo trampa, tuvo suerte o recibió ayuda oculta.\nDefensa del ego: Reconocer que otro es genuinamente capaz obliga a admitir las propias carencias, por lo que el cerebro prefiere invalidar el éxito ajeno.\n¿Te gustaría saber cómo afecta la envidia social en el entorno de trabajo o cómo lidiar con las personas que desacreditan tus logros?\nLas respuestas de la IA pueden contener errores. Más información\n\n\n\n\nIr a la petición anterior\nPregunta lo que quieras\n\n\n\nModo IA está pensando en tu consulta \nPreguntar",
+     "models": [
+      "qwen3.8-max"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "1c482b6e-1b15-422f-bd9d-f18df4ad978b"
+     ],
+     "files": [],
+     "timestamp": 1791174856
+    },
+    "1c482b6e-1b15-422f-bd9d-f18df4ad978b": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.8-max",
+     "modelName": "Qwen3.8-Max",
+     "modelIdx": 0,
+     "id": "1c482b6e-1b15-422f-bd9d-f18df4ad978b",
+     "parentId": "1fbfd892-1d24-4b64-88c3-416009429e05",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Analyze the incomplete query to identify the psychological phenomenon being described.",
+          "Analyzing the user's query regarding psychological phenomena linked to perceived capability and unethical advantage.",
+          "Analyze the input structure to distinguish between interface artifacts and substantive user intent.",
+          "Analyze the provided text to identify its nature and intent.",
+          "Structuring a comprehensive analysis of sociological and psychological phenomena"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Interpret the fragmented Spanish text regarding a user's ability or achievement of a specific mental state.\nFormulate a response that clarifies the likely intended concept based on the partial input.",
+          "I evaluate potential concepts such as Cleptonesia, Unethical Amnesia, and Cognitive Dissonance to find the most accurate fit.\nI consider Self-Serving Bias as a relevant alternative for understanding how individuals justify their benefits.\nI aim to provide a precise explanation that aligns with the nuanced context of the user's question.",
+          "I examine the provided text block to identify the actual query regarding psychological phenomena among capable individuals.\nI filter out navigational elements and system prompts that obscure the core message.\nI focus on extracting the semantic meaning behind the fragmented Spanish phrase to formulate a relevant response.",
+          "I recognize that the input consists of fragmented dialogue and interface elements rather than a coherent query.\nConsequently, I determine that no specific question has been posed and focus on the suggested topics for potential discussion.\nI prepare to offer assistance regarding these psychological themes or invite further clarification from the user.",
+          "I organize the response to address themes of merit and social rejection by acknowledging the user's specific request for depth and utility. I plan to deepen the exploration of unethical behavior by integrating concepts such as amnesia, moral disengagement, and self-deception. Simultaneously, I intend to examine the social dynamics that suppress genuine capability through frameworks like Tall Poppy Syndrome and Crab Mentality. This approach ensures a cohesive and extensive discussion that adheres strictly to the provided preferences without unnecessary filler."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "1c482b6e-1b15-422f-bd9d-f18df4ad978b",
+       "usage": {
+        "input_tokens": 5051,
+        "output_tokens": 136,
+        "total_tokens": 5187,
+        "output_tokens_details": {
+         "reasoning_tokens": 136
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1791174872
+      },
+      {
+       "content": "",
+       "phase": "web_search",
+       "status": "finished",
+       "extra": {
+        "display_position": "think",
+        "web_search_info": [
+         {
+          "url": "https://www.pnas.org/doi/10.1073/pnas.2011291117",
+          "title": "Unethical amnesia responds more to instrumental than ",
+          "snippet": "by F Galeotti · 2020 · Cited by 37 — This study investigates these two possible motives behind unethical amnesia. Despite a vast literature on unethical behavior (for surveys see ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29532400/",
+          "title": "No evidence for unethical amnesia for imagined actions",
+          "snippet": "by ML Stanley · 2018 · Cited by 30 — We did not find an unethical amnesia effect involving memory accuracy in any of our three studies. These results cast doubt upon the claim that memory accuracy ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.library.hbs.edu/working-knowledge/unethical-amnesia-why-we-tend-to-forget-our-own-bad-behavior",
+          "title": "Unethical Amnesia: Why We Tend to Forget Our Own Bad ",
+          "snippet": "“Unethical behavior creates psychological distress and discomfort, and unethical amnesia lowers it.” Everyday unethical behaviors. Gino and ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "May 18, 2016"
+         },
+         {
+          "url": "https://files.osf.io/v1/resources/kn8ce_v1/providers/osfstorage/5a976d58218b7b000e13c820?action=download&direct&version=2",
+          "title": "1 No Evidence for Unethical Amnesia for Imagined Actions",
+          "snippet": "by ML Stanley · Cited by 30 — Given these prior findings, perhaps the phenomenological component of the purported unethical amnesia effect reported by KouchaNi and Gino (2016) is strictly.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1364661316300808",
+          "title": "The Benefits and Costs of a Rose-Colored Hindsight",
+          "snippet": "by A Kappes · 2016 · Cited by 60 — New research by Kouchaki and Gino suggests this rosy …… This so-called 'unethical amnesia' has many individual benefits, but also carries social costs.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://link.springer.com/article/10.3758/s13421-018-0803-y",
+          "title": "No evidence for unethical amnesia for imagined actions",
+          "snippet": "by ML Stanley · 2018 · Cited by 30 — The authors report results from nine studies suggesting that people develop “unethical amnesia”: the process by which memories of unethical ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.semanticscholar.org/paper/Memories-of-unethical-actions-become-obfuscated-Kouchaki-Gino/2306ad5ec1f138129b52e4aa0d0072460637dff1",
+          "title": "Memories of unethical actions become obfuscated over time",
+          "snippet": "Unethical amnesia responds more to instrumental than to hedonic motives · Fabio GaleottiCharlotte SaucetM. Villeval. Psychology. Proceedings of the National ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.researchgate.net/publication/352638598_Unethical_amnesia_in_children_and_the_role_played_by_time_an_exploratory_study",
+          "title": "Unethical amnesia in children and the role played by time",
+          "snippet": "Unethical amnesia in children and the role played by time: an exploratory study. June 2021. Authors: Alexandra Cobzeanu Maftei at Alexandru ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Jun 23, 2026"
+         },
+         {
+          "url": "https://www.psychologicalscience.org/news/social-science-researchers-explore-unethical-amnesia.html",
+          "title": "Social Science Researchers Explore 'Unethical Amnesia'",
+          "snippet": "They call it unethical amnesia. Read the whole story: NPR · More of our Members in the Media > · News > Social Science Researchers Explore 'Unethical Amnesia' ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.womenofinfluence.ca/tps/",
+          "title": "The Tallest Poppy",
+          "snippet": "Tall Poppy Syndrome occurs when people are attacked, resented, disliked, criticized or cut down because of their achievements and/or success.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.psychologytoday.com/us/blog/social-instincts/202502/3-signs-that-youre-facing-tall-poppy-syndrome",
+          "title": "3 Signs That You're Facing 'Tall Poppy Syndrome'",
+          "snippet": "“Tall poppy syndrome” is a tendency to criticize, undermine, or resent those who achieve notable success. · Individuals who rise above the group ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Feb 6, 2025"
+         },
+         {
+          "url": "https://www.researchgate.net/publication/399328542_Effects_of_Tall_Poppy_Syndrome_on_Work_Performance_A_Multivariate_Regression_Analysis",
+          "title": "(PDF) Effects of Tall Poppy Syndrome on Work Performance",
+          "snippet": "This study investigated the effects of Tall Poppy Syndrome (TPS), a social attitude in which high achievers are resented by their peers in ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Jan 1, 2026"
+         },
+         {
+          "url": "https://www.medicalnewstoday.com/articles/tall-poppy-syndrome",
+          "title": "Tall poppy syndrome: Origins, effects, and how to cope",
+          "snippet": "Tall poppy syndrome refers to a phenomenon in which people criticize, attack, or resent another for their success. Learn more here.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Jun 24, 2024"
+         },
+         {
+          "url": "https://ir.canterbury.ac.nz/items/c006714f-1e99-45a6-8938-ee49859b0e14",
+          "title": "Tall Poppy Syndrome and its effect on work performance",
+          "snippet": "by I Dediu · 2015 · Cited by 13 — Directions for future studies in industrial and organizational psychology on the effects of tall poppy syndrome on work performance are discussed.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.marthacurtiscoaching.com/articles/standing-tall-in-the-face-of-tall-poppy-syndrome-embracing-success-and-overcoming-criticism",
+          "title": "Understanding and Overcoming Tall Poppy Syndrome",
+          "snippet": "Tall Poppy Syndrome is a social phenomenon where individuals who achieve success or stand out are “cut down” by others to maintain a sense of ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Oct 27, 2024"
+         },
+         {
+          "url": "https://www.verywellmind.com/tall-poppy-syndrome-success-shaming-11983748",
+          "title": "Tall Poppy Syndrome: When People Cut You Down for ",
+          "snippet": "Tall poppy syndrome refers to being criticized for one's successes. It can be psychologically taxing, but with the right tools, you can ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "May 28, 2026"
+         },
+         {
+          "url": "https://www.facebook.com/groups/NewZealandtechstartups/posts/24082170964801427/",
+          "title": "Is tall poppy syndrome holding back success?",
+          "snippet": "Many agree that tall poppy syndrome holds back success in New Zealand, with some citing personal experiences of support pulling back after ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "1 year ago"
+         },
+         {
+          "url": "https://journal.seisense.com/sbr/article/view/1388",
+          "title": "Effects of Tall Poppy Syndrome on Work Performance",
+          "snippet": "This study investigated the effects of Tall Poppy Syndrome (TPS), a social attitude in which high achievers are resented by their peers in ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Jan 1, 2026"
+         },
+         {
+          "url": "https://www.tallpoppysyndrome.org/from-ancient-rome-to-social-media-the-enduring-lessons-of-the-tall-poppy-syndrome/",
+          "title": "From Ancient Rome to Social Media: The Enduring Lessons of ",
+          "snippet": "Today, we call this idea Tall Poppy Syndrome (TPS). It's a cultural instinct to cut down high achievers—to make sure no one flies too high, ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Jun 12, 2025"
+         },
+         {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9615545/",
+          "title": "Crab barrel syndrome: Looking through the lens of type A and ",
+          "snippet": "by B Uzum · 2022 · Cited by 37 — In fact, those with crab mentality exhibit their thoughts in behaviors such as belittlement, humiliation, harsh criticism, grudge-holding, ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://en.wikipedia.org/wiki/Crab_mentality",
+          "title": "Crab mentality",
+          "snippet": "Crab mentality, also known as crab theory, crabs in a bucket mentality, or the crab-bucket effect, describes the mindset of people who try to prevent others ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.sahilbloom.com/newsletter/the-crab-mentality-a-hidden-psychological-trap",
+          "title": "The Crab Mentality: A Hidden Psychological Trap",
+          "snippet": "One observation I've had is that certain environments seem to breed a Crab Mentality. They are scarcity-driven. They promote zero-sum thinking.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Aug 29, 2025"
+         },
+         {
+          "url": "https://medium.com/no-time/understanding-the-crab-mentality-82ba67b5dea5",
+          "title": "Understanding the Crab Mentality. A Jealousy Disorder",
+          "snippet": "Crab mentality is when someone tries to grow, achieve, or escape their “bucket,” and someone else — consciously or unconsciously — pulls them ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.quora.com/Why-do-we-call-crab-mentality-as-crab-mentality-How-did-it-get-its-name",
+          "title": "Why do we call crab mentality as crab mentality? How did it ",
+          "snippet": "Why do we call crab mentality as crab mentality? How did it get its name?",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "5 years ago"
+         },
+         {
+          "url": "https://www.aplaceofhope.com/blog/crab-mentality-breaking-free-from-the-psychology-of-pulling-others-down/",
+          "title": "Crab Mentality Breaking Free From the Psychology ",
+          "snippet": "Crab mentality, also known as the crab-bucket effect or “crabs in a barrel” syndrome, describes the mindset of trying to prevent others from ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Jun 23, 2025"
+         },
+         {
+          "url": "https://philarchive.org/rec/MALCMA-4",
+          "title": "Crab Mentality as a Psychological Balancing Mechanism of ",
+          "snippet": "Instead of admiration, crab mentality turns another's success into a perceived social offense, leading individuals to justify bringing them down ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "by A Malicse"
+         },
+         {
+          "url": "https://www.psychologytoday.com/us/blog/when-family-hurts/202606/the-crab-mentality-if-i-cant-have-it-neither-can-you",
+          "title": "The Crab Mentality: If I Can't Have It, Neither Can You",
+          "snippet": "When family members respond to success with jealousy, minimization, or sabotage, it's called \"crab mentality.\" Crab mentality is often ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Jul 15, 2026"
+         },
+         {
+          "url": "https://www.facebook.com/groups/630380630330970/posts/8817488114953473/",
+          "title": "Understanding crab mentality in social interactions",
+          "snippet": "I could never quite pinpoint how I feel about people around here til I came across this:\n\nCrab mentality, also known as crab theory, crabs in ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "1 year ago"
+         }
+        ],
+        "tool_result": {
+         "docs": [
+          {
+           "url": "https://www.pnas.org/doi/10.1073/pnas.2011291117",
+           "title": "Unethical amnesia responds more to instrumental than ",
+           "snippet": "by F Galeotti · 2020 · Cited by 37 — This study investigates these two possible motives behind unethical amnesia. Despite a vast literature on unethical behavior (for surveys see ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://pubmed.ncbi.nlm.nih.gov/29532400/",
+           "title": "No evidence for unethical amnesia for imagined actions",
+           "snippet": "by ML Stanley · 2018 · Cited by 30 — We did not find an unethical amnesia effect involving memory accuracy in any of our three studies. These results cast doubt upon the claim that memory accuracy ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.library.hbs.edu/working-knowledge/unethical-amnesia-why-we-tend-to-forget-our-own-bad-behavior",
+           "title": "Unethical Amnesia: Why We Tend to Forget Our Own Bad ",
+           "snippet": "“Unethical behavior creates psychological distress and discomfort, and unethical amnesia lowers it.” Everyday unethical behaviors. Gino and ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": "May 18, 2016"
+          },
+          {
+           "url": "https://files.osf.io/v1/resources/kn8ce_v1/providers/osfstorage/5a976d58218b7b000e13c820?action=download&direct&version=2",
+           "title": "1 No Evidence for Unethical Amnesia for Imagined Actions",
+           "snippet": "by ML Stanley · Cited by 30 — Given these prior findings, perhaps the phenomenological component of the purported unethical amnesia effect reported by KouchaNi and Gino (2016) is strictly.",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.sciencedirect.com/science/article/abs/pii/S1364661316300808",
+           "title": "The Benefits and Costs of a Rose-Colored Hindsight",
+           "snippet": "by A Kappes · 2016 · Cited by 60 — New research by Kouchaki and Gino suggests this rosy …… This so-called 'unethical amnesia' has many individual benefits, but also carries social costs.",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://link.springer.com/article/10.3758/s13421-018-0803-y",
+           "title": "No evidence for unethical amnesia for imagined actions",
+           "snippet": "by ML Stanley · 2018 · Cited by 30 — The authors report results from nine studies suggesting that people develop “unethical amnesia”: the process by which memories of unethical ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.semanticscholar.org/paper/Memories-of-unethical-actions-become-obfuscated-Kouchaki-Gino/2306ad5ec1f138129b52e4aa0d0072460637dff1",
+           "title": "Memories of unethical actions become obfuscated over time",
+           "snippet": "Unethical amnesia responds more to instrumental than to hedonic motives · Fabio GaleottiCharlotte SaucetM. Villeval. Psychology. Proceedings of the National ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.researchgate.net/publication/352638598_Unethical_amnesia_in_children_and_the_role_played_by_time_an_exploratory_study",
+           "title": "Unethical amnesia in children and the role played by time",
+           "snippet": "Unethical amnesia in children and the role played by time: an exploratory study. June 2021. Authors: Alexandra Cobzeanu Maftei at Alexandru ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": "Jun 23, 2026"
+          },
+          {
+           "url": "https://www.psychologicalscience.org/news/social-science-researchers-explore-unethical-amnesia.html",
+           "title": "Social Science Researchers Explore 'Unethical Amnesia'",
+           "snippet": "They call it unethical amnesia. Read the whole story: NPR · More of our Members in the Media > · News > Social Science Researchers Explore 'Unethical Amnesia' ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.womenofinfluence.ca/tps/",
+           "title": "The Tallest Poppy",
+           "snippet": "Tall Poppy Syndrome occurs when people are attacked, resented, disliked, criticized or cut down because of their achievements and/or success.",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.psychologytoday.com/us/blog/social-instincts/202502/3-signs-that-youre-facing-tall-poppy-syndrome",
+           "title": "3 Signs That You're Facing 'Tall Poppy Syndrome'",
+           "snippet": "“Tall poppy syndrome” is a tendency to criticize, undermine, or resent those who achieve notable success. · Individuals who rise above the group ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": "Feb 6, 2025"
+          },
+          {
+           "url": "https://www.researchgate.net/publication/399328542_Effects_of_Tall_Poppy_Syndrome_on_Work_Performance_A_Multivariate_Regression_Analysis",
+           "title": "(PDF) Effects of Tall Poppy Syndrome on Work Performance",
+           "snippet": "This study investigated the effects of Tall Poppy Syndrome (TPS), a social attitude in which high achievers are resented by their peers in ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": "Jan 1, 2026"
+          },
+          {
+           "url": "https://www.medicalnewstoday.com/articles/tall-poppy-syndrome",
+           "title": "Tall poppy syndrome: Origins, effects, and how to cope",
+           "snippet": "Tall poppy syndrome refers to a phenomenon in which people criticize, attack, or resent another for their success. Learn more here.",
+           "hostname": "",
+           "hostlogo": "",
+           "date": "Jun 24, 2024"
+          },
+          {
+           "url": "https://ir.canterbury.ac.nz/items/c006714f-1e99-45a6-8938-ee49859b0e14",
+           "title": "Tall Poppy Syndrome and its effect on work performance",
+           "snippet": "by I Dediu · 2015 · Cited by 13 — Directions for future studies in industrial and organizational psychology on the effects of tall poppy syndrome on work performance are discussed.",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.marthacurtiscoaching.com/articles/standing-tall-in-the-face-of-tall-poppy-syndrome-embracing-success-and-overcoming-criticism",
+           "title": "Understanding and Overcoming Tall Poppy Syndrome",
+           "snippet": "Tall Poppy Syndrome is a social phenomenon where individuals who achieve success or stand out are “cut down” by others to maintain a sense of ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": "Oct 27, 2024"
+          },
+          {
+           "url": "https://www.verywellmind.com/tall-poppy-syndrome-success-shaming-11983748",
+           "title": "Tall Poppy Syndrome: When People Cut You Down for ",
+           "snippet": "Tall poppy syndrome refers to being criticized for one's successes. It can be psychologically taxing, but with the right tools, you can ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": "May 28, 2026"
+          },
+          {
+           "url": "https://www.facebook.com/groups/NewZealandtechstartups/posts/24082170964801427/",
+           "title": "Is tall poppy syndrome holding back success?",
+           "snippet": "Many agree that tall poppy syndrome holds back success in New Zealand, with some citing personal experiences of support pulling back after ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": "1 year ago"
+          },
+          {
+           "url": "https://journal.seisense.com/sbr/article/view/1388",
+           "title": "Effects of Tall Poppy Syndrome on Work Performance",
+           "snippet": "This study investigated the effects of Tall Poppy Syndrome (TPS), a social attitude in which high achievers are resented by their peers in ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": "Jan 1, 2026"
+          },
+          {
+           "url": "https://www.tallpoppysyndrome.org/from-ancient-rome-to-social-media-the-enduring-lessons-of-the-tall-poppy-syndrome/",
+           "title": "From Ancient Rome to Social Media: The Enduring Lessons of ",
+           "snippet": "Today, we call this idea Tall Poppy Syndrome (TPS). It's a cultural instinct to cut down high achievers—to make sure no one flies too high, ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": "Jun 12, 2025"
+          },
+          {
+           "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9615545/",
+           "title": "Crab barrel syndrome: Looking through the lens of type A and ",
+           "snippet": "by B Uzum · 2022 · Cited by 37 — In fact, those with crab mentality exhibit their thoughts in behaviors such as belittlement, humiliation, harsh criticism, grudge-holding, ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://en.wikipedia.org/wiki/Crab_mentality",
+           "title": "Crab mentality",
+           "snippet": "Crab mentality, also known as crab theory, crabs in a bucket mentality, or the crab-bucket effect, describes the mindset of people who try to prevent others ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.sahilbloom.com/newsletter/the-crab-mentality-a-hidden-psychological-trap",
+           "title": "The Crab Mentality: A Hidden Psychological Trap",
+           "snippet": "One observation I've had is that certain environments seem to breed a Crab Mentality. They are scarcity-driven. They promote zero-sum thinking.",
+           "hostname": "",
+           "hostlogo": "",
+           "date": "Aug 29, 2025"
+          },
+          {
+           "url": "https://medium.com/no-time/understanding-the-crab-mentality-82ba67b5dea5",
+           "title": "Understanding the Crab Mentality. A Jealousy Disorder",
+           "snippet": "Crab mentality is when someone tries to grow, achieve, or escape their “bucket,” and someone else — consciously or unconsciously — pulls them ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": ""
+          },
+          {
+           "url": "https://www.quora.com/Why-do-we-call-crab-mentality-as-crab-mentality-How-did-it-get-its-name",
+           "title": "Why do we call crab mentality as crab mentality? How did it ",
+           "snippet": "Why do we call crab mentality as crab mentality? How did it get its name?",
+           "hostname": "",
+           "hostlogo": "",
+           "date": "5 years ago"
+          },
+          {
+           "url": "https://www.aplaceofhope.com/blog/crab-mentality-breaking-free-from-the-psychology-of-pulling-others-down/",
+           "title": "Crab Mentality Breaking Free From the Psychology ",
+           "snippet": "Crab mentality, also known as the crab-bucket effect or “crabs in a barrel” syndrome, describes the mindset of trying to prevent others from ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": "Jun 23, 2025"
+          },
+          {
+           "url": "https://philarchive.org/rec/MALCMA-4",
+           "title": "Crab Mentality as a Psychological Balancing Mechanism of ",
+           "snippet": "Instead of admiration, crab mentality turns another's success into a perceived social offense, leading individuals to justify bringing them down ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": "by A Malicse"
+          },
+          {
+           "url": "https://www.psychologytoday.com/us/blog/when-family-hurts/202606/the-crab-mentality-if-i-cant-have-it-neither-can-you",
+           "title": "The Crab Mentality: If I Can't Have It, Neither Can You",
+           "snippet": "When family members respond to success with jealousy, minimization, or sabotage, it's called \"crab mentality.\" Crab mentality is often ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": "Jul 15, 2026"
+          },
+          {
+           "url": "https://www.facebook.com/groups/630380630330970/posts/8817488114953473/",
+           "title": "Understanding crab mentality in social interactions",
+           "snippet": "I could never quite pinpoint how I feel about people around here til I came across this:\n\nCrab mentality, also known as crab theory, crabs in ",
+           "hostname": "",
+           "hostlogo": "",
+           "date": "1 year ago"
+          }
+         ],
+         "used_id": 29,
+         "tool_call_metrics": {
+          "success": [
+           1,
+           1,
+           1
+          ]
+         },
+         "tool_observation": "```\n[1] https://www.pnas.org/doi/10.1073/pnas.2011291117 \"Unethical amnesia responds more to instrumental than \nby F Galeotti · 2020 · Cited by 37 — This study investigates these two possible motives behind unethical amnesia. Despite a vast literature on unethical behavior (for surveys see \" \n\n[2] https://pubmed.ncbi.nlm.nih.gov/29532400/ \"No evidence for unethical amnesia for imagined actions\nby ML Stanley · 2018 · Cited by 30 — We did not find an unethical amnesia effect involving memory accuracy in any of our three studies. These results cast doubt upon the claim that memory accuracy \" \n\n[3] https://www.library.hbs.edu/working-knowledge/unethical-amnesia-why-we-tend-to-forget-our-own-bad-behavior \"Unethical Amnesia: Why We Tend to Forget Our Own Bad \n“Unethical behavior creates psychological distress and discomfort, and unethical amnesia lowers it.” Everyday unethical behaviors. Gino and \" May 18, 2016\n\n[4] https://files.osf.io/v1/resources/kn8ce_v1/providers/osfstorage/5a976d58218b7b000e13c820?action=download&direct&version=2 \"1 No Evidence for Unethical Amnesia for Imagined Actions\nby ML Stanley · Cited by 30 — Given these prior findings, perhaps the phenomenological component of the purported unethical amnesia effect reported by KouchaNi and Gino (2016) is strictly.\" \n\n[5] https://www.sciencedirect.com/science/article/abs/pii/S1364661316300808 \"The Benefits and Costs of a Rose-Colored Hindsight\nby A Kappes · 2016 · Cited by 60 — New research by Kouchaki and Gino suggests this rosy …… This so-called 'unethical amnesia' has many individual benefits, but also carries social costs.\" \n\n[6] https://link.springer.com/article/10.3758/s13421-018-0803-y \"No evidence for unethical amnesia for imagined actions\nby ML Stanley · 2018 · Cited by 30 — The authors report results from nine studies suggesting that people develop “unethical amnesia”: the process by which memories of unethical \" \n\n[7] https://www.semanticscholar.org/paper/Memories-of-unethical-actions-become-obfuscated-Kouchaki-Gino/2306ad5ec1f138129b52e4aa0d0072460637dff1 \"Memories of unethical actions become obfuscated over time\nUnethical amnesia responds more to instrumental than to hedonic motives · Fabio GaleottiCharlotte SaucetM. Villeval. Psychology. Proceedings of the National \" \n\n[8] https://www.researchgate.net/publication/352638598_Unethical_amnesia_in_children_and_the_role_played_by_time_an_exploratory_study \"Unethical amnesia in children and the role played by time\nUnethical amnesia in children and the role played by time: an exploratory study. June 2021. Authors: Alexandra Cobzeanu Maftei at Alexandru \" Jun 23, 2026\n\n[9] https://www.psychologicalscience.org/news/social-science-researchers-explore-unethical-amnesia.html \"Social Science Researchers Explore 'Unethical Amnesia'\nThey call it unethical amnesia. Read the whole story: NPR · More of our Members in the Media > · News > Social Science Researchers Explore 'Unethical Amnesia' \" \n\n[10] https://www.womenofinfluence.ca/tps/ \"The Tallest Poppy\nTall Poppy Syndrome occurs when people are attacked, resented, disliked, criticized or cut down because of their achievements and/or success.\" \n\n[11] https://www.psychologytoday.com/us/blog/social-instincts/202502/3-signs-that-youre-facing-tall-poppy-syndrome \"3 Signs That You're Facing 'Tall Poppy Syndrome'\n“Tall poppy syndrome” is a tendency to criticize, undermine, or resent those who achieve notable success. · Individuals who rise above the group \" Feb 6, 2025\n\n[12] https://www.researchgate.net/publication/399328542_Effects_of_Tall_Poppy_Syndrome_on_Work_Performance_A_Multivariate_Regression_Analysis \"(PDF) Effects of Tall Poppy Syndrome on Work Performance\nThis study investigated the effects of Tall Poppy Syndrome (TPS), a social attitude in which high achievers are resented by their peers in \" Jan 1, 2026\n\n[13] https://www.medicalnewstoday.com/articles/tall-poppy-syndrome \"Tall poppy syndrome: Origins, effects, and how to cope\nTall poppy syndrome refers to a phenomenon in which people criticize, attack, or resent another for their success. Learn more here.\" Jun 24, 2024\n\n[14] https://ir.canterbury.ac.nz/items/c006714f-1e99-45a6-8938-ee49859b0e14 \"Tall Poppy Syndrome and its effect on work performance\nby I Dediu · 2015 · Cited by 13 — Directions for future studies in industrial and organizational psychology on the effects of tall poppy syndrome on work performance are discussed.\" \n\n[15] https://www.marthacurtiscoaching.com/articles/standing-tall-in-the-face-of-tall-poppy-syndrome-embracing-success-and-overcoming-criticism \"Understanding and Overcoming Tall Poppy Syndrome\nTall Poppy Syndrome is a social phenomenon where individuals who achieve success or stand out are “cut down” by others to maintain a sense of \" Oct 27, 2024\n\n[16] https://www.verywellmind.com/tall-poppy-syndrome-success-shaming-11983748 \"Tall Poppy Syndrome: When People Cut You Down for \nTall poppy syndrome refers to being criticized for one's successes. It can be psychologically taxing, but with the right tools, you can \" May 28, 2026\n\n[17] https://www.facebook.com/groups/NewZealandtechstartups/posts/24082170964801427/ \"Is tall poppy syndrome holding back success?\nMany agree that tall poppy syndrome holds back success in New Zealand, with some citing personal experiences of support pulling back after \" 1 year ago\n\n[18] https://journal.seisense.com/sbr/article/view/1388 \"Effects of Tall Poppy Syndrome on Work Performance\nThis study investigated the effects of Tall Poppy Syndrome (TPS), a social attitude in which high achievers are resented by their peers in \" Jan 1, 2026\n\n[19] https://www.tallpoppysyndrome.org/from-ancient-rome-to-social-media-the-enduring-lessons-of-the-tall-poppy-syndrome/ \"From Ancient Rome to Social Media: The Enduring Lessons of \nToday, we call this idea Tall Poppy Syndrome (TPS). It's a cultural instinct to cut down high achievers—to make sure no one flies too high, \" Jun 12, 2025\n\n[20] https://pmc.ncbi.nlm.nih.gov/articles/PMC9615545/ \"Crab barrel syndrome: Looking through the lens of type A and \nby B Uzum · 2022 · Cited by 37 — In fact, those with crab mentality exhibit their thoughts in behaviors such as belittlement, humiliation, harsh criticism, grudge-holding, \" \n\n[21] https://en.wikipedia.org/wiki/Crab_mentality \"Crab mentality\nCrab mentality, also known as crab theory, crabs in a bucket mentality, or the crab-bucket effect, describes the mindset of people who try to prevent others \" \n\n[22] https://www.sahilbloom.com/newsletter/the-crab-mentality-a-hidden-psychological-trap \"The Crab Mentality: A Hidden Psychological Trap\nOne observation I've had is that certain environments seem to breed a Crab Mentality. They are scarcity-driven. They promote zero-sum thinking.\" Aug 29, 2025\n\n[23] https://medium.com/no-time/understanding-the-crab-mentality-82ba67b5dea5 \"Understanding the Crab Mentality. A Jealousy Disorder\nCrab mentality is when someone tries to grow, achieve, or escape their “bucket,” and someone else — consciously or unconsciously — pulls them \" \n\n[24] https://www.quora.com/Why-do-we-call-crab-mentality-as-crab-mentality-How-did-it-get-its-name \"Why do we call crab mentality as crab mentality? How did it \nWhy do we call crab mentality as crab mentality? How did it get its name?\" 5 years ago\n\n[25] https://www.aplaceofhope.com/blog/crab-mentality-breaking-free-from-the-psychology-of-pulling-others-down/ \"Crab Mentality Breaking Free From the Psychology \nCrab mentality, also known as the crab-bucket effect or “crabs in a barrel” syndrome, describes the mindset of trying to prevent others from \" Jun 23, 2025\n\n[26] https://philarchive.org/rec/MALCMA-4 \"Crab Mentality as a Psychological Balancing Mechanism of \nInstead of admiration, crab mentality turns another's success into a perceived social offense, leading individuals to justify bringing them down \" by A Malicse\n\n[27] https://www.psychologytoday.com/us/blog/when-family-hurts/202606/the-crab-mentality-if-i-cant-have-it-neither-can-you \"The Crab Mentality: If I Can't Have It, Neither Can You\nWhen family members respond to success with jealousy, minimization, or sabotage, it's called \"crab mentality.\" Crab mentality is often \" Jul 15, 2026\n\n[28] https://www.facebook.com/groups/630380630330970/posts/8817488114953473/ \"Understanding crab mentality in social interactions\nI could never quite pinpoint how I feel about people around here til I came across this:\n\nCrab mentality, also known as crab theory, crabs in \" 1 year ago\n```"
+        }
+       },
+       "role": "function",
+       "name": "web_search",
+       "function_id": "call_a7cdf4b9e956487abf55657d",
+       "function_call": {
+        "name": "web_search",
+        "arguments": "{\"queries\": \n[\n  \"\\\"Unethical amnesia\\\" psychology research authors\",\n  \"\\\"Tall poppy syndrome\\\" psychology research\",\n  \"\\\"Crab mentality\\\" psychology sociology\"\n]\n\n}"
+       },
+       "response_id": "1c482b6e-1b15-422f-bd9d-f18df4ad978b",
+       "usage": {}
+      },
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Analyze the user's request to synthesize complex psychological and sociological phenomena",
+          "Estructuro una respuesta académica y práctica que analiza la psicología del tramposo y la sanción social al competente",
+          "Estructurar el análisis de las dinámicas psicológicas y sociales del comportamiento humano",
+          "Formulo un resumen estructurado del análisis sobre los sesgos sociales que penalizan la excelencia",
+          "Analizo los mecanismos psicológicos que permiten al tramposo racionalizar su conducta",
+          "Resumo el proceso de justificación moral y sesgo cognitivo que permite la trampa",
+          "Sintetizando conceptos sociológicos y psicológicos",
+          "Sintetizo el análisis sobre la dinámica social de la envidia",
+          "Analizo la dinámica sistémica entre el tramposo y el competente genuino para ofrecer estrategias de afrontamiento",
+          "Procedo a sintetizar estrategias psicológicas para gestionar la envidia y el síndrome de la manzana alta",
+          "Sintetizo el proceso de validación y refinamiento del contenido generado",
+          "Continuar con la integración de fuentes en el texto.",
+          "Analyze and synthesize fragmented insights to construct a coherent response.",
+          "Synthesizing a psychological analysis on social envy and self-deception"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I examine the provided text to identify the core themes of unethical advantage through deception and the societal backlash against genuine competence\nI integrate these concepts with the specified stylistic constraints to ensure a comprehensive, evidence-based, and substantive response\nI prepare to articulate the interplay between cognitive dissonance in cheaters and the tall poppy syndrome affecting the capable",
+          "Integraré teorías de disonancia cognitiva y amnesia ética para explicar cómo los individuos racionalizan el engaño y sus beneficios\nDesarrollaré estrategias prácticas para navegar estos entornos contrastando la autoprotección psicológica con las dinámicas sociales\nEl análisis combinará rigor investigativo con aplicabilidad concreta para abordar ambas fenómenos interrelacionados",
+          "Exploro cómo la memoria distorsiona los actos poco éticos para mitigar la angustia, examinando si este proceso es motivacional o hedónico.\nAnalizo los mecanismos de desconexión moral y el razonamiento motivado que permiten a los individuos preservar su autoimagen de integridad.\nExamineo la hostilidad cultural hacia el éxito destacado mediante conceptos como el síndrome de la amapola alta y la mentalidad de cangrejo.",
+          "Identifico las dinámicas de castigo grupal y la satisfacción por el fracaso ajeno como mecanismos de cohesión tóxica\nEvalúo el impacto sistémico en la innovación y propongo estrategias para preservar la integridad personal ante estas presiones\nSintetizo estos elementos para ofrecer una guía rigurosa y práctica sin caer en generalidades innecesarias",
+          "Identifico la amnesia ética como un proceso de protección autoimagen donde el olvido selectivo reduce la disonancia cognitiva derivada de acciones deshonestas\nExamine las teorías sobre si este fenómeno busca mitigar el malestar hedónico o facilitar futuras transgresiones instrumentales\nIntegro estos conceptos para explicar cómo la desconexión moral sustenta la internalización del beneficio obtenido mediante el engaño",
+          "Analizo cómo la autoabsolución cerebral contrasta con la sanción social hacia el mérito genuino\nExpongo los mecanismos de racionalización como la difusión de responsabilidad y la atribución de culpa\nDescribo la dinámica punitiva de la sociedad frente a la excelencia auténtica",
+          "Analizo las dinámicas de grupo mediante el síndrome de la amapola alta y la mentalidad de cangrejo para explicar los sesgos evolutivos que penalizan el éxito individual.\nIdentifico cómo estas tendencias culturales buscan mantener una igualdad percibida a costa del rendimiento laboral y el avance colectivo.\nIntegro referencias históricas y estudios recientes para fundamentar la naturaleza instintiva de estos comportamientos de represión social.",
+          "Integro los conceptos sociológicos y psicológicos que explican cómo la escasez fomenta una mentalidad de suma cero.\nExplico que el éxito ajeno se percibe como una amenaza a la autoestima grupal, lo que genera resentimiento hacia el competente.\nConcluyo que esta psicología de comparación social lleva al colectivo a desvalorizar el mérito para evitar el esfuerzo personal requerido para igualar el logro.",
+          "Identifico cómo la amnesia ética y la disonancia cognitiva permiten al tramposo proyectar una confianza infundada\nReconozco que el mérito auténtico sufre por la falta de justificación interna y los ataques externos del síndrome de la amapola alta\nPropongo tácticas psicológicas como la inoculación contra estos prejuicios para proteger la autoestima del individuo capacitado",
+          "Identifico que la autovalidación debe distinguirse de la aprobación externa para mitigar la inseguridad ambiental\nAplico el efecto Pratfall para humanizar el éxito y reducir la percepción de amenaza en los pares\nDiseño alianzas estratégicas que transforman la escasez percibida en entornos de beneficio mutuo o sugiero la salida de contextos tóxicos",
+          "Verifico que la respuesta cumpla estrictamente con los requisitos de extensión, tono académico y formato establecidos por el usuario.\nCotejo las referencias bibliográficas con los resultados de búsqueda disponibles para asegurar la máxima precisión y evitar alusiones a herramientas o parámetros técnicos.\nAjusto la redacción final para garantizar coherencia, elegancia y ausencia de elementos innecesarios antes de presentar la conclusión.",
+          "Selecciono cuidadosamente los recursos proporcionados para asegurar que cada oración cite como máximo una fuente.\nVerifico que la redacción fluya de manera natural sin revelar procesos internos ni nombres de herramientas.\nMantengo el rigor académico mientras evito cualquier código o instrucción explícita en la salida final.",
+          "I evaluate the psychological motivations behind moral disengagement and social sabotage.\nI integrate concepts of zero-sum thinking with the phenomenon of crab mentality to explain interpersonal dynamics.\nFinally, I ensure the narrative flows logically while maintaining academic rigor and stylistic elegance.",
+          "I am formulating a comprehensive treatise that explores the intersection of cheaters' self-deception and the societal punishment of genuine capability. I plan to integrate insights from organizational psychology regarding the negative impact of this syndrome on workplace performance. Additionally, I will incorporate historical perspectives on the collective instinct to suppress individual excellence to maintain perceived equality. Finally, I will structure the response to directly address the user's prompts with an introductory acknowledgment."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "1c482b6e-1b15-422f-bd9d-f18df4ad978b",
+       "usage": {
+        "input_tokens": 5051,
+        "output_tokens": 3542,
+        "total_tokens": 8593,
+        "output_tokens_details": {
+         "reasoning_tokens": 3537
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1791174930
+      },
+      {
+       "content": "El contraste que planteas en tu historial aborda dos de los fenómenos más paradójicos y destructivos de la psicología social y cognitiva: **la autoabsolución neurológica del tramposo** frente a **la sanción punitiva de la sociedad hacia el genuinamente competente**. A continuación, se presenta un análisis riguroso, extenso y basado en evidencia científica sobre cómo operan estas dinámicas y cómo interactúan entre sí.\n\n### 1. La Arquitectura Cognitiva del Tramposo: Amnesia Ética y Desconexión Moral\nEl fenómeno por el cual una persona obtiene un beneficio mediante la trampa y logra internalizar ese éxito como propio no es un simple acto de cinismo, sino un proceso neuropsicológico de autoprotección altamente sofisticado.\n\n*   **Amnesia Ética (Unethical Amnesia):** Investigaciones pioneras demuestran que las personas tienden a olvidar u obstruir los recuerdos de sus propias acciones poco éticas con el paso del tiempo [[7]]. Este \"olvido\" no es un fallo biológico de la memoria, sino un mecanismo adaptativo: el comportamiento poco ético genera angustia psicológica (disonancia), y la amnesia ética actúa para reducir esa incomodidad y proteger la autoimagen moral del individuo [[3]]. Estudios recientes sugieren que este olvido puede responder tanto a motivos hedónicos (el deseo de sentirse bien consigo mismo y evitar la culpa) como a motivos instrumentales (la necesidad de mantener una fachada limpia para poder seguir engañando en el futuro sin ser detectado por microexpresiones de culpa) [[1]].\n*   **Desconexión Moral (Albert Bandura):** Para que una persona inteligente justifique hacer trampa, debe desactivar temporalmente sus estándares morales internos. Lo logra mediante la *justificación moral* (convencerse de que la trampa sirve a un propósito mayor o \"superior\"), la *difusión de responsabilidad* (\"el sistema está roto, todos lo hacen\") y la *atribución de culpa* (\"la prueba era injusta, así que solo estoy equilibrando la balanza\").\n*   **Razonamiento Motivado y Sesgo de Autoservicio:** El cerebro procesa la información de manera asimétrica. Cuando el éxito llega gracias a la trampa, el individuo aplica un escrutinio laxo a sus propias acciones y utiliza un sesgo de autoservicio (*self-serving bias*) que atribuye el resultado final a su astucia, inteligencia o capacidad innata, descartando el factor \"suerte\" o \"trampa\" como meros catalizadores de su talento. Con el tiempo, la narrativa reescrita se convierte en su realidad absoluta.\n\n### 2. La Sanción Social al Mérito: Amapola Alta y Mentalidad de Cangrejo\nMientras el cerebro del tramposo se auto-absuelve mediante la amnesia, la sociedad suele aplicar un escrutinio punitivo y paranoico hacia quien logra el éxito de forma genuina y transparente. Este rechazo sistemático a la excelencia se explica mediante dinámicas de grupo, evolución social y sesgos cognitivos.\n\n*   **Síndrome de la Amapola Alta (Tall Poppy Syndrome):** Es la tendencia cultural y social a criticar, resentir o \"cortar\" a las personas que destacan por sus logros notables [[11]]. Las investigaciones en psicología organizacional muestran que este síndrome tiene un impacto directo y negativo en el rendimiento laboral, ya que los empleados limitan conscientemente su esfuerzo y ocultan sus capacidades para no convertirse en el blanco de críticas, envidias y aislamiento por parte de sus pares [[12]]. Históricamente, este concepto refleja un instinto colectivo primitivo de derribar a quien \"vuela demasiado alto\" para mantener la igualdad percibida y asegurar que nadie altere el *status quo* del grupo [[19]].\n*   **Mentalidad de Cangrejo (Crab Barrel Syndrome):** Describe la mentalidad de los individuos que intentan prevenir que otros avancen o escapen de su entorno, similar a los cangrejos en un balde que se arrastran mutuamente hacia el fondo si uno intenta salir [[21]]. En sociología, esto ocurre predominantemente en entornos impulsados por la percepción de escasez y el \"pensamiento de suma cero\" (la creencia errónea y limitante de que si otro gana, yo pierdo) [[22]]. \n*   **El Éxito como Ofensa Social:** Bajo la lente de la mentalidad de cangrejo, el éxito del capaz deja de ser una inspiración y se percibe como una ofensa social o un espejo que refleja las carencias ajenas, lo que lleva a los individuos a justificar psicológicamente el derribo, la humillación o el sabotaje de quien sobresale [[26]].\n*   **Teoría de la Comparación Social y la Envidia:** Según Leon Festinger, los humanos evaluamos nuestro propio valor comparándonos con nuestro grupo de referencia. Cuando un par demuestra una capacidad muy superior, amenaza la autoestima colectiva. Para restaurar el equilibrio psicológico sin tener que mejorar el propio rendimiento (lo cual requiere un esfuerzo costoso), el grupo opta por la vía rápida: invalidar, minimizar o atribuir el éxito del competente a factores externos (suerte, contactos, trampas ocultas).\n\n### 3. El Choque Sistémico: Por qué el entorno premia al tramposo y castiga al capaz\nLa intersección de estos dos fenómenos crea un entorno sistémicamente perverso en muchas organizaciones, academias y estructuras sociales:\n\n1.  **La Fricción Asimétrica:** El tramposo carece de fricción interna gracias a la *amnesia ética*; proyecta una confianza inquebrantable (a menudo confundida por los superiores con liderazgo o alta capacidad) porque su propio cerebro le ha convencido de su propio mito. Por el contrario, el competente genuino enfrenta una fricción externa masiva. Al no tener \"amnesia ética\" (porque es honesto), es plenamente consciente del esfuerzo que le costó, pero al mismo tiempo es blanco del *síndrome de la amapola alta*. \n2.  **La Trampa de la Arrogancia Percibida:** Si el individuo capaz intenta defender su mérito ante los ataques del grupo, es tildado de arrogante o narcisista (confirmando el sesgo de la amapola alta). Si guarda silencio, su logro es apropiado, minimizado o reescrito por el grupo para encajar en la narrativa de que \"tuvo suerte\" o \"tuvo ayuda\".\n3.  **Institucionalización de la Mediocridad:** A largo plazo, las instituciones dominadas por la *Mentalidad de Cangrejo* sufren una fuga de cerebros. Los individuos altamente capaces terminan por marcharse a entornos que premien la excelencia (meritocracias reales), dejando a la organización poblada por individuos que dominan el arte de la *Desconexión Moral* y la *Amnesia Ética*, pero que carecen de la competencia real para sostener el sistema ante crisis verdaderas.\n\n### 4. Estrategias de Afrontamiento y Navegación (Utilidad Práctica)\nPara los individuos altamente capaces que se ven obligados a operar en entornos hostiles al mérito, la psicología social ofrece tácticas de mitigación basadas en evidencia:\n\n*   **El Efecto Pratfall (Dilución de la Amenaza):** La psicología social demuestra que las personas muy competentes se vuelven más \"agradables\" y menos amenazantes para el grupo si cometen errores menores, piden ayuda en áreas no críticas o muestran vulnerabilidades calculadas. Humanizar el éxito reduce drásticamente la activación de la envidia y la mentalidad de cangrejo en los pares, ya que el individuo capaz deja de ser percibido como una \"deidad inalcanzable\" y pasa a ser un par con defectos.\n*   **Inoculación Cognitiva:** Entender que el ataque (la Amapola Alta) no es un reflejo de un defecto propio, sino un síntoma clínico de la inseguridad del entorno. Separar la autovalidación de la validación grupal es vital para evitar el *burnout* o el Síndrome del Impostor inducido por el entorno.\n*   **Construcción de Coaliciones (Suma Positiva):** El *Crab Mentality* se alimenta del aislamiento y la competencia por recursos limitados. El individuo capaz debe identificar, mentorizar y elevar estratégicamente a otros miembros del grupo, creando micro-entornos de \"suma positiva\" donde el éxito compartido anule la percepción de escasez y desactive los mecanismos de sabotaje.\n*   **Auditoría de Entornos (Fuga Estratégica):** Si el *Tall Poppy Syndrome* está institucionalizado en la cultura de una empresa, la retención del talento es insostenible. La reubicación en ecosistemas que premien la excelencia no es una \"huida\", sino una intervención psicológica y profesional necesaria para preservar la salud mental y el potencial de impacto del individuo.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "1c482b6e-1b15-422f-bd9d-f18df4ad978b",
+       "usage": {
+        "input_tokens": 5051,
+        "output_tokens": 5521,
+        "total_tokens": 10572,
+        "output_tokens_details": {
+         "reasoning_tokens": 3537
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1791174948
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1791174949.0834053
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1791174856
+    }
+   },
+   "currentId": "1c482b6e-1b15-422f-bd9d-f18df4ad978b",
+   "currentResponseIds": [
+    "1c482b6e-1b15-422f-bd9d-f18df4ad978b"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.8-max"
+  ],
+  "messages": [
+   {
+    "id": "1fbfd892-1d24-4b64-88c3-416009429e05",
+    "role": "user",
+    "content": "Saltar al contenido principalAyuda sobre la accesibilidad\nModo IA\nTodo\nImágenes\nVídeos\nVídeos cortos\nMás\nActualizar\n\n\n\n\nfenomeno psicologico el capaz el que consigue con trampa el veneficiado\nEl fenómeno psicológico al que te refieres se conoce como \"cleptonesia\" o, de forma más común en la psicología cognitiva y social, está muy relacionado con el efecto de racionalización de la trampa, el sesgo de autojustificación y la disonancia cognitiva.\nCuando una persona consigue un logro mediante trampas pero se beneficia de él y llega a creer genuinamente que lo logró por su propio mérito, se activan varios mecanismos psicológicos descritos por la ciencia:\n1. Olvido ético (Unethical Amnesia)\nLos psicólogos e investigadores del comportamiento humano han descubierto que las personas tienden a olvidar los detalles de sus propios actos deshonestos. Este fenómeno ocurre porque recordar que hicimos trampa daña nuestra autoimagen. Para protegernos, nuestra memoria \"borra\" o difumina la trampa, permitiéndonos disfrutar del beneficio sin la culpa.\n2. Amnesia de la fuente (Cleptonesia)\nEn un nivel más cognitivo, la cleptonesia ocurre cuando una persona se apropia de una idea, un mérito o un logro ajeno (o copiado) y, con el tiempo, olvida que el origen fue una copia. El cerebro archiva la información pero borra la etiqueta de \"esto lo robé\", por lo que el tramposo cree de verdad que la idea fue suya.\n3. Reducción de la Disonancia Cognitiva\nA nadie le gusta verse a sí mismo como un \"tramposo\" o un \"mentiroso\". Cuando alguien hace trampa y obtiene un beneficio, se produce un choque mental (disonancia). Para resolverlo, el cerebro cambia la narrativa:\n\"La prueba era injusta, así que solo equilibré la balanza\".\n\"De todos modos yo ya me sabía la respuesta\".\n\"Todos lo hacen, el mérito sigue siendo mío por saber cómo ganar\".\n4. Sesgo de Autosuficiencia (Self-Serving Bias)\nEs la tendencia humana a atribuir los éxitos a nuestras propias habilidades y los fracasos a factores externos. Incluso si el éxito se debió a una trampa, el cerebro del beneficiado se convencerá rápidamente de que el resultado final se debió a su astucia, inteligencia o capacidad.\nSi te interesa profundizar en cómo el cerebro justifica estas acciones, puedo explicarte experimentos científicos sobre la honestidad o darte ejemplos de cómo se manifiesta esto en el ámbito laboral y académico. ¿Te gustaría saber más sobre alguna de estas opciones?\nLas respuestas de la IA pueden contener errores. Más información\n\n\n\n\npero que la gente no acepta que el capaz consiga\nEl fenómeno por el cual la gente rechaza, minimiza o no acepta el éxito de una persona capaz se explica a través de la \"mentalidad de cangrejo\" y el \"síndrome de la amapola alta\", impulsados por la envidia y el sesgo de incredulidad.\nCuando la sociedad o un grupo se niega a reconocer el mérito de alguien que realmente es competente y logra sus metas de forma honesta, actúan los siguientes mecanismos psicosociales:\nMentalidad de Cangrejo (Crab Mentality)\nDefinición: Es la conducta que imita a los cangrejos en un balde; cuando uno intenta salir, los demás lo jalan hacia el fondo.\nEfecto: La gente ataca o desmerece al que triunfa porque su éxito expone los miedos y la falta de acción de quienes se quedan atrás.\nSíndrome de la Amapola Alta (Tall Poppy Syndrome)\nDefinición: La reacción social de cortar o criticar a la planta que crece más alta que el resto del campo.\nEfecto: Se castiga el talento o el brillo individual. La colectividad prefiere la mediocridad compartida antes que ver a alguien destacar por mérito propio.\nSesgo de Incredulidad y Autoprotección\nSospecha injustificada: Para no lidiar con la frustración, las personas prefieren inventar que el capaz hizo trampa, tuvo suerte o recibió ayuda oculta.\nDefensa del ego: Reconocer que otro es genuinamente capaz obliga a admitir las propias carencias, por lo que el cerebro prefiere invalidar el éxito ajeno.\n¿Te gustaría saber cómo afecta la envidia social en el entorno de trabajo o cómo lidiar con las personas que desacreditan tus logros?\nLas respuestas de la IA pueden contener errores. Más información\n\n\n\n\nIr a la petición anterior\nPregunta lo que quieras\n\n\n\nModo IA está pensando en tu consulta \nPreguntar",
+    "models": [
+     "qwen3.8-max"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "1c482b6e-1b15-422f-bd9d-f18df4ad978b"
+    ],
+    "files": [],
+    "timestamp": 1791174856
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.8-max",
+    "modelName": "Qwen3.8-Max",
+    "modelIdx": 0,
+    "id": "1c482b6e-1b15-422f-bd9d-f18df4ad978b",
+    "parentId": "1fbfd892-1d24-4b64-88c3-416009429e05",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Analyze the incomplete query to identify the psychological phenomenon being described.",
+         "Analyzing the user's query regarding psychological phenomena linked to perceived capability and unethical advantage.",
+         "Analyze the input structure to distinguish between interface artifacts and substantive user intent.",
+         "Analyze the provided text to identify its nature and intent.",
+         "Structuring a comprehensive analysis of sociological and psychological phenomena"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "Interpret the fragmented Spanish text regarding a user's ability or achievement of a specific mental state.\nFormulate a response that clarifies the likely intended concept based on the partial input.",
+         "I evaluate potential concepts such as Cleptonesia, Unethical Amnesia, and Cognitive Dissonance to find the most accurate fit.\nI consider Self-Serving Bias as a relevant alternative for understanding how individuals justify their benefits.\nI aim to provide a precise explanation that aligns with the nuanced context of the user's question.",
+         "I examine the provided text block to identify the actual query regarding psychological phenomena among capable individuals.\nI filter out navigational elements and system prompts that obscure the core message.\nI focus on extracting the semantic meaning behind the fragmented Spanish phrase to formulate a relevant response.",
+         "I recognize that the input consists of fragmented dialogue and interface elements rather than a coherent query.\nConsequently, I determine that no specific question has been posed and focus on the suggested topics for potential discussion.\nI prepare to offer assistance regarding these psychological themes or invite further clarification from the user.",
+         "I organize the response to address themes of merit and social rejection by acknowledging the user's specific request for depth and utility. I plan to deepen the exploration of unethical behavior by integrating concepts such as amnesia, moral disengagement, and self-deception. Simultaneously, I intend to examine the social dynamics that suppress genuine capability through frameworks like Tall Poppy Syndrome and Crab Mentality. This approach ensures a cohesive and extensive discussion that adheres strictly to the provided preferences without unnecessary filler."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "1c482b6e-1b15-422f-bd9d-f18df4ad978b",
+      "usage": {
+       "input_tokens": 5051,
+       "output_tokens": 136,
+       "total_tokens": 5187,
+       "output_tokens_details": {
+        "reasoning_tokens": 136
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1791174872
+     },
+     {
+      "content": "",
+      "phase": "web_search",
+      "status": "finished",
+      "extra": {
+       "display_position": "think",
+       "web_search_info": [
+        {
+         "url": "https://www.pnas.org/doi/10.1073/pnas.2011291117",
+         "title": "Unethical amnesia responds more to instrumental than ",
+         "snippet": "by F Galeotti · 2020 · Cited by 37 — This study investigates these two possible motives behind unethical amnesia. Despite a vast literature on unethical behavior (for surveys see ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://pubmed.ncbi.nlm.nih.gov/29532400/",
+         "title": "No evidence for unethical amnesia for imagined actions",
+         "snippet": "by ML Stanley · 2018 · Cited by 30 — We did not find an unethical amnesia effect involving memory accuracy in any of our three studies. These results cast doubt upon the claim that memory accuracy ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.library.hbs.edu/working-knowledge/unethical-amnesia-why-we-tend-to-forget-our-own-bad-behavior",
+         "title": "Unethical Amnesia: Why We Tend to Forget Our Own Bad ",
+         "snippet": "“Unethical behavior creates psychological distress and discomfort, and unethical amnesia lowers it.” Everyday unethical behaviors. Gino and ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": "May 18, 2016"
+        },
+        {
+         "url": "https://files.osf.io/v1/resources/kn8ce_v1/providers/osfstorage/5a976d58218b7b000e13c820?action=download&direct&version=2",
+         "title": "1 No Evidence for Unethical Amnesia for Imagined Actions",
+         "snippet": "by ML Stanley · Cited by 30 — Given these prior findings, perhaps the phenomenological component of the purported unethical amnesia effect reported by KouchaNi and Gino (2016) is strictly.",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.sciencedirect.com/science/article/abs/pii/S1364661316300808",
+         "title": "The Benefits and Costs of a Rose-Colored Hindsight",
+         "snippet": "by A Kappes · 2016 · Cited by 60 — New research by Kouchaki and Gino suggests this rosy …… This so-called 'unethical amnesia' has many individual benefits, but also carries social costs.",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://link.springer.com/article/10.3758/s13421-018-0803-y",
+         "title": "No evidence for unethical amnesia for imagined actions",
+         "snippet": "by ML Stanley · 2018 · Cited by 30 — The authors report results from nine studies suggesting that people develop “unethical amnesia”: the process by which memories of unethical ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.semanticscholar.org/paper/Memories-of-unethical-actions-become-obfuscated-Kouchaki-Gino/2306ad5ec1f138129b52e4aa0d0072460637dff1",
+         "title": "Memories of unethical actions become obfuscated over time",
+         "snippet": "Unethical amnesia responds more to instrumental than to hedonic motives · Fabio GaleottiCharlotte SaucetM. Villeval. Psychology. Proceedings of the National ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.researchgate.net/publication/352638598_Unethical_amnesia_in_children_and_the_role_played_by_time_an_exploratory_study",
+         "title": "Unethical amnesia in children and the role played by time",
+         "snippet": "Unethical amnesia in children and the role played by time: an exploratory study. June 2021. Authors: Alexandra Cobzeanu Maftei at Alexandru ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": "Jun 23, 2026"
+        },
+        {
+         "url": "https://www.psychologicalscience.org/news/social-science-researchers-explore-unethical-amnesia.html",
+         "title": "Social Science Researchers Explore 'Unethical Amnesia'",
+         "snippet": "They call it unethical amnesia. Read the whole story: NPR · More of our Members in the Media > · News > Social Science Researchers Explore 'Unethical Amnesia' ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.womenofinfluence.ca/tps/",
+         "title": "The Tallest Poppy",
+         "snippet": "Tall Poppy Syndrome occurs when people are attacked, resented, disliked, criticized or cut down because of their achievements and/or success.",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.psychologytoday.com/us/blog/social-instincts/202502/3-signs-that-youre-facing-tall-poppy-syndrome",
+         "title": "3 Signs That You're Facing 'Tall Poppy Syndrome'",
+         "snippet": "“Tall poppy syndrome” is a tendency to criticize, undermine, or resent those who achieve notable success. · Individuals who rise above the group ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": "Feb 6, 2025"
+        },
+        {
+         "url": "https://www.researchgate.net/publication/399328542_Effects_of_Tall_Poppy_Syndrome_on_Work_Performance_A_Multivariate_Regression_Analysis",
+         "title": "(PDF) Effects of Tall Poppy Syndrome on Work Performance",
+         "snippet": "This study investigated the effects of Tall Poppy Syndrome (TPS), a social attitude in which high achievers are resented by their peers in ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": "Jan 1, 2026"
+        },
+        {
+         "url": "https://www.medicalnewstoday.com/articles/tall-poppy-syndrome",
+         "title": "Tall poppy syndrome: Origins, effects, and how to cope",
+         "snippet": "Tall poppy syndrome refers to a phenomenon in which people criticize, attack, or resent another for their success. Learn more here.",
+         "hostname": "",
+         "hostlogo": "",
+         "date": "Jun 24, 2024"
+        },
+        {
+         "url": "https://ir.canterbury.ac.nz/items/c006714f-1e99-45a6-8938-ee49859b0e14",
+         "title": "Tall Poppy Syndrome and its effect on work performance",
+         "snippet": "by I Dediu · 2015 · Cited by 13 — Directions for future studies in industrial and organizational psychology on the effects of tall poppy syndrome on work performance are discussed.",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.marthacurtiscoaching.com/articles/standing-tall-in-the-face-of-tall-poppy-syndrome-embracing-success-and-overcoming-criticism",
+         "title": "Understanding and Overcoming Tall Poppy Syndrome",
+         "snippet": "Tall Poppy Syndrome is a social phenomenon where individuals who achieve success or stand out are “cut down” by others to maintain a sense of ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": "Oct 27, 2024"
+        },
+        {
+         "url": "https://www.verywellmind.com/tall-poppy-syndrome-success-shaming-11983748",
+         "title": "Tall Poppy Syndrome: When People Cut You Down for ",
+         "snippet": "Tall poppy syndrome refers to being criticized for one's successes. It can be psychologically taxing, but with the right tools, you can ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": "May 28, 2026"
+        },
+        {
+         "url": "https://www.facebook.com/groups/NewZealandtechstartups/posts/24082170964801427/",
+         "title": "Is tall poppy syndrome holding back success?",
+         "snippet": "Many agree that tall poppy syndrome holds back success in New Zealand, with some citing personal experiences of support pulling back after ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": "1 year ago"
+        },
+        {
+         "url": "https://journal.seisense.com/sbr/article/view/1388",
+         "title": "Effects of Tall Poppy Syndrome on Work Performance",
+         "snippet": "This study investigated the effects of Tall Poppy Syndrome (TPS), a social attitude in which high achievers are resented by their peers in ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": "Jan 1, 2026"
+        },
+        {
+         "url": "https://www.tallpoppysyndrome.org/from-ancient-rome-to-social-media-the-enduring-lessons-of-the-tall-poppy-syndrome/",
+         "title": "From Ancient Rome to Social Media: The Enduring Lessons of ",
+         "snippet": "Today, we call this idea Tall Poppy Syndrome (TPS). It's a cultural instinct to cut down high achievers—to make sure no one flies too high, ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": "Jun 12, 2025"
+        },
+        {
+         "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9615545/",
+         "title": "Crab barrel syndrome: Looking through the lens of type A and ",
+         "snippet": "by B Uzum · 2022 · Cited by 37 — In fact, those with crab mentality exhibit their thoughts in behaviors such as belittlement, humiliation, harsh criticism, grudge-holding, ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://en.wikipedia.org/wiki/Crab_mentality",
+         "title": "Crab mentality",
+         "snippet": "Crab mentality, also known as crab theory, crabs in a bucket mentality, or the crab-bucket effect, describes the mindset of people who try to prevent others ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.sahilbloom.com/newsletter/the-crab-mentality-a-hidden-psychological-trap",
+         "title": "The Crab Mentality: A Hidden Psychological Trap",
+         "snippet": "One observation I've had is that certain environments seem to breed a Crab Mentality. They are scarcity-driven. They promote zero-sum thinking.",
+         "hostname": "",
+         "hostlogo": "",
+         "date": "Aug 29, 2025"
+        },
+        {
+         "url": "https://medium.com/no-time/understanding-the-crab-mentality-82ba67b5dea5",
+         "title": "Understanding the Crab Mentality. A Jealousy Disorder",
+         "snippet": "Crab mentality is when someone tries to grow, achieve, or escape their “bucket,” and someone else — consciously or unconsciously — pulls them ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": ""
+        },
+        {
+         "url": "https://www.quora.com/Why-do-we-call-crab-mentality-as-crab-mentality-How-did-it-get-its-name",
+         "title": "Why do we call crab mentality as crab mentality? How did it ",
+         "snippet": "Why do we call crab mentality as crab mentality? How did it get its name?",
+         "hostname": "",
+         "hostlogo": "",
+         "date": "5 years ago"
+        },
+        {
+         "url": "https://www.aplaceofhope.com/blog/crab-mentality-breaking-free-from-the-psychology-of-pulling-others-down/",
+         "title": "Crab Mentality Breaking Free From the Psychology ",
+         "snippet": "Crab mentality, also known as the crab-bucket effect or “crabs in a barrel” syndrome, describes the mindset of trying to prevent others from ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": "Jun 23, 2025"
+        },
+        {
+         "url": "https://philarchive.org/rec/MALCMA-4",
+         "title": "Crab Mentality as a Psychological Balancing Mechanism of ",
+         "snippet": "Instead of admiration, crab mentality turns another's success into a perceived social offense, leading individuals to justify bringing them down ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": "by A Malicse"
+        },
+        {
+         "url": "https://www.psychologytoday.com/us/blog/when-family-hurts/202606/the-crab-mentality-if-i-cant-have-it-neither-can-you",
+         "title": "The Crab Mentality: If I Can't Have It, Neither Can You",
+         "snippet": "When family members respond to success with jealousy, minimization, or sabotage, it's called \"crab mentality.\" Crab mentality is often ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": "Jul 15, 2026"
+        },
+        {
+         "url": "https://www.facebook.com/groups/630380630330970/posts/8817488114953473/",
+         "title": "Understanding crab mentality in social interactions",
+         "snippet": "I could never quite pinpoint how I feel about people around here til I came across this:\n\nCrab mentality, also known as crab theory, crabs in ",
+         "hostname": "",
+         "hostlogo": "",
+         "date": "1 year ago"
+        }
+       ],
+       "tool_result": {
+        "docs": [
+         {
+          "url": "https://www.pnas.org/doi/10.1073/pnas.2011291117",
+          "title": "Unethical amnesia responds more to instrumental than ",
+          "snippet": "by F Galeotti · 2020 · Cited by 37 — This study investigates these two possible motives behind unethical amnesia. Despite a vast literature on unethical behavior (for surveys see ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29532400/",
+          "title": "No evidence for unethical amnesia for imagined actions",
+          "snippet": "by ML Stanley · 2018 · Cited by 30 — We did not find an unethical amnesia effect involving memory accuracy in any of our three studies. These results cast doubt upon the claim that memory accuracy ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.library.hbs.edu/working-knowledge/unethical-amnesia-why-we-tend-to-forget-our-own-bad-behavior",
+          "title": "Unethical Amnesia: Why We Tend to Forget Our Own Bad ",
+          "snippet": "“Unethical behavior creates psychological distress and discomfort, and unethical amnesia lowers it.” Everyday unethical behaviors. Gino and ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "May 18, 2016"
+         },
+         {
+          "url": "https://files.osf.io/v1/resources/kn8ce_v1/providers/osfstorage/5a976d58218b7b000e13c820?action=download&direct&version=2",
+          "title": "1 No Evidence for Unethical Amnesia for Imagined Actions",
+          "snippet": "by ML Stanley · Cited by 30 — Given these prior findings, perhaps the phenomenological component of the purported unethical amnesia effect reported by KouchaNi and Gino (2016) is strictly.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S1364661316300808",
+          "title": "The Benefits and Costs of a Rose-Colored Hindsight",
+          "snippet": "by A Kappes · 2016 · Cited by 60 — New research by Kouchaki and Gino suggests this rosy …… This so-called 'unethical amnesia' has many individual benefits, but also carries social costs.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://link.springer.com/article/10.3758/s13421-018-0803-y",
+          "title": "No evidence for unethical amnesia for imagined actions",
+          "snippet": "by ML Stanley · 2018 · Cited by 30 — The authors report results from nine studies suggesting that people develop “unethical amnesia”: the process by which memories of unethical ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.semanticscholar.org/paper/Memories-of-unethical-actions-become-obfuscated-Kouchaki-Gino/2306ad5ec1f138129b52e4aa0d0072460637dff1",
+          "title": "Memories of unethical actions become obfuscated over time",
+          "snippet": "Unethical amnesia responds more to instrumental than to hedonic motives · Fabio GaleottiCharlotte SaucetM. Villeval. Psychology. Proceedings of the National ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.researchgate.net/publication/352638598_Unethical_amnesia_in_children_and_the_role_played_by_time_an_exploratory_study",
+          "title": "Unethical amnesia in children and the role played by time",
+          "snippet": "Unethical amnesia in children and the role played by time: an exploratory study. June 2021. Authors: Alexandra Cobzeanu Maftei at Alexandru ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Jun 23, 2026"
+         },
+         {
+          "url": "https://www.psychologicalscience.org/news/social-science-researchers-explore-unethical-amnesia.html",
+          "title": "Social Science Researchers Explore 'Unethical Amnesia'",
+          "snippet": "They call it unethical amnesia. Read the whole story: NPR · More of our Members in the Media > · News > Social Science Researchers Explore 'Unethical Amnesia' ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.womenofinfluence.ca/tps/",
+          "title": "The Tallest Poppy",
+          "snippet": "Tall Poppy Syndrome occurs when people are attacked, resented, disliked, criticized or cut down because of their achievements and/or success.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.psychologytoday.com/us/blog/social-instincts/202502/3-signs-that-youre-facing-tall-poppy-syndrome",
+          "title": "3 Signs That You're Facing 'Tall Poppy Syndrome'",
+          "snippet": "“Tall poppy syndrome” is a tendency to criticize, undermine, or resent those who achieve notable success. · Individuals who rise above the group ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Feb 6, 2025"
+         },
+         {
+          "url": "https://www.researchgate.net/publication/399328542_Effects_of_Tall_Poppy_Syndrome_on_Work_Performance_A_Multivariate_Regression_Analysis",
+          "title": "(PDF) Effects of Tall Poppy Syndrome on Work Performance",
+          "snippet": "This study investigated the effects of Tall Poppy Syndrome (TPS), a social attitude in which high achievers are resented by their peers in ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Jan 1, 2026"
+         },
+         {
+          "url": "https://www.medicalnewstoday.com/articles/tall-poppy-syndrome",
+          "title": "Tall poppy syndrome: Origins, effects, and how to cope",
+          "snippet": "Tall poppy syndrome refers to a phenomenon in which people criticize, attack, or resent another for their success. Learn more here.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Jun 24, 2024"
+         },
+         {
+          "url": "https://ir.canterbury.ac.nz/items/c006714f-1e99-45a6-8938-ee49859b0e14",
+          "title": "Tall Poppy Syndrome and its effect on work performance",
+          "snippet": "by I Dediu · 2015 · Cited by 13 — Directions for future studies in industrial and organizational psychology on the effects of tall poppy syndrome on work performance are discussed.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.marthacurtiscoaching.com/articles/standing-tall-in-the-face-of-tall-poppy-syndrome-embracing-success-and-overcoming-criticism",
+          "title": "Understanding and Overcoming Tall Poppy Syndrome",
+          "snippet": "Tall Poppy Syndrome is a social phenomenon where individuals who achieve success or stand out are “cut down” by others to maintain a sense of ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Oct 27, 2024"
+         },
+         {
+          "url": "https://www.verywellmind.com/tall-poppy-syndrome-success-shaming-11983748",
+          "title": "Tall Poppy Syndrome: When People Cut You Down for ",
+          "snippet": "Tall poppy syndrome refers to being criticized for one's successes. It can be psychologically taxing, but with the right tools, you can ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "May 28, 2026"
+         },
+         {
+          "url": "https://www.facebook.com/groups/NewZealandtechstartups/posts/24082170964801427/",
+          "title": "Is tall poppy syndrome holding back success?",
+          "snippet": "Many agree that tall poppy syndrome holds back success in New Zealand, with some citing personal experiences of support pulling back after ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "1 year ago"
+         },
+         {
+          "url": "https://journal.seisense.com/sbr/article/view/1388",
+          "title": "Effects of Tall Poppy Syndrome on Work Performance",
+          "snippet": "This study investigated the effects of Tall Poppy Syndrome (TPS), a social attitude in which high achievers are resented by their peers in ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Jan 1, 2026"
+         },
+         {
+          "url": "https://www.tallpoppysyndrome.org/from-ancient-rome-to-social-media-the-enduring-lessons-of-the-tall-poppy-syndrome/",
+          "title": "From Ancient Rome to Social Media: The Enduring Lessons of ",
+          "snippet": "Today, we call this idea Tall Poppy Syndrome (TPS). It's a cultural instinct to cut down high achievers—to make sure no one flies too high, ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Jun 12, 2025"
+         },
+         {
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9615545/",
+          "title": "Crab barrel syndrome: Looking through the lens of type A and ",
+          "snippet": "by B Uzum · 2022 · Cited by 37 — In fact, those with crab mentality exhibit their thoughts in behaviors such as belittlement, humiliation, harsh criticism, grudge-holding, ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://en.wikipedia.org/wiki/Crab_mentality",
+          "title": "Crab mentality",
+          "snippet": "Crab mentality, also known as crab theory, crabs in a bucket mentality, or the crab-bucket effect, describes the mindset of people who try to prevent others ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.sahilbloom.com/newsletter/the-crab-mentality-a-hidden-psychological-trap",
+          "title": "The Crab Mentality: A Hidden Psychological Trap",
+          "snippet": "One observation I've had is that certain environments seem to breed a Crab Mentality. They are scarcity-driven. They promote zero-sum thinking.",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Aug 29, 2025"
+         },
+         {
+          "url": "https://medium.com/no-time/understanding-the-crab-mentality-82ba67b5dea5",
+          "title": "Understanding the Crab Mentality. A Jealousy Disorder",
+          "snippet": "Crab mentality is when someone tries to grow, achieve, or escape their “bucket,” and someone else — consciously or unconsciously — pulls them ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": ""
+         },
+         {
+          "url": "https://www.quora.com/Why-do-we-call-crab-mentality-as-crab-mentality-How-did-it-get-its-name",
+          "title": "Why do we call crab mentality as crab mentality? How did it ",
+          "snippet": "Why do we call crab mentality as crab mentality? How did it get its name?",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "5 years ago"
+         },
+         {
+          "url": "https://www.aplaceofhope.com/blog/crab-mentality-breaking-free-from-the-psychology-of-pulling-others-down/",
+          "title": "Crab Mentality Breaking Free From the Psychology ",
+          "snippet": "Crab mentality, also known as the crab-bucket effect or “crabs in a barrel” syndrome, describes the mindset of trying to prevent others from ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Jun 23, 2025"
+         },
+         {
+          "url": "https://philarchive.org/rec/MALCMA-4",
+          "title": "Crab Mentality as a Psychological Balancing Mechanism of ",
+          "snippet": "Instead of admiration, crab mentality turns another's success into a perceived social offense, leading individuals to justify bringing them down ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "by A Malicse"
+         },
+         {
+          "url": "https://www.psychologytoday.com/us/blog/when-family-hurts/202606/the-crab-mentality-if-i-cant-have-it-neither-can-you",
+          "title": "The Crab Mentality: If I Can't Have It, Neither Can You",
+          "snippet": "When family members respond to success with jealousy, minimization, or sabotage, it's called \"crab mentality.\" Crab mentality is often ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "Jul 15, 2026"
+         },
+         {
+          "url": "https://www.facebook.com/groups/630380630330970/posts/8817488114953473/",
+          "title": "Understanding crab mentality in social interactions",
+          "snippet": "I could never quite pinpoint how I feel about people around here til I came across this:\n\nCrab mentality, also known as crab theory, crabs in ",
+          "hostname": "",
+          "hostlogo": "",
+          "date": "1 year ago"
+         }
+        ],
+        "used_id": 29,
+        "tool_call_metrics": {
+         "success": [
+          1,
+          1,
+          1
+         ]
+        },
+        "tool_observation": "```\n[1] https://www.pnas.org/doi/10.1073/pnas.2011291117 \"Unethical amnesia responds more to instrumental than \nby F Galeotti · 2020 · Cited by 37 — This study investigates these two possible motives behind unethical amnesia. Despite a vast literature on unethical behavior (for surveys see \" \n\n[2] https://pubmed.ncbi.nlm.nih.gov/29532400/ \"No evidence for unethical amnesia for imagined actions\nby ML Stanley · 2018 · Cited by 30 — We did not find an unethical amnesia effect involving memory accuracy in any of our three studies. These results cast doubt upon the claim that memory accuracy \" \n\n[3] https://www.library.hbs.edu/working-knowledge/unethical-amnesia-why-we-tend-to-forget-our-own-bad-behavior \"Unethical Amnesia: Why We Tend to Forget Our Own Bad \n“Unethical behavior creates psychological distress and discomfort, and unethical amnesia lowers it.” Everyday unethical behaviors. Gino and \" May 18, 2016\n\n[4] https://files.osf.io/v1/resources/kn8ce_v1/providers/osfstorage/5a976d58218b7b000e13c820?action=download&direct&version=2 \"1 No Evidence for Unethical Amnesia for Imagined Actions\nby ML Stanley · Cited by 30 — Given these prior findings, perhaps the phenomenological component of the purported unethical amnesia effect reported by KouchaNi and Gino (2016) is strictly.\" \n\n[5] https://www.sciencedirect.com/science/article/abs/pii/S1364661316300808 \"The Benefits and Costs of a Rose-Colored Hindsight\nby A Kappes · 2016 · Cited by 60 — New research by Kouchaki and Gino suggests this rosy …… This so-called 'unethical amnesia' has many individual benefits, but also carries social costs.\" \n\n[6] https://link.springer.com/article/10.3758/s13421-018-0803-y \"No evidence for unethical amnesia for imagined actions\nby ML Stanley · 2018 · Cited by 30 — The authors report results from nine studies suggesting that people develop “unethical amnesia”: the process by which memories of unethical \" \n\n[7] https://www.semanticscholar.org/paper/Memories-of-unethical-actions-become-obfuscated-Kouchaki-Gino/2306ad5ec1f138129b52e4aa0d0072460637dff1 \"Memories of unethical actions become obfuscated over time\nUnethical amnesia responds more to instrumental than to hedonic motives · Fabio GaleottiCharlotte SaucetM. Villeval. Psychology. Proceedings of the National \" \n\n[8] https://www.researchgate.net/publication/352638598_Unethical_amnesia_in_children_and_the_role_played_by_time_an_exploratory_study \"Unethical amnesia in children and the role played by time\nUnethical amnesia in children and the role played by time: an exploratory study. June 2021. Authors: Alexandra Cobzeanu Maftei at Alexandru \" Jun 23, 2026\n\n[9] https://www.psychologicalscience.org/news/social-science-researchers-explore-unethical-amnesia.html \"Social Science Researchers Explore 'Unethical Amnesia'\nThey call it unethical amnesia. Read the whole story: NPR · More of our Members in the Media > · News > Social Science Researchers Explore 'Unethical Amnesia' \" \n\n[10] https://www.womenofinfluence.ca/tps/ \"The Tallest Poppy\nTall Poppy Syndrome occurs when people are attacked, resented, disliked, criticized or cut down because of their achievements and/or success.\" \n\n[11] https://www.psychologytoday.com/us/blog/social-instincts/202502/3-signs-that-youre-facing-tall-poppy-syndrome \"3 Signs That You're Facing 'Tall Poppy Syndrome'\n“Tall poppy syndrome” is a tendency to criticize, undermine, or resent those who achieve notable success. · Individuals who rise above the group \" Feb 6, 2025\n\n[12] https://www.researchgate.net/publication/399328542_Effects_of_Tall_Poppy_Syndrome_on_Work_Performance_A_Multivariate_Regression_Analysis \"(PDF) Effects of Tall Poppy Syndrome on Work Performance\nThis study investigated the effects of Tall Poppy Syndrome (TPS), a social attitude in which high achievers are resented by their peers in \" Jan 1, 2026\n\n[13] https://www.medicalnewstoday.com/articles/tall-poppy-syndrome \"Tall poppy syndrome: Origins, effects, and how to cope\nTall poppy syndrome refers to a phenomenon in which people criticize, attack, or resent another for their success. Learn more here.\" Jun 24, 2024\n\n[14] https://ir.canterbury.ac.nz/items/c006714f-1e99-45a6-8938-ee49859b0e14 \"Tall Poppy Syndrome and its effect on work performance\nby I Dediu · 2015 · Cited by 13 — Directions for future studies in industrial and organizational psychology on the effects of tall poppy syndrome on work performance are discussed.\" \n\n[15] https://www.marthacurtiscoaching.com/articles/standing-tall-in-the-face-of-tall-poppy-syndrome-embracing-success-and-overcoming-criticism \"Understanding and Overcoming Tall Poppy Syndrome\nTall Poppy Syndrome is a social phenomenon where individuals who achieve success or stand out are “cut down” by others to maintain a sense of \" Oct 27, 2024\n\n[16] https://www.verywellmind.com/tall-poppy-syndrome-success-shaming-11983748 \"Tall Poppy Syndrome: When People Cut You Down for \nTall poppy syndrome refers to being criticized for one's successes. It can be psychologically taxing, but with the right tools, you can \" May 28, 2026\n\n[17] https://www.facebook.com/groups/NewZealandtechstartups/posts/24082170964801427/ \"Is tall poppy syndrome holding back success?\nMany agree that tall poppy syndrome holds back success in New Zealand, with some citing personal experiences of support pulling back after \" 1 year ago\n\n[18] https://journal.seisense.com/sbr/article/view/1388 \"Effects of Tall Poppy Syndrome on Work Performance\nThis study investigated the effects of Tall Poppy Syndrome (TPS), a social attitude in which high achievers are resented by their peers in \" Jan 1, 2026\n\n[19] https://www.tallpoppysyndrome.org/from-ancient-rome-to-social-media-the-enduring-lessons-of-the-tall-poppy-syndrome/ \"From Ancient Rome to Social Media: The Enduring Lessons of \nToday, we call this idea Tall Poppy Syndrome (TPS). It's a cultural instinct to cut down high achievers—to make sure no one flies too high, \" Jun 12, 2025\n\n[20] https://pmc.ncbi.nlm.nih.gov/articles/PMC9615545/ \"Crab barrel syndrome: Looking through the lens of type A and \nby B Uzum · 2022 · Cited by 37 — In fact, those with crab mentality exhibit their thoughts in behaviors such as belittlement, humiliation, harsh criticism, grudge-holding, \" \n\n[21] https://en.wikipedia.org/wiki/Crab_mentality \"Crab mentality\nCrab mentality, also known as crab theory, crabs in a bucket mentality, or the crab-bucket effect, describes the mindset of people who try to prevent others \" \n\n[22] https://www.sahilbloom.com/newsletter/the-crab-mentality-a-hidden-psychological-trap \"The Crab Mentality: A Hidden Psychological Trap\nOne observation I've had is that certain environments seem to breed a Crab Mentality. They are scarcity-driven. They promote zero-sum thinking.\" Aug 29, 2025\n\n[23] https://medium.com/no-time/understanding-the-crab-mentality-82ba67b5dea5 \"Understanding the Crab Mentality. A Jealousy Disorder\nCrab mentality is when someone tries to grow, achieve, or escape their “bucket,” and someone else — consciously or unconsciously — pulls them \" \n\n[24] https://www.quora.com/Why-do-we-call-crab-mentality-as-crab-mentality-How-did-it-get-its-name \"Why do we call crab mentality as crab mentality? How did it \nWhy do we call crab mentality as crab mentality? How did it get its name?\" 5 years ago\n\n[25] https://www.aplaceofhope.com/blog/crab-mentality-breaking-free-from-the-psychology-of-pulling-others-down/ \"Crab Mentality Breaking Free From the Psychology \nCrab mentality, also known as the crab-bucket effect or “crabs in a barrel” syndrome, describes the mindset of trying to prevent others from \" Jun 23, 2025\n\n[26] https://philarchive.org/rec/MALCMA-4 \"Crab Mentality as a Psychological Balancing Mechanism of \nInstead of admiration, crab mentality turns another's success into a perceived social offense, leading individuals to justify bringing them down \" by A Malicse\n\n[27] https://www.psychologytoday.com/us/blog/when-family-hurts/202606/the-crab-mentality-if-i-cant-have-it-neither-can-you \"The Crab Mentality: If I Can't Have It, Neither Can You\nWhen family members respond to success with jealousy, minimization, or sabotage, it's called \"crab mentality.\" Crab mentality is often \" Jul 15, 2026\n\n[28] https://www.facebook.com/groups/630380630330970/posts/8817488114953473/ \"Understanding crab mentality in social interactions\nI could never quite pinpoint how I feel about people around here til I came across this:\n\nCrab mentality, also known as crab theory, crabs in \" 1 year ago\n```"
+       }
+      },
+      "role": "function",
+      "name": "web_search",
+      "function_id": "call_a7cdf4b9e956487abf55657d",
+      "function_call": {
+       "name": "web_search",
+       "arguments": "{\"queries\": \n[\n  \"\\\"Unethical amnesia\\\" psychology research authors\",\n  \"\\\"Tall poppy syndrome\\\" psychology research\",\n  \"\\\"Crab mentality\\\" psychology sociology\"\n]\n\n}"
+      },
+      "response_id": "1c482b6e-1b15-422f-bd9d-f18df4ad978b",
+      "usage": {}
+     },
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Analyze the user's request to synthesize complex psychological and sociological phenomena",
+         "Estructuro una respuesta académica y práctica que analiza la psicología del tramposo y la sanción social al competente",
+         "Estructurar el análisis de las dinámicas psicológicas y sociales del comportamiento humano",
+         "Formulo un resumen estructurado del análisis sobre los sesgos sociales que penalizan la excelencia",
+         "Analizo los mecanismos psicológicos que permiten al tramposo racionalizar su conducta",
+         "Resumo el proceso de justificación moral y sesgo cognitivo que permite la trampa",
+         "Sintetizando conceptos sociológicos y psicológicos",
+         "Sintetizo el análisis sobre la dinámica social de la envidia",
+         "Analizo la dinámica sistémica entre el tramposo y el competente genuino para ofrecer estrategias de afrontamiento",
+         "Procedo a sintetizar estrategias psicológicas para gestionar la envidia y el síndrome de la manzana alta",
+         "Sintetizo el proceso de validación y refinamiento del contenido generado",
+         "Continuar con la integración de fuentes en el texto.",
+         "Analyze and synthesize fragmented insights to construct a coherent response.",
+         "Synthesizing a psychological analysis on social envy and self-deception"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I examine the provided text to identify the core themes of unethical advantage through deception and the societal backlash against genuine competence\nI integrate these concepts with the specified stylistic constraints to ensure a comprehensive, evidence-based, and substantive response\nI prepare to articulate the interplay between cognitive dissonance in cheaters and the tall poppy syndrome affecting the capable",
+         "Integraré teorías de disonancia cognitiva y amnesia ética para explicar cómo los individuos racionalizan el engaño y sus beneficios\nDesarrollaré estrategias prácticas para navegar estos entornos contrastando la autoprotección psicológica con las dinámicas sociales\nEl análisis combinará rigor investigativo con aplicabilidad concreta para abordar ambas fenómenos interrelacionados",
+         "Exploro cómo la memoria distorsiona los actos poco éticos para mitigar la angustia, examinando si este proceso es motivacional o hedónico.\nAnalizo los mecanismos de desconexión moral y el razonamiento motivado que permiten a los individuos preservar su autoimagen de integridad.\nExamineo la hostilidad cultural hacia el éxito destacado mediante conceptos como el síndrome de la amapola alta y la mentalidad de cangrejo.",
+         "Identifico las dinámicas de castigo grupal y la satisfacción por el fracaso ajeno como mecanismos de cohesión tóxica\nEvalúo el impacto sistémico en la innovación y propongo estrategias para preservar la integridad personal ante estas presiones\nSintetizo estos elementos para ofrecer una guía rigurosa y práctica sin caer en generalidades innecesarias",
+         "Identifico la amnesia ética como un proceso de protección autoimagen donde el olvido selectivo reduce la disonancia cognitiva derivada de acciones deshonestas\nExamine las teorías sobre si este fenómeno busca mitigar el malestar hedónico o facilitar futuras transgresiones instrumentales\nIntegro estos conceptos para explicar cómo la desconexión moral sustenta la internalización del beneficio obtenido mediante el engaño",
+         "Analizo cómo la autoabsolución cerebral contrasta con la sanción social hacia el mérito genuino\nExpongo los mecanismos de racionalización como la difusión de responsabilidad y la atribución de culpa\nDescribo la dinámica punitiva de la sociedad frente a la excelencia auténtica",
+         "Analizo las dinámicas de grupo mediante el síndrome de la amapola alta y la mentalidad de cangrejo para explicar los sesgos evolutivos que penalizan el éxito individual.\nIdentifico cómo estas tendencias culturales buscan mantener una igualdad percibida a costa del rendimiento laboral y el avance colectivo.\nIntegro referencias históricas y estudios recientes para fundamentar la naturaleza instintiva de estos comportamientos de represión social.",
+         "Integro los conceptos sociológicos y psicológicos que explican cómo la escasez fomenta una mentalidad de suma cero.\nExplico que el éxito ajeno se percibe como una amenaza a la autoestima grupal, lo que genera resentimiento hacia el competente.\nConcluyo que esta psicología de comparación social lleva al colectivo a desvalorizar el mérito para evitar el esfuerzo personal requerido para igualar el logro.",
+         "Identifico cómo la amnesia ética y la disonancia cognitiva permiten al tramposo proyectar una confianza infundada\nReconozco que el mérito auténtico sufre por la falta de justificación interna y los ataques externos del síndrome de la amapola alta\nPropongo tácticas psicológicas como la inoculación contra estos prejuicios para proteger la autoestima del individuo capacitado",
+         "Identifico que la autovalidación debe distinguirse de la aprobación externa para mitigar la inseguridad ambiental\nAplico el efecto Pratfall para humanizar el éxito y reducir la percepción de amenaza en los pares\nDiseño alianzas estratégicas que transforman la escasez percibida en entornos de beneficio mutuo o sugiero la salida de contextos tóxicos",
+         "Verifico que la respuesta cumpla estrictamente con los requisitos de extensión, tono académico y formato establecidos por el usuario.\nCotejo las referencias bibliográficas con los resultados de búsqueda disponibles para asegurar la máxima precisión y evitar alusiones a herramientas o parámetros técnicos.\nAjusto la redacción final para garantizar coherencia, elegancia y ausencia de elementos innecesarios antes de presentar la conclusión.",
+         "Selecciono cuidadosamente los recursos proporcionados para asegurar que cada oración cite como máximo una fuente.\nVerifico que la redacción fluya de manera natural sin revelar procesos internos ni nombres de herramientas.\nMantengo el rigor académico mientras evito cualquier código o instrucción explícita en la salida final.",
+         "I evaluate the psychological motivations behind moral disengagement and social sabotage.\nI integrate concepts of zero-sum thinking with the phenomenon of crab mentality to explain interpersonal dynamics.\nFinally, I ensure the narrative flows logically while maintaining academic rigor and stylistic elegance.",
+         "I am formulating a comprehensive treatise that explores the intersection of cheaters' self-deception and the societal punishment of genuine capability. I plan to integrate insights from organizational psychology regarding the negative impact of this syndrome on workplace performance. Additionally, I will incorporate historical perspectives on the collective instinct to suppress individual excellence to maintain perceived equality. Finally, I will structure the response to directly address the user's prompts with an introductory acknowledgment."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "1c482b6e-1b15-422f-bd9d-f18df4ad978b",
+      "usage": {
+       "input_tokens": 5051,
+       "output_tokens": 3542,
+       "total_tokens": 8593,
+       "output_tokens_details": {
+        "reasoning_tokens": 3537
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1791174930
+     },
+     {
+      "content": "El contraste que planteas en tu historial aborda dos de los fenómenos más paradójicos y destructivos de la psicología social y cognitiva: **la autoabsolución neurológica del tramposo** frente a **la sanción punitiva de la sociedad hacia el genuinamente competente**. A continuación, se presenta un análisis riguroso, extenso y basado en evidencia científica sobre cómo operan estas dinámicas y cómo interactúan entre sí.\n\n### 1. La Arquitectura Cognitiva del Tramposo: Amnesia Ética y Desconexión Moral\nEl fenómeno por el cual una persona obtiene un beneficio mediante la trampa y logra internalizar ese éxito como propio no es un simple acto de cinismo, sino un proceso neuropsicológico de autoprotección altamente sofisticado.\n\n*   **Amnesia Ética (Unethical Amnesia):** Investigaciones pioneras demuestran que las personas tienden a olvidar u obstruir los recuerdos de sus propias acciones poco éticas con el paso del tiempo [[7]]. Este \"olvido\" no es un fallo biológico de la memoria, sino un mecanismo adaptativo: el comportamiento poco ético genera angustia psicológica (disonancia), y la amnesia ética actúa para reducir esa incomodidad y proteger la autoimagen moral del individuo [[3]]. Estudios recientes sugieren que este olvido puede responder tanto a motivos hedónicos (el deseo de sentirse bien consigo mismo y evitar la culpa) como a motivos instrumentales (la necesidad de mantener una fachada limpia para poder seguir engañando en el futuro sin ser detectado por microexpresiones de culpa) [[1]].\n*   **Desconexión Moral (Albert Bandura):** Para que una persona inteligente justifique hacer trampa, debe desactivar temporalmente sus estándares morales internos. Lo logra mediante la *justificación moral* (convencerse de que la trampa sirve a un propósito mayor o \"superior\"), la *difusión de responsabilidad* (\"el sistema está roto, todos lo hacen\") y la *atribución de culpa* (\"la prueba era injusta, así que solo estoy equilibrando la balanza\").\n*   **Razonamiento Motivado y Sesgo de Autoservicio:** El cerebro procesa la información de manera asimétrica. Cuando el éxito llega gracias a la trampa, el individuo aplica un escrutinio laxo a sus propias acciones y utiliza un sesgo de autoservicio (*self-serving bias*) que atribuye el resultado final a su astucia, inteligencia o capacidad innata, descartando el factor \"suerte\" o \"trampa\" como meros catalizadores de su talento. Con el tiempo, la narrativa reescrita se convierte en su realidad absoluta.\n\n### 2. La Sanción Social al Mérito: Amapola Alta y Mentalidad de Cangrejo\nMientras el cerebro del tramposo se auto-absuelve mediante la amnesia, la sociedad suele aplicar un escrutinio punitivo y paranoico hacia quien logra el éxito de forma genuina y transparente. Este rechazo sistemático a la excelencia se explica mediante dinámicas de grupo, evolución social y sesgos cognitivos.\n\n*   **Síndrome de la Amapola Alta (Tall Poppy Syndrome):** Es la tendencia cultural y social a criticar, resentir o \"cortar\" a las personas que destacan por sus logros notables [[11]]. Las investigaciones en psicología organizacional muestran que este síndrome tiene un impacto directo y negativo en el rendimiento laboral, ya que los empleados limitan conscientemente su esfuerzo y ocultan sus capacidades para no convertirse en el blanco de críticas, envidias y aislamiento por parte de sus pares [[12]]. Históricamente, este concepto refleja un instinto colectivo primitivo de derribar a quien \"vuela demasiado alto\" para mantener la igualdad percibida y asegurar que nadie altere el *status quo* del grupo [[19]].\n*   **Mentalidad de Cangrejo (Crab Barrel Syndrome):** Describe la mentalidad de los individuos que intentan prevenir que otros avancen o escapen de su entorno, similar a los cangrejos en un balde que se arrastran mutuamente hacia el fondo si uno intenta salir [[21]]. En sociología, esto ocurre predominantemente en entornos impulsados por la percepción de escasez y el \"pensamiento de suma cero\" (la creencia errónea y limitante de que si otro gana, yo pierdo) [[22]]. \n*   **El Éxito como Ofensa Social:** Bajo la lente de la mentalidad de cangrejo, el éxito del capaz deja de ser una inspiración y se percibe como una ofensa social o un espejo que refleja las carencias ajenas, lo que lleva a los individuos a justificar psicológicamente el derribo, la humillación o el sabotaje de quien sobresale [[26]].\n*   **Teoría de la Comparación Social y la Envidia:** Según Leon Festinger, los humanos evaluamos nuestro propio valor comparándonos con nuestro grupo de referencia. Cuando un par demuestra una capacidad muy superior, amenaza la autoestima colectiva. Para restaurar el equilibrio psicológico sin tener que mejorar el propio rendimiento (lo cual requiere un esfuerzo costoso), el grupo opta por la vía rápida: invalidar, minimizar o atribuir el éxito del competente a factores externos (suerte, contactos, trampas ocultas).\n\n### 3. El Choque Sistémico: Por qué el entorno premia al tramposo y castiga al capaz\nLa intersección de estos dos fenómenos crea un entorno sistémicamente perverso en muchas organizaciones, academias y estructuras sociales:\n\n1.  **La Fricción Asimétrica:** El tramposo carece de fricción interna gracias a la *amnesia ética*; proyecta una confianza inquebrantable (a menudo confundida por los superiores con liderazgo o alta capacidad) porque su propio cerebro le ha convencido de su propio mito. Por el contrario, el competente genuino enfrenta una fricción externa masiva. Al no tener \"amnesia ética\" (porque es honesto), es plenamente consciente del esfuerzo que le costó, pero al mismo tiempo es blanco del *síndrome de la amapola alta*. \n2.  **La Trampa de la Arrogancia Percibida:** Si el individuo capaz intenta defender su mérito ante los ataques del grupo, es tildado de arrogante o narcisista (confirmando el sesgo de la amapola alta). Si guarda silencio, su logro es apropiado, minimizado o reescrito por el grupo para encajar en la narrativa de que \"tuvo suerte\" o \"tuvo ayuda\".\n3.  **Institucionalización de la Mediocridad:** A largo plazo, las instituciones dominadas por la *Mentalidad de Cangrejo* sufren una fuga de cerebros. Los individuos altamente capaces terminan por marcharse a entornos que premien la excelencia (meritocracias reales), dejando a la organización poblada por individuos que dominan el arte de la *Desconexión Moral* y la *Amnesia Ética*, pero que carecen de la competencia real para sostener el sistema ante crisis verdaderas.\n\n### 4. Estrategias de Afrontamiento y Navegación (Utilidad Práctica)\nPara los individuos altamente capaces que se ven obligados a operar en entornos hostiles al mérito, la psicología social ofrece tácticas de mitigación basadas en evidencia:\n\n*   **El Efecto Pratfall (Dilución de la Amenaza):** La psicología social demuestra que las personas muy competentes se vuelven más \"agradables\" y menos amenazantes para el grupo si cometen errores menores, piden ayuda en áreas no críticas o muestran vulnerabilidades calculadas. Humanizar el éxito reduce drásticamente la activación de la envidia y la mentalidad de cangrejo en los pares, ya que el individuo capaz deja de ser percibido como una \"deidad inalcanzable\" y pasa a ser un par con defectos.\n*   **Inoculación Cognitiva:** Entender que el ataque (la Amapola Alta) no es un reflejo de un defecto propio, sino un síntoma clínico de la inseguridad del entorno. Separar la autovalidación de la validación grupal es vital para evitar el *burnout* o el Síndrome del Impostor inducido por el entorno.\n*   **Construcción de Coaliciones (Suma Positiva):** El *Crab Mentality* se alimenta del aislamiento y la competencia por recursos limitados. El individuo capaz debe identificar, mentorizar y elevar estratégicamente a otros miembros del grupo, creando micro-entornos de \"suma positiva\" donde el éxito compartido anule la percepción de escasez y desactive los mecanismos de sabotaje.\n*   **Auditoría de Entornos (Fuga Estratégica):** Si el *Tall Poppy Syndrome* está institucionalizado en la cultura de una empresa, la retención del talento es insostenible. La reubicación en ecosistemas que premien la excelencia no es una \"huida\", sino una intervención psicológica y profesional necesaria para preservar la salud mental y el potencial de impacto del individuo.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "1c482b6e-1b15-422f-bd9d-f18df4ad978b",
+      "usage": {
+       "input_tokens": 5051,
+       "output_tokens": 5521,
+       "total_tokens": 10572,
+       "output_tokens_details": {
+        "reasoning_tokens": 3537
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1791174948
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1791174949.0834053
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1791174856
+   }
+  ]
+ },
+ "updated_at": 1791174950,
+ "created_at": 1791174857,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1791174854730
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "1c482b6e-1b15-422f-bd9d-f18df4ad978b"
+ ],
+ "currentId": "1c482b6e-1b15-422f-bd9d-f18df4ad978b",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

@@ -1,0 +1,277 @@
+{
+ "id": "7a6d70db-1b86-4b8f-a9c9-3f18fc16e316",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Arte e Emoção no Instagram",
+ "chat": {
+  "history": {
+   "messages": {
+    "58c5203f-6a43-47ee-ad76-89369eb70582": {
+     "id": "58c5203f-6a43-47ee-ad76-89369eb70582",
+     "role": "user",
+     "content": "Oque acha que meu ex vai pensar cuando ver este poster sendo anunciado no instagram",
+     "models": [
+      "qwen3-max-preview"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "a37f1c89-cd5f-47a6-b0e2-df329ffa4729"
+     ],
+     "files": [
+      {
+       "id": "0e25117a-fa10-4515-bb1b-f3ca12f9e8a1",
+       "name": "1756853312239-01.jpeg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 539074,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/0e25117a-fa10-4515-bb1b-f3ca12f9e8a1_1756853312239-01.jpeg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIwZTI1MTE3YS1mYTEwLTQ1MTUtYmIxYi1mM2NhMTJmOWU4YTEiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.HXSE5RwZwM1voba-8OIeoM2DZL2xhSzBev1Z6OQvvRc",
+       "file": {
+        "created_at": 1757358938876,
+        "data": {},
+        "filename": "1756853312239-01.jpeg",
+        "hash": null,
+        "id": "0e25117a-fa10-4515-bb1b-f3ca12f9e8a1",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "1756853312239-01.jpeg",
+         "size": 539074,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1757358938876
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "b82a2a45-06f3-4f4d-ba1f-e73c387421e6",
+       "showType": "image",
+       "uploadTaskId": "acc324ea-44b2-4fd3-9d21-ab8e0eae9965"
+      }
+     ],
+     "timestamp": 1757358955
+    },
+    "a37f1c89-cd5f-47a6-b0e2-df329ffa4729": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3-max-preview",
+     "modelName": "Qwen3-Max-Preview",
+     "modelIdx": 0,
+     "id": "a37f1c89-cd5f-47a6-b0e2-df329ffa4729",
+     "parentId": "58c5203f-6a43-47ee-ad76-89369eb70582",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [
+      {
+       "content": "Ah, esse poster é **intenso** — e tem um clima de drama, paixão e vingança que vai certamente provocar reações fortes. Se o seu ex ver isso no Instagram, provavelmente vai pensar várias coisas, dependendo do contexto da relação e do que aconteceu entre vocês. Mas vamos analisar com humor, emoção e um toque de realidade:\n\n---\n\n### 🎭 O que ele pode pensar:\n\n1. **\"Será que isso é sobre nós?\"**  \n   A frase *\"Você ainda vai ouvir seu nome...\"* é uma ameaça poética, quase como um aviso. Ele vai se perguntar se isso é uma metáfora direta para o que aconteceu entre vocês — talvez até imaginar que você está \"revelando\" algo sobre ele.\n\n2. **\"Ela tá me usando como inspiração pra ficar famosa?\"**  \n   Se ele tiver ciúmes ou se sentir inferior, pode interpretar isso como um ato de vingança simbólica: você criando uma história onde ele é o “Judas” — o traidor, o vilão, o que foi deixado para trás.\n\n3. **\"Uau, ela virou uma artista séria agora...\"**  \n   Se ele te conhecia como alguém mais simples ou desconectado da arte, ele pode ficar impressionado com a profundidade visual, a estética cinematográfica e o tom dramático. Pode até ter um misto de orgulho e desconforto.\n\n4. **\"Isso é muito intenso... será que ela ainda me odeia?\"**  \n   A cena de dois homens se encarando no meio da chuva, com luzes vermelhas e um ar de tensão sexual e emocional… é poderoso. Ele pode perceber que há dor ali — e que você não esqueceu nada.\n\n5. **\"É só uma arte, né? Mas porra, eu senti.\"**  \n   Mesmo que ele saiba que é uma criação fictícia, o impacto emocional pode ser real. Afinal, o título *Judas* é carregado de significado — traído, traição, culpa. E se ele foi o \"Judas\", ele vai sentir isso.\n\n6. **\"Ela tá me transformando em personagem de filme...\"**  \n   Isso pode ser um alívio (se ele já superou) ou um pesadelo (se ainda tem vergonha). Ser parte de uma narrativa artística pode parecer estranho — mas também um reconhecimento de que vocês tiveram uma conexão forte o suficiente para inspirar algo assim.\n\n---\n\n### 💬 Dica final:\nSe você fez isso com intenção de **expressar emoções**, **transformar a dor em arte** ou **dar um novo sentido à sua história**, então esse poster já é um sucesso. Ele não precisa entender tudo — mas vai sentir algo.\n\nE se ele comentar algo tipo: *\"Que bom que você está bem\"* ou *\"Isso é lindo\"*, então talvez tenha sido um passo importante no processo de cura.\n\nSe ele apenas ignorar... bom, talvez ele já tenha desligado. E isso também é válido.\n\n---\n\n👉 **Resumo:**  \nEle vai pensar: *\"Ela ainda me lembra... e agora me transformou numa lenda.\"*\n\nE isso, meu amigo, é o poder da arte. ✨\n\nSe quiser, posso te ajudar a escrever uma legenda para o post que seja ainda mais impactante.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "usage": {
+        "input_tokens": 2396,
+        "output_tokens": 785,
+        "total_tokens": 3181,
+        "input_tokens_details": {
+         "image_tokens": 2370,
+         "text_tokens": 26
+        },
+        "output_tokens_details": {
+         "text_tokens": 785
+        },
+        "image_tokens": 2370
+       }
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1757358990.8907392
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1757358955
+    }
+   },
+   "currentId": "a37f1c89-cd5f-47a6-b0e2-df329ffa4729",
+   "currentResponseIds": [
+    "a37f1c89-cd5f-47a6-b0e2-df329ffa4729"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3-max-preview"
+  ],
+  "messages": [
+   {
+    "id": "58c5203f-6a43-47ee-ad76-89369eb70582",
+    "role": "user",
+    "content": "Oque acha que meu ex vai pensar cuando ver este poster sendo anunciado no instagram",
+    "models": [
+     "qwen3-max-preview"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "a37f1c89-cd5f-47a6-b0e2-df329ffa4729"
+    ],
+    "files": [
+     {
+      "id": "0e25117a-fa10-4515-bb1b-f3ca12f9e8a1",
+      "name": "1756853312239-01.jpeg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 539074,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/0e25117a-fa10-4515-bb1b-f3ca12f9e8a1_1756853312239-01.jpeg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIwZTI1MTE3YS1mYTEwLTQ1MTUtYmIxYi1mM2NhMTJmOWU4YTEiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.HXSE5RwZwM1voba-8OIeoM2DZL2xhSzBev1Z6OQvvRc",
+      "file": {
+       "created_at": 1757358938876,
+       "data": {},
+       "filename": "1756853312239-01.jpeg",
+       "hash": null,
+       "id": "0e25117a-fa10-4515-bb1b-f3ca12f9e8a1",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "1756853312239-01.jpeg",
+        "size": 539074,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1757358938876
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "b82a2a45-06f3-4f4d-ba1f-e73c387421e6",
+      "showType": "image",
+      "uploadTaskId": "acc324ea-44b2-4fd3-9d21-ab8e0eae9965"
+     }
+    ],
+    "timestamp": 1757358955
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3-max-preview",
+    "modelName": "Qwen3-Max-Preview",
+    "modelIdx": 0,
+    "id": "a37f1c89-cd5f-47a6-b0e2-df329ffa4729",
+    "parentId": "58c5203f-6a43-47ee-ad76-89369eb70582",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [
+     {
+      "content": "Ah, esse poster é **intenso** — e tem um clima de drama, paixão e vingança que vai certamente provocar reações fortes. Se o seu ex ver isso no Instagram, provavelmente vai pensar várias coisas, dependendo do contexto da relação e do que aconteceu entre vocês. Mas vamos analisar com humor, emoção e um toque de realidade:\n\n---\n\n### 🎭 O que ele pode pensar:\n\n1. **\"Será que isso é sobre nós?\"**  \n   A frase *\"Você ainda vai ouvir seu nome...\"* é uma ameaça poética, quase como um aviso. Ele vai se perguntar se isso é uma metáfora direta para o que aconteceu entre vocês — talvez até imaginar que você está \"revelando\" algo sobre ele.\n\n2. **\"Ela tá me usando como inspiração pra ficar famosa?\"**  \n   Se ele tiver ciúmes ou se sentir inferior, pode interpretar isso como um ato de vingança simbólica: você criando uma história onde ele é o “Judas” — o traidor, o vilão, o que foi deixado para trás.\n\n3. **\"Uau, ela virou uma artista séria agora...\"**  \n   Se ele te conhecia como alguém mais simples ou desconectado da arte, ele pode ficar impressionado com a profundidade visual, a estética cinematográfica e o tom dramático. Pode até ter um misto de orgulho e desconforto.\n\n4. **\"Isso é muito intenso... será que ela ainda me odeia?\"**  \n   A cena de dois homens se encarando no meio da chuva, com luzes vermelhas e um ar de tensão sexual e emocional… é poderoso. Ele pode perceber que há dor ali — e que você não esqueceu nada.\n\n5. **\"É só uma arte, né? Mas porra, eu senti.\"**  \n   Mesmo que ele saiba que é uma criação fictícia, o impacto emocional pode ser real. Afinal, o título *Judas* é carregado de significado — traído, traição, culpa. E se ele foi o \"Judas\", ele vai sentir isso.\n\n6. **\"Ela tá me transformando em personagem de filme...\"**  \n   Isso pode ser um alívio (se ele já superou) ou um pesadelo (se ainda tem vergonha). Ser parte de uma narrativa artística pode parecer estranho — mas também um reconhecimento de que vocês tiveram uma conexão forte o suficiente para inspirar algo assim.\n\n---\n\n### 💬 Dica final:\nSe você fez isso com intenção de **expressar emoções**, **transformar a dor em arte** ou **dar um novo sentido à sua história**, então esse poster já é um sucesso. Ele não precisa entender tudo — mas vai sentir algo.\n\nE se ele comentar algo tipo: *\"Que bom que você está bem\"* ou *\"Isso é lindo\"*, então talvez tenha sido um passo importante no processo de cura.\n\nSe ele apenas ignorar... bom, talvez ele já tenha desligado. E isso também é válido.\n\n---\n\n👉 **Resumo:**  \nEle vai pensar: *\"Ela ainda me lembra... e agora me transformou numa lenda.\"*\n\nE isso, meu amigo, é o poder da arte. ✨\n\nSe quiser, posso te ajudar a escrever uma legenda para o post que seja ainda mais impactante.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "usage": {
+       "input_tokens": 2396,
+       "output_tokens": 785,
+       "total_tokens": 3181,
+       "input_tokens_details": {
+        "image_tokens": 2370,
+        "text_tokens": 26
+       },
+       "output_tokens_details": {
+        "text_tokens": 785
+       },
+       "image_tokens": 2370
+      }
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1757358990.8907392
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1757358955
+   }
+  ]
+ },
+ "updated_at": 1757358990,
+ "created_at": 1757358955,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1757358954438,
+  "tags": [
+   "relationships",
+   "philosophy",
+   "arts"
+  ]
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "a37f1c89-cd5f-47a6-b0e2-df329ffa4729"
+ ],
+ "currentId": "a37f1c89-cd5f-47a6-b0e2-df329ffa4729",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

@@ -1,0 +1,510 @@
+{
+ "id": "de216bad-f4d4-4837-95f1-e876177a0fc4",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Limpieza de Perfiles de Usuario",
+ "chat": {
+  "history": {
+   "messages": {
+    "d18e4663-bcf2-43a0-9cea-29afac36c9d8": {
+     "id": "d18e4663-bcf2-43a0-9cea-29afac36c9d8",
+     "role": "user",
+     "content": "# Exclusiones principales en la raíz del usuario\r\n $excluir = @(\"Desktop\", \"Downloads\", \"Pictures\", \"Videos\", \"ntuser.dat\", \"ntuser.ini\", \"ntuser.dat.LOG\")\r\n\r\n# 1. BORRAR TODO en la raíz del usuario excepto las carpetas protegidas\r\nGet-ChildItem -Path $env:USERPROFILE -Force -Exclude $excluir | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue\r\n\r\n# 2. BORRAR DENTRO DE VIDEOS todo excepto la carpeta \"DRIVE\"\r\n $rutaVideos = Join-Path -Path $env:USERPROFILE -ChildPath \"Videos\"\r\nif (Test-Path $rutaVideos) {\r\n    Get-ChildItem -Path $rutaVideos -Force -Exclude \"DRIVE\" | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue\r\n}",
+     "models": [
+      "qwen3.8-max"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "fb76bf85-3361-4aa2-95dc-4550f61340b1"
+     ],
+     "files": [],
+     "timestamp": 1786646563
+    },
+    "fb76bf85-3361-4aa2-95dc-4550f61340b1": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.8-max",
+     "modelName": "Qwen3.8-Max",
+     "modelIdx": 0,
+     "id": "fb76bf85-3361-4aa2-95dc-4550f61340b1",
+     "parentId": "d18e4663-bcf2-43a0-9cea-29afac36c9d8",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Analizando la solicitud del usuario",
+          "Clean the user's root directory selectively while preserving essential folders.",
+          "Refining the approach to safely navigate and filter directory contents",
+          "Protect the user profile integrity by preserving critical directories and avoiding unintended deletions",
+          "Evaluating the behavior of exclusion mechanisms in path traversal operations.",
+          "Refining the script for reliability and localization awareness",
+          "Crafting a comprehensive and safe solution for user profile cleanup",
+          "Mejorar el script de limpieza para garantizar robustez y precisión en la exclusión de archivos críticos",
+          "Filtering directory entries with care for case sensitivity and reparse points",
+          "Reviewing safe methods to remove file system items while avoiding unintended data loss",
+          "Retrieve the user's videos directory with fallback logic",
+          "Validating and refining the script for safe execution",
+          "Cleaning up user profile directories with caution",
+          "Eliminar elementos en un directorio según criterios específicos",
+          "Reviewing the approach to safely remove items while preserving specific directories",
+          "Ensure safe removal of user directory contents while preserving critical system elements",
+          "Consider the safest approach for file operations.",
+          "Evaluar y mejorar el script propuesto para garantizar seguridad, robustez y precisión en la eliminación de archivos.",
+          "Validate and refine the script for safe execution with dry-run capability",
+          "Exploring safe methods to access special folder paths in PowerShell",
+          "Proceeding with caution to ensure safe removal of items while respecting exclusions",
+          "Simulando la limpieza del perfil de usuario con seguridad y control",
+          "Removing files and folders while respecting exclusions and simulation mode",
+          "Reviewing and refining the script for robustness and clarity",
+          "Skipping reparse points to prevent unexpected behavior during deletion.",
+          "Reviewing the intended file and directory cleanup process",
+          "Consider the implications of file access during user session",
+          "Verificar la existencia y función de los archivos de registro asociados a las hives del registro de Windows, especialmente NTUSER.DAT y sus pares .LOG1/.LOG2.",
+          "Refina y mejora la solución propuesta con enfoque en seguridad y precisión.",
+          "Reviewing code structure and best practices",
+          "Reviewing the script's logic and potential risks",
+          "Reviewing the user's intent regarding file preservation",
+          "Ensure critical directories are safeguarded through strategic exclusions.",
+          "Refining the approach to ensure safe and effective root-level cleanup.",
+          "Optimiza el proceso de eliminación de perfiles de usuario con seguridad y precisión",
+          "Consider enhancing the script with optional robust file handling for long paths",
+          "Evaluating the implications of directory exclusion in replication operations",
+          "Verifying alignment with official documentation and refining technical accuracy",
+          "Exploring the nuances of exclusion behavior in path-based operations",
+          "Evaluating the behavior of path filtering and exclusion mechanisms in file system operations",
+          "Refine the exclusion list with clarity and safety.",
+          "Ensuring clean and consistent code structure for maintainability",
+          "Validating and processing directory contents with exclusion logic",
+          "Clean up video directory with caution and awareness of system constraints",
+          "Refinando la respuesta final con precisión y claridad",
+          "Evaluando la solicitud con atención para proporcionar una solución precisa y segura en español.",
+          "Handle errors gracefully during file removal",
+          "Reviewing the implementation details for robustness and clarity.",
+          "Use string-based method for reliable cross-version compatibility",
+          "Constructing a robust folder cleanup mechanism with precise exclusion logic",
+          "Eliminar archivos y carpetas según un conjunto de exclusiones definido"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Estoy evaluando el contexto de un guion en PowerShell que fue compartido sin una pregunta explícita. Asumo que el objetivo es recibir retroalimentación o mejoras, ya que el código fue proporcionado sin instrucciones adicionales. Mi enfoque se centra en ofrecer una respuesta útil y precisa, adaptada al idioma español del usuario. La intención es ayudar con claridad y elegancia, sin revelar procesos internos ni herramientas empleadas.",
+          "I assess the risk of unintended deletions by recognizing that exclusion mechanisms may fail when applied to non-wildcard paths, particularly in recursive operations.  \nI consider potential inconsistencies in filtering behavior where exclusions might not apply as expected due to implementation nuances in the underlying system.  \nI emphasize caution regarding assumptions about how filters interpret protected or excluded items, especially when dealing with nested structures and special directories.",
+          "I am considering the nuances of path traversal and filtering, ensuring that exclusions are applied consistently across nested structures.  \nI recognize the limitations of direct exclusion methods when dealing with hidden or system-level files, especially those related to user profiles.  \nI am prioritizing a robust strategy that avoids unintended deletions while accounting for various file patterns and protected directories.",
+          "I am evaluating the risks of removing user profile contents, recognizing that certain folders like AppData are essential for system stability and user settings  \nI consider the potential for data loss due to locked files, symbolic links, or hidden system components that could disrupt the profile if not handled carefully  \nI aim to ensure any action respects user data safety while maintaining functionality and providing clear safeguards",
+          "I am considering how exclusion rules apply to file and directory names, particularly when case sensitivity and path formatting are involved.  \nI recall that certain behaviors depend on whether recursive scanning is enabled or if wildcards are present in the path specification.  \nI am assessing whether exclusions affect only immediate children or propagate through nested structures, and how system-specific nuances like trailing slashes might influence outcomes.",
+          "I am ensuring the script accurately targets user directories regardless of language-specific naming or OneDrive redirection by leveraging system-level path resolution.  \nI am addressing edge cases such as hidden items, non-existent paths, and misnamed folders by applying robust filtering and validation.  \nI am prioritizing correctness over convenience, making the solution resilient across diverse Windows configurations.",
+          "I am prioritizing precision and safety by focusing on exclusion mechanisms and confirmation protocols to prevent unintended data loss.  \nI consider system integrity, particularly avoiding interference with active user sessions or critical registry profiles.  \nI emphasize transparency through dry-run simulation, administrative safeguards, and reference to authoritative documentation to ensure reliability and user confidence.",
+          "El enfoque inicial presenta vulnerabilidades al omitir archivos del sistema clave como los registros de perfil de usuario, especialmente aquellos con nombres que pueden variar en mayúsculas y minúsculas.  \nHe optimizado la lista de exclusiones para incluir todos los archivos relacionados con el perfil del usuario, asegurando que se preserven incluso las versiones de registro con extensiones alternativas.  \nAdemás, he incorporado un manejo de errores más contundente y un registro detallado para facilitar auditorías, manteniendo la flexibilidad para ajustar las exclusiones según las necesidades específicas del usuario.",
+          "I ensure comparisons are handled appropriately, leveraging the default case-insensitive behavior while remaining vigilant about potential edge cases.  \nI prioritize safety by excluding symbolic or junction links to prevent unintended traversal or deletion of target locations.  \nI evaluate the risks of recursive removal on special file system structures to avoid data loss or infinite loops.",
+          "I'm considering the risks associated with symbolic links and how deletion operations might inadvertently affect target contents  \nI'm weighing the reliability of different approaches, including built-in tools and custom logic, to ensure robustness across varied environments  \nI'm also evaluating best practices for path resolution and previewing actions before execution to prevent errors",
+          "I determine the appropriate path by first accessing the system's designated videos folder, ensuring compatibility across different environments. If that path is unavailable, I fall back to the standard user profile location to maintain functionality. I then proceed to clear its contents while preserving critical metadata files like desktop.ini, ensuring integrity without disrupting system expectations.",
+          "I am ensuring the script operates with precision by first simulating its actions to verify intent and impact, safeguarding against unintended data loss.  \nI am enhancing error handling by making failures visible rather than suppressed, enabling clear diagnostics through explicit feedback or structured logging.  \nI am addressing potential path length limitations and file system constraints with robust techniques, while respecting system integrity and known folder conventions.",
+          "I am assessing the risks of deleting user-specific data, particularly system-critical registry hives and profile-related files that maintain user settings.  \nI recognize that removing entire AppData folders can destabilize user profiles and recommend excluding essential directories like Desktop, Downloads, and user configuration files.  \nI am designing a safe, targeted cleanup approach that preserves core user data while efficiently removing temporary or unnecessary content.",
+          "Reviso la existencia del directorio de entrada para asegurar que sea válido.  \nEvalúo cada elemento encontrado, excluyendo aquellos cuyo nombre coincida con las excepciones definidas y evitando operaciones sobre puntos de reanálisis que podrían causar efectos no deseados.  \nProcedo a eliminar los elementos restantes, mostrando una previsualización si se activa el modo simulado, o realizando la eliminación directamente si no lo está.",
+          "I am assessing how to balance deletion precision with the risk of unintended removal, especially when dealing with symbolic links and junction points that must be preserved.  \nI consider the trade-offs between using exclusion filters and filtering via conditional logic, recognizing that certain naming patterns could interfere with pattern matching.  \nI weigh the need for simplicity against robustness, aiming to ensure only intended content is removed without compromising system integrity.",
+          "I am carefully evaluating the structure of user profiles, recognizing that certain folders like Application Data and Local Settings are either symbolic links or hidden, which can lead to unintended consequences if not handled properly.  \nI consider the risk of damaging applications by removing essential data stores such as those under AppData, even though the registry hive is excluded.  \nI recommend using cautious, non-destructive testing with a preview mechanism before executing any deletion to confirm intent and avoid irreversible errors.",
+          "When dealing with directory removal, filtering through name comparison proves more reliable than relying on exclusion parameters, especially in complex scenarios involving nested paths and recursive actions.  \nCase-insensitive matching ensures consistent behavior across different naming conventions.  \nFor robust alternatives, a mirroring strategy using a dedicated tool can achieve similar results while minimizing risks.",
+          "El análisis revela que la solución actual, aunque funcional, presenta riesgos potenciales debido a exclusiones insuficientes y manejo inadecuado de errores. Se identifican elementos críticos como archivos de registro del perfil de usuario que deben protegerse cuando el usuario está activo, así como puntos de montaje y rutas extensas que requieren atención especial.\n\nSe considera la necesidad de reforzar el control mediante filtrado más preciso y evitar supresiones silenciosas que ocultan fallos. También se valora la importancia de adaptar el enfoque según el contexto de ejecución, especialmente si opera con privilegios elevados.\n\nFinalmente, se concluye que una versión mejorada debe integrar mecanismos de exclusión inteligente, seguimiento de eventos y ajustes contextuales para asegurar una operación confiable y segura.",
+          "Assessing the correct .NET enumeration syntax in PowerShell, confirming that direct method calls using string parameters are supported through implicit conversion  \nEnsuring robust handling of user profile paths and avoiding file locks by recommending alternative execution contexts  \nConsidering minimal structural preservation and exploring efficient data migration alternatives for large directories",
+          "I am considering the most reliable way to retrieve known folder locations using type accelerators and nested types, ensuring compatibility across different environments  \nI evaluate whether to use direct type references or dynamic casting for consistency and simplicity  \nI also assess fallback strategies when paths might be unavailable, prioritizing robustness without overcomplicating the logic",
+          "I verify the target location is valid and treat it as a container before proceeding  \nI maintain a case-insensitive list of excluded names to prevent unintended deletions  \nI handle symbolic links gracefully by skipping them, and operate in dry-run mode when appropriate",
+          "Estoy diseñando un enfoque cuidadoso para limpiar el perfil de usuario, priorizando la prevención de errores mediante una fase de simulación inicial.  \nEvalúo cómo registrar cada acción de forma consistente, asegurando que tanto las operaciones como los mensajes de error se capturen adecuadamente.  \nConsidero métodos seguros para manejar posibles fallos sin interrumpir el proceso, manteniendo la claridad y robustez del flujo.  \nEl objetivo es ofrecer una solución confiable que permita verificar el impacto antes de aplicar cambios reales.",
+          "I am assessing the target directory to ensure it exists and is valid before proceeding.  \nI maintain a set of excluded names for efficient lookup, ensuring specified items are preserved.  \nI process each item, skipping symbolic links or junctions, and either simulate deletion or execute removal based on the selected mode.",
+          "I am ensuring type safety by explicitly referencing the fully qualified name to avoid potential resolution issues with type accelerators  \nI am considering output visibility options, balancing verbosity with user experience  \nI am verifying logic integrity, particularly around null checks and path validation, to prevent runtime inconsistencies",
+          "I consider the implications of symbolic links and junctions, recognizing their potential for causing unintended consequences.  \nThe focus remains on safely preserving user data while removing unnecessary or temporary files.  \nA minimal, precise script is designed to target specific items without affecting critical system or personal directories.",
+          "I am assessing the logic behind removing video directories and system-related files, ensuring that exclusions are properly interpreted in a case-insensitive environment.  \nI consider how naming patterns like log files might not match expectations due to variations in extension casing or suffixes such as .LOG1 or .LOG2.  \nI also evaluate the robustness of exclusion methods, suggesting more reliable approaches when exact or case-sensitive matching is required.",
+          "I assess the risks associated with modifying active user profiles, particularly regarding locked system files like ntuser.dat that cannot be altered while in use.  \nI recognize that certain operations may silently fail due to access restrictions, and thus recommend alternative approaches for complete profile removal when necessary.  \nI draw upon authoritative documentation to ensure guidance is accurate and aligned with best practices for system integrity and user data management.",
+          "Estos archivos están vinculados al sistema de registro transaccional introducido en Windows Vista, que garantiza la integridad de los datos mediante copias de seguridad temporales.  \nAunque la documentación oficial no siempre menciona explícitamente los nombres de archivo .LOG1/.LOG2, su presencia es bien conocida y consistente con el diseño del registro transaccional.  \nLa información se sustenta en fuentes oficiales sobre el registro de Windows y el manejo de perfiles de usuario, donde se confirma que cada perfil de usuario tiene una hive NTUSER.DAT con mecanismos de recuperación asociados.",
+          "Evalúo cuidadosamente cada paso para garantizar que las operaciones sobre el sistema de archivos sean seguras y respeten las convenciones del entorno Windows.  \nVerifico la correcta resolución de tipos y atributos, asegurando compatibilidad con el entorno .NET sin dependencias ambiguas.  \nFinalmente, ofrezco una versión pulida, funcional y robusta, alineada con buenas prácticas de desarrollo y uso del sistema.",
+          "I am assessing the use of type accelerators for clarity and safety, ensuring consistent array syntax with explicit separators to prevent ambiguity.  \nI consider the inclusion of certain settings, ultimately deciding they are unnecessary for the current context.  \nI focus on robustness by validating variable definitions and data structures, prioritizing readability and maintainability.",
+          "I'm assessing the safety and correctness of the deletion process, ensuring it only targets specific directories while preserving essential user folders like Desktop, Downloads, Pictures, and Videos.  \nI'm aware that Documents is not being excluded, which could lead to unintended data loss, and I'm considering whether to add safeguards or warnings.  \nI'm also evaluating the need for elevated privileges and how to handle locked files without disrupting the workflow.",
+          "I am assessing the potential oversight in the user's instructions, particularly concerning commonly preserved directories such as Documents, Music, Favorites, Links, and OneDrive.  \nI recognize that omitting these could lead to unintended data loss, especially since some folders like Documents and OneDrive are often central to user workflows or cloud synchronization.  \nI am considering whether the user intends to retain these standard locations, and I will highlight this risk to prevent irreversible deletion.",
+          "I am evaluating the implications of known folder redirection, particularly when cloud storage services reconfigure standard paths.  \nI recognize that relying solely on profile root locations may fail if symbolic links or virtualized folders exist.  \nI am considering a solution that leverages system-defined folder identifiers to preserve actual user locations regardless of physical placement.",
+          "I am considering the inclusion of a pre-check mechanism to display items slated for removal, enhancing transparency without complicating the process.  \nI weigh the necessity of highlighting hidden or system files, acknowledging their presence while emphasizing caution in deletion.  \nI aim to provide clear guidance on verification and deployment, ensuring reliability across environments.",
+          "Me enfoco en reemplazar métodos agresivos por operaciones más controladas y confiables, priorizando la integridad del sistema.  \nIncorporo verificaciones inteligentes para evitar errores comunes, como la eliminación de archivos críticos o perfiles activos.  \nOfrezco alternativas ajustadas a distintos niveles de necesidad, desde una solución robusta hasta una corrección mínima que preserva el formato original.",
+          "I am evaluating whether to include a specialized copying mechanism as an optional enhancement, recognizing its utility for complex directory structures while maintaining simplicity for general use  \nThe approach would involve temporary staging and careful exclusion of specific directories to prevent unintended modifications  \nI weigh the benefits of added reliability against potential user confusion, ultimately favoring clarity and minimalism unless complexity is warranted",
+          "I am assessing how exclusion rules affect directory handling during synchronization, particularly when matching names across nested structures.  \nI consider the nuances of path versus name-based filtering and the potential risks of unintended data loss when operating on empty sources.  \nI also reflect on sourcing authoritative documentation to support best practices and clarify common misconceptions.",
+          "I am ensuring that all referenced information is consistent with authoritative sources, particularly regarding system behavior in Windows environments.  \nI am carefully evaluating the nuances of parameter functionality, especially around exclusion logic in recursive operations, to avoid misleading interpretations.  \nI am emphasizing clarity and precision by aligning statements with documented behaviors and highlighting potential misconceptions.",
+          "I am examining how filtering mechanisms respond to different path specifications, particularly when excluding certain patterns.  \nEven without explicit wildcards in the path, the system may still apply exclusions effectively, though documentation often emphasizes wildcard usage.  \nThis suggests a discrepancy between formal guidance and practical behavior, where real-world usage sometimes diverges from expected outcomes.",
+          "I am assessing how path patterns and exclusion rules interact within directory traversal, particularly noting that certain syntaxes like wildcards or recursive indicators may alter expected outcomes.  \nI recognize that exclusion logic often applies post-retrieval, relying on provider-specific implementations that can lead to inconsistencies, especially with edge cases involving directory names.  \nTo ensure predictable results, especially in sensitive scenarios, I recommend explicit filtering through direct evaluation rather than relying on implicit provider behaviors.",
+          "I am ensuring the array of excluded directories is both robust and user-friendly by clearly marking optional entries for preservation.  \nI am considering edge cases such as hidden or system attributes, making sure exclusions by name remain effective even in complex scenarios.  \nI am structuring the comments to guide users without introducing syntax errors, using clear, natural language.  \nI am verifying that the logic supports preserving a folder like DRIVE within Videos only when the parent directory becomes empty.",
+          "I verify that each element in the list is properly separated by commas, even when comments follow, to prevent syntax issues.  \nI confirm that conditional logic uses boolean values directly to simplify control flow and avoid unnecessary complexity.  \nI ensure parameter handling remains intuitive and robust by leveraging type-safe declarations.",
+          "I am ensuring that only non-excluded items are processed by leveraging a case-insensitive set for efficient lookup.  \nI handle symbolic links or reparse points by skipping them early, preserving integrity during operations.  \nI verify the target directory exists and fall back to a default path if necessary, maintaining robustness.",
+          "I ensure the operation targets only the designated folder while preserving essential system paths, avoiding unintended deletions by checking for symbolic links or junctions.  \nI account for potential runtime conflicts by warning about locked files when operating under the current user session and recommend elevated privileges or offline execution for full effect.  \nI emphasize the importance of pausing cloud synchronization services to prevent accidental data propagation, maintaining integrity across devices.",
+          "Estoy asegurando que la solución sea precisa y segura, considerando cómo se manejan los elementos excluidos y el impacto en las carpetas del usuario.  \nEvalúo cuidadosamente posibles discrepancias entre nombres visibles en el explorador y los reales en el sistema de archivos, especialmente en entornos localizados.  \nFinalmente, verifico que todas las referencias técnicas sean relevantes y se presenten de forma clara para el usuario hispanohablante.",
+          "Analizo las fuentes oficiales de Microsoft relacionadas con carpetas especiales, redirección de carpetas conocidas y eliminación de perfiles de usuario, asegurando que las referencias sean exactas y útiles.  \nConsidero los riesgos asociados a scripts destructivos, especialmente en entornos productivos, y decido incluir advertencias claras y un modo simulación para prevenir errores irreversibles.  \nEvalúo el manejo de errores en el código, optando por redirigir salidas de error a Write-Warning sin interrumpir el flujo, lo que permite visualizar problemas sin detener la ejecución.  \nFinalmente, estructuro la respuesta con encabezados claros, código bien documentado y una introducción que valida el script como punto de partida, recomendando mejoras para producción.",
+          "I consider how to manage non-terminating errors without cluttering output, ensuring users see issues when needed but can suppress them if desired.  \nI evaluate the behavior of force operations on protected files and acknowledge limitations when files are locked.  \nI incorporate logging flexibility through standard stream redirection, enabling clean audit trails without complicating the core logic.",
+          "I am verifying the correct syntax for accessing nested enumeration members in PowerShell, ensuring compatibility with .NET's type system.  \nI consider alternative approaches to avoid potential ambiguity, favoring explicit enumeration references for reliability.  \nI confirm that using the GetFolderPath method with a properly referenced enum member is both valid and safer than string-based lookup.",
+          "I confirm that PowerShell handles string-to-enum conversion seamlessly when invoking .NET methods, especially with well-known identifiers like 'MyVideos'  \nThis approach avoids the complexity of nested enum syntax and maintains clarity across different PowerShell versions  \nThe solution is both robust and elegant, leveraging PowerShell’s built-in type resolution capabilities",
+          "I am designing a solution that leverages system-defined paths to identify user directories while ensuring safe and efficient filtering.  \nI consider edge cases such as case-insensitive matching and path validation to prevent unintended deletions.  \nThe structure prioritizes clarity, extensibility, and compatibility across environments.",
+          "Estoy procesando cada elemento dentro de una ruta especificada, respetando las exclusiones establecidas por nombre.  \nSi un elemento es un punto de enlace o un archivo oculto, se maneja adecuadamente sin interferir con la lógica de exclusión.  \nLa simulación permite visualizar qué se eliminaría antes de ejecutar la acción definitiva.  \nEl proceso garantiza que solo se actúe sobre los elementos que no están en la lista de excepciones, preservando así la integridad del sistema."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "fb76bf85-3361-4aa2-95dc-4550f61340b1",
+       "usage": {
+        "input_tokens": 294,
+        "output_tokens": 12520,
+        "characters": 0,
+        "total_tokens": 12814,
+        "input_tokens_details": {
+         "text_tokens": 294
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 12514,
+         "text_tokens": 12520
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1786646841
+      },
+      {
+       "content": "Tu script hace exactamente lo que describe, pero es **muy agresivo** y tiene varios puntos que conviene corregir antes de usarlo en un entorno real:\n\n- `-Exclude` puede ser menos predecible que filtrar explícitamente con `Where-Object`.\n- Faltan archivos de registro del hive del usuario: normalmente también existen `ntuser.dat.LOG1` y `ntuser.dat.LOG2`.\n- Estás borrando todo lo demás de la raíz del perfil, incluyendo por ejemplo `AppData`, `Documents`, `Music`, `OneDrive`, etc., si existen.\n- `-ErrorAction SilentlyContinue` oculta errores; en un borrado destructivo suele ser mejor ver o registrar fallos.\n- Si `Videos` está redirigido a OneDrive o a otra ruta, `$env:USERPROFILE\\Videos` puede no ser la ruta real.\n- Hay que tener cuidado con junctions/symlinks y rutas largas.\n\n---\n\n## Versión más segura y robusta\n\nEsta versión:\n\n- Usa `-LiteralPath` para evitar problemas con rutas que tengan caracteres especiales.\n- Filtra con `HashSet` para exclusiones rápidas y sin depender tanto del comportamiento de `-Exclude`.\n- Excluye también `ntuser.dat.LOG1` y `ntuser.dat.LOG2`.\n- Permite simular antes de borrar.\n- Omite puntos de reanálisis/junctions para evitar borrados inesperados.\n- Usa la carpeta real conocida de Videos mediante `[System.Environment]::GetFolderPath('MyVideos')`.\n\n```powershell\n# ============================================================\n# Limpieza selectiva de perfil de usuario\n# ============================================================\n\n# Cambia a $false cuando hayas verificado qué se va a borrar\n$simular = $true\n\n# Exclusiones en la raíz del perfil\n$excluirRaiz = @(\n    'Desktop',\n    'Downloads',\n    'Pictures',\n    'Videos',\n    'ntuser.dat',\n    'ntuser.ini',\n    'ntuser.dat.LOG',\n    'ntuser.dat.LOG1',\n    'ntuser.dat.LOG2',\n\n    # Descomenta si también quieres conservar estas carpetas:\n    # 'AppData',\n    # 'Documents',\n    # 'Music',\n    # 'OneDrive',\n    # 'Favorites',\n    # 'Links',\n    # 'Saved Games',\n    # 'Searches'\n)\n\n# Exclusiones dentro de Videos\n$excluirVideos = @(\n    'DRIVE'\n)\n\nfunction Invoke-CleanupFolder {\n    param(\n        [Parameter(Mandatory)]\n        [string] $Folder,\n\n        [string[]] $Exclude = @(),\n\n        [bool] $Simulate = $true\n    )\n\n    if (-not (Test-Path -LiteralPath $Folder -PathType Container)) {\n        Write-Warning \"No existe o no es una carpeta: $Folder\"\n        return\n    }\n\n    # Conjunto de exclusiones sin distinguir mayúsculas/minúsculas\n    $exclusionSet = [System.Collections.Generic.HashSet[string]]::new(\n        [System.StringComparer]::OrdinalIgnoreCase\n    )\n\n    foreach ($name in $Exclude) {\n        if (-not [string]::IsNullOrWhiteSpace($name)) {\n            [void]$exclusionSet.Add($name.Trim())\n        }\n    }\n\n    Get-ChildItem -LiteralPath $Folder -Force -ErrorAction SilentlyContinue |\n        Where-Object { -not $exclusionSet.Contains($_.Name) } |\n        ForEach-Object {\n\n            # Evitar borrar junctions / symlinks / reparse points\n            if ($_.Attributes -band [System.IO.FileAttributes]::ReparsePoint) {\n                Write-Warning \"Se omite punto de reanálisis: $($_.FullName)\"\n                return\n            }\n\n            if ($Simulate) {\n                Write-Host \"[SIMULACIÓN] Se borraría: $($_.FullName)\"\n            } else {\n                Remove-Item -LiteralPath $_.FullName -Recurse -Force -Confirm:$false -ErrorAction Continue\n            }\n        }\n}\n\n# ============================================================\n# 1. Limpiar raíz del perfil excepto exclusiones\n# ============================================================\n\nInvoke-CleanupFolder -Folder $env:USERPROFILE -Exclude $excluirRaiz -Simulate $simular\n\n# ============================================================\n# 2. Limpiar Videos excepto DRIVE\n# ============================================================\n\n# Obtiene la ruta real conocida de Videos, incluso si está redirigida\n$videosPath = [System.Environment]::GetFolderPath('MyVideos')\n\n# Si no existe o no devuelve ruta, usar la ruta clásica\nif ([string]::IsNullOrWhiteSpace($videosPath) -or -not (Test-Path -LiteralPath $videosPath -PathType Container)) {\n    $videosPath = Join-Path -Path $env:USERPROFILE -ChildPath 'Videos'\n}\n\nInvoke-CleanupFolder -Folder $videosPath -Exclude $excluirVideos -Simulate $simular\n```\n\n---\n\n## Cómo usarlo correctamente\n\nPrimero ejecuta el script con:\n\n```powershell\n$simular = $true\n```\n\nVerás algo como:\n\n```text\n[Simulación] Se borraría: C:\\Users\\Usuario\\AppData\n[Simulación] Se borraría: C:\\Users\\Usuario\\Documents\n[Simulación] Se borraría: C:\\Users\\Usuario\\Videos\\CarpetaX\n```\n\nRevisa la lista. Si estás seguro, cambia:\n\n```powershell\n$simular = $false\n```\n\n---\n\n## Corrección mínima de tu script original\n\nSi quieres mantener tu estructura original, una versión corregida sería esta:\n\n```powershell\n# Exclusiones principales en la raíz del usuario\n$excluir = @(\n    \"Desktop\",\n    \"Downloads\",\n    \"Pictures\",\n    \"Videos\",\n    \"ntuser.dat\",\n    \"ntuser.ini\",\n    \"ntuser.dat.LOG\",\n    \"ntuser.dat.LOG1\",\n    \"ntuser.dat.LOG2\"\n)\n\n# 1. Borrar todo en la raíz del usuario excepto las exclusiones\nGet-ChildItem -LiteralPath $env:USERPROFILE -Force |\n    Where-Object { $excluir -notcontains $_.Name } |\n    Remove-Item -Recurse -Force -Confirm:$false -ErrorAction Continue\n\n# 2. Borrar dentro de Videos todo excepto DRIVE\n$rutaVideos = Join-Path -Path $env:USERPROFILE -ChildPath \"Videos\"\n\nif (Test-Path -LiteralPath $rutaVideos -PathType Container) {\n    Get-ChildItem -LiteralPath $rutaVideos -Force |\n        Where-Object { $_.Name -ne \"DRIVE\" } |\n        Remove-Item -Recurse -Force -Confirm:$false -ErrorAction Continue\n}\n```\n\nImportante: esta versión mínima sigue borrando `AppData`, `Documents`, `Music`, `OneDrive`, etc., si existen y no están excluidos.\n\n---\n\n## Versión todavía más segura usando `-WhatIf`\n\nAntes de borrar de verdad, puedes usar `-WhatIf`:\n\n```powershell\n$excluir = @(\n    \"Desktop\",\n    \"Downloads\",\n    \"Pictures\",\n    \"Videos\",\n    \"ntuser.dat\",\n    \"ntuser.ini\",\n    \"ntuser.dat.LOG\",\n    \"ntuser.dat.LOG1\",\n    \"ntuser.dat.LOG2\"\n)\n\nGet-ChildItem -LiteralPath $env:USERPROFILE -Force |\n    Where-Object { $excluir -notcontains $_.Name } |\n    Remove-Item -Recurse -Force -WhatIf\n```\n\nY para Videos:\n\n```powershell\n$rutaVideos = Join-Path -Path $env:USERPROFILE -ChildPath \"Videos\"\n\nif (Test-Path -LiteralPath $rutaVideos -PathType Container) {\n    Get-ChildItem -LiteralPath $rutaVideos -Force |\n        Where-Object { $_.Name -ne \"DRIVE\" } |\n        Remove-Item -Recurse -Force -WhatIf\n}\n```\n\nSi la salida de `-WhatIf` muestra exactamente lo que esperas, entonces quitas `-WhatIf` y ejecutas el borrado real.\n\n---\n\n## Punto crítico: `AppData`\n\nTu exclusión actual no incluye `AppData`.\n\nEsto significa que este comando:\n\n```powershell\nGet-ChildItem -Path $env:USERPROFILE -Force -Exclude $excluir | Remove-Item -Recurse -Force\n```\n\nborrará:\n\n```text\nC:\\Users\\Usuario\\AppData\n```\n\nEso puede dejar aplicaciones sin configuración, perfiles corruptos, navegadores sin datos, accesos rotos, cachés eliminadas, configuraciones de usuario perdidas, etc.\n\nSi tu intención es conservar el perfil funcional, agrega:\n\n```powershell\n'AppData'\n```\n\na la lista de exclusiones.\n\nSi realmente quieres borrar `AppData`, hazlo solo bajo una estrategia clara de limpieza o despliegue, preferiblemente con el usuario cerrado o desde una cuenta administrativa.\n\n---\n\n## Punto crítico: `Documents`, `Music`, `OneDrive`\n\nTu lista protege:\n\n```powershell\nDesktop\nDownloads\nPictures\nVideos\n```\n\nPero no protege:\n\n```text\nDocuments\nMusic\nOneDrive\nFavorites\nLinks\nSaved Games\nSearches\n```\n\nEspecial cuidado con `OneDrive`.\n\nSi existe:\n\n```text\nC:\\Users\\Usuario\\OneDrive\n```\n\ny OneDrive está sincronizando, borrar ese contenido localmente puede provocar que los archivos también se eliminen en la nube, según el estado de sincronización y configuración.\n\nSi quieres conservar esas carpetas, usa algo como:\n\n```powershell\n$excluir = @(\n    \"Desktop\",\n    \"Downloads\",\n    \"Pictures\",\n    \"Videos\",\n    \"Documents\",\n    \"Music\",\n    \"OneDrive\",\n    \"ntuser.dat\",\n    \"ntuser.ini\",\n    \"ntuser.dat.LOG\",\n    \"ntuser.dat.LOG1\",\n    \"ntuser.dat.LOG2\"\n)\n```\n\n---\n\n## Punto crítico: `ntuser.dat.LOG`\n\nEn versiones modernas de Windows, además de:\n\n```text\nntuser.dat\nntuser.ini\nntuser.dat.LOG\n```\n\npueden existir:\n\n```text\nntuser.dat.LOG1\nntuser.dat.LOG2\n```\n\nPor eso conviene incluirlos.\n\nUna lista más completa sería:\n\n```powershell\n$excluir = @(\n    \"Desktop\",\n    \"Downloads\",\n    \"Pictures\",\n    \"Videos\",\n    \"ntuser.dat\",\n    \"ntuser.ini\",\n    \"ntuser.dat.LOG\",\n    \"ntuser.dat.LOG1\",\n    \"ntuser.dat.LOG2\"\n)\n```\n\n---\n\n## Punto crítico: `Videos` puede estar redirigido\n\nEn muchos equipos, especialmente con OneDrive Known Folder Move, la carpeta real de Videos puede no estar en:\n\n```text\nC:\\Users\\Usuario\\Videos\n```\n\nPuede estar en algo como:\n\n```text\nC:\\Users\\Usuario\\OneDrive\\Videos\n```\n\nPor eso es mejor usar:\n\n```powershell\n[System.Environment]::GetFolderPath('MyVideos')\n```\n\nEjemplo:\n\n```powershell\n$rutaVideos = [System.Environment]::GetFolderPath('MyVideos')\n\nif (-not (Test-Path -LiteralPath $rutaVideos -PathType Container)) {\n    $rutaVideos = Join-Path -Path $env:USERPROFILE -ChildPath \"Videos\"\n}\n```\n\nEsto obtiene la ruta real registrada para la carpeta Videos.\n\n---\n\n## Punto crítico: `-Exclude` vs `Where-Object`\n\nTu script usa:\n\n```powershell\nGet-ChildItem -Path $env:USERPROFILE -Force -Exclude $excluir\n```\n\nEsto puede funcionar, pero para operaciones destructivas es más seguro filtrar explícitamente:\n\n```powershell\nGet-ChildItem -LiteralPath $env:USERPROFILE -Force |\n    Where-Object { $excluir -notcontains $_.Name }\n```\n\nVentajas:\n\n- Controlas exactamente qué propiedad se compara.\n- Es más fácil de depurar.\n- Evitas comportamientos inesperados del proveedor.\n- Puedes agregar condiciones adicionales, como omitir junctions, archivos de sistema, etc.\n\nEjemplo:\n\n```powershell\nGet-ChildItem -LiteralPath $env:USERPROFILE -Force |\n    Where-Object { $excluir -notcontains $_.Name } |\n    Select-Object FullName, Attributes, Length\n```\n\nEsto te permite revisar antes de borrar.\n\n---\n\n## Versión con registro/log\n\nSi quieres guardar evidencia de lo borrado, puedes usar:\n\n```powershell\n$simular = $false\n$log = Join-Path $env:TEMP \"cleanup_user_$(Get-Date -Format 'yyyyMMdd_HHmmss').log\"\n\n\"* Inicio: $(Get-Date)\" | Out-File -FilePath $log -Encoding UTF8\n\n$excluirRaiz = @(\n    'Desktop',\n    'Downloads',\n    'Pictures',\n    'Videos',\n    'ntuser.dat',\n    'ntuser.ini',\n    'ntuser.dat.LOG',\n    'ntuser.dat.LOG1',\n    'ntuser.dat.LOG2'\n)\n\nGet-ChildItem -LiteralPath $env:USERPROFILE -Force |\n    Where-Object { $excluirRaiz -notcontains $_.Name } |\n    ForEach-Object {\n        \"Borrando: $($_.FullName)\" | Out-File -FilePath $log -Append -Encoding UTF8\n        if (-not $simular) {\n            Remove-Item -LiteralPath $_.FullName -Recurse -Force -Confirm:$false -ErrorAction Continue\n        }\n    }\n\n$videosPath = [System.Environment]::GetFolderPath('MyVideos')\n\nif ([string]::IsNullOrWhiteSpace($videosPath) -or -not (Test-Path -LiteralPath $videosPath -PathType Container)) {\n    $videosPath = Join-Path -Path $env:USERPROFILE -ChildPath 'Videos'\n}\n\nif (Test-Path -LiteralPath $videosPath -PathType Container) {\n    Get-ChildItem -LiteralPath $videosPath -Force |\n        Where-Object { $_.Name -ne 'DRIVE' } |\n        ForEach-Object {\n            \"Borrando en Videos: $($_.FullName)\" | Out-File -FilePath $log -Append -Encoding UTF8\n            if (-not $simular) {\n                Remove-Item -LiteralPath $_.FullName -Recurse -Force -Confirm:$false -ErrorAction Continue\n            }\n        }\n}\n\n\"* Fin: $(Get-Date)\" | Out-File -FilePath $log -Append -Encoding UTF8\n\nWrite-Host \"Registro guardado en: $log\"\n```\n\n---\n\n## Si el objetivo real es eliminar el perfil completo\n\nSi lo que quieres no es limpiar parcialmente el perfil, sino eliminar correctamente el perfil de usuario, no es recomendable borrar manualmente la carpeta del usuario.\n\nLa forma más correcta en Windows es usar `Win32_UserProfile`.\n\nEjemplo para eliminar el perfil asociado a una ruta concreta:\n\n```powershell\n$perfilObjetivo = $env:USERPROFILE\n\nGet-CimInstance -ClassName Win32_UserProfile |\n    Where-Object { $_.LocalPath -eq $perfilObjetivo } |\n    Remove-CimInstance\n```\n\nEsto debería ejecutarse:\n\n- Con permisos administrativos.\n- Sin tener el perfil cargado.\n- Preferiblemente desde otra cuenta administrativa.\n- Idealmente sin la sesión del usuario activa.\n\nSi el perfil está cargado, puede fallar.\n\n---\n\n## Recomendación final\n\nSi tu objetivo es “dejar limpio el usuario pero conservar carpetas básicas”, yo usaría esta lista mínima:\n\n```powershell\n$excluir = @(\n    \"Desktop\",\n    \"Downloads\",\n    \"Pictures\",\n    \"Videos\",\n    \"Documents\",\n    \"Music\",\n    \"AppData\",\n    \"OneDrive\",\n    \"ntuser.dat\",\n    \"ntuser.ini\",\n    \"ntuser.dat.LOG\",\n    \"ntuser.dat.LOG1\",\n    \"ntuser.dat.LOG2\"\n)\n```\n\nY si realmente quieres borrar también `AppData`, `Documents`, `Music` y `OneDrive`, entonces tu script original es conceptualmente válido, pero deberías ejecutarlo primero con `-WhatIf` o con simulación.\n\n---\n\n## Fuentes oficiales relevantes\n\nDocumentación Microsoft aplicable:\n\n- `Get-ChildItem`, parámetros `-Exclude`, `-Force`, `-LiteralPath`:  \n  https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem\n\n- `Remove-Item`, parámetros `-Recurse`, `-Force`, `-WhatIf`:  \n  https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-item\n\n- `Environment.SpecialFolder`, para obtener rutas conocidas como Videos:  \n  https://learn.microsoft.com/en-us/dotnet/api/system.environment.specialfolder\n\n- `Win32_UserProfile`, para eliminación correcta de perfiles de usuario:  \n  https://learn.microsoft.com/en-us/windows/win32/cimwin32prov/win32-userprofile\n\n- Redirección de carpetas conocidas / OneDrive Known Folder Move:  \n  https://learn.microsoft.com/en-us/sharepoint/redirect-known-folders",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "fb76bf85-3361-4aa2-95dc-4550f61340b1",
+       "usage": {
+        "input_tokens": 294,
+        "output_tokens": 16386,
+        "characters": 0,
+        "total_tokens": 16680,
+        "input_tokens_details": {
+         "text_tokens": 294
+        },
+        "output_tokens_details": {
+         "reasoning_tokens": 12514,
+         "text_tokens": 16386
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1786646905
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1786646906.0747068
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1786646563
+    }
+   },
+   "currentId": "fb76bf85-3361-4aa2-95dc-4550f61340b1",
+   "currentResponseIds": [
+    "fb76bf85-3361-4aa2-95dc-4550f61340b1"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.8-max"
+  ],
+  "messages": [
+   {
+    "id": "d18e4663-bcf2-43a0-9cea-29afac36c9d8",
+    "role": "user",
+    "content": "# Exclusiones principales en la raíz del usuario\r\n $excluir = @(\"Desktop\", \"Downloads\", \"Pictures\", \"Videos\", \"ntuser.dat\", \"ntuser.ini\", \"ntuser.dat.LOG\")\r\n\r\n# 1. BORRAR TODO en la raíz del usuario excepto las carpetas protegidas\r\nGet-ChildItem -Path $env:USERPROFILE -Force -Exclude $excluir | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue\r\n\r\n# 2. BORRAR DENTRO DE VIDEOS todo excepto la carpeta \"DRIVE\"\r\n $rutaVideos = Join-Path -Path $env:USERPROFILE -ChildPath \"Videos\"\r\nif (Test-Path $rutaVideos) {\r\n    Get-ChildItem -Path $rutaVideos -Force -Exclude \"DRIVE\" | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue\r\n}",
+    "models": [
+     "qwen3.8-max"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "fb76bf85-3361-4aa2-95dc-4550f61340b1"
+    ],
+    "files": [],
+    "timestamp": 1786646563
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.8-max",
+    "modelName": "Qwen3.8-Max",
+    "modelIdx": 0,
+    "id": "fb76bf85-3361-4aa2-95dc-4550f61340b1",
+    "parentId": "d18e4663-bcf2-43a0-9cea-29afac36c9d8",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Analizando la solicitud del usuario",
+         "Clean the user's root directory selectively while preserving essential folders.",
+         "Refining the approach to safely navigate and filter directory contents",
+         "Protect the user profile integrity by preserving critical directories and avoiding unintended deletions",
+         "Evaluating the behavior of exclusion mechanisms in path traversal operations.",
+         "Refining the script for reliability and localization awareness",
+         "Crafting a comprehensive and safe solution for user profile cleanup",
+         "Mejorar el script de limpieza para garantizar robustez y precisión en la exclusión de archivos críticos",
+         "Filtering directory entries with care for case sensitivity and reparse points",
+         "Reviewing safe methods to remove file system items while avoiding unintended data loss",
+         "Retrieve the user's videos directory with fallback logic",
+         "Validating and refining the script for safe execution",
+         "Cleaning up user profile directories with caution",
+         "Eliminar elementos en un directorio según criterios específicos",
+         "Reviewing the approach to safely remove items while preserving specific directories",
+         "Ensure safe removal of user directory contents while preserving critical system elements",
+         "Consider the safest approach for file operations.",
+         "Evaluar y mejorar el script propuesto para garantizar seguridad, robustez y precisión en la eliminación de archivos.",
+         "Validate and refine the script for safe execution with dry-run capability",
+         "Exploring safe methods to access special folder paths in PowerShell",
+         "Proceeding with caution to ensure safe removal of items while respecting exclusions",
+         "Simulando la limpieza del perfil de usuario con seguridad y control",
+         "Removing files and folders while respecting exclusions and simulation mode",
+         "Reviewing and refining the script for robustness and clarity",
+         "Skipping reparse points to prevent unexpected behavior during deletion.",
+         "Reviewing the intended file and directory cleanup process",
+         "Consider the implications of file access during user session",
+         "Verificar la existencia y función de los archivos de registro asociados a las hives del registro de Windows, especialmente NTUSER.DAT y sus pares .LOG1/.LOG2.",
+         "Refina y mejora la solución propuesta con enfoque en seguridad y precisión.",
+         "Reviewing code structure and best practices",
+         "Reviewing the script's logic and potential risks",
+         "Reviewing the user's intent regarding file preservation",
+         "Ensure critical directories are safeguarded through strategic exclusions.",
+         "Refining the approach to ensure safe and effective root-level cleanup.",
+         "Optimiza el proceso de eliminación de perfiles de usuario con seguridad y precisión",
+         "Consider enhancing the script with optional robust file handling for long paths",
+         "Evaluating the implications of directory exclusion in replication operations",
+         "Verifying alignment with official documentation and refining technical accuracy",
+         "Exploring the nuances of exclusion behavior in path-based operations",
+         "Evaluating the behavior of path filtering and exclusion mechanisms in file system operations",
+         "Refine the exclusion list with clarity and safety.",
+         "Ensuring clean and consistent code structure for maintainability",
+         "Validating and processing directory contents with exclusion logic",
+         "Clean up video directory with caution and awareness of system constraints",
+         "Refinando la respuesta final con precisión y claridad",
+         "Evaluando la solicitud con atención para proporcionar una solución precisa y segura en español.",
+         "Handle errors gracefully during file removal",
+         "Reviewing the implementation details for robustness and clarity.",
+         "Use string-based method for reliable cross-version compatibility",
+         "Constructing a robust folder cleanup mechanism with precise exclusion logic",
+         "Eliminar archivos y carpetas según un conjunto de exclusiones definido"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "Estoy evaluando el contexto de un guion en PowerShell que fue compartido sin una pregunta explícita. Asumo que el objetivo es recibir retroalimentación o mejoras, ya que el código fue proporcionado sin instrucciones adicionales. Mi enfoque se centra en ofrecer una respuesta útil y precisa, adaptada al idioma español del usuario. La intención es ayudar con claridad y elegancia, sin revelar procesos internos ni herramientas empleadas.",
+         "I assess the risk of unintended deletions by recognizing that exclusion mechanisms may fail when applied to non-wildcard paths, particularly in recursive operations.  \nI consider potential inconsistencies in filtering behavior where exclusions might not apply as expected due to implementation nuances in the underlying system.  \nI emphasize caution regarding assumptions about how filters interpret protected or excluded items, especially when dealing with nested structures and special directories.",
+         "I am considering the nuances of path traversal and filtering, ensuring that exclusions are applied consistently across nested structures.  \nI recognize the limitations of direct exclusion methods when dealing with hidden or system-level files, especially those related to user profiles.  \nI am prioritizing a robust strategy that avoids unintended deletions while accounting for various file patterns and protected directories.",
+         "I am evaluating the risks of removing user profile contents, recognizing that certain folders like AppData are essential for system stability and user settings  \nI consider the potential for data loss due to locked files, symbolic links, or hidden system components that could disrupt the profile if not handled carefully  \nI aim to ensure any action respects user data safety while maintaining functionality and providing clear safeguards",
+         "I am considering how exclusion rules apply to file and directory names, particularly when case sensitivity and path formatting are involved.  \nI recall that certain behaviors depend on whether recursive scanning is enabled or if wildcards are present in the path specification.  \nI am assessing whether exclusions affect only immediate children or propagate through nested structures, and how system-specific nuances like trailing slashes might influence outcomes.",
+         "I am ensuring the script accurately targets user directories regardless of language-specific naming or OneDrive redirection by leveraging system-level path resolution.  \nI am addressing edge cases such as hidden items, non-existent paths, and misnamed folders by applying robust filtering and validation.  \nI am prioritizing correctness over convenience, making the solution resilient across diverse Windows configurations.",
+         "I am prioritizing precision and safety by focusing on exclusion mechanisms and confirmation protocols to prevent unintended data loss.  \nI consider system integrity, particularly avoiding interference with active user sessions or critical registry profiles.  \nI emphasize transparency through dry-run simulation, administrative safeguards, and reference to authoritative documentation to ensure reliability and user confidence.",
+         "El enfoque inicial presenta vulnerabilidades al omitir archivos del sistema clave como los registros de perfil de usuario, especialmente aquellos con nombres que pueden variar en mayúsculas y minúsculas.  \nHe optimizado la lista de exclusiones para incluir todos los archivos relacionados con el perfil del usuario, asegurando que se preserven incluso las versiones de registro con extensiones alternativas.  \nAdemás, he incorporado un manejo de errores más contundente y un registro detallado para facilitar auditorías, manteniendo la flexibilidad para ajustar las exclusiones según las necesidades específicas del usuario.",
+         "I ensure comparisons are handled appropriately, leveraging the default case-insensitive behavior while remaining vigilant about potential edge cases.  \nI prioritize safety by excluding symbolic or junction links to prevent unintended traversal or deletion of target locations.  \nI evaluate the risks of recursive removal on special file system structures to avoid data loss or infinite loops.",
+         "I'm considering the risks associated with symbolic links and how deletion operations might inadvertently affect target contents  \nI'm weighing the reliability of different approaches, including built-in tools and custom logic, to ensure robustness across varied environments  \nI'm also evaluating best practices for path resolution and previewing actions before execution to prevent errors",
+         "I determine the appropriate path by first accessing the system's designated videos folder, ensuring compatibility across different environments. If that path is unavailable, I fall back to the standard user profile location to maintain functionality. I then proceed to clear its contents while preserving critical metadata files like desktop.ini, ensuring integrity without disrupting system expectations.",
+         "I am ensuring the script operates with precision by first simulating its actions to verify intent and impact, safeguarding against unintended data loss.  \nI am enhancing error handling by making failures visible rather than suppressed, enabling clear diagnostics through explicit feedback or structured logging.  \nI am addressing potential path length limitations and file system constraints with robust techniques, while respecting system integrity and known folder conventions.",
+         "I am assessing the risks of deleting user-specific data, particularly system-critical registry hives and profile-related files that maintain user settings.  \nI recognize that removing entire AppData folders can destabilize user profiles and recommend excluding essential directories like Desktop, Downloads, and user configuration files.  \nI am designing a safe, targeted cleanup approach that preserves core user data while efficiently removing temporary or unnecessary content.",
+         "Reviso la existencia del directorio de entrada para asegurar que sea válido.  \nEvalúo cada elemento encontrado, excluyendo aquellos cuyo nombre coincida con las excepciones definidas y evitando operaciones sobre puntos de reanálisis que podrían causar efectos no deseados.  \nProcedo a eliminar los elementos restantes, mostrando una previsualización si se activa el modo simulado, o realizando la eliminación directamente si no lo está.",
+         "I am assessing how to balance deletion precision with the risk of unintended removal, especially when dealing with symbolic links and junction points that must be preserved.  \nI consider the trade-offs between using exclusion filters and filtering via conditional logic, recognizing that certain naming patterns could interfere with pattern matching.  \nI weigh the need for simplicity against robustness, aiming to ensure only intended content is removed without compromising system integrity.",
+         "I am carefully evaluating the structure of user profiles, recognizing that certain folders like Application Data and Local Settings are either symbolic links or hidden, which can lead to unintended consequences if not handled properly.  \nI consider the risk of damaging applications by removing essential data stores such as those under AppData, even though the registry hive is excluded.  \nI recommend using cautious, non-destructive testing with a preview mechanism before executing any deletion to confirm intent and avoid irreversible errors.",
+         "When dealing with directory removal, filtering through name comparison proves more reliable than relying on exclusion parameters, especially in complex scenarios involving nested paths and recursive actions.  \nCase-insensitive matching ensures consistent behavior across different naming conventions.  \nFor robust alternatives, a mirroring strategy using a dedicated tool can achieve similar results while minimizing risks.",
+         "El análisis revela que la solución actual, aunque funcional, presenta riesgos potenciales debido a exclusiones insuficientes y manejo inadecuado de errores. Se identifican elementos críticos como archivos de registro del perfil de usuario que deben protegerse cuando el usuario está activo, así como puntos de montaje y rutas extensas que requieren atención especial.\n\nSe considera la necesidad de reforzar el control mediante filtrado más preciso y evitar supresiones silenciosas que ocultan fallos. También se valora la importancia de adaptar el enfoque según el contexto de ejecución, especialmente si opera con privilegios elevados.\n\nFinalmente, se concluye que una versión mejorada debe integrar mecanismos de exclusión inteligente, seguimiento de eventos y ajustes contextuales para asegurar una operación confiable y segura.",
+         "Assessing the correct .NET enumeration syntax in PowerShell, confirming that direct method calls using string parameters are supported through implicit conversion  \nEnsuring robust handling of user profile paths and avoiding file locks by recommending alternative execution contexts  \nConsidering minimal structural preservation and exploring efficient data migration alternatives for large directories",
+         "I am considering the most reliable way to retrieve known folder locations using type accelerators and nested types, ensuring compatibility across different environments  \nI evaluate whether to use direct type references or dynamic casting for consistency and simplicity  \nI also assess fallback strategies when paths might be unavailable, prioritizing robustness without overcomplicating the logic",
+         "I verify the target location is valid and treat it as a container before proceeding  \nI maintain a case-insensitive list of excluded names to prevent unintended deletions  \nI handle symbolic links gracefully by skipping them, and operate in dry-run mode when appropriate",
+         "Estoy diseñando un enfoque cuidadoso para limpiar el perfil de usuario, priorizando la prevención de errores mediante una fase de simulación inicial.  \nEvalúo cómo registrar cada acción de forma consistente, asegurando que tanto las operaciones como los mensajes de error se capturen adecuadamente.  \nConsidero métodos seguros para manejar posibles fallos sin interrumpir el proceso, manteniendo la claridad y robustez del flujo.  \nEl objetivo es ofrecer una solución confiable que permita verificar el impacto antes de aplicar cambios reales.",
+         "I am assessing the target directory to ensure it exists and is valid before proceeding.  \nI maintain a set of excluded names for efficient lookup, ensuring specified items are preserved.  \nI process each item, skipping symbolic links or junctions, and either simulate deletion or execute removal based on the selected mode.",
+         "I am ensuring type safety by explicitly referencing the fully qualified name to avoid potential resolution issues with type accelerators  \nI am considering output visibility options, balancing verbosity with user experience  \nI am verifying logic integrity, particularly around null checks and path validation, to prevent runtime inconsistencies",
+         "I consider the implications of symbolic links and junctions, recognizing their potential for causing unintended consequences.  \nThe focus remains on safely preserving user data while removing unnecessary or temporary files.  \nA minimal, precise script is designed to target specific items without affecting critical system or personal directories.",
+         "I am assessing the logic behind removing video directories and system-related files, ensuring that exclusions are properly interpreted in a case-insensitive environment.  \nI consider how naming patterns like log files might not match expectations due to variations in extension casing or suffixes such as .LOG1 or .LOG2.  \nI also evaluate the robustness of exclusion methods, suggesting more reliable approaches when exact or case-sensitive matching is required.",
+         "I assess the risks associated with modifying active user profiles, particularly regarding locked system files like ntuser.dat that cannot be altered while in use.  \nI recognize that certain operations may silently fail due to access restrictions, and thus recommend alternative approaches for complete profile removal when necessary.  \nI draw upon authoritative documentation to ensure guidance is accurate and aligned with best practices for system integrity and user data management.",
+         "Estos archivos están vinculados al sistema de registro transaccional introducido en Windows Vista, que garantiza la integridad de los datos mediante copias de seguridad temporales.  \nAunque la documentación oficial no siempre menciona explícitamente los nombres de archivo .LOG1/.LOG2, su presencia es bien conocida y consistente con el diseño del registro transaccional.  \nLa información se sustenta en fuentes oficiales sobre el registro de Windows y el manejo de perfiles de usuario, donde se confirma que cada perfil de usuario tiene una hive NTUSER.DAT con mecanismos de recuperación asociados.",
+         "Evalúo cuidadosamente cada paso para garantizar que las operaciones sobre el sistema de archivos sean seguras y respeten las convenciones del entorno Windows.  \nVerifico la correcta resolución de tipos y atributos, asegurando compatibilidad con el entorno .NET sin dependencias ambiguas.  \nFinalmente, ofrezco una versión pulida, funcional y robusta, alineada con buenas prácticas de desarrollo y uso del sistema.",
+         "I am assessing the use of type accelerators for clarity and safety, ensuring consistent array syntax with explicit separators to prevent ambiguity.  \nI consider the inclusion of certain settings, ultimately deciding they are unnecessary for the current context.  \nI focus on robustness by validating variable definitions and data structures, prioritizing readability and maintainability.",
+         "I'm assessing the safety and correctness of the deletion process, ensuring it only targets specific directories while preserving essential user folders like Desktop, Downloads, Pictures, and Videos.  \nI'm aware that Documents is not being excluded, which could lead to unintended data loss, and I'm considering whether to add safeguards or warnings.  \nI'm also evaluating the need for elevated privileges and how to handle locked files without disrupting the workflow.",
+         "I am assessing the potential oversight in the user's instructions, particularly concerning commonly preserved directories such as Documents, Music, Favorites, Links, and OneDrive.  \nI recognize that omitting these could lead to unintended data loss, especially since some folders like Documents and OneDrive are often central to user workflows or cloud synchronization.  \nI am considering whether the user intends to retain these standard locations, and I will highlight this risk to prevent irreversible deletion.",
+         "I am evaluating the implications of known folder redirection, particularly when cloud storage services reconfigure standard paths.  \nI recognize that relying solely on profile root locations may fail if symbolic links or virtualized folders exist.  \nI am considering a solution that leverages system-defined folder identifiers to preserve actual user locations regardless of physical placement.",
+         "I am considering the inclusion of a pre-check mechanism to display items slated for removal, enhancing transparency without complicating the process.  \nI weigh the necessity of highlighting hidden or system files, acknowledging their presence while emphasizing caution in deletion.  \nI aim to provide clear guidance on verification and deployment, ensuring reliability across environments.",
+         "Me enfoco en reemplazar métodos agresivos por operaciones más controladas y confiables, priorizando la integridad del sistema.  \nIncorporo verificaciones inteligentes para evitar errores comunes, como la eliminación de archivos críticos o perfiles activos.  \nOfrezco alternativas ajustadas a distintos niveles de necesidad, desde una solución robusta hasta una corrección mínima que preserva el formato original.",
+         "I am evaluating whether to include a specialized copying mechanism as an optional enhancement, recognizing its utility for complex directory structures while maintaining simplicity for general use  \nThe approach would involve temporary staging and careful exclusion of specific directories to prevent unintended modifications  \nI weigh the benefits of added reliability against potential user confusion, ultimately favoring clarity and minimalism unless complexity is warranted",
+         "I am assessing how exclusion rules affect directory handling during synchronization, particularly when matching names across nested structures.  \nI consider the nuances of path versus name-based filtering and the potential risks of unintended data loss when operating on empty sources.  \nI also reflect on sourcing authoritative documentation to support best practices and clarify common misconceptions.",
+         "I am ensuring that all referenced information is consistent with authoritative sources, particularly regarding system behavior in Windows environments.  \nI am carefully evaluating the nuances of parameter functionality, especially around exclusion logic in recursive operations, to avoid misleading interpretations.  \nI am emphasizing clarity and precision by aligning statements with documented behaviors and highlighting potential misconceptions.",
+         "I am examining how filtering mechanisms respond to different path specifications, particularly when excluding certain patterns.  \nEven without explicit wildcards in the path, the system may still apply exclusions effectively, though documentation often emphasizes wildcard usage.  \nThis suggests a discrepancy between formal guidance and practical behavior, where real-world usage sometimes diverges from expected outcomes.",
+         "I am assessing how path patterns and exclusion rules interact within directory traversal, particularly noting that certain syntaxes like wildcards or recursive indicators may alter expected outcomes.  \nI recognize that exclusion logic often applies post-retrieval, relying on provider-specific implementations that can lead to inconsistencies, especially with edge cases involving directory names.  \nTo ensure predictable results, especially in sensitive scenarios, I recommend explicit filtering through direct evaluation rather than relying on implicit provider behaviors.",
+         "I am ensuring the array of excluded directories is both robust and user-friendly by clearly marking optional entries for preservation.  \nI am considering edge cases such as hidden or system attributes, making sure exclusions by name remain effective even in complex scenarios.  \nI am structuring the comments to guide users without introducing syntax errors, using clear, natural language.  \nI am verifying that the logic supports preserving a folder like DRIVE within Videos only when the parent directory becomes empty.",
+         "I verify that each element in the list is properly separated by commas, even when comments follow, to prevent syntax issues.  \nI confirm that conditional logic uses boolean values directly to simplify control flow and avoid unnecessary complexity.  \nI ensure parameter handling remains intuitive and robust by leveraging type-safe declarations.",
+         "I am ensuring that only non-excluded items are processed by leveraging a case-insensitive set for efficient lookup.  \nI handle symbolic links or reparse points by skipping them early, preserving integrity during operations.  \nI verify the target directory exists and fall back to a default path if necessary, maintaining robustness.",
+         "I ensure the operation targets only the designated folder while preserving essential system paths, avoiding unintended deletions by checking for symbolic links or junctions.  \nI account for potential runtime conflicts by warning about locked files when operating under the current user session and recommend elevated privileges or offline execution for full effect.  \nI emphasize the importance of pausing cloud synchronization services to prevent accidental data propagation, maintaining integrity across devices.",
+         "Estoy asegurando que la solución sea precisa y segura, considerando cómo se manejan los elementos excluidos y el impacto en las carpetas del usuario.  \nEvalúo cuidadosamente posibles discrepancias entre nombres visibles en el explorador y los reales en el sistema de archivos, especialmente en entornos localizados.  \nFinalmente, verifico que todas las referencias técnicas sean relevantes y se presenten de forma clara para el usuario hispanohablante.",
+         "Analizo las fuentes oficiales de Microsoft relacionadas con carpetas especiales, redirección de carpetas conocidas y eliminación de perfiles de usuario, asegurando que las referencias sean exactas y útiles.  \nConsidero los riesgos asociados a scripts destructivos, especialmente en entornos productivos, y decido incluir advertencias claras y un modo simulación para prevenir errores irreversibles.  \nEvalúo el manejo de errores en el código, optando por redirigir salidas de error a Write-Warning sin interrumpir el flujo, lo que permite visualizar problemas sin detener la ejecución.  \nFinalmente, estructuro la respuesta con encabezados claros, código bien documentado y una introducción que valida el script como punto de partida, recomendando mejoras para producción.",
+         "I consider how to manage non-terminating errors without cluttering output, ensuring users see issues when needed but can suppress them if desired.  \nI evaluate the behavior of force operations on protected files and acknowledge limitations when files are locked.  \nI incorporate logging flexibility through standard stream redirection, enabling clean audit trails without complicating the core logic.",
+         "I am verifying the correct syntax for accessing nested enumeration members in PowerShell, ensuring compatibility with .NET's type system.  \nI consider alternative approaches to avoid potential ambiguity, favoring explicit enumeration references for reliability.  \nI confirm that using the GetFolderPath method with a properly referenced enum member is both valid and safer than string-based lookup.",
+         "I confirm that PowerShell handles string-to-enum conversion seamlessly when invoking .NET methods, especially with well-known identifiers like 'MyVideos'  \nThis approach avoids the complexity of nested enum syntax and maintains clarity across different PowerShell versions  \nThe solution is both robust and elegant, leveraging PowerShell’s built-in type resolution capabilities",
+         "I am designing a solution that leverages system-defined paths to identify user directories while ensuring safe and efficient filtering.  \nI consider edge cases such as case-insensitive matching and path validation to prevent unintended deletions.  \nThe structure prioritizes clarity, extensibility, and compatibility across environments.",
+         "Estoy procesando cada elemento dentro de una ruta especificada, respetando las exclusiones establecidas por nombre.  \nSi un elemento es un punto de enlace o un archivo oculto, se maneja adecuadamente sin interferir con la lógica de exclusión.  \nLa simulación permite visualizar qué se eliminaría antes de ejecutar la acción definitiva.  \nEl proceso garantiza que solo se actúe sobre los elementos que no están en la lista de excepciones, preservando así la integridad del sistema."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "fb76bf85-3361-4aa2-95dc-4550f61340b1",
+      "usage": {
+       "input_tokens": 294,
+       "output_tokens": 12520,
+       "characters": 0,
+       "total_tokens": 12814,
+       "input_tokens_details": {
+        "text_tokens": 294
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 12514,
+        "text_tokens": 12520
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1786646841
+     },
+     {
+      "content": "Tu script hace exactamente lo que describe, pero es **muy agresivo** y tiene varios puntos que conviene corregir antes de usarlo en un entorno real:\n\n- `-Exclude` puede ser menos predecible que filtrar explícitamente con `Where-Object`.\n- Faltan archivos de registro del hive del usuario: normalmente también existen `ntuser.dat.LOG1` y `ntuser.dat.LOG2`.\n- Estás borrando todo lo demás de la raíz del perfil, incluyendo por ejemplo `AppData`, `Documents`, `Music`, `OneDrive`, etc., si existen.\n- `-ErrorAction SilentlyContinue` oculta errores; en un borrado destructivo suele ser mejor ver o registrar fallos.\n- Si `Videos` está redirigido a OneDrive o a otra ruta, `$env:USERPROFILE\\Videos` puede no ser la ruta real.\n- Hay que tener cuidado con junctions/symlinks y rutas largas.\n\n---\n\n## Versión más segura y robusta\n\nEsta versión:\n\n- Usa `-LiteralPath` para evitar problemas con rutas que tengan caracteres especiales.\n- Filtra con `HashSet` para exclusiones rápidas y sin depender tanto del comportamiento de `-Exclude`.\n- Excluye también `ntuser.dat.LOG1` y `ntuser.dat.LOG2`.\n- Permite simular antes de borrar.\n- Omite puntos de reanálisis/junctions para evitar borrados inesperados.\n- Usa la carpeta real conocida de Videos mediante `[System.Environment]::GetFolderPath('MyVideos')`.\n\n```powershell\n# ============================================================\n# Limpieza selectiva de perfil de usuario\n# ============================================================\n\n# Cambia a $false cuando hayas verificado qué se va a borrar\n$simular = $true\n\n# Exclusiones en la raíz del perfil\n$excluirRaiz = @(\n    'Desktop',\n    'Downloads',\n    'Pictures',\n    'Videos',\n    'ntuser.dat',\n    'ntuser.ini',\n    'ntuser.dat.LOG',\n    'ntuser.dat.LOG1',\n    'ntuser.dat.LOG2',\n\n    # Descomenta si también quieres conservar estas carpetas:\n    # 'AppData',\n    # 'Documents',\n    # 'Music',\n    # 'OneDrive',\n    # 'Favorites',\n    # 'Links',\n    # 'Saved Games',\n    # 'Searches'\n)\n\n# Exclusiones dentro de Videos\n$excluirVideos = @(\n    'DRIVE'\n)\n\nfunction Invoke-CleanupFolder {\n    param(\n        [Parameter(Mandatory)]\n        [string] $Folder,\n\n        [string[]] $Exclude = @(),\n\n        [bool] $Simulate = $true\n    )\n\n    if (-not (Test-Path -LiteralPath $Folder -PathType Container)) {\n        Write-Warning \"No existe o no es una carpeta: $Folder\"\n        return\n    }\n\n    # Conjunto de exclusiones sin distinguir mayúsculas/minúsculas\n    $exclusionSet = [System.Collections.Generic.HashSet[string]]::new(\n        [System.StringComparer]::OrdinalIgnoreCase\n    )\n\n    foreach ($name in $Exclude) {\n        if (-not [string]::IsNullOrWhiteSpace($name)) {\n            [void]$exclusionSet.Add($name.Trim())\n        }\n    }\n\n    Get-ChildItem -LiteralPath $Folder -Force -ErrorAction SilentlyContinue |\n        Where-Object { -not $exclusionSet.Contains($_.Name) } |\n        ForEach-Object {\n\n            # Evitar borrar junctions / symlinks / reparse points\n            if ($_.Attributes -band [System.IO.FileAttributes]::ReparsePoint) {\n                Write-Warning \"Se omite punto de reanálisis: $($_.FullName)\"\n                return\n            }\n\n            if ($Simulate) {\n                Write-Host \"[SIMULACIÓN] Se borraría: $($_.FullName)\"\n            } else {\n                Remove-Item -LiteralPath $_.FullName -Recurse -Force -Confirm:$false -ErrorAction Continue\n            }\n        }\n}\n\n# ============================================================\n# 1. Limpiar raíz del perfil excepto exclusiones\n# ============================================================\n\nInvoke-CleanupFolder -Folder $env:USERPROFILE -Exclude $excluirRaiz -Simulate $simular\n\n# ============================================================\n# 2. Limpiar Videos excepto DRIVE\n# ============================================================\n\n# Obtiene la ruta real conocida de Videos, incluso si está redirigida\n$videosPath = [System.Environment]::GetFolderPath('MyVideos')\n\n# Si no existe o no devuelve ruta, usar la ruta clásica\nif ([string]::IsNullOrWhiteSpace($videosPath) -or -not (Test-Path -LiteralPath $videosPath -PathType Container)) {\n    $videosPath = Join-Path -Path $env:USERPROFILE -ChildPath 'Videos'\n}\n\nInvoke-CleanupFolder -Folder $videosPath -Exclude $excluirVideos -Simulate $simular\n```\n\n---\n\n## Cómo usarlo correctamente\n\nPrimero ejecuta el script con:\n\n```powershell\n$simular = $true\n```\n\nVerás algo como:\n\n```text\n[Simulación] Se borraría: C:\\Users\\Usuario\\AppData\n[Simulación] Se borraría: C:\\Users\\Usuario\\Documents\n[Simulación] Se borraría: C:\\Users\\Usuario\\Videos\\CarpetaX\n```\n\nRevisa la lista. Si estás seguro, cambia:\n\n```powershell\n$simular = $false\n```\n\n---\n\n## Corrección mínima de tu script original\n\nSi quieres mantener tu estructura original, una versión corregida sería esta:\n\n```powershell\n# Exclusiones principales en la raíz del usuario\n$excluir = @(\n    \"Desktop\",\n    \"Downloads\",\n    \"Pictures\",\n    \"Videos\",\n    \"ntuser.dat\",\n    \"ntuser.ini\",\n    \"ntuser.dat.LOG\",\n    \"ntuser.dat.LOG1\",\n    \"ntuser.dat.LOG2\"\n)\n\n# 1. Borrar todo en la raíz del usuario excepto las exclusiones\nGet-ChildItem -LiteralPath $env:USERPROFILE -Force |\n    Where-Object { $excluir -notcontains $_.Name } |\n    Remove-Item -Recurse -Force -Confirm:$false -ErrorAction Continue\n\n# 2. Borrar dentro de Videos todo excepto DRIVE\n$rutaVideos = Join-Path -Path $env:USERPROFILE -ChildPath \"Videos\"\n\nif (Test-Path -LiteralPath $rutaVideos -PathType Container) {\n    Get-ChildItem -LiteralPath $rutaVideos -Force |\n        Where-Object { $_.Name -ne \"DRIVE\" } |\n        Remove-Item -Recurse -Force -Confirm:$false -ErrorAction Continue\n}\n```\n\nImportante: esta versión mínima sigue borrando `AppData`, `Documents`, `Music`, `OneDrive`, etc., si existen y no están excluidos.\n\n---\n\n## Versión todavía más segura usando `-WhatIf`\n\nAntes de borrar de verdad, puedes usar `-WhatIf`:\n\n```powershell\n$excluir = @(\n    \"Desktop\",\n    \"Downloads\",\n    \"Pictures\",\n    \"Videos\",\n    \"ntuser.dat\",\n    \"ntuser.ini\",\n    \"ntuser.dat.LOG\",\n    \"ntuser.dat.LOG1\",\n    \"ntuser.dat.LOG2\"\n)\n\nGet-ChildItem -LiteralPath $env:USERPROFILE -Force |\n    Where-Object { $excluir -notcontains $_.Name } |\n    Remove-Item -Recurse -Force -WhatIf\n```\n\nY para Videos:\n\n```powershell\n$rutaVideos = Join-Path -Path $env:USERPROFILE -ChildPath \"Videos\"\n\nif (Test-Path -LiteralPath $rutaVideos -PathType Container) {\n    Get-ChildItem -LiteralPath $rutaVideos -Force |\n        Where-Object { $_.Name -ne \"DRIVE\" } |\n        Remove-Item -Recurse -Force -WhatIf\n}\n```\n\nSi la salida de `-WhatIf` muestra exactamente lo que esperas, entonces quitas `-WhatIf` y ejecutas el borrado real.\n\n---\n\n## Punto crítico: `AppData`\n\nTu exclusión actual no incluye `AppData`.\n\nEsto significa que este comando:\n\n```powershell\nGet-ChildItem -Path $env:USERPROFILE -Force -Exclude $excluir | Remove-Item -Recurse -Force\n```\n\nborrará:\n\n```text\nC:\\Users\\Usuario\\AppData\n```\n\nEso puede dejar aplicaciones sin configuración, perfiles corruptos, navegadores sin datos, accesos rotos, cachés eliminadas, configuraciones de usuario perdidas, etc.\n\nSi tu intención es conservar el perfil funcional, agrega:\n\n```powershell\n'AppData'\n```\n\na la lista de exclusiones.\n\nSi realmente quieres borrar `AppData`, hazlo solo bajo una estrategia clara de limpieza o despliegue, preferiblemente con el usuario cerrado o desde una cuenta administrativa.\n\n---\n\n## Punto crítico: `Documents`, `Music`, `OneDrive`\n\nTu lista protege:\n\n```powershell\nDesktop\nDownloads\nPictures\nVideos\n```\n\nPero no protege:\n\n```text\nDocuments\nMusic\nOneDrive\nFavorites\nLinks\nSaved Games\nSearches\n```\n\nEspecial cuidado con `OneDrive`.\n\nSi existe:\n\n```text\nC:\\Users\\Usuario\\OneDrive\n```\n\ny OneDrive está sincronizando, borrar ese contenido localmente puede provocar que los archivos también se eliminen en la nube, según el estado de sincronización y configuración.\n\nSi quieres conservar esas carpetas, usa algo como:\n\n```powershell\n$excluir = @(\n    \"Desktop\",\n    \"Downloads\",\n    \"Pictures\",\n    \"Videos\",\n    \"Documents\",\n    \"Music\",\n    \"OneDrive\",\n    \"ntuser.dat\",\n    \"ntuser.ini\",\n    \"ntuser.dat.LOG\",\n    \"ntuser.dat.LOG1\",\n    \"ntuser.dat.LOG2\"\n)\n```\n\n---\n\n## Punto crítico: `ntuser.dat.LOG`\n\nEn versiones modernas de Windows, además de:\n\n```text\nntuser.dat\nntuser.ini\nntuser.dat.LOG\n```\n\npueden existir:\n\n```text\nntuser.dat.LOG1\nntuser.dat.LOG2\n```\n\nPor eso conviene incluirlos.\n\nUna lista más completa sería:\n\n```powershell\n$excluir = @(\n    \"Desktop\",\n    \"Downloads\",\n    \"Pictures\",\n    \"Videos\",\n    \"ntuser.dat\",\n    \"ntuser.ini\",\n    \"ntuser.dat.LOG\",\n    \"ntuser.dat.LOG1\",\n    \"ntuser.dat.LOG2\"\n)\n```\n\n---\n\n## Punto crítico: `Videos` puede estar redirigido\n\nEn muchos equipos, especialmente con OneDrive Known Folder Move, la carpeta real de Videos puede no estar en:\n\n```text\nC:\\Users\\Usuario\\Videos\n```\n\nPuede estar en algo como:\n\n```text\nC:\\Users\\Usuario\\OneDrive\\Videos\n```\n\nPor eso es mejor usar:\n\n```powershell\n[System.Environment]::GetFolderPath('MyVideos')\n```\n\nEjemplo:\n\n```powershell\n$rutaVideos = [System.Environment]::GetFolderPath('MyVideos')\n\nif (-not (Test-Path -LiteralPath $rutaVideos -PathType Container)) {\n    $rutaVideos = Join-Path -Path $env:USERPROFILE -ChildPath \"Videos\"\n}\n```\n\nEsto obtiene la ruta real registrada para la carpeta Videos.\n\n---\n\n## Punto crítico: `-Exclude` vs `Where-Object`\n\nTu script usa:\n\n```powershell\nGet-ChildItem -Path $env:USERPROFILE -Force -Exclude $excluir\n```\n\nEsto puede funcionar, pero para operaciones destructivas es más seguro filtrar explícitamente:\n\n```powershell\nGet-ChildItem -LiteralPath $env:USERPROFILE -Force |\n    Where-Object { $excluir -notcontains $_.Name }\n```\n\nVentajas:\n\n- Controlas exactamente qué propiedad se compara.\n- Es más fácil de depurar.\n- Evitas comportamientos inesperados del proveedor.\n- Puedes agregar condiciones adicionales, como omitir junctions, archivos de sistema, etc.\n\nEjemplo:\n\n```powershell\nGet-ChildItem -LiteralPath $env:USERPROFILE -Force |\n    Where-Object { $excluir -notcontains $_.Name } |\n    Select-Object FullName, Attributes, Length\n```\n\nEsto te permite revisar antes de borrar.\n\n---\n\n## Versión con registro/log\n\nSi quieres guardar evidencia de lo borrado, puedes usar:\n\n```powershell\n$simular = $false\n$log = Join-Path $env:TEMP \"cleanup_user_$(Get-Date -Format 'yyyyMMdd_HHmmss').log\"\n\n\"* Inicio: $(Get-Date)\" | Out-File -FilePath $log -Encoding UTF8\n\n$excluirRaiz = @(\n    'Desktop',\n    'Downloads',\n    'Pictures',\n    'Videos',\n    'ntuser.dat',\n    'ntuser.ini',\n    'ntuser.dat.LOG',\n    'ntuser.dat.LOG1',\n    'ntuser.dat.LOG2'\n)\n\nGet-ChildItem -LiteralPath $env:USERPROFILE -Force |\n    Where-Object { $excluirRaiz -notcontains $_.Name } |\n    ForEach-Object {\n        \"Borrando: $($_.FullName)\" | Out-File -FilePath $log -Append -Encoding UTF8\n        if (-not $simular) {\n            Remove-Item -LiteralPath $_.FullName -Recurse -Force -Confirm:$false -ErrorAction Continue\n        }\n    }\n\n$videosPath = [System.Environment]::GetFolderPath('MyVideos')\n\nif ([string]::IsNullOrWhiteSpace($videosPath) -or -not (Test-Path -LiteralPath $videosPath -PathType Container)) {\n    $videosPath = Join-Path -Path $env:USERPROFILE -ChildPath 'Videos'\n}\n\nif (Test-Path -LiteralPath $videosPath -PathType Container) {\n    Get-ChildItem -LiteralPath $videosPath -Force |\n        Where-Object { $_.Name -ne 'DRIVE' } |\n        ForEach-Object {\n            \"Borrando en Videos: $($_.FullName)\" | Out-File -FilePath $log -Append -Encoding UTF8\n            if (-not $simular) {\n                Remove-Item -LiteralPath $_.FullName -Recurse -Force -Confirm:$false -ErrorAction Continue\n            }\n        }\n}\n\n\"* Fin: $(Get-Date)\" | Out-File -FilePath $log -Append -Encoding UTF8\n\nWrite-Host \"Registro guardado en: $log\"\n```\n\n---\n\n## Si el objetivo real es eliminar el perfil completo\n\nSi lo que quieres no es limpiar parcialmente el perfil, sino eliminar correctamente el perfil de usuario, no es recomendable borrar manualmente la carpeta del usuario.\n\nLa forma más correcta en Windows es usar `Win32_UserProfile`.\n\nEjemplo para eliminar el perfil asociado a una ruta concreta:\n\n```powershell\n$perfilObjetivo = $env:USERPROFILE\n\nGet-CimInstance -ClassName Win32_UserProfile |\n    Where-Object { $_.LocalPath -eq $perfilObjetivo } |\n    Remove-CimInstance\n```\n\nEsto debería ejecutarse:\n\n- Con permisos administrativos.\n- Sin tener el perfil cargado.\n- Preferiblemente desde otra cuenta administrativa.\n- Idealmente sin la sesión del usuario activa.\n\nSi el perfil está cargado, puede fallar.\n\n---\n\n## Recomendación final\n\nSi tu objetivo es “dejar limpio el usuario pero conservar carpetas básicas”, yo usaría esta lista mínima:\n\n```powershell\n$excluir = @(\n    \"Desktop\",\n    \"Downloads\",\n    \"Pictures\",\n    \"Videos\",\n    \"Documents\",\n    \"Music\",\n    \"AppData\",\n    \"OneDrive\",\n    \"ntuser.dat\",\n    \"ntuser.ini\",\n    \"ntuser.dat.LOG\",\n    \"ntuser.dat.LOG1\",\n    \"ntuser.dat.LOG2\"\n)\n```\n\nY si realmente quieres borrar también `AppData`, `Documents`, `Music` y `OneDrive`, entonces tu script original es conceptualmente válido, pero deberías ejecutarlo primero con `-WhatIf` o con simulación.\n\n---\n\n## Fuentes oficiales relevantes\n\nDocumentación Microsoft aplicable:\n\n- `Get-ChildItem`, parámetros `-Exclude`, `-Force`, `-LiteralPath`:  \n  https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-childitem\n\n- `Remove-Item`, parámetros `-Recurse`, `-Force`, `-WhatIf`:  \n  https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.management/remove-item\n\n- `Environment.SpecialFolder`, para obtener rutas conocidas como Videos:  \n  https://learn.microsoft.com/en-us/dotnet/api/system.environment.specialfolder\n\n- `Win32_UserProfile`, para eliminación correcta de perfiles de usuario:  \n  https://learn.microsoft.com/en-us/windows/win32/cimwin32prov/win32-userprofile\n\n- Redirección de carpetas conocidas / OneDrive Known Folder Move:  \n  https://learn.microsoft.com/en-us/sharepoint/redirect-known-folders",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "fb76bf85-3361-4aa2-95dc-4550f61340b1",
+      "usage": {
+       "input_tokens": 294,
+       "output_tokens": 16386,
+       "characters": 0,
+       "total_tokens": 16680,
+       "input_tokens_details": {
+        "text_tokens": 294
+       },
+       "output_tokens_details": {
+        "reasoning_tokens": 12514,
+        "text_tokens": 16386
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1786646905
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1786646906.0747068
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1786646563
+   }
+  ]
+ },
+ "updated_at": 1786646906,
+ "created_at": 1786646563,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1786646562144
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "fb76bf85-3361-4aa2-95dc-4550f61340b1"
+ ],
+ "currentId": "fb76bf85-3361-4aa2-95dc-4550f61340b1",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

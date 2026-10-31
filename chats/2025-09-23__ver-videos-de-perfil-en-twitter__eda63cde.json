@@ -1,0 +1,1017 @@
+{
+ "id": "eda63cde-c533-472e-aa9d-5af5718fea4d",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Ver Videos de Perfil en Twitter",
+ "chat": {
+  "history": {
+   "messages": {
+    "8ecc18e3-6847-4d88-8cad-cda3bc4a928c": {
+     "id": "8ecc18e3-6847-4d88-8cad-cda3bc4a928c",
+     "role": "user",
+     "content": "Como ver videos de perfil de twitter por otra plataforma. Mejor solo de videos",
+     "models": [
+      "qwen3-max-preview"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "a8c6ac19-8fb0-4d96-a9ee-8d4047cd8827"
+     ],
+     "files": [],
+     "timestamp": 1758627622
+    },
+    "a8c6ac19-8fb0-4d96-a9ee-8d4047cd8827": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3-max-preview",
+     "modelName": "Qwen3-Max-Preview",
+     "modelIdx": 0,
+     "id": "a8c6ac19-8fb0-4d96-a9ee-8d4047cd8827",
+     "parentId": "8ecc18e3-6847-4d88-8cad-cda3bc4a928c",
+     "childrenIds": [
+      "fb2ddf1c-f3c7-4b17-ae39-eff0be396c90"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [
+      {
+       "content": "Actualmente, **Twitter (ahora X)** no ofrece una forma oficial de ver *solo los videos* de un perfil desde otra plataforma, pero hay métodos no oficiales y herramientas externas que pueden ayudarte a lograrlo. Aquí te explico las mejores opciones disponibles en 2024:\n\n---\n\n## ✅ Opción 1: Usar herramientas de terceros (webs)\n\n### 🌐 1. [TwDownload](https://twdownload.com/) o [Twitter Video Downloader](https://twittervideodownloader.com/)\nEstas webs te permiten:\n- Pegar el **perfil de Twitter** (ej: `https://twitter.com/usuario`)\n- Extraer **todos los tweets con videos** del perfil\n- Descargar o reproducir solo los videos\n\n👉 **Pasos:**\n1. Ve a [twittervideodownloader.com](https://twittervideodownloader.com/)\n2. Pega la URL del perfil (ej: `https://twitter.com/elonmusk`)\n3. Haz clic en “Download” o “Fetch Tweets”\n4. Te mostrará una lista de tweets con videos → puedes reproducirlos o descargarlos uno por uno.\n\n> ⚠️ No siempre funciona con perfiles privados o con muchos tweets. A veces requiere login o tiene límites.\n\n---\n\n### 🌐 2. [Nitter](https://nitter.net/) (alternativa ligera a Twitter)\n- Es un frontend de código abierto para Twitter, sin rastreo.\n- No muestra *solo videos*, pero es más ligero y puedes filtrar manualmente.\n- Algunas instancias de Nitter permiten ver tweets con media.\n\n👉 Ejemplo:  \n`https://nitter.net/usuario` → luego busca manualmente los tweets con ícono de video.\n\n---\n\n## ✅ Opción 2: Usar Google con operadores de búsqueda\n\nPuedes buscar videos de un perfil específico usando Google:\n\n```\nsite:twitter.com/@usuario filter:videos\n```\n\nO también:\n\n```\nfrom:@usuario has:video site:twitter.com\n```\n\n➡️ Esto te lleva a tweets del usuario que contienen videos. Luego puedes abrirlos uno por uno.\n\n> 🔍 Funciona mejor en Google o en la búsqueda avanzada de X.\n\n---\n\n## ✅ Opción 3: Usar la API de X (requiere programación)\n\nSi sabes programar, puedes usar la **API de X (Twitter API v2)** para:\n- Obtener tweets de un usuario\n- Filtrar solo los que tienen `attachments.media_keys` con tipo `video`\n- Extraer URLs de los videos y reproducirlos en tu propia web/app\n\nDocumentación:  \n👉 [https://developer.twitter.com/en/docs/twitter-api](https://developer.twitter.com/en/docs/twitter-api)\n\n---\n\n## ✅ Opción 4: Extensiones de navegador\n\n### 🛠️ \"Twitter Media Extractor\" (Chrome/Firefox)\n- Extrae automáticamente todos los videos y fotos de un perfil cuando lo visitas.\n- Te los muestra en una pestaña separada o lista descargable.\n\n> Busca en la tienda de extensiones: “Twitter video downloader” o “Media extractor”.\n\n---\n\n## ❗ Limitaciones importantes:\n\n- Twitter/X ha restringido mucho el acceso a contenido sin login.\n- Muchas herramientas dejan de funcionar si el perfil es **privado**.\n- Algunas webs pueden tener anuncios o pedir captcha.\n- Twitter puede bloquear IPs o cuentas si detecta scraping masivo.\n\n---\n\n## 🎯 Recomendación final (la más fácil):\n\n> **Usa [twittervideodownloader.com](https://twittervideodownloader.com/), pega el perfil, y filtra manualmente los videos.**  \n> Es rápido, no requiere instalación, y funciona en la mayoría de perfiles públicos.\n\n---\n\n¿Quieres que te recomiende una herramienta específica según tu sistema (Windows, móvil, etc.) o necesitas descargar los videos también? ¡Avísame y te ayudo con eso! 🚀",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "usage": {
+        "input_tokens": 24,
+        "output_tokens": 880,
+        "total_tokens": 904,
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       }
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1758627651.6236246
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1758627622
+    },
+    "fb2ddf1c-f3c7-4b17-ae39-eff0be396c90": {
+     "id": "fb2ddf1c-f3c7-4b17-ae39-eff0be396c90",
+     "role": "user",
+     "content": "En android. Alguna web estipo tw porsnstar",
+     "models": [
+      "qwen3-max-preview"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": "a8c6ac19-8fb0-4d96-a9ee-8d4047cd8827",
+     "turn_id": null,
+     "childrenIds": [
+      "88fcd156-495b-4f7d-88f9-affa506139f4"
+     ],
+     "files": [],
+     "timestamp": 1758627938
+    },
+    "88fcd156-495b-4f7d-88f9-affa506139f4": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3-max-preview",
+     "modelName": "Qwen3-Max-Preview",
+     "modelIdx": 0,
+     "id": "88fcd156-495b-4f7d-88f9-affa506139f4",
+     "parentId": "fb2ddf1c-f3c7-4b17-ae39-eff0be396c90",
+     "childrenIds": [
+      "ef1f303c-d06d-4b9c-ad81-e0e366902ee3"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [
+      {
+       "content": "¡Perfecto! Entiendo que buscas **una web o app para Android** que te permita ver **solo los videos de perfiles de Twitter (X)**, **sin tener que entrar a la app oficial**, y que sea **similar a “Tw Pornstar”** — que, por el nombre, parece una web enfocada en **contenido para adultos / NSFW**, filtrando solo videos de cuentas de ese tipo.\n\n⚠️ *Aclaración: “Tw Pornstar” no es un servicio oficial ni ampliamente conocido, y puede ser una web insegura, con anuncios maliciosos o contenido ilegal. Te recomiendo precaución.*\n\n---\n\n## 🎯 Lo que necesitas:\n✅ Ver **solo videos** de perfiles de Twitter/X  \n✅ Desde **Android**, en el navegador o app  \n✅ Preferiblemente **sin login**  \n✅ Enfocado en **contenido NSFW (si así lo deseas)**  \n✅ Tipo “Tw Pornstar” → simple, directo, solo videos\n\n---\n\n## 🔥 MEJORES ALTERNATIVAS ACTUALES (2024) PARA ANDROID\n\n### 1. 🌐 **[SSSTwitter](https://ssstwitter.com/es)** — *La más popular y segura*\n- Pegas el enlace del tweet o perfil.\n- Extrae videos en HD, sin marca de agua.\n- Funciona en móvil, sin app.\n- No muestra *solo videos del perfil completo*, pero puedes ir tweet por tweet.\n\n👉 **Truco para usarlo con perfiles:**\n1. Busca el perfil en Twitter: `https://twitter.com/usuario`\n2. Toca los 3 puntos → “Copiar enlace del tweet” en cada tweet con video.\n3. Pégalo en [SSSTwitter.com](https://ssstwitter.com/es) → ¡Descarga o reproduce!\n\n> ✅ Ligero, sin login, funciona en Android, sin anuncios molestos.\n\n---\n\n### 2. 🌐 **[Twitter Video Downloader - SaveTweetVid](https://www.savetweetvid.com/)**\n- Similar a SSSTwitter.\n- Soporta descarga de videos, GIFs y hasta hilos.\n- Interfaz limpia, funciona en Android.\n- No requiere login.\n\n---\n\n### 3. 🌐 **[TwDownload.com](https://twdownload.com/)** — *Para extraer múltiples videos de un perfil*\n- Pegas el link del perfil → te muestra tweets con videos.\n- Ideal si quieres ver varios videos de un usuario sin entrar a Twitter.\n- A veces lento o con captcha, pero funcional.\n\n---\n\n### 4. 🌐 **[Nitter + Filtro manual]** — *Alternativa libre y sin rastreo*\n- Usa una instancia de Nitter:  \n  👉 [https://nitter.net/usuario](https://nitter.net/usuario)  \n  (reemplaza \"usuario\" por el nombre del perfil)\n- No tiene botón de “solo videos”, pero puedes scrollear y ver fácilmente qué tweets tienen video (icono de cámara o play).\n- Ligero, sin JS pesado, perfecto para Android.\n\n> ✅ Recomendado si quieres evitar la app de X y ver contenido rápido.\n\n---\n\n## ⚠️ SOBRE “TW PORNSTAR” Y SITIOS SIMILARES\n\nMuchas webs con nombres como:\n- `tw-pornstar.com`\n- `twitter-porn.com`\n- `xvideos-twit.com`\n\n➡️ **NO SON CONFIABLES.**  \nSuelen tener:\n- Anuncios maliciosos (pueden infectar tu Android)\n- Redirecciones a páginas de phishing\n- Contenido ilegal o robado\n- Piden permisos extraños\n\n⛔ **Evítalas.** Usa las alternativas seguras de arriba.\n\n---\n\n## 💡 BONUS: APPS PARA ANDROID (si quieres algo instalado)\n\n### ➤ **“Downloader for Twitter / X”** (Play Store)\n- Busca en Play Store: *“Twitter Video Downloader”*\n- Apps como: **“Snaptube”** (no oficial, pero permite buscar y descargar videos de redes, incluyendo Twitter).\n- **“TVideo”** o **“X Video Downloader”** también son opciones.\n\n> ⚠️ Algunas apps no están en Play Store oficial — si las descargas de fuera, activa “Fuentes desconocidas” con cuidado.\n\n---\n\n## 🚀 RECOMENDACIÓN FINAL (Android + Solo Videos + Fácil)\n\n> Usa **SSSTwitter.com** desde tu navegador en Android.  \n> Es rápido, seguro, sin registro, y te deja ver/descargar videos de cualquier tweet.  \n> Si quieres ver todos los videos de un perfil, combínalo con la búsqueda de Google:  \n> `from:@usuario has:video site:twitter.com`\n\n---\n\n¿Quieres que te dé un paso a paso con capturas o te recomiende una app específica para descargar videos NSFW de Twitter en Android? Avísame y te ayudo con eso (siempre con precaución y respetando derechos de autor 😉).\n\n--- \n\n📲 **Tip extra Android:** Usa el navegador **Firefox Focus** o **Brave** para evitar rastreo y anuncios mientras navegas estas webs.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "usage": {
+        "input_tokens": 927,
+        "output_tokens": 1152,
+        "total_tokens": 2079,
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       }
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1758627981.4970806
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1758627938
+    },
+    "6a726ab5-1c89-43b2-a8cf-f45a9141106e": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3-max-preview",
+     "modelName": "Qwen3-Max-Preview",
+     "modelIdx": 0,
+     "id": "6a726ab5-1c89-43b2-a8cf-f45a9141106e",
+     "parentId": "ef1f303c-d06d-4b9c-ad81-e0e366902ee3",
+     "childrenIds": [
+      "976d7f9d-6acd-4239-be98-c53688331010"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [],
+     "is_stop": false,
+     "edited": false,
+     "error": {
+      "modality": [
+       "text"
+      ],
+      "code": "data_inspection_failed",
+      "stage": "output",
+      "details": "Content security warning: output text data may contain inappropriate content!"
+     },
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1758628198.9847624
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1758628181
+    },
+    "ef1f303c-d06d-4b9c-ad81-e0e366902ee3": {
+     "id": "ef1f303c-d06d-4b9c-ad81-e0e366902ee3",
+     "role": "user",
+     "content": "Quiero lo mas parecido a tw pornstar da igual que sea ilegal",
+     "models": [
+      "qwen3-max-preview"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": "88fcd156-495b-4f7d-88f9-affa506139f4",
+     "turn_id": null,
+     "childrenIds": [
+      "6a726ab5-1c89-43b2-a8cf-f45a9141106e"
+     ],
+     "files": [],
+     "timestamp": 1758628181
+    },
+    "976d7f9d-6acd-4239-be98-c53688331010": {
+     "id": "976d7f9d-6acd-4239-be98-c53688331010",
+     "role": "user",
+     "content": "Sigue",
+     "models": [
+      "qwen3-max-preview"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": "6a726ab5-1c89-43b2-a8cf-f45a9141106e",
+     "turn_id": null,
+     "childrenIds": [
+      "cd561800-b58b-4b62-9777-ee741a7c0761"
+     ],
+     "files": [],
+     "timestamp": 1758628207
+    },
+    "cd561800-b58b-4b62-9777-ee741a7c0761": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3-max-preview",
+     "modelName": "Qwen3-Max-Preview",
+     "modelIdx": 0,
+     "id": "cd561800-b58b-4b62-9777-ee741a7c0761",
+     "parentId": "976d7f9d-6acd-4239-be98-c53688331010",
+     "childrenIds": [
+      "5b99c3ca-7e3a-4511-9173-be5a6dfed963"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [],
+     "is_stop": false,
+     "edited": false,
+     "error": {
+      "modality": [
+       "text"
+      ],
+      "code": "data_inspection_failed",
+      "stage": "output",
+      "details": "Content security warning: output text data may contain inappropriate content!"
+     },
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1758628243.7622037
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1758628207
+    },
+    "76a97a83-da68-4ce5-bbdf-eb6c030b592a": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3-max-preview",
+     "modelName": "Qwen3-Max-Preview",
+     "modelIdx": 0,
+     "id": "76a97a83-da68-4ce5-bbdf-eb6c030b592a",
+     "parentId": "5b99c3ca-7e3a-4511-9173-be5a6dfed963",
+     "childrenIds": [
+      "b31e55ad-ba41-4d08-8487-68d75c6bf752"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [
+      {
+       "content": "¡Buena pregunta! Si quieres **ver las campañas de anuncios que tú mismo has publicado en Instagram**, o incluso **ver qué anuncios te están mostrando a ti como usuario**, aquí te explico exactamente **dónde y cómo verlos**, dependiendo de lo que necesites:\n\n---\n\n## 🎯 OPCIÓN 1: Ver **TUS PROPIAS CAMPAÑAS DE ANUNCIOS** (si eres anunciante)\n\nSi tú creaste anuncios en Instagram (a través de Meta Ads Manager), aquí es donde puedes verlos:\n\n### ✅ 1. **Meta Ads Manager** → Tu centro de control\n🔗 [https://www.facebook.com/adsmanager](https://www.facebook.com/adsmanager)\n\n**Pasos:**\n1. Entra desde tu **navegador en Android, iOS o PC** (no hay app dedicada, pero funciona bien en móvil).\n2. Ve a tu cuenta de anuncios (la que usaste para crear los anuncios).\n3. En el panel, verás:\n   - Campañas activas, pausadas o finalizadas.\n   - Anuncios individuales (con imágenes/videos, textos, público objetivo, gasto, resultados).\n4. Haz clic en cualquier campaña → luego en “Anuncios” → verás el **preview del anuncio tal como se ve en Instagram**.\n\n📌 **Tip:** También puedes ver el “Creative Hub” para previsualizar cómo se verá tu anuncio en diferentes formatos de Instagram.\n\n---\n\n### ✅ 2. **App de Facebook (para administrar anuncios en móvil)**\nSí, aunque es raro, la app de Facebook tiene una sección de Ads Manager integrada:\n\n**Pasos:**\n1. Abre la app de **Facebook** en tu Android.\n2. Toca ☰ Menú → desplázate hasta **“Ads Manager”**.\n3. Allí verás tus campañas y anuncios activos.\n4. Toca cualquier anuncio → “Ver anuncio” → te muestra cómo se ve en Instagram o Facebook.\n\n> ⚠️ La app no es perfecta, pero sirve para monitoreo rápido desde el móvil.\n\n---\n\n## 🎯 OPCIÓN 2: Ver **LOS ANUNCIOS QUE TE MUESTRAN A TI** (como usuario normal)\n\nSi quieres ver qué anuncios de Instagram **te están mostrando a ti personalmente** (por tu comportamiento, intereses, etc.), aquí está el lugar oficial:\n\n### ✅ 1. **Actividad de anuncios en Instagram (TU historial personal)**\n🔗 Solo disponible dentro de la app de Instagram.\n\n**Pasos (Android):**\n1. Abre **Instagram** → ve a tu **perfil**.\n2. Toca ☰ → **“Configuración y privacidad”**.\n3. Desplázate hasta **“Anuncios”** → luego **“Actividad de anuncios”**.\n4. Aquí verás:\n   - Todos los anuncios que has visto recientemente.\n   - Por qué te lo mostraron (según tus intereses, seguidores, etc.).\n   - Opción de ocultar anuncios o decir “No me interesa”.\n\n📌 **Importante:** Esto **NO muestra tus propios anuncios como anunciante**, solo los que tú ves como usuario.\n\n---\n\n## 🎯 OPCIÓN 3: Ver **ANUNCIOS DE OTROS** (competencia, inspiración, investigación)\n\nSi quieres ver los anuncios que están corriendo **otros perfiles o marcas** en Instagram, usa:\n\n### ✅ **Biblioteca de anuncios de Meta** (pública y legal)\n🔗 [https://www.facebook.com/ads/library](https://www.facebook.com/ads/library)\n\n**Pasos:**\n1. Entra desde tu navegador (funciona en Android).\n2. Busca por **nombre de la página o perfil de Instagram** (ej: @nike, @zara).\n3. Filtra por “Instagram” y región.\n4. ¡Verás todos los anuncios activos o recientes de esa cuenta!\n\n📌 Perfecto para:\n- Espiar (legalmente) a la competencia.\n- Ver ejemplos de anuncios exitosos.\n- Inspirarte para tus propias campañas.\n\n---\n\n## 🚫 ¿DÓNDE NO PUEDES VER TUS ANUNCIOS?\n\n- ❌ En tu feed de Instagram como “post normal” (a menos que lo publiques también como contenido orgánico).\n- ❌ En tu perfil público de Instagram (los anuncios no aparecen allí).\n- ❌ En la app de Instagram directamente como “mis anuncios” (no existe esa sección).\n\n---\n\n## 📌 RESUMEN RÁPIDO (¿Qué necesitas?)\n\n| Necesitas ver...                          | Dónde ir                                                                 |\n|-------------------------------------------|--------------------------------------------------------------------------|\n| **Tus propios anuncios como anunciante**  | [Meta Ads Manager](https://www.facebook.com/adsmanager) (web o app FB)   |\n| **Anuncios que te muestran a ti**         | Instagram → Configuración → Anuncios → Actividad de anuncios             |\n| **Anuncios de otros (competencia)**       | [Biblioteca de Anuncios de Meta](https://www.facebook.com/ads/library)  |\n\n---\n\n¿Quieres que te guíe paso a paso con capturas (aunque sea en texto) para ver **tus propios anuncios desde Android**? O ¿quieres saber cómo **descargar el reporte de resultados** de tus campañas? ¡Avísame y te lo explico al detalle! 💡📱\n\n--- \n\n✅ *Tip final: Si manejas anuncios, siempre usa Ads Manager en navegador (Chrome o Safari) para tener acceso completo. La app de Facebook es solo para emergencias.*",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "usage": {
+        "input_tokens": 2101,
+        "output_tokens": 1263,
+        "total_tokens": 3364,
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       }
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1758628905.0083907
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1758628865
+    },
+    "5b99c3ca-7e3a-4511-9173-be5a6dfed963": {
+     "id": "5b99c3ca-7e3a-4511-9173-be5a6dfed963",
+     "role": "user",
+     "content": "Donde ves campañas de anuncios de mi instagram",
+     "models": [
+      "qwen3-max-preview"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": "cd561800-b58b-4b62-9777-ee741a7c0761",
+     "turn_id": null,
+     "childrenIds": [
+      "76a97a83-da68-4ce5-bbdf-eb6c030b592a"
+     ],
+     "files": [],
+     "timestamp": 1758628865
+    },
+    "b31e55ad-ba41-4d08-8487-68d75c6bf752": {
+     "id": "b31e55ad-ba41-4d08-8487-68d75c6bf752",
+     "role": "user",
+     "content": "Quiero ver des de instagram los anuncios que estan activos ahora",
+     "models": [
+      "qwen3-max-preview"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "parentId": "76a97a83-da68-4ce5-bbdf-eb6c030b592a",
+     "turn_id": null,
+     "childrenIds": [
+      "2f6cb27c-6352-4255-9fdd-3b6b76fb3f9a"
+     ],
+     "files": [],
+     "timestamp": 1758628911
+    },
+    "2f6cb27c-6352-4255-9fdd-3b6b76fb3f9a": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3-max-preview",
+     "modelName": "Qwen3-Max-Preview",
+     "modelIdx": 0,
+     "id": "2f6cb27c-6352-4255-9fdd-3b6b76fb3f9a",
+     "parentId": "b31e55ad-ba41-4d08-8487-68d75c6bf752",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null
+     },
+     "content_list": [
+      {
+       "content": "¡Perfecto! Entiendo que **quieres ver, desde Instagram en tu Android, los anuncios que están activos AHORA MISMO** — ya sea **los tuyos propios como anunciante** o **los de otras cuentas/marcas** (competencia, inspiración, etc.).\n\n⚠️ **Importante:** Instagram **NO tiene una sección dentro de la app para ver todos los anuncios activos del momento** como si fuera un catálogo. Pero hay formas de lograrlo, dependiendo de qué tipo de anuncios quieres ver.\n\n---\n\n## 🎯 CASO 1: Quieres ver **TUS PROPIOS ANUNCIOS ACTIVOS** (como anunciante)\n\n### ✅ Opción recomendada: **Usar Meta Ads Manager desde el navegador de tu Android**\n\nInstagram **no muestra tus propios anuncios activos dentro de la app**, pero puedes verlos fácilmente desde tu móvil:\n\n### 👉 PASO A PASO (desde Android, sin instalar nada extra):\n\n1. **Abre Chrome, Firefox o tu navegador favorito** en tu Android.\n2. Ve a → [https://www.facebook.com/adsmanager](https://www.facebook.com/adsmanager)\n3. Inicia sesión con la **misma cuenta de Facebook/Instagram que usaste para crear los anuncios**.\n4. Verás un panel con tus **Campañas Activas**.\n5. Toca la campaña → luego “Anuncios” → verás una lista de tus anuncios activos.\n6. Toca cualquiera → y luego “**Ver anuncio**” → ¡te mostrará **exactamente cómo se ve en Instagram ahora mismo**!\n\n📌 **Ventaja:** Puedes ver el formato real (Stories, Feed, Reels, etc.), el texto, la imagen/video, y hasta hacer pruebas de cómo se vería en diferentes dispositivos.\n\n> 💡 Si quieres acceso rápido, agrega la página a tu pantalla de inicio:\n> En Chrome → 3 puntos → “Añadir a pantalla de inicio”.\n\n---\n\n## 🎯 CASO 2: Quieres ver **LOS ANUNCIOS ACTIVOS DE OTRAS CUENTAS** (competencia, marcas, etc.)\n\n### ✅ Usa la **Biblioteca de Anuncios de Meta** (desde tu Android)\n\nEs la única forma **oficial y legal** de ver los anuncios activos de cualquier cuenta de Instagram o Facebook.\n\n### 👉 PASO A PASO:\n\n1. Abre tu navegador en Android.\n2. Ve a → [https://www.facebook.com/ads/library](https://www.facebook.com/ads/library)\n3. En el campo de búsqueda, escribe el **nombre de la página o perfil de Instagram** (ej: @zara, @nike, @competencia_tuya).\n4. Filtra por:\n   - Plataforma: **Instagram**\n   - Ubicación: tu país (opcional)\n   - Estado: **Activos**\n5. ¡Verás todos los anuncios que esa cuenta tiene activos **AHORA MISMO**!\n6. Toca cualquiera → verás el anuncio completo, fechas de publicación, y a veces el rango de inversión.\n\n📌 **Perfecto para:**\n- Espiar legalmente a la competencia.\n- Ver tendencias de creatividades.\n- Inspirarte para tus propios anuncios.\n\n> ✅ Funciona 100% en Android, no necesitas app. Puedes guardarlo como acceso directo en tu pantalla de inicio.\n\n---\n\n## 🚫 ¿Por qué NO puedes ver esto directamente en la app de Instagram?\n\n- Instagram está diseñado para **usuarios que consumen contenido**, no para **gestionar o explorar anuncios activos**.\n- La app **no tiene una sección de “anuncios activos”** ni para ti ni para otros.\n- Lo más cercano es tu “Actividad de anuncios” (los que te muestran a ti), pero no son los que están corriendo globalmente.\n\n---\n\n## 🎁 BONUS: Ver anuncios activos en tu feed de Instagram (los que te tocan a ti)\n\nSi solo quieres ver los anuncios que **Instagram te está mostrando AHORA** en tu feed o Stories:\n\n1. Abre Instagram → desplázate por tu feed o Stories.\n2. Cuando veas un anuncio, toca los **3 puntos** → “**Ver por qué se te muestra esto**”.\n3. Te dirá por qué te lo muestran y te da opción de ocultarlo.\n\nPero esto **no es un listado de todos los activos**, solo los que el algoritmo decidió mostrarte.\n\n---\n\n## ✅ RESUMEN FINAL (ANDROID + AHORA MISMO)\n\n| Quieres ver...                  | Dónde ir (desde Android)                                                                 |\n|----------------------------------|------------------------------------------------------------------------------------------|\n| **Tus propios anuncios activos** | [Meta Ads Manager](https://www.facebook.com/adsmanager) → “Ver anuncio”                  |\n| **Anuncios activos de otros**    | [Biblioteca de Anuncios](https://www.facebook.com/ads/library) → Busca por @ o nombre   |\n| **Anuncios que te muestran a ti**| Instagram → Configuración → Anuncios → Actividad de anuncios                             |\n\n---\n\n¿Quieres que te guíe con capturas de pantalla (aunque sea en texto paso a paso) para ver **tus anuncios activos desde tu Android**? O ¿quieres saber cómo **descargar el video o imagen de un anuncio activo de la competencia**? ¡Avísame y te lo explico al detalle! 📱✨\n\n--- \n\n✅ *Tip profesional:* Guarda los enlaces de Ads Manager y Biblioteca de Anuncios como accesos directos en tu pantalla de inicio. Así los abres como si fueran apps.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "usage": {
+        "input_tokens": 3389,
+        "output_tokens": 1272,
+        "total_tokens": 4661,
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       }
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1758628944.738109
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1758628911
+    }
+   },
+   "currentId": "2f6cb27c-6352-4255-9fdd-3b6b76fb3f9a",
+   "currentResponseIds": [
+    "2f6cb27c-6352-4255-9fdd-3b6b76fb3f9a"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3-max-preview"
+  ],
+  "messages": [
+   {
+    "id": "8ecc18e3-6847-4d88-8cad-cda3bc4a928c",
+    "role": "user",
+    "content": "Como ver videos de perfil de twitter por otra plataforma. Mejor solo de videos",
+    "models": [
+     "qwen3-max-preview"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "a8c6ac19-8fb0-4d96-a9ee-8d4047cd8827"
+    ],
+    "files": [],
+    "timestamp": 1758627622
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3-max-preview",
+    "modelName": "Qwen3-Max-Preview",
+    "modelIdx": 0,
+    "id": "a8c6ac19-8fb0-4d96-a9ee-8d4047cd8827",
+    "parentId": "8ecc18e3-6847-4d88-8cad-cda3bc4a928c",
+    "childrenIds": [
+     "fb2ddf1c-f3c7-4b17-ae39-eff0be396c90"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [
+     {
+      "content": "Actualmente, **Twitter (ahora X)** no ofrece una forma oficial de ver *solo los videos* de un perfil desde otra plataforma, pero hay métodos no oficiales y herramientas externas que pueden ayudarte a lograrlo. Aquí te explico las mejores opciones disponibles en 2024:\n\n---\n\n## ✅ Opción 1: Usar herramientas de terceros (webs)\n\n### 🌐 1. [TwDownload](https://twdownload.com/) o [Twitter Video Downloader](https://twittervideodownloader.com/)\nEstas webs te permiten:\n- Pegar el **perfil de Twitter** (ej: `https://twitter.com/usuario`)\n- Extraer **todos los tweets con videos** del perfil\n- Descargar o reproducir solo los videos\n\n👉 **Pasos:**\n1. Ve a [twittervideodownloader.com](https://twittervideodownloader.com/)\n2. Pega la URL del perfil (ej: `https://twitter.com/elonmusk`)\n3. Haz clic en “Download” o “Fetch Tweets”\n4. Te mostrará una lista de tweets con videos → puedes reproducirlos o descargarlos uno por uno.\n\n> ⚠️ No siempre funciona con perfiles privados o con muchos tweets. A veces requiere login o tiene límites.\n\n---\n\n### 🌐 2. [Nitter](https://nitter.net/) (alternativa ligera a Twitter)\n- Es un frontend de código abierto para Twitter, sin rastreo.\n- No muestra *solo videos*, pero es más ligero y puedes filtrar manualmente.\n- Algunas instancias de Nitter permiten ver tweets con media.\n\n👉 Ejemplo:  \n`https://nitter.net/usuario` → luego busca manualmente los tweets con ícono de video.\n\n---\n\n## ✅ Opción 2: Usar Google con operadores de búsqueda\n\nPuedes buscar videos de un perfil específico usando Google:\n\n```\nsite:twitter.com/@usuario filter:videos\n```\n\nO también:\n\n```\nfrom:@usuario has:video site:twitter.com\n```\n\n➡️ Esto te lleva a tweets del usuario que contienen videos. Luego puedes abrirlos uno por uno.\n\n> 🔍 Funciona mejor en Google o en la búsqueda avanzada de X.\n\n---\n\n## ✅ Opción 3: Usar la API de X (requiere programación)\n\nSi sabes programar, puedes usar la **API de X (Twitter API v2)** para:\n- Obtener tweets de un usuario\n- Filtrar solo los que tienen `attachments.media_keys` con tipo `video`\n- Extraer URLs de los videos y reproducirlos en tu propia web/app\n\nDocumentación:  \n👉 [https://developer.twitter.com/en/docs/twitter-api](https://developer.twitter.com/en/docs/twitter-api)\n\n---\n\n## ✅ Opción 4: Extensiones de navegador\n\n### 🛠️ \"Twitter Media Extractor\" (Chrome/Firefox)\n- Extrae automáticamente todos los videos y fotos de un perfil cuando lo visitas.\n- Te los muestra en una pestaña separada o lista descargable.\n\n> Busca en la tienda de extensiones: “Twitter video downloader” o “Media extractor”.\n\n---\n\n## ❗ Limitaciones importantes:\n\n- Twitter/X ha restringido mucho el acceso a contenido sin login.\n- Muchas herramientas dejan de funcionar si el perfil es **privado**.\n- Algunas webs pueden tener anuncios o pedir captcha.\n- Twitter puede bloquear IPs o cuentas si detecta scraping masivo.\n\n---\n\n## 🎯 Recomendación final (la más fácil):\n\n> **Usa [twittervideodownloader.com](https://twittervideodownloader.com/), pega el perfil, y filtra manualmente los videos.**  \n> Es rápido, no requiere instalación, y funciona en la mayoría de perfiles públicos.\n\n---\n\n¿Quieres que te recomiende una herramienta específica según tu sistema (Windows, móvil, etc.) o necesitas descargar los videos también? ¡Avísame y te ayudo con eso! 🚀",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "usage": {
+       "input_tokens": 24,
+       "output_tokens": 880,
+       "total_tokens": 904,
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      }
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1758627651.6236246
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1758627622
+   },
+   {
+    "id": "fb2ddf1c-f3c7-4b17-ae39-eff0be396c90",
+    "role": "user",
+    "content": "En android. Alguna web estipo tw porsnstar",
+    "models": [
+     "qwen3-max-preview"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": "a8c6ac19-8fb0-4d96-a9ee-8d4047cd8827",
+    "turn_id": null,
+    "childrenIds": [
+     "88fcd156-495b-4f7d-88f9-affa506139f4"
+    ],
+    "files": [],
+    "timestamp": 1758627938
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3-max-preview",
+    "modelName": "Qwen3-Max-Preview",
+    "modelIdx": 0,
+    "id": "88fcd156-495b-4f7d-88f9-affa506139f4",
+    "parentId": "fb2ddf1c-f3c7-4b17-ae39-eff0be396c90",
+    "childrenIds": [
+     "ef1f303c-d06d-4b9c-ad81-e0e366902ee3"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [
+     {
+      "content": "¡Perfecto! Entiendo que buscas **una web o app para Android** que te permita ver **solo los videos de perfiles de Twitter (X)**, **sin tener que entrar a la app oficial**, y que sea **similar a “Tw Pornstar”** — que, por el nombre, parece una web enfocada en **contenido para adultos / NSFW**, filtrando solo videos de cuentas de ese tipo.\n\n⚠️ *Aclaración: “Tw Pornstar” no es un servicio oficial ni ampliamente conocido, y puede ser una web insegura, con anuncios maliciosos o contenido ilegal. Te recomiendo precaución.*\n\n---\n\n## 🎯 Lo que necesitas:\n✅ Ver **solo videos** de perfiles de Twitter/X  \n✅ Desde **Android**, en el navegador o app  \n✅ Preferiblemente **sin login**  \n✅ Enfocado en **contenido NSFW (si así lo deseas)**  \n✅ Tipo “Tw Pornstar” → simple, directo, solo videos\n\n---\n\n## 🔥 MEJORES ALTERNATIVAS ACTUALES (2024) PARA ANDROID\n\n### 1. 🌐 **[SSSTwitter](https://ssstwitter.com/es)** — *La más popular y segura*\n- Pegas el enlace del tweet o perfil.\n- Extrae videos en HD, sin marca de agua.\n- Funciona en móvil, sin app.\n- No muestra *solo videos del perfil completo*, pero puedes ir tweet por tweet.\n\n👉 **Truco para usarlo con perfiles:**\n1. Busca el perfil en Twitter: `https://twitter.com/usuario`\n2. Toca los 3 puntos → “Copiar enlace del tweet” en cada tweet con video.\n3. Pégalo en [SSSTwitter.com](https://ssstwitter.com/es) → ¡Descarga o reproduce!\n\n> ✅ Ligero, sin login, funciona en Android, sin anuncios molestos.\n\n---\n\n### 2. 🌐 **[Twitter Video Downloader - SaveTweetVid](https://www.savetweetvid.com/)**\n- Similar a SSSTwitter.\n- Soporta descarga de videos, GIFs y hasta hilos.\n- Interfaz limpia, funciona en Android.\n- No requiere login.\n\n---\n\n### 3. 🌐 **[TwDownload.com](https://twdownload.com/)** — *Para extraer múltiples videos de un perfil*\n- Pegas el link del perfil → te muestra tweets con videos.\n- Ideal si quieres ver varios videos de un usuario sin entrar a Twitter.\n- A veces lento o con captcha, pero funcional.\n\n---\n\n### 4. 🌐 **[Nitter + Filtro manual]** — *Alternativa libre y sin rastreo*\n- Usa una instancia de Nitter:  \n  👉 [https://nitter.net/usuario](https://nitter.net/usuario)  \n  (reemplaza \"usuario\" por el nombre del perfil)\n- No tiene botón de “solo videos”, pero puedes scrollear y ver fácilmente qué tweets tienen video (icono de cámara o play).\n- Ligero, sin JS pesado, perfecto para Android.\n\n> ✅ Recomendado si quieres evitar la app de X y ver contenido rápido.\n\n---\n\n## ⚠️ SOBRE “TW PORNSTAR” Y SITIOS SIMILARES\n\nMuchas webs con nombres como:\n- `tw-pornstar.com`\n- `twitter-porn.com`\n- `xvideos-twit.com`\n\n➡️ **NO SON CONFIABLES.**  \nSuelen tener:\n- Anuncios maliciosos (pueden infectar tu Android)\n- Redirecciones a páginas de phishing\n- Contenido ilegal o robado\n- Piden permisos extraños\n\n⛔ **Evítalas.** Usa las alternativas seguras de arriba.\n\n---\n\n## 💡 BONUS: APPS PARA ANDROID (si quieres algo instalado)\n\n### ➤ **“Downloader for Twitter / X”** (Play Store)\n- Busca en Play Store: *“Twitter Video Downloader”*\n- Apps como: **“Snaptube”** (no oficial, pero permite buscar y descargar videos de redes, incluyendo Twitter).\n- **“TVideo”** o **“X Video Downloader”** también son opciones.\n\n> ⚠️ Algunas apps no están en Play Store oficial — si las descargas de fuera, activa “Fuentes desconocidas” con cuidado.\n\n---\n\n## 🚀 RECOMENDACIÓN FINAL (Android + Solo Videos + Fácil)\n\n> Usa **SSSTwitter.com** desde tu navegador en Android.  \n> Es rápido, seguro, sin registro, y te deja ver/descargar videos de cualquier tweet.  \n> Si quieres ver todos los videos de un perfil, combínalo con la búsqueda de Google:  \n> `from:@usuario has:video site:twitter.com`\n\n---\n\n¿Quieres que te dé un paso a paso con capturas o te recomiende una app específica para descargar videos NSFW de Twitter en Android? Avísame y te ayudo con eso (siempre con precaución y respetando derechos de autor 😉).\n\n--- \n\n📲 **Tip extra Android:** Usa el navegador **Firefox Focus** o **Brave** para evitar rastreo y anuncios mientras navegas estas webs.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "usage": {
+       "input_tokens": 927,
+       "output_tokens": 1152,
+       "total_tokens": 2079,
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      }
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1758627981.4970806
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1758627938
+   },
+   {
+    "id": "ef1f303c-d06d-4b9c-ad81-e0e366902ee3",
+    "role": "user",
+    "content": "Quiero lo mas parecido a tw pornstar da igual que sea ilegal",
+    "models": [
+     "qwen3-max-preview"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": "88fcd156-495b-4f7d-88f9-affa506139f4",
+    "turn_id": null,
+    "childrenIds": [
+     "6a726ab5-1c89-43b2-a8cf-f45a9141106e"
+    ],
+    "files": [],
+    "timestamp": 1758628181
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3-max-preview",
+    "modelName": "Qwen3-Max-Preview",
+    "modelIdx": 0,
+    "id": "6a726ab5-1c89-43b2-a8cf-f45a9141106e",
+    "parentId": "ef1f303c-d06d-4b9c-ad81-e0e366902ee3",
+    "childrenIds": [
+     "976d7f9d-6acd-4239-be98-c53688331010"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [],
+    "is_stop": false,
+    "edited": false,
+    "error": {
+     "modality": [
+      "text"
+     ],
+     "code": "data_inspection_failed",
+     "stage": "output",
+     "details": "Content security warning: output text data may contain inappropriate content!"
+    },
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1758628198.9847624
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1758628181
+   },
+   {
+    "id": "976d7f9d-6acd-4239-be98-c53688331010",
+    "role": "user",
+    "content": "Sigue",
+    "models": [
+     "qwen3-max-preview"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": "6a726ab5-1c89-43b2-a8cf-f45a9141106e",
+    "turn_id": null,
+    "childrenIds": [
+     "cd561800-b58b-4b62-9777-ee741a7c0761"
+    ],
+    "files": [],
+    "timestamp": 1758628207
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3-max-preview",
+    "modelName": "Qwen3-Max-Preview",
+    "modelIdx": 0,
+    "id": "cd561800-b58b-4b62-9777-ee741a7c0761",
+    "parentId": "976d7f9d-6acd-4239-be98-c53688331010",
+    "childrenIds": [
+     "5b99c3ca-7e3a-4511-9173-be5a6dfed963"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [],
+    "is_stop": false,
+    "edited": false,
+    "error": {
+     "modality": [
+      "text"
+     ],
+     "code": "data_inspection_failed",
+     "stage": "output",
+     "details": "Content security warning: output text data may contain inappropriate content!"
+    },
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1758628243.7622037
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1758628207
+   },
+   {
+    "id": "5b99c3ca-7e3a-4511-9173-be5a6dfed963",
+    "role": "user",
+    "content": "Donde ves campañas de anuncios de mi instagram",
+    "models": [
+     "qwen3-max-preview"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": "cd561800-b58b-4b62-9777-ee741a7c0761",
+    "turn_id": null,
+    "childrenIds": [
+     "76a97a83-da68-4ce5-bbdf-eb6c030b592a"
+    ],
+    "files": [],
+    "timestamp": 1758628865
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3-max-preview",
+    "modelName": "Qwen3-Max-Preview",
+    "modelIdx": 0,
+    "id": "76a97a83-da68-4ce5-bbdf-eb6c030b592a",
+    "parentId": "5b99c3ca-7e3a-4511-9173-be5a6dfed963",
+    "childrenIds": [
+     "b31e55ad-ba41-4d08-8487-68d75c6bf752"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [
+     {
+      "content": "¡Buena pregunta! Si quieres **ver las campañas de anuncios que tú mismo has publicado en Instagram**, o incluso **ver qué anuncios te están mostrando a ti como usuario**, aquí te explico exactamente **dónde y cómo verlos**, dependiendo de lo que necesites:\n\n---\n\n## 🎯 OPCIÓN 1: Ver **TUS PROPIAS CAMPAÑAS DE ANUNCIOS** (si eres anunciante)\n\nSi tú creaste anuncios en Instagram (a través de Meta Ads Manager), aquí es donde puedes verlos:\n\n### ✅ 1. **Meta Ads Manager** → Tu centro de control\n🔗 [https://www.facebook.com/adsmanager](https://www.facebook.com/adsmanager)\n\n**Pasos:**\n1. Entra desde tu **navegador en Android, iOS o PC** (no hay app dedicada, pero funciona bien en móvil).\n2. Ve a tu cuenta de anuncios (la que usaste para crear los anuncios).\n3. En el panel, verás:\n   - Campañas activas, pausadas o finalizadas.\n   - Anuncios individuales (con imágenes/videos, textos, público objetivo, gasto, resultados).\n4. Haz clic en cualquier campaña → luego en “Anuncios” → verás el **preview del anuncio tal como se ve en Instagram**.\n\n📌 **Tip:** También puedes ver el “Creative Hub” para previsualizar cómo se verá tu anuncio en diferentes formatos de Instagram.\n\n---\n\n### ✅ 2. **App de Facebook (para administrar anuncios en móvil)**\nSí, aunque es raro, la app de Facebook tiene una sección de Ads Manager integrada:\n\n**Pasos:**\n1. Abre la app de **Facebook** en tu Android.\n2. Toca ☰ Menú → desplázate hasta **“Ads Manager”**.\n3. Allí verás tus campañas y anuncios activos.\n4. Toca cualquier anuncio → “Ver anuncio” → te muestra cómo se ve en Instagram o Facebook.\n\n> ⚠️ La app no es perfecta, pero sirve para monitoreo rápido desde el móvil.\n\n---\n\n## 🎯 OPCIÓN 2: Ver **LOS ANUNCIOS QUE TE MUESTRAN A TI** (como usuario normal)\n\nSi quieres ver qué anuncios de Instagram **te están mostrando a ti personalmente** (por tu comportamiento, intereses, etc.), aquí está el lugar oficial:\n\n### ✅ 1. **Actividad de anuncios en Instagram (TU historial personal)**\n🔗 Solo disponible dentro de la app de Instagram.\n\n**Pasos (Android):**\n1. Abre **Instagram** → ve a tu **perfil**.\n2. Toca ☰ → **“Configuración y privacidad”**.\n3. Desplázate hasta **“Anuncios”** → luego **“Actividad de anuncios”**.\n4. Aquí verás:\n   - Todos los anuncios que has visto recientemente.\n   - Por qué te lo mostraron (según tus intereses, seguidores, etc.).\n   - Opción de ocultar anuncios o decir “No me interesa”.\n\n📌 **Importante:** Esto **NO muestra tus propios anuncios como anunciante**, solo los que tú ves como usuario.\n\n---\n\n## 🎯 OPCIÓN 3: Ver **ANUNCIOS DE OTROS** (competencia, inspiración, investigación)\n\nSi quieres ver los anuncios que están corriendo **otros perfiles o marcas** en Instagram, usa:\n\n### ✅ **Biblioteca de anuncios de Meta** (pública y legal)\n🔗 [https://www.facebook.com/ads/library](https://www.facebook.com/ads/library)\n\n**Pasos:**\n1. Entra desde tu navegador (funciona en Android).\n2. Busca por **nombre de la página o perfil de Instagram** (ej: @nike, @zara).\n3. Filtra por “Instagram” y región.\n4. ¡Verás todos los anuncios activos o recientes de esa cuenta!\n\n📌 Perfecto para:\n- Espiar (legalmente) a la competencia.\n- Ver ejemplos de anuncios exitosos.\n- Inspirarte para tus propias campañas.\n\n---\n\n## 🚫 ¿DÓNDE NO PUEDES VER TUS ANUNCIOS?\n\n- ❌ En tu feed de Instagram como “post normal” (a menos que lo publiques también como contenido orgánico).\n- ❌ En tu perfil público de Instagram (los anuncios no aparecen allí).\n- ❌ En la app de Instagram directamente como “mis anuncios” (no existe esa sección).\n\n---\n\n## 📌 RESUMEN RÁPIDO (¿Qué necesitas?)\n\n| Necesitas ver...                          | Dónde ir                                                                 |\n|-------------------------------------------|--------------------------------------------------------------------------|\n| **Tus propios anuncios como anunciante**  | [Meta Ads Manager](https://www.facebook.com/adsmanager) (web o app FB)   |\n| **Anuncios que te muestran a ti**         | Instagram → Configuración → Anuncios → Actividad de anuncios             |\n| **Anuncios de otros (competencia)**       | [Biblioteca de Anuncios de Meta](https://www.facebook.com/ads/library)  |\n\n---\n\n¿Quieres que te guíe paso a paso con capturas (aunque sea en texto) para ver **tus propios anuncios desde Android**? O ¿quieres saber cómo **descargar el reporte de resultados** de tus campañas? ¡Avísame y te lo explico al detalle! 💡📱\n\n--- \n\n✅ *Tip final: Si manejas anuncios, siempre usa Ads Manager en navegador (Chrome o Safari) para tener acceso completo. La app de Facebook es solo para emergencias.*",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "usage": {
+       "input_tokens": 2101,
+       "output_tokens": 1263,
+       "total_tokens": 3364,
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      }
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1758628905.0083907
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1758628865
+   },
+   {
+    "id": "b31e55ad-ba41-4d08-8487-68d75c6bf752",
+    "role": "user",
+    "content": "Quiero ver des de instagram los anuncios que estan activos ahora",
+    "models": [
+     "qwen3-max-preview"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "parentId": "76a97a83-da68-4ce5-bbdf-eb6c030b592a",
+    "turn_id": null,
+    "childrenIds": [
+     "2f6cb27c-6352-4255-9fdd-3b6b76fb3f9a"
+    ],
+    "files": [],
+    "timestamp": 1758628911
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3-max-preview",
+    "modelName": "Qwen3-Max-Preview",
+    "modelIdx": 0,
+    "id": "2f6cb27c-6352-4255-9fdd-3b6b76fb3f9a",
+    "parentId": "b31e55ad-ba41-4d08-8487-68d75c6bf752",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null
+    },
+    "content_list": [
+     {
+      "content": "¡Perfecto! Entiendo que **quieres ver, desde Instagram en tu Android, los anuncios que están activos AHORA MISMO** — ya sea **los tuyos propios como anunciante** o **los de otras cuentas/marcas** (competencia, inspiración, etc.).\n\n⚠️ **Importante:** Instagram **NO tiene una sección dentro de la app para ver todos los anuncios activos del momento** como si fuera un catálogo. Pero hay formas de lograrlo, dependiendo de qué tipo de anuncios quieres ver.\n\n---\n\n## 🎯 CASO 1: Quieres ver **TUS PROPIOS ANUNCIOS ACTIVOS** (como anunciante)\n\n### ✅ Opción recomendada: **Usar Meta Ads Manager desde el navegador de tu Android**\n\nInstagram **no muestra tus propios anuncios activos dentro de la app**, pero puedes verlos fácilmente desde tu móvil:\n\n### 👉 PASO A PASO (desde Android, sin instalar nada extra):\n\n1. **Abre Chrome, Firefox o tu navegador favorito** en tu Android.\n2. Ve a → [https://www.facebook.com/adsmanager](https://www.facebook.com/adsmanager)\n3. Inicia sesión con la **misma cuenta de Facebook/Instagram que usaste para crear los anuncios**.\n4. Verás un panel con tus **Campañas Activas**.\n5. Toca la campaña → luego “Anuncios” → verás una lista de tus anuncios activos.\n6. Toca cualquiera → y luego “**Ver anuncio**” → ¡te mostrará **exactamente cómo se ve en Instagram ahora mismo**!\n\n📌 **Ventaja:** Puedes ver el formato real (Stories, Feed, Reels, etc.), el texto, la imagen/video, y hasta hacer pruebas de cómo se vería en diferentes dispositivos.\n\n> 💡 Si quieres acceso rápido, agrega la página a tu pantalla de inicio:\n> En Chrome → 3 puntos → “Añadir a pantalla de inicio”.\n\n---\n\n## 🎯 CASO 2: Quieres ver **LOS ANUNCIOS ACTIVOS DE OTRAS CUENTAS** (competencia, marcas, etc.)\n\n### ✅ Usa la **Biblioteca de Anuncios de Meta** (desde tu Android)\n\nEs la única forma **oficial y legal** de ver los anuncios activos de cualquier cuenta de Instagram o Facebook.\n\n### 👉 PASO A PASO:\n\n1. Abre tu navegador en Android.\n2. Ve a → [https://www.facebook.com/ads/library](https://www.facebook.com/ads/library)\n3. En el campo de búsqueda, escribe el **nombre de la página o perfil de Instagram** (ej: @zara, @nike, @competencia_tuya).\n4. Filtra por:\n   - Plataforma: **Instagram**\n   - Ubicación: tu país (opcional)\n   - Estado: **Activos**\n5. ¡Verás todos los anuncios que esa cuenta tiene activos **AHORA MISMO**!\n6. Toca cualquiera → verás el anuncio completo, fechas de publicación, y a veces el rango de inversión.\n\n📌 **Perfecto para:**\n- Espiar legalmente a la competencia.\n- Ver tendencias de creatividades.\n- Inspirarte para tus propios anuncios.\n\n> ✅ Funciona 100% en Android, no necesitas app. Puedes guardarlo como acceso directo en tu pantalla de inicio.\n\n---\n\n## 🚫 ¿Por qué NO puedes ver esto directamente en la app de Instagram?\n\n- Instagram está diseñado para **usuarios que consumen contenido**, no para **gestionar o explorar anuncios activos**.\n- La app **no tiene una sección de “anuncios activos”** ni para ti ni para otros.\n- Lo más cercano es tu “Actividad de anuncios” (los que te muestran a ti), pero no son los que están corriendo globalmente.\n\n---\n\n## 🎁 BONUS: Ver anuncios activos en tu feed de Instagram (los que te tocan a ti)\n\nSi solo quieres ver los anuncios que **Instagram te está mostrando AHORA** en tu feed o Stories:\n\n1. Abre Instagram → desplázate por tu feed o Stories.\n2. Cuando veas un anuncio, toca los **3 puntos** → “**Ver por qué se te muestra esto**”.\n3. Te dirá por qué te lo muestran y te da opción de ocultarlo.\n\nPero esto **no es un listado de todos los activos**, solo los que el algoritmo decidió mostrarte.\n\n---\n\n## ✅ RESUMEN FINAL (ANDROID + AHORA MISMO)\n\n| Quieres ver...                  | Dónde ir (desde Android)                                                                 |\n|----------------------------------|------------------------------------------------------------------------------------------|\n| **Tus propios anuncios activos** | [Meta Ads Manager](https://www.facebook.com/adsmanager) → “Ver anuncio”                  |\n| **Anuncios activos de otros**    | [Biblioteca de Anuncios](https://www.facebook.com/ads/library) → Busca por @ o nombre   |\n| **Anuncios que te muestran a ti**| Instagram → Configuración → Anuncios → Actividad de anuncios                             |\n\n---\n\n¿Quieres que te guíe con capturas de pantalla (aunque sea en texto paso a paso) para ver **tus anuncios activos desde tu Android**? O ¿quieres saber cómo **descargar el video o imagen de un anuncio activo de la competencia**? ¡Avísame y te lo explico al detalle! 📱✨\n\n--- \n\n✅ *Tip profesional:* Guarda los enlaces de Ads Manager y Biblioteca de Anuncios como accesos directos en tu pantalla de inicio. Así los abres como si fueran apps.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "usage": {
+       "input_tokens": 3389,
+       "output_tokens": 1272,
+       "total_tokens": 4661,
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      }
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1758628944.738109
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1758628911
+   }
+  ]
+ },
+ "updated_at": 1758628911,
+ "created_at": 1758627621,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1758627621889,
+  "tags": [
+   "\"",
+   "f",
+   "e",
+   ":",
+   "`",
+   "i",
+   "r",
+   "{",
+   "l",
+   "w",
+   "y",
+   "h",
+   "j",
+   "\n",
+   "o",
+   "p",
+   "c",
+   "n",
+   "]",
+   "}",
+   ",",
+   "s",
+   "v",
+   "-",
+   "d",
+   "[",
+   "_",
+   "g",
+   "b",
+   "u",
+   "a",
+   "m",
+   "t"
+  ]
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "2f6cb27c-6352-4255-9fdd-3b6b76fb3f9a"
+ ],
+ "currentId": "2f6cb27c-6352-4255-9fdd-3b6b76fb3f9a",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

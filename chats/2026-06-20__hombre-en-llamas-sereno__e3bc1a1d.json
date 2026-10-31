@@ -1,0 +1,1268 @@
+{
+ "id": "e3bc1a1d-ea90-4f82-98db-558bd6dc14ab",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Hombre en Llamas Sereno",
+ "chat": {
+  "history": {
+   "messages": {
+    "876c90b8-4bee-431c-b6a7-3d1703ac719a": {
+     "id": "876c90b8-4bee-431c-b6a7-3d1703ac719a",
+     "role": "user",
+     "content": "prompt noche campo  mid body cintura para arriba hombre delante de casa de madera quemandose. muchas llamaradas altas. delante de el muchas llamas ya atras tbms. el tiene aspecto de estar entero pero tiene manchas de carbon en la ropa y cara. parte de su cuerpo cubierto por la llama un poco mas alta que el. tiene una mirada fija a la camara serio sereno sin miedo insmovible. esta en medio central de la foto\n muchos detalles. cabello largo rizado negro , barba. 30 @años",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "afe09fb1-a18c-4067-abcb-d13ce460ba02"
+     ],
+     "files": [],
+     "timestamp": 1781917530
+    },
+    "afe09fb1-a18c-4067-abcb-d13ce460ba02": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "afe09fb1-a18c-4067-abcb-d13ce460ba02",
+     "parentId": "876c90b8-4bee-431c-b6a7-3d1703ac719a",
+     "childrenIds": [
+      "caec7655-251b-4b9e-8d6e-f9f2c56df916"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Observing the scene with quiet focus",
+          "Standing before a blazing wooden house engulfed in towering flames",
+          "Visualizing a figure standing firm and unyielding",
+          "Standing in the stillness of a night-lit countryside field, I am centered within a frame that captures both intensity and calm.",
+          "Capturing the essence of a moment suspended between chaos and calm",
+          "Visualizing the scene with cinematic precision",
+          "Creating a vivid and focused portrait of a man with striking features"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am immersed in the stillness of the night, where the vast countryside stretches under a canopy of stars, each detail sharpened by the hush of solitude.  \nMy gaze settles on the figure mid-frame—waist up, poised like a quiet poem against the dark field—capturing not just form but presence, breath held between earth and sky.  \nIn this moment, I feel the weight of silence, the pulse of unseen life, and the fragile beauty of being seen.",
+          "I envision a man in his thirties, his long black curls wild and his beard thick, standing defiantly amid the inferno that surrounds him on all sides  \nThe heat distorts the air, and every flicker of flame seems to echo the intensity of his silent resolve  \nI focus on the raw drama of the moment—the fire consuming the structure, yet he remains unyielding, a figure carved from smoke and shadow",
+          "I am imagining a person whole yet marked by soot and ash, their clothing and face bearing the traces of fire, a flicker of flame wrapping part of their form, rising just above their height.  \nTheir gaze is locked upon the lens—calm, resolute, unwavering, radiating quiet courage.  \nThe composition places them at the heart of the image, rendered with intricate detail, each element sharpened by presence and stillness.",
+          "I gaze directly ahead with unwavering focus, my face marked by the ash and soot of fire, yet untouched by its fury.  \nBehind me, flames rise like ancient sentinels, devouring a wooden house in a blaze that flickers across my silhouette.  \nThe scene holds breath—between ruin and resilience, I remain unshaken, a quiet presence amidst chaos.",
+          "I envision a solitary figure standing defiantly amidst an inferno, his silhouette carved by the violent dance of flames that consume the surrounding landscape.  \nThe interplay of darkness and fire defines every detail—the flickering light painting his face with soot, yet revealing a stillness deeper than fear.  \nI render this scene not as spectacle, but as a testament to quiet resolve in the face of overwhelming destruction.",
+          "I am crafting a vivid, immersive image where a man stands at the center of a burning wooden house in a nighttime countryside field, his mid-body frame sharply defined against the vast dark sky. Flames tower around him—both before and behind—illuminating his face and clothes, which bear soot and charcoal stains despite his composed, fearless expression. A single flame licks slightly higher than his height, partially engulfing part of his body, yet he remains still, his gaze locked unflinchingly on the camera with serene intensity.",
+          "I envision a cinematic composition centered on a 30-year-old man whose long, curly black hair and beard frame a face that remains sharply visible despite the presence of fire nearby.  \nI ensure the flame enhances the atmosphere without obscuring his intense, unwavering gaze directed straight at the lens.  \nEvery detail is carefully balanced to preserve clarity, emotion, and visual impact."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "afe09fb1-a18c-4067-abcb-d13ce460ba02",
+       "usage": {
+        "input_tokens": 3853,
+        "output_tokens": 68,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 1510,
+         "text_tokens": 2343
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 3921,
+        "output_tokens_details": {
+         "reasoning_tokens": 53,
+         "text_tokens": 15
+        },
+        "image_tokens": 1510
+       },
+       "timestamp": 1781917558
+      },
+      {
+       "content": "",
+       "phase": "image_gen_tool",
+       "status": "finished",
+       "extra": {
+        "display_position": "answer",
+        "image_list": [
+         {
+          "image": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/image_gen/afe09fb1-a18c-4067-abcb-d13ce460ba02/1781917567.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxNzgxOTE3NTY3IiwicmVzb3VyY2VfY2hhdF9pZCI6ImUzYmMxYTFkLWVhOTAtNGY4Mi05OGRiLTU1OGJkNmRjMTRhYiJ9.q17sAzou-wYw8IMgJ-SrRB1eY2a1f_hBv2LD56vVK9U"
+         }
+        ],
+        "tool_result": [
+         {
+          "image": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/e3bc1a1d-ea90-4f82-98db-558bd6dc14ab/147ab34b1-7471-40b4-b630-c4c4ee93711b.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxNDdhYjM0YjEtNzQ3MS00MGI0LWI2MzAtYzRjNGVlOTM3MTFiIiwicmVzb3VyY2VfdHlwZSI6ImltYWdlX3Rvb2wifQ.rcu-FTtAVIQ4JFAryWlWZ2T2cEkrVHZPs7ndFA3sVU4"
+         }
+        ]
+       },
+       "role": "function",
+       "name": "image_gen",
+       "function_id": "round_0_call_fd78582b97894247b00c4c7e",
+       "function_call": {
+        "name": "image_gen",
+        "arguments": "{\"prompt\": \"A highly detailed, cinematic mid-shot from the waist up of a 30-year-old man with long curly black hair and a beard, standing perfectly centered in the middle of the frame. It is nighttime in a rural countryside field. He is standing in front of a wooden house that is completely engulfed in intense, tall flames. There are many large fires both in front of him and behind him. A massive pillar of fire, slightly taller than him, is engulfing and covering part of his torso and shoulders, but his face remains clearly visible. Despite the inferno, he looks physically intact but has dark soot and charcoal stains on his face and clothes. His expression is striking: staring fixedly directly at the camera, serious, serene, completely fearless, and immovable. Dramatic lighting from the bright orange and red flames contrasting with the dark night sky, photorealistic, 8k resolution, highly detailed textures.\"}"
+       },
+       "response_id": "afe09fb1-a18c-4067-abcb-d13ce460ba02",
+       "usage": {}
+      },
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Thank you for your patience."
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I have acknowledged the successful generation of your requested image and am now offering a courteous closing remark.  \nI am prepared to assist with any further refinements or additional requests you may have.  \nMy aim is to ensure your experience is seamless and satisfying."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "afe09fb1-a18c-4067-abcb-d13ce460ba02",
+       "timestamp": 1781917572,
+       "usage": {
+        "input_tokens": 3853,
+        "output_tokens": 68,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 1510,
+         "text_tokens": 2343
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 3921,
+        "output_tokens_details": {
+         "reasoning_tokens": 53,
+         "text_tokens": 15
+        },
+        "image_tokens": 1510
+       }
+      },
+      {
+       "content": "Aquí tienes la imagen generada con todos los detalles que solicitaste: el hombre de 30 años con cabello largo rizado y barba, en medio del campo de noche, con la casa de madera ardiendo a sus espaldas, las llamas altas a su alrededor, las manchas de carbón en su rostro y ropa, y esa mirada fija, serena e impávida hacia la cámara. \n\nSi necesitas algún ajuste en la composición, el estilo o cualquier otro detalle, no dudes en decírmelo.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "afe09fb1-a18c-4067-abcb-d13ce460ba02",
+       "usage": {
+        "input_tokens": 3853,
+        "output_tokens": 166,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 1510,
+         "text_tokens": 2343
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        },
+        "total_tokens": 4019,
+        "output_tokens_details": {
+         "reasoning_tokens": 53,
+         "text_tokens": 113
+        },
+        "image_tokens": 1510
+       },
+       "timestamp": 1781917573
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1781917573.9961567
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1781917530
+    },
+    "caec7655-251b-4b9e-8d6e-f9f2c56df916": {
+     "id": "caec7655-251b-4b9e-8d6e-f9f2c56df916",
+     "role": "user",
+     "content": "prompt.",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "afe09fb1-a18c-4067-abcb-d13ce460ba02",
+     "turn_id": null,
+     "childrenIds": [
+      "90f96081-664b-405a-bc5f-6ad942f0adab"
+     ],
+     "files": [],
+     "timestamp": 1781917577
+    },
+    "90f96081-664b-405a-bc5f-6ad942f0adab": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "90f96081-664b-405a-bc5f-6ad942f0adab",
+     "parentId": "caec7655-251b-4b9e-8d6e-f9f2c56df916",
+     "childrenIds": [
+      "3348bc8d-29c9-4c22-ab7d-ae7fdf69a489"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Visualizing the scene described in the prompt",
+          "Visualizing the scene with cinematic precision",
+          "Generating a vivid image based on the provided description.",
+          "Visualizing the scene with precision and emotional depth"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am interpreting the request to imagine a man positioned in a field at night, captured from the waist up, facing the front of a house.  \nThe atmosphere is quiet and introspective, with soft lighting suggesting dusk or early evening.  \nI am focusing on creating a serene yet evocative image that captures both the solitude and the intimacy of the moment.",
+          "I am constructing a vivid image of a man standing at the center of a fiery inferno, flames consuming everything around him yet he remains unyielding, his presence calm and resolute.  \nHis long black curly hair and beard frame a face marked by ash and soot, where the fire licks at his form but cannot break his stillness.  \nEvery detail—smoldering wood, towering bursts of flame, the texture of scorched fabric—converges to portray a moment of quiet defiance in the heart of destruction.",
+          "I am envisioning a man positioned at the center of a dramatic scene, standing before a blazing wooden structure engulfed in towering flames.  \nHis silhouette is defined by intense fire both in front and behind him, yet he remains unharmed—his face marked only by soot, his long black hair and beard flowing subtly in the heat.  \nWith a steady, unwavering gaze fixed upon the viewer, he embodies calmness amid chaos, his presence serene and resolute.",
+          "I am rendering a powerful image of a man in his thirties, his long curly hair and beard framing a face marked by fire and time, standing defiantly amidst a night field. The wooden house behind him burns fiercely, its flames dancing like shadows of memory, casting flickering light across his weathered features and soot-stained garments. His eyes hold a stillness that speaks volumes—calm, unyielding, fixed upon the viewer with quiet resolve."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "90f96081-664b-405a-bc5f-6ad942f0adab",
+       "usage": {
+        "input_tokens": 2494,
+        "output_tokens": 545,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 1510,
+         "text_tokens": 984
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 3039,
+        "output_tokens_details": {
+         "reasoning_tokens": 539,
+         "text_tokens": 6
+        },
+        "image_tokens": 1510
+       },
+       "timestamp": 1781917589
+      },
+      {
+       "content": "I can see you've shared an image along with a detailed prompt in Spanish and what appears to be a response describing the generated image. \n\nHow can I help you with this? Would you like me to:\n\n1. **Improve or refine the prompt** for better results?\n2. **Translate the prompt** to English or another language?\n3. **Analyze the image** and compare it to the prompt requirements?\n4. **Create variations** of the prompt with different styles or details?\n5. **Something else** related to this image or prompt?\n\nPlease let me know what you'd like me to do!",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "90f96081-664b-405a-bc5f-6ad942f0adab",
+       "usage": {
+        "input_tokens": 2494,
+        "output_tokens": 674,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 1510,
+         "text_tokens": 984
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 3168,
+        "output_tokens_details": {
+         "reasoning_tokens": 539,
+         "text_tokens": 135
+        },
+        "image_tokens": 1510
+       },
+       "timestamp": 1781917591
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1781917591.3078685
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1781917577
+    },
+    "3348bc8d-29c9-4c22-ab7d-ae7fdf69a489": {
+     "id": "3348bc8d-29c9-4c22-ab7d-ae7fdf69a489",
+     "role": "user",
+     "content": "refine, amplify. long hair passed shoulders, beard",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": "90f96081-664b-405a-bc5f-6ad942f0adab",
+     "turn_id": null,
+     "childrenIds": [
+      "b8574763-26fd-4cdd-8ca4-d63d2b5d5099"
+     ],
+     "files": [],
+     "timestamp": 1781917654
+    },
+    "b8574763-26fd-4cdd-8ca4-d63d2b5d5099": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "b8574763-26fd-4cdd-8ca4-d63d2b5d5099",
+     "parentId": "3348bc8d-29c9-4c22-ab7d-ae7fdf69a489",
+     "childrenIds": [
+      "6222c1c4-5c37-4a0d-931a-6eb9c2d24ac3"
+     ],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Refining the visual description with heightened detail and elegance",
+          "Painting a vivid nocturnal tableau with depth and emotion"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am enhancing the portrayal by emphasizing the length and flow of long hair that extends well beyond the shoulders, imbuing it with a natural, cascading grace.  \nI am also accentuating the presence of a beard, rendering it full and well-groomed to complement the overall dignified and expressive countenance.  \nThe result is a more vivid and immersive depiction, where every feature contributes to a compelling and authentic character image.",
+          "I envision the scene unfolding in rich detail, where shadows dance beneath a sky heavy with smoke and starlight.  \nThe man stands at the center, his silhouette framed by towering flames that flicker both before and behind him, casting an intense glow across his weathered face and scorched garments.  \nHis gaze remains fixed, unwavering, as if time itself has paused to witness the quiet resolve etched into his expression."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "b8574763-26fd-4cdd-8ca4-d63d2b5d5099",
+       "usage": {
+        "input_tokens": 3004,
+        "output_tokens": 192,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 1510,
+         "text_tokens": 1494
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 3196,
+        "output_tokens_details": {
+         "reasoning_tokens": 188,
+         "text_tokens": 4
+        },
+        "image_tokens": 1510
+       },
+       "timestamp": 1781917659
+      },
+      {
+       "content": "**Refined & Amplified Prompt:**\n\n\"Night scene, open field. Cinematic mid-body shot from waist up. A 30-year-old man stands perfectly centered, motionless in front of a wooden house completely engulfed in massive, roaring flames. Tall fire tongues reach high into the night sky, with intense blazes both in the foreground and background surrounding him. Flames rise slightly above his height, partially obscuring parts of his body.\n\nHis appearance shows survival through destruction: though physically intact, his clothes and face are marked with dark soot stains and carbon smudges. His long, thick curly black hair flows well past his shoulders, wild and untamed, catching the orange glow of the fire. A full, dense beard frames his face, equally dark and textured, adding to his rugged, weathered appearance.\n\nHis expression is intense and unwavering: fixed gaze directly into the camera, serious and serene, absolutely fearless despite the inferno surrounding him. Completely still, unmoving, like a statue amidst chaos. Dramatic lighting from the flames illuminates his features with warm orange and yellow tones against the dark night sky.\n\nHighly detailed, photorealistic, cinematic composition, dramatic atmosphere, embers floating in the air, smoke swirling, intense contrast between fire and darkness.\"",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "b8574763-26fd-4cdd-8ca4-d63d2b5d5099",
+       "usage": {
+        "input_tokens": 3004,
+        "output_tokens": 457,
+        "characters": 0,
+        "input_tokens_details": {
+         "image_tokens": 1510,
+         "text_tokens": 1494
+        },
+        "prompt_tokens_details": {},
+        "total_tokens": 3461,
+        "output_tokens_details": {
+         "reasoning_tokens": 188,
+         "text_tokens": 269
+        },
+        "image_tokens": 1510
+       },
+       "timestamp": 1781917663
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1781917664.00016
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1781917654
+    },
+    "6222c1c4-5c37-4a0d-931a-6eb9c2d24ac3": {
+     "id": "6222c1c4-5c37-4a0d-931a-6eb9c2d24ac3",
+     "role": "user",
+     "content": "[The cracks already in theimage explode as Glass, Mirror making breaking mirror sound very strong representing mental brekage, Very visual 3D effect]",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "i2v",
+       "size": "9:16"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": "b8574763-26fd-4cdd-8ca4-d63d2b5d5099",
+     "turn_id": null,
+     "childrenIds": [
+      "6b20a6d2-1b0d-4534-9753-3ca10bb1b019"
+     ],
+     "files": [
+      {
+       "id": "24981a18-ee1f-487c-b0fc-a5e569b35532",
+       "name": "file_000000006c1871f4a5db3fd8e766e6eb.png",
+       "file_type": "image/png",
+       "type": "image",
+       "file_class": "vision",
+       "size": 2179298,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/24981a18-ee1f-487c-b0fc-a5e569b35532_file_000000006c1871f4a5db3fd8e766e6eb.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIyNDk4MWExOC1lZTFmLTQ4N2MtYjBmYy1hNWU1NjliMzU1MzIiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.50N2yiFyDiq0FcSVY2CZxAXPtWEA7jf6rC9Szt9h1gs",
+       "file": {
+        "created_at": 1781983671732,
+        "data": {},
+        "filename": "file_000000006c1871f4a5db3fd8e766e6eb.png",
+        "hash": null,
+        "id": "24981a18-ee1f-487c-b0fc-a5e569b35532",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "file_000000006c1871f4a5db3fd8e766e6eb.png",
+         "size": 2179298,
+         "content_type": "image/png"
+        },
+        "update_at": 1781983671732,
+        "lastModified": 1781966032550,
+        "name": "file_000000006c1871f4a5db3fd8e766e6eb.png",
+        "webkitRelativePath": "",
+        "size": 2179298,
+        "type": "image/png"
+       },
+       "collection_name": "",
+       "progress": 100,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "b4607b98-c398-46f5-b73c-2eb81fd2de39",
+       "showType": "image",
+       "uploadTaskId": "5a01cf32-1cab-44db-aba7-777f9b85346d"
+      }
+     ],
+     "timestamp": 1781983786
+    },
+    "6b20a6d2-1b0d-4534-9753-3ca10bb1b019": {
+     "role": "assistant",
+     "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/6b20a6d2-1b0d-4534-9753-3ca10bb1b019/22ff20e6-ca68-44f2-9c99-579e37b0c63a.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIyMmZmMjBlNi1jYTY4LTQ0ZjItOWM5OS01NzllMzdiMGM2M2EiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.qZ-hKeVEZL52TB7U4DctameYbUzAZaqQSgWbe1nZCkA",
+     "reasoning_content": null,
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "6b20a6d2-1b0d-4534-9753-3ca10bb1b019",
+     "parentId": "6222c1c4-5c37-4a0d-931a-6eb9c2d24ac3",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": null,
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "wanx": {
+       "task_id": "22ff20e6-ca68-44f2-9c99-579e37b0c63a"
+      },
+      "endTime": 1781983787.0706785
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": {
+      "size": "9:16"
+     },
+     "timestamp": 1781983786
+    }
+   },
+   "currentId": "6b20a6d2-1b0d-4534-9753-3ca10bb1b019",
+   "currentResponseIds": [
+    "6b20a6d2-1b0d-4534-9753-3ca10bb1b019"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "876c90b8-4bee-431c-b6a7-3d1703ac719a",
+    "role": "user",
+    "content": "prompt noche campo  mid body cintura para arriba hombre delante de casa de madera quemandose. muchas llamaradas altas. delante de el muchas llamas ya atras tbms. el tiene aspecto de estar entero pero tiene manchas de carbon en la ropa y cara. parte de su cuerpo cubierto por la llama un poco mas alta que el. tiene una mirada fija a la camara serio sereno sin miedo insmovible. esta en medio central de la foto\n muchos detalles. cabello largo rizado negro , barba. 30 @años",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "afe09fb1-a18c-4067-abcb-d13ce460ba02"
+    ],
+    "files": [],
+    "timestamp": 1781917530
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "afe09fb1-a18c-4067-abcb-d13ce460ba02",
+    "parentId": "876c90b8-4bee-431c-b6a7-3d1703ac719a",
+    "childrenIds": [
+     "caec7655-251b-4b9e-8d6e-f9f2c56df916"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Observing the scene with quiet focus",
+         "Standing before a blazing wooden house engulfed in towering flames",
+         "Visualizing a figure standing firm and unyielding",
+         "Standing in the stillness of a night-lit countryside field, I am centered within a frame that captures both intensity and calm.",
+         "Capturing the essence of a moment suspended between chaos and calm",
+         "Visualizing the scene with cinematic precision",
+         "Creating a vivid and focused portrait of a man with striking features"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am immersed in the stillness of the night, where the vast countryside stretches under a canopy of stars, each detail sharpened by the hush of solitude.  \nMy gaze settles on the figure mid-frame—waist up, poised like a quiet poem against the dark field—capturing not just form but presence, breath held between earth and sky.  \nIn this moment, I feel the weight of silence, the pulse of unseen life, and the fragile beauty of being seen.",
+         "I envision a man in his thirties, his long black curls wild and his beard thick, standing defiantly amid the inferno that surrounds him on all sides  \nThe heat distorts the air, and every flicker of flame seems to echo the intensity of his silent resolve  \nI focus on the raw drama of the moment—the fire consuming the structure, yet he remains unyielding, a figure carved from smoke and shadow",
+         "I am imagining a person whole yet marked by soot and ash, their clothing and face bearing the traces of fire, a flicker of flame wrapping part of their form, rising just above their height.  \nTheir gaze is locked upon the lens—calm, resolute, unwavering, radiating quiet courage.  \nThe composition places them at the heart of the image, rendered with intricate detail, each element sharpened by presence and stillness.",
+         "I gaze directly ahead with unwavering focus, my face marked by the ash and soot of fire, yet untouched by its fury.  \nBehind me, flames rise like ancient sentinels, devouring a wooden house in a blaze that flickers across my silhouette.  \nThe scene holds breath—between ruin and resilience, I remain unshaken, a quiet presence amidst chaos.",
+         "I envision a solitary figure standing defiantly amidst an inferno, his silhouette carved by the violent dance of flames that consume the surrounding landscape.  \nThe interplay of darkness and fire defines every detail—the flickering light painting his face with soot, yet revealing a stillness deeper than fear.  \nI render this scene not as spectacle, but as a testament to quiet resolve in the face of overwhelming destruction.",
+         "I am crafting a vivid, immersive image where a man stands at the center of a burning wooden house in a nighttime countryside field, his mid-body frame sharply defined against the vast dark sky. Flames tower around him—both before and behind—illuminating his face and clothes, which bear soot and charcoal stains despite his composed, fearless expression. A single flame licks slightly higher than his height, partially engulfing part of his body, yet he remains still, his gaze locked unflinchingly on the camera with serene intensity.",
+         "I envision a cinematic composition centered on a 30-year-old man whose long, curly black hair and beard frame a face that remains sharply visible despite the presence of fire nearby.  \nI ensure the flame enhances the atmosphere without obscuring his intense, unwavering gaze directed straight at the lens.  \nEvery detail is carefully balanced to preserve clarity, emotion, and visual impact."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "afe09fb1-a18c-4067-abcb-d13ce460ba02",
+      "usage": {
+       "input_tokens": 3853,
+       "output_tokens": 68,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 1510,
+        "text_tokens": 2343
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 3921,
+       "output_tokens_details": {
+        "reasoning_tokens": 53,
+        "text_tokens": 15
+       },
+       "image_tokens": 1510
+      },
+      "timestamp": 1781917558
+     },
+     {
+      "content": "",
+      "phase": "image_gen_tool",
+      "status": "finished",
+      "extra": {
+       "display_position": "answer",
+       "image_list": [
+        {
+         "image": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/image_gen/afe09fb1-a18c-4067-abcb-d13ce460ba02/1781917567.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxNzgxOTE3NTY3IiwicmVzb3VyY2VfY2hhdF9pZCI6ImUzYmMxYTFkLWVhOTAtNGY4Mi05OGRiLTU1OGJkNmRjMTRhYiJ9.q17sAzou-wYw8IMgJ-SrRB1eY2a1f_hBv2LD56vVK9U"
+        }
+       ],
+       "tool_result": [
+        {
+         "image": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/t2i/e3bc1a1d-ea90-4f82-98db-558bd6dc14ab/147ab34b1-7471-40b4-b630-c4c4ee93711b.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIxNDdhYjM0YjEtNzQ3MS00MGI0LWI2MzAtYzRjNGVlOTM3MTFiIiwicmVzb3VyY2VfdHlwZSI6ImltYWdlX3Rvb2wifQ.rcu-FTtAVIQ4JFAryWlWZ2T2cEkrVHZPs7ndFA3sVU4"
+        }
+       ]
+      },
+      "role": "function",
+      "name": "image_gen",
+      "function_id": "round_0_call_fd78582b97894247b00c4c7e",
+      "function_call": {
+       "name": "image_gen",
+       "arguments": "{\"prompt\": \"A highly detailed, cinematic mid-shot from the waist up of a 30-year-old man with long curly black hair and a beard, standing perfectly centered in the middle of the frame. It is nighttime in a rural countryside field. He is standing in front of a wooden house that is completely engulfed in intense, tall flames. There are many large fires both in front of him and behind him. A massive pillar of fire, slightly taller than him, is engulfing and covering part of his torso and shoulders, but his face remains clearly visible. Despite the inferno, he looks physically intact but has dark soot and charcoal stains on his face and clothes. His expression is striking: staring fixedly directly at the camera, serious, serene, completely fearless, and immovable. Dramatic lighting from the bright orange and red flames contrasting with the dark night sky, photorealistic, 8k resolution, highly detailed textures.\"}"
+      },
+      "response_id": "afe09fb1-a18c-4067-abcb-d13ce460ba02",
+      "usage": {}
+     },
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Thank you for your patience."
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I have acknowledged the successful generation of your requested image and am now offering a courteous closing remark.  \nI am prepared to assist with any further refinements or additional requests you may have.  \nMy aim is to ensure your experience is seamless and satisfying."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "afe09fb1-a18c-4067-abcb-d13ce460ba02",
+      "timestamp": 1781917572,
+      "usage": {
+       "input_tokens": 3853,
+       "output_tokens": 68,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 1510,
+        "text_tokens": 2343
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 3921,
+       "output_tokens_details": {
+        "reasoning_tokens": 53,
+        "text_tokens": 15
+       },
+       "image_tokens": 1510
+      }
+     },
+     {
+      "content": "Aquí tienes la imagen generada con todos los detalles que solicitaste: el hombre de 30 años con cabello largo rizado y barba, en medio del campo de noche, con la casa de madera ardiendo a sus espaldas, las llamas altas a su alrededor, las manchas de carbón en su rostro y ropa, y esa mirada fija, serena e impávida hacia la cámara. \n\nSi necesitas algún ajuste en la composición, el estilo o cualquier otro detalle, no dudes en decírmelo.",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "afe09fb1-a18c-4067-abcb-d13ce460ba02",
+      "usage": {
+       "input_tokens": 3853,
+       "output_tokens": 166,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 1510,
+        "text_tokens": 2343
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       },
+       "total_tokens": 4019,
+       "output_tokens_details": {
+        "reasoning_tokens": 53,
+        "text_tokens": 113
+       },
+       "image_tokens": 1510
+      },
+      "timestamp": 1781917573
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1781917573.9961567
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1781917530
+   },
+   {
+    "id": "caec7655-251b-4b9e-8d6e-f9f2c56df916",
+    "role": "user",
+    "content": "prompt.",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "afe09fb1-a18c-4067-abcb-d13ce460ba02",
+    "turn_id": null,
+    "childrenIds": [
+     "90f96081-664b-405a-bc5f-6ad942f0adab"
+    ],
+    "files": [],
+    "timestamp": 1781917577
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "90f96081-664b-405a-bc5f-6ad942f0adab",
+    "parentId": "caec7655-251b-4b9e-8d6e-f9f2c56df916",
+    "childrenIds": [
+     "3348bc8d-29c9-4c22-ab7d-ae7fdf69a489"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Visualizing the scene described in the prompt",
+         "Visualizing the scene with cinematic precision",
+         "Generating a vivid image based on the provided description.",
+         "Visualizing the scene with precision and emotional depth"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am interpreting the request to imagine a man positioned in a field at night, captured from the waist up, facing the front of a house.  \nThe atmosphere is quiet and introspective, with soft lighting suggesting dusk or early evening.  \nI am focusing on creating a serene yet evocative image that captures both the solitude and the intimacy of the moment.",
+         "I am constructing a vivid image of a man standing at the center of a fiery inferno, flames consuming everything around him yet he remains unyielding, his presence calm and resolute.  \nHis long black curly hair and beard frame a face marked by ash and soot, where the fire licks at his form but cannot break his stillness.  \nEvery detail—smoldering wood, towering bursts of flame, the texture of scorched fabric—converges to portray a moment of quiet defiance in the heart of destruction.",
+         "I am envisioning a man positioned at the center of a dramatic scene, standing before a blazing wooden structure engulfed in towering flames.  \nHis silhouette is defined by intense fire both in front and behind him, yet he remains unharmed—his face marked only by soot, his long black hair and beard flowing subtly in the heat.  \nWith a steady, unwavering gaze fixed upon the viewer, he embodies calmness amid chaos, his presence serene and resolute.",
+         "I am rendering a powerful image of a man in his thirties, his long curly hair and beard framing a face marked by fire and time, standing defiantly amidst a night field. The wooden house behind him burns fiercely, its flames dancing like shadows of memory, casting flickering light across his weathered features and soot-stained garments. His eyes hold a stillness that speaks volumes—calm, unyielding, fixed upon the viewer with quiet resolve."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "90f96081-664b-405a-bc5f-6ad942f0adab",
+      "usage": {
+       "input_tokens": 2494,
+       "output_tokens": 545,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 1510,
+        "text_tokens": 984
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 3039,
+       "output_tokens_details": {
+        "reasoning_tokens": 539,
+        "text_tokens": 6
+       },
+       "image_tokens": 1510
+      },
+      "timestamp": 1781917589
+     },
+     {
+      "content": "I can see you've shared an image along with a detailed prompt in Spanish and what appears to be a response describing the generated image. \n\nHow can I help you with this? Would you like me to:\n\n1. **Improve or refine the prompt** for better results?\n2. **Translate the prompt** to English or another language?\n3. **Analyze the image** and compare it to the prompt requirements?\n4. **Create variations** of the prompt with different styles or details?\n5. **Something else** related to this image or prompt?\n\nPlease let me know what you'd like me to do!",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "90f96081-664b-405a-bc5f-6ad942f0adab",
+      "usage": {
+       "input_tokens": 2494,
+       "output_tokens": 674,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 1510,
+        "text_tokens": 984
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 3168,
+       "output_tokens_details": {
+        "reasoning_tokens": 539,
+        "text_tokens": 135
+       },
+       "image_tokens": 1510
+      },
+      "timestamp": 1781917591
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1781917591.3078685
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1781917577
+   },
+   {
+    "id": "3348bc8d-29c9-4c22-ab7d-ae7fdf69a489",
+    "role": "user",
+    "content": "refine, amplify. long hair passed shoulders, beard",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": "90f96081-664b-405a-bc5f-6ad942f0adab",
+    "turn_id": null,
+    "childrenIds": [
+     "b8574763-26fd-4cdd-8ca4-d63d2b5d5099"
+    ],
+    "files": [],
+    "timestamp": 1781917654
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "b8574763-26fd-4cdd-8ca4-d63d2b5d5099",
+    "parentId": "3348bc8d-29c9-4c22-ab7d-ae7fdf69a489",
+    "childrenIds": [
+     "6222c1c4-5c37-4a0d-931a-6eb9c2d24ac3"
+    ],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Refining the visual description with heightened detail and elegance",
+         "Painting a vivid nocturnal tableau with depth and emotion"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am enhancing the portrayal by emphasizing the length and flow of long hair that extends well beyond the shoulders, imbuing it with a natural, cascading grace.  \nI am also accentuating the presence of a beard, rendering it full and well-groomed to complement the overall dignified and expressive countenance.  \nThe result is a more vivid and immersive depiction, where every feature contributes to a compelling and authentic character image.",
+         "I envision the scene unfolding in rich detail, where shadows dance beneath a sky heavy with smoke and starlight.  \nThe man stands at the center, his silhouette framed by towering flames that flicker both before and behind him, casting an intense glow across his weathered face and scorched garments.  \nHis gaze remains fixed, unwavering, as if time itself has paused to witness the quiet resolve etched into his expression."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "b8574763-26fd-4cdd-8ca4-d63d2b5d5099",
+      "usage": {
+       "input_tokens": 3004,
+       "output_tokens": 192,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 1510,
+        "text_tokens": 1494
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 3196,
+       "output_tokens_details": {
+        "reasoning_tokens": 188,
+        "text_tokens": 4
+       },
+       "image_tokens": 1510
+      },
+      "timestamp": 1781917659
+     },
+     {
+      "content": "**Refined & Amplified Prompt:**\n\n\"Night scene, open field. Cinematic mid-body shot from waist up. A 30-year-old man stands perfectly centered, motionless in front of a wooden house completely engulfed in massive, roaring flames. Tall fire tongues reach high into the night sky, with intense blazes both in the foreground and background surrounding him. Flames rise slightly above his height, partially obscuring parts of his body.\n\nHis appearance shows survival through destruction: though physically intact, his clothes and face are marked with dark soot stains and carbon smudges. His long, thick curly black hair flows well past his shoulders, wild and untamed, catching the orange glow of the fire. A full, dense beard frames his face, equally dark and textured, adding to his rugged, weathered appearance.\n\nHis expression is intense and unwavering: fixed gaze directly into the camera, serious and serene, absolutely fearless despite the inferno surrounding him. Completely still, unmoving, like a statue amidst chaos. Dramatic lighting from the flames illuminates his features with warm orange and yellow tones against the dark night sky.\n\nHighly detailed, photorealistic, cinematic composition, dramatic atmosphere, embers floating in the air, smoke swirling, intense contrast between fire and darkness.\"",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "b8574763-26fd-4cdd-8ca4-d63d2b5d5099",
+      "usage": {
+       "input_tokens": 3004,
+       "output_tokens": 457,
+       "characters": 0,
+       "input_tokens_details": {
+        "image_tokens": 1510,
+        "text_tokens": 1494
+       },
+       "prompt_tokens_details": {},
+       "total_tokens": 3461,
+       "output_tokens_details": {
+        "reasoning_tokens": 188,
+        "text_tokens": 269
+       },
+       "image_tokens": 1510
+      },
+      "timestamp": 1781917663
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1781917664.00016
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1781917654
+   },
+   {
+    "id": "6222c1c4-5c37-4a0d-931a-6eb9c2d24ac3",
+    "role": "user",
+    "content": "[The cracks already in theimage explode as Glass, Mirror making breaking mirror sound very strong representing mental brekage, Very visual 3D effect]",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "i2v",
+      "size": "9:16"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "parentId": "b8574763-26fd-4cdd-8ca4-d63d2b5d5099",
+    "turn_id": null,
+    "childrenIds": [
+     "6b20a6d2-1b0d-4534-9753-3ca10bb1b019"
+    ],
+    "files": [
+     {
+      "id": "24981a18-ee1f-487c-b0fc-a5e569b35532",
+      "name": "file_000000006c1871f4a5db3fd8e766e6eb.png",
+      "file_type": "image/png",
+      "type": "image",
+      "file_class": "vision",
+      "size": 2179298,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/24981a18-ee1f-487c-b0fc-a5e569b35532_file_000000006c1871f4a5db3fd8e766e6eb.png?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIyNDk4MWExOC1lZTFmLTQ4N2MtYjBmYy1hNWU1NjliMzU1MzIiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.50N2yiFyDiq0FcSVY2CZxAXPtWEA7jf6rC9Szt9h1gs",
+      "file": {
+       "created_at": 1781983671732,
+       "data": {},
+       "filename": "file_000000006c1871f4a5db3fd8e766e6eb.png",
+       "hash": null,
+       "id": "24981a18-ee1f-487c-b0fc-a5e569b35532",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "file_000000006c1871f4a5db3fd8e766e6eb.png",
+        "size": 2179298,
+        "content_type": "image/png"
+       },
+       "update_at": 1781983671732,
+       "lastModified": 1781966032550,
+       "name": "file_000000006c1871f4a5db3fd8e766e6eb.png",
+       "webkitRelativePath": "",
+       "size": 2179298,
+       "type": "image/png"
+      },
+      "collection_name": "",
+      "progress": 100,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "b4607b98-c398-46f5-b73c-2eb81fd2de39",
+      "showType": "image",
+      "uploadTaskId": "5a01cf32-1cab-44db-aba7-777f9b85346d"
+     }
+    ],
+    "timestamp": 1781983786
+   },
+   {
+    "role": "assistant",
+    "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/6b20a6d2-1b0d-4534-9753-3ca10bb1b019/22ff20e6-ca68-44f2-9c99-579e37b0c63a.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIyMmZmMjBlNi1jYTY4LTQ0ZjItOWM5OS01NzllMzdiMGM2M2EiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.qZ-hKeVEZL52TB7U4DctameYbUzAZaqQSgWbe1nZCkA",
+    "reasoning_content": null,
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "6b20a6d2-1b0d-4534-9753-3ca10bb1b019",
+    "parentId": "6222c1c4-5c37-4a0d-931a-6eb9c2d24ac3",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "content_list": null,
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "wanx": {
+      "task_id": "22ff20e6-ca68-44f2-9c99-579e37b0c63a"
+     },
+     "endTime": 1781983787.0706785
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": {
+     "size": "9:16"
+    },
+    "timestamp": 1781983786
+   }
+  ]
+ },
+ "updated_at": 1781983786,
+ "created_at": 1781917529,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1781917528695
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "6b20a6d2-1b0d-4534-9753-3ca10bb1b019"
+ ],
+ "currentId": "6b20a6d2-1b0d-4534-9753-3ca10bb1b019",
+ "chat_type": "i2v",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

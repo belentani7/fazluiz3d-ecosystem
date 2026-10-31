@@ -1,0 +1,2220 @@
+{
+ "id": "4d8193cd-9ea0-4a0c-b9a9-d189f9628d7a",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Android Face Cloning Links",
+ "chat": {
+  "history": {
+   "messages": {
+    "f95bdc8e-427a-4968-9a28-0942fbfb9b64": {
+     "id": "f95bdc8e-427a-4968-9a28-0942fbfb9b64",
+     "role": "user",
+     "content": "Ai crea fotos y copia rostro bien de referencia para crear otra. Todos los links android",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da",
+      "96042a8b-88bc-4024-b305-be27bd03854b"
+     ],
+     "files": [],
+     "timestamp": 1783190284
+    },
+    "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da",
+     "parentId": "f95bdc8e-427a-4968-9a28-0942fbfb9b64",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Generating visual concepts based on reference imagery",
+          "Seeking relevant Android applications for face-swapping and face-editing functionalities",
+          "Searching for trusted Android applications capable of intelligent face swapping using reference images"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am assessing the user's desire to replicate facial features from a source image into a new composition, focusing on natural and accurate translation of likeness.  \nMy approach involves interpreting subtle nuances in expression, structure, and lighting to ensure seamless integration.  \nThe goal is to produce a result that feels authentic and true to the original while adapting it to a new context.",
+          "I am identifying trustworthy, user-friendly apps that enable realistic facial transformations on Android devices  \nMy focus is on tools that prioritize accuracy in facial alignment and offer intuitive interfaces for seamless integration  \nI ensure all recommendations are accessible through official Android channels and maintain privacy-conscious design",
+          "I am identifying reliable, user-friendly apps that leverage AI to seamlessly transfer facial features from one image to another  \nMy focus is on apps with strong performance, clear interface, and solid privacy practices to ensure a safe experience  \nI will provide curated options with direct links or search guidance to help you explore them easily"
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da",
+       "usage": {
+        "input_tokens": 3765,
+        "output_tokens": 143,
+        "total_tokens": 3908,
+        "output_tokens_details": {
+         "reasoning_tokens": 141
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1783190296
+      },
+      {
+       "content": "",
+       "phase": "web_search",
+       "status": "finished",
+       "extra": {
+        "display_position": "think",
+        "web_search_info": [
+         {
+          "url": "https://face-swap-face-changer-ai.softonic.com/android/alternativas",
+          "title": "23 mejores apps como Face Swap Face Changer AI para Android",
+          "snippet": "Descubre la mejor alternativa a Face Swap Face Changer AI en Softonic. Compara y descarga más de 23 apps como Face Swap Face Changer AI: Reface - RR.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://face-dance-ai-photo-animator.softonic.com/android/alternativas",
+          "title": "30 mejores apps como Face Dance: AI Photo Animator para Android",
+          "snippet": "Mejores Aplicaciones Gratuitas  App gratuita para intercambiar rostros en videocreaciones. Descargar · Alternativas a FacePlay - Face Swap Video para Android.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://remaker-ai-face-swap.softonic.com/android",
+          "title": "Remaker AI Face Swap para Android - Descargar - Softonic",
+          "snippet": "Remaker AI Face Swap es una aplicación para Android que permite intercambiar rostros en fotos de manera precisa y realista. Utilizando",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-01-09)"
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.facelite.replacer&hl=es_SV",
+          "title": "FaceSwapper Lite: AI Face Swap - Apps en Google Play",
+          "snippet": "Faceswapper Lite es una aplicación de intercambio de rostros de fotos y videos diseñada para Android, para intercambiar tu rostro en diferentes escenas.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://faceapp.softonic.com/android/alternativas",
+          "title": "20 mejores apps como FaceApp: Perfect Face Editor para Android",
+          "snippet": "Mejores Aplicaciones Gratuitas  App gratuita para intercambiar rostros en videocreaciones · Descargar · Alternativas a FacePlay - Face Swap Video para Android.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://faceswapper.uptodown.com/android",
+          "title": "FaceSwapper para Android - Descarga el APK en Uptodown",
+          "snippet": "FaceSwapper ofrece una plataforma avanzada y fácil de usar para crear intercambios de rostros realistas con tecnología de inteligencia artificial en fotos,",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://speechify.com/es/blog/face-swap-app/?srsltid=AfmBOopeoA4TnDbhrZvkN-A__5Z_O5pGLGF6PNBEU4RL1EnsHLSU59W1",
+          "title": "Sumérgete en el Mundo de los Intercambios Faciales Digitales",
+          "snippet": "Las 9 Mejores Aplicaciones de Intercambio de Rostros: La Caja de Herramientas Digital · Reface: · Snapchat: · FaceOver: · Face Swap Live: · Pic Swap:.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2023-10-10)"
+         },
+         {
+          "url": "https://face-swap-online-face-changer.softonic.com/android/alternativas",
+          "title": "30 mejores apps como Face swap online Face Changer para Android",
+          "snippet": "Alternativas a Add Face To Video Face Changer - Reface Face Swap para Android  Mejores Aplicaciones Gratuitas · Juegos Antiguos Para Android Gratis · Edición",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=video.reface.app&hl=es",
+          "title": "Reface: Face swap videos/fotos - Aplicaciones en Google Play",
+          "snippet": "Convierte selfies en videos divertidísimos con intercambio facial por IA, crea avatares de IA en tendencia, figuras de IA, genera imágenes de tu",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-18)"
+         },
+         {
+          "url": "https://filmora.wondershare.es/video-editor/best-face-swap-apps.html",
+          "title": "Las 10 mejores aplicaciones de intercambio de caras para Android ",
+          "snippet": "1. Filmora: Editor y creador de vídeos con inteligencia artificial · 2. Snapchat · 3. Reface: Generador de IA de intercambio de caras · 4. RemakeFace: Intercambio",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.producthunt.com/categories/face-swap-apps",
+          "title": "The best face swap apps in 2026 - Product Hunt",
+          "snippet": "DeepSwap, Reface, and FaceMagic turn photos, GIFs, and videos into social-ready swaps. Newer FaceLoco makes browser-based video edits from",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-04-27)"
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=video.reface.app",
+          "title": "Reface: Face Swap AI Generator - Apps on Google Play",
+          "snippet": "Make scroll‑stopping content in seconds with advanced face swap app. Turn selfies into hilarious ai face swap videos, craft on‑trend AI avatars,",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-18)"
+         },
+         {
+          "url": "https://www.barchart.com/story/news/2256748/best--face-swap-apps-in-2026-video-photo-tested-compared",
+          "title": "Best AI Face Swap Apps in 2026 (Video + Photo) (Tested ",
+          "snippet": "Platforms like Magic Hour, Canva, SeaArt AI, and Remaker AI represent different approaches to swapping faces in photos and videos. This guide",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-02)"
+         },
+         {
+          "url": "https://www.linkedin.com/pulse/top-5-ai-face-swap-apps-try-2026-martha-spooner-x4hkf",
+          "title": "Top 5 AI Face Swap Apps to Try in 2026 - LinkedIn",
+          "snippet": "Discover the top 5 AI face swap apps of 2026 including Starlor, SwapyFace, Reface, RemakeFace, and FaceSwapper. Compare features, platforms",
+          "hostname": "领英企业服务",
+          "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01u0ayiG1z2xayCOBcr_!!6000000006657-73-tps-16-16.ico",
+          "date": " (2025-12-25)"
+         },
+         {
+          "url": "https://consensus.app/search/ai-face-swap-apps-in-2026/Ki6u_vQNSWSpwNFy2jZOag/",
+          "title": "AI Face Swap Apps in 2026 - Consensus",
+          "snippet": "Quick Answer: Undress AI is the best all-around choice for most people.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://edimakor.hitpaw.es/video-editing-tips/couple-face-swap.html",
+          "title": "Top 5 Apps de Intercambio de Caras para Parejas con IA 2026",
+          "snippet": "En esta guía completa, se examinarán las principales soluciones de intercambio de caras con IA, como HitPaw Edimakor para PC, plataformas web,",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-03-02)"
+         },
+         {
+          "url": "https://pxz.ai/blog/15-best-ai-face-swap-apps-and-websites-free-and-paid-in-2025",
+          "title": "15 Best AI Face Swap Apps & Websites (Free & Paid in 2025) - PXZ AI",
+          "snippet": "15 best AI face swap apps and websites (free & paid) in 2025. PXZ AI offers free AI-powered face swapping for photos and videos.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://cl.pinterest.com/pin/173951604344094312/?send=true",
+          "title": "12 Best Face Recognition Apps for iOS and Android | 2026 Edition",
+          "snippet": "12 Best Face Recognition Apps for iOS and Android | 2026 Edition - RankRed  Since the Apple launched their iPhone X, Face recognition has really changed.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://faceswapper.uptodown.com/android",
+          "title": "FaceSwapper para Android - Descarga el APK en Uptodown",
+          "snippet": "FaceSwapper ofrece una plataforma avanzada y fácil de usar para crear intercambios de rostros realistas con tecnología de inteligencia artificial en fotos,",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.officelens.faceswap.facechanger.editor&hl=es",
+          "title": "Editor de rostros con IA - Aplicaciones en Google Play",
+          "snippet": "Editor de Caras: La app AI Face Swap es la app definitiva para transformar tus fotos con diversión, creatividad y tecnología de IA inteligente.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.bitswits.co/blog/face-recognition-apps",
+          "title": "18 Best Face Recognition Apps for Android and iOS in 2026 - BitsWits",
+          "snippet": "Google Photos is a face identification app that applies face recognition to your photo library. The app recognizes faces from the uploaded photos, analyzes them",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.hyena.ai/best-facial-recognition-software-that-you-can-create-its-clone/",
+          "title": "Best Facial Recognition Software That You Can Create Its Clone",
+          "snippet": "Most Popular Face Recognition Apps For Android & iOS · FaceApp · FaceApp · AppLock · AppLock · Blipper · face-recognition-app blipper · Face DNA Test.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://mangoanimate.com/blog/es/top-9-face-changer-apps-for-effective-face-swapping/20894/",
+          "title": "Las 9 mejores aplicaciones para cambiar el rostro de forma eficaz",
+          "snippet": "La función de intercambio de caras con IA de PhotoDirector te permite usar cualquier imagen que elijas como fuente o con los ajustes preestablecidos.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.cmarix.com/blog/best-face-recognition-apps/",
+          "title": "10 Face Recognition Apps for Android & iOS In 2026 - CMARIX",
+          "snippet": "Best Face Recognition Apps For Android and iOS [A Details Guide 2026] · 1. Fingerprints · 2. Photo and Video · 3. Voice · 4. DNA · 5. Signature",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-17)"
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.appzeeinc.face_recognition.facial_recognition.face_detection&hl=en_ZA",
+          "title": "Face Recognition Detection – Apps on Google Play",
+          "snippet": "With Face Recognizer, you can detect and recognize faces in real-time using your Android device's camera or from any photo — fast, easy, and",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-23)"
+         },
+         {
+          "url": "https://github.com/Lauszus/FaceRecognitionApp",
+          "title": "Lauszus/FaceRecognitionApp: Face Recognition Android App",
+          "snippet": "This project demonstrates how to calculate Eigenfaces and Fisherfaces used for face recognition on an Android device.",
+          "hostname": "GitHub",
+          "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01Pzz5rH1SIBQeVFb7w_!!6000000002223-55-tps-32-32.svg",
+          "date": ""
+         },
+         {
+          "url": "https://face-swap-1.en.softonic.com/android/alternatives",
+          "title": "Top 29 Apps like Face Swap for Android",
+          "snippet": "FaceFun is a free face swap app that lets you create and share your own face-swapped videos and photos with your friends.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=io.amigoai.amigo",
+          "title": "Amigo AI - Face Swap Camera - Apps on Google Play",
+          "snippet": "Amigo AI is the free, real-time face swap app for Android phone — with unlimited use and live video call support. Open the app and start",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-04-30)"
+         }
+        ],
+        "tool_result": {
+         "docs": [
+          {
+           "url": "https://face-swap-face-changer-ai.softonic.com/android/alternativas",
+           "title": "23 mejores apps como Face Swap Face Changer AI para Android",
+           "snippet": "Descubre la mejor alternativa a Face Swap Face Changer AI en Softonic. Compara y descarga más de 23 apps como Face Swap Face Changer AI: Reface - RR.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://face-dance-ai-photo-animator.softonic.com/android/alternativas",
+           "title": "30 mejores apps como Face Dance: AI Photo Animator para Android",
+           "snippet": "Mejores Aplicaciones Gratuitas  App gratuita para intercambiar rostros en videocreaciones. Descargar · Alternativas a FacePlay - Face Swap Video para Android.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://remaker-ai-face-swap.softonic.com/android",
+           "title": "Remaker AI Face Swap para Android - Descargar - Softonic",
+           "snippet": "Remaker AI Face Swap es una aplicación para Android que permite intercambiar rostros en fotos de manera precisa y realista. Utilizando",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-01-09)"
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=com.facelite.replacer&hl=es_SV",
+           "title": "FaceSwapper Lite: AI Face Swap - Apps en Google Play",
+           "snippet": "Faceswapper Lite es una aplicación de intercambio de rostros de fotos y videos diseñada para Android, para intercambiar tu rostro en diferentes escenas.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://faceapp.softonic.com/android/alternativas",
+           "title": "20 mejores apps como FaceApp: Perfect Face Editor para Android",
+           "snippet": "Mejores Aplicaciones Gratuitas  App gratuita para intercambiar rostros en videocreaciones · Descargar · Alternativas a FacePlay - Face Swap Video para Android.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://faceswapper.uptodown.com/android",
+           "title": "FaceSwapper para Android - Descarga el APK en Uptodown",
+           "snippet": "FaceSwapper ofrece una plataforma avanzada y fácil de usar para crear intercambios de rostros realistas con tecnología de inteligencia artificial en fotos,",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://speechify.com/es/blog/face-swap-app/?srsltid=AfmBOopeoA4TnDbhrZvkN-A__5Z_O5pGLGF6PNBEU4RL1EnsHLSU59W1",
+           "title": "Sumérgete en el Mundo de los Intercambios Faciales Digitales",
+           "snippet": "Las 9 Mejores Aplicaciones de Intercambio de Rostros: La Caja de Herramientas Digital · Reface: · Snapchat: · FaceOver: · Face Swap Live: · Pic Swap:.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2023-10-10)"
+          },
+          {
+           "url": "https://face-swap-online-face-changer.softonic.com/android/alternativas",
+           "title": "30 mejores apps como Face swap online Face Changer para Android",
+           "snippet": "Alternativas a Add Face To Video Face Changer - Reface Face Swap para Android  Mejores Aplicaciones Gratuitas · Juegos Antiguos Para Android Gratis · Edición",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=video.reface.app&hl=es",
+           "title": "Reface: Face swap videos/fotos - Aplicaciones en Google Play",
+           "snippet": "Convierte selfies en videos divertidísimos con intercambio facial por IA, crea avatares de IA en tendencia, figuras de IA, genera imágenes de tu",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-06-18)"
+          },
+          {
+           "url": "https://filmora.wondershare.es/video-editor/best-face-swap-apps.html",
+           "title": "Las 10 mejores aplicaciones de intercambio de caras para Android ",
+           "snippet": "1. Filmora: Editor y creador de vídeos con inteligencia artificial · 2. Snapchat · 3. Reface: Generador de IA de intercambio de caras · 4. RemakeFace: Intercambio",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://www.producthunt.com/categories/face-swap-apps",
+           "title": "The best face swap apps in 2026 - Product Hunt",
+           "snippet": "DeepSwap, Reface, and FaceMagic turn photos, GIFs, and videos into social-ready swaps. Newer FaceLoco makes browser-based video edits from",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-04-27)"
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=video.reface.app",
+           "title": "Reface: Face Swap AI Generator - Apps on Google Play",
+           "snippet": "Make scroll‑stopping content in seconds with advanced face swap app. Turn selfies into hilarious ai face swap videos, craft on‑trend AI avatars,",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-06-18)"
+          },
+          {
+           "url": "https://www.barchart.com/story/news/2256748/best--face-swap-apps-in-2026-video-photo-tested-compared",
+           "title": "Best AI Face Swap Apps in 2026 (Video + Photo) (Tested ",
+           "snippet": "Platforms like Magic Hour, Canva, SeaArt AI, and Remaker AI represent different approaches to swapping faces in photos and videos. This guide",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-06-02)"
+          },
+          {
+           "url": "https://www.linkedin.com/pulse/top-5-ai-face-swap-apps-try-2026-martha-spooner-x4hkf",
+           "title": "Top 5 AI Face Swap Apps to Try in 2026 - LinkedIn",
+           "snippet": "Discover the top 5 AI face swap apps of 2026 including Starlor, SwapyFace, Reface, RemakeFace, and FaceSwapper. Compare features, platforms",
+           "hostname": "领英企业服务",
+           "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01u0ayiG1z2xayCOBcr_!!6000000006657-73-tps-16-16.ico",
+           "date": " (2025-12-25)"
+          },
+          {
+           "url": "https://consensus.app/search/ai-face-swap-apps-in-2026/Ki6u_vQNSWSpwNFy2jZOag/",
+           "title": "AI Face Swap Apps in 2026 - Consensus",
+           "snippet": "Quick Answer: Undress AI is the best all-around choice for most people.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://edimakor.hitpaw.es/video-editing-tips/couple-face-swap.html",
+           "title": "Top 5 Apps de Intercambio de Caras para Parejas con IA 2026",
+           "snippet": "En esta guía completa, se examinarán las principales soluciones de intercambio de caras con IA, como HitPaw Edimakor para PC, plataformas web,",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-03-02)"
+          },
+          {
+           "url": "https://pxz.ai/blog/15-best-ai-face-swap-apps-and-websites-free-and-paid-in-2025",
+           "title": "15 Best AI Face Swap Apps & Websites (Free & Paid in 2025) - PXZ AI",
+           "snippet": "15 best AI face swap apps and websites (free & paid) in 2025. PXZ AI offers free AI-powered face swapping for photos and videos.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://cl.pinterest.com/pin/173951604344094312/?send=true",
+           "title": "12 Best Face Recognition Apps for iOS and Android | 2026 Edition",
+           "snippet": "12 Best Face Recognition Apps for iOS and Android | 2026 Edition - RankRed  Since the Apple launched their iPhone X, Face recognition has really changed.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://faceswapper.uptodown.com/android",
+           "title": "FaceSwapper para Android - Descarga el APK en Uptodown",
+           "snippet": "FaceSwapper ofrece una plataforma avanzada y fácil de usar para crear intercambios de rostros realistas con tecnología de inteligencia artificial en fotos,",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=com.officelens.faceswap.facechanger.editor&hl=es",
+           "title": "Editor de rostros con IA - Aplicaciones en Google Play",
+           "snippet": "Editor de Caras: La app AI Face Swap es la app definitiva para transformar tus fotos con diversión, creatividad y tecnología de IA inteligente.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://www.bitswits.co/blog/face-recognition-apps",
+           "title": "18 Best Face Recognition Apps for Android and iOS in 2026 - BitsWits",
+           "snippet": "Google Photos is a face identification app that applies face recognition to your photo library. The app recognizes faces from the uploaded photos, analyzes them",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://www.hyena.ai/best-facial-recognition-software-that-you-can-create-its-clone/",
+           "title": "Best Facial Recognition Software That You Can Create Its Clone",
+           "snippet": "Most Popular Face Recognition Apps For Android & iOS · FaceApp · FaceApp · AppLock · AppLock · Blipper · face-recognition-app blipper · Face DNA Test.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://mangoanimate.com/blog/es/top-9-face-changer-apps-for-effective-face-swapping/20894/",
+           "title": "Las 9 mejores aplicaciones para cambiar el rostro de forma eficaz",
+           "snippet": "La función de intercambio de caras con IA de PhotoDirector te permite usar cualquier imagen que elijas como fuente o con los ajustes preestablecidos.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://www.cmarix.com/blog/best-face-recognition-apps/",
+           "title": "10 Face Recognition Apps for Android & iOS In 2026 - CMARIX",
+           "snippet": "Best Face Recognition Apps For Android and iOS [A Details Guide 2026] · 1. Fingerprints · 2. Photo and Video · 3. Voice · 4. DNA · 5. Signature",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-06-17)"
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=com.appzeeinc.face_recognition.facial_recognition.face_detection&hl=en_ZA",
+           "title": "Face Recognition Detection – Apps on Google Play",
+           "snippet": "With Face Recognizer, you can detect and recognize faces in real-time using your Android device's camera or from any photo — fast, easy, and",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-06-23)"
+          },
+          {
+           "url": "https://github.com/Lauszus/FaceRecognitionApp",
+           "title": "Lauszus/FaceRecognitionApp: Face Recognition Android App",
+           "snippet": "This project demonstrates how to calculate Eigenfaces and Fisherfaces used for face recognition on an Android device.",
+           "hostname": "GitHub",
+           "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01Pzz5rH1SIBQeVFb7w_!!6000000002223-55-tps-32-32.svg",
+           "date": ""
+          },
+          {
+           "url": "https://face-swap-1.en.softonic.com/android/alternatives",
+           "title": "Top 29 Apps like Face Swap for Android",
+           "snippet": "FaceFun is a free face swap app that lets you create and share your own face-swapped videos and photos with your friends.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=io.amigoai.amigo",
+           "title": "Amigo AI - Face Swap Camera - Apps on Google Play",
+           "snippet": "Amigo AI is the free, real-time face swap app for Android phone — with unlimited use and live video call support. Open the app and start",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-04-30)"
+          }
+         ],
+         "used_id": 29,
+         "tool_call_metrics": {
+          "success": [
+           1,
+           1,
+           1
+          ]
+         },
+         "tool_observation": "```\n[1] https://face-swap-face-changer-ai.softonic.com/android/alternativas \"23 mejores apps como Face Swap Face Changer AI para Android\nDescubre la mejor alternativa a Face Swap Face Changer AI en Softonic. Compara y descarga más de 23 apps como Face Swap Face Changer AI: Reface - RR.\" \n\n[2] https://face-dance-ai-photo-animator.softonic.com/android/alternativas \"30 mejores apps como Face Dance: AI Photo Animator para Android\nMejores Aplicaciones Gratuitas  App gratuita para intercambiar rostros en videocreaciones. Descargar · Alternativas a FacePlay - Face Swap Video para Android.\" \n\n[3] https://remaker-ai-face-swap.softonic.com/android \"Remaker AI Face Swap para Android - Descargar - Softonic\nRemaker AI Face Swap es una aplicación para Android que permite intercambiar rostros en fotos de manera precisa y realista. Utilizando\"  (2026-01-09)\n\n[4] https://play.google.com/store/apps/details?id=com.facelite.replacer&hl=es_SV \"FaceSwapper Lite: AI Face Swap - Apps en Google Play\nFaceswapper Lite es una aplicación de intercambio de rostros de fotos y videos diseñada para Android, para intercambiar tu rostro en diferentes escenas.\" \n\n[5] https://faceapp.softonic.com/android/alternativas \"20 mejores apps como FaceApp: Perfect Face Editor para Android\nMejores Aplicaciones Gratuitas  App gratuita para intercambiar rostros en videocreaciones · Descargar · Alternativas a FacePlay - Face Swap Video para Android.\" \n\n[6] https://faceswapper.uptodown.com/android \"FaceSwapper para Android - Descarga el APK en Uptodown\nFaceSwapper ofrece una plataforma avanzada y fácil de usar para crear intercambios de rostros realistas con tecnología de inteligencia artificial en fotos,\" \n\n[7] https://speechify.com/es/blog/face-swap-app/?srsltid=AfmBOopeoA4TnDbhrZvkN-A__5Z_O5pGLGF6PNBEU4RL1EnsHLSU59W1 \"Sumérgete en el Mundo de los Intercambios Faciales Digitales\nLas 9 Mejores Aplicaciones de Intercambio de Rostros: La Caja de Herramientas Digital · Reface: · Snapchat: · FaceOver: · Face Swap Live: · Pic Swap:.\"  (2023-10-10)\n\n[8] https://face-swap-online-face-changer.softonic.com/android/alternativas \"30 mejores apps como Face swap online Face Changer para Android\nAlternativas a Add Face To Video Face Changer - Reface Face Swap para Android  Mejores Aplicaciones Gratuitas · Juegos Antiguos Para Android Gratis · Edición\" \n\n[9] https://play.google.com/store/apps/details?id=video.reface.app&hl=es \"Reface: Face swap videos/fotos - Aplicaciones en Google Play\nConvierte selfies en videos divertidísimos con intercambio facial por IA, crea avatares de IA en tendencia, figuras de IA, genera imágenes de tu\"  (2026-06-18)\n\n[10] https://filmora.wondershare.es/video-editor/best-face-swap-apps.html \"Las 10 mejores aplicaciones de intercambio de caras para Android \n1. Filmora: Editor y creador de vídeos con inteligencia artificial · 2. Snapchat · 3. Reface: Generador de IA de intercambio de caras · 4. RemakeFace: Intercambio\" \n\n[11] https://www.producthunt.com/categories/face-swap-apps \"The best face swap apps in 2026 - Product Hunt\nDeepSwap, Reface, and FaceMagic turn photos, GIFs, and videos into social-ready swaps. Newer FaceLoco makes browser-based video edits from\"  (2026-04-27)\n\n[12] https://play.google.com/store/apps/details?id=video.reface.app \"Reface: Face Swap AI Generator - Apps on Google Play\nMake scroll‑stopping content in seconds with advanced face swap app. Turn selfies into hilarious ai face swap videos, craft on‑trend AI avatars,\"  (2026-06-18)\n\n[13] https://www.barchart.com/story/news/2256748/best--face-swap-apps-in-2026-video-photo-tested-compared \"Best AI Face Swap Apps in 2026 (Video + Photo) (Tested \nPlatforms like Magic Hour, Canva, SeaArt AI, and Remaker AI represent different approaches to swapping faces in photos and videos. This guide\"  (2026-06-02)\n\n[14] https://www.linkedin.com/pulse/top-5-ai-face-swap-apps-try-2026-martha-spooner-x4hkf \"Top 5 AI Face Swap Apps to Try in 2026 - LinkedIn\nDiscover the top 5 AI face swap apps of 2026 including Starlor, SwapyFace, Reface, RemakeFace, and FaceSwapper. Compare features, platforms\"  (2025-12-25)\n\n[15] https://consensus.app/search/ai-face-swap-apps-in-2026/Ki6u_vQNSWSpwNFy2jZOag/ \"AI Face Swap Apps in 2026 - Consensus\nQuick Answer: Undress AI is the best all-around choice for most people.\" \n\n[16] https://edimakor.hitpaw.es/video-editing-tips/couple-face-swap.html \"Top 5 Apps de Intercambio de Caras para Parejas con IA 2026\nEn esta guía completa, se examinarán las principales soluciones de intercambio de caras con IA, como HitPaw Edimakor para PC, plataformas web,\"  (2026-03-02)\n\n[17] https://pxz.ai/blog/15-best-ai-face-swap-apps-and-websites-free-and-paid-in-2025 \"15 Best AI Face Swap Apps & Websites (Free & Paid in 2025) - PXZ AI\n15 best AI face swap apps and websites (free & paid) in 2025. PXZ AI offers free AI-powered face swapping for photos and videos.\" \n\n[18] https://cl.pinterest.com/pin/173951604344094312/?send=true \"12 Best Face Recognition Apps for iOS and Android | 2026 Edition\n12 Best Face Recognition Apps for iOS and Android | 2026 Edition - RankRed  Since the Apple launched their iPhone X, Face recognition has really changed.\" \n\n[19] https://faceswapper.uptodown.com/android \"FaceSwapper para Android - Descarga el APK en Uptodown\nFaceSwapper ofrece una plataforma avanzada y fácil de usar para crear intercambios de rostros realistas con tecnología de inteligencia artificial en fotos,\" \n\n[20] https://play.google.com/store/apps/details?id=com.officelens.faceswap.facechanger.editor&hl=es \"Editor de rostros con IA - Aplicaciones en Google Play\nEditor de Caras: La app AI Face Swap es la app definitiva para transformar tus fotos con diversión, creatividad y tecnología de IA inteligente.\" \n\n[21] https://www.bitswits.co/blog/face-recognition-apps \"18 Best Face Recognition Apps for Android and iOS in 2026 - BitsWits\nGoogle Photos is a face identification app that applies face recognition to your photo library. The app recognizes faces from the uploaded photos, analyzes them\" \n\n[22] https://www.hyena.ai/best-facial-recognition-software-that-you-can-create-its-clone/ \"Best Facial Recognition Software That You Can Create Its Clone\nMost Popular Face Recognition Apps For Android & iOS · FaceApp · FaceApp · AppLock · AppLock · Blipper · face-recognition-app blipper · Face DNA Test.\" \n\n[23] https://mangoanimate.com/blog/es/top-9-face-changer-apps-for-effective-face-swapping/20894/ \"Las 9 mejores aplicaciones para cambiar el rostro de forma eficaz\nLa función de intercambio de caras con IA de PhotoDirector te permite usar cualquier imagen que elijas como fuente o con los ajustes preestablecidos.\" \n\n[24] https://www.cmarix.com/blog/best-face-recognition-apps/ \"10 Face Recognition Apps for Android & iOS In 2026 - CMARIX\nBest Face Recognition Apps For Android and iOS [A Details Guide 2026] · 1. Fingerprints · 2. Photo and Video · 3. Voice · 4. DNA · 5. Signature\"  (2026-06-17)\n\n[25] https://play.google.com/store/apps/details?id=com.appzeeinc.face_recognition.facial_recognition.face_detection&hl=en_ZA \"Face Recognition Detection – Apps on Google Play\nWith Face Recognizer, you can detect and recognize faces in real-time using your Android device's camera or from any photo — fast, easy, and\"  (2026-06-23)\n\n[26] https://github.com/Lauszus/FaceRecognitionApp \"Lauszus/FaceRecognitionApp: Face Recognition Android App\nThis project demonstrates how to calculate Eigenfaces and Fisherfaces used for face recognition on an Android device.\" \n\n[27] https://face-swap-1.en.softonic.com/android/alternatives \"Top 29 Apps like Face Swap for Android\nFaceFun is a free face swap app that lets you create and share your own face-swapped videos and photos with your friends.\" \n\n[28] https://play.google.com/store/apps/details?id=io.amigoai.amigo \"Amigo AI - Face Swap Camera - Apps on Google Play\nAmigo AI is the free, real-time face swap app for Android phone — with unlimited use and live video call support. Open the app and start\"  (2026-04-30)\n```"
+        }
+       },
+       "role": "function",
+       "name": "web_search",
+       "function_id": "round_0_call_26bdb27a41824c3b927c0cb0",
+       "function_call": {
+        "name": "web_search",
+        "arguments": "{\"queries\": \n[\n  \"\\\"mejores aplicaciones\\\" android \\\"face swap\\\" IA foto referencia\",\n  \"mejores apps android swap caras IA 2025 2026\",\n  \"apps android para clonar rostros en fotos IA\"\n]\n\n}"
+       },
+       "response_id": "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da",
+       "usage": {}
+      },
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Swap faces with precision using AI-powered tools on Android",
+          "Explorar las capacidades de transformación facial impulsadas por inteligencia artificial en aplicaciones modernas.",
+          "Providing accurate app information with direct links for user convenience",
+          "Swap faces with ease using specialized AI tools",
+          "Generating AI-powered visual content with precision and realism",
+          "Buscar soluciones para replicar rostros en imágenes o videos mediante aplicaciones móviles",
+          "Presenting curated Android applications with their download links",
+          "Generating refined visual content through advanced artificial intelligence",
+          "Generando una recomendación precisa y elegante basada en la consulta del usuario.",
+          "Presenting curated AI-powered face swap applications for Android users",
+          "Evaluando la información disponible para ofrecer una respuesta precisa y segura.",
+          "Refine the content to ensure each claim is supported by a single citation.",
+          "Presenting curated recommendations for AI-powered face swapping applications tailored to Android users.",
+          "Transformar rostros con inteligencia artificial en dispositivos móviles"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I am identifying the most effective applications that leverage artificial intelligence to seamlessly transfer facial features from a reference image to another, ensuring lifelike results.  \nThese tools prioritize high-quality rendering and natural blending, making the transformations appear authentic and visually compelling.  \nI focus on apps that deliver intuitive interfaces and reliable performance, enabling users to create impressive face-swapped content effortlessly.",
+          "Estoy analizando cómo estas herramientas permiten manipular imágenes y videos con precisión, ofreciendo experiencias interactivas y creativas.  \nCada aplicación destaca por su enfoque único, ya sea en tiempo real, edición facial o integración con funciones multimedia.  \nMi enfoque se centra en destacar la evolución y versatilidad de estas tecnologías para uso personal y expresivo.",
+          "I am curating a list of AI-powered face-swapping and editing applications, ensuring each entry includes the official Play Store link or verified third-party source to guide users safely.  \nI prioritize clarity and reliability by selecting only well-known, accessible platforms with transparent download pathways.  \nMy goal is to deliver a seamless, trustworthy experience that respects user privacy and avoids unauthorized distribution.",
+          "I'm identifying the most effective apps for Android that enable users to transfer their facial features from a reference photo onto other images or videos.  \nThese applications leverage advanced artificial intelligence to ensure realistic and seamless face replacements across various visual contexts.  \nI've curated a list of top-rated options, each offering unique features to enhance creative expression and personalization.",
+          "I am crafting lifelike transformations by leveraging advanced artificial intelligence to seamlessly swap or merge facial features across images.  \nThe process ensures natural results that preserve expression and lighting, delivering a polished outcome tailored to creative needs.  \nAdditionally, I can conceive original characters and imaginative scenes from scratch using internal generative capabilities.",
+          "Estoy identificando herramientas específicas que permitan cargar una foto de referencia y utilizar inteligencia artificial para superponer ese rostro de forma realista en otras imágenes o videos.  \nMi enfoque es ofrecer opciones precisas y actualizadas, centradas en la funcionalidad solicitada sin introducir complejidades innecesarias.  \nCada recomendación se basa en la capacidad directa de las aplicaciones para cumplir con el propósito de *Face Swap* en entornos Android.",
+          "I am selecting top-tier apps tailored for AI-powered face swapping, focusing on user-friendly interfaces and advanced features.  \nEach recommendation highlights unique capabilities such as real-time swapping, cinematic integration, or unlimited usage.  \nI ensure the provided links are direct and reliable, offering seamless access to enhance creative expression.",
+          "I am crafting seamless, lifelike transformations by leveraging deep learning models that analyze and reconstruct facial features with remarkable precision.  \nMy focus is on delivering natural results that preserve identity while adapting to new expressions and contexts.  \nThe process unfolds intuitively, ensuring both authenticity and artistic flexibility in every output.",
+          "Estoy identificando las aplicaciones más destacadas para el intercambio de rostros en dispositivos Android, centrándome en funcionalidades clave como la integración de rostros de referencia en nuevas imágenes o videos.  \nCada sugerencia se presenta con un enlace directo y una descripción clara, respetando el límite de citar solo una fuente por oración.  \nMi objetivo es ofrecer una guía útil, fluida y sin tecnicismos, manteniendo el tono natural y profesional.",
+          "I am identifying and organizing top-tier tools that leverage artificial intelligence to enable seamless, realistic facial transformations across photos and videos.  \nEach application is evaluated for its ease of use, real-time capabilities, and precision in delivering natural-looking results.  \nI ensure the recommendations are accessible through trusted platforms, prioritizing user experience and reliability.",
+          "Estoy revisando el contenido proporcionado para determinar qué elementos requieren citación o deben omitirse por ser demasiado especulativos.  \nDecido prescindir de una frase que, aunque plausible, podría interpretarse como afirmación no verificada sin fuente directa.  \nMi enfoque se centra en mantener la claridad, la precisión y la responsabilidad al compartir información sobre herramientas de edición facial con inteligencia artificial.",
+          "I am carefully reviewing the text to eliminate redundant citations and ensure that only factual claims derived from the provided sources are included.  \nEach sentence without a citation is checked to confirm it contains no unsupported assertions drawn from the search results.  \nI am streamlining the language for clarity and elegance, maintaining accuracy while enhancing readability.",
+          "I am identifying and organizing top-rated tools that leverage artificial intelligence to deliver realistic facial transformations in photos and videos.  \nEach recommendation emphasizes ease of use, real-time capabilities, and high-quality results while prioritizing user accessibility.  \nThe selected platforms offer seamless integration with mobile devices, ensuring an intuitive and immersive experience across diverse creative scenarios.",
+          "Puedo generar imágenes originales a partir de descripciones textuales, pero para replicar fielmente un rostro de una foto y transferirlo a otra imagen, las aplicaciones especializadas en Android ofrecen la solución más precisa. Estas herramientas aprovechan algoritmos avanzados de reconocimiento facial y aprendizaje profundo para lograr resultados naturales y convincentes. Dispongo de enlaces directos a apps confiables que cumplen con estos requisitos de forma segura y eficiente."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da",
+       "usage": {
+        "input_tokens": 3765,
+        "output_tokens": 3441,
+        "total_tokens": 7206,
+        "output_tokens_details": {
+         "reasoning_tokens": 3432
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1783190369
+      },
+      {
+       "content": "Si lo que buscas es una inteligencia artificial para tu teléfono donde puedas subir una foto de referencia y que esta copie e integre ese rostro en otras imágenes o videos, aquí tienes las mejores aplicaciones para Android con sus respectivos enlaces:\n\n**1. Reface: Face Swap AI Generator**\nEs una de las aplicaciones más avanzadas para generar contenido mediante intercambio de rostros y crear avatares de IA con tus selfies [[12]].\n* **Enlace Android:** https://play.google.com/store/apps/details?id=video.reface.app [[9]]\n\n**2. FaceSwapper Lite: AI Face Swap**\nEsta app está diseñada específicamente para Android para intercambiar tu rostro en diferentes escenas de fotos y videos usando inteligencia artificial [[4]].\n* **Enlace Android:** https://play.google.com/store/apps/details?id=com.facelite.replacer [[4]]\n\n**3. Amigo AI - Face Swap Camera**\nEs una aplicación gratuita y de uso ilimitado que permite hacer intercambios de rostros en tiempo real, muy útil para fotos y videollamadas [[28]].\n* **Enlace Android:** https://play.google.com/store/apps/details?id=io.amigoai.amigo [[28]]\n\n**4. Remaker AI Face Swap**\nEsta herramienta destaca por permitirte intercambiar rostros en fotos de una manera muy precisa y realista mediante tu imagen de referencia [[3]].\n* **Enlace Android:** https://remaker-ai-face-swap.softonic.com/android [[3]]\n\n**5. FaceSwapper (vía Uptodown)**\nOfrece una plataforma avanzada y fácil de usar para crear intercambios de rostros realistas con tecnología de inteligencia artificial [[19]].\n* **Enlace Android:** https://faceswapper.uptodown.com/android [[19]]\n\n**6. Editor de Caras / Rostros con IA**\nEsta aplicación utiliza tecnología de IA inteligente para transformar y clonar rostros en tus fotos de forma definitiva [[20]].\n* **Enlace Android:** https://play.google.com/store/apps/details?id=com.officelens.faceswap.facechanger.editor [[20]]\n\n*Nota: Como modelo de lenguaje e IA generativa, yo puedo crear imágenes originales desde cero basadas en descripciones de texto, pero para copiar un rostro exacto de una foto personal y clonarlo en otra imagen, estas aplicaciones móviles de \"Face Swap\" son la opción ideal para tu dispositivo Android.*",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da",
+       "usage": {
+        "input_tokens": 3765,
+        "output_tokens": 3952,
+        "total_tokens": 7717,
+        "output_tokens_details": {
+         "reasoning_tokens": 3432
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1783190378
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1783190379.429058
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1783190284
+    },
+    "96042a8b-88bc-4024-b305-be27bd03854b": {
+     "role": "assistant",
+     "content": "",
+     "reasoning_content": null,
+     "chat_type": "t2t",
+     "sub_chat_type": "t2t",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "96042a8b-88bc-4024-b305-be27bd03854b",
+     "parentId": "f95bdc8e-427a-4968-9a28-0942fbfb9b64",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": true,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Thinking",
+      "thinking_format": "summary",
+      "auto_search": true
+     },
+     "content_list": [
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Generar imágenes con referencia facial precisa para crear réplicas visuales.",
+          "Generate accurate face replication and photo synthesis using AI on Android devices",
+          "Exploring advanced digital persona creation through intelligent visual synthesis",
+          "Generating lifelike digital avatars with high facial accuracy",
+          "Curating a refined selection of top-tier Android applications tailored to face transformation and AI-powered imaging.",
+          "Evaluar y organizar aplicaciones móviles que utilizan inteligencia artificial para replicar rostros con precisión a partir de fotos de referencia.",
+          "Exploring AI-powered visual transformation tools",
+          "Searching for accurate Play Store links to verify app details",
+          "Verifying the official Play Store links for each app.",
+          "Verifying app links for accuracy"
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "Estoy procesando la solicitud de manera que se capturen detalles faciales con fidelidad, asegurando una representación coherente y detallada.  \nMi enfoque se centra en mantener la integridad visual del rostro como base para futuras creaciones.  \nTodos los recursos se orientan a compatibilidad con dispositivos Android, garantizando acceso directo y funcionalidad.",
+          "I am identifying trusted Android applications that leverage advanced artificial intelligence to seamlessly transfer facial features from one image to another with high precision.  \nMy focus is on ensuring the tools deliver realistic results while maintaining user privacy and data security.  \nI provide direct links to official sources, enabling effortless access to reliable and up-to-date solutions.",
+          "I am evaluating cutting-edge tools that leverage artificial intelligence to transform and generate lifelike avatars with remarkable precision.  \nThese platforms enable dynamic facial transformations, immersive video integration, and highly personalized imagery using reference inputs.  \nMy focus lies on identifying solutions that balance realism, creative flexibility, and seamless mobile accessibility.",
+          "I'm focusing on identifying tools that excel at capturing and replicating facial features from reference images with precision.  \nThese solutions typically rely on training models using a small set of personal photos to achieve realistic results.  \nThe most effective ones deliver consistent, natural-looking transformations by deeply understanding facial structure and expression.",
+          "I am identifying platforms renowned for their advanced facial manipulation and avatar generation capabilities, prioritizing user experience and technological innovation.  \nEach app is evaluated for its distinct features, such as seamless identity swapping and realistic AI avatars, ensuring alignment with the task's core objectives.  \nThe final list reflects a balance of performance, quality, and accessibility, delivering trusted tools through official distribution channels.",
+          "Clasifico las herramientas en dos categorías principales: generadores de avatares que entrenan con imágenes personales y aplicaciones especializadas en intercambio facial.  \nDestaco aquellas que ofrecen resultados más naturales, destacando cómo procesan la imagen de referencia, y siempre incluyo advertencias sobre privacidad y recomendaciones para obtener mejores resultados.  \nFinalmente, ofrezco una guía clara y directa, enfocada en el uso responsable y eficaz de estas tecnologías.",
+          "I am identifying and evaluating applications that leverage artificial intelligence to alter or enhance facial imagery through techniques like anime rendering, 3D modeling, and face swapping. These tools allow users to project their likeness onto various templates, videos, or digital avatars with remarkable precision and realism. My focus is on curating reliable, intuitive platforms that deliver creative expression while maintaining user privacy and quality.",
+          "I am identifying the official Play Store pages for popular AI image editing apps by leveraging precise search queries.  \nThis ensures each app's link corresponds correctly to its verified developer and package identifier.  \nThe goal is to provide reliable, up-to-date access points for users seeking these applications.",
+          "I am cross-checking the correct package names against verified sources to ensure accuracy.  \nThis step is essential to avoid any misinformation and confirm the exact URLs.  \nThe results will provide reliable, up-to-date links for each application.",
+          "I am ensuring the Play Store URLs for each AI photo editing app are correct and up-to-date.  \nI’ve cross-checked known package identifiers against official sources to confirm reliability.  \nThe links provided are precise, direct, and ready for immediate use."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "96042a8b-88bc-4024-b305-be27bd03854b",
+       "usage": {
+        "input_tokens": 6779,
+        "output_tokens": 149,
+        "total_tokens": 6928,
+        "output_tokens_details": {
+         "reasoning_tokens": 147
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1783190327
+      },
+      {
+       "content": "",
+       "phase": "web_search",
+       "status": "finished",
+       "extra": {
+        "display_position": "think",
+        "web_search_info": [
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.lensa.app",
+          "title": "Lensa: photo editor & AI art - Apps on Google Play",
+          "snippet": "Lensa is a photo editor tool for retouching portrait selfies. The app has many photo editing filters and techniques for pictures to get a sweet selfie.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/Lensa_photo_editor_AI_art?id=com.lensa.app&hl=fr_CA",
+          "title": "Lensa: éditeur de photos & AI ‒ Applis sur Google Play",
+          "snippet": "lensa-ai.com. Merci de votre patience. Alex. Afficher tous les avis. Nouveautés. De nouveaux Magic Effects débarquent. Choisis une photo, choisis un vibe",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.lensa.app&hl=en_CA",
+          "title": "Lensa: AI photo editor, camera - Apps on Google Play",
+          "snippet": "Lensa: AI photo editor, camera - Apps on Google Play. Games · Apps · Movies & TV  Lensa: AI photo editor, camera. Prisma Labs, Inc. In-app purchases.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.lensa.app&hl=en_IN",
+          "title": "Lensa: AI & art photo enhancer – Apps on Google Play",
+          "snippet": "Lensa: AI & art photo enhancer · About this app · Data safety · Ratings and reviews · What's new · App support · More by Prisma Labs, Inc. · Similar apps.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/Lensa_photo_editor_AI_art?id=com.lensa.app&hl=nl",
+          "title": "Lensa: photo editor & AI art - Apps op Google Play",
+          "snippet": "We zijn blij dat je geniet van de vele leuke mogelijkheden van Lensa. Als je vragen hebt of suggesties wilt delen, neem gerust contact op via fb@lensa-ai.com.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/Lensa_photo_editor_AI_art?id=com.lensa.app&hl=pl",
+          "title": "Lensa: photo editor & AI art – Aplikacje w Google Play",
+          "snippet": "masz pomysły lub potrzebujesz pomocy, napisz do nas na fb@lensa-ai.com. Miłego tworzenia! Vlad. Parówczak Pospolity. more_vert. Oznacz jako nieodpowiednią.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/Lensa_photo_editor_AI_art?id=com.lensa.app&hl=fi",
+          "title": "Lensa: photo editor & AI art – Google Play ‑sovellukset",
+          "snippet": "meihin yhteyttä osoitteessa fb@lensa-ai.com. Nautinnollisia hetkiä kuvien parissa! Vlad. Ritva Lukkari. more_vert. Merkitse sopimattomaksi; Näytä",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.lensa.app&hl=id",
+          "title": "Lensa: photo editor, AI avatar - Aplikasi di Google Play",
+          "snippet": "Silakan hubungi kami di fb@lensa-ai.com, dan kami akan  If you observe any problem or need more information, just contact us at fb@lensa-ai.com!",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.lensa.app&hl=fr",
+          "title": "Lensa: éditeur de photos, AI – Applications sur Google Play",
+          "snippet": "lensa-ai.com. Merci de votre patience. Alex. Afficher tous les avis. Nouveautés. De nouveaux Magic Effects débarquent. Balance une photo, choisis un vibe",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.ai.photo.editor.collage.retouch&hl=en_CA",
+          "title": "Snaptou: AI Photo Editor - Apps on Google Play",
+          "snippet": "Lensa: AI photo editor, camera. Prisma Labs, Inc. 4.1star. Thumbnail image. AstroBook: Astrology Universe. Reatility Media. 4.8star. flagFlag as",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-12)"
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/Remini_AI_Photo_Enhancer?id=com.bigwinepot.nwdn.international&hl=zh",
+          "title": "Remini - AI Photo Enhancer - Google Play 上的应用",
+          "snippet": "Remini 使用最先进的人工智能来模糊、恢复和增强您想要的任何图像。带着您的旧记忆，以令人惊叹的水晶般清晰的高清格式赋予它们新的生命。 超过1 亿张照片现已焕发活力。",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/Remini_AI_Photo_Enhancer?id=com.bigwinepot.nwdn.international&hl=zu",
+          "title": "Remini - AI Photo Enhancer - Izinhlelo zokusebenza ku-Google Play",
+          "snippet": "I-Remini isebenzisa i-Artificial Intelligence yesimanje ukuze ingafiphalisi, ibuyisele, futhi ithuthukise noma yisiphi isithombe osifunayo. Thatha izinkumbulo",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/Remini_AI_Photo_Enhancer?id=com.bigwinepot.nwdn.international&hl=en_IE",
+          "title": "Remini - AI Photo Enhancer – Apps on Google Play",
+          "snippet": "Remini uses state-of-the-art Artificial Intelligence to unblur, restore, and enhance any image you want. Take your old memories and give them a",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-20)"
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.bigwinepot.nwdn.international",
+          "title": "Remini - AI Photo Enhancer - Apps on Google Play",
+          "snippet": "The Remini photo editor is one of the most popular and beloved enhancer apps in the world. Scan your old family photos, revitalize them, and reminisce together!",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=me.remini.example",
+          "title": "Remini - school communication - Apps on Google Play",
+          "snippet": "Remini enables teachers and administrators to document and share photos, messages, videos, newsletters and much more to tell the story of your child at our",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/editorial?id=mc_apps_editorial_trending_remini_fcp&hl=id&gl=DE",
+          "title": "Try Remini's AI-powered photo editing - Google Play",
+          "snippet": "Instantly sharpening blurry or low-quality photos, Remini offers quick, powerful photo editing – plus plenty of fun AI transformations to play around with.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.magictiger.ai.picma",
+          "title": "PicMa: AI Video&Photo Enhancer - Apps on Google Play",
+          "snippet": "PicMa's advanced AI photo algorithms remove scratches, sharpen details, and fix blurriness for stunning remini-quality restorations. · Dress Up & Hair Style",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/Remini_AI_Photo_Enhancer?id=com.bigwinepot.nwdn.international&hl=uk",
+          "title": "Remini - AI Photo Enhancer – Додатки в Google Play",
+          "snippet": "Remini використовує найсучасніший штучний інтелект, щоб розмити, відновити та покращити будь-яке зображення, яке ви хочете. Візьміть свої старі спогади та дайте",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://remini.en.uptodown.com/android",
+          "title": "Remini for Android - Download the APK from Uptodown",
+          "snippet": "Remini is an app that allows you to restore and improve photos, thanks to its clever application of artificial intelligence. In seconds, you can transform",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/editorial?id=mc_apps_editorial_trending_remini_fcp&hl=hi",
+          "title": "आज़माएं Remini का एआई वाला फ़ोटो एडिटिंग टूल - Google Play",
+          "snippet": "धुंधली या खराब क्वालिटी की आपकी फ़ोटो को Remini तुरंत एक बेहतरीन फ़ोटो में बदल सकता है. इसकी एआई टेक्नोलॉजी से, फ़ोटो में कई तरह के मज़ेदार बदलाव भी किए जा सकते हैं. क्या आपको अपनी पुरानी फ़ोटो में नई जान डालनी है?",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=zh",
+          "title": "FacePlay-图片写真&视频特效神器- Google Play 上的应用",
+          "snippet": "立即下载FacePlay，解锁AI 创作新玩法，用模型造爆款！  海量特效模版任选，一键让照片秒变超炫动态视频！  智能识别，一键换背景，融合超自然超惊艳！  功能升级强势回归！有了",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=zh_HK",
+          "title": "Faceplay: AI影片照片製作器- Google Play 應用程式",
+          "snippet": "立即下載FacePlay，解鎖AI 創作新玩法，用模型造爆款！  上傳你的日常照片，AI Agent瞬間將其訂製為多種專業寫真場景與人物姿勢，絕美寫真一鍵擁有，快來體驗吧！  輕鬆創建精彩",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=ru",
+          "title": "Приложения в Google Play – Faceplay: ИИ Видео Maker",
+          "snippet": "Faceplay дает возможность как создателям, так и брендам с общей библиотекой трендовых шаблонов для создания популярного контента. Легко",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=ja",
+          "title": "Faceplay: AI動画メーカー - Google Play のアプリ",
+          "snippet": "すぐに FacePlay をダウンロード、AI 創作の新しい遊び方を解き放ち、モデルで人気コンテンツを作ろう！  -AIで憧れの雪景色フォトを！寒さを我慢せずに、お家で冬の奇跡の",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://baike.baidu.com/item/FacePlay/58372912",
+          "title": "FacePlay_百度百科",
+          "snippet": "FacePlay是一款基于人工智能技术的视频换脸与特效制作软件，曾用名秀脸FacePlay。该软件由INNOVATIONAL TECHNOLOGIES LIMITED、WONDERERA PTE. LTD.",
+          "hostname": "百度",
+          "hostlogo": "https://img.alicdn.com/imgextra/i3/O1CN0143d0Wi1XYHQYtbqJI_!!6000000002935-55-tps-32-32.svg",
+          "date": ""
+         },
+         {
+          "url": "https://faceplay.apponic.com/android/",
+          "title": "FacePlay for Android Free Download - apponic",
+          "snippet": "FacePlay is a video- and image-editing app that you can use to insert your face (or your friend's face, or a family member's) into all kinds of short videos",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=pt_BR",
+          "title": "Faceplay: Nano Banana – Apps no Google Play",
+          "snippet": "O Faceplay empodera tanto criadores quanto marcas com uma biblioteca compartilhada de templates em alta para criar conteúdo viral. Aplique facilmente efeitos de",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.ai.face.play",
+          "title": "Faceplay: AI Video Photo Maker - Apps on Google Play",
+          "snippet": "Download FacePlay now to unlock new AI creation gameplay and craft viral content with AI models! 【AI Agent】 Upload your everyday photo, and let the AI Agent",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/dev?id=7962037902030098986",
+          "title": "Android Apps by Faceplay Reface Face Swap Video Editor on ",
+          "snippet": "Ritmo Video, a free faceplay face swap video maker. Icon image. Ritmo Video: Aging & AI Effect. Faceplay Reface Face Swap Video Editor.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=tr",
+          "title": "Faceplay: AI Video Photo Maker - Google Play'de Uygulamalar",
+          "snippet": "Yeni yapay zeka oluşturma oyununun kilidini açmak ve yapay zeka modelleriyle viral içerik oluşturmak için FacePlay'i şimdi indirin!  Günlük fotoğrafınızı",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/AI_Mirror_AI_Art_Photo_Editor?id=com.ai.polyverse.mirror&hl=fr",
+          "title": "AI Mirror-Art éditeur d'images – Applications sur Google Play",
+          "snippet": "AI Mirror est une application de création de vidéos et d'édition de photos utilisant l'intelligence artificielle. Elle propose des filtres AI, des",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.ai.polyverse.mirror",
+          "title": "AI Mirror: AI Photo & Video - Apps on Google Play",
+          "snippet": "AI Mirror is the ultimate AI-powered photo editor and video creator. Instantly transform your images and videos with hundreds of AI filters",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-23)"
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.nikola369.aimirror",
+          "title": "AI Mirror App - Apps on Google Play",
+          "snippet": "AI Mirror its not your regular Mirror but has AI analysis for photos taken. Updated on. Apr 12, 2026. Beauty. Data safety. arrow_forward.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/AI_Mirror_AI_Art_Photo_Editor?id=com.ai.polyverse.mirror&hl=de",
+          "title": "AI Mirror -Gesichtsfoto-Editor – Apps bei Google Play",
+          "snippet": "Verwandeln Sie Ihr Aussehen oder verbessern Sie Ihre Fotos mit AI Mirror, dem ultimativen Werkzeug für persönliche Avatare und Gruppenfotos! Entdecken Sie eine",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/AI_Mirror_AI_Art_Photo_Editor?id=com.ai.polyverse.mirror&hl=pt_BR",
+          "title": "AI Mirror: AI Art Photo Editor – Apps no Google Play",
+          "snippet": "AI Mirror: AI Art Photo Editor – Apps no Google Play. Jogos · Apps · Filmes e TV  AI Mirror: AI Art Photo Editor. POLYVERSE INC. Contém anúnciosCompras no",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.mira.aimirror",
+          "title": "MIRA Ai Mirror 24/7 for you - Apps on Google Play",
+          "snippet": "MIRA Ai Mirror 24/7 for you - Apps on Google Play. Games · Apps · Movies  MIRA Ai Mirror 24/7 for you. STARX GMT. In-app purchases. Content",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-20)"
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/AI_Mirror_AI_Art_Photo_Editor?id=com.ai.polyverse.mirror&hl=it",
+          "title": "AI Mirror: AI Art Photo Editor - App su Google Play",
+          "snippet": "AI Mirror funge da gateway per foto distintive che si distinguono dalla massa. Esplora i nostri straordinari stili: Stile anime: Entra nell'affascinante mondo",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details/AI_Mirror_AI_Art_Photo_Editor?id=com.ai.polyverse.mirror&hl=lo",
+          "title": "AI Mirror: AI Photo & Video - ແອັບໃນ Google Play",
+          "snippet": "AI Mirror ລວມເອົາຮູບແບບການສ້າງຊັ້ນນຳຂອງອຸດສາຫະກຳ, ລວມທັງ OpenAI, Gemini, ແລະ Nano Banana, ເພື່ອຮັບປະກັນຄວາມສົມຈິງສູງ, ແສງສະຫວ່າງທຳມະຊາດ, ລາຍລະອຽດໃບໜ້າທີ່ຖືກຕ້ອງ, ແລະ",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.mirroring.app.casttv",
+          "title": "AI Mirror: Screen Mirroring TV - Apps on Google Play",
+          "snippet": "Enjoy powerful cast to TV and smooth screen mirroring that instantly brings your phone content to a larger display with AI Mirror: Screen",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-19)"
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=ai.mirror.teknocraft",
+          "title": "Mirror AI - Apps on Google Play",
+          "snippet": "Mirror AI uses advanced AI to analyze your look and provide instant feedback. Whether you're dressing up for a big event or just need a second",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-01-03)"
+         }
+        ],
+        "tool_result": {
+         "docs": [
+          {
+           "url": "https://play.google.com/store/apps/details?id=com.lensa.app",
+           "title": "Lensa: photo editor & AI art - Apps on Google Play",
+           "snippet": "Lensa is a photo editor tool for retouching portrait selfies. The app has many photo editing filters and techniques for pictures to get a sweet selfie.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/Lensa_photo_editor_AI_art?id=com.lensa.app&hl=fr_CA",
+           "title": "Lensa: éditeur de photos & AI ‒ Applis sur Google Play",
+           "snippet": "lensa-ai.com. Merci de votre patience. Alex. Afficher tous les avis. Nouveautés. De nouveaux Magic Effects débarquent. Choisis une photo, choisis un vibe",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=com.lensa.app&hl=en_CA",
+           "title": "Lensa: AI photo editor, camera - Apps on Google Play",
+           "snippet": "Lensa: AI photo editor, camera - Apps on Google Play. Games · Apps · Movies & TV  Lensa: AI photo editor, camera. Prisma Labs, Inc. In-app purchases.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=com.lensa.app&hl=en_IN",
+           "title": "Lensa: AI & art photo enhancer – Apps on Google Play",
+           "snippet": "Lensa: AI & art photo enhancer · About this app · Data safety · Ratings and reviews · What's new · App support · More by Prisma Labs, Inc. · Similar apps.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/Lensa_photo_editor_AI_art?id=com.lensa.app&hl=nl",
+           "title": "Lensa: photo editor & AI art - Apps op Google Play",
+           "snippet": "We zijn blij dat je geniet van de vele leuke mogelijkheden van Lensa. Als je vragen hebt of suggesties wilt delen, neem gerust contact op via fb@lensa-ai.com.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/Lensa_photo_editor_AI_art?id=com.lensa.app&hl=pl",
+           "title": "Lensa: photo editor & AI art – Aplikacje w Google Play",
+           "snippet": "masz pomysły lub potrzebujesz pomocy, napisz do nas na fb@lensa-ai.com. Miłego tworzenia! Vlad. Parówczak Pospolity. more_vert. Oznacz jako nieodpowiednią.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/Lensa_photo_editor_AI_art?id=com.lensa.app&hl=fi",
+           "title": "Lensa: photo editor & AI art – Google Play ‑sovellukset",
+           "snippet": "meihin yhteyttä osoitteessa fb@lensa-ai.com. Nautinnollisia hetkiä kuvien parissa! Vlad. Ritva Lukkari. more_vert. Merkitse sopimattomaksi; Näytä",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=com.lensa.app&hl=id",
+           "title": "Lensa: photo editor, AI avatar - Aplikasi di Google Play",
+           "snippet": "Silakan hubungi kami di fb@lensa-ai.com, dan kami akan  If you observe any problem or need more information, just contact us at fb@lensa-ai.com!",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=com.lensa.app&hl=fr",
+           "title": "Lensa: éditeur de photos, AI – Applications sur Google Play",
+           "snippet": "lensa-ai.com. Merci de votre patience. Alex. Afficher tous les avis. Nouveautés. De nouveaux Magic Effects débarquent. Balance une photo, choisis un vibe",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=com.ai.photo.editor.collage.retouch&hl=en_CA",
+           "title": "Snaptou: AI Photo Editor - Apps on Google Play",
+           "snippet": "Lensa: AI photo editor, camera. Prisma Labs, Inc. 4.1star. Thumbnail image. AstroBook: Astrology Universe. Reatility Media. 4.8star. flagFlag as",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-06-12)"
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/Remini_AI_Photo_Enhancer?id=com.bigwinepot.nwdn.international&hl=zh",
+           "title": "Remini - AI Photo Enhancer - Google Play 上的应用",
+           "snippet": "Remini 使用最先进的人工智能来模糊、恢复和增强您想要的任何图像。带着您的旧记忆，以令人惊叹的水晶般清晰的高清格式赋予它们新的生命。 超过1 亿张照片现已焕发活力。",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/Remini_AI_Photo_Enhancer?id=com.bigwinepot.nwdn.international&hl=zu",
+           "title": "Remini - AI Photo Enhancer - Izinhlelo zokusebenza ku-Google Play",
+           "snippet": "I-Remini isebenzisa i-Artificial Intelligence yesimanje ukuze ingafiphalisi, ibuyisele, futhi ithuthukise noma yisiphi isithombe osifunayo. Thatha izinkumbulo",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/Remini_AI_Photo_Enhancer?id=com.bigwinepot.nwdn.international&hl=en_IE",
+           "title": "Remini - AI Photo Enhancer – Apps on Google Play",
+           "snippet": "Remini uses state-of-the-art Artificial Intelligence to unblur, restore, and enhance any image you want. Take your old memories and give them a",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-06-20)"
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=com.bigwinepot.nwdn.international",
+           "title": "Remini - AI Photo Enhancer - Apps on Google Play",
+           "snippet": "The Remini photo editor is one of the most popular and beloved enhancer apps in the world. Scan your old family photos, revitalize them, and reminisce together!",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=me.remini.example",
+           "title": "Remini - school communication - Apps on Google Play",
+           "snippet": "Remini enables teachers and administrators to document and share photos, messages, videos, newsletters and much more to tell the story of your child at our",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/editorial?id=mc_apps_editorial_trending_remini_fcp&hl=id&gl=DE",
+           "title": "Try Remini's AI-powered photo editing - Google Play",
+           "snippet": "Instantly sharpening blurry or low-quality photos, Remini offers quick, powerful photo editing – plus plenty of fun AI transformations to play around with.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=com.magictiger.ai.picma",
+           "title": "PicMa: AI Video&Photo Enhancer - Apps on Google Play",
+           "snippet": "PicMa's advanced AI photo algorithms remove scratches, sharpen details, and fix blurriness for stunning remini-quality restorations. · Dress Up & Hair Style",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/Remini_AI_Photo_Enhancer?id=com.bigwinepot.nwdn.international&hl=uk",
+           "title": "Remini - AI Photo Enhancer – Додатки в Google Play",
+           "snippet": "Remini використовує найсучасніший штучний інтелект, щоб розмити, відновити та покращити будь-яке зображення, яке ви хочете. Візьміть свої старі спогади та дайте",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://remini.en.uptodown.com/android",
+           "title": "Remini for Android - Download the APK from Uptodown",
+           "snippet": "Remini is an app that allows you to restore and improve photos, thanks to its clever application of artificial intelligence. In seconds, you can transform",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/editorial?id=mc_apps_editorial_trending_remini_fcp&hl=hi",
+           "title": "आज़माएं Remini का एआई वाला फ़ोटो एडिटिंग टूल - Google Play",
+           "snippet": "धुंधली या खराब क्वालिटी की आपकी फ़ोटो को Remini तुरंत एक बेहतरीन फ़ोटो में बदल सकता है. इसकी एआई टेक्नोलॉजी से, फ़ोटो में कई तरह के मज़ेदार बदलाव भी किए जा सकते हैं. क्या आपको अपनी पुरानी फ़ोटो में नई जान डालनी है?",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=zh",
+           "title": "FacePlay-图片写真&视频特效神器- Google Play 上的应用",
+           "snippet": "立即下载FacePlay，解锁AI 创作新玩法，用模型造爆款！  海量特效模版任选，一键让照片秒变超炫动态视频！  智能识别，一键换背景，融合超自然超惊艳！  功能升级强势回归！有了",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=zh_HK",
+           "title": "Faceplay: AI影片照片製作器- Google Play 應用程式",
+           "snippet": "立即下載FacePlay，解鎖AI 創作新玩法，用模型造爆款！  上傳你的日常照片，AI Agent瞬間將其訂製為多種專業寫真場景與人物姿勢，絕美寫真一鍵擁有，快來體驗吧！  輕鬆創建精彩",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=ru",
+           "title": "Приложения в Google Play – Faceplay: ИИ Видео Maker",
+           "snippet": "Faceplay дает возможность как создателям, так и брендам с общей библиотекой трендовых шаблонов для создания популярного контента. Легко",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=ja",
+           "title": "Faceplay: AI動画メーカー - Google Play のアプリ",
+           "snippet": "すぐに FacePlay をダウンロード、AI 創作の新しい遊び方を解き放ち、モデルで人気コンテンツを作ろう！  -AIで憧れの雪景色フォトを！寒さを我慢せずに、お家で冬の奇跡の",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://baike.baidu.com/item/FacePlay/58372912",
+           "title": "FacePlay_百度百科",
+           "snippet": "FacePlay是一款基于人工智能技术的视频换脸与特效制作软件，曾用名秀脸FacePlay。该软件由INNOVATIONAL TECHNOLOGIES LIMITED、WONDERERA PTE. LTD.",
+           "hostname": "百度",
+           "hostlogo": "https://img.alicdn.com/imgextra/i3/O1CN0143d0Wi1XYHQYtbqJI_!!6000000002935-55-tps-32-32.svg",
+           "date": ""
+          },
+          {
+           "url": "https://faceplay.apponic.com/android/",
+           "title": "FacePlay for Android Free Download - apponic",
+           "snippet": "FacePlay is a video- and image-editing app that you can use to insert your face (or your friend's face, or a family member's) into all kinds of short videos",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=pt_BR",
+           "title": "Faceplay: Nano Banana – Apps no Google Play",
+           "snippet": "O Faceplay empodera tanto criadores quanto marcas com uma biblioteca compartilhada de templates em alta para criar conteúdo viral. Aplique facilmente efeitos de",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=com.ai.face.play",
+           "title": "Faceplay: AI Video Photo Maker - Apps on Google Play",
+           "snippet": "Download FacePlay now to unlock new AI creation gameplay and craft viral content with AI models! 【AI Agent】 Upload your everyday photo, and let the AI Agent",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/dev?id=7962037902030098986",
+           "title": "Android Apps by Faceplay Reface Face Swap Video Editor on ",
+           "snippet": "Ritmo Video, a free faceplay face swap video maker. Icon image. Ritmo Video: Aging & AI Effect. Faceplay Reface Face Swap Video Editor.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=tr",
+           "title": "Faceplay: AI Video Photo Maker - Google Play'de Uygulamalar",
+           "snippet": "Yeni yapay zeka oluşturma oyununun kilidini açmak ve yapay zeka modelleriyle viral içerik oluşturmak için FacePlay'i şimdi indirin!  Günlük fotoğrafınızı",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/AI_Mirror_AI_Art_Photo_Editor?id=com.ai.polyverse.mirror&hl=fr",
+           "title": "AI Mirror-Art éditeur d'images – Applications sur Google Play",
+           "snippet": "AI Mirror est une application de création de vidéos et d'édition de photos utilisant l'intelligence artificielle. Elle propose des filtres AI, des",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=com.ai.polyverse.mirror",
+           "title": "AI Mirror: AI Photo & Video - Apps on Google Play",
+           "snippet": "AI Mirror is the ultimate AI-powered photo editor and video creator. Instantly transform your images and videos with hundreds of AI filters",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-06-23)"
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=com.nikola369.aimirror",
+           "title": "AI Mirror App - Apps on Google Play",
+           "snippet": "AI Mirror its not your regular Mirror but has AI analysis for photos taken. Updated on. Apr 12, 2026. Beauty. Data safety. arrow_forward.",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/AI_Mirror_AI_Art_Photo_Editor?id=com.ai.polyverse.mirror&hl=de",
+           "title": "AI Mirror -Gesichtsfoto-Editor – Apps bei Google Play",
+           "snippet": "Verwandeln Sie Ihr Aussehen oder verbessern Sie Ihre Fotos mit AI Mirror, dem ultimativen Werkzeug für persönliche Avatare und Gruppenfotos! Entdecken Sie eine",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/AI_Mirror_AI_Art_Photo_Editor?id=com.ai.polyverse.mirror&hl=pt_BR",
+           "title": "AI Mirror: AI Art Photo Editor – Apps no Google Play",
+           "snippet": "AI Mirror: AI Art Photo Editor – Apps no Google Play. Jogos · Apps · Filmes e TV  AI Mirror: AI Art Photo Editor. POLYVERSE INC. Contém anúnciosCompras no",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=com.mira.aimirror",
+           "title": "MIRA Ai Mirror 24/7 for you - Apps on Google Play",
+           "snippet": "MIRA Ai Mirror 24/7 for you - Apps on Google Play. Games · Apps · Movies  MIRA Ai Mirror 24/7 for you. STARX GMT. In-app purchases. Content",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-06-20)"
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/AI_Mirror_AI_Art_Photo_Editor?id=com.ai.polyverse.mirror&hl=it",
+           "title": "AI Mirror: AI Art Photo Editor - App su Google Play",
+           "snippet": "AI Mirror funge da gateway per foto distintive che si distinguono dalla massa. Esplora i nostri straordinari stili: Stile anime: Entra nell'affascinante mondo",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details/AI_Mirror_AI_Art_Photo_Editor?id=com.ai.polyverse.mirror&hl=lo",
+           "title": "AI Mirror: AI Photo & Video - ແອັບໃນ Google Play",
+           "snippet": "AI Mirror ລວມເອົາຮູບແບບການສ້າງຊັ້ນນຳຂອງອຸດສາຫະກຳ, ລວມທັງ OpenAI, Gemini, ແລະ Nano Banana, ເພື່ອຮັບປະກັນຄວາມສົມຈິງສູງ, ແສງສະຫວ່າງທຳມະຊາດ, ລາຍລະອຽດໃບໜ້າທີ່ຖືກຕ້ອງ, ແລະ",
+           "hostname": null,
+           "hostlogo": null,
+           "date": ""
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=com.mirroring.app.casttv",
+           "title": "AI Mirror: Screen Mirroring TV - Apps on Google Play",
+           "snippet": "Enjoy powerful cast to TV and smooth screen mirroring that instantly brings your phone content to a larger display with AI Mirror: Screen",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-06-19)"
+          },
+          {
+           "url": "https://play.google.com/store/apps/details?id=ai.mirror.teknocraft",
+           "title": "Mirror AI - Apps on Google Play",
+           "snippet": "Mirror AI uses advanced AI to analyze your look and provide instant feedback. Whether you're dressing up for a big event or just need a second",
+           "hostname": null,
+           "hostlogo": null,
+           "date": " (2026-01-03)"
+          }
+         ],
+         "used_id": 41,
+         "tool_call_metrics": {
+          "success": [
+           1,
+           1,
+           1,
+           1
+          ]
+         },
+         "tool_observation": "```\n[1] https://play.google.com/store/apps/details?id=com.lensa.app \"Lensa: photo editor & AI art - Apps on Google Play\nLensa is a photo editor tool for retouching portrait selfies. The app has many photo editing filters and techniques for pictures to get a sweet selfie.\" \n\n[2] https://play.google.com/store/apps/details/Lensa_photo_editor_AI_art?id=com.lensa.app&hl=fr_CA \"Lensa: éditeur de photos & AI ‒ Applis sur Google Play\nlensa-ai.com. Merci de votre patience. Alex. Afficher tous les avis. Nouveautés. De nouveaux Magic Effects débarquent. Choisis une photo, choisis un vibe\" \n\n[3] https://play.google.com/store/apps/details?id=com.lensa.app&hl=en_CA \"Lensa: AI photo editor, camera - Apps on Google Play\nLensa: AI photo editor, camera - Apps on Google Play. Games · Apps · Movies & TV  Lensa: AI photo editor, camera. Prisma Labs, Inc. In-app purchases.\" \n\n[4] https://play.google.com/store/apps/details?id=com.lensa.app&hl=en_IN \"Lensa: AI & art photo enhancer – Apps on Google Play\nLensa: AI & art photo enhancer · About this app · Data safety · Ratings and reviews · What's new · App support · More by Prisma Labs, Inc. · Similar apps.\" \n\n[5] https://play.google.com/store/apps/details/Lensa_photo_editor_AI_art?id=com.lensa.app&hl=nl \"Lensa: photo editor & AI art - Apps op Google Play\nWe zijn blij dat je geniet van de vele leuke mogelijkheden van Lensa. Als je vragen hebt of suggesties wilt delen, neem gerust contact op via fb@lensa-ai.com.\" \n\n[6] https://play.google.com/store/apps/details/Lensa_photo_editor_AI_art?id=com.lensa.app&hl=pl \"Lensa: photo editor & AI art – Aplikacje w Google Play\nmasz pomysły lub potrzebujesz pomocy, napisz do nas na fb@lensa-ai.com. Miłego tworzenia! Vlad. Parówczak Pospolity. more_vert. Oznacz jako nieodpowiednią.\" \n\n[7] https://play.google.com/store/apps/details/Lensa_photo_editor_AI_art?id=com.lensa.app&hl=fi \"Lensa: photo editor & AI art – Google Play ‑sovellukset\nmeihin yhteyttä osoitteessa fb@lensa-ai.com. Nautinnollisia hetkiä kuvien parissa! Vlad. Ritva Lukkari. more_vert. Merkitse sopimattomaksi; Näytä\" \n\n[8] https://play.google.com/store/apps/details?id=com.lensa.app&hl=id \"Lensa: photo editor, AI avatar - Aplikasi di Google Play\nSilakan hubungi kami di fb@lensa-ai.com, dan kami akan  If you observe any problem or need more information, just contact us at fb@lensa-ai.com!\" \n\n[9] https://play.google.com/store/apps/details?id=com.lensa.app&hl=fr \"Lensa: éditeur de photos, AI – Applications sur Google Play\nlensa-ai.com. Merci de votre patience. Alex. Afficher tous les avis. Nouveautés. De nouveaux Magic Effects débarquent. Balance une photo, choisis un vibe\" \n\n[10] https://play.google.com/store/apps/details?id=com.ai.photo.editor.collage.retouch&hl=en_CA \"Snaptou: AI Photo Editor - Apps on Google Play\nLensa: AI photo editor, camera. Prisma Labs, Inc. 4.1star. Thumbnail image. AstroBook: Astrology Universe. Reatility Media. 4.8star. flagFlag as\"  (2026-06-12)\n\n[11] https://play.google.com/store/apps/details/Remini_AI_Photo_Enhancer?id=com.bigwinepot.nwdn.international&hl=zh \"Remini - AI Photo Enhancer - Google Play 上的应用\nRemini 使用最先进的人工智能来模糊、恢复和增强您想要的任何图像。带着您的旧记忆，以令人惊叹的水晶般清晰的高清格式赋予它们新的生命。 超过1 亿张照片现已焕发活力。\" \n\n[12] https://play.google.com/store/apps/details/Remini_AI_Photo_Enhancer?id=com.bigwinepot.nwdn.international&hl=zu \"Remini - AI Photo Enhancer - Izinhlelo zokusebenza ku-Google Play\nI-Remini isebenzisa i-Artificial Intelligence yesimanje ukuze ingafiphalisi, ibuyisele, futhi ithuthukise noma yisiphi isithombe osifunayo. Thatha izinkumbulo\" \n\n[13] https://play.google.com/store/apps/details/Remini_AI_Photo_Enhancer?id=com.bigwinepot.nwdn.international&hl=en_IE \"Remini - AI Photo Enhancer – Apps on Google Play\nRemini uses state-of-the-art Artificial Intelligence to unblur, restore, and enhance any image you want. Take your old memories and give them a\"  (2026-06-20)\n\n[14] https://play.google.com/store/apps/details?id=com.bigwinepot.nwdn.international \"Remini - AI Photo Enhancer - Apps on Google Play\nThe Remini photo editor is one of the most popular and beloved enhancer apps in the world. Scan your old family photos, revitalize them, and reminisce together!\" \n\n[15] https://play.google.com/store/apps/details?id=me.remini.example \"Remini - school communication - Apps on Google Play\nRemini enables teachers and administrators to document and share photos, messages, videos, newsletters and much more to tell the story of your child at our\" \n\n[16] https://play.google.com/store/apps/editorial?id=mc_apps_editorial_trending_remini_fcp&hl=id&gl=DE \"Try Remini's AI-powered photo editing - Google Play\nInstantly sharpening blurry or low-quality photos, Remini offers quick, powerful photo editing – plus plenty of fun AI transformations to play around with.\" \n\n[17] https://play.google.com/store/apps/details?id=com.magictiger.ai.picma \"PicMa: AI Video&Photo Enhancer - Apps on Google Play\nPicMa's advanced AI photo algorithms remove scratches, sharpen details, and fix blurriness for stunning remini-quality restorations. · Dress Up & Hair Style\" \n\n[18] https://play.google.com/store/apps/details/Remini_AI_Photo_Enhancer?id=com.bigwinepot.nwdn.international&hl=uk \"Remini - AI Photo Enhancer – Додатки в Google Play\nRemini використовує найсучасніший штучний інтелект, щоб розмити, відновити та покращити будь-яке зображення, яке ви хочете. Візьміть свої старі спогади та дайте\" \n\n[19] https://remini.en.uptodown.com/android \"Remini for Android - Download the APK from Uptodown\nRemini is an app that allows you to restore and improve photos, thanks to its clever application of artificial intelligence. In seconds, you can transform\" \n\n[20] https://play.google.com/store/apps/editorial?id=mc_apps_editorial_trending_remini_fcp&hl=hi \"आज़माएं Remini का एआई वाला फ़ोटो एडिटिंग टूल - Google Play\nधुंधली या खराब क्वालिटी की आपकी फ़ोटो को Remini तुरंत एक बेहतरीन फ़ोटो में बदल सकता है. इसकी एआई टेक्नोलॉजी से, फ़ोटो में कई तरह के मज़ेदार बदलाव भी किए जा सकते हैं. क्या आपको अपनी पुरानी फ़ोटो में नई जान डालनी है?\" \n\n[21] https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=zh \"FacePlay-图片写真&视频特效神器- Google Play 上的应用\n立即下载FacePlay，解锁AI 创作新玩法，用模型造爆款！  海量特效模版任选，一键让照片秒变超炫动态视频！  智能识别，一键换背景，融合超自然超惊艳！  功能升级强势回归！有了\" \n\n[22] https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=zh_HK \"Faceplay: AI影片照片製作器- Google Play 應用程式\n立即下載FacePlay，解鎖AI 創作新玩法，用模型造爆款！  上傳你的日常照片，AI Agent瞬間將其訂製為多種專業寫真場景與人物姿勢，絕美寫真一鍵擁有，快來體驗吧！  輕鬆創建精彩\" \n\n[23] https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=ru \"Приложения в Google Play – Faceplay: ИИ Видео Maker\nFaceplay дает возможность как создателям, так и брендам с общей библиотекой трендовых шаблонов для создания популярного контента. Легко\" \n\n[24] https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=ja \"Faceplay: AI動画メーカー - Google Play のアプリ\nすぐに FacePlay をダウンロード、AI 創作の新しい遊び方を解き放ち、モデルで人気コンテンツを作ろう！  -AIで憧れの雪景色フォトを！寒さを我慢せずに、お家で冬の奇跡の\" \n\n[25] https://baike.baidu.com/item/FacePlay/58372912 \"FacePlay_百度百科\nFacePlay是一款基于人工智能技术的视频换脸与特效制作软件，曾用名秀脸FacePlay。该软件由INNOVATIONAL TECHNOLOGIES LIMITED、WONDERERA PTE. LTD.\" \n\n[26] https://faceplay.apponic.com/android/ \"FacePlay for Android Free Download - apponic\nFacePlay is a video- and image-editing app that you can use to insert your face (or your friend's face, or a family member's) into all kinds of short videos\" \n\n[27] https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=pt_BR \"Faceplay: Nano Banana – Apps no Google Play\nO Faceplay empodera tanto criadores quanto marcas com uma biblioteca compartilhada de templates em alta para criar conteúdo viral. Aplique facilmente efeitos de\" \n\n[28] https://play.google.com/store/apps/details?id=com.ai.face.play \"Faceplay: AI Video Photo Maker - Apps on Google Play\nDownload FacePlay now to unlock new AI creation gameplay and craft viral content with AI models! 【AI Agent】 Upload your everyday photo, and let the AI Agent\" \n\n[29] https://play.google.com/store/apps/dev?id=7962037902030098986 \"Android Apps by Faceplay Reface Face Swap Video Editor on \nRitmo Video, a free faceplay face swap video maker. Icon image. Ritmo Video: Aging & AI Effect. Faceplay Reface Face Swap Video Editor.\" \n\n[30] https://play.google.com/store/apps/details/FacePlay_AI_Filter_Face_Swap?id=com.ai.face.play&hl=tr \"Faceplay: AI Video Photo Maker - Google Play'de Uygulamalar\nYeni yapay zeka oluşturma oyununun kilidini açmak ve yapay zeka modelleriyle viral içerik oluşturmak için FacePlay'i şimdi indirin!  Günlük fotoğrafınızı\" \n\n[31] https://play.google.com/store/apps/details/AI_Mirror_AI_Art_Photo_Editor?id=com.ai.polyverse.mirror&hl=fr \"AI Mirror-Art éditeur d'images – Applications sur Google Play\nAI Mirror est une application de création de vidéos et d'édition de photos utilisant l'intelligence artificielle. Elle propose des filtres AI, des\" \n\n[32] https://play.google.com/store/apps/details?id=com.ai.polyverse.mirror \"AI Mirror: AI Photo & Video - Apps on Google Play\nAI Mirror is the ultimate AI-powered photo editor and video creator. Instantly transform your images and videos with hundreds of AI filters\"  (2026-06-23)\n\n[33] https://play.google.com/store/apps/details?id=com.nikola369.aimirror \"AI Mirror App - Apps on Google Play\nAI Mirror its not your regular Mirror but has AI analysis for photos taken. Updated on. Apr 12, 2026. Beauty. Data safety. arrow_forward.\" \n\n[34] https://play.google.com/store/apps/details/AI_Mirror_AI_Art_Photo_Editor?id=com.ai.polyverse.mirror&hl=de \"AI Mirror -Gesichtsfoto-Editor – Apps bei Google Play\nVerwandeln Sie Ihr Aussehen oder verbessern Sie Ihre Fotos mit AI Mirror, dem ultimativen Werkzeug für persönliche Avatare und Gruppenfotos! Entdecken Sie eine\" \n\n[35] https://play.google.com/store/apps/details/AI_Mirror_AI_Art_Photo_Editor?id=com.ai.polyverse.mirror&hl=pt_BR \"AI Mirror: AI Art Photo Editor – Apps no Google Play\nAI Mirror: AI Art Photo Editor – Apps no Google Play. Jogos · Apps · Filmes e TV  AI Mirror: AI Art Photo Editor. POLYVERSE INC. Contém anúnciosCompras no\" \n\n[36] https://play.google.com/store/apps/details?id=com.mira.aimirror \"MIRA Ai Mirror 24/7 for you - Apps on Google Play\nMIRA Ai Mirror 24/7 for you - Apps on Google Play. Games · Apps · Movies  MIRA Ai Mirror 24/7 for you. STARX GMT. In-app purchases. Content\"  (2026-06-20)\n\n[37] https://play.google.com/store/apps/details/AI_Mirror_AI_Art_Photo_Editor?id=com.ai.polyverse.mirror&hl=it \"AI Mirror: AI Art Photo Editor - App su Google Play\nAI Mirror funge da gateway per foto distintive che si distinguono dalla massa. Esplora i nostri straordinari stili: Stile anime: Entra nell'affascinante mondo\" \n\n[38] https://play.google.com/store/apps/details/AI_Mirror_AI_Art_Photo_Editor?id=com.ai.polyverse.mirror&hl=lo \"AI Mirror: AI Photo & Video - ແອັບໃນ Google Play\nAI Mirror ລວມເອົາຮູບແບບການສ້າງຊັ້ນນຳຂອງອຸດສາຫະກຳ, ລວມທັງ OpenAI, Gemini, ແລະ Nano Banana, ເພື່ອຮັບປະກັນຄວາມສົມຈິງສູງ, ແສງສະຫວ່າງທຳມະຊາດ, ລາຍລະອຽດໃບໜ້າທີ່ຖືກຕ້ອງ, ແລະ\" \n\n[39] https://play.google.com/store/apps/details?id=com.mirroring.app.casttv \"AI Mirror: Screen Mirroring TV - Apps on Google Play\nEnjoy powerful cast to TV and smooth screen mirroring that instantly brings your phone content to a larger display with AI Mirror: Screen\"  (2026-06-19)\n\n[40] https://play.google.com/store/apps/details?id=ai.mirror.teknocraft \"Mirror AI - Apps on Google Play\nMirror AI uses advanced AI to analyze your look and provide instant feedback. Whether you're dressing up for a big event or just need a second\"  (2026-01-03)\n```"
+        }
+       },
+       "role": "function",
+       "name": "web_search",
+       "function_id": "round_0_call_55e5120546c84a0c93b9533d",
+       "function_call": {
+        "name": "web_search",
+        "arguments": "{\"queries\": \n[\n  \"\\\"Lensa AI\\\" site:play.google.com\",\n  \"\\\"Remini\\\" site:play.google.com\",\n  \"\\\"FacePlay\\\" site:play.google.com\",\n  \"\\\"AI Mirror\\\" site:play.google.com\"\n]\n\n}"
+       },
+       "response_id": "96042a8b-88bc-4024-b305-be27bd03854b",
+       "usage": {}
+      },
+      {
+       "content": "",
+       "phase": "thinking_summary",
+       "status": "finished",
+       "extra": {
+        "summary_title": {
+         "content": [
+          "Generate lifelike facial representations from reference images",
+          "Explore and evaluate AI-powered applications that excel in facial replication and transformation",
+          "Crear imágenes faciales de alta calidad con base en fotos de referencia en dispositivos Android",
+          "Explorar opciones confiables para transformar imágenes con inteligencia artificial en dispositivos Android",
+          "Enhancing visual identity through intelligent facial synthesis",
+          "Transformando rostros con inteligencia artificial para crear imágenes y videos sorprendentes.",
+          "Crear imágenes de alta fidelidad basadas en tu rostro a partir de fotos de referencia en dispositivos Android",
+          "Crear imágenes realistas a partir de referencias personales mediante inteligencia artificial.",
+          "Exploring the creative potential of artificial intelligence in visual art",
+          "Refining the response to meet citation constraints",
+          "Generando imágenes transformadas con inteligencia artificial",
+          "Transformar rostros con inteligencia artificial para estilos artísticos o intercambios realistas",
+          "Analizando la funcionalidad de aplicaciones de inteligencia artificial para generar imágenes a partir de fotos personales",
+          "Generando una síntesis coherente y elegante del contenido proporcionado.",
+          "Transformando rostros con inteligencia artificial",
+          "Proporcionar recomendaciones claras y prácticas para lograr resultados óptimos al usar aplicaciones de inteligencia artificial que copian rostros en Android."
+         ]
+        },
+        "summary_thought": {
+         "content": [
+          "I analyze the unique features and expressions in your reference photo to reconstruct a highly accurate digital likeness.  \nBy leveraging advanced neural networks, I preserve subtle details like skin texture, lighting, and facial structure while adapting the face to new contexts or styles.  \nThe result is a seamless fusion of realism and creativity, transforming your image into a versatile visual asset.",
+          "I am assessing tools that accurately transfer facial features from a reference image to new contexts, prioritizing precision and natural results.  \nAmong the options, certain apps stand out for their ability to maintain facial integrity while applying stylistic changes or integrating faces into templates.  \nI focus on those with verified performance and reliable functionality, ensuring the best possible outcome for creative tasks.",
+          "Estoy identificando herramientas que permiten generar retratos realistas y estilizados a partir de fotografías personales, centrándome en aplicaciones que ofrecen entrenamiento con múltiples imágenes para resultados profesionales o transformaciones creativas con una sola foto.  \nDestaco soluciones que aprovechan inteligencia artificial para capturar detalles faciales con precisión, generando avatares animados, versiones artísticas o imágenes hiperrealistas adaptadas a distintos contextos.  \nMi enfoque es proporcionar opciones confiables y accesibles, priorizando calidad visual y flexibilidad estilística según las necesidades del usuario.",
+          "Estoy evaluando aplicaciones que permiten replicar con precisión el rostro en nuevas imágenes mediante tecnología de aprendizaje automático.  \nMe enfoco en ofrecer recomendaciones claras y seguras, destacando aspectos clave como calidad de imagen, condiciones de uso y protección de datos personales.  \nMi objetivo es guiar de manera directa y empática, asegurando que la experiencia sea tanto efectiva como respetuosa con la privacidad del usuario.",
+          "I analyze reference images to capture unique facial characteristics with remarkable precision, translating them into lifelike digital representations.  \nBy leveraging advanced generative models, I adapt these features across diverse styles and contexts—professional portraits, imaginative themes, or dynamic video content—while preserving authentic likeness.  \nThe result is a seamless fusion of personal identity and creative expression, delivered with artistic finesse and technical sophistication.",
+          "Estoy aprovechando algoritmos avanzados que analizan las características faciales con precisión, adaptándolas a diferentes estilos artísticos.  \nMe aseguro de que cada transformación mantenga la esencia original, respetando el tono y la expresión del rostro.  \nLa iluminación y la perspectiva son clave para lograr resultados naturales y convincentes.",
+          "Estoy analizando cómo aplicaciones que emplean inteligencia artificial pueden generar representaciones visuales detalladas y realistas a partir de fotografías personales.  \nMe enfoco en la importancia de usar imágenes claras, sin filtros ni elementos que obstruyan el rostro, para garantizar una identificación precisa por parte del modelo.  \nTambién considero las implicaciones de privacidad al subir datos biométricos a servicios en la nube, destacando la necesidad de revisar políticas de tratamiento de datos [[1]].",
+          "Estoy explorando cómo las aplicaciones de edición con IA permiten transformar fotos de perfil en composiciones profesionales.  \nLa técnica se basa en el análisis de múltiples imágenes para capturar y reproducir con fidelidad los rasgos faciales.  \nEl acceso a estas herramientas se facilita a través de plataformas móviles, ofreciendo resultados sorprendentemente naturales.",
+          "I am examining how AI enhances personal expression through facial transformation and style adaptation.  \nBy analyzing reference images, I generate highly accurate portraits across diverse artistic styles and dynamic contexts.  \nThese tools seamlessly blend identity with imagination, enabling users to experiment with personas and narratives in vivid, immersive ways.",
+          "I am ensuring each sentence contains at most one source citation, and only sentences that reference specific information include a single citation. I am carefully reviewing the content to eliminate any instances of multiple citations or uncited claims. Every claim derived from external sources is now anchored to a single, properly formatted reference. The result is a polished, compliant response with precise attribution.",
+          "Estoy analizando cómo las herramientas de IA están redefiniendo la creatividad visual al adaptar rostros humanos a estilos artísticos diversos, manteniendo una fidelidad facial sorprendente.  \nCada aplicación aprovecha modelos entrenados específicamente para capturar la esencia individual, permitiendo experiencias personalizadas y expresivas en entornos digitales.  \nEl resultado es una fusión entre identidad real y fantasía visual, donde la tecnología actúa como un puente entre lo cotidiano y lo extraordinario.",
+          "Estoy procesando imágenes de referencia con técnicas avanzadas de reconocimiento facial y generación de imágenes, ajustando iluminación, ángulo y claridad para obtener resultados fielmente naturales. Me aseguro de priorizar la integridad estructural del rostro, evitando distorsiones causadas por filtros, accesorios o condiciones de captura adversas. Mi enfoque se centra en preservar la esencia individual mientras se aplica el estilo deseado con un toque artístico refinado.",
+          "Estoy evaluando cómo estas herramientas procesan datos biométricos al subir imágenes a servidores en la nube, reconociendo que aunque se promete su eliminación tras unos días, el manejo de tales datos requiere prudencia  \nMe enfoco en verificar la consistencia con la regla de citar como máximo una fuente por oración, asegurando que cada afirmación esté respaldada adecuadamente sin exceder el límite  \nConcentro mi atención en mantener un lenguaje claro y elegante, evitando menciones directas de herramientas o instrucciones técnicas",
+          "Estoy organizando información sobre aplicaciones de inteligencia artificial enfocadas en edición facial y generación de avatares, destacando sus funciones innovadoras.  \nCada herramienta se describe con énfasis en su capacidad para personalizar imágenes mediante modelos de IA entrenados con fotos del usuario.  \nEl enfoque es presentar las características clave de manera fluida, manteniendo un tono natural y técnico sin revelar procesos internos.",
+          "Estoy analizando una serie de aplicaciones que utilizan tecnología de inteligencia artificial para transformar imágenes faciales, destacando su capacidad para mantener la esencia del rostro original mientras lo adapta a estilos artísticos diversos. Cada herramienta se enfoca en ofrecer resultados naturales y detallados, aprovechando motores avanzados de generación visual. Estoy evaluando cómo estas aplicaciones combinan precisión técnica con creatividad estética, permitiendo experimentos visuales sin perder autenticidad. El enfoque principal es facilitar la transformación facial de forma intuitiva y sorprendentemente realista.",
+          "Evalúo cuidadosamente cada sugerencia para asegurar que sea relevante, precisa y alineada con el propósito de la consulta.  \nDestaco aspectos clave como iluminación, composición facial y privacidad, enfatizando la importancia de subir imágenes originales sin filtros ni obstáculos visuales.  \nFinalmente, reforzó la responsabilidad al usar servicios en la nube, destacando el manejo temporal de datos y la necesidad de confianza en los procesos."
+         ]
+        }
+       },
+       "role": "assistant",
+       "response_id": "96042a8b-88bc-4024-b305-be27bd03854b",
+       "usage": {
+        "input_tokens": 6779,
+        "output_tokens": 3738,
+        "total_tokens": 10517,
+        "output_tokens_details": {
+         "reasoning_tokens": 3730
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1783190408
+      },
+      {
+       "content": "Para crear fotos nuevas copiando tu rostro con alta precisión a partir de imágenes de referencia en Android, existen aplicaciones que utilizan modelos de inteligencia artificial. A continuación te presento las mejores opciones disponibles en la tienda de Android:\n\n**1. Remini - AI Photo Enhancer**\nRemini es una herramienta de edición muy popular que usa inteligencia artificial para restaurar imágenes y aplicar divertidas transformaciones [[16]]. Su función generativa te permite subir varias selfies de referencia para crear fotos profesionales (como retratos de negocios o de bodas) manteniendo un realismo impresionante.\n🔗 Enlace: https://play.google.com/store/apps/details?id=com.bigwinepot.nwdn.international\n\n**2. Lensa AI**\nLensa es un editor de fotos y cámara que destaca por sus funciones de avatares impulsados por IA [[8]]. Su modo \"Magic Avatars\" entrena un modelo exclusivo a partir de 10 a 20 fotos tuyas, logrando que la IA aprenda tu estructura facial para generarte en docenas de estilos artísticos sin perder tu parecido.\n🔗 Enlace: https://play.google.com/store/apps/details?id=com.lensa.app\n\n**3. FacePlay**\nEsta aplicación empodera a los usuarios con una biblioteca compartida de plantillas en tendencia para crear contenido viral [[27]]. Puedes subir una foto cotidiana de referencia y su agente de IA adaptará tu rostro perfectamente a disfraces, escenas de películas o retratos de moda.\n🔗 Enlace: https://play.google.com/store/apps/details?id=com.ai.face.play\n\n**4. AI Mirror**\nEste editor integra múltiples motores de generación de IA de la industria para garantizar alta similitud, iluminación natural y detalles faciales precisos al procesar tus imágenes de referencia [[38]]. Es ideal si buscas transformar tu rostro en estilos anime, 3D o pintura digital manteniendo tu esencia.\n🔗 Enlace: https://play.google.com/store/apps/details?id=com.ai.polyverse.mirror\n\n**5. Reface**\nEs la app pionera en \"Face Swap\" (intercambio de rostro). Solo necesitas subir una selfie de referencia y la IA recortará e iluminará tu cara para insertarla en fotos famosas, memes o GIFs con resultados muy naturales.\n🔗 Enlace: https://play.google.com/store/apps/details?id=video.reface.app\n\n**💡 Consejos para obtener el mejor resultado:**\n*   **Iluminación y ángulos:** Si la app pide varias fotos, sube imágenes con buena luz, de frente, de perfil y con expresiones neutras.\n*   **Rostro despejado:** Evita fotos con gafas de sol, mascarillas, cabello tapando los ojos o manos cerca de la cara.\n*   **Sin filtros:** Sube fotos originales para que la IA reconozca tu estructura ósea real.\n\n**⚠️ Nota de Privacidad:** Recuerda que estas aplicaciones suben tus fotos a servidores en la nube para procesar los datos biométricos. Aunque la mayoría promete borrarlas tras unos días, es recomendable usarlas con responsabilidad.",
+       "phase": "answer",
+       "status": "finished",
+       "extra": null,
+       "role": "assistant",
+       "response_id": "96042a8b-88bc-4024-b305-be27bd03854b",
+       "usage": {
+        "input_tokens": 6779,
+        "output_tokens": 4398,
+        "total_tokens": 11177,
+        "output_tokens_details": {
+         "reasoning_tokens": 3730
+        },
+        "prompt_tokens_details": {
+         "cached_tokens": 0
+        }
+       },
+       "timestamp": 1783190419
+      }
+     ],
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "meta": {
+       "subChatType": "t2t"
+      },
+      "endTime": 1783190419.6835282
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": null,
+     "timestamp": 1783190284
+    }
+   },
+   "currentId": "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da",
+   "currentResponseIds": [
+    "96042a8b-88bc-4024-b305-be27bd03854b",
+    "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "f95bdc8e-427a-4968-9a28-0942fbfb9b64",
+    "role": "user",
+    "content": "Ai crea fotos y copia rostro bien de referencia para crear otra. Todos los links android",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da",
+     "96042a8b-88bc-4024-b305-be27bd03854b"
+    ],
+    "files": [],
+    "timestamp": 1783190284
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "reasoning_content": null,
+    "chat_type": "t2t",
+    "sub_chat_type": "t2t",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da",
+    "parentId": "f95bdc8e-427a-4968-9a28-0942fbfb9b64",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": true,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Thinking",
+     "thinking_format": "summary",
+     "auto_search": true
+    },
+    "content_list": [
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Generating visual concepts based on reference imagery",
+         "Seeking relevant Android applications for face-swapping and face-editing functionalities",
+         "Searching for trusted Android applications capable of intelligent face swapping using reference images"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am assessing the user's desire to replicate facial features from a source image into a new composition, focusing on natural and accurate translation of likeness.  \nMy approach involves interpreting subtle nuances in expression, structure, and lighting to ensure seamless integration.  \nThe goal is to produce a result that feels authentic and true to the original while adapting it to a new context.",
+         "I am identifying trustworthy, user-friendly apps that enable realistic facial transformations on Android devices  \nMy focus is on tools that prioritize accuracy in facial alignment and offer intuitive interfaces for seamless integration  \nI ensure all recommendations are accessible through official Android channels and maintain privacy-conscious design",
+         "I am identifying reliable, user-friendly apps that leverage AI to seamlessly transfer facial features from one image to another  \nMy focus is on apps with strong performance, clear interface, and solid privacy practices to ensure a safe experience  \nI will provide curated options with direct links or search guidance to help you explore them easily"
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da",
+      "usage": {
+       "input_tokens": 3765,
+       "output_tokens": 143,
+       "total_tokens": 3908,
+       "output_tokens_details": {
+        "reasoning_tokens": 141
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1783190296
+     },
+     {
+      "content": "",
+      "phase": "web_search",
+      "status": "finished",
+      "extra": {
+       "display_position": "think",
+       "web_search_info": [
+        {
+         "url": "https://face-swap-face-changer-ai.softonic.com/android/alternativas",
+         "title": "23 mejores apps como Face Swap Face Changer AI para Android",
+         "snippet": "Descubre la mejor alternativa a Face Swap Face Changer AI en Softonic. Compara y descarga más de 23 apps como Face Swap Face Changer AI: Reface - RR.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://face-dance-ai-photo-animator.softonic.com/android/alternativas",
+         "title": "30 mejores apps como Face Dance: AI Photo Animator para Android",
+         "snippet": "Mejores Aplicaciones Gratuitas  App gratuita para intercambiar rostros en videocreaciones. Descargar · Alternativas a FacePlay - Face Swap Video para Android.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://remaker-ai-face-swap.softonic.com/android",
+         "title": "Remaker AI Face Swap para Android - Descargar - Softonic",
+         "snippet": "Remaker AI Face Swap es una aplicación para Android que permite intercambiar rostros en fotos de manera precisa y realista. Utilizando",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2026-01-09)"
+        },
+        {
+         "url": "https://play.google.com/store/apps/details?id=com.facelite.replacer&hl=es_SV",
+         "title": "FaceSwapper Lite: AI Face Swap - Apps en Google Play",
+         "snippet": "Faceswapper Lite es una aplicación de intercambio de rostros de fotos y videos diseñada para Android, para intercambiar tu rostro en diferentes escenas.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://faceapp.softonic.com/android/alternativas",
+         "title": "20 mejores apps como FaceApp: Perfect Face Editor para Android",
+         "snippet": "Mejores Aplicaciones Gratuitas  App gratuita para intercambiar rostros en videocreaciones · Descargar · Alternativas a FacePlay - Face Swap Video para Android.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://faceswapper.uptodown.com/android",
+         "title": "FaceSwapper para Android - Descarga el APK en Uptodown",
+         "snippet": "FaceSwapper ofrece una plataforma avanzada y fácil de usar para crear intercambios de rostros realistas con tecnología de inteligencia artificial en fotos,",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://speechify.com/es/blog/face-swap-app/?srsltid=AfmBOopeoA4TnDbhrZvkN-A__5Z_O5pGLGF6PNBEU4RL1EnsHLSU59W1",
+         "title": "Sumérgete en el Mundo de los Intercambios Faciales Digitales",
+         "snippet": "Las 9 Mejores Aplicaciones de Intercambio de Rostros: La Caja de Herramientas Digital · Reface: · Snapchat: · FaceOver: · Face Swap Live: · Pic Swap:.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2023-10-10)"
+        },
+        {
+         "url": "https://face-swap-online-face-changer.softonic.com/android/alternativas",
+         "title": "30 mejores apps como Face swap online Face Changer para Android",
+         "snippet": "Alternativas a Add Face To Video Face Changer - Reface Face Swap para Android  Mejores Aplicaciones Gratuitas · Juegos Antiguos Para Android Gratis · Edición",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://play.google.com/store/apps/details?id=video.reface.app&hl=es",
+         "title": "Reface: Face swap videos/fotos - Aplicaciones en Google Play",
+         "snippet": "Convierte selfies en videos divertidísimos con intercambio facial por IA, crea avatares de IA en tendencia, figuras de IA, genera imágenes de tu",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2026-06-18)"
+        },
+        {
+         "url": "https://filmora.wondershare.es/video-editor/best-face-swap-apps.html",
+         "title": "Las 10 mejores aplicaciones de intercambio de caras para Android ",
+         "snippet": "1. Filmora: Editor y creador de vídeos con inteligencia artificial · 2. Snapchat · 3. Reface: Generador de IA de intercambio de caras · 4. RemakeFace: Intercambio",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://www.producthunt.com/categories/face-swap-apps",
+         "title": "The best face swap apps in 2026 - Product Hunt",
+         "snippet": "DeepSwap, Reface, and FaceMagic turn photos, GIFs, and videos into social-ready swaps. Newer FaceLoco makes browser-based video edits from",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2026-04-27)"
+        },
+        {
+         "url": "https://play.google.com/store/apps/details?id=video.reface.app",
+         "title": "Reface: Face Swap AI Generator - Apps on Google Play",
+         "snippet": "Make scroll‑stopping content in seconds with advanced face swap app. Turn selfies into hilarious ai face swap videos, craft on‑trend AI avatars,",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2026-06-18)"
+        },
+        {
+         "url": "https://www.barchart.com/story/news/2256748/best--face-swap-apps-in-2026-video-photo-tested-compared",
+         "title": "Best AI Face Swap Apps in 2026 (Video + Photo) (Tested ",
+         "snippet": "Platforms like Magic Hour, Canva, SeaArt AI, and Remaker AI represent different approaches to swapping faces in photos and videos. This guide",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2026-06-02)"
+        },
+        {
+         "url": "https://www.linkedin.com/pulse/top-5-ai-face-swap-apps-try-2026-martha-spooner-x4hkf",
+         "title": "Top 5 AI Face Swap Apps to Try in 2026 - LinkedIn",
+         "snippet": "Discover the top 5 AI face swap apps of 2026 including Starlor, SwapyFace, Reface, RemakeFace, and FaceSwapper. Compare features, platforms",
+         "hostname": "领英企业服务",
+         "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01u0ayiG1z2xayCOBcr_!!6000000006657-73-tps-16-16.ico",
+         "date": " (2025-12-25)"
+        },
+        {
+         "url": "https://consensus.app/search/ai-face-swap-apps-in-2026/Ki6u_vQNSWSpwNFy2jZOag/",
+         "title": "AI Face Swap Apps in 2026 - Consensus",
+         "snippet": "Quick Answer: Undress AI is the best all-around choice for most people.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://edimakor.hitpaw.es/video-editing-tips/couple-face-swap.html",
+         "title": "Top 5 Apps de Intercambio de Caras para Parejas con IA 2026",
+         "snippet": "En esta guía completa, se examinarán las principales soluciones de intercambio de caras con IA, como HitPaw Edimakor para PC, plataformas web,",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2026-03-02)"
+        },
+        {
+         "url": "https://pxz.ai/blog/15-best-ai-face-swap-apps-and-websites-free-and-paid-in-2025",
+         "title": "15 Best AI Face Swap Apps & Websites (Free & Paid in 2025) - PXZ AI",
+         "snippet": "15 best AI face swap apps and websites (free & paid) in 2025. PXZ AI offers free AI-powered face swapping for photos and videos.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://cl.pinterest.com/pin/173951604344094312/?send=true",
+         "title": "12 Best Face Recognition Apps for iOS and Android | 2026 Edition",
+         "snippet": "12 Best Face Recognition Apps for iOS and Android | 2026 Edition - RankRed  Since the Apple launched their iPhone X, Face recognition has really changed.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://faceswapper.uptodown.com/android",
+         "title": "FaceSwapper para Android - Descarga el APK en Uptodown",
+         "snippet": "FaceSwapper ofrece una plataforma avanzada y fácil de usar para crear intercambios de rostros realistas con tecnología de inteligencia artificial en fotos,",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://play.google.com/store/apps/details?id=com.officelens.faceswap.facechanger.editor&hl=es",
+         "title": "Editor de rostros con IA - Aplicaciones en Google Play",
+         "snippet": "Editor de Caras: La app AI Face Swap es la app definitiva para transformar tus fotos con diversión, creatividad y tecnología de IA inteligente.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://www.bitswits.co/blog/face-recognition-apps",
+         "title": "18 Best Face Recognition Apps for Android and iOS in 2026 - BitsWits",
+         "snippet": "Google Photos is a face identification app that applies face recognition to your photo library. The app recognizes faces from the uploaded photos, analyzes them",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://www.hyena.ai/best-facial-recognition-software-that-you-can-create-its-clone/",
+         "title": "Best Facial Recognition Software That You Can Create Its Clone",
+         "snippet": "Most Popular Face Recognition Apps For Android & iOS · FaceApp · FaceApp · AppLock · AppLock · Blipper · face-recognition-app blipper · Face DNA Test.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://mangoanimate.com/blog/es/top-9-face-changer-apps-for-effective-face-swapping/20894/",
+         "title": "Las 9 mejores aplicaciones para cambiar el rostro de forma eficaz",
+         "snippet": "La función de intercambio de caras con IA de PhotoDirector te permite usar cualquier imagen que elijas como fuente o con los ajustes preestablecidos.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://www.cmarix.com/blog/best-face-recognition-apps/",
+         "title": "10 Face Recognition Apps for Android & iOS In 2026 - CMARIX",
+         "snippet": "Best Face Recognition Apps For Android and iOS [A Details Guide 2026] · 1. Fingerprints · 2. Photo and Video · 3. Voice · 4. DNA · 5. Signature",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2026-06-17)"
+        },
+        {
+         "url": "https://play.google.com/store/apps/details?id=com.appzeeinc.face_recognition.facial_recognition.face_detection&hl=en_ZA",
+         "title": "Face Recognition Detection – Apps on Google Play",
+         "snippet": "With Face Recognizer, you can detect and recognize faces in real-time using your Android device's camera or from any photo — fast, easy, and",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2026-06-23)"
+        },
+        {
+         "url": "https://github.com/Lauszus/FaceRecognitionApp",
+         "title": "Lauszus/FaceRecognitionApp: Face Recognition Android App",
+         "snippet": "This project demonstrates how to calculate Eigenfaces and Fisherfaces used for face recognition on an Android device.",
+         "hostname": "GitHub",
+         "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01Pzz5rH1SIBQeVFb7w_!!6000000002223-55-tps-32-32.svg",
+         "date": ""
+        },
+        {
+         "url": "https://face-swap-1.en.softonic.com/android/alternatives",
+         "title": "Top 29 Apps like Face Swap for Android",
+         "snippet": "FaceFun is a free face swap app that lets you create and share your own face-swapped videos and photos with your friends.",
+         "hostname": null,
+         "hostlogo": null,
+         "date": ""
+        },
+        {
+         "url": "https://play.google.com/store/apps/details?id=io.amigoai.amigo",
+         "title": "Amigo AI - Face Swap Camera - Apps on Google Play",
+         "snippet": "Amigo AI is the free, real-time face swap app for Android phone — with unlimited use and live video call support. Open the app and start",
+         "hostname": null,
+         "hostlogo": null,
+         "date": " (2026-04-30)"
+        }
+       ],
+       "tool_result": {
+        "docs": [
+         {
+          "url": "https://face-swap-face-changer-ai.softonic.com/android/alternativas",
+          "title": "23 mejores apps como Face Swap Face Changer AI para Android",
+          "snippet": "Descubre la mejor alternativa a Face Swap Face Changer AI en Softonic. Compara y descarga más de 23 apps como Face Swap Face Changer AI: Reface - RR.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://face-dance-ai-photo-animator.softonic.com/android/alternativas",
+          "title": "30 mejores apps como Face Dance: AI Photo Animator para Android",
+          "snippet": "Mejores Aplicaciones Gratuitas  App gratuita para intercambiar rostros en videocreaciones. Descargar · Alternativas a FacePlay - Face Swap Video para Android.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://remaker-ai-face-swap.softonic.com/android",
+          "title": "Remaker AI Face Swap para Android - Descargar - Softonic",
+          "snippet": "Remaker AI Face Swap es una aplicación para Android que permite intercambiar rostros en fotos de manera precisa y realista. Utilizando",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-01-09)"
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.facelite.replacer&hl=es_SV",
+          "title": "FaceSwapper Lite: AI Face Swap - Apps en Google Play",
+          "snippet": "Faceswapper Lite es una aplicación de intercambio de rostros de fotos y videos diseñada para Android, para intercambiar tu rostro en diferentes escenas.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://faceapp.softonic.com/android/alternativas",
+          "title": "20 mejores apps como FaceApp: Perfect Face Editor para Android",
+          "snippet": "Mejores Aplicaciones Gratuitas  App gratuita para intercambiar rostros en videocreaciones · Descargar · Alternativas a FacePlay - Face Swap Video para Android.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://faceswapper.uptodown.com/android",
+          "title": "FaceSwapper para Android - Descarga el APK en Uptodown",
+          "snippet": "FaceSwapper ofrece una plataforma avanzada y fácil de usar para crear intercambios de rostros realistas con tecnología de inteligencia artificial en fotos,",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://speechify.com/es/blog/face-swap-app/?srsltid=AfmBOopeoA4TnDbhrZvkN-A__5Z_O5pGLGF6PNBEU4RL1EnsHLSU59W1",
+          "title": "Sumérgete en el Mundo de los Intercambios Faciales Digitales",
+          "snippet": "Las 9 Mejores Aplicaciones de Intercambio de Rostros: La Caja de Herramientas Digital · Reface: · Snapchat: · FaceOver: · Face Swap Live: · Pic Swap:.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2023-10-10)"
+         },
+         {
+          "url": "https://face-swap-online-face-changer.softonic.com/android/alternativas",
+          "title": "30 mejores apps como Face swap online Face Changer para Android",
+          "snippet": "Alternativas a Add Face To Video Face Changer - Reface Face Swap para Android  Mejores Aplicaciones Gratuitas · Juegos Antiguos Para Android Gratis · Edición",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=video.reface.app&hl=es",
+          "title": "Reface: Face swap videos/fotos - Aplicaciones en Google Play",
+          "snippet": "Convierte selfies en videos divertidísimos con intercambio facial por IA, crea avatares de IA en tendencia, figuras de IA, genera imágenes de tu",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-18)"
+         },
+         {
+          "url": "https://filmora.wondershare.es/video-editor/best-face-swap-apps.html",
+          "title": "Las 10 mejores aplicaciones de intercambio de caras para Android ",
+          "snippet": "1. Filmora: Editor y creador de vídeos con inteligencia artificial · 2. Snapchat · 3. Reface: Generador de IA de intercambio de caras · 4. RemakeFace: Intercambio",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.producthunt.com/categories/face-swap-apps",
+          "title": "The best face swap apps in 2026 - Product Hunt",
+          "snippet": "DeepSwap, Reface, and FaceMagic turn photos, GIFs, and videos into social-ready swaps. Newer FaceLoco makes browser-based video edits from",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-04-27)"
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=video.reface.app",
+          "title": "Reface: Face Swap AI Generator - Apps on Google Play",
+          "snippet": "Make scroll‑stopping content in seconds with advanced face swap app. Turn selfies into hilarious ai face swap videos, craft on‑trend AI avatars,",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-18)"
+         },
+         {
+          "url": "https://www.barchart.com/story/news/2256748/best--face-swap-apps-in-2026-video-photo-tested-compared",
+          "title": "Best AI Face Swap Apps in 2026 (Video + Photo) (Tested ",
+          "snippet": "Platforms like Magic Hour, Canva, SeaArt AI, and Remaker AI represent different approaches to swapping faces in photos and videos. This guide",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-02)"
+         },
+         {
+          "url": "https://www.linkedin.com/pulse/top-5-ai-face-swap-apps-try-2026-martha-spooner-x4hkf",
+          "title": "Top 5 AI Face Swap Apps to Try in 2026 - LinkedIn",
+          "snippet": "Discover the top 5 AI face swap apps of 2026 including Starlor, SwapyFace, Reface, RemakeFace, and FaceSwapper. Compare features, platforms",
+          "hostname": "领英企业服务",
+          "hostlogo": "https://img.alicdn.com/imgextra/i2/O1CN01u0ayiG1z2xayCOBcr_!!6000000006657-73-tps-16-16.ico",
+          "date": " (2025-12-25)"
+         },
+         {
+          "url": "https://consensus.app/search/ai-face-swap-apps-in-2026/Ki6u_vQNSWSpwNFy2jZOag/",
+          "title": "AI Face Swap Apps in 2026 - Consensus",
+          "snippet": "Quick Answer: Undress AI is the best all-around choice for most people.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://edimakor.hitpaw.es/video-editing-tips/couple-face-swap.html",
+          "title": "Top 5 Apps de Intercambio de Caras para Parejas con IA 2026",
+          "snippet": "En esta guía completa, se examinarán las principales soluciones de intercambio de caras con IA, como HitPaw Edimakor para PC, plataformas web,",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-03-02)"
+         },
+         {
+          "url": "https://pxz.ai/blog/15-best-ai-face-swap-apps-and-websites-free-and-paid-in-2025",
+          "title": "15 Best AI Face Swap Apps & Websites (Free & Paid in 2025) - PXZ AI",
+          "snippet": "15 best AI face swap apps and websites (free & paid) in 2025. PXZ AI offers free AI-powered face swapping for photos and videos.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://cl.pinterest.com/pin/173951604344094312/?send=true",
+          "title": "12 Best Face Recognition Apps for iOS and Android | 2026 Edition",
+          "snippet": "12 Best Face Recognition Apps for iOS and Android | 2026 Edition - RankRed  Since the Apple launched their iPhone X, Face recognition has really changed.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://faceswapper.uptodown.com/android",
+          "title": "FaceSwapper para Android - Descarga el APK en Uptodown",
+          "snippet": "FaceSwapper ofrece una plataforma avanzada y fácil de usar para crear intercambios de rostros realistas con tecnología de inteligencia artificial en fotos,",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.officelens.faceswap.facechanger.editor&hl=es",
+          "title": "Editor de rostros con IA - Aplicaciones en Google Play",
+          "snippet": "Editor de Caras: La app AI Face Swap es la app definitiva para transformar tus fotos con diversión, creatividad y tecnología de IA inteligente.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.bitswits.co/blog/face-recognition-apps",
+          "title": "18 Best Face Recognition Apps for Android and iOS in 2026 - BitsWits",
+          "snippet": "Google Photos is a face identification app that applies face recognition to your photo library. The app recognizes faces from the uploaded photos, analyzes them",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.hyena.ai/best-facial-recognition-software-that-you-can-create-its-clone/",
+          "title": "Best Facial Recognition Software That You Can Create Its Clone",
+          "snippet": "Most Popular Face Recognition Apps For Android & iOS · FaceApp · FaceApp · AppLock · AppLock · Blipper · face-recognition-app blipper · Face DNA Test.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://mangoanimate.com/blog/es/top-9-face-changer-apps-for-effective-face-swapping/20894/",
+          "title": "Las 9 mejores aplicaciones para cambiar el rostro de forma eficaz",
+          "snippet": "La función de intercambio de caras con IA de PhotoDirector te permite usar cualquier imagen que elijas como fuente o con los ajustes preestablecidos.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://www.cmarix.com/blog/best-face-recognition-apps/",
+          "title": "10 Face Recognition Apps for Android & iOS In 2026 - CMARIX",
+          "snippet": "Best Face Recognition Apps For Android and iOS [A Details Guide 2026] · 1. Fingerprints · 2. Photo and Video · 3. Voice · 4. DNA · 5. Signature",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-17)"
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=com.appzeeinc.face_recognition.facial_recognition.face_detection&hl=en_ZA",
+          "title": "Face Recognition Detection – Apps on Google Play",
+          "snippet": "With Face Recognizer, you can detect and recognize faces in real-time using your Android device's camera or from any photo — fast, easy, and",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-06-23)"
+         },
+         {
+          "url": "https://github.com/Lauszus/FaceRecognitionApp",
+          "title": "Lauszus/FaceRecognitionApp: Face Recognition Android App",
+          "snippet": "This project demonstrates how to calculate Eigenfaces and Fisherfaces used for face recognition on an Android device.",
+          "hostname": "GitHub",
+          "hostlogo": "https://img.alicdn.com/imgextra/i1/O1CN01Pzz5rH1SIBQeVFb7w_!!6000000002223-55-tps-32-32.svg",
+          "date": ""
+         },
+         {
+          "url": "https://face-swap-1.en.softonic.com/android/alternatives",
+          "title": "Top 29 Apps like Face Swap for Android",
+          "snippet": "FaceFun is a free face swap app that lets you create and share your own face-swapped videos and photos with your friends.",
+          "hostname": null,
+          "hostlogo": null,
+          "date": ""
+         },
+         {
+          "url": "https://play.google.com/store/apps/details?id=io.amigoai.amigo",
+          "title": "Amigo AI - Face Swap Camera - Apps on Google Play",
+          "snippet": "Amigo AI is the free, real-time face swap app for Android phone — with unlimited use and live video call support. Open the app and start",
+          "hostname": null,
+          "hostlogo": null,
+          "date": " (2026-04-30)"
+         }
+        ],
+        "used_id": 29,
+        "tool_call_metrics": {
+         "success": [
+          1,
+          1,
+          1
+         ]
+        },
+        "tool_observation": "```\n[1] https://face-swap-face-changer-ai.softonic.com/android/alternativas \"23 mejores apps como Face Swap Face Changer AI para Android\nDescubre la mejor alternativa a Face Swap Face Changer AI en Softonic. Compara y descarga más de 23 apps como Face Swap Face Changer AI: Reface - RR.\" \n\n[2] https://face-dance-ai-photo-animator.softonic.com/android/alternativas \"30 mejores apps como Face Dance: AI Photo Animator para Android\nMejores Aplicaciones Gratuitas  App gratuita para intercambiar rostros en videocreaciones. Descargar · Alternativas a FacePlay - Face Swap Video para Android.\" \n\n[3] https://remaker-ai-face-swap.softonic.com/android \"Remaker AI Face Swap para Android - Descargar - Softonic\nRemaker AI Face Swap es una aplicación para Android que permite intercambiar rostros en fotos de manera precisa y realista. Utilizando\"  (2026-01-09)\n\n[4] https://play.google.com/store/apps/details?id=com.facelite.replacer&hl=es_SV \"FaceSwapper Lite: AI Face Swap - Apps en Google Play\nFaceswapper Lite es una aplicación de intercambio de rostros de fotos y videos diseñada para Android, para intercambiar tu rostro en diferentes escenas.\" \n\n[5] https://faceapp.softonic.com/android/alternativas \"20 mejores apps como FaceApp: Perfect Face Editor para Android\nMejores Aplicaciones Gratuitas  App gratuita para intercambiar rostros en videocreaciones · Descargar · Alternativas a FacePlay - Face Swap Video para Android.\" \n\n[6] https://faceswapper.uptodown.com/android \"FaceSwapper para Android - Descarga el APK en Uptodown\nFaceSwapper ofrece una plataforma avanzada y fácil de usar para crear intercambios de rostros realistas con tecnología de inteligencia artificial en fotos,\" \n\n[7] https://speechify.com/es/blog/face-swap-app/?srsltid=AfmBOopeoA4TnDbhrZvkN-A__5Z_O5pGLGF6PNBEU4RL1EnsHLSU59W1 \"Sumérgete en el Mundo de los Intercambios Faciales Digitales\nLas 9 Mejores Aplicaciones de Intercambio de Rostros: La Caja de Herramientas Digital · Reface: · Snapchat: · FaceOver: · Face Swap Live: · Pic Swap:.\"  (2023-10-10)\n\n[8] https://face-swap-online-face-changer.softonic.com/android/alternativas \"30 mejores apps como Face swap online Face Changer para Android\nAlternativas a Add Face To Video Face Changer - Reface Face Swap para Android  Mejores Aplicaciones Gratuitas · Juegos Antiguos Para Android Gratis · Edición\" \n\n[9] https://play.google.com/store/apps/details?id=video.reface.app&hl=es \"Reface: Face swap videos/fotos - Aplicaciones en Google Play\nConvierte selfies en videos divertidísimos con intercambio facial por IA, crea avatares de IA en tendencia, figuras de IA, genera imágenes de tu\"  (2026-06-18)\n\n[10] https://filmora.wondershare.es/video-editor/best-face-swap-apps.html \"Las 10 mejores aplicaciones de intercambio de caras para Android \n1. Filmora: Editor y creador de vídeos con inteligencia artificial · 2. Snapchat · 3. Reface: Generador de IA de intercambio de caras · 4. RemakeFace: Intercambio\" \n\n[11] https://www.producthunt.com/categories/face-swap-apps \"The best face swap apps in 2026 - Product Hunt\nDeepSwap, Reface, and FaceMagic turn photos, GIFs, and videos into social-ready swaps. Newer FaceLoco makes browser-based video edits from\"  (2026-04-27)\n\n[12] https://play.google.com/store/apps/details?id=video.reface.app \"Reface: Face Swap AI Generator - Apps on Google Play\nMake scroll‑stopping content in seconds with advanced face swap app. Turn selfies into hilarious ai face swap videos, craft on‑trend AI avatars,\"  (2026-06-18)\n\n[13] https://www.barchart.com/story/news/2256748/best--face-swap-apps-in-2026-video-photo-tested-compared \"Best AI Face Swap Apps in 2026 (Video + Photo) (Tested \nPlatforms like Magic Hour, Canva, SeaArt AI, and Remaker AI represent different approaches to swapping faces in photos and videos. This guide\"  (2026-06-02)\n\n[14] https://www.linkedin.com/pulse/top-5-ai-face-swap-apps-try-2026-martha-spooner-x4hkf \"Top 5 AI Face Swap Apps to Try in 2026 - LinkedIn\nDiscover the top 5 AI face swap apps of 2026 including Starlor, SwapyFace, Reface, RemakeFace, and FaceSwapper. Compare features, platforms\"  (2025-12-25)\n\n[15] https://consensus.app/search/ai-face-swap-apps-in-2026/Ki6u_vQNSWSpwNFy2jZOag/ \"AI Face Swap Apps in 2026 - Consensus\nQuick Answer: Undress AI is the best all-around choice for most people.\" \n\n[16] https://edimakor.hitpaw.es/video-editing-tips/couple-face-swap.html \"Top 5 Apps de Intercambio de Caras para Parejas con IA 2026\nEn esta guía completa, se examinarán las principales soluciones de intercambio de caras con IA, como HitPaw Edimakor para PC, plataformas web,\"  (2026-03-02)\n\n[17] https://pxz.ai/blog/15-best-ai-face-swap-apps-and-websites-free-and-paid-in-2025 \"15 Best AI Face Swap Apps & Websites (Free & Paid in 2025) - PXZ AI\n15 best AI face swap apps and websites (free & paid) in 2025. PXZ AI offers free AI-powered face swapping for photos and videos.\" \n\n[18] https://cl.pinterest.com/pin/173951604344094312/?send=true \"12 Best Face Recognition Apps for iOS and Android | 2026 Edition\n12 Best Face Recognition Apps for iOS and Android | 2026 Edition - RankRed  Since the Apple launched their iPhone X, Face recognition has really changed.\" \n\n[19] https://faceswapper.uptodown.com/android \"FaceSwapper para Android - Descarga el APK en Uptodown\nFaceSwapper ofrece una plataforma avanzada y fácil de usar para crear intercambios de rostros realistas con tecnología de inteligencia artificial en fotos,\" \n\n[20] https://play.google.com/store/apps/details?id=com.officelens.faceswap.facechanger.editor&hl=es \"Editor de rostros con IA - Aplicaciones en Google Play\nEditor de Caras: La app AI Face Swap es la app definitiva para transformar tus fotos con diversión, creatividad y tecnología de IA inteligente.\" \n\n[21] https://www.bitswits.co/blog/face-recognition-apps \"18 Best Face Recognition Apps for Android and iOS in 2026 - BitsWits\nGoogle Photos is a face identification app that applies face recognition to your photo library. The app recognizes faces from the uploaded photos, analyzes them\" \n\n[22] https://www.hyena.ai/best-facial-recognition-software-that-you-can-create-its-clone/ \"Best Facial Recognition Software That You Can Create Its Clone\nMost Popular Face Recognition Apps For Android & iOS · FaceApp · FaceApp · AppLock · AppLock · Blipper · face-recognition-app blipper · Face DNA Test.\" \n\n[23] https://mangoanimate.com/blog/es/top-9-face-changer-apps-for-effective-face-swapping/20894/ \"Las 9 mejores aplicaciones para cambiar el rostro de forma eficaz\nLa función de intercambio de caras con IA de PhotoDirector te permite usar cualquier imagen que elijas como fuente o con los ajustes preestablecidos.\" \n\n[24] https://www.cmarix.com/blog/best-face-recognition-apps/ \"10 Face Recognition Apps for Android & iOS In 2026 - CMARIX\nBest Face Recognition Apps For Android and iOS [A Details Guide 2026] · 1. Fingerprints · 2. Photo and Video · 3. Voice · 4. DNA · 5. Signature\"  (2026-06-17)\n\n[25] https://play.google.com/store/apps/details?id=com.appzeeinc.face_recognition.facial_recognition.face_detection&hl=en_ZA \"Face Recognition Detection – Apps on Google Play\nWith Face Recognizer, you can detect and recognize faces in real-time using your Android device's camera or from any photo — fast, easy, and\"  (2026-06-23)\n\n[26] https://github.com/Lauszus/FaceRecognitionApp \"Lauszus/FaceRecognitionApp: Face Recognition Android App\nThis project demonstrates how to calculate Eigenfaces and Fisherfaces used for face recognition on an Android device.\" \n\n[27] https://face-swap-1.en.softonic.com/android/alternatives \"Top 29 Apps like Face Swap for Android\nFaceFun is a free face swap app that lets you create and share your own face-swapped videos and photos with your friends.\" \n\n[28] https://play.google.com/store/apps/details?id=io.amigoai.amigo \"Amigo AI - Face Swap Camera - Apps on Google Play\nAmigo AI is the free, real-time face swap app for Android phone — with unlimited use and live video call support. Open the app and start\"  (2026-04-30)\n```"
+       }
+      },
+      "role": "function",
+      "name": "web_search",
+      "function_id": "round_0_call_26bdb27a41824c3b927c0cb0",
+      "function_call": {
+       "name": "web_search",
+       "arguments": "{\"queries\": \n[\n  \"\\\"mejores aplicaciones\\\" android \\\"face swap\\\" IA foto referencia\",\n  \"mejores apps android swap caras IA 2025 2026\",\n  \"apps android para clonar rostros en fotos IA\"\n]\n\n}"
+      },
+      "response_id": "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da",
+      "usage": {}
+     },
+     {
+      "content": "",
+      "phase": "thinking_summary",
+      "status": "finished",
+      "extra": {
+       "summary_title": {
+        "content": [
+         "Swap faces with precision using AI-powered tools on Android",
+         "Explorar las capacidades de transformación facial impulsadas por inteligencia artificial en aplicaciones modernas.",
+         "Providing accurate app information with direct links for user convenience",
+         "Swap faces with ease using specialized AI tools",
+         "Generating AI-powered visual content with precision and realism",
+         "Buscar soluciones para replicar rostros en imágenes o videos mediante aplicaciones móviles",
+         "Presenting curated Android applications with their download links",
+         "Generating refined visual content through advanced artificial intelligence",
+         "Generando una recomendación precisa y elegante basada en la consulta del usuario.",
+         "Presenting curated AI-powered face swap applications for Android users",
+         "Evaluando la información disponible para ofrecer una respuesta precisa y segura.",
+         "Refine the content to ensure each claim is supported by a single citation.",
+         "Presenting curated recommendations for AI-powered face swapping applications tailored to Android users.",
+         "Transformar rostros con inteligencia artificial en dispositivos móviles"
+        ]
+       },
+       "summary_thought": {
+        "content": [
+         "I am identifying the most effective applications that leverage artificial intelligence to seamlessly transfer facial features from a reference image to another, ensuring lifelike results.  \nThese tools prioritize high-quality rendering and natural blending, making the transformations appear authentic and visually compelling.  \nI focus on apps that deliver intuitive interfaces and reliable performance, enabling users to create impressive face-swapped content effortlessly.",
+         "Estoy analizando cómo estas herramientas permiten manipular imágenes y videos con precisión, ofreciendo experiencias interactivas y creativas.  \nCada aplicación destaca por su enfoque único, ya sea en tiempo real, edición facial o integración con funciones multimedia.  \nMi enfoque se centra en destacar la evolución y versatilidad de estas tecnologías para uso personal y expresivo.",
+         "I am curating a list of AI-powered face-swapping and editing applications, ensuring each entry includes the official Play Store link or verified third-party source to guide users safely.  \nI prioritize clarity and reliability by selecting only well-known, accessible platforms with transparent download pathways.  \nMy goal is to deliver a seamless, trustworthy experience that respects user privacy and avoids unauthorized distribution.",
+         "I'm identifying the most effective apps for Android that enable users to transfer their facial features from a reference photo onto other images or videos.  \nThese applications leverage advanced artificial intelligence to ensure realistic and seamless face replacements across various visual contexts.  \nI've curated a list of top-rated options, each offering unique features to enhance creative expression and personalization.",
+         "I am crafting lifelike transformations by leveraging advanced artificial intelligence to seamlessly swap or merge facial features across images.  \nThe process ensures natural results that preserve expression and lighting, delivering a polished outcome tailored to creative needs.  \nAdditionally, I can conceive original characters and imaginative scenes from scratch using internal generative capabilities.",
+         "Estoy identificando herramientas específicas que permitan cargar una foto de referencia y utilizar inteligencia artificial para superponer ese rostro de forma realista en otras imágenes o videos.  \nMi enfoque es ofrecer opciones precisas y actualizadas, centradas en la funcionalidad solicitada sin introducir complejidades innecesarias.  \nCada recomendación se basa en la capacidad directa de las aplicaciones para cumplir con el propósito de *Face Swap* en entornos Android.",
+         "I am selecting top-tier apps tailored for AI-powered face swapping, focusing on user-friendly interfaces and advanced features.  \nEach recommendation highlights unique capabilities such as real-time swapping, cinematic integration, or unlimited usage.  \nI ensure the provided links are direct and reliable, offering seamless access to enhance creative expression.",
+         "I am crafting seamless, lifelike transformations by leveraging deep learning models that analyze and reconstruct facial features with remarkable precision.  \nMy focus is on delivering natural results that preserve identity while adapting to new expressions and contexts.  \nThe process unfolds intuitively, ensuring both authenticity and artistic flexibility in every output.",
+         "Estoy identificando las aplicaciones más destacadas para el intercambio de rostros en dispositivos Android, centrándome en funcionalidades clave como la integración de rostros de referencia en nuevas imágenes o videos.  \nCada sugerencia se presenta con un enlace directo y una descripción clara, respetando el límite de citar solo una fuente por oración.  \nMi objetivo es ofrecer una guía útil, fluida y sin tecnicismos, manteniendo el tono natural y profesional.",
+         "I am identifying and organizing top-tier tools that leverage artificial intelligence to enable seamless, realistic facial transformations across photos and videos.  \nEach application is evaluated for its ease of use, real-time capabilities, and precision in delivering natural-looking results.  \nI ensure the recommendations are accessible through trusted platforms, prioritizing user experience and reliability.",
+         "Estoy revisando el contenido proporcionado para determinar qué elementos requieren citación o deben omitirse por ser demasiado especulativos.  \nDecido prescindir de una frase que, aunque plausible, podría interpretarse como afirmación no verificada sin fuente directa.  \nMi enfoque se centra en mantener la claridad, la precisión y la responsabilidad al compartir información sobre herramientas de edición facial con inteligencia artificial.",
+         "I am carefully reviewing the text to eliminate redundant citations and ensure that only factual claims derived from the provided sources are included.  \nEach sentence without a citation is checked to confirm it contains no unsupported assertions drawn from the search results.  \nI am streamlining the language for clarity and elegance, maintaining accuracy while enhancing readability.",
+         "I am identifying and organizing top-rated tools that leverage artificial intelligence to deliver realistic facial transformations in photos and videos.  \nEach recommendation emphasizes ease of use, real-time capabilities, and high-quality results while prioritizing user accessibility.  \nThe selected platforms offer seamless integration with mobile devices, ensuring an intuitive and immersive experience across diverse creative scenarios.",
+         "Puedo generar imágenes originales a partir de descripciones textuales, pero para replicar fielmente un rostro de una foto y transferirlo a otra imagen, las aplicaciones especializadas en Android ofrecen la solución más precisa. Estas herramientas aprovechan algoritmos avanzados de reconocimiento facial y aprendizaje profundo para lograr resultados naturales y convincentes. Dispongo de enlaces directos a apps confiables que cumplen con estos requisitos de forma segura y eficiente."
+        ]
+       }
+      },
+      "role": "assistant",
+      "response_id": "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da",
+      "usage": {
+       "input_tokens": 3765,
+       "output_tokens": 3441,
+       "total_tokens": 7206,
+       "output_tokens_details": {
+        "reasoning_tokens": 3432
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1783190369
+     },
+     {
+      "content": "Si lo que buscas es una inteligencia artificial para tu teléfono donde puedas subir una foto de referencia y que esta copie e integre ese rostro en otras imágenes o videos, aquí tienes las mejores aplicaciones para Android con sus respectivos enlaces:\n\n**1. Reface: Face Swap AI Generator**\nEs una de las aplicaciones más avanzadas para generar contenido mediante intercambio de rostros y crear avatares de IA con tus selfies [[12]].\n* **Enlace Android:** https://play.google.com/store/apps/details?id=video.reface.app [[9]]\n\n**2. FaceSwapper Lite: AI Face Swap**\nEsta app está diseñada específicamente para Android para intercambiar tu rostro en diferentes escenas de fotos y videos usando inteligencia artificial [[4]].\n* **Enlace Android:** https://play.google.com/store/apps/details?id=com.facelite.replacer [[4]]\n\n**3. Amigo AI - Face Swap Camera**\nEs una aplicación gratuita y de uso ilimitado que permite hacer intercambios de rostros en tiempo real, muy útil para fotos y videollamadas [[28]].\n* **Enlace Android:** https://play.google.com/store/apps/details?id=io.amigoai.amigo [[28]]\n\n**4. Remaker AI Face Swap**\nEsta herramienta destaca por permitirte intercambiar rostros en fotos de una manera muy precisa y realista mediante tu imagen de referencia [[3]].\n* **Enlace Android:** https://remaker-ai-face-swap.softonic.com/android [[3]]\n\n**5. FaceSwapper (vía Uptodown)**\nOfrece una plataforma avanzada y fácil de usar para crear intercambios de rostros realistas con tecnología de inteligencia artificial [[19]].\n* **Enlace Android:** https://faceswapper.uptodown.com/android [[19]]\n\n**6. Editor de Caras / Rostros con IA**\nEsta aplicación utiliza tecnología de IA inteligente para transformar y clonar rostros en tus fotos de forma definitiva [[20]].\n* **Enlace Android:** https://play.google.com/store/apps/details?id=com.officelens.faceswap.facechanger.editor [[20]]\n\n*Nota: Como modelo de lenguaje e IA generativa, yo puedo crear imágenes originales desde cero basadas en descripciones de texto, pero para copiar un rostro exacto de una foto personal y clonarlo en otra imagen, estas aplicaciones móviles de \"Face Swap\" son la opción ideal para tu dispositivo Android.*",
+      "phase": "answer",
+      "status": "finished",
+      "extra": null,
+      "role": "assistant",
+      "response_id": "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da",
+      "usage": {
+       "input_tokens": 3765,
+       "output_tokens": 3952,
+       "total_tokens": 7717,
+       "output_tokens_details": {
+        "reasoning_tokens": 3432
+       },
+       "prompt_tokens_details": {
+        "cached_tokens": 0
+       }
+      },
+      "timestamp": 1783190378
+     }
+    ],
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "meta": {
+      "subChatType": "t2t"
+     },
+     "endTime": 1783190379.429058
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": null,
+    "timestamp": 1783190284
+   }
+  ]
+ },
+ "updated_at": 1783190419,
+ "created_at": 1783190285,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1783190282465
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "96042a8b-88bc-4024-b305-be27bd03854b",
+  "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da"
+ ],
+ "currentId": "6c8357c3-c892-4a7d-b3b0-03b68d4aa2da",
+ "chat_type": "t2t",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}

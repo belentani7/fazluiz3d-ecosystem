@@ -1,0 +1,490 @@
+{
+ "id": "8e7d665c-43e4-464e-8d08-32e8e5bddc49",
+ "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+ "title": "Video Cumpleaños con Champagne y Vela",
+ "chat": {
+  "history": {
+   "messages": {
+    "4ddebfb8-b581-4427-b431-d2b2e58a6939": {
+     "id": "4ddebfb8-b581-4427-b431-d2b2e58a6939",
+     "role": "user",
+     "content": "video cumpleaños. abre champagne y sopla vela pastel. 9:16",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "i2v",
+       "size": "16:9"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": null,
+     "turn_id": null,
+     "childrenIds": [
+      "880c666b-0fd4-4cb2-87b1-aa31460e7704"
+     ],
+     "files": [
+      {
+       "id": "fe5ef466-adb6-4cf4-bbc0-1e4bfb6e778b",
+       "name": "barcelona_champagne_selfie.jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 1483897,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/fe5ef466-adb6-4cf4-bbc0-1e4bfb6e778b_barcelona_champagne_selfie.jpg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJmZTVlZjQ2Ni1hZGI2LTRjZjQtYmJjMC0xZTRiZmI2ZTc3OGIiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.uWyC-YtShC6GkIDLFXTMZcHdrj7-JIeR54FknKq3EEE",
+       "file": {
+        "created_at": 1785396170225,
+        "data": {},
+        "filename": "barcelona_champagne_selfie.jpg",
+        "hash": null,
+        "id": "fe5ef466-adb6-4cf4-bbc0-1e4bfb6e778b",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "barcelona_champagne_selfie.jpg",
+         "size": 1483897,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1785396170225,
+        "lastModified": 1785395923929,
+        "name": "barcelona_champagne_selfie.jpg",
+        "webkitRelativePath": "",
+        "size": 1483897,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "642397bd-c5f9-432b-b55e-7bba6c6e618e",
+       "showType": "image",
+       "uploadTaskId": "198aa013-1e37-468c-9891-a7705d6f5761"
+      }
+     ],
+     "timestamp": 1785396200
+    },
+    "880c666b-0fd4-4cb2-87b1-aa31460e7704": {
+     "role": "assistant",
+     "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/880c666b-0fd4-4cb2-87b1-aa31460e7704/a73a99e4-ba3e-459a-9bf1-a8bd88186bfa.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJhNzNhOTllNC1iYTNlLTQ1OWEtOWJmMS1hOGJkODgxODZiZmEiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.WMlDJ37XSYFHQDG_cjKNrPu75uZmlbv2cQ5ZKlJdDGE",
+     "reasoning_content": null,
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "880c666b-0fd4-4cb2-87b1-aa31460e7704",
+     "parentId": "4ddebfb8-b581-4427-b431-d2b2e58a6939",
+     "childrenIds": [
+      "c8715c1f-91c8-47b7-b380-2486daa07f7b"
+     ],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": null,
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "wanx": {
+       "task_id": "a73a99e4-ba3e-459a-9bf1-a8bd88186bfa"
+      },
+      "endTime": 1785396201.8981633
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": {
+      "size": "16:9"
+     },
+     "timestamp": 1785396200
+    },
+    "c8715c1f-91c8-47b7-b380-2486daa07f7b": {
+     "id": "c8715c1f-91c8-47b7-b380-2486daa07f7b",
+     "role": "user",
+     "content": "video cumpleaños. abre champagne y sopla vela pastel 9:16",
+     "models": [
+      "qwen3.7-plus"
+     ],
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "edited": false,
+     "error": null,
+     "extra": {
+      "meta": {
+       "subChatType": "i2v",
+       "size": "16:9"
+      }
+     },
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "parentId": "880c666b-0fd4-4cb2-87b1-aa31460e7704",
+     "turn_id": null,
+     "childrenIds": [
+      "bd561814-9f44-4b37-98fb-08f2ff30740c"
+     ],
+     "files": [
+      {
+       "id": "aa33ccde-0946-4821-ad5e-578302d896a7",
+       "name": "birthday_celebration_barcelona.jpg",
+       "file_type": "image/jpeg",
+       "type": "image",
+       "file_class": "vision",
+       "size": 1647458,
+       "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/aa33ccde-0946-4821-ad5e-578302d896a7_birthday_celebration_barcelona.jpg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJhYTMzY2NkZS0wOTQ2LTQ4MjEtYWQ1ZS01NzgzMDJkODk2YTciLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.5adXxXCdRzVaodTjIFc_7SO6hRXy9-cwuOrrLI5Nd8Q",
+       "file": {
+        "created_at": 1785396399007,
+        "data": {},
+        "filename": "birthday_celebration_barcelona.jpg",
+        "hash": null,
+        "id": "aa33ccde-0946-4821-ad5e-578302d896a7",
+        "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+        "meta": {
+         "name": "birthday_celebration_barcelona.jpg",
+         "size": 1647458,
+         "content_type": "image/jpeg"
+        },
+        "update_at": 1785396399007,
+        "lastModified": 1785395909476,
+        "name": "birthday_celebration_barcelona.jpg",
+        "webkitRelativePath": "",
+        "size": 1647458,
+        "type": "image/jpeg"
+       },
+       "collection_name": "",
+       "progress": 0,
+       "status": "uploaded",
+       "greenNet": "success",
+       "error": "",
+       "itemId": "5f5e42a2-8d99-436a-b31c-c9fa24ecbc97",
+       "showType": "image",
+       "uploadTaskId": "e6d5de62-80b8-4930-bfe7-eb36f7845302"
+      }
+     ],
+     "timestamp": 1785396420
+    },
+    "bd561814-9f44-4b37-98fb-08f2ff30740c": {
+     "role": "assistant",
+     "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/bd561814-9f44-4b37-98fb-08f2ff30740c/0f5f1625-86c5-441a-be37-4a45118f9aeb.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIwZjVmMTYyNS04NmM1LTQ0MWEtYmUzNy00YTQ1MTE4ZjlhZWIiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.IPSrTjEZfmuT0oSJPIeU3L7vJng1EGAGVUlTZ0Mz1AU",
+     "reasoning_content": null,
+     "chat_type": "i2v",
+     "sub_chat_type": "i2v",
+     "model": "qwen3.7-plus",
+     "modelName": "Qwen3.7-Plus",
+     "modelIdx": 0,
+     "id": "bd561814-9f44-4b37-98fb-08f2ff30740c",
+     "parentId": "c8715c1f-91c8-47b7-b380-2486daa07f7b",
+     "childrenIds": [],
+     "feature_config": {
+      "thinking_enabled": false,
+      "output_schema": "phase",
+      "instructions": null,
+      "research_mode": "normal",
+      "auto_thinking": false,
+      "thinking_mode": "Fast",
+      "auto_search": true
+     },
+     "content_list": null,
+     "is_stop": false,
+     "edited": false,
+     "error": null,
+     "meta": {},
+     "extra": {
+      "wanx": {
+       "task_id": "0f5f1625-86c5-441a-be37-4a45118f9aeb"
+      },
+      "endTime": 1785396420.8634229
+     },
+     "feedbackId": null,
+     "turn_id": null,
+     "annotation": null,
+     "done": true,
+     "info": {
+      "size": "16:9"
+     },
+     "timestamp": 1785396420
+    }
+   },
+   "currentId": "bd561814-9f44-4b37-98fb-08f2ff30740c",
+   "currentResponseIds": [
+    "bd561814-9f44-4b37-98fb-08f2ff30740c"
+   ],
+   "pagination": null
+  },
+  "models": [
+   "qwen3.7-plus"
+  ],
+  "messages": [
+   {
+    "id": "4ddebfb8-b581-4427-b431-d2b2e58a6939",
+    "role": "user",
+    "content": "video cumpleaños. abre champagne y sopla vela pastel. 9:16",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "i2v",
+      "size": "16:9"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "parentId": null,
+    "turn_id": null,
+    "childrenIds": [
+     "880c666b-0fd4-4cb2-87b1-aa31460e7704"
+    ],
+    "files": [
+     {
+      "id": "fe5ef466-adb6-4cf4-bbc0-1e4bfb6e778b",
+      "name": "barcelona_champagne_selfie.jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 1483897,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/fe5ef466-adb6-4cf4-bbc0-1e4bfb6e778b_barcelona_champagne_selfie.jpg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJmZTVlZjQ2Ni1hZGI2LTRjZjQtYmJjMC0xZTRiZmI2ZTc3OGIiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.uWyC-YtShC6GkIDLFXTMZcHdrj7-JIeR54FknKq3EEE",
+      "file": {
+       "created_at": 1785396170225,
+       "data": {},
+       "filename": "barcelona_champagne_selfie.jpg",
+       "hash": null,
+       "id": "fe5ef466-adb6-4cf4-bbc0-1e4bfb6e778b",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "barcelona_champagne_selfie.jpg",
+        "size": 1483897,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1785396170225,
+       "lastModified": 1785395923929,
+       "name": "barcelona_champagne_selfie.jpg",
+       "webkitRelativePath": "",
+       "size": 1483897,
+       "type": "image/jpeg"
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "642397bd-c5f9-432b-b55e-7bba6c6e618e",
+      "showType": "image",
+      "uploadTaskId": "198aa013-1e37-468c-9891-a7705d6f5761"
+     }
+    ],
+    "timestamp": 1785396200
+   },
+   {
+    "role": "assistant",
+    "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/880c666b-0fd4-4cb2-87b1-aa31460e7704/a73a99e4-ba3e-459a-9bf1-a8bd88186bfa.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJhNzNhOTllNC1iYTNlLTQ1OWEtOWJmMS1hOGJkODgxODZiZmEiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.WMlDJ37XSYFHQDG_cjKNrPu75uZmlbv2cQ5ZKlJdDGE",
+    "reasoning_content": null,
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "880c666b-0fd4-4cb2-87b1-aa31460e7704",
+    "parentId": "4ddebfb8-b581-4427-b431-d2b2e58a6939",
+    "childrenIds": [
+     "c8715c1f-91c8-47b7-b380-2486daa07f7b"
+    ],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "content_list": null,
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "wanx": {
+      "task_id": "a73a99e4-ba3e-459a-9bf1-a8bd88186bfa"
+     },
+     "endTime": 1785396201.8981633
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": {
+     "size": "16:9"
+    },
+    "timestamp": 1785396200
+   },
+   {
+    "id": "c8715c1f-91c8-47b7-b380-2486daa07f7b",
+    "role": "user",
+    "content": "video cumpleaños. abre champagne y sopla vela pastel 9:16",
+    "models": [
+     "qwen3.7-plus"
+    ],
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "edited": false,
+    "error": null,
+    "extra": {
+     "meta": {
+      "subChatType": "i2v",
+      "size": "16:9"
+     }
+    },
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "parentId": "880c666b-0fd4-4cb2-87b1-aa31460e7704",
+    "turn_id": null,
+    "childrenIds": [
+     "bd561814-9f44-4b37-98fb-08f2ff30740c"
+    ],
+    "files": [
+     {
+      "id": "aa33ccde-0946-4821-ad5e-578302d896a7",
+      "name": "birthday_celebration_barcelona.jpg",
+      "file_type": "image/jpeg",
+      "type": "image",
+      "file_class": "vision",
+      "size": 1647458,
+      "url": "https://cdn.qwenlm.ai/c2739080-ce39-4d15-85a6-bd1d676c2b74/aa33ccde-0946-4821-ad5e-578302d896a7_birthday_celebration_barcelona.jpg?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiJhYTMzY2NkZS0wOTQ2LTQ4MjEtYWQ1ZS01NzgzMDJkODk2YTciLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.5adXxXCdRzVaodTjIFc_7SO6hRXy9-cwuOrrLI5Nd8Q",
+      "file": {
+       "created_at": 1785396399007,
+       "data": {},
+       "filename": "birthday_celebration_barcelona.jpg",
+       "hash": null,
+       "id": "aa33ccde-0946-4821-ad5e-578302d896a7",
+       "user_id": "c2739080-ce39-4d15-85a6-bd1d676c2b74",
+       "meta": {
+        "name": "birthday_celebration_barcelona.jpg",
+        "size": 1647458,
+        "content_type": "image/jpeg"
+       },
+       "update_at": 1785396399007,
+       "lastModified": 1785395909476,
+       "name": "birthday_celebration_barcelona.jpg",
+       "webkitRelativePath": "",
+       "size": 1647458,
+       "type": "image/jpeg"
+      },
+      "collection_name": "",
+      "progress": 0,
+      "status": "uploaded",
+      "greenNet": "success",
+      "error": "",
+      "itemId": "5f5e42a2-8d99-436a-b31c-c9fa24ecbc97",
+      "showType": "image",
+      "uploadTaskId": "e6d5de62-80b8-4930-bfe7-eb36f7845302"
+     }
+    ],
+    "timestamp": 1785396420
+   },
+   {
+    "role": "assistant",
+    "content": "https://cdn.qwenlm.ai/output/c2739080-ce39-4d15-85a6-bd1d676c2b74/i2v/bd561814-9f44-4b37-98fb-08f2ff30740c/0f5f1625-86c5-441a-be37-4a45118f9aeb.mp4?key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyZXNvdXJjZV91c2VyX2lkIjoiYzI3MzkwODAtY2UzOS00ZDE1LTg1YTYtYmQxZDY3NmMyYjc0IiwicmVzb3VyY2VfaWQiOiIwZjVmMTYyNS04NmM1LTQ0MWEtYmUzNy00YTQ1MTE4ZjlhZWIiLCJyZXNvdXJjZV9jaGF0X2lkIjpudWxsfQ.IPSrTjEZfmuT0oSJPIeU3L7vJng1EGAGVUlTZ0Mz1AU",
+    "reasoning_content": null,
+    "chat_type": "i2v",
+    "sub_chat_type": "i2v",
+    "model": "qwen3.7-plus",
+    "modelName": "Qwen3.7-Plus",
+    "modelIdx": 0,
+    "id": "bd561814-9f44-4b37-98fb-08f2ff30740c",
+    "parentId": "c8715c1f-91c8-47b7-b380-2486daa07f7b",
+    "childrenIds": [],
+    "feature_config": {
+     "thinking_enabled": false,
+     "output_schema": "phase",
+     "instructions": null,
+     "research_mode": "normal",
+     "auto_thinking": false,
+     "thinking_mode": "Fast",
+     "auto_search": true
+    },
+    "content_list": null,
+    "is_stop": false,
+    "edited": false,
+    "error": null,
+    "meta": {},
+    "extra": {
+     "wanx": {
+      "task_id": "0f5f1625-86c5-441a-be37-4a45118f9aeb"
+     },
+     "endTime": 1785396420.8634229
+    },
+    "feedbackId": null,
+    "turn_id": null,
+    "annotation": null,
+    "done": true,
+    "info": {
+     "size": "16:9"
+    },
+    "timestamp": 1785396420
+   }
+  ]
+ },
+ "updated_at": 1785396420,
+ "created_at": 1785396201,
+ "share_id": null,
+ "archived": false,
+ "pinned": false,
+ "meta": {
+  "timestamp": 1785396199765
+ },
+ "folder_id": null,
+ "currentResponseIds": [
+  "bd561814-9f44-4b37-98fb-08f2ff30740c"
+ ],
+ "currentId": "bd561814-9f44-4b37-98fb-08f2ff30740c",
+ "chat_type": "i2v",
+ "models": null,
+ "project_id": null,
+ "data_source": null
+}
