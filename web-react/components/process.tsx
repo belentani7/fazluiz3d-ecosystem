@@ -30,7 +30,7 @@ export function Process() {
           },
         )
       }
-      steps.forEach((s, i) => {
+      steps.forEach((s) => {
         const dot = s.querySelector('[data-dot]')
         gsap.fromTo(
           s,
