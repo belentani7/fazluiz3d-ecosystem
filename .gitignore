@@ -34,6 +34,10 @@ venv/
 # Misc
 tmp/
 *.tmp
+# curacion 2026-11-01
+legacy/
+_stems/
+*.pyc
 
 # Local customer CRM records (never commit PII)
 /backend/data/
