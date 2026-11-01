@@ -5,6 +5,7 @@ import { useLang } from './lang-provider'
 import { useReveal } from '@/lib/use-gsap'
 import { SectionHeading } from './section-heading'
 import { TurnstileChallenge } from './turnstile-challenge'
+import { isConfirmedContactDelivery } from '@/lib/confirm-contact-delivery.mjs'
 import { CheckCircle2, MapPin } from 'lucide-react'
 
 export function Contact() {
@@ -42,7 +43,7 @@ export function Contact() {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ ...fd, website: '', turnstileToken }),
       })
-      if (!response.ok) {
+      if (!(await isConfirmedContactDelivery(response))) {
         setError(t.contact.deliveryErr)
         return
       }

@@ -12,7 +12,7 @@ test('public contact confirms only after an accepted email delivery', () => {
   assert.match(source, /'https:\/\/api\.resend\.com\/emails'/)
   assert.match(source, /text: body/)
   assert.match(form, /fetch\('\/api\/contact'/)
-  assert.match(form, /if \(!response\.ok\)/)
+  assert.match(form, /isConfirmedContactDelivery\(response\)/)
   assert.match(form, /setDone\(true\)/)
   assert.doesNotMatch(form, /setTimeout\(r, 900\)/)
   assert.doesNotMatch(form, /900 000 000/)
