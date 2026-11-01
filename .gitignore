@@ -34,3 +34,7 @@ venv/
 # Misc
 tmp/
 *.tmp
+# curacion 2026-11-01
+legacy/
+_stems/
+*.pyc
