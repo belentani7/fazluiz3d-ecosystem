@@ -38,3 +38,6 @@ tmp/
 legacy/
 _stems/
 *.pyc
+
+# Local customer CRM records (never commit PII)
+/backend/data/
