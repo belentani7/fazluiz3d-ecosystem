@@ -1,6 +1,7 @@
 import { NextResponse } from 'next/server'
 import { readBoundedJson } from '@/lib/read-bounded-json.mjs'
 import { verifyTurnstile } from '@/lib/verify-turnstile.mjs'
+import { isAcceptedResendResponse } from '@/lib/confirm-resend-delivery.mjs'
 
 export const runtime = 'nodejs'
 export const dynamic = 'force-dynamic'
@@ -75,7 +76,7 @@ export async function POST(req: Request) {
       cache: 'no-store',
       signal: AbortSignal.timeout(12000),
     })
-    if (!response.ok) return json('No fue posible enviar la solicitud. Inténtalo de nuevo.', 502)
+    if (!(await isAcceptedResendResponse(response))) return json('No fue posible enviar la solicitud. Inténtalo de nuevo.', 502)
     return NextResponse.json({ success: true }, { status: 201, headers: { 'Cache-Control': 'no-store' } })
   } catch {
     return json('No hay conexión con el servicio de contacto.', 502)
