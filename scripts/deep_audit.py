@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 import os
 import json
+from pathlib import Path
 
-PROJECT_DIR = "/home/ubuntu/FAZLUIZ3D_FINAL"
+PROJECT_DIR = str(Path(__file__).resolve().parents[1])
 
 def run_deep_audit():
     print("[REAUDITORÍA EXHAUSTIVA] Analizando componentes reales del proyecto...")
@@ -33,8 +34,8 @@ def run_deep_audit():
     potential_score = 10 # Arquitectura estática + local-first verificada
     
     # Comprobación 6: Identidad (Mensajes personales intactos, autor Belentani)
-    dedication_path = os.path.join(PROJECT_DIR, "docs/personal/DEDICATORIA-para-Thiago.txt")
-    identity_ok = os.path.exists(dedication_path)
+    identity_path = os.path.join(PROJECT_DIR, "docs/THIAGO_BRAND.md")
+    identity_ok = os.path.exists(identity_path)
     identity_score = 10 if identity_ok else 0
     
     scores = {

@@ -49,7 +49,7 @@ No es necesario para publicar la página principal.
 - `herramientas/tiberion.html`: herramienta con Tailwind y Lucide locales; sus APIs externas son opt-in.
 - `backend/`: adaptador Node/Next opcional con persistencia JSON local.
 - `docs/`, `templates/`, `legal/` y `extras/`: documentación operativa y plantillas.
-- `docs/personal/DEDICATORIA-para-Thiago.txt`: copia conservada sin modificar.
+- `docs/THIAGO_BRAND.md`: documento de identidad y posicionamiento conservado en el repositorio.
 
 ## Firma
 

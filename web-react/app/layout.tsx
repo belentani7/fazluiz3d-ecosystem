@@ -1,25 +1,35 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Syne, Inter, JetBrains_Mono } from 'next/font/google'
+import localFont from 'next/font/local'
 import './globals.css'
 
-const syne = Syne({
-  subsets: ['latin'],
-  weight: ['400', '600', '700', '800'],
+const syne = localFont({
+  src: [
+    { path: '../fonts/8vIS7w4qzmVxsWxjBZRjr0FKM_0KuT6k.ttf', weight: '400', style: 'normal' },
+    { path: '../fonts/8vIS7w4qzmVxsWxjBZRjr0FKM_3mvj6k.ttf', weight: '600', style: 'normal' },
+    { path: '../fonts/8vIS7w4qzmVxsWxjBZRjr0FKM_3fvj6k.ttf', weight: '700', style: 'normal' },
+    { path: '../fonts/8vIS7w4qzmVxsWxjBZRjr0FKM_24vj6k.ttf', weight: '800', style: 'normal' },
+  ],
   variable: '--font-syne',
   display: 'swap',
 })
 
-const inter = Inter({
-  subsets: ['latin'],
-  weight: ['300', '400', '500', '600'],
+const inter = localFont({
+  src: [
+    { path: '../fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf', weight: '300', style: 'normal' },
+    { path: '../fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf', weight: '400', style: 'normal' },
+    { path: '../fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf', weight: '500', style: 'normal' },
+    { path: '../fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf', weight: '600', style: 'normal' },
+  ],
   variable: '--font-inter',
   display: 'swap',
 })
 
-const jetbrains = JetBrains_Mono({
-  subsets: ['latin'],
-  weight: ['300', '400'],
+const jetbrains = localFont({
+  src: [
+    { path: '../fonts/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8lqxjPQ.ttf', weight: '300', style: 'normal' },
+    { path: '../fonts/tDbY2o-flEEny0FZhsfKu5WU4zr3E_BX0PnT8RD8yKxjPQ.ttf', weight: '400', style: 'normal' },
+  ],
   variable: '--font-mono',
   display: 'swap',
 })

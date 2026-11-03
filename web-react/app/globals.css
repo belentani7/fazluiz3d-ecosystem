@@ -109,11 +109,23 @@
     box-shadow: 0 24px 64px rgba(201, 169, 110, 0.06);
   }
 
-  .text-gradient-gold {
-    background: linear-gradient(135deg, #f5f1e8 0%, #c9a96e 62%, #8a734e 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+  .text-gold-accent {
+    color: #c9a96e;
+  }
+
+  .scroll-hint {
+    animation: scroll-hint 2.4s ease-in-out infinite;
+  }
+
+  @keyframes scroll-hint {
+    0%, 100% {
+      opacity: 0.55;
+      transform: translateY(0);
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(4px);
+    }
   }
 
   .grain::after {

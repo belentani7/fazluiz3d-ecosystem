@@ -10,6 +10,8 @@ test("protocolos de presencia", () => {
   }
 });
 
-test("package.json parseable", () => {
-  JSON.parse(fs.readFileSync(path.join(ROOT, "package.json"), "utf8"));
+test("paquetes Node declarados parseables", () => {
+  for (const relativePath of ["web-react/package.json", "backend/package.json"]) {
+    JSON.parse(fs.readFileSync(path.join(ROOT, relativePath), "utf8"));
+  }
 });
