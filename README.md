@@ -77,3 +77,16 @@ Lee [`CONTRIBUTING.md`](./CONTRIBUTING.md) y el
 verde.
 
 <sub>ÁUREA 3D · by <a href="https://github.com/belentani7">@belentani7</a></sub>
+---
+
+## Ficha del proyecto
+
+| Campo | Valor |
+|---|---|
+| Autor | Belentani / NOIACORE |
+| Época de desarrollo | 2026 |
+| Contacto | [belentani7studio@proton.me](mailto:belentani7studio@proton.me) |
+| Código | https://github.com/belentani7/fazluiz3d-ecosystem |
+| Demo desplegada | https://belentani7.github.io/fazluiz3d-ecosystem/ |
+
+Quality baseline: CI + Dependabot + CodeQL + reglas de agentes por [premium-factory](https://github.com/belentani7/premium-factory-api).
