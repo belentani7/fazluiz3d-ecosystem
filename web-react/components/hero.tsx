@@ -96,7 +96,7 @@ export function Hero() {
               <span key={i} className="mr-[0.25em] inline-block overflow-hidden py-1 align-bottom">
                 <span
                   data-hero-word
-                  className={`inline-block ${i >= accentStart ? 'text-gradient-gold' : ''}`}
+                  className={`inline-block ${i >= accentStart ? 'text-gold-accent' : ''}`}
                 >
                   {w}
                 </span>
@@ -133,7 +133,7 @@ export function Hero() {
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 z-10 flex -translate-x-1/2 items-center gap-2 text-[color:var(--color-faint)]">
-        <MousePointer2 className="h-4 w-4 animate-bounce" />
+        <MousePointer2 className="scroll-hint h-4 w-4" />
         <span className="font-mono text-xs uppercase tracking-widest">{t.hero.scroll}</span>
       </div>
     </section>

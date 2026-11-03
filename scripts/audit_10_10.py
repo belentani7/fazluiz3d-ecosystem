@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 import os
 import json
+from pathlib import Path
 
-PROJECT_DIR = "/home/ubuntu/FAZLUIZ3D_FINAL"
+PROJECT_DIR = str(Path(__file__).resolve().parents[1])
 
 def audit_all():
     print("[AUDITORÍA 10/10] Verificando rigor técnico...")
@@ -23,8 +24,7 @@ def audit_all():
     relevance_ok = True
     potential_ok = True
     
-    dedication = os.path.exists(os.path.join(PROJECT_DIR, "docs/personal/DEDICATORIA-para-Thiago.txt"))
-    identity_ok = dedication
+    identity_ok = os.path.exists(os.path.join(PROJECT_DIR, "docs/THIAGO_BRAND.md"))
     
     scores = {
         "backend": 10 if backend_ok else 0,

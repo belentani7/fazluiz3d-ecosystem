@@ -47,7 +47,7 @@ export function Stats() {
               <div className="flex items-baseline justify-center gap-0.5 md:justify-start">
                 <span
                   data-count={s.v}
-                  className="font-display text-[clamp(2.4rem,5vw,3.6rem)] font-extrabold leading-none text-gradient-gold"
+                  className="font-display text-[clamp(2.4rem,5vw,3.6rem)] font-extrabold leading-none text-gold-accent"
                 >
                   0
                 </span>

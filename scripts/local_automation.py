@@ -2,9 +2,10 @@
 import os
 import json
 import hashlib
-from datetime import datetime
+from datetime import datetime, timezone
+from pathlib import Path
 
-PROJECT_DIR = "/home/ubuntu/FAZLUIZ3D_FINAL"
+PROJECT_DIR = str(Path(__file__).resolve().parents[1])
 AUDIT_DIR = os.path.join(PROJECT_DIR, "audit")
 
 def compute_file_hash(filepath):
@@ -28,7 +29,7 @@ def run_local_automation():
             
     # 2. Generar manifiesto de integridad
     manifest = {
-        "timestamp": datetime.utcnow().isoformat(),
+        "timestamp": datetime.now(timezone.utc).isoformat(),
         "author": "Belentani",
         "status": "OK" if not missing else "MISSING_FILES",
         "missing_files": missing,

@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 import os
 import json
+from pathlib import Path
 
-PROJECT_DIR = "/home/ubuntu/FAZLUIZ3D_FINAL"
+PROJECT_DIR = str(Path(__file__).resolve().parents[1])
 
 def audit_criterias():
     print("[AUDITORÍA Ω-MAX] Iniciando evaluación rigurosa (Backend, Frontend, Utilidad, Relevancia, Potencial, Identidad)...")
@@ -29,7 +30,7 @@ def audit_criterias():
     
     # 6. Identidad (10/10 criteria: dedicatoria personal intacta, autoría Belentani, concepto Áurea 3D / Fazluiz3D)
     identity_score = 10
-    identity_notes = "Mensajes personales y dedicatoria para Thiago intactos, atribución técnica a Belentani, tono de alta relojería e industrial."
+    identity_notes = "THIAGO_BRAND.md identity document preserved; technical attribution to Belentani."
     
     scores = {
         "backend": backend_score,

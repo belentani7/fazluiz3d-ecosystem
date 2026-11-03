@@ -1,8 +1,9 @@
 #!/usr/init/env python3
 import os
 import json
+from pathlib import Path
 
-PROJECT_DIR = "/home/ubuntu/FAZLUIZ3D_FINAL"
+PROJECT_DIR = str(Path(__file__).resolve().parents[1])
 
 def audit():
     checks = {}
@@ -30,8 +31,8 @@ def audit():
     checks["potential"] = 10
     
     # 6. Identity (Personal messages intact, author Belentani)
-    dedication = os.path.join(PROJECT_DIR, "docs/personal/DEDICATORIA-para-Thiago.txt")
-    checks["identity"] = 10 if os.path.exists(dedication) else 0
+    identity_document = os.path.join(PROJECT_DIR, "docs/THIAGO_BRAND.md")
+    checks["identity"] = 10 if os.path.exists(identity_document) else 0
     
     all_ten = all(v == 10 for v in checks.values())
     

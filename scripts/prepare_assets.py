@@ -2,9 +2,10 @@ from pathlib import Path
 from PIL import Image, ImageOps
 import shutil
 import json
+import os
 
-SOURCE = Path('/home/ubuntu/FOTOS_THIAGO')
-PROJECT = Path('/home/ubuntu/FAZLUIZ3D_FINAL')
+PROJECT = Path(__file__).resolve().parents[1]
+SOURCE = Path(os.environ.get('FAZLUIZ3D_ASSET_SOURCE', PROJECT / 'assets/img/originals'))
 ORIGINALS = PROJECT / 'assets/img/originals'
 OPTIMIZED = PROJECT / 'assets/img/optimized'
 ORIGINALS.mkdir(parents=True, exist_ok=True)
@@ -38,7 +39,9 @@ for source_name, stem in mapping.items():
     src = SOURCE / source_name
     if not src.exists():
         raise FileNotFoundError(src)
-    shutil.copy2(src, ORIGINALS / src.name)
+    destination = ORIGINALS / src.name
+    if src.resolve() != destination.resolve():
+        shutil.copy2(src, destination)
     with Image.open(src) as raw:
         image = ImageOps.exif_transpose(raw).convert('RGB')
         image.thumbnail((1800, 1800), Image.Resampling.LANCZOS)

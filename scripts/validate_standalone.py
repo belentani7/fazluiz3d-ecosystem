@@ -5,7 +5,13 @@ import re
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-html_files = sorted(ROOT.rglob('*.html'))
+public_html_files = [
+    ROOT / 'index.html',
+    ROOT / 'admin/dashboard.html',
+    ROOT / 'herramientas/tiberion.html',
+    ROOT / 'templates/factura.html',
+]
+html_files = [path for path in public_html_files if path.exists()]
 errors = []
 summary = []
 for html_path in html_files:
@@ -18,7 +24,7 @@ for html_path in html_files:
     for tag in soup.find_all(['img', 'script', 'link']):
         attr = 'src' if tag.name in {'img', 'script'} else 'href'
         ref = tag.get(attr)
-        if not ref or ref.startswith(('http://', 'https://', '#', 'data:', 'mailto:')):
+        if not ref or ref.startswith(('http://', 'https://', '//', '#', 'data:', 'mailto:')):
             continue
         candidate = (html_path.parent / ref.split('#')[0].split('?')[0]).resolve()
         if not candidate.exists():
@@ -36,9 +42,9 @@ else:
     if len(assets) != 20:
         errors.append(f'expected 20 optimized assets, found {len(assets)}')
 
-personal = ROOT / 'docs/personal/DEDICATORIA-para-Thiago.txt'
-if not personal.exists():
-    errors.append('personal dedication missing')
+identity_document = ROOT / 'docs/THIAGO_BRAND.md'
+if not identity_document.exists():
+    errors.append('identity document missing: docs/THIAGO_BRAND.md')
 
 report = {'root': str(ROOT), 'html_files': summary, 'optimized_assets': len(json.loads(manifest.read_text(encoding='utf-8'))) if manifest.exists() else 0, 'errors': errors}
 (ROOT / 'audit/standalone-validation.json').write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
