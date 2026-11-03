@@ -4,15 +4,15 @@ Generado 2026-11-03 por el pase de reglas del ecosistema (catálogo `_meta/regla
 Todo lo afirmado aquí sale de datos reales: base de consolidación, gate oficial y git.
 
 - **Categoría:** arte-musica · **Ruta:** `C:\Users\USER\belentani-ecosystem\arte-musica\fazluiz3d-ecosystem`
-- **Remoto:** https://github.com/belentani7/fazluiz3d-ecosystem.git · **Rama:** master · **HEAD:** 454ec34 (docs(auditoria): estado real del repo, comandos para arreglar/elevar y potencial)
-- **Lenguajes:** .md:32,.png:31,.webp:20,.tsx:19,.js:13,.json:12 · **Commits (git real):** 12 · **Tamaño worktree:** 880.4 MB
+- **Remoto:** https://github.com/belentani7/fazluiz3d-ecosystem.git · **Rama:** master · **HEAD:** 7a942e1 (docs(auditoria): gobernanza GH-01..10 verificada (GH-09/GH-10 OK) + estado y pla)
+- **Lenguajes:** .md:32,.png:31,.webp:20,.tsx:19,.js:13,.json:12 · **Commits (git real):** 13 · **Tamaño worktree:** 880.4 MB
 - **Visibilidad GitHub:** public · **Homepage:** https://fazluiz3d-ecosystem.vercel.app · **HTTP:** HTTP_200
 - **GitHub Pages:** no activo
 
 ## 1. Situación actual
 
 - **Consolidación:** familia `proyecto-fazluiz3decosystem` · acción survivor (estable).
-- **Git:** 3 ficheros sin commitear · 6 commits sin push · 4 commits del pase de reglas (desde 2026-11-02).
+- **Git:** 3 ficheros sin commitear · 7 commits sin push · 5 commits del pase de reglas (desde 2026-11-02).
 - **Reglas web (gate oficial):** 4 HTML · **0 hallazgos** · 0 títulos duplicados.
 - **Gobernanza GitHub (protocolo MS):** 11/11 reglas aplicadas · completo.
 - **Secretos (triaje):** sin hallazgos.
