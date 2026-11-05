@@ -1,4 +1,5 @@
 from pathlib import Path
+
 from bs4 import BeautifulSoup
 
 root = Path(__file__).resolve().parents[1]

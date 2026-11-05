@@ -1,8 +1,9 @@
-from pathlib import Path
-from PIL import Image, ImageOps
-import shutil
 import json
 import os
+import shutil
+from pathlib import Path
+
+from PIL import Image, ImageOps
 
 PROJECT = Path(__file__).resolve().parents[1]
 SOURCE = Path(os.environ.get('FAZLUIZ3D_ASSET_SOURCE', PROJECT / 'assets/img/originals'))

@@ -1,8 +1,9 @@
-from pathlib import Path
-from bs4 import BeautifulSoup
 import json
 import re
 import sys
+from pathlib import Path
+
+from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parents[1]
 public_html_files = [
@@ -29,7 +30,7 @@ for html_path in html_files:
         candidate = (html_path.parent / ref.split('#')[0].split('?')[0]).resolve()
         if not candidate.exists():
             errors.append(f'{html_path.relative_to(ROOT)} missing {attr}: {ref}')
-    external_runtime = re.findall(r'<(?:script|link)[^>]+(?:src|href)=["\']https?://', text, flags=re.I)
+    external_runtime = re.findall(r'<(?:script|link)[^>]+(?:src|href)=["\']https?://', text, flags=re.IGNORECASE)
     if external_runtime:
         errors.append(f'{html_path.relative_to(ROOT)} has external runtime resources: {len(external_runtime)}')
     summary.append({'file': str(html_path.relative_to(ROOT)), 'images': len(soup.find_all('img')), 'scripts': len(soup.find_all('script'))})

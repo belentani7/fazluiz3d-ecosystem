@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-import os
-import json
 import hashlib
-from datetime import datetime, timezone
+import json
+import os
+from datetime import UTC, datetime
 from pathlib import Path
 
 PROJECT_DIR = str(Path(__file__).resolve().parents[1])
@@ -29,7 +29,7 @@ def run_local_automation():
             
     # 2. Generar manifiesto de integridad
     manifest = {
-        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "timestamp": datetime.now(UTC).isoformat(),
         "author": "Belentani",
         "status": "OK" if not missing else "MISSING_FILES",
         "missing_files": missing,

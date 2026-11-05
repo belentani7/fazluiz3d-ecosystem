@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """FAZLUIZ3D · Calculadora fiscal (España, 2026) — CLI
 Socio de cooperativa (facturación vía cooperativa) o autónomo RETA.
 Uso: python3 calc_impuestos.py            (interactivo)

@@ -1,4 +1,4 @@
-﻿# AGENTS.md - fazluiz3d-ecosystem
+# AGENTS.md - fazluiz3d-ecosystem
 
 ## Stack
 - package.json: False
