@@ -38,3 +38,7 @@ El paquete principal puede publicarse directamente en cualquier hosting estátic
 Revisión humana obligatoria antes de enviar comunicaciones. Toda comunicación comercial debe identificar al remitente e incluir una opción clara de baja. No se incluyen scraping automático ni bases de datos de contactos por defecto.
 
 **Código propio:** Belentani · 2026.
+
+
+## Producto
+Véase `plataforma/OFERTA.md`.
