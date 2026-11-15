@@ -1,13 +1,14 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
+  <meta name="superpowers" content="mcp-hub=belentani-hub,tools=24,groups=4"><meta name="omega-max" content="senior-agent-enabled">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>FAZLUIZ3D - Admin</title>
-<meta name="description" content="Página de servicio de admin.">
+<meta name="description" content="PÃ¡gina de servicio de admin.">
 <meta name="generator" content="repo-cursor-superpowers-v1">
 <meta property="og:title" content="FAZLUIZ3D - Admin">
-<meta property="og:description" content="Página de servicio de admin.">
+<meta property="og:description" content="PÃ¡gina de servicio de admin.">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b0a09'/%3E%3Ccircle cx='16' cy='16' r='7' fill='%238c6976'/%3E%3C/svg%3E">
 <style>
@@ -74,8 +75,8 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
 <body>
 <a class="skip" href="#contenido">Saltar al contenido</a>
 <header class="site"><div class="wrap" style="display:flex;justify-content:space-between;align-items:baseline;gap:18px;flex-wrap:wrap">
-<div class="brand">admin <span>· ecosistema Belentani · WebGL online</span></div>
-<nav class="site" aria-label="Navegación principal"><a href="index.html">Inicio</a><a href="docs.html">Documentación</a><a href="accesibilidad.html">Accesibilidad</a><a href="privacidad.html">Privacidad</a><a href="404.html">404</a></nav>
+<div class="brand">admin <span>Â· ecosistema Belentani Â· WebGL online</span></div>
+<nav class="site" aria-label="NavegaciÃ³n principal"><a href="index.html">Inicio</a><a href="docs.html">DocumentaciÃ³n</a><a href="accesibilidad.html">Accesibilidad</a><a href="privacidad.html">Privacidad</a><a href="404.html">404</a></nav>
 </div></header>
 <main id="contenido"><div class="wrap">
 <div class="sidebar">
@@ -83,7 +84,7 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
     <nav>
         <a class="nav active" data-sec="dash">Dashboard</a>
         <a class="nav" data-sec="leads">Leads</a>
-        <a class="nav" data-sec="orders">Órdenes</a>
+        <a class="nav" data-sec="orders">Ã“rdenes</a>
     </nav>
 </div>
 
@@ -96,16 +97,16 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
             <div class="stats">
                 <div class="stat-card"><div class="stat-val" id="s1">0</div>Leads</div>
                 <div class="stat-card"><div class="stat-val" id="s2">0</div>Nuevos</div>
-                <div class="stat-card"><div class="stat-val" id="s3">0</div>Órdenes</div>
+                <div class="stat-card"><div class="stat-val" id="s3">0</div>Ã“rdenes</div>
                 <div class="stat-card"><div class="stat-val" id="s4">0</div>Pendientes</div>
             </div>
             <table><thead><tr><th>Nombre</th><th>Email</th><th>Estado</th></tr></thead><tbody id="t1"></tbody></table>
         </div>
         <div id="leads" class="section">
-            <table><thead><tr><th>Nombre</th><th>Email</th><th>Teléfono</th><th>Mensaje</th></tr></thead><tbody id="t2"></tbody></table>
+            <table><thead><tr><th>Nombre</th><th>Email</th><th>TelÃ©fono</th><th>Mensaje</th></tr></thead><tbody id="t2"></tbody></table>
         </div>
         <div id="orders" class="section">
-            <table><thead><tr><th>ID</th><th>Cliente</th><th>Descripción</th><th>Estado</th></tr></thead><tbody id="t3"></tbody></table>
+            <table><thead><tr><th>ID</th><th>Cliente</th><th>DescripciÃ³n</th><th>Estado</th></tr></thead><tbody id="t3"></tbody></table>
         </div>
     </div>
 </div>
@@ -120,7 +121,7 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
     e.currentTarget.classList.add('active');
     document.getElementById(e.currentTarget.dataset.sec).classList.add('active');
   })});
-  function cell(value){var td=document.createElement('td');td.textContent=value || '—';return td}
+  function cell(value){var td=document.createElement('td');td.textContent=value || 'â€”';return td}
   function rowLead(lead){var tr=document.createElement('tr');tr.appendChild(cell(lead.name));tr.appendChild(cell(lead.email));tr.appendChild(cell(lead.phone));tr.appendChild(cell(lead.message));return tr}
   function load(){
     return Promise.all([window.FazluizDB.list('leads'),window.FazluizDB.list('quotes')]).then(function(values){
@@ -136,7 +137,7 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
         t2.appendChild(rowLead(lead));
       });
       var t3=document.getElementById('t3');t3.replaceChildren();
-      quotes.slice().reverse().forEach(function(quote){var tr=document.createElement('tr');tr.appendChild(cell(quote.id));tr.appendChild(cell(quote.material));tr.appendChild(cell(quote.estimate ? quote.estimate+' EUR' : '—'));tr.appendChild(cell(quote.urgency));t3.appendChild(tr)});
+      quotes.slice().reverse().forEach(function(quote){var tr=document.createElement('tr');tr.appendChild(cell(quote.id));tr.appendChild(cell(quote.material));tr.appendChild(cell(quote.estimate ? quote.estimate+' EUR' : 'â€”'));tr.appendChild(cell(quote.urgency));t3.appendChild(tr)});
     });
   }
   load();
@@ -144,7 +145,7 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
 </script>
 </div></main>
 <footer class="site"><div class="wrap">
-<p>admin · WebGL listo para servir online · <a href="index.html">Inicio</a> · <a href="accesibilidad.html">Accesibilidad</a> · <a href="privacidad.html">Privacidad</a></p>
+<p>admin Â· WebGL listo para servir online Â· <a href="index.html">Inicio</a> Â· <a href="accesibilidad.html">Accesibilidad</a> Â· <a href="privacidad.html">Privacidad</a></p>
 </div></footer>
 <script>
 (function(){
@@ -178,5 +179,8 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
   }catch(e){ console.log('WebGL init:', e.message); }
 })();
 </script>
-</body>
+
+  <section class="superpowers-mcp" style="margin:2rem 0;padding:1.5rem;border:1px solid #FF2B2B;border-radius:12px;background:#FF2B2B08;"><h2 style="margin:0 0 1rem 0;font-family:sans-serif;color:#FF2B2B;">Superpowers MCP - belentani-hub</h2><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0.8rem;"><div><strong>Google:</strong> Drive, Gmail, Gemini, Cloud, Colab</div><div><strong>GitHub:</strong> Codespaces, Repos, Issues, PRs</div><div><strong>IA:</strong> OpenAI ChatGPT, Gemini, Suno</div><div><strong>Social:</strong> LinkedIn, DistroKid</div></div><p style="margin-top:0.8rem;font-size:0.85rem;color:#666;">MCP Hub: belentani-hub | 24 herramientas | 4 grupos</p></section>
+  <script src="C:\Users\USER\workspace\repositorios\heyduck\legacy\omega-superpowers-client.js"></script>
+  </body>
 </html>
