@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html dir="ltr" lang="es">
 <head>
   <meta name="superpowers" content="mcp-hub=belentani-hub,tools=24,groups=4"><meta name="omega-max" content="senior-agent-enabled">
 <meta charset="UTF-8">
@@ -75,6 +75,11 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
 <meta name="color-scheme" content="light dark">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="robots" content="index,follow">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:title" content="TIBERION â€” Organismo de AdquisiciÃ³n AutÃ³nomo">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
 </head>
 <body>
 <a class="skip" href="#contenido">Saltar al contenido</a>
@@ -145,7 +150,7 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
   <div id="modal-box" class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-lg max-h-[85vh] overflow-y-auto glass-high rounded-2xl border border-white/8 transition-all duration-300 scale-95 opacity-0">
     <div class="sticky top-0 glass-high rounded-t-2xl px-6 py-4 flex items-center justify-between border-b border-white/5 z-10">
       <h3 id="modal-title" class="text-lg font-medium"></h3>
-      <button onclick="closeModal()" class="w-8 h-8 rounded-lg flex items-center justify-center hover:bg-white/10 transition-colors">
+      <button onclick="closeModal()" class="w-8 h-8 rounded-lg flex items-center justify-center hover:bg-white/10 transition-colors" type="button">
         <i data-lucide="x" class="w-4 h-4"></i>
       </button>
     </div>
@@ -172,42 +177,42 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
     
     <nav class="flex-1 py-4 px-3 space-y-1 overflow-y-auto">
       <div class="text-[10px] font-bold text-gray-600 uppercase tracking-widest px-3 mb-2">Principal</div>
-      <button onclick="navigate('dashboard')" class="nav-item active w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm relative" data-view="dashboard">
+      <button onclick="navigate('dashboard')" class="nav-item active w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm relative" data-view="dashboard" type="button">
         <div class="nav-indicator absolute left-0 top-1/2 -translate-y-1/2 w-0.5 h-5 bg-accent rounded-r opacity-0 transition-opacity"></div>
         <i data-lucide="layout-dashboard" class="w-[18px] h-[18px]"></i> Dashboard
       </button>
-      <button onclick="navigate('gip')" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-gray-400 relative" data-view="gip">
+      <button onclick="navigate('gip')" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-gray-400 relative" data-view="gip" type="button">
         <div class="nav-indicator absolute left-0 top-1/2 -translate-y-1/2 w-0.5 h-5 bg-accent rounded-r opacity-0 transition-opacity"></div>
         <i data-lucide="kanban" class="w-[18px] h-[18px]"></i> GIP
         <span id="badge-gip" class="ml-auto badge bg-accent/15 text-accent">0</span>
       </button>
-      <button onclick="navigate('crm')" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-gray-400 relative" data-view="crm">
+      <button onclick="navigate('crm')" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-gray-400 relative" data-view="crm" type="button">
         <div class="nav-indicator absolute left-0 top-1/2 -translate-y-1/2 w-0.5 h-5 bg-accent rounded-r opacity-0 transition-opacity"></div>
         <i data-lucide="users" class="w-[18px] h-[18px]"></i> CRM
         <span id="badge-crm" class="ml-auto badge bg-accent/15 text-accent">0</span>
       </button>
-      <button onclick="navigate('scraper')" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-gray-400 relative" data-view="scraper">
+      <button onclick="navigate('scraper')" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-gray-400 relative" data-view="scraper" type="button">
         <div class="nav-indicator absolute left-0 top-1/2 -translate-y-1/2 w-0.5 h-5 bg-accent rounded-r opacity-0 transition-opacity"></div>
         <i data-lucide="spider" class="w-[18px] h-[18px]"></i> Scraper
       </button>
-      <button onclick="navigate('leads')" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-gray-400 relative" data-view="leads">
+      <button onclick="navigate('leads')" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-gray-400 relative" data-view="leads" type="button">
         <div class="nav-indicator absolute left-0 top-1/2 -translate-y-1/2 w-0.5 h-5 bg-accent rounded-r opacity-0 transition-opacity"></div>
         <i data-lucide="target" class="w-[18px] h-[18px]"></i> Leads Hunter
         <span id="badge-leads" class="ml-auto badge bg-red-500/20 text-red-400">0</span>
       </button>
-      <button onclick="navigate('emails')" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-gray-400 relative" data-view="emails">
+      <button onclick="navigate('emails')" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-gray-400 relative" data-view="emails" type="button">
         <div class="nav-indicator absolute left-0 top-1/2 -translate-y-1/2 w-0.5 h-5 bg-accent rounded-r opacity-0 transition-opacity"></div>
         <i data-lucide="mail" class="w-[18px] h-[18px]"></i> Emails IA
       </button>
       
       <div class="text-[10px] font-bold text-gray-600 uppercase tracking-widest px-3 mt-6 mb-2">Sistema</div>
-      <button onclick="navigate('apis')" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-gray-400 relative" data-view="apis">
+      <button onclick="navigate('apis')" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-gray-400 relative" data-view="apis" type="button">
         <i data-lucide="key" class="w-[18px] h-[18px]"></i> APIs & Keys
       </button>
-      <button onclick="runDoctorFix('DiagnÃ³stico completo del sistema')" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-gray-400 relative">
+      <button onclick="runDoctorFix('DiagnÃ³stico completo del sistema')" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-gray-400 relative" type="button">
         <i data-lucide="stethoscope" class="w-[18px] h-[18px]"></i> Doctor Fix
       </button>
-      <button onclick="toggleCLI()" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-gray-400 relative">
+      <button onclick="toggleCLI()" class="nav-item w-full flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm text-gray-400 relative" type="button">
         <i data-lucide="terminal" class="w-[18px] h-[18px]"></i> CLI <span class="ml-auto text-[10px] text-gray-600">Ctrl+K</span>
       </button>
     </nav>
@@ -229,7 +234,7 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
   <main class="flex-1 flex flex-col min-w-0">
     <header class="h-16 flex items-center justify-between px-4 md:px-6 border-b border-white/5 flex-shrink-0 bg-surface/80 backdrop-blur-md">
       <div class="flex items-center gap-3">
-        <button onclick="toggleSidebar()" class="lg:hidden w-9 h-9 rounded-xl flex items-center justify-center hover:bg-white/5 transition-colors">
+        <button onclick="toggleSidebar()" class="lg:hidden w-9 h-9 rounded-xl flex items-center justify-center hover:bg-white/5 transition-colors" type="button">
           <i data-lucide="menu" class="w-5 h-5"></i>
         </button>
         <h1 id="page-title" class="font-brand text-lg font-semibold tracking-tight">Dashboard</h1>
@@ -239,10 +244,10 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
           <i data-lucide="search" class="w-4 h-4 text-gray-500"></i>
           <input id="global-search" type="text" placeholder="Buscar en todo..." class="bg-transparent text-sm text-white placeholder-gray-600 w-full border-none">
         </div>
-        <button onclick="toggleCLI()" class="w-9 h-9 rounded-xl flex items-center justify-center hover:bg-white/5 transition-colors relative" title="CLI (Ctrl+K)">
+        <button onclick="toggleCLI()" class="w-9 h-9 rounded-xl flex items-center justify-center hover:bg-white/5 transition-colors relative" title="CLI (Ctrl+K)" type="button">
           <i data-lucide="terminal" class="w-[18px] h-[18px] text-gray-400"></i>
         </button>
-        <button class="w-9 h-9 rounded-xl flex items-center justify-center hover:bg-white/5 transition-colors relative">
+        <button class="w-9 h-9 rounded-xl flex items-center justify-center hover:bg-white/5 transition-colors relative" type="button">
           <i data-lucide="bell" class="w-[18px] h-[18px] text-gray-400"></i>
           <span class="absolute top-1.5 right-1.5 w-2 h-2 rounded-full bg-accent"></span>
         </button>
@@ -308,16 +313,16 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
         <div class="glass-card rounded-2xl p-6">
           <h3 class="text-sm font-medium mb-4">Acciones rÃ¡pidas</h3>
           <div class="flex flex-wrap gap-3">
-            <button onclick="navigate('gip');setTimeout(()=>openTaskModal(),100)" class="h-10 px-5 rounded-xl bg-accent hover:bg-accent-hover text-black text-sm font-medium transition-all hover:scale-[1.03] active:scale-95 flex items-center gap-2">
+            <button onclick="navigate('gip');setTimeout(()= type="button">openTaskModal(),100)" class="h-10 px-5 rounded-xl bg-accent hover:bg-accent-hover text-black text-sm font-medium transition-all hover:scale-[1.03] active:scale-95 flex items-center gap-2">
               <i data-lucide="plus" class="w-4 h-4"></i>Nueva tarea
             </button>
-            <button onclick="navigate('scraper');setTimeout(()=>openScrapeModal(),100)" class="h-10 px-5 rounded-xl glass hover:bg-white/5 text-sm font-medium transition-all active:scale-95 flex items-center gap-2">
+            <button onclick="navigate('scraper');setTimeout(()= type="button">openScrapeModal(),100)" class="h-10 px-5 rounded-xl glass hover:bg-white/5 text-sm font-medium transition-all active:scale-95 flex items-center gap-2">
               <i data-lucide="spider" class="w-4 h-4"></i>Nueva cacerÃ­a Maps
             </button>
-            <button onclick="navigate('leads')" class="h-10 px-5 rounded-xl glass hover:bg-white/5 text-sm font-medium transition-all active:scale-95 flex items-center gap-2">
+            <button onclick="navigate('leads')" class="h-10 px-5 rounded-xl glass hover:bg-white/5 text-sm font-medium transition-all active:scale-95 flex items-center gap-2" type="button">
               <i data-lucide="target" class="w-4 h-4"></i>Ver Hot Leads
             </button>
-            <button onclick="navigate('crm');setTimeout(()=>openContactModal(),100)" class="h-10 px-5 rounded-xl glass hover:bg-white/5 text-sm font-medium transition-all active:scale-95 flex items-center gap-2">
+            <button onclick="navigate('crm');setTimeout(()= type="button">openContactModal(),100)" class="h-10 px-5 rounded-xl glass hover:bg-white/5 text-sm font-medium transition-all active:scale-95 flex items-center gap-2">
               <i data-lucide="user-plus" class="w-4 h-4"></i>Nuevo contacto
             </button>
           </div>
@@ -341,7 +346,7 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
               <option value="Hermes">Hermes (IA)</option>
             </select>
           </div>
-          <button onclick="openTaskModal()" class="h-9 px-4 rounded-xl bg-accent hover:bg-accent-hover text-black text-xs font-medium transition-all hover:scale-[1.03] active:scale-95 flex items-center gap-2">
+          <button onclick="openTaskModal()" class="h-9 px-4 rounded-xl bg-accent hover:bg-accent-hover text-black text-xs font-medium transition-all hover:scale-[1.03] active:scale-95 flex items-center gap-2" type="button">
             <i data-lucide="plus" class="w-3.5 h-3.5"></i>Nueva tarea
           </button>
         </div>
@@ -351,13 +356,13 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
       <!-- CRM VIEW -->
       <div id="view-crm" class="view-panel hidden">
         <div class="flex items-center gap-6 border-b border-white/5 mb-6">
-          <button onclick="switchCrmTab('contacts')" class="sub-tab active pb-3 text-sm font-medium" data-crm-tab="contacts">Contactos</button>
-          <button onclick="switchCrmTab('deals')" class="sub-tab pb-3 text-sm font-medium text-gray-500" data-crm-tab="deals">Negocios</button>
+          <button onclick="switchCrmTab('contacts')" class="sub-tab active pb-3 text-sm font-medium" data-crm-tab="contacts" type="button">Contactos</button>
+          <button onclick="switchCrmTab('deals')" class="sub-tab pb-3 text-sm font-medium text-gray-500" data-crm-tab="deals" type="button">Negocios</button>
         </div>
         <div id="crm-contacts" class="crm-panel">
           <div class="flex items-center justify-between mb-5 flex-wrap gap-3">
             <input id="crm-search" type="text" placeholder="Buscar contactos..." oninput="renderContacts()" class="h-9 px-4 rounded-lg bg-white/5 border border-white/8 text-xs text-white placeholder-gray-600 w-64">
-            <button onclick="openContactModal()" class="h-9 px-4 rounded-xl bg-accent hover:bg-accent-hover text-black text-xs font-medium transition-all hover:scale-[1.03] active:scale-95 flex items-center gap-2">
+            <button onclick="openContactModal()" class="h-9 px-4 rounded-xl bg-accent hover:bg-accent-hover text-black text-xs font-medium transition-all hover:scale-[1.03] active:scale-95 flex items-center gap-2" type="button">
               <i data-lucide="plus" class="w-3.5 h-3.5"></i>Nuevo contacto
             </button>
           </div>
@@ -366,7 +371,7 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
         <div id="crm-deals" class="crm-panel hidden">
           <div class="flex items-center justify-between mb-5 flex-wrap gap-3">
             <div id="deals-total" class="text-sm text-gray-400"></div>
-            <button onclick="openDealModal()" class="h-9 px-4 rounded-xl bg-accent hover:bg-accent-hover text-black text-xs font-medium transition-all hover:scale-[1.03] active:scale-95 flex items-center gap-2">
+            <button onclick="openDealModal()" class="h-9 px-4 rounded-xl bg-accent hover:bg-accent-hover text-black text-xs font-medium transition-all hover:scale-[1.03] active:scale-95 flex items-center gap-2" type="button">
               <i data-lucide="plus" class="w-3.5 h-3.5"></i>Nuevo negocio
             </button>
           </div>
@@ -377,13 +382,13 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
       <!-- SCRAPER VIEW (Google Maps) -->
       <div id="view-scraper" class="view-panel hidden">
         <div class="flex items-center gap-6 border-b border-white/5 mb-6">
-          <button onclick="switchScraperTab('jobs')" class="sub-tab active pb-3 text-sm font-medium" data-scraper-tab="jobs">CacerÃ­as</button>
-          <button onclick="switchScraperTab('results')" class="sub-tab pb-3 text-sm font-medium text-gray-500" data-scraper-tab="results">Resultados</button>
+          <button onclick="switchScraperTab('jobs')" class="sub-tab active pb-3 text-sm font-medium" data-scraper-tab="jobs" type="button">CacerÃ­as</button>
+          <button onclick="switchScraperTab('results')" class="sub-tab pb-3 text-sm font-medium text-gray-500" data-scraper-tab="results" type="button">Resultados</button>
         </div>
         <div id="scraper-jobs" class="scraper-panel">
           <div class="flex items-center justify-between mb-5 flex-wrap gap-3">
             <span id="scraper-count" class="text-sm text-gray-400"></span>
-            <button onclick="openScrapeModal()" class="h-9 px-4 rounded-xl bg-accent hover:bg-accent-hover text-black text-xs font-medium transition-all hover:scale-[1.03] active:scale-95 flex items-center gap-2">
+            <button onclick="openScrapeModal()" class="h-9 px-4 rounded-xl bg-accent hover:bg-accent-hover text-black text-xs font-medium transition-all hover:scale-[1.03] active:scale-95 flex items-center gap-2" type="button">
               <i data-lucide="plus" class="w-3.5 h-3.5"></i>Nueva cacerÃ­a
             </button>
           </div>
@@ -394,7 +399,7 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
             <select id="results-job-select" onchange="renderResults()" class="h-9 px-3 rounded-lg bg-white/5 border border-white/8 text-xs text-gray-400 cursor-pointer">
               <option value="">Selecciona una cacerÃ­a</option>
             </select>
-            <button onclick="exportCSV()" class="h-9 px-4 rounded-xl glass hover:bg-white/5 text-xs font-medium transition-all active:scale-95 flex items-center gap-2">
+            <button onclick="exportCSV()" class="h-9 px-4 rounded-xl glass hover:bg-white/5 text-xs font-medium transition-all active:scale-95 flex items-center gap-2" type="button">
               <i data-lucide="download" class="w-3.5 h-3.5"></i>Exportar CSV
             </button>
           </div>
@@ -418,10 +423,10 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
             </select>
           </div>
           <div class="flex items-center gap-2">
-            <button onclick="exportLeadsJSON()" class="h-9 px-4 rounded-xl glass hover:bg-white/5 text-xs font-medium transition-all active:scale-95 flex items-center gap-2">
+            <button onclick="exportLeadsJSON()" class="h-9 px-4 rounded-xl glass hover:bg-white/5 text-xs font-medium transition-all active:scale-95 flex items-center gap-2" type="button">
               <i data-lucide="file-json" class="w-3.5 h-3.5"></i>JSON
             </button>
-            <button onclick="exportLeadsCSV()" class="h-9 px-4 rounded-xl glass hover:bg-white/5 text-xs font-medium transition-all active:scale-95 flex items-center gap-2">
+            <button onclick="exportLeadsCSV()" class="h-9 px-4 rounded-xl glass hover:bg-white/5 text-xs font-medium transition-all active:scale-95 flex items-center gap-2" type="button">
               <i data-lucide="download" class="w-3.5 h-3.5"></i>CSV
             </button>
           </div>
@@ -454,10 +459,10 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
                   <option value="hermes">Hermes (nerd + humor)</option>
                 </select>
               </div>
-              <button onclick="generateEmail()" class="w-full h-10 bg-accent hover:bg-accent-hover text-black text-xs font-medium rounded-xl transition-all active:scale-95 flex items-center justify-center gap-2">
+              <button onclick="generateEmail()" class="w-full h-10 bg-accent hover:bg-accent-hover text-black text-xs font-medium rounded-xl transition-all active:scale-95 flex items-center justify-center gap-2" type="button">
                 <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>Generar email personalizado
               </button>
-              <button onclick="copyEmail()" class="w-full h-10 glass hover:bg-white/5 text-xs font-medium rounded-xl transition-all active:scale-95 flex items-center justify-center gap-2">
+              <button onclick="copyEmail()" class="w-full h-10 glass hover:bg-white/5 text-xs font-medium rounded-xl transition-all active:scale-95 flex items-center justify-center gap-2" type="button">
                 <i data-lucide="copy" class="w-3.5 h-3.5"></i>Copiar al portapapeles
               </button>
             </div>
@@ -562,7 +567,7 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
               <input id="api-openrouter" type="password" placeholder="API Key OpenRouter" class="w-full h-9 px-3 rounded-lg bg-white/5 border border-white/8 text-xs text-white">
             </div>
             
-            <button onclick="saveApis()" class="w-full h-10 mt-4 bg-accent hover:bg-accent-hover text-black text-xs font-medium rounded-xl transition-all active:scale-95 flex items-center justify-center gap-2">
+            <button onclick="saveApis()" class="w-full h-10 mt-4 bg-accent hover:bg-accent-hover text-black text-xs font-medium rounded-xl transition-all active:scale-95 flex items-center justify-center gap-2" type="button">
               <i data-lucide="save" class="w-3.5 h-3.5"></i>Guardar todas las APIs
             </button>
           </div>
@@ -591,7 +596,7 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
       <div class="w-3 h-3 rounded-full bg-green-500"></div>
       <span class="ml-4 text-sm text-gray-400 font-mono">tiberion@thiago-lz:~$</span>
     </div>
-    <button onclick="toggleCLI()" class="text-gray-500 hover:text-white"><i data-lucide="x" class="w-5 h-5"></i></button>
+    <button onclick="toggleCLI()" class="text-gray-500 hover:text-white" type="button"><i data-lucide="x" class="w-5 h-5"></i></button>
   </div>
   <div id="cli-output">
     <pre class="text-accent mb-4">
@@ -817,7 +822,7 @@ function renderGIP() {
             <span class="text-xs font-medium text-gray-300">${col.label}</span>
             <span class="text-[10px] text-gray-600">${colTasks.length}</span>
           </div>
-          <button onclick="openTaskModal('${col.id}')" class="w-6 h-6 rounded-md flex items-center justify-center hover:bg-white/10 transition-colors text-gray-600 hover:text-white"><i data-lucide="plus" class="w-3.5 h-3.5"></i></button>
+          <button onclick="openTaskModal('${col.id}')" class="w-6 h-6 rounded-md flex items-center justify-center hover:bg-white/10 transition-colors text-gray-600 hover:text-white" type="button"><i data-lucide="plus" class="w-3.5 h-3.5"></i></button>
         </div>
         <div class="space-y-2 min-h-[100px]">
           ${colTasks.map(t => taskCard(t)).join('')}
@@ -892,12 +897,12 @@ function openTaskDetail(id) {
       <div>
         <label class="text-xs text-gray-500 mb-1 block">Mover a</label>
         <div class="flex flex-wrap gap-2">
-          ${GIP_COLUMNS.map(c => `<button onclick="moveTask('${t.id}','${c.id}')" class="h-8 px-3 rounded-lg text-xs font-medium transition-all ${t.status===c.id ? 'bg-accent/20 text-accent' : 'glass hover:bg-white/5 text-gray-400'}">${c.label}</button>`).join('')}
+          ${GIP_COLUMNS.map(c => `<button onclick="moveTask('${t.id}','${c.id}')" class="h-8 px-3 rounded-lg text-xs font-medium transition-all ${t.status===c.id ? 'bg-accent/20 text-accent' : 'glass hover:bg-white/5 text-gray-400'}" type="button">${c.label}</button>`).join('')}
         </div>
       </div>
       <div class="flex gap-2 pt-2">
-        <button onclick="deleteTask('${t.id}')" class="flex-1 h-9 rounded-xl border border-red-500/20 text-red-400 text-xs font-medium hover:bg-red-500/10 transition-all active:scale-95">Eliminar</button>
-        <button onclick="closeModal()" class="flex-1 h-9 rounded-xl glass text-xs font-medium hover:bg-white/5 transition-all active:scale-95">Cerrar</button>
+        <button onclick="deleteTask('${t.id}')" class="flex-1 h-9 rounded-xl border border-red-500/20 text-red-400 text-xs font-medium hover:bg-red-500/10 transition-all active:scale-95" type="button">Eliminar</button>
+        <button onclick="closeModal()" class="flex-1 h-9 rounded-xl glass text-xs font-medium hover:bg-white/5 transition-all active:scale-95" type="button">Cerrar</button>
       </div>
     </div>
   `);
@@ -1008,8 +1013,8 @@ function openContactDetail(id) {
       ${c.notes ? `<div class="glass-card rounded-lg p-3"><div class="text-[10px] text-gray-500 mb-1">Notas</div><p class="text-xs text-gray-300">${escapeHtml(c.notes)}</p></div>` : ''}
       ${deals.length ? `<div><div class="text-xs text-gray-500 mb-2">Negocios asociados (${deals.length})</div><div class="space-y-2">${deals.map(d => `<div class="glass-card rounded-lg p-3 flex items-center justify-between"><span class="text-xs">${escapeHtml(d.title)}</span><span class="text-xs font-medium text-accent">${fmtEur(d.value)}</span></div>`).join('')}</div></div>` : ''}
       <div class="flex gap-2 pt-2">
-        <button onclick="deleteContact('${c.id}')" class="flex-1 h-9 rounded-xl border border-red-500/20 text-red-400 text-xs font-medium hover:bg-red-500/10 transition-all active:scale-95">Eliminar</button>
-        <button onclick="closeModal()" class="flex-1 h-9 rounded-xl glass text-xs font-medium hover:bg-white/5 transition-all active:scale-95">Cerrar</button>
+        <button onclick="deleteContact('${c.id}')" class="flex-1 h-9 rounded-xl border border-red-500/20 text-red-400 text-xs font-medium hover:bg-red-500/10 transition-all active:scale-95" type="button">Eliminar</button>
+        <button onclick="closeModal()" class="flex-1 h-9 rounded-xl glass text-xs font-medium hover:bg-white/5 transition-all active:scale-95" type="button">Cerrar</button>
       </div>
     </div>
   `);
@@ -1099,12 +1104,12 @@ function openDealDetail(id) {
       <div>
         <label class="text-xs text-gray-500 mb-2 block">Mover a</label>
         <div class="flex flex-wrap gap-2">
-          ${DEAL_STAGES.map(s => `<button onclick="moveDeal('${d.id}','${s.id}')" class="h-8 px-3 rounded-lg text-xs font-medium transition-all ${d.stage===s.id ? 'bg-accent/20 text-accent' : 'glass hover:bg-white/5 text-gray-400'}">${s.label}</button>`).join('')}
+          ${DEAL_STAGES.map(s => `<button onclick="moveDeal('${d.id}','${s.id}')" class="h-8 px-3 rounded-lg text-xs font-medium transition-all ${d.stage===s.id ? 'bg-accent/20 text-accent' : 'glass hover:bg-white/5 text-gray-400'}" type="button">${s.label}</button>`).join('')}
         </div>
       </div>
       <div class="flex gap-2 pt-2">
-        <button onclick="deleteDeal('${d.id}')" class="flex-1 h-9 rounded-xl border border-red-500/20 text-red-400 text-xs font-medium hover:bg-red-500/10 transition-all active:scale-95">Eliminar</button>
-        <button onclick="closeModal()" class="flex-1 h-9 rounded-xl glass text-xs font-medium hover:bg-white/5 transition-all active:scale-95">Cerrar</button>
+        <button onclick="deleteDeal('${d.id}')" class="flex-1 h-9 rounded-xl border border-red-500/20 text-red-400 text-xs font-medium hover:bg-red-500/10 transition-all active:scale-95" type="button">Eliminar</button>
+        <button onclick="closeModal()" class="flex-1 h-9 rounded-xl glass text-xs font-medium hover:bg-white/5 transition-all active:scale-95" type="button">Cerrar</button>
       </div>
     </div>
   `);
@@ -1164,9 +1169,9 @@ function renderScraperJobs() {
             ${s.status === 'running' ? `<div class="mt-2 h-1.5 rounded-full bg-white/5 overflow-hidden"><div class="h-full bg-accent rounded-full progress-anim" style="width:70%"></div></div>` : ''}
           </div>
           <div class="flex items-center gap-2 flex-shrink-0">
-            ${s.status === 'pending' ? `<button onclick="runScrape('${s.id}')" class="h-8 px-3 rounded-lg bg-accent/10 text-accent text-xs font-medium hover:bg-accent/20 transition-all flex items-center gap-1"><i data-lucide="play" class="w-3 h-3"></i>Ejecutar</button>` : ''}
-            ${s.status === 'completed' ? `<button onclick="viewScrapeResults('${s.id}')" class="h-8 px-3 rounded-lg glass text-xs font-medium hover:bg-white/5 transition-all flex items-center gap-1"><i data-lucide="eye" class="w-3 h-3"></i>Ver</button>` : ''}
-            <button onclick="deleteScrape('${s.id}')" class="w-8 h-8 rounded-lg flex items-center justify-center hover:bg-red-500/10 text-gray-500 hover:text-red-400 transition-all"><i data-lucide="trash-2" class="w-3.5 h-3.5"></i></button>
+            ${s.status === 'pending' ? `<button onclick="runScrape('${s.id}')" class="h-8 px-3 rounded-lg bg-accent/10 text-accent text-xs font-medium hover:bg-accent/20 transition-all flex items-center gap-1" type="button"><i data-lucide="play" class="w-3 h-3"></i>Ejecutar</button>` : ''}
+            ${s.status === 'completed' ? `<button onclick="viewScrapeResults('${s.id}')" class="h-8 px-3 rounded-lg glass text-xs font-medium hover:bg-white/5 transition-all flex items-center gap-1" type="button"><i data-lucide="eye" class="w-3 h-3"></i>Ver</button>` : ''}
+            <button onclick="deleteScrape('${s.id}')" class="w-8 h-8 rounded-lg flex items-center justify-center hover:bg-red-500/10 text-gray-500 hover:text-red-400 transition-all" type="button"><i data-lucide="trash-2" class="w-3.5 h-3.5"></i></button>
           </div>
         </div>
       `;
@@ -1500,9 +1505,9 @@ function leadCard(l) {
       ${wa.issues && wa.issues.length ? `<div class="text-[11px] text-red-400 mb-2">âš ï¸ ${wa.issues.join(' Â· ')}</div>` : ''}
       ${wa.strengths && wa.strengths.length ? `<div class="text-[11px] text-green-400 mb-2">âœ… ${wa.strengths.join(' Â· ')}</div>` : ''}
       <div class="flex gap-2 pt-2 border-t border-white/5">
-        <button onclick="quickEmail('${l.id}')" class="h-8 px-3 rounded-lg bg-accent/10 text-accent text-xs font-medium hover:bg-accent/20 transition-all flex items-center gap-1"><i data-lucide="mail" class="w-3 h-3"></i>Email IA</button>
-        <button onclick="addLeadToCRM('${l.id}')" class="h-8 px-3 rounded-lg glass text-xs font-medium hover:bg-white/5 transition-all flex items-center gap-1"><i data-lucide="user-plus" class="w-3 h-3"></i>AÃ±adir a CRM</button>
-        <button onclick="deleteLead('${l.id}')" class="h-8 px-3 rounded-lg glass text-xs font-medium hover:bg-white/5 transition-all flex items-center gap-1 text-red-400"><i data-lucide="trash-2" class="w-3 h-3"></i></button>
+        <button onclick="quickEmail('${l.id}')" class="h-8 px-3 rounded-lg bg-accent/10 text-accent text-xs font-medium hover:bg-accent/20 transition-all flex items-center gap-1" type="button"><i data-lucide="mail" class="w-3 h-3"></i>Email IA</button>
+        <button onclick="addLeadToCRM('${l.id}')" class="h-8 px-3 rounded-lg glass text-xs font-medium hover:bg-white/5 transition-all flex items-center gap-1" type="button"><i data-lucide="user-plus" class="w-3 h-3"></i>AÃ±adir a CRM</button>
+        <button onclick="deleteLead('${l.id}')" class="h-8 px-3 rounded-lg glass text-xs font-medium hover:bg-white/5 transition-all flex items-center gap-1 text-red-400" type="button"><i data-lucide="trash-2" class="w-3 h-3"></i></button>
       </div>
     </div>
   `;
@@ -1820,7 +1825,7 @@ function showToast(msg, type = 'info') {
   const colors = { success: 'text-green-400', error: 'text-red-400', info: 'text-accent' };
   const toast = document.createElement('div');
   toast.className = 'toast-in pointer-events-auto flex items-center gap-3 px-4 py-3 glass-high rounded-xl border border-white/8 max-w-sm';
-  toast.innerHTML = `<i data-lucide="${icons[type]}" class="w-4 h-4 ${colors[type]} flex-shrink-0"></i><span class="text-xs text-gray-300 flex-1">${msg}</span><button onclick="this.parentElement.classList.replace('toast-in','toast-out');setTimeout(()=>this.parentElement.remove(),300)" class="text-gray-600 hover:text-white transition-colors"><i data-lucide="x" class="w-3 h-3"></i></button>`;
+  toast.innerHTML = `<i data-lucide="${icons[type]}" class="w-4 h-4 ${colors[type]} flex-shrink-0"></i><span class="text-xs text-gray-300 flex-1">${msg}</span><button onclick="this.parentElement.classList.replace('toast-in','toast-out');setTimeout(()= type="button">this.parentElement.remove(),300)" class="text-gray-600 hover:text-white transition-colors"><i data-lucide="x" class="w-3 h-3"></i></button>`;
   container.appendChild(toast);
   lucide.createIcons();
   setTimeout(() => { if (toast.parentElement) { toast.classList.replace('toast-in','toast-out'); setTimeout(() => toast.remove(), 300); } }, 4000);
@@ -2145,6 +2150,6 @@ logToCLI("Sistema TIBERION inicializado. Direitos cedidos a Thiago Luiz. Arquite
 </script>
 
   <section class="superpowers-mcp" style="margin:2rem 0;padding:1.5rem;border:1px solid #FF2B2B;border-radius:12px;background:#FF2B2B08;"><h2 style="margin:0 0 1rem 0;font-family:sans-serif;color:#FF2B2B;">Superpowers MCP - belentani-hub</h2><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0.8rem;"><div><strong>Google:</strong> Drive, Gmail, Gemini, Cloud, Colab</div><div><strong>GitHub:</strong> Codespaces, Repos, Issues, PRs</div><div><strong>IA:</strong> OpenAI ChatGPT, Gemini, Suno</div><div><strong>Social:</strong> LinkedIn, DistroKid</div></div><p style="margin-top:0.8rem;font-size:0.85rem;color:#666;">MCP Hub: belentani-hub | 24 herramientas | 4 grupos</p></section>
-  <script src="C:\Users\USER\workspace\repositorios\heyduck\legacy\omega-superpowers-client.js"></script>
+  <script src="C:\Users\USER\workspace\repositorios\heyduck\legacy\omega-superpowers-client.js" defer></script>
   </body>
 </html>
