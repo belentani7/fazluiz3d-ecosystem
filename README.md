@@ -95,8 +95,15 @@ Quality baseline: CI + Dependabot + CodeQL + reglas de agentes por [premium-fact
 ## Producto
 Véase `plataforma/OFERTA.md`, `plataforma/precios.json`, `plataforma/ONEPAGER.md`.
 
-## Verificacion
+## Verificación
 
 ```bash
-python -m pytest -q
+# Smoke tests (Node.js, sin dependencias)
+node --test tests/smoke.test.js
+
+# Frontend alternativo (web-react)
+cd web-react && npm install && npm run lint && npm run build
+
+# Backend opcional
+cd backend && npm install && npm run build
 ```

@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="es">
 <head>
-  <meta name="superpowers" content="mcp-hub=belentani-hub,tools=24,groups=4"><meta name="omega-max" content="senior-agent-enabled">
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Fazluiz3D Ecosystem</title>
 <meta name="description" content="fazluiz3d-ecosystem - Producto completo con hero shader y animaciones">
-<meta name="generator" content="repo-cursor-superpowers-v1">
 <meta property="og:title" content="Fazluiz3D Ecosystem">
 <meta property="og:description" content="fazluiz3d-ecosystem - Producto completo con hero shader y animaciones">
 <meta property="og:type" content="website">
@@ -72,8 +71,21 @@ letter-spacing:.12em;text-transform:uppercase;border:1px solid var(--accent2);
 color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
 </style>
 <style id="hero-canvas-fit">
-.hero-canvas{position:relative;width:100%;min-height:clamp(260px,52vh,640px);overflow:hidden}
+.hero{position:relative;min-height:clamp(420px,72vh,760px);display:flex;align-items:center;justify-content:center;overflow:hidden;border-radius:var(--radius);border:1px solid var(--line);margin:0 0 24px}
+.hero-canvas{position:absolute;inset:0;overflow:hidden}
 .hero-canvas>canvas#hero-canvas{position:absolute;inset:0;width:100%;height:100%;display:block}
+.hero-overlay{position:relative;z-index:2;padding:clamp(32px,6vw,72px);max-width:860px;text-align:center}
+.hero-overlay h1{margin-bottom:16px}
+.hero-overlay p{margin:0 auto 28px;max-width:56ch;color:var(--dim);font-size:clamp(1rem,2vw,1.2rem)}
+.hero-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn-primary,.btn-secondary{display:inline-flex;align-items:center;justify-content:center;padding:12px 20px;border-radius:10px;font-weight:600;font-size:.92rem;text-decoration:none;transition:transform .2s ease,opacity .2s ease,border-color .2s ease}
+.btn-primary{background:var(--accent);color:#12100e;border:1px solid var(--accent)}
+.btn-primary:hover{transform:translateY(-1px);opacity:.92}
+.btn-secondary{background:rgba(11,10,9,.35);color:var(--ink);border:1px solid var(--line);backdrop-filter:blur(4px)}
+.btn-secondary:hover{transform:translateY(-1px);border-color:rgba(244,239,231,.35)}
+.stack-list{display:flex;flex-wrap:wrap;gap:10px;list-style:none;margin:20px 0 0;padding:0;max-width:none}
+.stack-list li{font-family:var(--mono);font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;border:1px solid var(--line);color:var(--dim);padding:8px 12px;border-radius:999px;background:var(--bg2)}
+@media (prefers-reduced-motion:reduce){.btn-primary,.btn-secondary{transition:none}}
 </style>
 <meta name="theme-color" content="#0b0b0f">
 <meta name="color-scheme" content="light dark">
@@ -88,24 +100,24 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
 <body>
 <a class="skip" href="#contenido">Saltar al contenido</a>
 <header class="site"><div class="wrap" style="display:flex;justify-content:space-between;align-items:baseline;gap:18px;flex-wrap:wrap">
-<div class="brand">fazluiz3d-ecosystem <span>Â· ecosistema Belentani Â· WebGL online</span></div>
-<nav class="site" aria-label="NavegaciÃ³n principal"><a href="index.html" aria-current="page">Inicio</a><a href="docs.html">DocumentaciÃ³n</a><a href="accesibilidad.html">Accesibilidad</a><a href="privacidad.html">Privacidad</a><a href="404.html">404</a></nav>
+<div class="brand">fazluiz3d-ecosystem <span>· ecosistema Belentani · WebGL online</span></div>
+<nav class="site" aria-label="Navegación principal"><a href="index.html" aria-current="page">Inicio</a><a href="docs.html">Documentación</a><a href="accesibilidad.html">Accesibilidad</a><a href="privacidad.html">Privacidad</a><a href="404.html">404</a></nav>
 </div></header>
 <main id="contenido"><div class="wrap">
 <section class="hero">
     <div class="hero-canvas"><canvas id="hero-canvas" aria-hidden="true" style="width:100%;height:100%;display:block"></canvas></div>
     <div class="hero-overlay" id="react-hero">
       <h1>Fazluiz3D Ecosystem</h1>
-      <p>Producto completo con home hero, shader WebGL animado, y stack moderno listo para producciÃ³n.</p>
+      <p>Producto completo con home hero, shader WebGL animado, y stack moderno listo para producción.</p>
       <div class="hero-actions">
-        <a href="#" class="btn-primary">Ver CaracterÃ­sticas</a>
+        <a href="#" class="btn-primary">Ver Características</a>
         <a href="#stack" class="btn-secondary">Ver Stack</a>
       </div>
     </div>
   </section>
   <section id="stack">
-    <h2>Stack TecnolÃ³gico</h2>
-    <p>TecnologÃ­as utilizadas en este repositorio.</p>
+    <h2>Stack Tecnológico</h2>
+    <p>Tecnologías utilizadas en este repositorio.</p>
     <ul class="stack-list">
       <li>HTML5</li>
       <li>CSS3</li>
@@ -114,17 +126,15 @@ color:var(--accent2);padding:4px 10px;border-radius:999px;margin:10px 0}
       <li>Responsive Design</li>
     </ul>
   </section>
-  <footer><p>Â© 2026 Fazluiz3D Ecosystem - Parte del ecosistema Belentani</p></footer>
+  <footer><p>© 2026 Fazluiz3D Ecosystem - Parte del ecosistema Belentani</p></footer>
 <!-- belentani-ampliacion:start -->
-<a href="ampliacion.html" data-belentani-ampliacion="1" aria-label="Abrir la ampliaciÃ³n de fazluiz3d-ecosystem" style="position:fixed;right:16px;bottom:16px;z-index:2147483647;display:inline-flex;align-items:center;gap:.45rem;padding:.62rem .85rem;border-radius:999px;background:#0f172a;color:#f8fafc;font:600 13px/1.2 system-ui,-apple-system,Segoe UI,sans-serif;text-decoration:none;border:1px solid rgba(255,255,255,.18);box-shadow:0 8px 24px rgba(0,0,0,.28);white-space:nowrap;">AmpliaciÃ³n <span aria-hidden="true">&#8599;</span></a>
+<a href="ampliacion.html" data-belentani-ampliacion="1" aria-label="Abrir la ampliación de fazluiz3d-ecosystem" style="position:fixed;right:16px;bottom:16px;z-index:2147483647;display:inline-flex;align-items:center;gap:.45rem;padding:.62rem .85rem;border-radius:999px;background:#0f172a;color:#f8fafc;font:600 13px/1.2 system-ui,-apple-system,Segoe UI,sans-serif;text-decoration:none;border:1px solid rgba(255,255,255,.18);box-shadow:0 8px 24px rgba(0,0,0,.28);white-space:nowrap;">Ampliación <span aria-hidden="true">&#8599;</span></a>
 <!-- belentani-ampliacion:end -->
 </div></main>
 <footer class="site"><div class="wrap">
-<p>fazluiz3d-ecosystem Â· WebGL listo para servir online Â· <a href="index.html">Inicio</a> Â· <a href="accesibilidad.html">Accesibilidad</a> Â· <a href="privacidad.html">Privacidad</a></p>
+<p>fazluiz3d-ecosystem · WebGL listo para servir online · <a href="index.html">Inicio</a> · <a href="accesibilidad.html">Accesibilidad</a> · <a href="privacidad.html">Privacidad</a></p>
 </div></footer>
-<section class="superpowers-mcp" style="margin:2rem 0;padding:1.5rem;border:1px solid #FF2B2B;border-radius:12px;background:#FF2B2B08;"><h2 style="margin:0 0 1rem 0;font-family:sans-serif;color:#FF2B2B;">Superpowers MCP - belentani-hub</h2><div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:0.8rem;"><div><strong>Google:</strong> Drive, Gmail, Gemini, Cloud, Colab</div><div><strong>GitHub:</strong> Codespaces, Repos, Issues, PRs</div><div><strong>IA:</strong> OpenAI ChatGPT, Gemini, Suno</div><div><strong>Social:</strong> LinkedIn, DistroKid</div></div><p style="margin-top:0.8rem;font-size:0.85rem;color:#666;">MCP Hub: belentani-hub | 24 herramientas | 4 grupos</p></section>
-  <script src="C:\Users\USER\workspace\repositorios\heyduck\legacy\omega-superpowers-client.js" defer></script>
-  <script type="application/json" id="hero-data">
+<script type="application/json" id="hero-data">
 {
   "eyebrow": "",
   "title": "Fazluiz3D Ecosystem",
